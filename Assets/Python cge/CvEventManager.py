@@ -1,10 +1,10 @@
-## Sid Meier's Civilization 4'
+## Sid Meier's Civilization 4
 ## Copyright Firaxis Games 2006
-## 
+##
 ## CvEventManager
 ## This class is passed an argsList from CvAppInterface.onEvent
 ## The argsList can contain anything from mouse location to key info
-## The EVENTLIST that are being notified can be found 
+## The EVENTLIST that are being notified can be found
 
 
 from CvPythonExtensions import *
@@ -22,9 +22,19 @@ import CvAdvisorUtils
 import CvTechChooser
 import CvGameUtils
 
-#統合MOD用
+# Civ IV Gameplay Enhancements
+import CityInfoPanelPS
+import CvConfigParser
+import UnitPlacement
+
+# Playability Utilities
+import PlayerUtils
+import CityUtils
+
+#統合MOD用-FfH2より移植
 import CustomFunctions
 
+import UserPrefs
 ##### <written by F> #####
 import TohoUnitList
 import Functions
@@ -43,19 +53,25 @@ localText = CyTranslator()
 PyPlayer = PyHelpers.PyPlayer
 PyInfo = PyHelpers.PyInfo
 
+bCityPlacementMode = False
+bCityGrid = False
+
+CFG_EnabledCitizensAutomated = True
 
 # globals
 ###################################################
 class CvEventManager:
 	def __init__(self):
+		global CFG_EnabledCitizensAutomated
+
 		#################### ON EVENT MAP ######################
 		#print "EVENTMANAGER INIT"
-				
+
 		self.bCtrl = False
 		self.bShift = False
 		self.bAlt = False
 		self.bAllowCheats = False
-		
+
 		# OnEvent Enums
 		self.EventLButtonDown=1
 		self.EventLcButtonDblClick=2
@@ -64,7 +80,7 @@ class CvEventManager:
 		self.EventForward=5
 		self.EventKeyDown=6
 		self.EventKeyUp=7
-	
+
 		self.__LOG_MOVEMENT = 0
 		self.__LOG_BUILDING = 0
 		self.__LOG_COMBAT = 0
@@ -87,7 +103,7 @@ class CvEventManager:
 		self.__LOG_ENDGOLDENAGE = 0
 		self.__LOG_WARPEACE = 0
 		self.__LOG_PUSH_MISSION = 0
-		
+
 		## EVENTLIST
 		self.EventHandlerMap = {
 			'mouseEvent'			: self.onMouseEvent,
@@ -138,7 +154,7 @@ class CvEventManager:
 			'unitKilled'			: self.onUnitKilled,
 			'unitLost'				: self.onUnitLost,
 			'unitPromoted'			: self.onUnitPromoted,
-			'unitSelected'			: self.onUnitSelected, 
+			'unitSelected'			: self.onUnitSelected,
 			'UnitRename'				: self.onUnitRename,
 			'unitPillage'				: self.onUnitPillage,
 			'unitSpreadReligionAttempt'	: self.onUnitSpreadReligionAttempt,
@@ -151,11 +167,11 @@ class CvEventManager:
 			'techAcquired'			: self.onTechAcquired,
 			'techSelected'			: self.onTechSelected,
 			'religionFounded'		: self.onReligionFounded,
-			'religionSpread'		: self.onReligionSpread, 
-			'religionRemove'		: self.onReligionRemove, 
+			'religionSpread'		: self.onReligionSpread,
+			'religionRemove'		: self.onReligionRemove,
 			'corporationFounded'	: self.onCorporationFounded,
-			'corporationSpread'		: self.onCorporationSpread, 
-			'corporationRemove'		: self.onCorporationRemove, 
+			'corporationSpread'		: self.onCorporationSpread,
+			'corporationRemove'		: self.onCorporationRemove,
 			'goldenAge'				: self.onGoldenAge,
 			'endGoldenAge'			: self.onEndGoldenAge,
 			'chat' 					: self.onChat,
@@ -175,7 +191,7 @@ class CvEventManager:
 		#   entries have name, beginFunction, applyFunction [, randomization weight...]
 		#
 		# Normal events first, random events after
-		#	
+		#
 		################## Events List ###############################
 		self.Events={
 			CvUtil.EventEditCityName : ('EditCityName', self.__eventEditCityNameApply, self.__eventEditCityNameBegin),
@@ -188,7 +204,14 @@ class CvEventManager:
 			CvUtil.EventWBScriptPopup : ('WBScriptPopup', self.__eventWBScriptPopupApply, self.__eventWBScriptPopupBegin),
 			CvUtil.EventWBStartYearPopup : ('WBStartYearPopup', self.__eventWBStartYearPopupApply, self.__eventWBStartYearPopupBegin),
 			CvUtil.EventShowWonder: ('ShowWonder', self.__eventShowWonderApply, self.__eventShowWonderBegin),
-		}	
+			CvUtil.EventSignPopup : ('SignPopup', self.__eventUnitPlacementAddSignEventPopupApply, self.__eventUnitPlacementAddSignEventPopupBegin),
+			CvUtil.EventSitePopup : ('SitePopup', self.__eventPlayUtilsAddSiteEventPopupApply, self.__eventPlayUtilsAddSiteEventPopupBegin),
+		}
+
+		config = CvConfigParser.CvConfigParser("Civ IV Gameplay Enhancements Config.ini")
+		if (config != None):
+			CFG_EnabledCitizensAutomated = config.getboolean( "Citizens Automated", "Enabled", True)
+
 #################### EVENT STARTERS ######################
 	def handleEvent(self, argsList):
 		'EventMgr entry point'
@@ -203,22 +226,22 @@ class CvEventManager:
 			fxn = self.EventHandlerMap[tag]
 			ret = fxn(argsList[1:idx])
 		return ret
-		
-#################### EVENT APPLY ######################	
+
+#################### EVENT APPLY ######################
 	def beginEvent( self, context, argsList=-1 ):
 		'Begin Event'
 		entry = self.Events[context]
 		return entry[2]( argsList )
-	
+
 	def applyEvent( self, argsList ):
 		'Apply the effects of an event '
 		context, playerID, netUserData, popupReturn = argsList
-		
+
 		if context == CvUtil.PopupTypeEffectViewer:
 			return CvDebugTools.g_CvDebugTools.applyEffectViewer( playerID, netUserData, popupReturn )
-		
+
 		entry = self.Events[context]
-				
+
 		if ( context not in CvUtil.SilentEvents ):
 			self.reportEvent(entry, context, (playerID, netUserData, popupReturn) )
 		return entry[1]( playerID, netUserData, popupReturn )   # the apply function
@@ -230,25 +253,99 @@ class CvEventManager:
 			CyInterface().addImmediateMessage(message,"")
 			CvUtil.pyPrint(message)
 		return 0
-		
+
 #################### ON EVENTS ######################
 	def onKbdEvent(self, argsList):
 		'keypress handler - return 1 if the event was consumed'
 
 		eventType,key,mx,my,px,py = argsList
 		game = gc.getGame()
-		
+
 		if (self.bAllowCheats):
 			# notify debug tools of input to allow it to override the control
 			argsList = (eventType,key,self.bCtrl,self.bShift,self.bAlt,mx,my,px,py,gc.getGame().isNetworkMultiPlayer())
 			if ( CvDebugTools.g_CvDebugTools.notifyInput(argsList) ):
 				return 0
-		
+
 		if ( eventType == self.EventKeyDown ):
 			theKey=int(key)
-			
+
 			CvCameraControls.g_CameraControls.handleInput( theKey )
-						
+
+			global bCityGrid
+			global bCityPlacementMode
+			# Ctrl+K (City Grid)
+			if (theKey == int(InputTypes.KB_K) and self.bCtrl):
+				pPlayer = gc.getActivePlayer()
+				message = "Handling ctrl-k"
+				if (PlayerUtils.getGameOption(pPlayer, "CityGrid") < 1):
+					PlayerUtils.setGameOption(pPlayer, "CityGrid", 1)
+					bCityGrid = True
+					PlayerUtils.colorizeCityPlots(pPlayer)
+					gc.setDefineINT("USE_ON_UPDATE_CALLBACK", 1)
+				else:
+					PlayerUtils.setGameOption(pPlayer, "CityGrid", 0)
+					bCityGrid = False
+					CyEngine().clearColoredPlots(PlotLandscapeLayers.PLOT_LANDSCAPE_LAYER_WORLD_BUILDER)
+					if (not bCityPlacementMode):
+						gc.setDefineINT("USE_ON_UPDATE_CALLBACK", 0)
+				return 1
+
+			# Ctrl+Shift+P (City Placement Mode)
+			if (theKey == int(InputTypes.KB_P) and self.bCtrl):
+				pPlot = CyInterface().getMouseOverPlot()
+				if (self.bShift):
+					bCityPlacementMode = not bCityPlacementMode
+					if (bCityPlacementMode):
+						message = localText.getText('TXT_KEY_CITY_PLACEMENT_MODE_ON', ())
+						gc.setDefineINT("USE_ON_UPDATE_CALLBACK", 1)
+						CityUtils.InitExistCityGrid()
+					else:
+						if (not bCityGrid):
+							gc.setDefineINT("USE_ON_UPDATE_CALLBACK", 0)
+						CityInfoPanelPS.CityInfoPanelPS().hideInfoPane()
+						message = localText.getText('TXT_KEY_CITY_PLACEMENT_MODE_OFF', ())
+						CyEngine().clearColoredPlots(PlotLandscapeLayers.PLOT_LANDSCAPE_LAYER_WORLD_BUILDER)
+					CyInterface().addMessage(gc.getActivePlayer().getID(),True,len(message),message,'',0,'',ColorTypes(8),pPlot.getX(),pPlot.getY(),False,False)
+				else:
+					pPlayer = gc.getActivePlayer()
+					if (bCityPlacementMode):
+						if(pPlot.isPeak() or pPlot.isWater() or pPlot.getTerrainType() == gc.getInfoTypeForString("TERRAIN_DUSTSEA") or pPlot.getTerrainType() == gc.getInfoTypeForString("TERRAIN_CRATERRIM") or not pPlot.isRevealed(pPlayer.getTeam(), False)):
+							pass
+						else:
+							bErase = False
+							for iSign in xrange(CyEngine().getNumSigns()):
+								pSign = CyEngine().getSignByIndex(iSign)
+								pSignPlot = pSign.getPlot()
+								if (pSignPlot.at(pPlot.getX(), pPlot.getY()) and pSign.getPlayerType() == pPlayer.getID()):
+									bErase = True
+									PlayerUtils.removeSiteFromList(pPlayer, pPlot)
+									CyEngine().removeSign(pSignPlot, pPlayer.getID())
+									break
+							if (not bErase):
+								self.__eventPlayUtilsAddSiteEventPopupBegin((pPlot.getX(), pPlot.getY(), pPlayer.getID()))
+
+				return 1
+
+			# Shift+Alt+P (Unit Placement Add Sign)
+			if(theKey == int(InputTypes.KB_P) and self.bShift and self.bAlt):
+				pPlayer = gc.getActivePlayer()
+				pPlot = CyInterface().getMouseOverPlot()
+				bErase = False
+				for iSign in range(CyEngine().getNumSigns()):
+					pSign = CyEngine().getSignByIndex(iSign)
+					pSignPlot = pSign.getPlot()
+					if (pSignPlot.at(pPlot.getX(), pPlot.getY()) and pSign.getPlayerType() == pPlayer.getID()):
+						bErase = True
+						UnitPlacement.UnitPlacement().deleteSignDict(pPlot.getX(), pPlot.getY())
+						CyEngine().removeSign(pSignPlot, pPlayer.getID())
+						break
+				if (not bErase):
+					if (pPlot.isRevealed(pPlayer.getTeam(), False)):
+						self.__eventUnitPlacementAddSignEventPopupBegin((pPlot.getX(), pPlot.getY(), pPlayer.getID()))
+
+				return 1
+
 			if (self.bAllowCheats):
 				# Shift - T (Debug - No MP)
 				if (theKey == int(InputTypes.KB_T)):
@@ -256,88 +353,114 @@ class CvEventManager:
 						self.beginEvent(CvUtil.EventAwardTechsAndGold)
 						#self.beginEvent(CvUtil.EventCameraControlPopup)
 						return 1
-							
+
 				elif (theKey == int(InputTypes.KB_W)):
 					if ( self.bShift and self.bCtrl):
 						self.beginEvent(CvUtil.EventShowWonder)
 						return 1
-							
+
 				# Shift - ] (Debug - currently mouse-overd unit, health += 10
 				elif (theKey == int(InputTypes.KB_LBRACKET) and self.bShift ):
 					unit = CyMap().plot(px, py).getUnit(0)
 					if ( not unit.isNone() ):
 						d = min( unit.maxHitPoints()-1, unit.getDamage() + 10 )
 						unit.setDamage( d, PlayerTypes.NO_PLAYER )
-					
+
 				# Shift - [ (Debug - currently mouse-overd unit, health -= 10
 				elif (theKey == int(InputTypes.KB_RBRACKET) and self.bShift ):
 					unit = CyMap().plot(px, py).getUnit(0)
 					if ( not unit.isNone() ):
 						d = max( 0, unit.getDamage() - 10 )
 						unit.setDamage( d, PlayerTypes.NO_PLAYER )
-					
+
 				elif (theKey == int(InputTypes.KB_F1)):
 					if ( self.bShift ):
 						CvScreensInterface.replayScreen.showScreen(False)
 						return 1
-					# don't return 1 unless you want the input consumed'
-				
+					# don't return 1 unless you want the input consumed
+
 				elif (theKey == int(InputTypes.KB_F2)):
 					if ( self.bShift ):
 						import CvDebugInfoScreen
 						CvScreensInterface.showDebugInfoScreen()
 						return 1
-				
+
 				elif (theKey == int(InputTypes.KB_F3)):
 					if ( self.bShift ):
 						CvScreensInterface.showDanQuayleScreen(())
 						return 1
-						
+
 				elif (theKey == int(InputTypes.KB_F4)):
 					if ( self.bShift ):
 						CvScreensInterface.showUnVictoryScreen(())
 						return 1
-											
+
 		return 0
 
 	def onModNetMessage(self, argsList):
 		'Called whenever CyMessageControl().sendModNetMessage() is called - this is all for you modders!'
-		
+
 		iData1, iData2, iData3, iData4, iData5 = argsList
-		
+
 		print("Modder's net message!")
-		
+
 		CvUtil.pyPrint( 'onModNetMessage' )
 
 	def onInit(self, argsList):
 		'Called when Civ starts up'
 		CvUtil.pyPrint( 'OnInit' )
-		
+
 	def onUpdate(self, argsList):
 		'Called every frame'
 		fDeltaTime = argsList[0]
-		
+
 		# allow camera to be updated
 		CvCameraControls.g_CameraControls.onUpdate( fDeltaTime )
-		
+
+		pPlayer = gc.getActivePlayer()
+
+		global bCityGrid
+		global bCityPlacementMode
+
+		if (bCityGrid):
+			if (not CyInterface().isCityScreenUp()):
+				PlayerUtils.colorizeCityPlots(pPlayer)
+			else:
+				bCityGrid = False
+
+		if (bCityPlacementMode):
+			if (not CyInterface().isCityScreenUp()):
+				PlayerUtils.colorizeCityPlots(pPlayer)
+				PlayerUtils.colorizeCitySites(pPlayer)
+				pPlot = CyInterface().getMouseOverPlot()
+				CityUtils.colorizeCityGridForPlot(pPlot, pPlayer)
+				CityInfoPanelPS.CityInfoPanelPS().showCityRadiusInfo(pPlot)
+			else:
+				CityInfoPanelPS.CityInfoPanelPS().hideInfoPane()
+				bCityPlacementMode = False
+
+		if (not bCityGrid and not bCityPlacementMode):
+			PlayerUtils.setGameOption(pPlayer, "CityGrid", 0)
+			CyEngine().clearColoredPlots(PlotLandscapeLayers.PLOT_LANDSCAPE_LAYER_WORLD_BUILDER)
+			gc.setDefineINT("USE_ON_UPDATE_CALLBACK", 0)
+
 	def onWindowActivation(self, argsList):
 		'Called when the game window activates or deactivates'
 		bActive = argsList[0]
-		
+
 	def onUnInit(self, argsList):
 		'Called when Civ shuts down'
 		CvUtil.pyPrint('OnUnInit')
-	
+
 	def onPreSave(self, argsList):
 		"called before a game is actually saved"
 		CvUtil.pyPrint('OnPreSave')
-	
+
 	def onSaveGame(self, argsList):
 		"return the string to be saved - Must be a string"
 		return ""
 
 	def onLoadGame(self, argsList):
-		CvAdvisorUtils.resetNoLiberateCities()
 		return 0
 
 	def onGameStart(self, argsList):
@@ -518,20 +641,17 @@ class CvEventManager:
 	def onEndGameTurn(self, argsList):
 		'Called at the end of the end of each turn'
 		iGameTurn = argsList[0]
-		
+
 	def onBeginPlayerTurn(self, argsList):
 		'Called at the beginning of a players turn'
 		iGameTurn, iPlayer = argsList
-		
-		
 		##### <written by F> #####
 		#ターンごとに行われる処理　
 		py = PyPlayer(iPlayer)
 		pPlayer = gc.getPlayer(iPlayer)
 		pTeam = gc.getTeam(pPlayer.getTeam())
 		Limit = 1
-		
-		#統合MOD追記部分
+
 		#こころちゃんランダム志向処理
 		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_KOKOROLIST')):
 			#最初の1ターン目に確実に発動、以降はランダム
@@ -541,15 +661,7 @@ class CvEventManager:
 			elif CyGame().getSorenRandNum(1000, "Kokorolist") < 20:
 				iEvent = CvUtil.findInfoTypeNum(gc.getEventTriggerInfo, gc.getNumEventTriggerInfos(),'EVENTTRIGGER_TRAIT_KOKOROLIST')
 				triggerData = pPlayer.initTriggeredData(iEvent, true, -1, -1, -1, iPlayer, -1, -1, -1, -1, -1)
-		
-		#ランダムイベントデバッグ用。イベントトリガ強制発火コード
-		#普段はコメントアウト、テストしたいイベントに合わせ適時適当に変更
-		#if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_MALI'):
-		#	iEvent = CvUtil.findInfoTypeNum(gc.getEventTriggerInfo, gc.getNumEventTriggerInfos(),'EVENTTRIGGER_LIVE_OF_TSUKUMOGAMI')
-		#	triggerData = pPlayer.initTriggeredData(iEvent, true, -1, -1, -1, iPlayer, -1, -1, -1, -1, -1)
-		
-		#統合MOD追記部分ここまで
-		
+
 		#東方ユニット枠の設定　チーム戦対応用
 		if gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_MUSOU')) and pPlayer.isHuman():
 			if pTeam.isHasTech( gc.getInfoTypeForString('TECH_SHOOTING_TECHNIQUE2')):
@@ -566,7 +678,6 @@ class CvEventManager:
 		if pPlayer.isHuman() == False and gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_STRONG_AI')):
 			pPlayer.setNumTohoUnitLimit( Limit + TohoUnitList.TohoNumList[Functions.getHandicap()] )
 		#CyInterface().addImmediateMessage(gc.getHandicapInfo(pPlayer.getHandicapType()).getDescription(),"")
-		
 
 		
 		#そのプレイヤーのユニット全走査
@@ -679,7 +790,7 @@ class CvEventManager:
 				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SYLPHAEHORN'),False)
 			
 			#統合MOD追記部分
-			
+
 			#「操作反転」を25％の確率で除去
 			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SOUSA_HANTEN_A')):
 				if gc.getGame().getSorenRandNum(100,"Seija Skill") < 25:
@@ -694,7 +805,7 @@ class CvEventManager:
 			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_JOUGE_HANTEN_B')):
 				if gc.getGame().getSorenRandNum(100,"Seija Skill") < 50:
 					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_JOUGE_HANTEN_B'),False)
-			
+
 			#「どしゃぶり」を25％の確率で除去
 			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_HEAVY_RAIN')):
 				if gc.getGame().getSorenRandNum(100,"Kogasa Skill") < 25:
@@ -708,8 +819,6 @@ class CvEventManager:
 			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_STAN')):
 				pUnit.setImmobileTimer(0)
 				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_STAN'),False)
-			
-			#統合MOD追記部分ここまで
 			
 			#レティスキルがあれば
 			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_LETTY_SKILL1')):
@@ -912,7 +1021,7 @@ class CvEventManager:
 			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_CHARM')):
 				if gc.getGame().getSorenRandNum(100,"Remove Charm") < 50:
 					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_CHARM'),False)
-			
+
 			#統合MOD追記部分ここから
 
 			#昇進：ゾンビの毒を持っていた場合、25％で除去
@@ -933,6 +1042,14 @@ class CvEventManager:
 				pUnit.changeDamage(25,iPlayer)
 				if gc.getGame().getSorenRandNum(100,"Remove Hakka") < 50:
 					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HAKKA'),False)
+			
+			#昇進：恐怖を持っていた場合、一般ユニットなら50%、東方ユニットなら100％でそれを除去
+			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_FEAR')):
+				if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FEAR'),False)
+				else:
+					if gc.getGame().getSorenRandNum(100,"Remove Fear") < 50:
+						pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FEAR'),False)
 
 			#統合MOD追記部分ここまで
 				
@@ -1436,7 +1553,6 @@ class CvEventManager:
 		#そのプレイヤーの都市全走査
 		for pPyCity in py.getCityList():
 			pCity = pPlayer.getCity(pPyCity.getID())
-			
 			#統合MOD追記部分
 			#そのプレイヤーの首都走査
 			pCapital = gc.getPlayer(pCity.getOwner()).getCapitalCity()
@@ -1503,7 +1619,7 @@ class CvEventManager:
 			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_SHINTO')) == True:
 				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_TORII")) == False:
 					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),1)
-			
+
 			#仏教を採用している場合、都市に仏像自動建設＆八橋スペル建造物を強化版に切り替え
 			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_BUDDHISM')) == True:
 				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_BUTUZOU")) == False:
@@ -1523,12 +1639,12 @@ class CvEventManager:
 						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_ONMYOURYOU2")) == True:
 							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU1'),1)
 							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU2'),0)
-			
+
 			#深海の旧支配者を採用している場合、首都にネクロノミコン写本自動建設
 			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_CTHULHU')) == True:
 				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_CTHULHU")) == False:
 					pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CTHULHU'),1)
-			
+
 			#弱者の楽園を採用している場合、首都に幸福1衛生-2用の建造物自動建設
 			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_ECONOMY')) == gc.getInfoTypeForString('CIVIC_JAKUSYANORAKUEN')) == True:
 				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_JAKUSYANORAKUEN")) == False:
@@ -1547,7 +1663,7 @@ class CvEventManager:
 				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SLAVERY')) == True:
 					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SINDEKURERU")) == False:
 						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),1)
-			
+
 			#労働志向を持っているかどうか
 			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LABORLIST')):
 				#労働制度毎に異なる建造物を与える
@@ -1724,7 +1840,6 @@ class CvEventManager:
 							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_NIJIIRONOHANABATAKE'),0)
 
 		##### </written by F> #####
-
 	def onEndPlayerTurn(self, argsList):
 		'Called at the end of a players turn'
 		iGameTurn, iPlayer = argsList
@@ -1765,7 +1880,7 @@ class CvEventManager:
 			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_TORII")) == True:
 				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_SHINTO')) == False:
 					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),0)
-		
+
 		#仏像リセット＆八橋スペル建造物を弱体版に切り替え
 			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_BUTUZOU")) == True:
 				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_BUDDHISM')) == False:
@@ -1776,7 +1891,7 @@ class CvEventManager:
 							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_A'),1)
 							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_B'),0)
 
-		#仙丹リセット＆陰陽寮＠出力有りを陰陽寮＠出力無しに切り替え
+		#仙丹リセッ＆陰陽寮＠出力有りを陰陽寮＠出力無しに切り替え
 			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SENTAN")) == True:
 				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_TAOISM')) == False:
 					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SENTAN'),0)
@@ -1803,45 +1918,44 @@ class CvEventManager:
 					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_JAKUSYANORAKUEN'),0)
 		
 		#労働志向系建造物リセット
-			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LABORLIST')):
-				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_TRIBALISM")) == True:
-					if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_TRIBALISM')) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),0)
+			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_TRIBALISM")) == True:
+				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_TRIBALISM')) == False:
+					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),0)
 			
-				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SLAVERY_1")) == True:
-					if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SLAVERY')) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),0)
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),0)
+			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SLAVERY_1")) == True:
+				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SLAVERY')) == False:
+					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),0)
+					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),0)
 					
-					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SLAVERY_2")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),0)
+				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SLAVERY_2")) == False:
+					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),0)
 			
-				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SERFDOM")) == True:
-					if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SERFDOM')) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),0)
+			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SERFDOM")) == True:
+				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SERFDOM')) == False:
+					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),0)
 			
-				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_CASTE_1")) == True:
-					if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_CASTE_SYSTEM')) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),0)
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),0)
+			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_CASTE_1")) == True:
+				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_CASTE_SYSTEM')) == False:
+					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),0)
+					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),0)
 			
-					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_CASTE_2")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),0)
+				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_CASTE_2")) == False:
+					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),0)
 			
-				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_EMANCIPATION")) == True:
-					if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_EMANCIPATION')) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),0)
+			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_EMANCIPATION")) == True:
+				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_EMANCIPATION')) == False:
+					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),0)
 			
-				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SISHANOOUKOKU")) == True:
-					if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SISHANOOUKOKU')) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),0)
+			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SISHANOOUKOKU")) == True:
+				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SISHANOOUKOKU')) == False:
+					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),0)
 			
-				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_HAKUREISIKI")) == True:
-					if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_HAKUREISIKI')) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),0)
+			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_HAKUREISIKI")) == True:
+				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_HAKUREISIKI')) == False:
+					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),0)
 				
-					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_HAKUREISIKI")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),0)
+				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_HAKUREISIKI")) == False:
+					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),0)
 		
 		#こころちゃんの志向変化で労働志向が無くなった場合の処理
 			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_KOKOROLIST')):
@@ -1874,13 +1988,13 @@ class CvEventManager:
 						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),0)
 					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SINDEKURERU")) == False:
 						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),0)
-
+		
 		#集権志向ブースト建造物リセット
 			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_CENTRALIZATION')):
 				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_CENTRALIZATION")) == False:
 					if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_CENTRALIZATION")) == True:
 						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CENTRALIZATION'),0)
-
+		
 		#統合MOD追記部分ここまで
 		
 		if (gc.getGame().getElapsedGameTurns() == 1):
@@ -1889,8 +2003,7 @@ class CvEventManager:
 					popupInfo = CyPopupInfo()
 					popupInfo.setButtonPopupType(ButtonPopupTypes.BUTTONPOPUP_CHANGECIVIC)
 					popupInfo.addPopup(iPlayer)
-		
-		
+
 		CvAdvisorUtils.resetAdvisorNags()
 		CvAdvisorUtils.endTurnFeats(iPlayer)
 
@@ -1903,7 +2016,7 @@ class CvEventManager:
 		if (not self.__LOG_CONTACT):
 			return
 		CvUtil.pyPrint('Team %d has met Team %d' %(iTeamX, iHasMetTeamY))
-	
+
 	def onCombatResult(self, argsList):
 		'Combat Result'
 		pWinner,pLoser = argsList
@@ -1911,9 +2024,6 @@ class CvEventManager:
 		unitX = PyInfo.UnitInfo(pWinner.getUnitType())
 		playerY = PyPlayer(pLoser.getOwner())
 		unitY = PyInfo.UnitInfo(pLoser.getUnitType())
-		
-		#CyInterface().addImmediateMessage("onCombatResult","")
-		
 		##### <written by F> #####
 		#特定のスキルを持つものは連続戦闘が可能になる。
 		#ただし、ターン毎の上限数としてレベル÷３＋１ 二つもってたらレベル/2＋１
@@ -1962,6 +2072,7 @@ class CvEventManager:
 					pWinner.setNumCombatCombo(pWinner.getNumCombatCombo()+1)
 					#連続戦闘が発生するとメッセージが出る
 					CyInterface().addImmediateMessage(PyHelpers.PyInfo.UnitInfo(pWinner.getUnitType()).getDescription() + "&#12398;&#36899;&#32154;&#25126;&#38360;&#65281(" + str(pWinner.getNumCombatCombo()) + "/" + str(pWinner.getLevel()/4 + 1) + ")","")
+
 		#昇進「始原のビート」を持っている場合、一度限りの連続戦闘を可能とする
 		if pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_PRISTINE_BEAT')):
 			if pWinner.getNumCombatCombo() < 1:
@@ -2039,7 +2150,7 @@ class CvEventManager:
 		if pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KOMACHI_SKILL1')):
 			pWinner.changeExperience(2,-1,False,False,False)
 			gc.getPlayer(pWinner.getOwner()).changeGold(pLoser.getLevel()*5)
-		
+
 		#統合MOD追記部分
 		#星スキル持ちは、戦闘勝利に追加の金銭を獲得する
 		
@@ -2048,7 +2159,7 @@ class CvEventManager:
 			gc.getPlayer(pWinner.getOwner()).changeGold(iNumGold)
 		
 		#統合MOD追記部分ここまで
-		
+				
 		#チルノのスキルもちが攻撃して勝利した場合、敗者のスタックにランダムで凍結の昇進 
 		if pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_CIRNO_SKILL1')):
 			if gc.getPlayer(pWinner.getOwner()).isTurnActive():
@@ -2137,7 +2248,7 @@ class CvEventManager:
 					iNumPromotion = gc.getGame().getSorenRandNum(len(PromotionList), "MARISA Learning")
 					pWinner.setHasPromotion(gc.getInfoTypeForString(PromotionList[iNumPromotion]),True)
 				else:
-					if gc.getGame().getSorenRandNum(100, "Marisa SKILL") < 50:
+					if gc.getGame().getSorenRandNum(100, "Marisa SKILL") < 25:
 						iNumPromotion = gc.getGame().getSorenRandNum(len(PromotionList), "MARISA Learning")
 						pWinner.setHasPromotion(gc.getInfoTypeForString(PromotionList[iNumPromotion]),True)
 				#統合MOD追記部分ここまで
@@ -2182,6 +2293,7 @@ class CvEventManager:
 			#newUnit1.setMoves(pWinner.getMoves()+50)
 			newUnit1.finishMoves()
 			newUnit1.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True)
+		
 		
 		#プレイヤーに倒されたAIユニットにはたおされフラグが建つ
 		pLoser.setbLoseByPlayer(False)
@@ -2230,7 +2342,7 @@ class CvEventManager:
 					pWinner.changeDamage(100,pLoser.getOwner())
 				
 				CyInterface().addImmediateMessage(PyHelpers.PyInfo.UnitInfo(pLoser.getUnitType()).getDescription() + "&#12364;&#29983;&#12392;&#27515;&#12398;&#22659;&#30028;&#12434;&#12356;&#12376;&#12426;&#12414;&#12375;&#12383;&#65281;","")
-		
+
 		#統合MOD追記部分ここから
 		
 		#神霊廟キャラクターマーク系・芳香
@@ -2339,7 +2451,7 @@ class CvEventManager:
 			if pLoser.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_WOLF'):
 				newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_GETWOLF'), iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 			newUnit.finishMoves()
-
+		
 		#恐怖のろくろ首処理
 		if pLoser.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SEKIBANKILIST_FEAR')):
 			pPlot = gc.getMap().plot(pWinner.getX(),pWinner.getY())
@@ -2347,7 +2459,7 @@ class CvEventManager:
 				if gc.getGame().getSorenRandNum(100, "ROKUROKUBI") < 10:
 					if pWinner.getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
 						pPlot.getUnit(i).setHasPromotion(gc.getInfoTypeForString('PROMOTION_FEAR'),True)
-
+		
 		#八橋スキルの文化防御減少処理
 		if pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_YATUHASHI_SKILL1')):
 			pPlot2 = pLoser.plot()
@@ -2383,18 +2495,18 @@ class CvEventManager:
 		if (not self.__LOG_COMBAT):
 			return
 		if playerX and playerX and unitX and playerY:
-			CvUtil.pyPrint('Player %d Civilization %s Unit %s has defeated Player %d Civilization %s Unit %s' 
-				%(playerX.getID(), playerX.getCivilizationName(), unitX.getDescription(), 
+			CvUtil.pyPrint('Player %d Civilization %s Unit %s has defeated Player %d Civilization %s Unit %s'
+				%(playerX.getID(), playerX.getCivilizationName(), unitX.getDescription(),
 				playerY.getID(), playerY.getCivilizationName(), unitY.getDescription()))
 
 	def onCombatLogCalc(self, argsList):
-		'Combat Result'	
+		'Combat Result'
 		genericArgs = argsList[0][0]
 		cdAttacker = genericArgs[0]
 		cdDefender = genericArgs[1]
 		iCombatOdds = genericArgs[2]
 		CvUtil.combatMessageBuilder(cdAttacker, cdDefender, iCombatOdds)
-		
+
 	def onCombatLogHit(self, argsList):
 		'Combat Message'
 		global gCombatMessages, gCombatLog
@@ -2403,30 +2515,21 @@ class CvEventManager:
 		cdDefender = genericArgs[1]
 		iIsAttacker = genericArgs[2]
 		iDamage = genericArgs[3]
-		
-		if cdDefender.eOwner == cdDefender.eVisualOwner:
-			szDefenderName = gc.getPlayer(cdDefender.eOwner).getNameKey()
-		else:
-			szDefenderName = localText.getText("TXT_KEY_TRAIT_PLAYER_UNKNOWN", ())
-		if cdAttacker.eOwner == cdAttacker.eVisualOwner:
-			szAttackerName = gc.getPlayer(cdAttacker.eOwner).getNameKey()
-		else:
-			szAttackerName = localText.getText("TXT_KEY_TRAIT_PLAYER_UNKNOWN", ())
 
-		if (iIsAttacker == 0):				
-			combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_HIT", (szDefenderName, cdDefender.sUnitName, iDamage, cdDefender.iCurrHitPoints, cdDefender.iMaxHitPoints))
+		if (iIsAttacker == 0):
+			combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_HIT", (gc.getPlayer(cdDefender.eOwner).getNameKey(), cdDefender.sUnitName, iDamage, cdDefender.iCurrHitPoints, cdDefender.iMaxHitPoints))
 			CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
 			CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
 			if (cdDefender.iCurrHitPoints <= 0):
-				combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_DEFEATED", (szAttackerName, cdAttacker.sUnitName, szDefenderName, cdDefender.sUnitName))
+				combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_DEFEATED", (gc.getPlayer(cdAttacker.eOwner).getNameKey(), cdAttacker.sUnitName, gc.getPlayer(cdDefender.eOwner).getNameKey(), cdDefender.sUnitName))
 				CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
 				CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
 		elif (iIsAttacker == 1):
-			combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_HIT", (szAttackerName, cdAttacker.sUnitName, iDamage, cdAttacker.iCurrHitPoints, cdAttacker.iMaxHitPoints))
+			combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_HIT", (gc.getPlayer(cdAttacker.eOwner).getNameKey(), cdAttacker.sUnitName, iDamage, cdAttacker.iCurrHitPoints, cdAttacker.iMaxHitPoints))
 			CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
 			CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
 			if (cdAttacker.iCurrHitPoints <= 0):
-				combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_DEFEATED", (szDefenderName, cdDefender.sUnitName, szAttackerName, cdAttacker.sUnitName))
+				combatMessage = localText.getText("TXT_KEY_COMBAT_MESSAGE_DEFEATED", (gc.getPlayer(cdDefender.eOwner).getNameKey(), cdDefender.sUnitName, gc.getPlayer(cdAttacker.eOwner).getNameKey(), cdAttacker.sUnitName))
 				CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
 				CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
 
@@ -2495,8 +2598,6 @@ class CvEventManager:
 			popupInfo.setText(u"showWonderMovie")
 			popupInfo.addPopup(pCity.getOwner())
 		
-		#CvGameUtils.doprint("Building Build!!!")
-		
 		
 		##### <written by > #####
 		#建造物が建設されたときの追加処理
@@ -2534,7 +2635,7 @@ class CvEventManager:
 			if CyGame().getBuildingClassCreatedCount(gc.getInfoTypeForString("BUILDINGCLASS_EIENTEI")) == 1:
 				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_EIENTEI")) == True:
 					pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_CITIZEN"), 2)
-		
+
 		#アンコールワット建設時、弁々スペル建造物があれば強化版に切り替え
 		if iBuildingType == gc.getInfoTypeForString('BUILDING_ANGKOR_WAT'):
 			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_GION_SYOUJA_A")):
@@ -2591,15 +2692,14 @@ class CvEventManager:
 				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BENBEN_STONEHENGE'),1)
 		
 		#統合MOD追記部分ここまで
-		
 
 		CvAdvisorUtils.buildingBuiltFeats(pCity, iBuildingType)
 
 		if (not self.__LOG_BUILDING):
 			return
-		CvUtil.pyPrint('%s was finished by Player %d Civilization %s' 
+		CvUtil.pyPrint('%s was finished by Player %d Civilization %s'
 			%(PyInfo.BuildingInfo(iBuildingType).getDescription(), pCity.getOwner(), gc.getPlayer(pCity.getOwner()).getCivilizationDescription(0)))
-	
+
 	def onProjectBuilt(self, argsList):
 		'Project Completed'
 		pCity, iProjectType = argsList
@@ -2621,7 +2721,6 @@ class CvEventManager:
 			pPlayer.setNumMyLove( pPlayer.getNumMyLove()+1  )
 			
 		##### </written by > #####
-		
 		#統合MOD追記部分
 		## originai:AI Build Projects Automatically Start ##
 		##AIにダミープロジェクトを作成させるための内部処理##
@@ -2664,31 +2763,29 @@ class CvEventManager:
 		## originai:CGEsスーパーコンピューター ##
 		#統合MOD追記部分ここまで
 		
-				
+		
 	def onSelectionGroupPushMission(self, argsList):
 		'selection group mission'
 		eOwner = argsList[0]
 		eMission = argsList[1]
 		iNumUnits = argsList[2]
 		listUnitIds = argsList[3]
-		
+
 		if (not self.__LOG_PUSH_MISSION):
 			return
 		if pHeadUnit:
 			CvUtil.pyPrint("Selection Group pushed mission %d" %(eMission))
-	
+
 	def onUnitMove(self, argsList):
 		'unit move'
 		pPlot,pUnit,pOldPlot = argsList
 		player = PyPlayer(pUnit.getOwner())
 		unitInfo = PyInfo.UnitInfo(pUnit.getUnitType())
-		
-		
 		if (not self.__LOG_MOVEMENT):
 			return
 		if player and unitInfo:
-			CvUtil.pyPrint('Player %d Civilization %s unit %s is moving to %d, %d' 
-				%(player.getID(), player.getCivilizationName(), unitInfo.getDescription(), 
+			CvUtil.pyPrint('Player %d Civilization %s unit %s is moving to %d, %d'
+				%(player.getID(), player.getCivilizationName(), unitInfo.getDescription(),
 				pUnit.getX(), pUnit.getY()))
 
 	def onUnitSetXY(self, argsList):
@@ -2698,12 +2795,11 @@ class CvEventManager:
 		unitInfo = PyInfo.UnitInfo(pUnit.getUnitType())
 		if (not self.__LOG_MOVEMENT):
 			return
-		
+
 	def onUnitCreated(self, argsList):
 		'Unit Completed'
 		unit = argsList[0]
 		player = PyPlayer(unit.getOwner())
-		
 		##### <written by F> #####
 		
 		#東方ユニットが作られたらカウントする
@@ -2772,7 +2868,7 @@ class CvEventManager:
 			if gc.getInfoTypeForString('UNIT_ICHIRIN0') <= unit.getUnitType() and unit.getUnitType() <= gc.getInfoTypeForString('UNIT_ICHIRIN6'):
 				unit.changeLevel(1)
 				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ICHIRIN_SKILL1'),True)
-		
+
 		#統合MOD追記部分ここから
 		
 		#魅魔の志向があればスキルを与えてレベル＋１
@@ -2929,24 +3025,21 @@ class CvEventManager:
 			if unit.getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_STANDBY'):
 				newUnit = pPlayer.initUnit(unit.getUnitType(), city.getX(), city.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 				newUnit.changeExperience(unit.getExperience(),-1,False,False,False)
-			
-			
-		CvAdvisorUtils.unitBuiltFeats(city, unit)
 		
+		CvAdvisorUtils.unitBuiltFeats(city, unit)
+
 		if (not self.__LOG_UNITBUILD):
 			return
-		CvUtil.pyPrint('%s was finished by Player %d Civilization %s' 
+		CvUtil.pyPrint('%s was finished by Player %d Civilization %s'
 			%(PyInfo.UnitInfo(unit.getUnitType()).getDescription(), player.getID(), player.getCivilizationName()))
-	
-	def onUnitKilled(self, argsList): #ユニットが殺されたとき
+
+	def onUnitKilled(self, argsList):
 		'Unit Killed'
 		unit, iAttacker = argsList
 		player = PyPlayer(unit.getOwner())
 		pPlayer = gc.getPlayer(unit.getOwner())
 		attacker = PyPlayer(iAttacker)
 		iUnit = unit.getUnitType()
-		
-		#CyInterface().addImmediateMessage("onUnitKiiled","")
 		
 		##### <written by F> #####
 		
@@ -3210,8 +3303,8 @@ class CvEventManager:
 				
 				
 				#すいかがスキル持ちで倒された場合、ちびすいかを残す
-				#妖怪の山の時もちゃんと処理するように
 				#統合MOD追記：分裂はプレイヤー時のみ。AI時は発生しないように
+				#妖怪の山の場合も忘れずに
 				if pPlayer.isHuman():
 					if gc.getInfoTypeForString('UNIT_SUIKA1') <= unit.getUnitType() and unit.getUnitType() <= gc.getInfoTypeForString('UNIT_SUIKA6'):
 						if unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SUIKA_SKILL1')):
@@ -3232,7 +3325,6 @@ class CvEventManager:
 								newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_BARRAGE2'),True)
 								newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_BARRAGE3'),True)
 								newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_BUNSHIN'),True)
-				
 								
 				#復活カウントを追加　
 				newUnit1.setPower(unit.getPower() - 0.2)
@@ -3244,10 +3336,9 @@ class CvEventManager:
 		
 			
 		##### </written by F> #####
-		
 		if (not self.__LOG_UNITKILLED):
 			return
-		CvUtil.pyPrint('Player %d Civilization %s Unit %s was killed by Player %d' 
+		CvUtil.pyPrint('Player %d Civilization %s Unit %s was killed by Player %d'
 			%(player.getID(), player.getCivilizationName(), PyInfo.UnitInfo(unit.getUnitType()).getDescription(), attacker.getID()))
 
 	def onUnitLost(self, argsList):
@@ -3271,9 +3362,9 @@ class CvEventManager:
 		
 		if (not self.__LOG_UNITLOST):
 			return
-		CvUtil.pyPrint('%s was lost by Player %d Civilization %s' 
+		CvUtil.pyPrint('%s was lost by Player %d Civilization %s'
 			%(PyInfo.UnitInfo(unit.getUnitType()).getDescription(), player.getID(), player.getCivilizationName()))
-	
+
 	def onUnitPromoted(self, argsList):
 		'Unit Promoted'
 		pUnit, iPromotion = argsList
@@ -3303,36 +3394,32 @@ class CvEventManager:
 			pUnit.changeLevel(1)
 		
 		##### </written by F> #####
-		
-		
 		if (not self.__LOG_UNITPROMOTED):
 			return
 		CvUtil.pyPrint('Unit Promotion Event: %s - %s' %(player.getCivilizationName(), pUnit.getName(),))
-	
+
 	def onUnitSelected(self, argsList):
 		'Unit Selected'
 		unit = argsList[0]
 		player = PyPlayer(unit.getOwner())
-		
-		
 		if (not self.__LOG_UNITSELECTED):
 			return
-		CvUtil.pyPrint('%s was selected by Player %d Civilization %s' 
+		CvUtil.pyPrint('%s was selected by Player %d Civilization %s'
 			%(PyInfo.UnitInfo(unit.getUnitType()).getDescription(), player.getID(), player.getCivilizationName()))
-	
+
 	def onUnitRename(self, argsList):
 		'Unit is renamed'
 		pUnit = argsList[0]
 		if (pUnit.getOwner() == gc.getGame().getActivePlayer()):
 			self.__eventEditUnitNameBegin(pUnit)
-	
+
 	def onUnitPillage(self, argsList):
 		'Unit pillages a plot'
 		pUnit, iImprovement, iRoute, iOwner = argsList
 		iPlotX = pUnit.getX()
 		iPlotY = pUnit.getY()
 		pPlot = CyMap().plot(iPlotX, iPlotY)
-		
+
 		#統合MOD追記部分ここから
 		#ユニット芳香がキャラクタースキルを持っている場合、略奪で体力回復
 
@@ -3340,25 +3427,25 @@ class CvEventManager:
 			pUnit.changeDamage(-25,pUnit.getOwner())
 		
 		#統合MOD追記部分ここまで
-		
+
 		if (not self.__LOG_UNITPILLAGE):
 			return
-		CvUtil.pyPrint("Player %d's %s pillaged improvement %d and route %d at plot at (%d, %d)" 
+		CvUtil.pyPrint("Player %d's %s pillaged improvement %d and route %d at plot at (%d, %d)"
 			%(iOwner, PyInfo.UnitInfo(pUnit.getUnitType()).getDescription(), iImprovement, iRoute, iPlotX, iPlotY))
-	
+
 	def onUnitSpreadReligionAttempt(self, argsList):
 		'Unit tries to spread religion to a city'
 		pUnit, iReligion, bSuccess = argsList
-		
+
 		iX = pUnit.getX()
 		iY = pUnit.getY()
 		pPlot = CyMap().plot(iX, iY)
 		pCity = pPlot.getPlotCity()
-	
+
 	def onUnitGifted(self, argsList):
 		'Unit is gifted from one player to another'
 		pUnit, iGiftingPlayer, pPlotLocation = argsList
-	
+
 	def onUnitBuildImprovement(self, argsList):
 		'Unit begins enacting a Build (building an Improvement or Route)'
 		pUnit, iBuild, bFinished = argsList
@@ -3369,7 +3456,7 @@ class CvEventManager:
 		if (not self.__LOG_GOODYRECEIVED):
 			return
 		CvUtil.pyPrint('%s received a goody' %(gc.getPlayer(iPlayer).getCivilizationDescription(0)),)
-	
+
 	def onGreatPersonBorn(self, argsList):
 		'Unit Promoted'
 		pUnit, iPlayer, pCity = argsList
@@ -3377,7 +3464,7 @@ class CvEventManager:
 		if pUnit.isNone() or pCity.isNone():
 			return
 		if (not self.__LOG_GREATPERSON):
-
+		
 		#統合MOD追記部分ここから
 
 		#うわばみ志向のハゲ黄金期発生
@@ -3438,12 +3525,12 @@ class CvEventManager:
 
 			return
 		CvUtil.pyPrint('A %s was born for %s in %s' %(pUnit.getName(), player.getCivilizationName(), pCity.getName()))
-	
+
 	def onTechAcquired(self, argsList):
 		'Tech Acquired'
 		iTechType, iTeam, iPlayer, bAnnounce = argsList
 		# Note that iPlayer may be NULL (-1) and not a refer to a player object
-		
+
 		# Show tech splash when applicable
 		if (iPlayer > -1 and bAnnounce and not CyInterface().noTechSplash()):
 			if (gc.getGame().isFinalInitialized() and not gc.getGame().GetWorldBuilderMode()):
@@ -3520,24 +3607,23 @@ class CvEventManager:
 		#統合MOD追記部分ここまで
 		
 		##### </written by F> #####
-		
 		if (not self.__LOG_TECH):
 			return
-		CvUtil.pyPrint('%s was finished by Team %d' 
+		CvUtil.pyPrint('%s was finished by Team %d'
 			%(PyInfo.TechnologyInfo(iTechType).getDescription(), iTeam))
-	
+
 	def onTechSelected(self, argsList):
 		'Tech Selected'
 		iTechType, iPlayer = argsList
 		if (not self.__LOG_TECH):
 			return
 		CvUtil.pyPrint('%s was selected by Player %d' %(PyInfo.TechnologyInfo(iTechType).getDescription(), iPlayer))
-	
+
 	def onReligionFounded(self, argsList):
 		'Religion Founded'
 		iReligion, iFounder = argsList
 		player = PyPlayer(iFounder)
-		
+
 		iCityId = gc.getGame().getHolyCity(iReligion).getID()
 		if (gc.getGame().isFinalInitialized() and not gc.getGame().GetWorldBuilderMode()):
 			if ((not gc.getGame().isNetworkMultiPlayer()) and (iFounder == gc.getGame().getActivePlayer())):
@@ -3548,7 +3634,7 @@ class CvEventManager:
 				popupInfo.setData3(1)
 				popupInfo.setText(u"showWonderMovie")
 				popupInfo.addPopup(iFounder)
-		
+
 		if (not self.__LOG_RELIGION):
 			return
 		CvUtil.pyPrint('Player %d Civilization %s has founded %s'
@@ -3571,12 +3657,12 @@ class CvEventManager:
 			return
 		CvUtil.pyPrint('%s has been removed from Player %d Civilization %s city of %s'
 			%(gc.getReligionInfo(iReligion).getDescription(), iOwner, player.getCivilizationName(), pRemoveCity.getName()))
-				
+
 	def onCorporationFounded(self, argsList):
 		'Corporation Founded'
 		iCorporation, iFounder = argsList
 		player = PyPlayer(iFounder)
-		
+
 		if (not self.__LOG_RELIGION):
 			return
 		CvUtil.pyPrint('Player %d Civilization %s has founded %s'
@@ -3599,7 +3685,7 @@ class CvEventManager:
 			return
 		CvUtil.pyPrint('%s has been removed from Player %d Civilization %s city of %s'
 			%(gc.getReligionInfo(iReligion).getDescription(), iOwner, player.getCivilizationName(), pRemoveCity.getName()))
-				
+
 	def onGoldenAge(self, argsList):
 		'Golden Age'
 		iPlayer = argsList[0]
@@ -3631,11 +3717,11 @@ class CvEventManager:
 			strStatus = "declared peace"
 		CvUtil.pyPrint('Team %d has %s on Team %d'
 			%(iTeam, strStatus, iRivalTeam))
-	
+
 	def onChat(self, argsList):
 		'Chat Message Event'
 		chatMessage = "%s" %(argsList[0],)
-		
+
 	def onSetPlayerAlive(self, argsList):
 		'Set Player Alive Event'
 		iPlayerID = argsList[0]
@@ -3879,15 +3965,14 @@ class CvEventManager:
 				if pPlayer.getLeaderType() == gc.getInfoTypeForString('LEADER_HECATIA'):
 					cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_DEFEATED_HECATIA",()),'art/interface/popups/hecatia_defeated.dds')
 
-		
 	def onPlayerChangeStateReligion(self, argsList):
 		'Player changes his state religion'
 		iPlayer, iNewReligion, iOldReligion = argsList
-		
+
 	def onPlayerGoldTrade(self, argsList):
 		'Player Trades gold to another player'
 		iFromPlayer, iToPlayer, iGoldAmount = argsList
-		
+
 	def onCityBuilt(self, argsList):
 		'City Built'
 		city = argsList[0]
@@ -3896,85 +3981,86 @@ class CvEventManager:
 		##### <written by F> #####
 		
 		#無双モードであれば
-		if gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_MUSOU')) and pPlayer.isHuman():
+		if gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_MUSOU')) and gc.getPlayer(city.getOwner()).isHuman():
 			#if city.isCapital():
-				#newUnit1 = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_WARRIOR'), city.getX(), city.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-				#newUnit1 = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_WARRIOR'), city.getX(), city.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+				#newUnit1 = gc.getPlayer(city.getOwner()).initUnit(gc.getInfoTypeForString('UNIT_WARRIOR'), city.getX(), city.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+				#newUnit1 = gc.getPlayer(city.getOwner()).initUnit(gc.getInfoTypeForString('UNIT_WARRIOR'), city.getX(), city.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 			city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_MUSOU_MODE'),1)
-		
+			
+
 		#統合MOD追記部分
 		#人間の里がAIの場合に限り、首都に全都市ビーカー-10%建造物設置
 		if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_INDIA'):
 			if pPlayer.isHuman() == False:
 				if city.isCapital():
 					city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_AI_NINGENNOSATO'),1)
-		
+
 		#特定の志向があった場合、都市建設時に建造物を追加
 		
 		#メリー
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_MERRYLIST')):
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_MERRYLIST')):
 			if city.isCapital():
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_MIERUME'),1)
 		
 		#さくやさん
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_SAKUYALIST')):
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_SAKUYALIST')):
 			if city.isCapital():
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_MEIDOCHOUNOSHIKI'),1)
 		
 		#パチェ
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_PATCHOULIST')):
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_PATCHOULIST')):
 			if city.isCapital():
-				iAge = pPlayer.getCurrentEra()
+				iAge = gc.getPlayer(city.getOwner()).getCurrentEra()
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_PATCHOULI_BOOK'),1)
 				city.setBuildingCommerceChange(gc.getInfoTypeForString('BUILDINGCLASS_PATCHOULI_BOOK'),1, (iAge+1) * 2 )
 		
 		#うどんげ
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_REISENLIST')):
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_REISENLIST')):
 			if city.isCapital():
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TELEMESMELISM'),1)
 		
 		#てんこ
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_TENSHILIST')):
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_TENSHILIST')):
 			if city.isCapital():
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TENSHINOTANOSHIMI'),1)
 		
 		#あっきゅん
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_AKYULIST')):
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_AKYULIST')):
 			if city.isCapital():
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_HIEDARYUUKIOKUJUTU'),1)
 		
 		#統合MOD追記部分ここから
 		
 		#きすめ
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_KISUMELIST')):
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_KISUMELIST')):
 			if city.isCapital():
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_KISUMENOOKE'),1)
 		#すたぁ
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_STARLIST')):
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_STARLIST')):
 			if city.isCapital():
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_HOSHINOHIKARI'),1)
 		#きょうこちゃん
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_KYOUKOLIST')):
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_KYOUKOLIST')):
 			if city.isCapital():
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_YAMABIKO'),1)
 		
 		#屠自古
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_TOJIKOLIST')):
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_TOJIKOLIST')):
 			if city.isCapital():
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_IMOKONOHAKA'),1)
 		
 		#小鈴
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_KOSUZULIST')):
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_KOSUZULIST')):
 			if city.isCapital():
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SUZUNAAN'),1)
 		
 		#ちゆり
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_CHIYURILIST')):
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_CHIYURILIST')):
 			if city.isCapital():
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_YUMEDOKEI'),1)
 		
 		#教授
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_YUMEMILIST')):
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_YUMEMILIST')):
 			if city.isCapital():
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_HIKAKUBUTURIGAKU'),1)
 		
@@ -4018,6 +4104,7 @@ class CvEventManager:
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_THISWOMAN'),1)
 		
 		#うわばみ志向の国酒無償ボーナス
+		pPlayer = gc.getPlayer(city.getOwner())
 		if pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_ALCHOL")):
 			iStateReligion = pPlayer.getStateReligion()
 			if iStateReligion > -1:
@@ -4031,12 +4118,12 @@ class CvEventManager:
 		#統合MOD追記部分ここまで
 		
 		#AIによる魔法志向
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_SPELLIST')):
-			if pPlayer.isHuman() == False:
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_SPELLIST')):
+			if gc.getPlayer(city.getOwner()).isHuman() == False:
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SPELL_OBELISK'),1)
 				for i in range(2):
 					iBonus = gc.getGame().getSorenRandNum(7, "Spellist AI bonus")
-					iAge = pPlayer.getCurrentEra()
+					iAge = gc.getPlayer(city.getOwner()).getCurrentEra()
 					if iBonus == 0: 
 						city.setBuildingYieldChange(gc.getInfoTypeForString('BUILDINGCLASS_SPELL_OBELISK'),iBonus, (TohoUnitList.SpellistAIBonusList[(iAge)]+1)/2 )
 					elif iBonus <= 2:
@@ -4045,13 +4132,13 @@ class CvEventManager:
 						city.setBuildingCommerceChange(gc.getInfoTypeForString('BUILDINGCLASS_SPELL_OBELISK'),iBonus-3, TohoUnitList.SpellistAIBonusList[iAge] )
 		
 		#かなこの志向があれば平原丘に
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_KANAKOLIST')):
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_KANAKOLIST')):
 			if city.isCapital():
 				city.plot().setPlotType(PlotTypes.PLOT_HILLS,True,True)
 				city.plot().setTerrainType(gc.getInfoTypeForString("TERRAIN_PLAINS"),True,True)
 		
 		#小傘の固有志向があればさでずむが立つ　自分で建設した以外の都市では、ターンが経過するたつようになる
-		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_KOGASALIST')):
+		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_KOGASALIST')):
 			city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SADESM'),1)
 		
 		#CvGameUtils.doprint("test---------------")
@@ -4062,14 +4149,15 @@ class CvEventManager:
 		##### </written by F> #####
 		
 		if (city.getOwner() == gc.getGame().getActivePlayer()):
-			self.__eventEditCityNameBegin(city, False)	
+			city.setCitizensAutomated(CFG_EnabledCitizensAutomated)
+			self.__eventEditCityNameBegin(city, False)
 		CvUtil.pyPrint('City Built Event: %s' %(city.getName()))
-		
+
 	def onCityRazed(self, argsList):
 		'City Razed'
 		city, iPlayer = argsList
 		iOwner = city.findHighestCulture()
-		
+
 		# Partisans!
 		if city.getPopulation > 1 and iOwner != -1 and iPlayer != -1:
 			owner = gc.getPlayer(iOwner)
@@ -4077,16 +4165,16 @@ class CvEventManager:
 				if gc.getTeam(owner.getTeam()).isAtWar(gc.getPlayer(iPlayer).getTeam()):
 					if gc.getNumEventTriggerInfos() > 0: # prevents mods that don't have events from getting an error
 						iEvent = CvUtil.findInfoTypeNum(gc.getEventTriggerInfo, gc.getNumEventTriggerInfos(),'EVENTTRIGGER_PARTISANS')
-						if iEvent != -1 and gc.getGame().isEventActive(iEvent) and owner.getEventTriggerWeight(iEvent) < 0:
+						if iEvent != -1 and gc.getGame().isEventActive(iEvent) and owner.getEventTriggerWeight(iEvent)< 0:
 							triggerData = owner.initTriggeredData(iEvent, true, -1, city.getX(), city.getY(), iPlayer, city.getID(), -1, -1, -1, -1)
-			
+
 		CvUtil.pyPrint("City Razed Event: %s" %(city.getName(),))
-	
+
 	def onCityAcquired(self, argsList):
 		'City Acquired'
 		iPreviousOwner,iNewOwner,pCity,bConquest,bTrade = argsList
 		CvUtil.pyPrint('City Acquired Event: %s' %(pCity.getName()))
-	
+
 	def onCityAcquiredAndKept(self, argsList):
 		'City Acquired and Kept'
 		iOwner,pCity = argsList
@@ -4095,6 +4183,7 @@ class CvEventManager:
 		
 		#こいしの志向があれば反乱３割引
 		if gc.getPlayer(pCity.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_KOISHILIST')):
+			if pCity.isCapital():
 				pCity.changeOccupationTimer( -(pCity.getOccupationTimer()*3/10)  )
 		
 		#統合MOD追記部分ここから
@@ -4169,37 +4258,36 @@ class CvEventManager:
 		#統合MOD追記部分ここまで
 		
 		##### </written by F> #####
-		
 		CvUtil.pyPrint('City Acquired and Kept Event: %s' %(pCity.getName()))
-	
+
 	def onCityLost(self, argsList):
 		'City Lost'
 		city = argsList[0]
 		player = PyPlayer(city.getOwner())
 		if (not self.__LOG_CITYLOST):
 			return
-		CvUtil.pyPrint('City %s was lost by Player %d Civilization %s' 
+		CvUtil.pyPrint('City %s was lost by Player %d Civilization %s'
 			%(city.getName(), player.getID(), player.getCivilizationName()))
-	
+
 	def onCultureExpansion(self, argsList):
 		'City Culture Expansion'
 		pCity = argsList[0]
 		iPlayer = argsList[1]
 		CvUtil.pyPrint("City %s's culture has expanded" %(pCity.getName(),))
-	
+
 	def onCityGrowth(self, argsList):
 		'City Population Growth'
 		pCity = argsList[0]
 		iPlayer = argsList[1]
 		CvUtil.pyPrint("%s has grown" %(pCity.getName(),))
-	
+
 	def onCityDoTurn(self, argsList):
 		'City Production'
 		pCity = argsList[0]
 		iPlayer = argsList[1]
 
 		CvAdvisorUtils.cityAdvise(pCity, iPlayer)
-	
+
 	def onCityBuildingUnit(self, argsList):
 		'City begins building a unit'
 		pCity = argsList[0]
@@ -4207,22 +4295,21 @@ class CvEventManager:
 		if (not self.__LOG_CITYBUILDING):
 			return
 		CvUtil.pyPrint("%s has begun building a %s" %(pCity.getName(),gc.getUnitInfo(iUnitType).getDescription()))
-	
+
 	def onCityBuildingBuilding(self, argsList):
 		'City begins building a Building'
 		pCity = argsList[0]
 		iBuildingType = argsList[1]
-		
 		if (not self.__LOG_CITYBUILDING):
 			return
 		CvUtil.pyPrint("%s has begun building a %s" %(pCity.getName(),gc.getBuildingInfo(iBuildingType).getDescription()))
-	
+
 	def onCityRename(self, argsList):
 		'City is renamed'
 		pCity = argsList[0]
 		if (pCity.getOwner() == gc.getGame().getActivePlayer()):
-			self.__eventEditCityNameBegin(pCity, True)	
-	
+			self.__eventEditCityNameBegin(pCity, True)
+
 	def onCityHurry(self, argsList):
 		'City is renamed'
 		pCity = argsList[0]
@@ -4235,23 +4322,23 @@ class CvEventManager:
 			victoryInfo = gc.getVictoryInfo(int(iVictory))
 			CvUtil.pyPrint("Victory!  Team %d achieves a %s victory"
 				%(iTeam, victoryInfo.getDescription()))
-	
+
 	def onVassalState(self, argsList):
 		'Vassal State'
 		iMaster, iVassal, bVassal = argsList
-		
+
 		if (bVassal):
 			CvUtil.pyPrint("Team %d becomes a Vassal State of Team %d"
 				%(iVassal, iMaster))
 		else:
 			CvUtil.pyPrint("Team %d revolts and is no longer a Vassal State of Team %d"
 				%(iVassal, iMaster))
-	
+
 	def onGameUpdate(self, argsList):
 		'sample generic event, called on each game turn slice'
 		genericArgs = argsList[0][0]	# tuple of tuple of my args
 		turnSlice = genericArgs[0]
-	
+
 	def onMouseEvent(self, argsList):
 		'mouse handler - returns 1 if the event was consumed'
 		eventType,mx,my,px,py,interfaceConsumed,screens = argsList
@@ -4261,22 +4348,46 @@ class CvEventManager:
 					# Launch Edit City Event
 					self.beginEvent( CvUtil.EventEditCity, (px,py) )
 					return 1
-				
+
 				elif (self.bAllowCheats and self.bCtrl and self.bShift and not interfaceConsumed):
 					# Launch Place Object Event
 					self.beginEvent( CvUtil.EventPlaceObject, (px, py) )
 					return 1
-			
+
 		if ( eventType == self.EventBack ):
 			return CvScreensInterface.handleBack(screens)
 		elif ( eventType == self.EventForward ):
 			return CvScreensInterface.handleForward(screens)
-		
-		return 0
-		
 
-#################### TRIGGERED EVENTS ##################	
-				
+		global bCityPlacementMode
+
+		if (bCityPlacementMode):
+			pPlayer = gc.getActivePlayer()
+			CyEngine().clearColoredPlots(PlotLandscapeLayers.PLOT_LANDSCAPE_LAYER_WORLD_BUILDER)
+			pPlot = CyInterface().getMouseOverPlot()
+			iGrid = PlayerUtils.getGameOption(pPlayer, "CityGrid")
+			if (iGrid == 1):
+				PlayerUtils.colorizeCityPlots(pPlayer)
+			if (pPlot.isPeak() or pPlot.isWater() or pPlot.getTerrainType() == gc.getInfoTypeForString("TERRAIN_DUSTSEA") or pPlot.getTerrainType() == gc.getInfoTypeForString("TERRAIN_CRATERRIM") or not pPlot.isRevealed(pPlayer.getTeam(), False)):
+				pass
+			else:
+				bErase = False
+				for iSign in xrange(CyEngine().getNumSigns()):
+					pSign = CyEngine().getSignByIndex(iSign)
+					pSignPlot = pSign.getPlot()
+					if (pSignPlot.at(pPlot.getX(), pPlot.getY()) and pSign.getPlayerType() == pPlayer.getID()):
+						bErase = True
+						PlayerUtils.removeSiteFromList(pPlayer, pPlot)
+						CyEngine().removeSign(pSignPlot, pPlayer.getID())
+						break
+				if (not bErase):
+					self.__eventPlayUtilsAddSiteEventPopupBegin((pPlot.getX(), pPlot.getY(), pPlayer.getID()))
+
+		return 0
+
+
+#################### TRIGGERED EVENTS ##################
+
 	def __eventEditCityNameBegin(self, city, bRename):
 		popup = PyPopup.PyPopup(CvUtil.EventEditCityName, EventContextTypes.EVENTCONTEXT_ALL)
 		popup.setUserData((city.getID(), bRename))
@@ -4284,9 +4395,15 @@ class CvEventManager:
 		popup.setBodyString(localText.getText("TXT_KEY_SETTLE_NEW_CITY_NAME", ()))
 		popup.createEditBox(city.getName())
 		popup.setEditBoxMaxCharCount( 15 )
+		if (city.isCitizensAutomated()):
+			szText = u"\n<font=2> %s</font>"%(localText.getText("TXT_KEY_CITIZENS_AUTOMATED_ON", ()))
+		else:
+			szText = u"\n<font=2> %s</font>"%(localText.getText("TXT_KEY_CITIZENS_AUTOMATED_OFF", ()))
+		popup.setBodyString(szText)
+
 		popup.launch()
-	
-	def __eventEditCityNameApply(self, playerID, userData, popupReturn):	
+
+	def __eventEditCityNameApply(self, playerID, userData, popupReturn):
 		'Edit City Name Event'
 		iCityID = userData[0]
 		bRename = userData[1]
@@ -4301,7 +4418,7 @@ class CvEventManager:
 		'Edit City Event'
 		px,py = argsList
 		CvWBPopups.CvWBPopups().initEditCity(argsList)
-	
+
 	def __eventEditCityApply(self, playerID, userData, popupReturn):
 		'Edit City Event Apply'
 		if (getChtLvl() > 0):
@@ -4310,7 +4427,7 @@ class CvEventManager:
 	def __eventPlaceObjectBegin(self, argsList):
 		'Place Object Event'
 		CvDebugTools.CvDebugTools().initUnitPicker(argsList)
-	
+
 	def __eventPlaceObjectApply(self, playerID, userData, popupReturn):
 		'Place Object Event Apply'
 		if (getChtLvl() > 0):
@@ -4319,21 +4436,21 @@ class CvEventManager:
 	def __eventAwardTechsAndGoldBegin(self, argsList):
 		'Award Techs & Gold Event'
 		CvDebugTools.CvDebugTools().cheatTechs()
-	
+
 	def __eventAwardTechsAndGoldApply(self, playerID, netUserData, popupReturn):
 		'Award Techs & Gold Event Apply'
 		if (getChtLvl() > 0):
 			CvDebugTools.CvDebugTools().applyTechCheat( (popupReturn) )
-	
+
 	def __eventShowWonderBegin(self, argsList):
 		'Show Wonder Event'
 		CvDebugTools.CvDebugTools().wonderMovie()
-	
+
 	def __eventShowWonderApply(self, playerID, netUserData, popupReturn):
 		'Wonder Movie Apply'
 		if (getChtLvl() > 0):
 			CvDebugTools.CvDebugTools().applyWonderMovie( (popupReturn) )
-	
+
 	def __eventEditUnitNameBegin(self, argsList):
 		pUnit = argsList
 		popup = PyPopup.PyPopup(CvUtil.EventEditUnitName, EventContextTypes.EVENTCONTEXT_ALL)
@@ -4342,13 +4459,13 @@ class CvEventManager:
 		popup.createEditBox(pUnit.getNameNoDesc())
 		popup.launch()
 
-	def __eventEditUnitNameApply(self, playerID, userData, popupReturn):	
+	def __eventEditUnitNameApply(self, playerID, userData, popupReturn):
 		'Edit Unit Name Event'
 		iUnitID = userData[0]
 		unit = gc.getPlayer(playerID).getUnit(iUnitID)
 		newName = popupReturn.getEditBoxString(0)
 		if (len(newName) > 25):
-			newName = newName[:25]			
+			newName = newName[:25]
 		unit.setName(newName)
 
 	def __eventWBAllPlotsPopupBegin(self, argsList):
@@ -4402,5 +4519,37 @@ class CvEventManager:
 		iStartYear = popupReturn.getSpinnerWidgetValue(int(0))
 		CvScreensInterface.getWorldBuilderScreen().setStartYearCB(iStartYear)
 		return
-	
 
+	def __eventPlayUtilsAddSiteEventPopupBegin(self, argsList):
+		' Add city marker popup '
+		popup = PyPopup.PyPopup(CvUtil.EventSitePopup, EventContextTypes.EVENTCONTEXT_ALL)
+		popup.setUserData(argsList)
+		popup.setHeaderString(localText.getText("TXT_KEY_CITY_PLACEMENT_MODE_HEADER", ()))
+		message = localText.getText("TXT_KEY_CITY_PLACEMENT_MODE_BODY", ())
+		popup.setBodyString( message )
+		popup.createEditBox(UserPrefs.cityPlacementMakerPreset)#localText.getText("TXT_KEY_CITY_PLACEMENT_MODE_MARKER_TEXT", ()))
+		popup.setEditBoxMaxCharCount( 21 )
+		popup.launch(False, PopupStates.POPUPSTATE_QUEUED)
+
+	def __eventPlayUtilsAddSiteEventPopupApply(self, playerID, netUserData, popupReturn):
+		sCaption = popupReturn.getEditBoxString(0)
+		pPlot = gc.getMap().plot(netUserData[0], netUserData[1])
+		CyEngine().addSign(pPlot, playerID, sCaption)
+		PlayerUtils.addSiteToList(gc.getPlayer(playerID), pPlot)
+
+	def __eventUnitPlacementAddSignEventPopupBegin(self, argsList):
+		' Add landmark sign popup '
+		popup = PyPopup.PyPopup(CvUtil.EventSignPopup, EventContextTypes.EVENTCONTEXT_ALL)
+		popup.setUserData(argsList)
+		popup.setHeaderString(localText.getText("TXT_KEY_UNIT_PLACEMENT_MARKER_TITLE", ()))
+		message = localText.getText("TXT_KEY_UNIT_PLACEMENT_MARKER_BODY", ())
+		popup.setBodyString(message)
+		popup.createEditBox(UserPrefs.unitPlacementsMakerPreset)#"U.P.: ")
+		popup.setEditBoxMaxCharCount(15)
+		popup.launch(False, PopupStates.POPUPSTATE_QUEUED)
+
+	def __eventUnitPlacementAddSignEventPopupApply(self, playerID, netUserData, popupReturn):
+		sCaption = popupReturn.getEditBoxString(0) 
+		pPlot = gc.getMap().plot(netUserData[0], netUserData[1])
+		CyEngine().addSign(pPlot, playerID, sCaption)
+		UnitPlacement.UnitPlacement().addSignDict(netUserData[0], netUserData[1], sCaption)
