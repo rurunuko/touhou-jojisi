@@ -1724,6 +1724,9 @@ class CvEventManager:
 						if sBuilding == 'BUILDING_SUZURAN':
 							if Functions.checkUnit(pCity.getX(),pCity.getY(),[[0,0],],gc.getInfoTypeForString('UNIT_MEDICINwithSU1'),gc.getInfoTypeForString('UNIT_MEDICINwithSU6')) == False:
 								pCity.setNumRealBuilding(gc.getInfoTypeForString(sBuilding),0)
+						if sBuilding == 'BUILDING_SHUEN':
+							if Functions.checkUnit(pCity.getX(),pCity.getY(),[[0,0],],gc.getInfoTypeForString('UNIT_SUIKA0_YOUKAI'),gc.getInfoTypeForString('UNIT_SUIKA6_YOUKAI')) == False:
+								pCity.setNumRealBuilding(gc.getInfoTypeForString(sBuilding),0)
 						else:
 							pCity.setNumRealBuilding(gc.getInfoTypeForString(sBuilding),0)
 			
