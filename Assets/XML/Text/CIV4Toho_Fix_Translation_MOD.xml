@@ -1,0 +1,1951 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Civilopedia CivLeaders -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- Fix_Translation_MOD Start -->
+	<!-- CIV4GameText_Civilopedia_BuildingsProjects.xml -->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FORGE_PEDIA</Tag>
+		<English />
+		<French>[TAB]昔の集落には、たいてい小さな火炉で商売する鍛冶屋がいたものです。石炭で熱しながら、ふいごで空気を送り込むことにより、火炉内の温度はかなりの高温に達します。金属を成型するには、火炉の中で焼き、鉄床の上に置いて金槌で叩きます。冷水に金属を浸せば、冷まして硬くすることができます。あるいは、火炉内で溶かした金属を鋳型に流し込んで成型することも可能です。[PARAGRAPH:1]今日の溶鉱炉は巨大化し、その運転に多くの労働者を必要とします。しかし、大きくなったとはいえ、基本的には鍛冶屋が使う火炉と同じです。数トンもの鉱石を巨大な桶に投入し、溶鉱炉で焼くのです。不純物を取り除くにはさまざまな処理が必要となりますが、溶解した金属を他の原料と混ぜ合わせることにより、鋼鉄などの合金を作り出すことが可能です。精錬後の合金はシート状に伸ばしたり、鋳型に流し込んで成型したり、硬貨を鋳造したり、さまざまな用途に使用できます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]昔の集落には、たいてい小さな火炉で商売する鍛冶屋がいたものです。石炭で熱しながら、ふいごで空気を送り込むことにより、火炉内の温度はかなりの高温に達します。金属を成型するには、火炉の中で焼き、鉄床の上に置いて金槌で叩きます。冷水に金属を浸せば、冷まして硬くすることができます。あるいは、火炉内で溶かした金属を鋳型に流し込んで成型することも可能です。[PARAGRAPH:1]今日の溶鉱炉は巨大化し、その運転に多くの労働者を必要とします。しかし、大きくなったとはいえ、基本的には鍛冶屋が使う火炉と同じです。数トンもの鉱石を巨大な桶に投入し、溶鉱炉で焼くのです。不純物を取り除くにはさまざまな処理が必要となりますが、溶解した金属を他の原料と混ぜ合わせることにより、鋼鉄などの合金を作り出すことが可能です。精錬後の合金はシート状に伸ばしたり、鋳型に流し込んで成型したり、硬貨を鋳造したり、さまざまな用途に使用できます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HAGIA_SOPHIA_PEDIA</Tag>
+		<English />
+		<French>[TAB]　　　"聖なる英知の教会"と言われるハギア・ソフィア大聖堂は530年に東方正教会として建立されました。トルコのイスタンブール（旧名コンスタンチノープル）に建つハギア・ソフィアは石と大理石で出来た装飾豊かな美しい建物で、頭頂部には直径約30mという巨大な金ドームを冠しています。当時としては想像を絶する技術的困難を伴ったであろうドームは地震により過去に数回崩落しています。敷地の四方には優美なミナレット（尖塔）がそびえています。[PARAGRAPH:2]　　　大聖堂の内部は、まるで頭上に浮かんでいるかのように見えるドームを支える円柱や迫持が立ち並び、壮大な空間を醸し出しています。壁はカラフルな大理石と、聖書の物語やキリスト教の聖人を模した金のモザイクで飾られています。[PARAGRAPH:2]　　　1453年、コンスタンチノープルがオスマントルコに占領されると、ハギア・ソフィア大聖堂もモスクに改宗させられ、モザイクの多くが漆喰で覆われました（モスクでは偶像崇拝は禁止ですから）。[PARAGRAPH:2]　　　1934年、当時のトルコ大統領ケマル・アタチェルクは博物館への改装を命じ、以後、修復が重ねられてきました。最近行われた修復作業でも、何点かのモザイクが新たに発見されています。苦難の時代を経てきたハギア・ソフィア大聖堂ですが、現存する世界で最も美しい建造物の1つであると評されています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]　　　"聖なる英知の教会"と言われるハギア・ソフィア大聖堂は530年に東方正教会として建立されました。トルコのイスタンブール（旧名コンスタンチノープル）に建つハギア・ソフィアは石と大理石で出来た装飾豊かな美しい建物で、頭頂部には直径約30mという巨大な金ドームを冠しています。当時としては想像を絶する技術的困難を伴ったであろうドームは地震により過去に数回崩落しています。敷地の四方には優美なミナレット（尖塔）がそびえています。[PARAGRAPH:2]　　　大聖堂の内部は、まるで頭上に浮かんでいるかのように見えるドームを支える円柱や迫持が立ち並び、壮大な空間を醸し出しています。壁はカラフルな大理石と、聖書の物語やキリスト教の聖人を模した金のモザイクで飾られています。[PARAGRAPH:2]　　　1453年、コンスタンチノープルがオスマントルコに占領されると、ハギア・ソフィア大聖堂もモスクに改宗させられ、モザイクの多くが漆喰で覆われました（モスクでは偶像崇拝は禁止ですから）。[PARAGRAPH:2]　　　1934年、当時のトルコ大統領ケマル・アタチェルクは博物館への改装を命じ、以後、修復が重ねられてきました。最近行われた修復作業でも、何点かのモザイクが新たに発見されています。苦難の時代を経てきたハギア・ソフィア大聖堂ですが、現存する世界で最も美しい建造物の1つであると評されています。</Japanese>
+	</TEXT>
+	<!-- CIV4GameText_Strategy.xml -->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_METAL_CASTING_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_TECH_TEXT]鋳金[COLOR_REVERT]を発見すると、[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]をつくって都市の〈生産力〉を増大できるようになります。また文化遺産の1つ、[COLOR_BUILDING_TEXT]ロードス島の巨神像[COLOR_REVERT]を建設し、労働者に[COLOR_HIGHLIGHT_TEXT]工房[COLOR_REVERT]をつくらせることも可能になります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_TECH_TEXT]鋳金[COLOR_REVERT]を発見すると、[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]をつくって都市の〈生産力〉を増大できるようになります。また文化遺産の1つ、[COLOR_BUILDING_TEXT]ロードス島の巨神像[COLOR_REVERT]を建設し、労働者に[COLOR_HIGHLIGHT_TEXT]工房[COLOR_REVERT]をつくらせることも可能になります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RECYCLING_CENTER_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_BUILDING_TEXT]リサイクル施設[COLOR_REVERT]は、[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]や[COLOR_BUILDING_TEXT]工場[COLOR_REVERT]のような都市改善が引きおこす環境汚染を解消します。大きな都市ほど環境汚染は深刻化するものです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_BUILDING_TEXT]リサイクル施設[COLOR_REVERT]は、[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]や[COLOR_BUILDING_TEXT]工場[COLOR_REVERT]のような都市改善が引きおこす環境汚染を解消します。大きな都市ほど環境汚染は深刻化するものです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COAL_PLANT_STRATEGY</Tag>
+		<English />
+		<French>火力発電所は工場に電力を供給します。ただし、環境汚染によって都市の〈衛生〉は損なわれるでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>火力発電所は工場に電力を供給します。ただし、環境汚染によって都市の〈衛生〉は損なわれるでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HYDRO_PLANT_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_BUILDING_TEXT]水力発電所[COLOR_REVERT]は環境を汚染することなく[COLOR_BUILDING_TEXT]工場[COLOR_REVERT]に電力を供給します。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_BUILDING_TEXT]水力発電所[COLOR_REVERT]は環境を汚染することなく[COLOR_BUILDING_TEXT]工場[COLOR_REVERT]に電力を供給します。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NUCLEAR_PLANT_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_HIGHLIGHT_TEXT]ウラン[COLOR_REVERT]が確保できれば、[COLOR_BUILDING_TEXT]原子力発電所[COLOR_REVERT]は[COLOR_BUILDING_TEXT]工場[COLOR_REVERT]に電力を供給します。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_HIGHLIGHT_TEXT]ウラン[COLOR_REVERT]が確保できれば、[COLOR_BUILDING_TEXT]原子力発電所[COLOR_REVERT]は[COLOR_BUILDING_TEXT]工場[COLOR_REVERT]に電力を供給します。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_DAM_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_BUILDING_TEXT]三峡ダム[COLOR_REVERT]は同じ大陸にある全都市にクリーンな電力を供給します。電力は[COLOR_BUILDING_TEXT]工場[COLOR_REVERT]の生産力を高めるのに欠かせません。また地元では[COLOR_UNIT_TEXT]大技術者[COLOR_REVERT]の生まれる確率が高まります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_BUILDING_TEXT]三峡ダム[COLOR_REVERT]は同じ大陸にある全都市にクリーンな電力を供給します。電力は[COLOR_BUILDING_TEXT]工場[COLOR_REVERT]の生産力を高めるのに欠かせません。また地元では[COLOR_UNIT_TEXT]大技術者[COLOR_REVERT]の生まれる確率が高まります。</Japanese>
+	</TEXT>
+	<!-- CIV4GameTextInfos.xml -->
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_PROVIDES_BONUS</Tag>
+		<English />
+		<French>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%s1_BonusNameを供給[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%s1_BonusNameを供給[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WITH_TECH</Tag>
+		<English />
+		<French>[ICON_BULLET][COLOR_TECH_TEXT]%s3_TechName[COLOR_REVERT]があれば、%F2_YieldIcon%D1_Change</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET][COLOR_TECH_TEXT]%s3_TechName[COLOR_REVERT]があれば、%F2_YieldIcon%D1_Change</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_NO_BUILD_FRESH_WATER</Tag>
+		<English />
+		<French>[ICON_BULLET]淡水の付近では建設不可</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]淡水の付近では建設不可</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_FRESH_WATER_CITIES</Tag>
+		<English />
+		<French>淡水のそばでなければ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>淡水のそばでなければ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_NO_FRESH_WATER_CITIES</Tag>
+		<English />
+		<French>[NEWLINE][ICON_BULLET]淡水のそばでの都市建設は不可</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[NEWLINE][ICON_BULLET]淡水のそばでの都市建設は不可</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_ADDS_FRESH_WATER</Tag>
+		<English />
+		<French>[NEWLINE][ICON_BULLET]淡水源になる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[NEWLINE][ICON_BULLET]淡水源になる</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_REVEALED_BY</Tag>
+		<English />
+		<French>[ICON_BULLET][COLOR_TECH_TEXT]%s1_TechName[COLOR_REVERT]により発見</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET][COLOR_TECH_TEXT]%s1_TechName[COLOR_REVERT]により発見</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HEALS_SAME_TEXT</Tag>
+		<English />
+		<French>[ICON_BULLET]同じスクエアにいるユニットをさらに%d1_Amount%%回復[SPACE]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]同じスクエアにいるユニットをさらに%d1_Amount%%回復[SPACE]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HEALS_ADJACENT_TEXT</Tag>
+		<English />
+		<French>[ICON_BULLET]隣接スクエアにいるユニットをさらに%d1_Heals%%回復[SPACE]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]隣接スクエアにいるユニットをさらに%d1_Heals%%回復[SPACE]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MILITARY_PRODUCTION</Tag>
+		<English />
+		<French>[ICON_BULLET]軍事ユニット生産%D1_Mod%%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]軍事ユニット生産%D1_Mod%%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CONSCRIPTION</Tag>
+		<English />
+		<French>[ICON_BULLET]1ターンにつき%d1_Num[NUM1:ユニット:つの都市でユニット]を[LINK=CONCEPT_DRAFT]徴兵[\LINK]可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]1ターンにつき%d1_Num[NUM1:ユニット:つの都市でユニット]を[LINK=CONCEPT_DRAFT]徴兵[\LINK]可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_TRADE_ROUTES</Tag>
+		<English />
+		<French>[ICON_BULLET]都市ごとに交易路（[ICON_TRADE]）%D1_Change</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]都市ごとに交易路（[ICON_TRADE]）%D1_Change</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_NON_STATE_REL_HAPPINESS_WITH_STATE</Tag>
+		<English />
+		<French>[ICON_BULLET]都市に伝播している[ICON_RELIGION]1つにつき%F2_HappyOrUn%D1_Change</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]都市に伝播している[ICON_RELIGION]1つにつき%F2_HappyOrUn%D1_Change</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PER_CITY_WITH</Tag>
+		<English />
+		<French>を[SPACE]%F1_RelIconが進出している1都市ごとに取得</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>を[SPACE]%F1_RelIconが進出している1都市ごとに取得</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PROVIDES_POWER</Tag>
+		<English />
+		<French>[ICON_BULLET]電力を供給 （[ICON_POWER]）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]電力を供給 （[ICON_POWER]）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PROVIDES_AREA_CLEAN_POWER</Tag>
+		<English />
+		<French>[ICON_BULLET]この大陸の全都市に電力（[ICON_POWER]）を供給</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]この大陸の全都市に電力（[ICON_POWER]）を供給</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BIRTH_RATE_MOD</Tag>
+		<English />
+		<French>[ICON_BULLET] [ICON_GREATPEOPLE] 出生率%D1_Mod%%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET] [ICON_GREATPEOPLE] 出生率%D1_Mod%%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WITH_POWER</Tag>
+		<English />
+		<French>[SPACE]電力（[ICON_POWER]）があれば</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[SPACE]電力（[ICON_POWER]）があれば</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TURN_CITIZEN_INTO</Tag>
+		<English />
+		<French>[ICON_BULLET]1人の市民を[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s1_SpecName[\LINK][COLOR_REVERT]に転向可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]1人の市民を[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s1_SpecName[\LINK][COLOR_REVERT]に転向可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TURN_CITIZENS_INTO</Tag>
+		<English />
+		<French>[ICON_BULLET]%d1_Num人の市民を[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s2_SpclstName[\LINK][COLOR_REVERT]に転向可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]%d1_Num人の市民を[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s2_SpclstName[\LINK][COLOR_REVERT]に転向可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PROVIDES_POWER_WITH</Tag>
+		<English />
+		<French>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT][LINK=literal]%s1_BonusName[\LINK][COLOR_REVERT]があれば、電力を供給</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT][LINK=literal]%s1_BonusName[\LINK][COLOR_REVERT]があれば、電力を供給</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_GREAT_PEOPLE_MODIFIER</Tag>
+		<English />
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET][ICON_GREATPEOPLE]出生率%D1%%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[NEWLINE][SPACE][SPACE][ICON_BULLET][ICON_GREATPEOPLE]出生率%D1%%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TEAM_WONDER_PRODUCTION_MODIFIER</Tag>
+		<English />
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]チームの文化遺産の生産%D1%%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[NEWLINE][SPACE][SPACE][ICON_BULLET]チームの文化遺産の生産%D1%%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NATIONAL_WONDER_PRODUCTION_MODIFIER</Tag>
+		<English />
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]国家遺産の生産%D1%%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[NEWLINE][SPACE][SPACE][ICON_BULLET]国家遺産の生産%D1%%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_COMMERCE_MODIFIERS</Tag>
+		<English />
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET] %F2_commerce%D1%%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[NEWLINE][SPACE][SPACE][ICON_BULLET] %F2_commerce%D1%%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ANGER_OCCUPIED</Tag>
+		<English />
+		<French>[ICON_UNHAPPY]+%d1_Change:「この国の文化には馴染めない！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_UNHAPPY]+%d1_Change:「この国の文化には馴染めない！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLOT_FRESH_WATER</Tag>
+		<English />
+		<French>淡水</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>淡水</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_FROM_FRESH_WATER</Tag>
+		<English />
+		<French>淡水により[ICON_UNHEALTHY] %D1_Change</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>淡水により[ICON_UNHEALTHY] %D1_Change</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HEALTH_FROM_POWER</Tag>
+		<English />
+		<French>電力により[ICON_UNHEALTHY]%D1_Change</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>電力により[ICON_UNHEALTHY]%D1_Change</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HEALTH_FROM_BONUSES</Tag>
+		<English />
+		<French>資源により[ICON_UNHEALTHY]%D1_Change</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>資源により[ICON_UNHEALTHY]%D1_Change</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HEALTH_FROM_FRESH_WATER</Tag>
+		<English />
+		<French>淡水により[ICON_HEALTHY]%D1_Change</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>淡水により[ICON_HEALTHY]%D1_Change</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_GOOD_HEALTH_FROM_POWER</Tag>
+		<English />
+		<French>電力により[ICON_HEALTHY] %D1_Change</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>電力により[ICON_HEALTHY] %D1_Change</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_GOOD_HEALTH_FROM_BONUSES</Tag>
+		<English />
+		<French>資源により[ICON_HEALTHY]%D1_Change</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>資源により[ICON_HEALTHY]%D1_Change</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_UNITS_UNDER_ATTACK</Tag>
+		<English />
+		<French>我が軍が攻撃を受けています！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍が攻撃を受けています！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_STRIKE</Tag>
+		<English />
+		<French>[SPACE][COLOR_NEGATIVE_TEXT]ストライキ[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[SPACE][COLOR_NEGATIVE_TEXT]ストライキ[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_UNIT_DIED_ATTACKING</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameが、敵の%s2_EnUNameを攻撃中に全滅しました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameが、敵の%s2_EnUNameを攻撃中に全滅しました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_KILLED_ENEMY_UNIT</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameが、防御中に敵の%s2_EnUNameを打ち倒しました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameが、防御中に敵の%s2_EnUNameを打ち倒しました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_UNIT_DESTROYED_ENEMY</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameが、敵の%s2_EnUNameを打ち倒しました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameが、敵の%s2_EnUNameを打ち倒しました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_UNIT_WAS_DESTROYED</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameが、防御中に敵の%s2_EnUNameによって打ち倒されました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameが、防御中に敵の%s2_EnUNameによって打ち倒されました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_UNIT_WITHDRAW</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameが、敵の%s2_EnUNameとの戦闘から退却しました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameが、敵の%s2_EnUNameとの戦闘から退却しました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ENEMY_UNIT_WITHDRAW</Tag>
+		<English />
+		<French>敵の%s1_EnUNameが、我が軍の%s2_UnitNameとの戦闘から退却しました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>敵の%s1_EnUNameが、我が軍の%s2_UnitNameとの戦闘から退却しました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_REDUCE_CITY_DEFENSES</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameによって、%s2_CityNameの防御が%d3_NewVal%%に低下しました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameによって、%s2_CityNameの防御が%d3_NewVal%%に低下しました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_UNIT_SHOT_DOWN</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameが、敵の%s2_EnUNameに撃ち落とされました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameが、敵の%s2_EnUNameに撃ち落とされました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_SPY_SABOTAGED</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameが、%s2_CityNameの付近で破壊工作を成功させました！！！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameが、%s2_CityNameの付近で破壊工作を成功させました！！！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOUR_SPY_CAUGHT</Tag>
+		<English />
+		<French>我が国の%s1_UnitNameが捕らえられて、「拘留」尋問されました！！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国の%s1_UnitNameが捕らえられて、「拘留」尋問されました！！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_SPY_DESTROYED_PRODUCTION</Tag>
+		<English />
+		<French>我が国の%s1_UnitNameが、%s3_CityNameで生産中の%s2_ProdNameを破壊しました！！！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国の%s1_UnitNameが、%s3_CityNameで生産中の%s2_ProdNameを破壊しました！！！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_PLANS_STOLEN</Tag>
+		<English />
+		<French>%s1_CityNameにあった我が国の軍事計画が盗まれました！！！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_CityNameにあった我が国の軍事計画が盗まれました！！！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_INFLICT_COL_DMG</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameが、副次的損害を与えました！ （%d2_Num [NUM2:ユニット:ユニット]）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameが、副次的損害を与えました！ （%d2_Num [NUM2:ユニット:ユニット]）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_SHOT_DOWN_ENEMY</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameが、敵の%s2_EnUNameを撃ち落としました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameが、敵の%s2_EnUNameを撃ち落としました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_UNIT_SHOT_DOWN</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameが、敵の%s2_EnUNameに撃ち落とされました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameが、敵の%s2_EnUNameに撃ち落とされました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_HURT_ENEMY_AIR</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameが敵の%s2_EnUNameを迎撃しました！ （ダメージ%d3%%）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameが敵の%s2_EnUNameを迎撃しました！ （ダメージ%d3%%）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_AIR_UNIT_HURT</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameが、敵の%s2_EnUNameに迎撃されました！ （ダメージ%d3%%）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameが、敵の%s2_EnUNameに迎撃されました！ （ダメージ%d3%%）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ENEMY_DEFENSES_REDUCED_TO</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameによって、%s2_CityNameの防御が%d3_Num%%に低下しました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameによって、%s2_CityNameの防御が%d3_Num%%に低下しました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_UNIT_DESTROYED_IMP</Tag>
+		<English />
+		<French>我が国の%s1_UnitNameが、%s2_ImpNameを破壊しました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国の%s1_UnitNameが、%s2_ImpNameを破壊しました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_UNIT_FAIL_DESTROY_IMP</Tag>
+		<English />
+		<French>我が国の%s1_UnitNameが、 %s2_ImpNameの破壊に失敗しました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国の%s1_UnitNameが、 %s2_ImpNameの破壊に失敗しました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TIME_BC</Tag>
+		<English />
+		<French>%d1_Date BC</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%d1_Date BC</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TIME_AD</Tag>
+		<English />
+		<French>%d1_Date AD</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%d1_Date AD</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMBAT_PLOT_MOD_VS_TYPE</Tag>
+		<English />
+		<French>[ICON_BULLET]%D1_Bonus%% 対 %s2_Type</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]%D1_Bonus%% 対 %s2_Type</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMBAT_PLOT_UNIT_MOD</Tag>
+		<English />
+		<French>[ICON_BULLET]%s2_TerrOrFeatにより%D1_Bonus%% （ユニットの能力）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]%s2_TerrOrFeatにより%D1_Bonus%% （ユニットの能力）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameが、敵の%s2_EnUNameに攻撃されました！ （ダメージ%d3_Damage%%）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameが、敵の%s2_EnUNameに攻撃されました！ （ダメージ%d3_Damage%%）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_ATTACK_BY_AIR</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameが、敵の%s2_EnUNameを攻撃しました！ （%d3_Damage%%ダメージ）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameが、敵の%s2_EnUNameを攻撃しました！ （%d3_Damage%%ダメージ）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_DEAL_NO_CANCEL</Tag>
+		<English />
+		<French>この条約は、%d1[NUM1:ターン:ターン]の間はキャンセル不可</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>この条約は、%d1[NUM1:ターン:ターン]の間はキャンセル不可</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_YIELD_POWER</Tag>
+		<English />
+		<French>[ICON_BULLET]電力により%F2%D1%%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]電力により%F2%D1%%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_COMPLETES_WONDER</Tag>
+		<English />
+		<French>%s1_PlyrNameが%s2_BldgNameを完成させました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_PlyrNameが%s2_BldgNameを完成させました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_COMMERCE_TRAIT</Tag>
+		<English />
+		<French>[ICON_BULLET]%s3_traitの指導者により%F2%D1%%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]%s3_traitの指導者により%F2%D1%%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FAV_CIVIC</Tag>
+		<English />
+		<French>好みの社会制度</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>好みの社会制度</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_RIVAL_TRADE</Tag>
+		<English />
+		<French>%D1:「よくも我々の仇敵と交易してくれたな！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%D1:「よくも我々の仇敵と交易してくれたな！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_LAND_TARGET</Tag>
+		<English />
+		<French>%D1:「貴国との国境が緊張状態にあるぞ。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%D1:「貴国との国境が緊張状態にあるぞ。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DENIAL_VICTORY</Tag>
+		<English />
+		<French>「この勝負は我が国が勝たせてもらう。今までありがとう…。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「この勝負は我が国が勝たせてもらう。今までありがとう…。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DENIAL_TECH_WHORE</Tag>
+		<English />
+		<French>「貴国の躍進には脅威を感じる。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「貴国の躍進には脅威を感じる。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MEMORY_SPY_CAUGHT</Tag>
+		<English />
+		<French>「スパイを送り込んでくるような国はとても信用できない！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「スパイを送り込んでくるような国はとても信用できない！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MEMORY_ACCEPTED_STOP_TRADING</Tag>
+		<English />
+		<French>「お前は、我々の敵との交易を断念すると約束したのだな。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「お前は、我々の敵との交易を断念すると約束したのだな。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MEMORY_DENIED_STOP_TRADING</Tag>
+		<English />
+		<French>「お前は、我々の敵との交易をやめないというのだな。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「お前は、我々の敵との交易をやめないというのだな。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_GREATPEOPLE_CIVICS</Tag>
+		<English />
+		<French>[ICON_BULLET]社会制度により[ICON_GREATPEOPLE]%D1%%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]社会制度により[ICON_GREATPEOPLE]%D1%%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_GREATPEOPLE_TRAIT</Tag>
+		<English />
+		<French>[ICON_BULLET]%s2_traitの指導者により[ICON_GREATPEOPLE]%D1%%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]%s2_traitの指導者により[ICON_GREATPEOPLE]%D1%%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FORGE</Tag>
+		<English />
+		<French>鍛冶屋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鍛冶屋</Japanese>
+	</TEXT>
+	<!-- CIV4GameText_Warlords.xml -->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ROMAN_FORUM_PEDIA</Tag>
+		<English />
+		<French>ローマ帝国の市民生活と商業活動は主として「公共広場」、すなわちフォルムを中心に営まれていました。市場や神殿、行政施設、そして政治家が支持者に向けて演説を行う演壇であるロストラに囲まれた開けた空間、それがフォルムです。フォルムのモデルになったのは、古代ギリシャの都市で同様の役割を担っていたアゴラスであると考えられています。最も有名なフォルムは、なんといっても帝都ローマの中心にあったフォルムですが、他の都市もほとんどがフォルムを備えていました。[NEWLINE][NEWLINE]ローマのフォルムには、非常に重要で美しい建物が多く立っており、ロムルス、サトゥルヌス、ヴェスタを奉った神殿やいくつかのバジリカ、さらには元老院の議事堂であるクリア・ホスティラもありました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ローマ帝国の市民生活と商業活動は主として「公共広場」、すなわちフォルムを中心に営まれていました。市場や神殿、行政施設、そして政治家が支持者に向けて演説を行う演壇であるロストラに囲まれた開けた空間、それがフォルムです。フォルムのモデルになったのは、古代ギリシャの都市で同様の役割を担っていたアゴラスであると考えられています。最も有名なフォルムは、なんといっても帝都ローマの中心にあったフォルムですが、他の都市もほとんどがフォルムを備えていました。[NEWLINE][NEWLINE]ローマのフォルムには、非常に重要で美しい建物が多く立っており、ロムルス、サトゥルヌス、ヴェスタを奉った神殿やいくつかのバジリカ、さらには元老院の議事堂であるクリア・ホスティラもありました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_RIVAL_VASSAL</Tag>
+		<English />
+		<French>%D1: 「貴国の覇権主義は到底容認できない！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%D1: 「貴国の覇権主義は到底容認できない！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MALI_MINT_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_BUILDING_TEXT]ミント[COLOR_REVERT]は[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]に替わるマリの建造物で、富を少しばかり増やし、ユニットや建造物の生産速度を向上させますが、都市の〈不衛生〉も増やしてしまいます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_BUILDING_TEXT]ミント[COLOR_REVERT]は[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]に替わるマリの建造物で、富を少しばかり増やし、ユニットや建造物の生産速度を向上させますが、都市の〈不衛生〉も増やしてしまいます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PERSIAN_APOTHECARY_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_BUILDING_TEXT]薬屋[COLOR_REVERT]は[COLOR_BUILDING_TEXT]雑貨商[COLOR_REVERT]に替わるペルシャの建造物で、都市の富と〈衛生〉を増やします。[COLOR_HIGHLIGHT_TEXT]香辛料[COLOR_REVERT]、[COLOR_HIGHLIGHT_TEXT]砂糖[COLOR_REVERT]、[COLOR_HIGHLIGHT_TEXT]ワイン[COLOR_REVERT]、[COLOR_HIGHLIGHT_TEXT]バナナ[COLOR_REVERT]のいずれかが手に入る場合は、〈衛生〉がさらに増えます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_BUILDING_TEXT]薬屋[COLOR_REVERT]は[COLOR_BUILDING_TEXT]雑貨商[COLOR_REVERT]に替わるペルシャの建造物で、都市の富と〈衛生〉を増やします。[COLOR_HIGHLIGHT_TEXT]香辛料[COLOR_REVERT]、[COLOR_HIGHLIGHT_TEXT]砂糖[COLOR_REVERT]、[COLOR_HIGHLIGHT_TEXT]ワイン[COLOR_REVERT]、[COLOR_HIGHLIGHT_TEXT]バナナ[COLOR_REVERT]のいずれかが手に入る場合は、〈衛生〉がさらに増えます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_OF</Tag>
+		<English />
+		<French>%s1_cityName</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_cityName</Japanese>
+	</TEXT>
+	<!-- CIV4GameText_BTS.xml -->
+	<TEXT>
+		<Tag>TXT_KEY_MISC_EMPIRE_SPLIT</Tag>
+		<English />
+		<French>[COLOR_HIGHLIGHT_TEXT]%s1_leaderが植民地の統治を%s3_leaderに委任し、%s2_civが建国されました。[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_HIGHLIGHT_TEXT]%s1_leaderが植民地の統治を%s3_leaderに委任し、%s2_civが建国されました。[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_FOREST_PRESERVE</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_FOREST_PRESERVE]森林保護区[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_FOREST_PRESERVE]森林保護区[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_PER_RESOURCE</Tag>
+		<English />
+		<French>/使用資源</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>/使用資源</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_BONUS_REQUIRED</Tag>
+		<English />
+		<French>[ICON_BULLET]使用資源：[SPACE]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]使用資源：[SPACE]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FOUNDS_CORPORATION</Tag>
+		<English />
+		<French>[ICON_BULLET][LINK=literal]%s1_corporation[\LINK]を出店できる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET][LINK=literal]%s1_corporation[\LINK]を出店できる</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOUR_AIR_UNIT_DAMAGED</Tag>
+		<English />
+		<French>我が軍の%s1_UnitNameが敵の%s2_EnUNameからダメージを受けました(%d3%%)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍の%s1_UnitNameが敵の%s2_EnUNameからダメージを受けました(%d3%%)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_ADVANCED_START</Tag>
+		<English />
+		<French>成長済みスタート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>成長済みスタート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDITIONAL_CHANCE</Tag>
+		<English />
+		<French>[NEWLINE][ICON_BULLET]%s2_txt_key_event_delay_below、確率%d1%%:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[NEWLINE][ICON_BULLET]%s2_txt_key_event_delay_below、確率%d1%%:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MORE_GROWTH</Tag>
+		<English />
+		<French>[ICON_BULLET]地形への普及確率を高める</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]地形への普及確率を高める</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_FORCE_WAR</Tag>
+		<English />
+		<French>異酒徒への聖戦</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>異酒徒への聖戦</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_ELECTION_ASSIGN_CITY</Tag>
+		<English />
+		<French>%s1_civ_adjectiveの都市%s2_cityを%s3_playerへ割譲（総票数%d5_TotNum中%d4_ReqNum票必要）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveの都市%s2_cityを%s3_playerへ割譲（総票数%d5_TotNum中%d4_ReqNum票必要）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BYZANTINE_HIPPODROME_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_BUILDING_TEXT]ヒッポドローム[COLOR_REVERT]は[COLOR_BUILDING_TEXT]劇場[COLOR_REVERT]の代わりにビザンティン帝国が建設できるもので、都市の〈満足〉を増やします。[COLOR_HIGHLIGHT_TEXT]馬[COLOR_REVERT]を入手できるならさらに満足が追加され、文化に投資している金額に応じてさらにボーナスが加算されます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_BUILDING_TEXT]ヒッポドローム[COLOR_REVERT]は[COLOR_BUILDING_TEXT]劇場[COLOR_REVERT]の代わりにビザンティン帝国が建設できるもので、都市の〈満足〉を増やします。[COLOR_HIGHLIGHT_TEXT]馬[COLOR_REVERT]を入手できるならさらに満足が追加され、文化に投資している金額に応じてさらにボーナスが加算されます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_UNIT_TEXT]カタフラクト[COLOR_REVERT]は、[COLOR_UNIT_TEXT]騎士[COLOR_REVERT]の代わりにビザンティン文明で生産されるユニットです。騎士より強力ですが、先制攻撃を防ぐことはできません。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_UNIT_TEXT]カタフラクト[COLOR_REVERT]は、[COLOR_UNIT_TEXT]騎士[COLOR_REVERT]の代わりにビザンティン文明で生産されるユニットです。騎士より強力ですが、先制攻撃を防ぐことはできません。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NATIONAL_PARK_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_BUILDING_TEXT]国立公園[COLOR_REVERT]を建設すると、都市の〈不衛生〉がすべてなくなります。また都市圏内の[COLOR_HIGHLIGHT_TEXT]森林保護区[COLOR_REVERT]1つにつき、専門家が1人無償で与えられ、[COLOR_UNIT_TEXT]大科学者[COLOR_REVERT]が現れる確率が増えます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_BUILDING_TEXT]国立公園[COLOR_REVERT]を建設すると、都市の〈不衛生〉がすべてなくなります。また都市圏内の[COLOR_HIGHLIGHT_TEXT]森林保護区[COLOR_REVERT]1つにつき、専門家が1人無償で与えられ、[COLOR_UNIT_TEXT]大科学者[COLOR_REVERT]が現れる確率が増えます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHWEDAGON_PAYA_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_BUILDING_TEXT]シェダゴン・パゴダ[COLOR_REVERT]を建てた文明は、すべての[COLOR_HIGHLIGHT_TEXT]酒[COLOR_REVERT]制度を選択できるようになり、[COLOR_UNIT_TEXT]大醸造人[COLOR_REVERT]が現れる確率が高くなります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_BUILDING_TEXT]シェダゴン・パゴダ[COLOR_REVERT]を建てた文明は、すべての[COLOR_HIGHLIGHT_TEXT]酒[COLOR_REVERT]制度を選択できるようになり、[COLOR_UNIT_TEXT]大醸造人[COLOR_REVERT]が現れる確率が高くなります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ADVANCED_FLIGHT_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_TECH_TEXT]航空工学[COLOR_REVERT]を研究すると、制空権確保に不可欠な[COLOR_UNIT_TEXT]ガンシップ[COLOR_REVERT]や[COLOR_UNIT_TEXT]ジェット戦闘機[COLOR_REVERT]が生産可能になります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_TECH_TEXT]航空工学[COLOR_REVERT]を研究すると、制空権確保に不可欠な[COLOR_UNIT_TEXT]ガンシップ[COLOR_REVERT]や[COLOR_UNIT_TEXT]ジェット戦闘機[COLOR_REVERT]が生産可能になります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_AESTHETICS_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_TECH_TEXT]美学[COLOR_REVERT]を研究すると、次の3つの世界遺産、[COLOR_BUILDING_TEXT]パルテノン神殿[COLOR_REVERT]、[COLOR_BUILDING_TEXT]ゼウス像[COLOR_REVERT]、[COLOR_BUILDING_TEXT]シェダゴン・パゴダ[COLOR_REVERT]を建設できるようになります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_TECH_TEXT]美学[COLOR_REVERT]を研究すると、次の3つの世界遺産、[COLOR_BUILDING_TEXT]パルテノン神殿[COLOR_REVERT]、[COLOR_BUILDING_TEXT]ゼウス像[COLOR_REVERT]、[COLOR_BUILDING_TEXT]シェダゴン・パゴダ[COLOR_REVERT]を建設できるようになります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_AIR_PROMOTIONS_PEDIA</Tag>
+		<English />
+		<French>[H1]航空ユニットのレベルアップ[\H1][PARAGRAPH:2]他のユニットと同じように航空ユニットもレベルアップします。空港がある都市で生産された航空ユニットは生産時に経験値を3ポイント与えられます。獲得できる戦闘スキルは、他のユニットと同じ戦闘や急襲、伏兵に関するものだけでなく、次のような航空ユニット固有のものあります。[PARAGRAPH:2][BOLD]迎撃：[\BOLD]敵機の迎撃確率を高めます[PARAGRAPH:1][BOLD]行動範囲：[\BOLD]ユニットの行動範囲を拡大します[PARAGRAPH:1][BOLD]エース：[\BOLD]ユニットの回避確率を高めます[PARAGRAPH:2][BOLD]迎撃[\BOLD]の戦闘スキルは航空機だけでなく[LINK=UNIT_MOBILE_SAM]移動式SAM[\LINK]、[LINK=UNIT_SAM_INFANTRY]SAM歩兵[\LINK]、[LINK=UNIT_MECHANIZED_INFANTRY]機械化歩兵[\LINK]も獲得できます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]航空ユニットのレベルアップ[\H1][PARAGRAPH:2]他のユニットと同じように航空ユニットもレベルアップします。空港がある都市で生産された航空ユニットは生産時に経験値を3ポイント与えられます。獲得できる戦闘スキルは、他のユニットと同じ戦闘や急襲、伏兵に関するものだけでなく、次のような航空ユニット固有のものあります。[PARAGRAPH:2][BOLD]迎撃：[\BOLD]敵機の迎撃確率を高めます[PARAGRAPH:1][BOLD]行動範囲：[\BOLD]ユニットの行動範囲を拡大します[PARAGRAPH:1][BOLD]エース：[\BOLD]ユニットの回避確率を高めます[PARAGRAPH:2][BOLD]迎撃[\BOLD]の戦闘スキルは航空機だけでなく[LINK=UNIT_MOBILE_SAM]移動式SAM[\LINK]、[LINK=UNIT_SAM_INFANTRY]SAM歩兵[\LINK]、[LINK=UNIT_MECHANIZED_INFANTRY]機械化歩兵[\LINK]も獲得できます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_LATE_START_PEDIA</Tag>
+		<English />
+		<French>[H1]成長済みスタート[\H1][PARAGRAPH:2]これは『シヴィライゼーション4』の後半のゲームにおいて、文明をあらかじめ自分の好きなように発展させてから、プレイを始められるシステムです。成長済みスタートを使うときはシングルプレイヤーメニューの"ゲームをカスタマイズ"に入ります。すると成長済みスタートなどのチェックボックスが並んだ画面が表示されます。マルチプレイヤーのゲームセットアップ画面にも、これを同じものが表示されます。[NEWLINE][NEWLINE][BOLD]成長済みスタートのルール[\BOLD][PARAGRAPH:1]プレイヤーには一定額のゴールドが与えられます。このゴールドを使ってプレイヤーは都市、建造物、都市の人口、文化、ユニット、資源活用施設、テクノロジー、視界を買います。なおアイテムの中には購入すると取り消しできないものもあるので、購入は慎重に行いましょう。具体的にはテクノロジー、都市、文化、視界は取り消せません。ユニットや建造物は都市に配置しなければなりません。建造物、人口、資源活用施設は1度購入しても削除できます。削除するときは、成長済みスタートメニューから削除するアイテムを選んで、それが置かれたスクエアを右クリックしてください。[PARAGRAPH:1]通常のゲームの場合、リーダーの特性や資源によって一部の建物やユニットの生産時間が短縮されますが、成長済みスタートでは、そうした効果は費用の割引という形を取ります。拡張志向リーダーなら、[LINK=BUILDING_HARBOR]港[\LINK]を安く建設でき、資源のひとつである石材を入手できるなら[LINK=BUILDING_WALLS]防壁[\LINK]が半額で作れます。プレイヤーが得られる金額はマップの規模やプレイを開始する時代、難易度によって変化します。後半の時代からスタートする大型マップで、難易度が低いゲームなら、与えられる金額が特に多くなります。シングルプレイヤーでもマルチプレイヤーでも、カスタムゲームを選んだら、その成長済みスタートで使えるゴールドを調整できます。[PARAGRAPH:1]ゲームに入ったら、マップ上にアイテムを配置できます。ただし配置できるのは、その時点でテクノロジーと資源の両面から可能なものだけです。与えられたゴールドを使ってテクノロジーを獲得すれば、高度なユニットや建物などが作れるようになります。視界を買うこともできます。そうすればプレイヤーが使える地域が広がります。資源活用施設は必要な資源を供給してくれます。成長済みスタートで使われなかったゴールドは、ゲーム開始後そのまま国庫に入ります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]成長済みスタート[\H1][PARAGRAPH:2]これは『シヴィライゼーション4』の後半のゲームにおいて、文明をあらかじめ自分の好きなように発展させてから、プレイを始められるシステムです。成長済みスタートを使うときはシングルプレイヤーメニューの"ゲームをカスタマイズ"に入ります。すると成長済みスタートなどのチェックボックスが並んだ画面が表示されます。マルチプレイヤーのゲームセットアップ画面にも、これを同じものが表示されます。[NEWLINE][NEWLINE][BOLD]成長済みスタートのルール[\BOLD][PARAGRAPH:1]プレイヤーには一定額のゴールドが与えられます。このゴールドを使ってプレイヤーは都市、建造物、都市の人口、文化、ユニット、資源活用施設、テクノロジー、視界を買います。なおアイテムの中には購入すると取り消しできないものもあるので、購入は慎重に行いましょう。具体的にはテクノロジー、都市、文化、視界は取り消せません。ユニットや建造物は都市に配置しなければなりません。建造物、人口、資源活用施設は1度購入しても削除できます。削除するときは、成長済みスタートメニューから削除するアイテムを選んで、それが置かれたスクエアを右クリックしてください。[PARAGRAPH:1]通常のゲームの場合、リーダーの特性や資源によって一部の建物やユニットの生産時間が短縮されますが、成長済みスタートでは、そうした効果は費用の割引という形を取ります。拡張志向リーダーなら、[LINK=BUILDING_HARBOR]港[\LINK]を安く建設でき、資源のひとつである石材を入手できるなら[LINK=BUILDING_WALLS]防壁[\LINK]が半額で作れます。プレイヤーが得られる金額はマップの規模やプレイを開始する時代、難易度によって変化します。後半の時代からスタートする大型マップで、難易度が低いゲームなら、与えられる金額が特に多くなります。シングルプレイヤーでもマルチプレイヤーでも、カスタムゲームを選んだら、その成長済みスタートで使えるゴールドを調整できます。[PARAGRAPH:1]ゲームに入ったら、マップ上にアイテムを配置できます。ただし配置できるのは、その時点でテクノロジーと資源の両面から可能なものだけです。与えられたゴールドを使ってテクノロジーを獲得すれば、高度なユニットや建物などが作れるようになります。視界を買うこともできます。そうすればプレイヤーが使える地域が広がります。資源活用施設は必要な資源を供給してくれます。成長済みスタートで使われなかったゴールドは、ゲーム開始後そのまま国庫に入ります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MEMORY_VOTED_AGAINST_US</Tag>
+		<English />
+		<French>「貴国は我々に不利な投票をした！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「貴国は我々に不利な投票をした！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MEMORY_VOTED_FOR_US</Tag>
+		<English />
+		<French>「貴国は我々に投票してくれた。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「貴国は我々に投票してくれた。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_APOSTOLIC_PALACE_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_BUILDING_TEXT]宴会幹事役[COLOR_REVERT]が建設されると[COLOR_HIGHLIGHT_TEXT]外交[COLOR_REVERT]選挙が行われるようになります。自国に宴会幹事役があると、あなたが選挙の候補となります。また[COLOR_UNIT_TEXT]大醸造人[COLOR_REVERT]が現れる確率が高くなります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_BUILDING_TEXT]宴会幹事役[COLOR_REVERT]が建設されると[COLOR_HIGHLIGHT_TEXT]外交[COLOR_REVERT]選挙が行われるようになります。自国に宴会幹事役があると、あなたが選挙の候補となります。また[COLOR_UNIT_TEXT]大醸造人[COLOR_REVERT]が現れる確率が高くなります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MEMORY_LIBERATED_CITIES</Tag>
+		<English />
+		<French>「貴国は我々の都市を解放してくれた。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「貴国は我々の都市を解放してくれた。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ADVANCED_START_POINTS</Tag>
+		<English />
+		<French>成長済みスタート基本ポイント：</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>成長済みスタート基本ポイント：</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FORCE_ADVANCED_START</Tag>
+		<English />
+		<French>強制成長済みスタート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>強制成長済みスタート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ANGER_DEFY_RESOLUTION</Tag>
+		<English />
+		<French>[ICON_UNHAPPY]+%d1_Change:「世界からあなたは悪党と見られている！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_UNHAPPY]+%d1_Change:「世界からあなたは悪党と見られている！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BTS_FOREST_PRESERVE_PEDIA</Tag>
+		<English />
+		<French>[H1]森林保護区[\H1][PARAGRAPH:2]これは失われつつある森林や竹林を広げるためのゲーム後期の資源活用施設です。森林保護区を設けるには、先に科学的手法のテクノロジーの研究が終わっていなければなりません。森林や竹林の周囲に森林保護区を設ければ、周辺のスクエアに拡大する可能性が高くなります。森林保護区を設置したスクエアにさらに作業を行うことも可能です。[PARAGRAPH:1]森林保護区を設けるといくつかの恩恵があります。都市の近くの森林保護区は満足を増加させます。環境主義制度を採用していれば、商業にもボーナスが加わります。あと国立公園がある都市の文化圏内に森林保護区を設ければ、森林保護区1スクエアにつき1人の専門家がその都市に無償で与えられます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]森林保護区[\H1][PARAGRAPH:2]これは失われつつある森林や竹林を広げるためのゲーム後期の資源活用施設です。森林保護区を設けるには、先に科学的手法のテクノロジーの研究が終わっていなければなりません。森林や竹林の周囲に森林保護区を設ければ、周辺のスクエアに拡大する可能性が高くなります。森林保護区を設置したスクエアにさらに作業を行うことも可能です。[PARAGRAPH:1]森林保護区を設けるといくつかの恩恵があります。都市の近くの森林保護区は満足を増加させます。環境主義制度を採用していれば、商業にもボーナスが加わります。あと国立公園がある都市の文化圏内に森林保護区を設ければ、森林保護区1スクエアにつき1人の専門家がその都市に無償で与えられます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UN_VOTE_FORCE_NO_TRADE</Tag>
+		<English />
+		<French>経済制裁決議</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>経済制裁決議</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UN_VOTE_FORCE_WAR</Tag>
+		<English />
+		<French>国連軍派遣決議</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国連軍派遣決議</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_UN_ASSIGN_CITY</Tag>
+		<English />
+		<French>都市移譲決議 </French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>都市移譲決議 </Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ESPIONAGE_TARGET_PRODUCTION_DESTROYED_IN</Tag>
+		<English />
+		<French>%s2_CityNameで作成していた%s1_buildNameが敵スパイによって破壊されました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s2_CityNameで作成していた%s1_buildNameが敵スパイによって破壊されました！</Japanese>
+	</TEXT>
+	<!-- CIV4GameText_BTS_FourthRoundTranslation.xml -->
+	<TEXT>
+		<Tag>TXT_KEY_DEFENSE_WB_DESC</Tag>
+		<English />
+		<French>都市を建設し、兵を増やします。そして絶え間なく押し寄せる敵の襲撃に備えてください。[NEWLINE][NEWLINE]この「防御戦」は敵を全滅させるゲームで、20レベルにわたって敵が次々と襲ってきます。敵を倒して、ゴールドを獲得し、それを使ってさらにユニットを買い、防御を固めます。戦略を駆使しなければ勝てる見込みはありません。数で言えば敵が圧倒的に有利なのです。[NEWLINE][NEWLINE]特徴：[NEWLINE]部隊の先行展開[NEWLINE]成長済みスタートを活用して、強固な防御体制を構築して敵の侵略を食い止めましょう。間接攻撃ユニットを配置すればまだ離れている敵を倒せます。白兵戦に特化したユニットを配置すれば、敵に肉薄して直接戦えます。敵を倒すごとにゴールドがもらえます。これを使って戦力を強化し、攻勢を強める敵を撃退してください。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>都市を建設し、兵を増やします。そして絶え間なく押し寄せる敵の襲撃に備えてください。[NEWLINE][NEWLINE]この「防御戦」は敵を全滅させるゲームで、20レベルにわたって敵が次々と襲ってきます。敵を倒して、ゴールドを獲得し、それを使ってさらにユニットを買い、防御を固めます。戦略を駆使しなければ勝てる見込みはありません。数で言えば敵が圧倒的に有利なのです。[NEWLINE][NEWLINE]特徴：[NEWLINE]部隊の先行展開[NEWLINE]成長済みスタートを活用して、強固な防御体制を構築して敵の侵略を食い止めましょう。間接攻撃ユニットを配置すればまだ離れている敵を倒せます。白兵戦に特化したユニットを配置すれば、敵に肉薄して直接戦えます。敵を倒すごとにゴールドがもらえます。これを使って戦力を強化し、攻勢を強める敵を撃退してください。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_THEOLOGY_STRATEGY</Tag>
+		<English />
+		<French>このテクノロジーを最初に研究すると、[COLOR_HIGHLIGHT_TEXT]ウィスキー派[COLOR_REVERT]の開祖となります。またこのテクノロジーを持つ文明は、社会制度の[COLOR_HIGHLIGHT_TEXT]神権政治[COLOR_REVERT]を導入できるだけでなく、世界遺産の[COLOR_BUILDING_TEXT]ハギア・ソフィア大聖堂[COLOR_REVERT]や[COLOR_BUILDING_TEXT]宴会幹事役[COLOR_REVERT]を建設できるようになります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>このテクノロジーを最初に研究すると、[COLOR_HIGHLIGHT_TEXT]ウィスキー派[COLOR_REVERT]の開祖となります。またこのテクノロジーを持つ文明は、社会制度の[COLOR_HIGHLIGHT_TEXT]神権政治[COLOR_REVERT]を導入できるだけでなく、世界遺産の[COLOR_BUILDING_TEXT]ハギア・ソフィア大聖堂[COLOR_REVERT]や[COLOR_BUILDING_TEXT]宴会幹事役[COLOR_REVERT]を建設できるようになります。</Japanese>
+	</TEXT>
+	<!-- CIV4GameText_BTS_Fixed.xml -->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MILITARY_SCIENCE_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_TECH_TEXT]軍事学[COLOR_REVERT]を研究すると、[COLOR_UNIT_TEXT]擲弾兵[COLOR_REVERT]や[COLOR_UNIT_TEXT]戦列艦[COLOR_REVERT]といったユニットを生産し、[COLOR_BUILDING_TEXT]士官学校[COLOR_REVERT]が建設できるようになります。さらに一部の軍事ユニットに[COLOR_HIGHLIGHT_TEXT]電撃戦[COLOR_REVERT]と[COLOR_HIGHLIGHT_TEXT]特別奇襲[COLOR_REVERT]の戦闘スキルを与えられるようになります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_TECH_TEXT]軍事学[COLOR_REVERT]を研究すると、[COLOR_UNIT_TEXT]擲弾兵[COLOR_REVERT]や[COLOR_UNIT_TEXT]戦列艦[COLOR_REVERT]といったユニットを生産し、[COLOR_BUILDING_TEXT]士官学校[COLOR_REVERT]が建設できるようになります。さらに一部の軍事ユニットに[COLOR_HIGHLIGHT_TEXT]電撃戦[COLOR_REVERT]と[COLOR_HIGHLIGHT_TEXT]特別奇襲[COLOR_REVERT]の戦闘スキルを与えられるようになります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CORPORATION_2_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_BUILDING_TEXT]シド寿司[COLOR_REVERT]本社を建設すると[COLOR_HIGHLIGHT_TEXT]シド寿司[COLOR_REVERT]が設立できるようになります。これは[COLOR_HIGHLIGHT_TEXT]貝[COLOR_REVERT]や[COLOR_HIGHLIGHT_TEXT]魚[COLOR_REVERT]、[COLOR_HIGHLIGHT_TEXT]蟹[COLOR_REVERT]、[COLOR_HIGHLIGHT_TEXT]米[COLOR_REVERT]を消費し、[COLOR_HIGHLIGHT_TEXT]シド寿司[COLOR_REVERT]がある都市に〈食料〉と〈文化力〉ボーナスを与えます。本社は世界中のシド寿司が進出した都市からゴールドが得られます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_BUILDING_TEXT]シド寿司[COLOR_REVERT]本社を建設すると[COLOR_HIGHLIGHT_TEXT]シド寿司[COLOR_REVERT]が設立できるようになります。これは[COLOR_HIGHLIGHT_TEXT]貝[COLOR_REVERT]や[COLOR_HIGHLIGHT_TEXT]魚[COLOR_REVERT]、[COLOR_HIGHLIGHT_TEXT]蟹[COLOR_REVERT]、[COLOR_HIGHLIGHT_TEXT]米[COLOR_REVERT]を消費し、[COLOR_HIGHLIGHT_TEXT]シド寿司[COLOR_REVERT]がある都市に〈食料〉と〈文化力〉ボーナスを与えます。本社は世界中のシド寿司が進出した都市からゴールドが得られます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_FORT_PEDIA</Tag>
+		<English />
+		<French>[H1]要塞のアップデート[\H1][PARAGRAPH:2]要塞は敵領土内を除く自国勢力圏外にも建設でき、都市とよく似た機能を持つようになりました。ユニットが味方領内か中立地域において要塞を攻撃するか、あるいは要塞に立てこもって守ろうとしているときには、都市関連の戦闘スキルが使えます。[PARAGRAPH:1]自国の文化圏内の要塞は艦船にとって、港のようにダメージの回復を行うだけでなく、最大2スクエアまでですが運河のように往来できます。さらに要塞は、交易路のルートを設定する際に港のように利用でき、自国文化圏内の資源を結ぶのに使えます。最後に要塞を航空ユニットの基地として利用することも可能で、通常は都市圏内と同じ速さで回復が行えます。この最後の2つの利点から、要塞は敵領内へ攻め込むときの出撃基地として極めて有効です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]要塞のアップデート[\H1][PARAGRAPH:2]要塞は敵領土内を除く自国勢力圏外にも建設でき、都市とよく似た機能を持つようになりました。ユニットが味方領内か中立地域において要塞を攻撃するか、あるいは要塞に立てこもって守ろうとしているときには、都市関連の戦闘スキルが使えます。[PARAGRAPH:1]自国の文化圏内の要塞は艦船にとって、港のようにダメージの回復を行うだけでなく、最大2スクエアまでですが運河のように往来できます。さらに要塞は、交易路のルートを設定する際に港のように利用でき、自国文化圏内の資源を結ぶのに使えます。最後に要塞を航空ユニットの基地として利用することも可能で、通常は都市圏内と同じ速さで回復が行えます。この最後の2つの利点から、要塞は敵領内へ攻め込むときの出撃基地として極めて有効です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BTS_TECHS_PEDIA</Tag>
+		<English />
+		<French>[H1]ビヨンド・ザ・ソードのテクノロジー[\H1][NEWLINE][LINK=TECH_ADVANCED_FLIGHT]航空工学[\LINK][NEWLINE][NEWLINE][LINK=TECH_AESTHETICS]美学[\LINK][NEWLINE][NEWLINE][LINK=TECH_LASER]レーザー[\LINK][NEWLINE][NEWLINE][LINK=TECH_MILITARY_SCIENCE]軍事学[\LINK][NEWLINE][NEWLINE][LINK=TECH_STEALTH]ステルス[\LINK][NEWLINE][NEWLINE][LINK=TECH_SUPERCONDUCTORS]超伝導[\LINK]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]ビヨンド・ザ・ソードのテクノロジー[\H1][NEWLINE][LINK=TECH_ADVANCED_FLIGHT]航空工学[\LINK][NEWLINE][NEWLINE][LINK=TECH_AESTHETICS]美学[\LINK][NEWLINE][NEWLINE][LINK=TECH_LASER]レーザー[\LINK][NEWLINE][NEWLINE][LINK=TECH_MILITARY_SCIENCE]軍事学[\LINK][NEWLINE][NEWLINE][LINK=TECH_STEALTH]ステルス[\LINK][NEWLINE][NEWLINE][LINK=TECH_SUPERCONDUCTORS]超伝導[\LINK]</Japanese>
+	</TEXT>
+	<!-- CIV4GameText_Civilopedia_BTS.xml -->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BYZANTINE_HIPPODROME_PEDIA</Tag>
+		<English />
+		<French>[TAB]コンスタンティノープル（現在のイスタンブール）のヒッポドローム（ギリシャ語で"競馬場"の意味）は紀元203年に皇帝セプティミウス・セウェルスによって建設されました。非常に規模の大きい戦車競争のための施設で、4頭立て戦車による競争が初めて行われるなど、戦車馬術の発展に大きな役割を果たしました。しかしこの競技場の名が広く知られるようになったのは、ここがビザンティン帝国史上最悪の虐殺の舞台となったからです。紀元532年のニカの乱の際、3万人もの暴徒がこの競技場に追い込まれ、ビザンティン兵によって殺害されたのでした。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]コンスタンティノープル（現在のイスタンブール）のヒッポドローム（ギリシャ語で"競馬場"の意味）は紀元203年に皇帝セプティミウス・セウェルスによって建設されました。非常に規模の大きい戦車競争のための施設で、4頭立て戦車による競争が初めて行われるなど、戦車馬術の発展に大きな役割を果たしました。しかしこの競技場の名が広く知られるようになったのは、ここがビザンティン帝国史上最悪の虐殺の舞台となったからです。紀元532年のニカの乱の際、3万人もの暴徒がこの競技場に追い込まれ、ビザンティン兵によって殺害されたのでした。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_PEDIA</Tag>
+		<English />
+		<French>[TAB]重騎兵はビザンティンが考案したものではありませんが、ビザンティン帝国においてその完成を見ました。6世紀までビザンティン帝国はチュートン人やフン族の騎兵を金で雇っていましたが、"青白き死"の異名をとる皇帝ニケフォロス2世の時代になると、カタフラクトと呼ばれる独自の重騎兵軍団が編成され、ビザンティン軍の主力部隊となりました。カタフラクトは当時としては最も重装備の騎兵で、人間だけでなく馬までもが分厚い鎧に身を固めており、その姿は戦場で恐怖の的となりました。ビザンティン重騎兵の優秀さは広く知れ渡るところとなり、後世のヨーロッパの騎士もカタフラクトを大いに参考にしたのでした。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]重騎兵はビザンティンが考案したものではありませんが、ビザンティン帝国においてその完成を見ました。6世紀までビザンティン帝国はチュートン人やフン族の騎兵を金で雇っていましたが、"青白き死"の異名をとる皇帝ニケフォロス2世の時代になると、カタフラクトと呼ばれる独自の重騎兵軍団が編成され、ビザンティン軍の主力部隊となりました。カタフラクトは当時としては最も重装備の騎兵で、人間だけでなく馬までもが分厚い鎧に身を固めており、その姿は戦場で恐怖の的となりました。ビザンティン重騎兵の優秀さは広く知れ渡るところとなり、後世のヨーロッパの騎士もカタフラクトを大いに参考にしたのでした。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FOREST_PRESERVE_PEDIA</Tag>
+		<English />
+		<French>森林保護区</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>森林保護区</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHWEDAGON_PAYA_PEDIA</Tag>
+		<English />
+		<French>[TAB]シェダゴン・パゴダは仏教において最も神聖とされる建造物のひとつで、その起源は仏教の開祖であるブッダ（ゴータマ・シッダルタ）本人にあると言われています。ブッダは2人の若いビルマ人の商人に自分の髪の毛を8本与えました。商人たちはそれを故郷へ持ち帰り、ビルマ（現在のミャンマー）の王オカラッパに献上したのでした。王が髪の毛の入っている容器を開けたとき、木々は花開き、天からは宝石が降り、髪の毛からはまばゆい光が発せられました。これらの髪の毛はただちに神聖なものとして祭られることになり、そのために建てられたストゥーパ（仏塔）がシェダゴン・パゴダの原型となったのです。[PARAGRAPH:1]シェダゴン・パゴダの伝説は、何世紀にもわたってビルマの王族たちによって伝えられるうちに、かえって詳細さを増していきました。考古学的な調査によれば、シェダゴン・パゴダが現在の形になったのは11世紀であるとされています。現在もミャンマーの首都ヤンゴンに残るそれは、広さ5.6ヘクタール、中心となるストゥーパは高さ27メートルの威容を誇ります。金と宝石で飾られたこのストゥーパは、何百年もの間仏教徒にとって重要な巡礼の地となっているのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]シェダゴン・パゴダは仏教において最も神聖とされる建造物のひとつで、その起源は仏教の開祖であるブッダ（ゴータマ・シッダルタ）本人にあると言われています。ブッダは2人の若いビルマ人の商人に自分の髪の毛を8本与えました。商人たちはそれを故郷へ持ち帰り、ビルマ（現在のミャンマー）の王オカラッパに献上したのでした。王が髪の毛の入っている容器を開けたとき、木々は花開き、天からは宝石が降り、髪の毛からはまばゆい光が発せられました。これらの髪の毛はただちに神聖なものとして祭られることになり、そのために建てられたストゥーパ（仏塔）がシェダゴン・パゴダの原型となったのです。[PARAGRAPH:1]シェダゴン・パゴダの伝説は、何世紀にもわたってビルマの王族たちによって伝えられるうちに、かえって詳細さを増していきました。考古学的な調査によれば、シェダゴン・パゴダが現在の形になったのは11世紀であるとされています。現在もミャンマーの首都ヤンゴンに残るそれは、広さ5.6ヘクタール、中心となるストゥーパは高さ27メートルの威容を誇ります。金と宝石で飾られたこのストゥーパは、何百年もの間仏教徒にとって重要な巡礼の地となっているのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_AESTHETICS_PEDIA</Tag>
+		<English />
+		<French>[TAB]美学とは芸術と美に関する問題を取り扱う学問です。世界のどの文化にもそれぞれ独自の美学が存在します。芸術が誕生するのとほぼ同時に、芸術の美を解明する学問も誕生したのでした。現代の美学では、演劇、詩、小説、映画などありとあらゆる分野の芸術が取り扱われますが、初期の美学では主に視覚に訴える芸術が扱われていました。[PARAGRAPH:1]異なる美学の衝突が争いに発展した例は枚挙にいとまがありませんが、イスタンブールほど激しい争いの舞台となった都市は数少ないでしょう。9世紀には、当時コンスタンティノープルと呼ばれていたこの都市で、聖像を崇めるのは冒涜か否かという問題をめぐり、キリスト教徒同士が殺し合いました。オスマン帝国によってコンスタンティノープルが征服されると、それまであった芸術作品の多くが撤去されたり破壊されたりしました。大聖堂ハギア･ソフィアのキリストのモザイク画は漆喰で覆い隠されてしまい、数百年後に発見されるまで、誰の目にも触れることがなかったのでした。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]美学とは芸術と美に関する問題を取り扱う学問です。世界のどの文化にもそれぞれ独自の美学が存在します。芸術が誕生するのとほぼ同時に、芸術の美を解明する学問も誕生したのでした。現代の美学では、演劇、詩、小説、映画などありとあらゆる分野の芸術が取り扱われますが、初期の美学では主に視覚に訴える芸術が扱われていました。[PARAGRAPH:1]異なる美学の衝突が争いに発展した例は枚挙にいとまがありませんが、イスタンブールほど激しい争いの舞台となった都市は数少ないでしょう。9世紀には、当時コンスタンティノープルと呼ばれていたこの都市で、聖像を崇めるのは冒涜か否かという問題をめぐり、キリスト教徒同士が殺し合いました。オスマン帝国によってコンスタンティノープルが征服されると、それまであった芸術作品の多くが撤去されたり破壊されたりしました。大聖堂ハギア･ソフィアのキリストのモザイク画は漆喰で覆い隠されてしまい、数百年後に発見されるまで、誰の目にも触れることがなかったのでした。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MILITARY_SCIENCE_PEDIA</Tag>
+		<English />
+		<French>[TAB]古くから孫子やマキャベリなどによる優れた著作はあったものの、軍事学が独立した学問としての地位を確立するのは17世紀になってからのことでした。それにつづく200年の間に戦争を扱ったたくさんの著作が登場しましたが、その中でもカール・フォン・クラウゼヴィッツによる『戦争論』とアントワーヌ・アンリ・ジョミニによる『戦争概論』は特に名著とされ、現代の戦略思想にも多大なる影響を与えています。[PARAGRAPH:1]現代においては、各国に設置されている陸軍士官学校が軍事学研究のメッカになっています。アメリカ合衆国のウェストポイント、イギリスのサンドハースト、フランスのサンシールなどが最も有名で、これらの陸軍士官学校では若い頭脳が熱心に軍事学を学んでいるのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]古くから孫子やマキャベリなどによる優れた著作はあったものの、軍事学が独立した学問としての地位を確立するのは17世紀になってからのことでした。それにつづく200年の間に戦争を扱ったたくさんの著作が登場しましたが、その中でもカール・フォン・クラウゼヴィッツによる『戦争論』とアントワーヌ・アンリ・ジョミニによる『戦争概論』は特に名著とされ、現代の戦略思想にも多大なる影響を与えています。[PARAGRAPH:1]現代においては、各国に設置されている陸軍士官学校が軍事学研究のメッカになっています。アメリカ合衆国のウェストポイント、イギリスのサンドハースト、フランスのサンシールなどが最も有名で、これらの陸軍士官学校では若い頭脳が熱心に軍事学を学んでいるのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_APOSTOLIC_PALACE_PEDIA</Tag>
+		<English />
+		<French>[TAB]バチカン市国に建つ教皇庁はローマ教皇の住まいであり、カトリック教会の総本山でもあります。この宮殿が教皇の居所となったのは1871年に教皇領が消滅して以後のことであるため、現在の宮殿の建物はバチカン市国内では比較的新しい部類に入ります。サン･ピエトロ広場に隣接するこの宮殿は、カトリック教会の運営に関する一切の事柄を取り仕切る一大管理センターなのです。また教皇が教令を発布するのもこの宮殿からであり、全人類の6人に1人がキリスト教徒であるということを考えれば、教皇庁は地球上で最も強い影響力を持つ組織の総本部であると言えるのです。[PARAGRAPH:1]教皇庁の教会総本部としての重要性は疑いの余地がありませんが、それに加えてこの宮殿は世界で最も充実した芸術コレクションを有する施設でもあるのです。宮殿内にあるバチカン美術館にはカラヴァッジョ、ラファエロ、ダ・ヴィンチなどそうそうたる芸術家の作品が収蔵されています。またミケランジェロの壁画で有名なシスティナ礼拝堂も教皇庁の一部なのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]バチカン市国に建つ教皇庁はローマ教皇の住まいであり、カトリック教会の総本山でもあります。この宮殿が教皇の居所となったのは1871年に教皇領が消滅して以後のことであるため、現在の宮殿の建物はバチカン市国内では比較的新しい部類に入ります。サン･ピエトロ広場に隣接するこの宮殿は、カトリック教会の運営に関する一切の事柄を取り仕切る一大管理センターなのです。また教皇が教令を発布するのもこの宮殿からであり、全人類の6人に1人がキリスト教徒であるということを考えれば、教皇庁は地球上で最も強い影響力を持つ組織の総本部であると言えるのです。[PARAGRAPH:1]教皇庁の教会総本部としての重要性は疑いの余地がありませんが、それに加えてこの宮殿は世界で最も充実した芸術コレクションを有する施設でもあるのです。宮殿内にあるバチカン美術館にはカラヴァッジョ、ラファエロ、ダ・ヴィンチなどそうそうたる芸術家の作品が収蔵されています。またミケランジェロの壁画で有名なシスティナ礼拝堂も教皇庁の一部なのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BTS_WONDERS_PEDIA</Tag>
+		<English />
+		<French>[H1]ビヨンド・ザ・ソードの遺産[\H1][NEWLINE][LINK=BUILDING_CORPORATION_6]アルミニウム社[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_APOSTOLIC_PALACE]宴会幹事役[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CORPORATION_1]シリアル･ミル[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CORPORATION_7]シヴィライズド・ジュエリー[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CORPORATION_4]クリエイティブ建設[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CRISTO_REDENTOR]コルコバードのキリスト像[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_MAUSOLEUM_OF_MAUSSOLLOS]マウソロス霊廟[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CORPORATION_5]マイニング社[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_MOAI_STATUES]モアイ像[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_NATIONAL_PARK]国立公園[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_SHWEDAGON_PAYA]シェダゴン・パゴダ[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CORPORATION_2]シド寿司[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CORPORATION_3]スタンダード・エタノール[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_STATUE_OF_ZEUS]ゼウス像[\LINK]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]ビヨンド・ザ・ソードの遺産[\H1][NEWLINE][LINK=BUILDING_CORPORATION_6]アルミニウム社[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_APOSTOLIC_PALACE]宴会幹事役[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CORPORATION_1]シリアル･ミル[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CORPORATION_7]シヴィライズド・ジュエリー[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CORPORATION_4]クリエイティブ建設[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CRISTO_REDENTOR]コルコバードのキリスト像[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_MAUSOLEUM_OF_MAUSSOLLOS]マウソロス霊廟[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CORPORATION_5]マイニング社[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_MOAI_STATUES]モアイ像[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_NATIONAL_PARK]国立公園[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_SHWEDAGON_PAYA]シェダゴン・パゴダ[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CORPORATION_2]シド寿司[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CORPORATION_3]スタンダード・エタノール[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_STATUE_OF_ZEUS]ゼウス像[\LINK]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BTS_UNITS_PEDIA</Tag>
+		<English />
+		<French>[H1]ビヨンド・ザ・ソードのユニット[\H1][NEWLINE][LINK=UNIT_AIRSHIP]飛行船[\LINK][NEWLINE][NEWLINE][LINK=UNIT_AT_INFANTRY]対戦車歩兵[\LINK][NEWLINE][NEWLINE][LINK=UNIT_EXECUTIVE_6]アルミニウム社重役[\LINK][NEWLINE][NEWLINE][LINK=UNIT_ATTACK_SUBMARINE]攻撃型潜水艦[\LINK][NEWLINE][NEWLINE][LINK=UNIT_KHMER_BALLISTA_ELEPHANT]クメール戦象[\LINK][NEWLINE][NEWLINE][LINK=UNIT_BABYLON_BOWMAN]バビロニア弓兵[\LINK][NEWLINE][NEWLINE][LINK=UNIT_PORTUGAL_CARRACK]ポルトガルのキャラック船[\LINK][NEWLINE][NEWLINE][LINK=UNIT_BYZANTINE_CATAPHRACT]ビザンティンのカタフラクト[\LINK][NEWLINE][NEWLINE][LINK=UNIT_EXECUTIVE_1]シリアル・ミル重役[\LINK][NEWLINE][NEWLINE][LINK=UNIT_EXECUTIVE_7]シヴィライズド・ジュエリー重役[\LINK][NEWLINE][NEWLINE][LINK=UNIT_EXECUTIVE_4]クリエイティブ建設重役[\LINK][NEWLINE][NEWLINE][LINK=UNIT_CUIRASSIER]胸甲騎兵[\LINK][NEWLINE][NEWLINE][LINK=UNIT_NATIVE_AMERICA_DOG_SOLDIER]アメリカ先住民の犬戦士[\LINK][NEWLINE][NEWLINE][LINK=UNIT_NETHERLANDS_OOSTINDIEVAARDER]オランダの東インド貿易船[\LINK][NEWLINE][NEWLINE][LINK=UNIT_GREAT_SPY]大スパイ[\LINK][NEWLINE][NEWLINE][LINK=UNIT_GUIDED_MISSILE]誘導ミサイル[\LINK][NEWLINE][NEWLINE][LINK=UNIT_MAYA_HOLKAN]マヤのホルカン[\LINK][NEWLINE][NEWLINE][LINK=UNIT_HOLY_ROMAN_LANDSKNECHT]神聖ローマ帝国のランツクネヒト[\LINK][NEWLINE][NEWLINE][LINK=UNIT_EXECUTIVE_5]マイニング社重役[\LINK][NEWLINE][NEWLINE][LINK=UNIT_MISSILE_CRUISER]ミサイル巡洋艦[\LINK][NEWLINE][NEWLINE][LINK=UNIT_MOBILE_ARTILLERY]自走砲[\LINK][NEWLINE][NEWLINE][LINK=UNIT_MOBILE_SAM]移動式SAM[\LINK][NEWLINE][NEWLINE][LINK=UNIT_ETHIOPIAN_OROMO_WARRIOR]エチオピアのオロモ戦士[\LINK][NEWLINE][NEWLINE][LINK=UNIT_PARATROOPER]空挺部隊[\LINK][NEWLINE][NEWLINE][LINK=UNIT_PRIVATEER]私掠船[\LINK][NEWLINE][NEWLINE][LINK=UNIT_SHIP_OF_THE_LINE]戦列艦[\LINK][NEWLINE][NEWLINE][LINK=UNIT_EXECUTIVE_2]シド寿司重役[\LINK][NEWLINE][NEWLINE][LINK=UNIT_EXECUTIVE_3]スタンダード・エタノール重役[\LINK][NEWLINE][NEWLINE][LINK=UNIT_STEALTH_DESTROYER]ステルス駆逐艦[\LINK][NEWLINE][NEWLINE][LINK=UNIT_TACTICAL_NUKE]戦術核[\LINK][NEWLINE][NEWLINE][LINK=UNIT_SUMERIAN_VULTURE]シュメールの死鳥隊[\LINK][NEWLINE]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]ビヨンド・ザ・ソードのユニット[\H1][NEWLINE][LINK=UNIT_AIRSHIP]飛行船[\LINK][NEWLINE][NEWLINE][LINK=UNIT_AT_INFANTRY]対戦車歩兵[\LINK][NEWLINE][NEWLINE][LINK=UNIT_EXECUTIVE_6]アルミニウム社重役[\LINK][NEWLINE][NEWLINE][LINK=UNIT_ATTACK_SUBMARINE]攻撃型潜水艦[\LINK][NEWLINE][NEWLINE][LINK=UNIT_KHMER_BALLISTA_ELEPHANT]クメール戦象[\LINK][NEWLINE][NEWLINE][LINK=UNIT_BABYLON_BOWMAN]バビロニア弓兵[\LINK][NEWLINE][NEWLINE][LINK=UNIT_PORTUGAL_CARRACK]ポルトガルのキャラック船[\LINK][NEWLINE][NEWLINE][LINK=UNIT_BYZANTINE_CATAPHRACT]ビザンティンのカタフラクト[\LINK][NEWLINE][NEWLINE][LINK=UNIT_EXECUTIVE_1]シリアル・ミル重役[\LINK][NEWLINE][NEWLINE][LINK=UNIT_EXECUTIVE_7]シヴィライズド・ジュエリー重役[\LINK][NEWLINE][NEWLINE][LINK=UNIT_EXECUTIVE_4]クリエイティブ建設重役[\LINK][NEWLINE][NEWLINE][LINK=UNIT_CUIRASSIER]胸甲騎兵[\LINK][NEWLINE][NEWLINE][LINK=UNIT_NATIVE_AMERICA_DOG_SOLDIER]アメリカ先住民の犬戦士[\LINK][NEWLINE][NEWLINE][LINK=UNIT_NETHERLANDS_OOSTINDIEVAARDER]オランダの東インド貿易船[\LINK][NEWLINE][NEWLINE][LINK=UNIT_GREAT_SPY]大スパイ[\LINK][NEWLINE][NEWLINE][LINK=UNIT_GUIDED_MISSILE]誘導ミサイル[\LINK][NEWLINE][NEWLINE][LINK=UNIT_MAYA_HOLKAN]マヤのホルカン[\LINK][NEWLINE][NEWLINE][LINK=UNIT_HOLY_ROMAN_LANDSKNECHT]神聖ローマ帝国のランツクネヒト[\LINK][NEWLINE][NEWLINE][LINK=UNIT_EXECUTIVE_5]マイニング社重役[\LINK][NEWLINE][NEWLINE][LINK=UNIT_MISSILE_CRUISER]ミサイル巡洋艦[\LINK][NEWLINE][NEWLINE][LINK=UNIT_MOBILE_ARTILLERY]自走砲[\LINK][NEWLINE][NEWLINE][LINK=UNIT_MOBILE_SAM]移動式SAM[\LINK][NEWLINE][NEWLINE][LINK=UNIT_ETHIOPIAN_OROMO_WARRIOR]エチオピアのオロモ戦士[\LINK][NEWLINE][NEWLINE][LINK=UNIT_PARATROOPER]空挺部隊[\LINK][NEWLINE][NEWLINE][LINK=UNIT_PRIVATEER]私掠船[\LINK][NEWLINE][NEWLINE][LINK=UNIT_SHIP_OF_THE_LINE]戦列艦[\LINK][NEWLINE][NEWLINE][LINK=UNIT_EXECUTIVE_2]シド寿司重役[\LINK][NEWLINE][NEWLINE][LINK=UNIT_EXECUTIVE_3]スタンダード・エタノール重役[\LINK][NEWLINE][NEWLINE][LINK=UNIT_STEALTH_DESTROYER]ステルス駆逐艦[\LINK][NEWLINE][NEWLINE][LINK=UNIT_TACTICAL_NUKE]戦術核[\LINK][NEWLINE][NEWLINE][LINK=UNIT_SUMERIAN_VULTURE]シュメールの死鳥隊[\LINK][NEWLINE]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BTS_BUILDINGS_PEDIA</Tag>
+		<English />
+		<French>[H1]ビヨンド・ザ・ソードの建造物[\H1][NEWLINE][LINK=BUILDING_MAYA_BALL_COURT]マヤの球技場[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_KHMER_BARAY]クメールのバライ[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CUSTOM_HOUSE]税関[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_NETHERLANDS_DIKE]オランダのダイク[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_PORTUGAL_FEITORIA]ポルトガルのフェイトリア[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_BABYLON_GARDEN]バビロニアの庭園[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_BYZANTINE_HIPPODROME]ビザンティンのヒッポドローム[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_INDUSTRIAL_PARK]工業団地[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_INTELLIGENCE_AGENCY]諜報機関[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_LEVEE]堤防[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_PUBLIC_TRANSPORTATION]公共交通機関[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_HOLY_ROMAN_RATHAUS]神聖ローマ帝国のラートハウス[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_NATIONAL_SECURITY]公安局[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_ETHIOPIAN_STELE]エチオピアのステラ[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_NATIVE_AMERICA_TOTEM]アメリカ先住民のトーテムポール[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_SUMERIAN_ZIGGURAT]シュメールのジッグラト[\LINK]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]ビヨンド・ザ・ソードの建造物[\H1][NEWLINE][LINK=BUILDING_MAYA_BALL_COURT]マヤの球技場[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_KHMER_BARAY]クメールのバライ[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_CUSTOM_HOUSE]税関[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_NETHERLANDS_DIKE]オランダのダイク[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_PORTUGAL_FEITORIA]ポルトガルのフェイトリア[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_BABYLON_GARDEN]バビロニアの庭園[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_BYZANTINE_HIPPODROME]ビザンティンのヒッポドローム[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_INDUSTRIAL_PARK]工業団地[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_INTELLIGENCE_AGENCY]諜報機関[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_LEVEE]堤防[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_PUBLIC_TRANSPORTATION]公共交通機関[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_HOLY_ROMAN_RATHAUS]神聖ローマ帝国のラートハウス[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_NATIONAL_SECURITY]公安局[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_ETHIOPIAN_STELE]エチオピアのステラ[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_NATIVE_AMERICA_TOTEM]アメリカ先住民のトーテムポール[\LINK][NEWLINE][NEWLINE][LINK=BUILDING_SUMERIAN_ZIGGURAT]シュメールのジッグラト[\LINK]</Japanese>
+	</TEXT>
+	<!-- CIV4GameText_Civilopedia_BuildingsProjects.xml -->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PARTHENON_PEDIA</Tag>
+		<English />
+		<French>[TAB]　　　パルテノン神殿はギリシャのアテネにあります。紀元前433年、アテネの守護神アテナに捧げるために建てられました。約30mＸ65mの大きさの神殿は大部分が大理石で出来ています。神殿の周囲は高さ9mほどのドーリス式円柱が取り巻いており、"セラ（神像安置所）"と呼ばれる中央の部屋にはかつては巨大なアテナ像が祀られていたと言われています。神殿はアテナやアテネの栄光を称える大理石の彫像や横壁で美しく装飾されています。[PARAGRAPH:2]　　　長い年月の間に神殿は何度も荒らされてきました。5世紀には、アテナ像が東ローマ帝国の首都コンスタンティノープルに持ち去られ、破壊されてしまいました。13世紀にはビザンティン教会として使われ、内部の装飾に手が加えられ、古い神々を祀った彫像の多くが撤去（恐らくは破壊）されました。15世紀にはオスマントルコの支配下に入り、モスクとして使用されています。さらに、17世紀には、第二次トルコ・ヴェネチア戦争により、大破しています。19世紀になると、ギリシャ駐英国大使が残っていた大理石の横壁をすべて剥ぎ取り、本国の博物館へ売却してしまいました。[PARAGRAPH:2]　　　このような不遇の時代を長く見てきたパルテノン神殿ですが、古代ギリシャの栄光の象徴として今日も力強く、美しくそびえています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]　　　パルテノン神殿はギリシャのアテネにあります。紀元前433年、アテネの守護神アテナに捧げるために建てられました。約30mＸ65mの大きさの神殿は大部分が大理石で出来ています。神殿の周囲は高さ9mほどのドーリス式円柱が取り巻いており、"セラ（神像安置所）"と呼ばれる中央の部屋にはかつては巨大なアテナ像が祀られていたと言われています。神殿はアテナやアテネの栄光を称える大理石の彫像や横壁で美しく装飾されています。[PARAGRAPH:2]　　　長い年月の間に神殿は何度も荒らされてきました。5世紀には、アテナ像が東ローマ帝国の首都コンスタンティノープルに持ち去られ、破壊されてしまいました。13世紀にはビザンティン教会として使われ、内部の装飾に手が加えられ、古い神々を祀った彫像の多くが撤去（恐らくは破壊）されました。15世紀にはオスマントルコの支配下に入り、モスクとして使用されています。さらに、17世紀には、第二次トルコ・ヴェネチア戦争により、大破しています。19世紀になると、ギリシャ駐英国大使が残っていた大理石の横壁をすべて剥ぎ取り、本国の博物館へ売却してしまいました。[PARAGRAPH:2]　　　このような不遇の時代を長く見てきたパルテノン神殿ですが、古代ギリシャの栄光の象徴として今日も力強く、美しくそびえています。</Japanese>
+	</TEXT>
+	<!-- CIV4GameText_Civilopedia_Concepts.xml -->
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_FOOD_PEDIA</Tag>
+		<English />
+		<French>[H1]食料[\H1][PARAGRAPH:2]　　　都市の存続には〈食料〉が不可欠です。手に入る食料が多ければ、その分だけ都市を大きくできます。都市は周辺の土地（国の[LINK=CONCEPT_BORDERS]勢力圏[\LINK]内のスクエアと[LINK=CONCEPT_CITIES]都市圏[\LINK]内のスクエア）で作業を行い食料を手に入れます。[PARAGRAPH:2][H2]食料の消費[\H2][PARAGRAPH:2]各[LINK=CONCEPT_CITIES]都市[\LINK]の各市民（人口ポイント）は1ターンにつき2個の食料を消費します。[PARAGRAPH:2]　　　[BOLD]余剰食料：[\BOLD]市民の消費量よりも多くの食料が都市で生産された場合、余った食料は貯蔵されます。十分な量の食料が貯まると、貯蔵した食料はすべて消え、都市の人口が1ポイント増加します。都市が大きくなるにつれて、人口を増やすために必要な食料の量も増えていきます。[LINK=BUILDING_GRANARY]穀物庫[\LINK]には都市がひとまわり大きくなるのに必要な食料の半分を貯蔵できます。これにより、都市人口の増加を速めることができます。[PARAGRAPH:2]　　　[BOLD]食料不足：[\BOLD]住民を養えるだけの食料を産出できないと、貯蔵しておいた食料が減り始めます。貯蔵食料を使いはたすと、1ポイントの市民が飢えることになります。住民を養えるだけの食料を産出できるようになるまで飢餓は続きます。[PARAGRAPH:2][H2]衛生[\H2][PARAGRAPH:2]　　　都市の[LINK=CONCEPT_HEALTH]〈衛生〉[\LINK]は、食料産出に大きな影響を及ぼします。都市が不衛生な状態になると、全市民を養うのに追加の食料が必要となります。詳細については「衛生」の項を参照してください。[PARAGRAPH:2][H2]陸上での作業[\H2][PARAGRAPH:2]　　　[LINK=CONCEPT_RESOURCES]資源[\LINK]と同様に、[LINK=CONCEPT_TERRAIN]地形[\LINK]の種類によって食料の産出量が異なります。労働者にスクエアの[LINK=CONCEPT_IMPROVEMENTS]資源活用[\LINK]をさせると、たいていは食料産出量を増やすことができます。たとえば、淡水に隣接する草原スクエアを灌漑して農場を設置すると食料の産出量を増やせます。[PARAGRAPH:2][H2]建造物と文化遺産[\H2][PARAGRAPH:2]　　　[LINK=CONCEPT_BUILDINGS]建造物[\LINK]や[LINK=CONCEPT_WONDERS]文化遺産[\LINK]によって食料産出量が増える場合があります（たとえば、[LINK=BUILDING_LIGHTHOUSE]灯台[\LINK]を建設すると海スクエアの食料産出量が増えます）。[PARAGRAPH:2][H2]社会制度[\H2][PARAGRAPH:2][LINK=CIVIC_STATE_PROPERTY]国有化[\LINK]の社会制度は一部の威厳活用施設による食料産出量を増やします。[PARAGRAPH:2][H2]テクノロジー[\H2][PARAGRAPH:2]　　　[LINK=CONCEPT_TECHNOLOGY]テクノロジーの進歩[\LINK]の中にも労働者が土地の資源活用を行って領土内の食料産出量を増やせるようにできるものがあります。また、すでに建設された資源活用施設をより効率的なものにする進歩もあります。[PARAGRAPH:2]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]食料[\H1][PARAGRAPH:2]　　　都市の存続には〈食料〉が不可欠です。手に入る食料が多ければ、その分だけ都市を大きくできます。都市は周辺の土地（国の[LINK=CONCEPT_BORDERS]勢力圏[\LINK]内のスクエアと[LINK=CONCEPT_CITIES]都市圏[\LINK]内のスクエア）で作業を行い食料を手に入れます。[PARAGRAPH:2][H2]食料の消費[\H2][PARAGRAPH:2]各[LINK=CONCEPT_CITIES]都市[\LINK]の各市民（人口ポイント）は1ターンにつき2個の食料を消費します。[PARAGRAPH:2]　　　[BOLD]余剰食料：[\BOLD]市民の消費量よりも多くの食料が都市で生産された場合、余った食料は貯蔵されます。十分な量の食料が貯まると、貯蔵した食料はすべて消え、都市の人口が1ポイント増加します。都市が大きくなるにつれて、人口を増やすために必要な食料の量も増えていきます。[LINK=BUILDING_GRANARY]穀物庫[\LINK]には都市がひとまわり大きくなるのに必要な食料の半分を貯蔵できます。これにより、都市人口の増加を速めることができます。[PARAGRAPH:2]　　　[BOLD]食料不足：[\BOLD]住民を養えるだけの食料を産出できないと、貯蔵しておいた食料が減り始めます。貯蔵食料を使いはたすと、1ポイントの市民が飢えることになります。住民を養えるだけの食料を産出できるようになるまで飢餓は続きます。[PARAGRAPH:2][H2]衛生[\H2][PARAGRAPH:2]　　　都市の[LINK=CONCEPT_HEALTH]〈衛生〉[\LINK]は、食料産出に大きな影響を及ぼします。都市が不衛生な状態になると、全市民を養うのに追加の食料が必要となります。詳細については「衛生」の項を参照してください。[PARAGRAPH:2][H2]陸上での作業[\H2][PARAGRAPH:2]　　　[LINK=CONCEPT_RESOURCES]資源[\LINK]と同様に、[LINK=CONCEPT_TERRAIN]地形[\LINK]の種類によって食料の産出量が異なります。労働者にスクエアの[LINK=CONCEPT_IMPROVEMENTS]資源活用[\LINK]をさせると、たいていは食料産出量を増やすことができます。たとえば、淡水に隣接する草原スクエアを灌漑して農場を設置すると食料の産出量を増やせます。[PARAGRAPH:2][H2]建造物と文化遺産[\H2][PARAGRAPH:2]　　　[LINK=CONCEPT_BUILDINGS]建造物[\LINK]や[LINK=CONCEPT_WONDERS]文化遺産[\LINK]によって食料産出量が増える場合があります（たとえば、[LINK=BUILDING_LIGHTHOUSE]灯台[\LINK]を建設すると海スクエアの食料産出量が増えます）。[PARAGRAPH:2][H2]社会制度[\H2][PARAGRAPH:2][LINK=CIVIC_STATE_PROPERTY]国有化[\LINK]の社会制度は一部の威厳活用施設による食料産出量を増やします。[PARAGRAPH:2][H2]テクノロジー[\H2][PARAGRAPH:2]　　　[LINK=CONCEPT_TECHNOLOGY]テクノロジーの進歩[\LINK]の中にも労働者が土地の資源活用を行って領土内の食料産出量を増やせるようにできるものがあります。また、すでに建設された資源活用施設をより効率的なものにする進歩もあります。[PARAGRAPH:2]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_HEALTH_PEDIA</Tag>
+		<English />
+		<French>[H1]衛生[\H1][PARAGRAPH:2]　　　[LINK=CONCEPT_CITIES]都市[\LINK]の〈衛生〉は都市が[LINK=CONCEPT_FOOD]〈食料〉[\LINK]を備蓄する速度、ひいては都市の発展（または飢餓）の速度に影響を及ぼします。衛生的な都市はどんどん発展し、不衛生な都市は衰退していきます。[PARAGRAPH:2][H2]衛生に影響する要素[\H2][PARAGRAPH:2]　　　多くの要素が都市の衛生に影響を及ぼします。都市周辺の[LINK=CONCEPT_TERRAIN]土地[\LINK]、水や[LINK=CONCEPT_RESOURCES]資源[\LINK]の入手しやすさ、都市の住民、[LINK=CONCEPT_BUILDINGS]建造物[\LINK]、[LINK=CONCEPT_WONDERS]文化遺産[\LINK]、その都市が採用している[LINK=CONCEPT_CIVICS]社会制度[\LINK]などです。衛生の原因となるものは最低1つの〈衛生ポイント〉を発生させます。このポイントは白い円の中の赤い十字で表されます。不衛生なものは最低1つの〈不衛生ポイント〉を発生させます。このポイントは緑色の病気顔で表されます。[PARAGRAPH:2]　　　また、都市の住民そのものが不衛生ポイントの大きな発生源となる場合があります。都市が大きくなればなるほど、住民が発生させる不衛生を打ち消すために、より多くの衛生ポイントが必要になります。一部の建造物、特に工業関連の建造物も不衛生を増加させます。また、近隣の文明と核爆弾の応酬をした場合、〈死の灰〉はかろうじて生き残った者たちにとってきわめつけの不衛生となります。[PARAGRAPH:2][H2]都市全体の衛生[\H2][PARAGRAPH:2]　　　都市の衛生ポイントが不衛生ポイントと同数またはそれ以上あればその都市は衛生的です。不衛生ポイントのほうが衛生ポイントよりも多ければ都市は不衛生になります。衛生アイコンと不衛生アイコンは都市画面上部、〈笑顔〉アイコンと〈不満顔〉アイコンの上に表示されます。[PARAGRAPH:2][H2]不衛生の影響[\H2][PARAGRAPH:2]　　　不衛生ポイントのほうが多い場合、都市はその差1ポイントにつき1個の食料を失います。つまり、衛生ポイントが2ポイント、不衛生ポイントが4ポイントの都市は、1ターンにつき2個の食料を失うことになります。その場合、少なくともその都市の発展がペースダウンし、最悪の場合は[LINK=CONCEPT_FOOD]飢餓[\LINK]状態に陥ります。[PARAGRAPH:2][H2]初期の衛生状態の改善[\H2][PARAGRAPH:2]都市の衛生を改善する手段は数多くあります。[PARAGRAPH:2]　　　[BOLD]川のそばに都市を建設：[\BOLD]淡水のある場所、またはその隣にある都市は、市民が作業をする川のスクエアから衛生ポイントを獲得します。スクエアに淡水があるかどうかはマウスカーソルをそのスクエアに重ねれば確認できます。[PARAGRAPH:2]　　　[BOLD]食料資源の活用：[\BOLD]さまざまな食料資源は労働者が適切な[LINK=CONCEPT_IMPROVEMENTS]資源活用[\LINK]を行えば衛生ポイントを供給します。3つ挙げるとすれば、[LINK=BONUS_DEER]鹿[\LINK]、[LINK=BONUS_BANANA]バナナ[\LINK]、[LINK=BONUS_CRAB]蟹[\LINK]でしょう。活用された資源が道路、河川、海上交易網によって複数の都市につながっている場合、すべての都市が衛生ボーナスを獲得します。1種類の資源から得られる衛生ボーナスは1つだけであることに注意してください。同じ資源を2つ以上持っている場合でも衛生ポイントは1ポイントしか獲得できません（ですから、近隣の文明と交易を行って互いの余剰資源を交換したほうが得策かもしれません）。[PARAGRAPH:2]　　　[BOLD]建造物や文化遺産の建設：[\BOLD]一部の建造物と文化遺産は衛生ポイントを供給します。初期のものでは[LINK=BUILDING_AQUEDUCT]水道橋[\LINK]や[LINK=BUILDING_GRANARY]穀物庫[\LINK]も衛生ポイントを供給します。[PARAGRAPH:2]　　　[BOLD]衛生のテクノロジーの研究：[\BOLD]テクノロジーの研究によって、衛生的な建造物を作れるようになります。たとえば、水道橋の建設には、[LINK=TECH_MATHEMATICS]数学[\LINK]と[LINK=TECH_MASONRY]建築[\LINK]の両方を身につけている必要があります。また、ゲームを進めていく中で獲得するテクノロジーの中にもプレイヤーのすべての都市の衛生を増やすものがあります。[PARAGRAPH:2]　　　[BOLD]森林地帯の近くに建設：[\BOLD]都市圏内に[LINK=FEATURE_FOREST]森林[\LINK]スクエアがあると、都市は追加の衛生を獲得できます。ただし、そのような森林を伐採すると都市の衛生は減少してしまいます。都市を飢餓状態に追いやらないように気をつけてください。[PARAGRAPH:2]　　　[BOLD]社会制度の変更：[\BOLD]特定の社会制度を採用すると、プレイヤーの都市は追加の衛生を獲得できます。その一例が[LINK=CIVIC_ENVIRONMENTALISM]環境保護主義[\LINK]です。[PARAGRAPH:2]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]衛生[\H1][PARAGRAPH:2]　　　[LINK=CONCEPT_CITIES]都市[\LINK]の〈衛生〉は都市が[LINK=CONCEPT_FOOD]〈食料〉[\LINK]を備蓄する速度、ひいては都市の発展（または飢餓）の速度に影響を及ぼします。衛生的な都市はどんどん発展し、不衛生な都市は衰退していきます。[PARAGRAPH:2][H2]衛生に影響する要素[\H2][PARAGRAPH:2]　　　多くの要素が都市の衛生に影響を及ぼします。都市周辺の[LINK=CONCEPT_TERRAIN]土地[\LINK]、水や[LINK=CONCEPT_RESOURCES]資源[\LINK]の入手しやすさ、都市の住民、[LINK=CONCEPT_BUILDINGS]建造物[\LINK]、[LINK=CONCEPT_WONDERS]文化遺産[\LINK]、その都市が採用している[LINK=CONCEPT_CIVICS]社会制度[\LINK]などです。衛生の原因となるものは最低1つの〈衛生ポイント〉を発生させます。このポイントは白い円の中の赤い十字で表されます。不衛生なものは最低1つの〈不衛生ポイント〉を発生させます。このポイントは緑色の病気顔で表されます。[PARAGRAPH:2]　　　また、都市の住民そのものが不衛生ポイントの大きな発生源となる場合があります。都市が大きくなればなるほど、住民が発生させる不衛生を打ち消すために、より多くの衛生ポイントが必要になります。一部の建造物、特に工業関連の建造物も不衛生を増加させます。また、近隣の文明と核爆弾の応酬をした場合、〈死の灰〉はかろうじて生き残った者たちにとってきわめつけの不衛生となります。[PARAGRAPH:2][H2]都市全体の衛生[\H2][PARAGRAPH:2]　　　都市の衛生ポイントが不衛生ポイントと同数またはそれ以上あればその都市は衛生的です。不衛生ポイントのほうが衛生ポイントよりも多ければ都市は不衛生になります。衛生アイコンと不衛生アイコンは都市画面上部、〈笑顔〉アイコンと〈不満顔〉アイコンの上に表示されます。[PARAGRAPH:2][H2]不衛生の影響[\H2][PARAGRAPH:2]　　　不衛生ポイントのほうが多い場合、都市はその差1ポイントにつき1個の食料を失います。つまり、衛生ポイントが2ポイント、不衛生ポイントが4ポイントの都市は、1ターンにつき2個の食料を失うことになります。その場合、少なくともその都市の発展がペースダウンし、最悪の場合は[LINK=CONCEPT_FOOD]飢餓[\LINK]状態に陥ります。[PARAGRAPH:2][H2]初期の衛生状態の改善[\H2][PARAGRAPH:2]都市の衛生を改善する手段は数多くあります。[PARAGRAPH:2]　　　[BOLD]川のそばに都市を建設：[\BOLD]淡水のある場所、またはその隣にある都市は、市民が作業をする川のスクエアから衛生ポイントを獲得します。スクエアに淡水があるかどうかはマウスカーソルをそのスクエアに重ねれば確認できます。[PARAGRAPH:2]　　　[BOLD]食料資源の活用：[\BOLD]さまざまな食料資源は労働者が適切な[LINK=CONCEPT_IMPROVEMENTS]資源活用[\LINK]を行えば衛生ポイントを供給します。3つ挙げるとすれば、[LINK=BONUS_DEER]鹿[\LINK]、[LINK=BONUS_BANANA]バナナ[\LINK]、[LINK=BONUS_CRAB]蟹[\LINK]でしょう。活用された資源が道路、河川、海上交易網によって複数の都市につながっている場合、すべての都市が衛生ボーナスを獲得します。1種類の資源から得られる衛生ボーナスは1つだけであることに注意してください。同じ資源を2つ以上持っている場合でも衛生ポイントは1ポイントしか獲得できません（ですから、近隣の文明と交易を行って互いの余剰資源を交換したほうが得策かもしれません）。[PARAGRAPH:2]　　　[BOLD]建造物や文化遺産の建設：[\BOLD]一部の建造物と文化遺産は衛生ポイントを供給します。初期のものでは[LINK=BUILDING_AQUEDUCT]水道橋[\LINK]や[LINK=BUILDING_GRANARY]穀物庫[\LINK]も衛生ポイントを供給します。[PARAGRAPH:2]　　　[BOLD]衛生のテクノロジーの研究：[\BOLD]テクノロジーの研究によって、衛生的な建造物を作れるようになります。たとえば、水道橋の建設には、[LINK=TECH_MATHEMATICS]数学[\LINK]と[LINK=TECH_MASONRY]建築[\LINK]の両方を身につけている必要があります。また、ゲームを進めていく中で獲得するテクノロジーの中にもプレイヤーのすべての都市の衛生を増やすものがあります。[PARAGRAPH:2]　　　[BOLD]森林地帯の近くに建設：[\BOLD]都市圏内に[LINK=FEATURE_FOREST]森林[\LINK]スクエアがあると、都市は追加の衛生を獲得できます。ただし、そのような森林を伐採すると都市の衛生は減少してしまいます。都市を飢餓状態に追いやらないように気をつけてください。[PARAGRAPH:2]　　　[BOLD]社会制度の変更：[\BOLD]特定の社会制度を採用すると、プレイヤーの都市は追加の衛生を獲得できます。その一例が[LINK=CIVIC_ENVIRONMENTALISM]環境保護主義[\LINK]です。[PARAGRAPH:2]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_IMPROVEMENTS_PEDIA</Tag>
+		<English />
+		<French>[H1]資源活用[\H1][PARAGRAPH:2]　　　入植者は近隣の地形から手に入る天然資源で生き延びます。当初は"土地での作業"をせずに暮らしていくかもしれません。近隣の森林から木の実や草の実を集め、ハンターは手に入る野生動物を手当たりしだいに獲ってきます。けれども、こうした手近な資源には普通は限りがあるので、人数の増加とともに食料を調達する能力を向上させないと入植者は飢えてしまいます。[PARAGRAPH:2]　　　長年にわたって人類はさまざまな工夫をこらして、土地から得られる資源を増やし、手に入れてきました。農場を建設し、食料の供給源を増やします。鉱山を建設し、金属や燃料を手に入れます。水車を建設し、川の力を利用します。土地の"資源活用"をして、増え続ける人口を支えられるようにするのです。実際、より少ない人数でより多くの資源を集めるという人間の能力こそがあらゆる文明のもとになっています。1人が2人分の食料を生み出すことができれば、2人目は筆記をしたり、絵を描いたり、大聖堂を建設したりできるのです。[PARAGRAPH:2][H2]資源活用の場所[\H2][PARAGRAPH:2]　　　特定の都市に直接の利益を与える〈資源活用施設〉はその都市の[LINK=CONCEPT_CITIES]都市圏[\LINK]内になければなりません。ただし、特定の[LINK=CONCEPT_RESOURCES]資源[\LINK]にアクセスできるようにするための資源活用施設はプレイヤーの文明の[LINK=CONCEPT_BORDERS]文化的勢力圏[\LINK]内であればどこにあっても構いません（その場合でも都市圏内にあるほうがいいのが普通です）。[PARAGRAPH:2][H2]資源活用施設が建設できる場所[\H2][PARAGRAPH:2]　　　多くの資源活用施設は特定の地形にしか建設できません。たとえば、鉱山は丘陵（あるいは特定の[LINK=CONCEPT_RESOURCES]資源[\LINK]の上）にしか建設できませんし、農場は（[LINK=CIVIC_CIVIL_SERVICE]官吏[\LINK]の研究をするまでは）淡水が手に入る場所にしか建設できません。さらに、すべての資源活用施設にはテクノロジーが必要です。たとえば、文明が[LINK=TECH_AGRICULTURE]農業[\LINK]を獲得するまでは農場を建設することはできません。また、一部の資源活用施設には特定の資源が必要です。たとえば、[LINK=CONCEPT_MOVEMENT]鉄道[\LINK]には石炭が必要です。[PARAGRAPH:2][H2]労働者[\H2][PARAGRAPH:2]　　　『シヴィライゼーション４』ではほとんどの資源活用施設は都市で生産される[LINK=UNIT_WORKER]労働者[\LINK]が建設します。このユニットは戦うことも、新しい都市を建設することもできませんが、拡大を続け、勢力をのばしていく都市を支えるのに必要な農場や道路、鉱山を建設することができます。十分な労働者がいなければ、文明は繁栄も発展もできません。[PARAGRAPH:2][H2]作業船[\H2][PARAGRAPH:2]　　　[LINK=UNIT_WORKBOAT]作業船[\LINK]は水上に資源活用施設を建設できるという点で労働者と似ています。作業船は漁船や捕鯨船を建設したり、時代が下れば洋上プラットフォームを建設したりできます。ただし、作業船と労働者の間には1つ大きな違いがあります。作業船は資源活用施設を1つ建設すると消費されます。海で資源活用施設を1つ建設するたびに作業船を1つ生産する必要があります（労働者は資源活用施設を建設しても消費されません）。[PARAGRAPH:2][H2]資源活用施設の建設[\H2][PARAGRAPH:2]　　　資源活用施設を建設したい場合は、労働者をそのスクエアに移動させてください。その労働者が行えるアクションが画面の〈ユニット〉ボタンに表示されます。プレイヤーの文明が資源活用施設に必要なテクノロジーと資源の条件を満たし、さらにそのスクエアに〈資源活用施設〉が建設できる場合、労働者のユニットボタンに資源活用施設が表示されます。その資源活用施設をクリックすると労働者が建設を始めます（資源活用施設が灰色で表示されている場合、その時点ではその資源活用は行えません。そこにマウスを重ねれば何が不足しているのかがわかります）。[PARAGRAPH:2]　　　[BOLD]道路と鉄道の建設：[\BOLD][LINK=CONCEPT_MOVEMENT]道路[\LINK]と[LINK=CONCEPT_MOVEMENT]鉄道[\LINK]の建設には2つの方法があります。プレイヤーは自分で一度に1つのスクエアに道路を建設できますが、〈ルート作成〉コマンドを使うこともできます。その場合は、ルート作成をクリックし、次に目的地のスクエアをクリックしてください。労働者は目的地までの最短のルートを見つけ出し、それ以上何も指示しなくてもそのスペースに道路を建設します（注意:この方法を使えばプレイヤーの負担は軽減されますが、労働者は時折プレイヤーが最適と考えるルートとは違うルートを選択する場合があります）。移動時の道路の効果については[LINK=CONCEPT_MOVEMENT]移動[\LINK]の項を参照してください。[PARAGRAPH:2][H2]建設期間[\H2][PARAGRAPH:2]　　　資源活用が終わるまでには1ターン以上の時間がかかります。建設期間は、その時点の[LINK=CONCEPT_CIVICS]社会制度[\LINK]によって異なります。また、特定の[LINK=CONCEPT_TECHNOLOGY]テクノロジー[\LINK]も建設期間を短縮します。また、2人以上の労働者に同時に同じ資源活用を行わせることができます。その場合、建設期間はほぼ半分になります。[PARAGRAPH:2][H2]建設の中断[\H2][PARAGRAPH:2]　　　施設の建設はいつでも中断することができます。建設を行っている労働者をクリックし、新しい命令を与えてください。[PARAGRAPH:2][H2]資源活用施設の略奪[\H2][PARAGRAPH:2]　　　軍事ユニットは中立地帯や、交戦中の文明の領土にある資源活用施設を破壊できます。軍事ユニットを目標の資源活用施設のところに移動させ、〈略奪〉ボタンをクリックしてください（ユニットの移動ポイントが1つ消費されます）。こうした蛮行によって、略奪品も手に入るかもしれません！　そのスクエアに複数の資源活用施設がある場合（たとえば鉱山と道路）、プレイヤーのユニットは1ターンにつきそのうちの1つを破壊します。放浪している[LINK=CONCEPT_BARBARIANS]蛮族[\LINK]はチャンスさえあればいつでも喜んでプレイヤーの資源活用施設を略奪するということを頭に入れておいてください。[PARAGRAPH:2]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]資源活用[\H1][PARAGRAPH:2]　　　入植者は近隣の地形から手に入る天然資源で生き延びます。当初は"土地での作業"をせずに暮らしていくかもしれません。近隣の森林から木の実や草の実を集め、ハンターは手に入る野生動物を手当たりしだいに獲ってきます。けれども、こうした手近な資源には普通は限りがあるので、人数の増加とともに食料を調達する能力を向上させないと入植者は飢えてしまいます。[PARAGRAPH:2]　　　長年にわたって人類はさまざまな工夫をこらして、土地から得られる資源を増やし、手に入れてきました。農場を建設し、食料の供給源を増やします。鉱山を建設し、金属や燃料を手に入れます。水車を建設し、川の力を利用します。土地の"資源活用"をして、増え続ける人口を支えられるようにするのです。実際、より少ない人数でより多くの資源を集めるという人間の能力こそがあらゆる文明のもとになっています。1人が2人分の食料を生み出すことができれば、2人目は筆記をしたり、絵を描いたり、大聖堂を建設したりできるのです。[PARAGRAPH:2][H2]資源活用の場所[\H2][PARAGRAPH:2]　　　特定の都市に直接の利益を与える〈資源活用施設〉はその都市の[LINK=CONCEPT_CITIES]都市圏[\LINK]内になければなりません。ただし、特定の[LINK=CONCEPT_RESOURCES]資源[\LINK]にアクセスできるようにするための資源活用施設はプレイヤーの文明の[LINK=CONCEPT_BORDERS]文化的勢力圏[\LINK]内であればどこにあっても構いません（その場合でも都市圏内にあるほうがいいのが普通です）。[PARAGRAPH:2][H2]資源活用施設が建設できる場所[\H2][PARAGRAPH:2]　　　多くの資源活用施設は特定の地形にしか建設できません。たとえば、鉱山は丘陵（あるいは特定の[LINK=CONCEPT_RESOURCES]資源[\LINK]の上）にしか建設できませんし、農場は（[LINK=CIVIC_CIVIL_SERVICE]官吏[\LINK]の研究をするまでは）淡水が手に入る場所にしか建設できません。さらに、すべての資源活用施設にはテクノロジーが必要です。たとえば、文明が[LINK=TECH_AGRICULTURE]農業[\LINK]を獲得するまでは農場を建設することはできません。また、一部の資源活用施設には特定の資源が必要です。たとえば、[LINK=CONCEPT_MOVEMENT]鉄道[\LINK]には石炭が必要です。[PARAGRAPH:2][H2]労働者[\H2][PARAGRAPH:2]　　　『シヴィライゼーション４』ではほとんどの資源活用施設は都市で生産される[LINK=UNIT_WORKER]労働者[\LINK]が建設します。このユニットは戦うことも、新しい都市を建設することもできませんが、拡大を続け、勢力をのばしていく都市を支えるのに必要な農場や道路、鉱山を建設することができます。十分な労働者がいなければ、文明は繁栄も発展もできません。[PARAGRAPH:2][H2]作業船[\H2][PARAGRAPH:2]　　　[LINK=UNIT_WORKBOAT]作業船[\LINK]は水上に資源活用施設を建設できるという点で労働者と似ています。作業船は漁船や捕鯨船を建設したり、時代が下れば洋上プラットフォームを建設したりできます。ただし、作業船と労働者の間には1つ大きな違いがあります。作業船は資源活用施設を1つ建設すると消費されます。海で資源活用施設を1つ建設するたびに作業船を1つ生産する必要があります（労働者は資源活用施設を建設しても消費されません）。[PARAGRAPH:2][H2]資源活用施設の建設[\H2][PARAGRAPH:2]　　　資源活用施設を建設したい場合は、労働者をそのスクエアに移動させてください。その労働者が行えるアクションが画面の〈ユニット〉ボタンに表示されます。プレイヤーの文明が資源活用施設に必要なテクノロジーと資源の条件を満たし、さらにそのスクエアに〈資源活用施設〉が建設できる場合、労働者のユニットボタンに資源活用施設が表示されます。その資源活用施設をクリックすると労働者が建設を始めます（資源活用施設が灰色で表示されている場合、その時点ではその資源活用は行えません。そこにマウスを重ねれば何が不足しているのかがわかります）。[PARAGRAPH:2]　　　[BOLD]道路と鉄道の建設：[\BOLD][LINK=CONCEPT_MOVEMENT]道路[\LINK]と[LINK=CONCEPT_MOVEMENT]鉄道[\LINK]の建設には2つの方法があります。プレイヤーは自分で一度に1つのスクエアに道路を建設できますが、〈ルート作成〉コマンドを使うこともできます。その場合は、ルート作成をクリックし、次に目的地のスクエアをクリックしてください。労働者は目的地までの最短のルートを見つけ出し、それ以上何も指示しなくてもそのスペースに道路を建設します（注意:この方法を使えばプレイヤーの負担は軽減されますが、労働者は時折プレイヤーが最適と考えるルートとは違うルートを選択する場合があります）。移動時の道路の効果については[LINK=CONCEPT_MOVEMENT]移動[\LINK]の項を参照してください。[PARAGRAPH:2][H2]建設期間[\H2][PARAGRAPH:2]　　　資源活用が終わるまでには1ターン以上の時間がかかります。建設期間は、その時点の[LINK=CONCEPT_CIVICS]社会制度[\LINK]によって異なります。また、特定の[LINK=CONCEPT_TECHNOLOGY]テクノロジー[\LINK]も建設期間を短縮します。また、2人以上の労働者に同時に同じ資源活用を行わせることができます。その場合、建設期間はほぼ半分になります。[PARAGRAPH:2][H2]建設の中断[\H2][PARAGRAPH:2]　　　施設の建設はいつでも中断することができます。建設を行っている労働者をクリックし、新しい命令を与えてください。[PARAGRAPH:2][H2]資源活用施設の略奪[\H2][PARAGRAPH:2]　　　軍事ユニットは中立地帯や、交戦中の文明の領土にある資源活用施設を破壊できます。軍事ユニットを目標の資源活用施設のところに移動させ、〈略奪〉ボタンをクリックしてください（ユニットの移動ポイントが1つ消費されます）。こうした蛮行によって、略奪品も手に入るかもしれません！　そのスクエアに複数の資源活用施設がある場合（たとえば鉱山と道路）、プレイヤーのユニットは1ターンにつきそのうちの1つを破壊します。放浪している[LINK=CONCEPT_BARBARIANS]蛮族[\LINK]はチャンスさえあればいつでも喜んでプレイヤーの資源活用施設を略奪するということを頭に入れておいてください。[PARAGRAPH:2]</Japanese>
+	</TEXT>
+	<!-- CIV4GameText_Civilopedia_Units.xml -->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ROME_PRAETORIAN_PEDIA</Tag>
+		<English />
+		<French>[TAB]　　　共和政ローマ時代に創設され、カルタゴとの三回に及ぶポエニ戦争で発展したローマ軍団は、5世紀に渡ってローマ帝国の覇権の維持に貢献し続けた戦闘集団です。1つの軍団は六千人の兵で編成され、百人隊と呼ばれる六十個の小集団に分割されています。ほぼ無敵とも呼べる攻撃力を誇った彼らですが、防御は弱く、やがて、4世紀にヴァレンス帝がゴート族との戦いで討死すると、軍事組織としてのローマ軍団の権勢は急速に弱まっていきました。[PARAGRAPH:1]　　　"プラエトリアン"という言葉は、レガトゥスと呼ばれる軍団長の兵営"プラエトリウム"に由来します。ローマの将軍達の間では、選りすぐりの兵に自分の兵営を警護させるのが通例となっていました。歩兵と騎兵で編成された彼ら精鋭兵は、やがて、プラエトリア隊と呼ばれるようになります。ユリウス・カエサルやマルクス・アントニウス、アウグストゥス・カエサル（オクタヴィアヌス）などの数々の要人がプラエトリア隊を抱えていました。特に、ユリウス・カエサルは他の軍団よりも強力で危険な存在と言われた第10軍団"エクエストリス"を寵愛していたことで知られています。紀元前27年、初代ローマ皇帝の座に就いたアウグストゥスは、プラエトリア隊に軍事的価値だけでなく政治的価値も見出します。そして、全国から精鋭を駆り集め、近衛集団"プラエトリアン"を編成したのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]　　　共和政ローマ時代に創設され、カルタゴとの三回に及ぶポエニ戦争で発展したローマ軍団は、5世紀に渡ってローマ帝国の覇権の維持に貢献し続けた戦闘集団です。1つの軍団は六千人の兵で編成され、百人隊と呼ばれる六十個の小集団に分割されています。ほぼ無敵とも呼べる攻撃力を誇った彼らですが、防御は弱く、やがて、4世紀にヴァレンス帝がゴート族との戦いで討死すると、軍事組織としてのローマ軍団の権勢は急速に弱まっていきました。[PARAGRAPH:1]　　　"プラエトリアン"という言葉は、レガトゥスと呼ばれる軍団長の兵営"プラエトリウム"に由来します。ローマの将軍達の間では、選りすぐりの兵に自分の兵営を警護させるのが通例となっていました。歩兵と騎兵で編成された彼ら精鋭兵は、やがて、プラエトリア隊と呼ばれるようになります。ユリウス・カエサルやマルクス・アントニウス、アウグストゥス・カエサル（オクタヴィアヌス）などの数々の要人がプラエトリア隊を抱えていました。特に、ユリウス・カエサルは他の軍団よりも強力で危険な存在と言われた第10軍団"エクエストリス"を寵愛していたことで知られています。紀元前27年、初代ローマ皇帝の座に就いたアウグストゥスは、プラエトリア隊に軍事的価値だけでなく政治的価値も見出します。そして、全国から精鋭を駆り集め、近衛集団"プラエトリアン"を編成したのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CANNON_PEDIA</Tag>
+		<English />
+		<French>[TAB]　　　火薬とそれに続くカノン砲の発明は、攻城戦に革命をもたらしました。14世紀にドイツの修道士が考案したカノン砲は、火薬を使って岩や金属球を撃ち出すものでした。これにより、要塞の多くは設計の見直しを迫られることになりました。というのも、背の高い防壁を単純に配置しただけでは、カノン砲の間接攻撃を防げなかったからです。数千年の長きに渡って外敵を退け続けてきたコンスタンティノープルの防壁もカノン砲には無力でした。このようなカノン砲が戦場で重要な地位を得るまでに多くの時間はかかりませんでした。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]　　　火薬とそれに続くカノン砲の発明は、攻城戦に革命をもたらしました。14世紀にドイツの修道士が考案したカノン砲は、火薬を使って岩や金属球を撃ち出すものでした。これにより、要塞の多くは設計の見直しを迫られることになりました。というのも、背の高い防壁を単純に配置しただけでは、カノン砲の間接攻撃を防げなかったからです。数千年の長きに渡って外敵を退け続けてきたコンスタンティノープルの防壁もカノン砲には無力でした。このようなカノン砲が戦場で重要な地位を得るまでに多くの時間はかかりませんでした。</Japanese>
+	</TEXT>
+	<!-- CIV4GameText_Misc1.xml -->
+	<TEXT>
+		<Tag>TXT_KEY_SPACESHIP_SCREEN_TITLE</Tag>
+		<English />
+		<French>宇宙船</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宇宙船</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POWER</Tag>
+		<English />
+		<French>軍事力</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>軍事力</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_COMPLETES_PROJECT</Tag>
+		<English />
+		<French>%s1_PlyrNameが%s2_PrjctNameを完成させました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_PlyrNameが%s2_PrjctNameを完成させました！</Japanese>
+	</TEXT>
+	<!-- CIV4GameText_Events_BTS.xml -->
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_WASHED_OUT</Tag>
+		<English />
+		<French>洪水により、%s1_civ_adjectiveの都市%s2_city周辺の交通網が破壊されました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>洪水により、%s1_civ_adjectiveの都市%s2_city周辺の交通網が破壊されました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_WASHED_OUT_1</Tag>
+		<English />
+		<French>洪水により、%s2_city周辺の交通網が破壊されました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>洪水により、%s2_city周辺の交通網が破壊されました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_CARELESS_APPRENTICE</Tag>
+		<English />
+		<French>%s1_civ_adjectiveの都市%s2_cityにあった鍛冶屋が、火災により焼失しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveの都市%s2_cityにあった鍛冶屋が、火災により焼失しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_CARELESS_APPRENTICE_1</Tag>
+		<English />
+		<French>不注意な見習いが取り扱いを誤ったせいで、%s2_cityの鍛冶屋が焼失しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>不注意な見習いが取り扱いを誤ったせいで、%s2_cityの鍛冶屋が焼失しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_CARELESS_APPRENTICE_2</Tag>
+		<English />
+		<French>乾燥した気候が原因で発生した山火事が%s2_cityの商業地区にまで燃え広がり、鍛冶屋が焼失しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>乾燥した気候が原因で発生した山火事が%s2_cityの商業地区にまで燃え広がり、鍛冶屋が焼失しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_CARELESS_APPRENTICE_3</Tag>
+		<English />
+		<French>何者かの放火によって%s2_cityの鍛冶屋が焼失しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>何者かの放火によって%s2_cityの鍛冶屋が焼失しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_PESTILENCE_2</Tag>
+		<English />
+		<French>アカヒアリの大群が来襲し、%s2_city周辺の牧草地を荒地に変えてしまいました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アカヒアリの大群が来襲し、%s2_city周辺の牧草地を荒地に変えてしまいました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_TORNADO_2</Tag>
+		<English />
+		<French>%s1_civ_adjectiveで猛烈な竜巻が発生し、インフラが重大な被害を受けました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveで猛烈な竜巻が発生し、インフラが重大な被害を受けました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_TORNADO_2</Tag>
+		<English />
+		<French>巨大な竜巻の発生により%s8_improvementが破壊されてしまいました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>巨大な竜巻の発生により%s8_improvementが破壊されてしまいました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_TORNADO_3</Tag>
+		<English />
+		<French>空前絶後の竜巻によって、%s8_improvementが破壊されてしまいました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>空前絶後の竜巻によって、%s8_improvementが破壊されてしまいました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_BARDS_TALE_1</Tag>
+		<English />
+		<French>%s2_cityの作曲家が書いた胸を打つバラードが地元の人々の人気を集めています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s2_cityの作曲家が書いた胸を打つバラードが地元の人々の人気を集めています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_CLUNKER_COAL_1</Tag>
+		<English />
+		<French>この炭鉱で採れる石炭には岩や泥などの不純物が大量に混じっていることが分かりました。こんな低質な石炭を誰が買ってくれるのでしょう？</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>この炭鉱で採れる石炭には岩や泥などの不純物が大量に混じっていることが分かりました。こんな低質な石炭を誰が買ってくれるのでしょう？</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_SOUR_CRUDE_1</Tag>
+		<English />
+		<French>この油田で採れる石油には硫黄などの不純物が大量に混じっていることが分かりました。こんな低質な石油を誰が買ってくれるのでしょう？</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>この油田で採れる石油には硫黄などの不純物が大量に混じっていることが分かりました。こんな低質な石油を誰が買ってくれるのでしょう？</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TIN_1</Tag>
+		<English />
+		<French>素晴らしい。これでより多くの青銅を生産できるだろう。 </French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>素晴らしい。これでより多くの青銅を生産できるだろう。 </Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_MASTER_SMITH</Tag>
+		<English />
+		<French>熟練した鍛冶職人の指導のもと、%s1_civ_adjectiveの都市%s2_cityの鍛冶屋が改良されました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>熟練した鍛冶職人の指導のもと、%s1_civ_adjectiveの都市%s2_cityの鍛冶屋が改良されました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_MASTER_SMITH_1</Tag>
+		<English />
+		<French>%s2_city出身の熟練した鍛冶職人のおかげで、鍛冶屋の拡張と改良が成功し、生産効率が向上しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s2_city出身の熟練した鍛冶職人のおかげで、鍛冶屋の拡張と改良が成功し、生産効率が向上しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_CHAMPION</Tag>
+		<English />
+		<French>%s1_civ_adjectiveの軍が行った軍事演習で、ある部隊が優勝しました。この部隊は軍の中でも最強であると噂されています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveの軍が行った軍事演習で、ある部隊が優勝しました。この部隊は軍の中でも最強であると噂されています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_CHAMPION_1</Tag>
+		<English />
+		<French>軍内部で、戦闘能力と勇気を高めるための軍事演習の大会が行われ、ある部隊が優勝しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>軍内部で、戦闘能力と勇気を高めるための軍事演習の大会が行われ、ある部隊が優勝しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_FEDERAL_RESERVE</Tag>
+		<English />
+		<French>%s1_civ_adjectiveの経済学者がインフレ抑制に関する画期的な経済理論を発表しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveの経済学者がインフレ抑制に関する画期的な経済理論を発表しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FEDERAL_RESERVE_2</Tag>
+		<English />
+		<French>我が国の中央銀行に追加予算を与えて新しい経済政策を進めさせよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国の中央銀行に追加予算を与えて新しい経済政策を進めさせよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_ELECTRIC_COMPANY_1</Tag>
+		<English />
+		<French>停電が発生しましたが、電力会社の迅速な対応でで直ちに復旧しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>停電が発生しましたが、電力会社の迅速な対応でで直ちに復旧しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_INDEPENDENTFILMS</Tag>
+		<English />
+		<French>%s1_civ_adjectiveの%s2_cityにある映画会社が、大ヒット映画シリーズを生み出しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveの%s2_cityにある映画会社が、大ヒット映画シリーズを生み出しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_INTERSTATE</Tag>
+		<English />
+		<French>%s1_civ_adjectiveで、近代的な高速道路の建設が始まりました。完成の暁には全世界の羨望を集めることになるでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveで、近代的な高速道路の建設が始まりました。完成の暁には全世界の羨望を集めることになるでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_INTERSTATE_1</Tag>
+		<English />
+		<French>我が国の技術者が近代的な高速道路の建設を提案しています。この道路には信号も段差もなく、多数の車両がスムーズに通行することができるのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国の技術者が近代的な高速道路の建設を提案しています。この道路には信号も段差もなく、多数の車両がスムーズに通行することができるのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_STRONGER_FITTINGS_1</Tag>
+		<English />
+		<French>%s1_civ_adjectiveの弩兵が装備している武器はこれまでにない優れたものであるという噂が流れています。しかしなぜ彼らの弩の性能が高いのかはわかっていません。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveの弩兵が装備している武器はこれまでにない優れたものであるという噂が流れています。しかしなぜ彼らの弩の性能が高いのかはわかっていません。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_STRONGER_FITTINGS_1</Tag>
+		<English />
+		<French>すべての弩兵に新しい部品を支給しよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>すべての弩兵に新しい部品を支給しよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_RIFLED_CANNON_1</Tag>
+		<English />
+		<French>進化した砲身のおかげで%s1_civ_adjectiveのカノン砲の射程が伸び、命中精度も向上しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>進化した砲身のおかげで%s1_civ_adjectiveのカノン砲の射程が伸び、命中精度も向上しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_THE_VANDALS_HELP_1</Tag>
+		<English />
+		<French>[ICON_BULLET]恐ろしい数の蛮族の[COLOR_UNIT_TEXT]剣士[COLOR_REVERT]が国境の近くに出現しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]恐ろしい数の蛮族の[COLOR_UNIT_TEXT]剣士[COLOR_REVERT]が国境の近くに出現しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_THE_VEDIC_ARYANS_HELP_1</Tag>
+		<English />
+		<French>[ICON_BULLET]恐ろしい数の蛮族の[COLOR_UNIT_TEXT]弓兵[COLOR_REVERT]が国境の近くに出現しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]恐ろしい数の蛮族の[COLOR_UNIT_TEXT]弓兵[COLOR_REVERT]が国境の近くに出現しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_FARM_PLOWS_1</Tag>
+		<English />
+		<French>新しい形の鋤が一般的になりつつあります。我が国の鍛冶屋は国中の農家からの注文に応えるためフル稼働しています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>新しい形の鋤が一般的になりつつあります。我が国の鍛冶屋は国中の農家からの注文に応えるためフル稼働しています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HORSE_WHISPERING_1</Tag>
+		<English />
+		<French>軍馬の飼育[PARAGRAPH:1]ベテラン調教師の要請により、今までよりも多くの馬を思い通りに訓練できるように、たくさんの厩舎を作らなくてはなりません。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>軍馬の飼育[PARAGRAPH:1]ベテラン調教師の要請により、今までよりも多くの馬を思い通りに訓練できるように、たくさんの厩舎を作らなくてはなりません。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HORSE_WHISPERING_HELP</Tag>
+		<English />
+		<French>[PARAGRAPH:1]このクエストを達成するには各地の都市に%d1つの[COLOR_BUILDING_TEXT]厩舎[COLOR_REVERT]を建設しなければなりません。[PARAGRAPH:1]ライバルの文明が先にこの目標を達成した場合や、自国がクエストの条件を満たす前にルネサンス時代に到達した場合にはクエスト失敗となります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[PARAGRAPH:1]このクエストを達成するには各地の都市に%d1つの[COLOR_BUILDING_TEXT]厩舎[COLOR_REVERT]を建設しなければなりません。[PARAGRAPH:1]ライバルの文明が先にこの目標を達成した場合や、自国がクエストの条件を満たす前にルネサンス時代に到達した場合にはクエスト失敗となります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FAIL_HORSE_WHISPERING</Tag>
+		<English />
+		<French>クエスト「軍馬の飼育」を達成できませんでした。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>クエスト「軍馬の飼育」を達成できませんでした。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_HORSE_WHISPERING_DONE</Tag>
+		<English />
+		<French>%s1_civ_adjectiveの厩舎管理者や調教師の努力により、クエスト「軍馬の飼育」を見事達成しました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveの厩舎管理者や調教師の努力により、クエスト「軍馬の飼育」を見事達成しました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HORSE_WHISPERING_DONE_HELP_1</Tag>
+		<English />
+		<French>[ICON_BULLET]%d1ユニットの[COLOR_UNIT_TEXT]弓騎兵[COLOR_REVERT]を獲得。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]%d1ユニットの[COLOR_UNIT_TEXT]弓騎兵[COLOR_REVERT]を獲得。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_HARBORMASTER</Tag>
+		<English />
+		<French>我が国の海運業者たちは海外との交易を拡大するための助力を政府に求めています。[PARAGRAPH:1]そのためには十分な数の[COLOR_BUILDING_TEXT]港[COLOR_REVERT]と船を作る必要があります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国の海運業者たちは海外との交易を拡大するための助力を政府に求めています。[PARAGRAPH:1]そのためには十分な数の[COLOR_BUILDING_TEXT]港[COLOR_REVERT]と船を作る必要があります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HARBORMASTER_1</Tag>
+		<English />
+		<French>海運王[PARAGRAPH:1]商船業界からの要請により、交易大国としての地位を確立するのに十分な数の[COLOR_BUILDING_TEXT]港[COLOR_REVERT]を建設しなければなりません。また同時に[COLOR_UNIT_TEXT]キャラベル船[COLOR_REVERT]を建造し、たくさんの積み荷を運べるようにする必要もあります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>海運王[PARAGRAPH:1]商船業界からの要請により、交易大国としての地位を確立するのに十分な数の[COLOR_BUILDING_TEXT]港[COLOR_REVERT]を建設しなければなりません。また同時に[COLOR_UNIT_TEXT]キャラベル船[COLOR_REVERT]を建造し、たくさんの積み荷を運べるようにする必要もあります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_HARBORMASTER_DONE</Tag>
+		<English />
+		<French>海を知り尽くした%s1_civ_adjectiveの人々がクエスト「海運王」を達成しました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>海を知り尽くした%s1_civ_adjectiveの人々がクエスト「海運王」を達成しました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FAIL_HARBORMASTER</Tag>
+		<English />
+		<French>クエスト「海運王」を達成できませんでした。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>クエスト「海運王」を達成できませんでした。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_MASTER_BLACKSMITH</Tag>
+		<English />
+		<French>%s2_cityの熟練鍛冶職人が、大勢の弟子をとって技術を伝授したいと申し出ています。ただしそのためにはたくさんの鍛冶屋が必要だというのです。[PARAGRAPH:1]将来独立した弟子たちが存分に腕を振るえるよう、十分な数の[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]を作らなければなりません。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s2_cityの熟練鍛冶職人が、大勢の弟子をとって技術を伝授したいと申し出ています。ただしそのためにはたくさんの鍛冶屋が必要だというのです。[PARAGRAPH:1]将来独立した弟子たちが存分に腕を振るえるよう、十分な数の[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]を作らなければなりません。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MASTER_BLACKSMITH_1</Tag>
+		<English />
+		<French>鍛冶仕事の達人[PARAGRAPH:1]熟練鍛冶職人の要望に応え、将来一人前になった彼の弟子たちが仕事をする場所に困らぬよう、たくさんの[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]を作らなければなりません。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鍛冶仕事の達人[PARAGRAPH:1]熟練鍛冶職人の要望に応え、将来一人前になった彼の弟子たちが仕事をする場所に困らぬよう、たくさんの[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]を作らなければなりません。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MASTER_BLACKSMITH_HELP_1</Tag>
+		<English />
+		<French>[PARAGRAPH:1]このクエストを達成するには各地の都市に%d1つの[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]を作る必要があります。なお、すでにある鍛冶屋もカウントされます。[PARAGRAPH:1]熟練鍛冶職人は信仰に篤い人物です。クエストを達成した時点であなたの国に国教があれば、さらなるボーナスが与えられます。[PARAGRAPH:1]ライバルの文明が先に目標を達成した場合や、自国が%s2_cityと熟練鍛冶職人の支配権を失った場合、またはクエストの条件を満たす前にルネサンス時代に到達した場合にはクエスト失敗となります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[PARAGRAPH:1]このクエストを達成するには各地の都市に%d1つの[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]を作る必要があります。なお、すでにある鍛冶屋もカウントされます。[PARAGRAPH:1]熟練鍛冶職人は信仰に篤い人物です。クエストを達成した時点であなたの国に国教があれば、さらなるボーナスが与えられます。[PARAGRAPH:1]ライバルの文明が先に目標を達成した場合や、自国が%s2_cityと熟練鍛冶職人の支配権を失った場合、またはクエストの条件を満たす前にルネサンス時代に到達した場合にはクエスト失敗となります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_MASTER_BLACKSMITH_DONE_1</Tag>
+		<English />
+		<French>おめでとうございます！　熟練鍛冶職人の要望に応え、彼の弟子たちが仕事をする場所に困らないだけの[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]を作ることに成功しました。我が国の金属加工技術はますます発展することでしょう。次の報酬の中から好きなものを選んでください。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>おめでとうございます！　熟練鍛冶職人の要望に応え、彼の弟子たちが仕事をする場所に困らないだけの[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]を作ることに成功しました。我が国の金属加工技術はますます発展することでしょう。次の報酬の中から好きなものを選んでください。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MASTER_BLACKSMITH_DONE_3</Tag>
+		<English />
+		<French>熟練鍛冶職人が引退した暁には最も優秀な弟子が彼の鍛冶屋を継ぎ、その都市に優れた金属加工技術の伝統を根付かせる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>熟練鍛冶職人が引退した暁には最も優秀な弟子が彼の鍛冶屋を継ぎ、その都市に優れた金属加工技術の伝統を根付かせる。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_SPORTS_LEAGUE_DONE</Tag>
+		<English />
+		<French>%s1_civ_adjectiveの各地に十分な数の[COLOR_BUILDING_TEXT]コロシアム[COLOR_REVERT]が建設され、クエスト「国内スポーツリーグ」の目標が達成されました。これにより国民の連帯感と愛国心が高まりました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveの各地に十分な数の[COLOR_BUILDING_TEXT]コロシアム[COLOR_REVERT]が建設され、クエスト「国内スポーツリーグ」の目標が達成されました。これにより国民の連帯感と愛国心が高まりました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_INDUSTRIAL_FIRE</Tag>
+		<English />
+		<French>%s2_cityの工場で発生した火災によって焼失してしまいました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s2_cityの工場で発生した火災によって焼失してしまいました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_OVERWHELM_1</Tag>
+		<English />
+		<French>圧倒ドクトリン[PARAGRAPH:1]軍司令官たちの要請に応え、完全な作戦能力を有する空母戦闘艦隊を編成しなければなりません。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>圧倒ドクトリン[PARAGRAPH:1]軍司令官たちの要請に応え、完全な作戦能力を有する空母戦闘艦隊を編成しなければなりません。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HOSTILE_TAKEOVER_HELP_1</Tag>
+		<English />
+		<French>[PARAGRAPH:1]このクエストを達成するには、まだ誰も手をつけていない資源のそばに開拓者を送り込むか、ライバルの文明が支配している資源を奪う必要があります。[PARAGRAPH:1]あなたは新たに次の%d1種類の資源を獲得しなければなりません：%s2_list_of_resources[PARAGRAPH:1]またすでに獲得している必要資源の支配権も維持しなければなりません。[PARAGRAPH:1]あなたと同じように自国の企業のために資源を確保しようとしているライバルの文明が、先に目標を達成した場合にはクエスト失敗となります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[PARAGRAPH:1]このクエストを達成するには、まだ誰も手をつけていない資源のそばに開拓者を送り込むか、ライバルの文明が支配している資源を奪う必要があります。[PARAGRAPH:1]あなたは新たに次の%d1種類の資源を獲得しなければなりません：%s2_list_of_resources[PARAGRAPH:1]またすでに獲得している必要資源の支配権も維持しなければなりません。[PARAGRAPH:1]あなたと同じように自国の企業のために資源を確保しようとしているライバルの文明が、先に目標を達成した場合にはクエスト失敗となります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CIV_GAME_1</Tag>
+		<English />
+		<French>開発者に賞賛を送ろう。人々はこのゲームを大いに楽しむだろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>開発者に賞賛を送ろう。人々はこのゲームを大いに楽しむだろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_IMMIGRANTS</Tag>
+		<English />
+		<French>%s2_cityの文化を扱った書物に触発された人々が次々とあの都市へ移り住んでいます！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s2_cityの文化を扱った書物に触発された人々が次々とあの都市へ移り住んでいます！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_DEFECTING_AGENT</Tag>
+		<English />
+		<French>%s1_civ_adjectiveの諜報局高官が%s4_civ_adjectiveに亡命しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveの諜報局高官が%s4_civ_adjectiveに亡命しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DEFECTING_AGENT</Tag>
+		<English />
+		<French>我が国の諜報局高官が%s1_civ_adjectiveに亡命してしまいました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国の諜報局高官が%s1_civ_adjectiveに亡命してしまいました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DEFECTING_AGENT_2</Tag>
+		<English />
+		<French>許せない裏切りだ。そのような人物は“スキマ送り”にあってしかるべきだろう！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>許せない裏切りだ。そのような人物は“スキマ送り”にあってしかるべきだろう！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ROGUE_STATION</Tag>
+		<English />
+		<French>%s2_cityの海賊放送局が政府を批判する番組を盛んに流しています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s2_cityの海賊放送局が政府を批判する番組を盛んに流しています。</Japanese>
+	</TEXT>
+	<!-- CIV4GameText_Objects_BTS.xml -->
+	<TEXT>
+		<Tag>CHANGED_TXT_KEY_CORPORATION_2</Tag>
+		<English />
+		<French>シド寿司</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>シド寿司</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FOREST_PRESERVE</Tag>
+		<English />
+		<French>森林保護区</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>森林保護区</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ADVANCED_FLIGHT</Tag>
+		<English />
+		<French>航空工学</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>航空工学</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MILITARY_SCIENCE</Tag>
+		<English />
+		<French>軍事学</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>軍事学</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_LATE_START</Tag>
+		<English />
+		<French>成長済みスタート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>成長済みスタート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BTS_FOREST_PRESERVE</Tag>
+		<English />
+		<French>森林保護区</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>森林保護区</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHWEDAGON_PAYA</Tag>
+		<English />
+		<French>シェダゴン・パゴダ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>シェダゴン・パゴダ</Japanese>
+	</TEXT>
+	<!-- CIV4GameTextChanged_BTS.xml -->
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_ALL_CITIES</Tag>
+		<English />
+		<French>[ICON_BULLET]すべての都市：所有している資源1つにつき%s1_yield_symbols</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]すべての都市：所有している資源1つにつき%s1_yield_symbols</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DIPLO_VOTE</Tag>
+		<English />
+		<French>[ICON_BULLET]%s1の[LINK=CONCEPT_UNITED_NATIONS]世界選挙[\LINK]を実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]%s1の[LINK=CONCEPT_UNITED_NATIONS]世界選挙[\LINK]を実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SCIENTIFIC_METHOD_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_TECH_TEXT]科学的手法[COLOR_REVERT]を研究すると、[COLOR_HIGHLIGHT_TEXT]石油[COLOR_REVERT]を資源として使え、[COLOR_HIGHLIGHT_TEXT]森林保護区[COLOR_REVERT]を資源活用施設として設けられるようになります。その一方、[COLOR_BUILDING_TEXT]アレクサンドリア図書館[COLOR_REVERT]、[COLOR_BUILDING_TEXT]パルテノン神殿[COLOR_REVERT]、[COLOR_BUILDING_TEXT]アルテミス神殿[COLOR_REVERT]、[COLOR_BUILDING_TEXT]僧院[COLOR_REVERT]は陳腐化されます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_TECH_TEXT]科学的手法[COLOR_REVERT]を研究すると、[COLOR_HIGHLIGHT_TEXT]石油[COLOR_REVERT]を資源として使え、[COLOR_HIGHLIGHT_TEXT]森林保護区[COLOR_REVERT]を資源活用施設として設けられるようになります。その一方、[COLOR_BUILDING_TEXT]アレクサンドリア図書館[COLOR_REVERT]、[COLOR_BUILDING_TEXT]パルテノン神殿[COLOR_REVERT]、[COLOR_BUILDING_TEXT]アルテミス神殿[COLOR_REVERT]、[COLOR_BUILDING_TEXT]僧院[COLOR_REVERT]は陳腐化されます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ASTRONOMY_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_TECH_TEXT]天文学[COLOR_REVERT]を発見すると、[COLOR_UNIT_TEXT]ガレオン船[COLOR_REVERT]を始めとして、[COLOR_UNIT_TEXT]フリゲート艦[COLOR_REVERT]や[COLOR_UNIT_TEXT]私掠船[COLOR_REVERT]（[COLOR_TECH_TEXT]化学[COLOR_REVERT]も必要）、[COLOR_UNIT_TEXT]戦列艦[COLOR_REVERT]（[COLOR_TECH_TEXT]軍事学[COLOR_REVERT]も必要）を建造できるようになります。さらに海洋横断交易路を開けるようになり、[COLOR_BUILDING_TEXT]天文台[COLOR_REVERT]を建設できるようになります。その一方、[COLOR_BUILDING_TEXT]ロードス島の巨神像[COLOR_REVERT]や[COLOR_BUILDING_TEXT]ストーンヘンジ[COLOR_REVERT]といった遺産とともに建造物の[COLOR_BUILDING_TEXT]モニュメント[COLOR_REVERT]が時代遅れになります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_TECH_TEXT]天文学[COLOR_REVERT]を発見すると、[COLOR_UNIT_TEXT]ガレオン船[COLOR_REVERT]を始めとして、[COLOR_UNIT_TEXT]フリゲート艦[COLOR_REVERT]や[COLOR_UNIT_TEXT]私掠船[COLOR_REVERT]（[COLOR_TECH_TEXT]化学[COLOR_REVERT]も必要）、[COLOR_UNIT_TEXT]戦列艦[COLOR_REVERT]（[COLOR_TECH_TEXT]軍事学[COLOR_REVERT]も必要）を建造できるようになります。さらに海洋横断交易路を開けるようになり、[COLOR_BUILDING_TEXT]天文台[COLOR_REVERT]を建設できるようになります。その一方、[COLOR_BUILDING_TEXT]ロードス島の巨神像[COLOR_REVERT]や[COLOR_BUILDING_TEXT]ストーンヘンジ[COLOR_REVERT]といった遺産とともに建造物の[COLOR_BUILDING_TEXT]モニュメント[COLOR_REVERT]が時代遅れになります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MEDITATION_STRATEGY</Tag>
+		<English />
+		<French>このテクノロジーを最初に研究した文明は、[COLOR_HIGHLIGHT_TEXT]仏教[COLOR_REVERT]の開祖となります。さらに都市建造物の[COLOR_BUILDING_TEXT]僧院[COLOR_REVERT]や世界遺産の[COLOR_BUILDING_TEXT]シェダゴン・パゴダ[COLOR_REVERT]を建設できるようになります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>このテクノロジーを最初に研究した文明は、[COLOR_HIGHLIGHT_TEXT]仏教[COLOR_REVERT]の開祖となります。さらに都市建造物の[COLOR_BUILDING_TEXT]僧院[COLOR_REVERT]や世界遺産の[COLOR_BUILDING_TEXT]シェダゴン・パゴダ[COLOR_REVERT]を建設できるようになります。</Japanese>
+	</TEXT>
+	<!-- CIV4GameText_BTS_PatchText.xml -->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FORGE_STRATEGY</Tag>
+		<English />
+		<French>[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]がある都市はユニットや建造物の生産速度が増しますが、一方で衛生状態は悪化してしまいます。[COLOR_BUILDING_TEXT]溶鉱炉[COLOR_REVERT]は世界遺産である[COLOR_BUILDING_TEXT]ロードス島の巨神像[COLOR_REVERT]や[COLOR_BUILDING_TEXT]エッフェル塔[COLOR_REVERT]や[COLOR_BUILDING_TEXT]自由の女神[COLOR_REVERT]、国家遺産である[COLOR_BUILDING_TEXT]製鉄所[COLOR_REVERT]を建設するのに必要です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]がある都市はユニットや建造物の生産速度が増しますが、一方で衛生状態は悪化してしまいます。[COLOR_BUILDING_TEXT]溶鉱炉[COLOR_REVERT]は世界遺産である[COLOR_BUILDING_TEXT]ロードス島の巨神像[COLOR_REVERT]や[COLOR_BUILDING_TEXT]エッフェル塔[COLOR_REVERT]や[COLOR_BUILDING_TEXT]自由の女神[COLOR_REVERT]、国家遺産である[COLOR_BUILDING_TEXT]製鉄所[COLOR_REVERT]を建設するのに必要です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_APOSTOLIC_PALACE</Tag>
+		<English />
+		<French>宴会幹事役と博麗会議</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宴会幹事役と博麗会議</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_APOSTOLIC_PALACE_PEDIA</Tag>
+		<English />
+		<French>[H1]教皇庁と国連[\H1][PARAGRAPH:2][LINK=BUILDING_APOSTOLIC_PALACE]教皇庁[\LINK]は今回新しく加わった中世時代の世界遺産で、機能的には[LINK=BUILDING_UNITED_NATIONS]国連[\LINK]と似ています。教皇庁を建設するためには、[LINK=TECH_THEOLOGY]神学[\LINK]を研究し、国教を持っていなければなりません。教皇庁が完成すると、そこで信仰される宗教は建設したプレイヤーの国教に固定され、誰が教皇にふさわしいかを選ぶ投票が行われます。候補者となるのは教皇庁を完成させたプレイヤーと、教皇庁と同じ宗教を信仰する都市の人口合計が最も多い文明です。教皇となったプレイヤーには、投票にかける決議を選ぶ権限が与えられます。[PARAGRAPH:2][BOLD]教皇庁のメンバー国の条件とメンバー国であることの利点[\BOLD][PARAGRAPH:1]教皇庁のメンバー国は"正規メンバー"と"投票メンバー"の2種類に分けられます。投票メンバーとは、教皇庁と同じ宗教を信仰している都市を抱えているが、国教とはしていない文明です。正規メンバーとは、教皇庁と同じ宗教を信仰している都市を抱え、なおかつそれを国教としている文明です。教皇庁と同じ宗教を信仰している都市がひとつもないプレイヤーは"非メンバー"と呼ばれます。全メンバー国は、教皇庁と同じ宗教を信仰するすべての寺院、聖堂、僧院、礼拝堂に対して生産ボーナスを得ることができます。[PARAGRAPH:1]正規メンバーとなっていると、いろいろな利点があります。教皇に選ばれ、教皇庁を通じて外交による勝利を狙えるのは正規メンバーまたは教皇庁を所有する者だけです。また正規メンバーが投ずる一票は、投票メンバーが投ずる一票の2倍の効力があるのです。[PARAGRAPH:1]正規メンバーが決議を拒否すると、投票メンバーに降格されます（下を参照）。ただし賛成票を投じた決議が可決されると正規メンバーに戻れます。[PARAGRAPH:1]各国がなっているメンバーの種類については、勝利画面[F8]キーから確認できます。[PARAGRAPH:1]このメンバー制度は、少し形を変えて別の世界遺産である国連にも適用されています。詳しくは下の説明を読んでください。[PARAGRAPH:2][BOLD]決議[\BOLD][PARAGRAPH:1]教皇は宮殿メンバーが投票を行う決議を選択します。決議には次のものがあります：[PARAGRAPH:1][BOLD]異教徒への聖戦：[\BOLD]投票メンバーに対して全メンバーが宣戦布告する、あるいはすでに正規メンバーと戦争中の非メンバーに対して宣戦布告を求める投票を行います。正規メンバーを宣戦布告の対象にはできません。[PARAGRAPH:1][BOLD]交易停止：[\BOLD]特定の投票メンバーないし非メンバーと、全メンバーとの間の交易の全面停止を求める投票を行います。[PARAGRAPH:1][BOLD]強制和平：[\BOLD]正規メンバーと他のメンバーとの間の戦争を終結させます。[PARAGRAPH:1][BOLD]防衛協定締結：[\BOLD]全教皇庁メンバー間で防衛協定を結びます。[PARAGRAPH:1][BOLD]国境開放：[\BOLD]全教皇庁メンバー間で相互通交条約を締結します。[PARAGRAPH:1][BOLD]都市移譲：[\BOLD]都市の所有権を、その都市に与えている文化的影響が最も強いプレイヤーに譲ります。決議による都市の移譲は投票メンバーから正規メンバーへの一方向のみ可能です。[PARAGRAPH:2][BOLD]決議の拒否[\BOLD][PARAGRAPH:1]プレイヤーは教皇庁の決議を"拒否"することができます。拒否された決議は無効となり、誰に対しても効力を発揮しません。決議を拒否したプレイヤーは宗教施設から得ていた生産ボーナスをすべて失い、教皇庁と同じ宗教を信仰している都市では不満ペナルティーが加算されます。宗教施設ボーナスはプレイヤーが新しい決議に賛成票を投じ、それが可決すると復活します。ほぼどんな決議でも拒否できますが、唯一拒否できないのが「宗教による勝利」の決議です。[PARAGRAPH:2][BOLD]宗教による勝利[\BOLD][PARAGRAPH:1]教皇庁の所有者または正規メンバーは外交的勝利を目指すことができます。教皇庁を通じて勝利するためには、ゲームに登場するすべての文明が教皇庁決議に投票できるようにする必要があります。つまり、すべての文明の1つ以上の都市で教皇庁と同じ宗教が信仰されている必要があるということです。あとは候補者が必要とされる投票数さえ獲得すれば、勝利を我がものにできるのです。[PARAGRAPH:2][H1]国連に関する変更点[\H1][PARAGRAPH:2][BOLD]加盟国[\BOLD][PARAGRAPH:1]教皇庁のように国連加盟国にもランクが設けられました。国連創設時はどのプレイヤーも一律に正規加盟国ですが、決議を拒否すると投票加盟国に格下げされます。非加盟国はありません。事務総長になれる、つまり外交による勝利が狙えるのは正規加盟国または国連の所有者だけです。投票加盟国になったプレイヤーは賛成した決議が可決すると正規加盟国に復帰できます。[PARAGRAPH:1]勝利画面[F8キー]から各文明の加盟国ランクを確認できます。[PARAGRAPH:2][BOLD]決議の拒否[\BOLD][PARAGRAPH:1]プレイヤーは教皇庁の決議と同じように国連決議も拒否できます。ただし教皇庁決議と同じく、拒否するとその反動として都市の不満が増えます。ほぼすべての国連決議を拒否できますが、唯一外交による勝利の決議だけは拒否できません。[PARAGRAPH:2][BOLD]新しく加わった決議[\BOLD][PARAGRAPH:1]国連が可決できる決議として新たに"強制和平"、"都市移譲"、"交易禁止"、"宣戦布告"が加わりました。これらは内容的に教皇庁で可決できる決議と似ています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]教皇庁と国連[\H1][PARAGRAPH:2][LINK=BUILDING_APOSTOLIC_PALACE]教皇庁[\LINK]は今回新しく加わった中世時代の世界遺産で、機能的には[LINK=BUILDING_UNITED_NATIONS]国連[\LINK]と似ています。教皇庁を建設するためには、[LINK=TECH_THEOLOGY]神学[\LINK]を研究し、国教を持っていなければなりません。教皇庁が完成すると、そこで信仰される宗教は建設したプレイヤーの国教に固定され、誰が教皇にふさわしいかを選ぶ投票が行われます。候補者となるのは教皇庁を完成させたプレイヤーと、教皇庁と同じ宗教を信仰する都市の人口合計が最も多い文明です。教皇となったプレイヤーには、投票にかける決議を選ぶ権限が与えられます。[PARAGRAPH:2][BOLD]教皇庁のメンバー国の条件とメンバー国であることの利点[\BOLD][PARAGRAPH:1]教皇庁のメンバー国は"正規メンバー"と"投票メンバー"の2種類に分けられます。投票メンバーとは、教皇庁と同じ宗教を信仰している都市を抱えているが、国教とはしていない文明です。正規メンバーとは、教皇庁と同じ宗教を信仰している都市を抱え、なおかつそれを国教としている文明です。教皇庁と同じ宗教を信仰している都市がひとつもないプレイヤーは"非メンバー"と呼ばれます。全メンバー国は、教皇庁と同じ宗教を信仰するすべての寺院、聖堂、僧院、礼拝堂に対して生産ボーナスを得ることができます。[PARAGRAPH:1]正規メンバーとなっていると、いろいろな利点があります。教皇に選ばれ、教皇庁を通じて外交による勝利を狙えるのは正規メンバーまたは教皇庁を所有する者だけです。また正規メンバーが投ずる一票は、投票メンバーが投ずる一票の2倍の効力があるのです。[PARAGRAPH:1]正規メンバーが決議を拒否すると、投票メンバーに降格されます（下を参照）。ただし賛成票を投じた決議が可決されると正規メンバーに戻れます。[PARAGRAPH:1]各国がなっているメンバーの種類については、勝利画面[F8]キーから確認できます。[PARAGRAPH:1]このメンバー制度は、少し形を変えて別の世界遺産である国連にも適用されています。詳しくは下の説明を読んでください。[PARAGRAPH:2][BOLD]決議[\BOLD][PARAGRAPH:1]教皇は宮殿メンバーが投票を行う決議を選択します。決議には次のものがあります：[PARAGRAPH:1][BOLD]異教徒への聖戦：[\BOLD]投票メンバーに対して全メンバーが宣戦布告する、あるいはすでに正規メンバーと戦争中の非メンバーに対して宣戦布告を求める投票を行います。正規メンバーを宣戦布告の対象にはできません。[PARAGRAPH:1][BOLD]交易停止：[\BOLD]特定の投票メンバーないし非メンバーと、全メンバーとの間の交易の全面停止を求める投票を行います。[PARAGRAPH:1][BOLD]強制和平：[\BOLD]正規メンバーと他のメンバーとの間の戦争を終結させます。[PARAGRAPH:1][BOLD]防衛協定締結：[\BOLD]全教皇庁メンバー間で防衛協定を結びます。[PARAGRAPH:1][BOLD]国境開放：[\BOLD]全教皇庁メンバー間で相互通交条約を締結します。[PARAGRAPH:1][BOLD]都市移譲：[\BOLD]都市の所有権を、その都市に与えている文化的影響が最も強いプレイヤーに譲ります。決議による都市の移譲は投票メンバーから正規メンバーへの一方向のみ可能です。[PARAGRAPH:2][BOLD]決議の拒否[\BOLD][PARAGRAPH:1]プレイヤーは教皇庁の決議を"拒否"することができます。拒否された決議は無効となり、誰に対しても効力を発揮しません。決議を拒否したプレイヤーは宗教施設から得ていた生産ボーナスをすべて失い、教皇庁と同じ宗教を信仰している都市では不満ペナルティーが加算されます。宗教施設ボーナスはプレイヤーが新しい決議に賛成票を投じ、それが可決すると復活します。ほぼどんな決議でも拒否できますが、唯一拒否できないのが「宗教による勝利」の決議です。[PARAGRAPH:2][BOLD]宗教による勝利[\BOLD][PARAGRAPH:1]教皇庁の所有者または正規メンバーは外交的勝利を目指すことができます。教皇庁を通じて勝利するためには、ゲームに登場するすべての文明が教皇庁決議に投票できるようにする必要があります。つまり、すべての文明の1つ以上の都市で教皇庁と同じ宗教が信仰されている必要があるということです。あとは候補者が必要とされる投票数さえ獲得すれば、勝利を我がものにできるのです。[PARAGRAPH:2][H1]国連に関する変更点[\H1][PARAGRAPH:2][BOLD]加盟国[\BOLD][PARAGRAPH:1]教皇庁のように国連加盟国にもランクが設けられました。国連創設時はどのプレイヤーも一律に正規加盟国ですが、決議を拒否すると投票加盟国に格下げされます。非加盟国はありません。事務総長になれる、つまり外交による勝利が狙えるのは正規加盟国または国連の所有者だけです。投票加盟国になったプレイヤーは賛成した決議が可決すると正規加盟国に復帰できます。[PARAGRAPH:1]勝利画面[F8キー]から各文明の加盟国ランクを確認できます。[PARAGRAPH:2][BOLD]決議の拒否[\BOLD][PARAGRAPH:1]プレイヤーは教皇庁の決議と同じように国連決議も拒否できます。ただし教皇庁決議と同じく、拒否するとその反動として都市の不満が増えます。ほぼすべての国連決議を拒否できますが、唯一外交による勝利の決議だけは拒否できません。[PARAGRAPH:2][BOLD]新しく加わった決議[\BOLD][PARAGRAPH:1]国連が可決できる決議として新たに"強制和平"、"都市移譲"、"交易禁止"、"宣戦布告"が加わりました。これらは内容的に教皇庁で可決できる決議と似ています。</Japanese>
+	</TEXT>
+</Civ4GameText>

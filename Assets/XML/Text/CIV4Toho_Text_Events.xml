@@ -1,0 +1,2406 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Civilopedia CivLeaders -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- CIVILIZATION INFOS -->
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_INSPIRED_MISSION</Tag>
+		<English />
+		<French>霊感に導かれた%s4_religion_adjective醸造職人が%s2_cityで大々的な製酒に成功しました。醸造職人たちはあなたとの面会を希望しています。彼らは%s1_civ_adjectiveにさらに広めたいと願っているのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霊感に導かれた%s4_religion_adjective醸造職人が%s2_cityで大々的な製酒に成功しました。醸造職人たちはあなたとの面会を希望しています。彼らは%s1_civ_adjectiveにさらに広めたいと願っているのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_JOYOUS_WEDDING</Tag>
+		<English />
+		<French>%s3_religion_adjectiveの伝統に従った宴会が華やかに執り行われ、%s1_civ_adjectiveと%s4_civ_adjectiveの絆が強まりました。両国民はこの2人の宴会を楽しむとともに、宴会に参列する一同に対しても親愛の情を深めています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s3_religion_adjectiveの伝統に従った宴会が華やかに執り行われ、%s1_civ_adjectiveと%s4_civ_adjectiveの絆が強まりました。両国民はこの2人の宴会を楽しむとともに、宴会に参列する一同に対しても親愛の情を深めています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_JOYOUS_WEDDING_1</Tag>
+		<English />
+		<French>我が国と%s1_civ_adjectiveそれぞれのえらい人が%s4_religion_adjectiveの伝統に従って宴会を行い、両国の絆が深まりました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国と%s1_civ_adjectiveそれぞれのえらい人が%s4_religion_adjectiveの伝統に従って宴会を行い、両国の絆が深まりました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_JOYOUS_WEDDING_2</Tag>
+		<English />
+		<French>我が国のさる身分の高い人が、%s1_civ_adjectiveのやはり高貴な身分の人と密かに%s4_religion_adjectiveの伝統に従って宴会を執り行うことになりました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国のさる身分の高い人が、%s1_civ_adjectiveのやはり高貴な身分の人と密かに%s4_religion_adjectiveの伝統に従って宴会を執り行うことになりました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_JOYOUS_WEDDING_3</Tag>
+		<English />
+		<French>%s1_civ_adjectiveの産業王のえらい人が、我が国の有名な富豪からの宴会の申し込みを受けたそうです。宴会式は%s4_religion_adjectiveの伝統に従って執り行われる予定です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveの産業王のえらい人が、我が国の有名な富豪からの宴会の申し込みを受けたそうです。宴会式は%s4_religion_adjectiveの伝統に従って執り行われる予定です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_JOYOUS_WEDDING_2</Tag>
+		<English />
+		<French>心からの祝福の言葉と豪華な贈り物を贈ろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>心からの祝福の言葉と豪華な贈り物を贈ろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_JOYOUS_WEDDING_3</Tag>
+		<English />
+		<French>国を挙げてこれを祝い、目玉が飛び出るような豪華な贈り物を贈り、相手国の酒蔵にも多額の寄付をしよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国を挙げてこれを祝い、目玉が飛び出るような豪華な贈り物を贈り、相手国の酒蔵にも多額の寄付をしよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_JOYOUS_WEDDING_OTHER_1</Tag>
+		<English />
+		<French>%s5_religion_adjectiveの伝統に従って執り行われた我が国と%s1_civ_adjectiveの国際的カップルの結婚式には、同国からの反発も、祝福もありませんでした。両家の中にはこれに不満を抱く者もいるようですが、じきにこの一件は忘れ去られることでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s5_religion_adjectiveの伝統に従って執り行われた我が国と%s1_civ_adjectiveの国際的カップルの結婚式には、同国からの反発も、祝福もありませんでした。両家の中にはこれに不満を抱く者もいるようですが、じきにこの一件は忘れ去られることでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_JOYOUS_WEDDING_OTHER_2</Tag>
+		<English />
+		<French>%s5_religion_adjectiveの伝統に従って執り行われた我が国と%s1_civ_adjectiveの国際的宴会には、相手国から祝福の言葉と立派な贈り物が届けられました。我が国の人々もこれを喜んでいます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s5_religion_adjectiveの伝統に従って執り行われた我が国と%s1_civ_adjectiveの国際的宴会には、相手国から祝福の言葉と立派な贈り物が届けられました。我が国の人々もこれを喜んでいます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_JOYOUS_WEDDING_OTHER_3</Tag>
+		<English />
+		<French>%s5_religion_adjectiveの伝統に従って執り行われた我が国と%s1_civ_adjectiveの国際的宴会には、相手国から目玉の飛び出るような豪華な贈り物が届けられました。加えて、かの国はこの日を国民の祝日とし、我が国の酒蔵にも多くの寄付をしてくれたのです。我が国の人々は大喜びです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s5_religion_adjectiveの伝統に従って執り行われた我が国と%s1_civ_adjectiveの国際的宴会には、相手国から目玉の飛び出るような豪華な贈り物が届けられました。加えて、かの国はこの日を国民の祝日とし、我が国の酒蔵にも多くの寄付をしてくれたのです。我が国の人々は大喜びです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_WEDDING_FEUD</Tag>
+		<English />
+		<French>%s4_civ_adjectiveの名家が、%s1_civ_adjectiveの名家に対して腹を立てています。両家の跡取り同士の宴会が、彼らの意向を無視して%s3_religion_adjectiveの形式で執り行われたからです。両家の確執は両方の国内で多大な関心を集めています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s4_civ_adjectiveの名家が、%s1_civ_adjectiveの名家に対して腹を立てています。両家の跡取り同士の宴会が、彼らの意向を無視して%s3_religion_adjectiveの形式で執り行われたからです。両家の確執は両方の国内で多大な関心を集めています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_WEDDING_FEUD_1</Tag>
+		<English />
+		<French>我が国と%s1_civ_adjectiveの名家同士の宴会がパーになりました。宴会を、我が国の伝統と%s4_religion_adjectiveの伝統のどちらに従って執り行うかの話し合いがつかなかったためです。両家の間で緊張が高まっています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国と%s1_civ_adjectiveの名家同士の宴会がパーになりました。宴会を、我が国の伝統と%s4_religion_adjectiveの伝統のどちらに従って執り行うかの話し合いがつかなかったためです。両家の間で緊張が高まっています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_WEDDING_FEUD_2</Tag>
+		<English />
+		<French>2つの国の名家の跡取り同士が周囲の反対を押し切って宴会をしたことにより大きな波紋が広がっています。%s1_civ_adjectiveの指導者は、宴会が我が国の%s4_religion_adjectiveの伝統に従って執り行われたことに怒りを隠せません。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>2つの国の名家の跡取り同士が周囲の反対を押し切って宴会をしたことにより大きな波紋が広がっています。%s1_civ_adjectiveの指導者は、宴会が我が国の%s4_religion_adjectiveの伝統に従って執り行われたことに怒りを隠せません。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_WEDDING_FEUD_3</Tag>
+		<English />
+		<French>%s1_civ_adjectiveの産業王のえらい人が、我が国の有名な富豪からの宴会の申し込みを受けました。婚礼の儀をどちらの酒を出すかが大問題となりましたが、2人は結局%s4_religion_adjectiveの形式に従うことを選びました。このことに向こう側の家族は憤慨しています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveの産業王のえらい人が、我が国の有名な富豪からの宴会の申し込みを受けました。婚礼の儀をどちらの酒を出すかが大問題となりましたが、2人は結局%s4_religion_adjectiveの形式に従うことを選びました。このことに向こう側の家族は憤慨しています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WEDDING_FEUD_1</Tag>
+		<English />
+		<French>祝いの言葉と形ばかりの贈り物を贈ろう。隣国をこれ以上立腹させるのは得策でない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>祝いの言葉と形ばかりの贈り物を贈ろう。隣国をこれ以上立腹させるのは得策でない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WEDDING_FEUD_2</Tag>
+		<English />
+		<French>心からの祝いの言葉と豪華な贈り物を贈ろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>心からの祝いの言葉と豪華な贈り物を贈ろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WEDDING_FEUD_3</Tag>
+		<English />
+		<French>国を挙げてこれを祝い、目玉が飛び出るような豪華な贈り物を贈り、宴会を行う我が国の酒蔵に多額の寄付をしよう。しかしこの行為は相手国の感情を逆なでし、戦争が起こるかもしれない！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国を挙げてこれを祝い、目玉が飛び出るような豪華な贈り物を贈り、宴会を行う我が国の酒蔵に多額の寄付をしよう。しかしこの行為は相手国の感情を逆なでし、戦争が起こるかもしれない！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WEDDING_FEUD_OTHER_1</Tag>
+		<English />
+		<French>我が国と%s1_civ_adjectiveの国際的カップルの結婚式が%s5_religion_adjectiveの伝統に従って執り行われたため、我が国の人々は怒っています。しかし相手国もそれを察して、特別な贈り物などはしなかったことから、国民の不満は爆発するには至っていません。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国と%s1_civ_adjectiveの国際的カップルの結婚式が%s5_religion_adjectiveの伝統に従って執り行われたため、我が国の人々は怒っています。しかし相手国もそれを察して、特別な贈り物などはしなかったことから、国民の不満は爆発するには至っていません。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WEDDING_FEUD_OTHER_2</Tag>
+		<English />
+		<French>%s5_religion_adjectiveの伝統に従って執り行われた我が国と%s1_civ_adjectiveの国際的宴会に、相手国から豪華な酒が届けられました。これは我が国に対する侮辱だと、国民は怒っています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s5_religion_adjectiveの伝統に従って執り行われた我が国と%s1_civ_adjectiveの国際的宴会に、相手国から豪華な酒が届けられました。これは我が国に対する侮辱だと、国民は怒っています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WEDDING_FEUD_OTHER_3</Tag>
+		<English />
+		<French>%s1_religion_adjectiveの伝統に従って執り行われた我が国と%s2_civの国際的宴会には、相手国から目玉の飛び出るような豪華な贈り物が届けられました。加えて、かの国はこの日を国民の祝日とし、我が国の酒蔵にも多額の寄付をしたのです。これは我が国に対するひどい侮辱であり、国民は激怒しています。あの国に聖戦を挑むべきかもしれません。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_religion_adjectiveの伝統に従って執り行われた我が国と%s2_civの国際的宴会には、相手国から目玉の飛び出るような豪華な贈り物が届けられました。加えて、かの国はこの日を国民の祝日とし、我が国の酒蔵にも多額の寄付をしたのです。これは我が国に対するひどい侮辱であり、国民は激怒しています。あの国に聖戦を挑むべきかもしれません。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WEDDING_FEUD_2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]%F3_religionが呑まれているすべての都市で%d2ターンの間[ICON_HAPPY]%D1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]%F3_religionが呑まれているすべての都市で%d2ターンの間[ICON_HAPPY]%D1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WEDDING_FEUD_3_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]すべての%F2_religion指導者との関係が[COLOR_POSITIVE_TEXT]%D1[COLOR_REVERT]ポイント改善</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]すべての%F2_religion指導者との関係が[COLOR_POSITIVE_TEXT]%D1[COLOR_REVERT]ポイント改善</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_LEFT_AT_ALTAR</Tag>
+		<English />
+		<French>宴会が一方的に断られる形で破談になった宴会の影響で、%s4_civ_adjectiveと%s1_civ_adjectiveの間の緊張が高まっています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宴会が一方的に断られる形で破談になった宴会の影響で、%s4_civ_adjectiveと%s1_civ_adjectiveの間の緊張が高まっています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_LEFT_AT_ALTAR_1</Tag>
+		<English />
+		<French>我が国のさる身分の高い人と%s1_civ_adjectiveの名家の人との宴会話がパーになりました。宴会当日に相手が一方的をキャンセルしたのです。両家の関係は当然のことながら悪化しています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国のさる身分の高い人と%s1_civ_adjectiveの名家の人との宴会話がパーになりました。宴会当日に相手が一方的をキャンセルしたのです。両家の関係は当然のことながら悪化しています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_LEFT_AT_ALTAR_2</Tag>
+		<English />
+		<French>我が国と%s1_civ_adjectiveの名家の間で激しい争いが起きています。両家の跡取り同士の結婚が、挙式当日に花婿が式場から消えるという最悪の形でご破算になったのです。侮辱された相手国の家族は当然のことながら激怒しています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国と%s1_civ_adjectiveの名家の間で激しい争いが起きています。両家の跡取り同士の結婚が、挙式当日に花婿が式場から消えるという最悪の形でご破算になったのです。侮辱された相手国の家族は当然のことながら激怒しています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_LEFT_AT_ALTAR_3</Tag>
+		<English />
+		<French>%s1_civ_adjectiveの産業王のえらい人と我が国の有名な富豪の宴会話がパーになりました。その富豪は自分から宴会を申し込んでおいて、当日に一方的に姿を消したのです。両家の関係は当然悪化し、激しい争いが繰り広げられています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveの産業王のえらい人と我が国の有名な富豪の宴会話がパーになりました。その富豪は自分から宴会を申し込んでおいて、当日に一方的に姿を消したのです。両家の関係は当然悪化し、激しい争いが繰り広げられています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LEFT_AT_ALTAR_1</Tag>
+		<English />
+		<French>両家に慰めの言葉を贈り、平和的な解決を模索するよう促そう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>両家に慰めの言葉を贈り、平和的な解決を模索するよう促そう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HAPPY_FROM_PLAYER</Tag>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_TEA_TIME</Tag>
+		<English />
+		<French>紅魔館と%s4_civ_adjectiveの文明の間で紅茶を振舞う式典が計画されているようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館と%s4_civ_adjectiveの文明の間で紅茶を振舞う式典が計画されているようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_TEA_TIME_1</Tag>
+		<English />
+		<French>交流を深めるべく%s1_civ_adjectiveとの間で紅茶館を開く事になりました。そこで家臣から二つ提案があるようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>交流を深めるべく%s1_civ_adjectiveとの間で紅茶館を開く事になりました。そこで家臣から二つ提案があるようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TEA_TIME_1</Tag>
+		<English />
+		<French>メイド妖精を雇い、相手国もあっと驚くような壮大なパーティーにしよう。我が国の心意気も感じてもらえるであろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>メイド妖精を雇い、相手国もあっと驚くような壮大なパーティーにしよう。我が国の心意気も感じてもらえるであろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TEA_TIME_2</Tag>
+		<English />
+		<French>この際、都市に住む商人に呼びかけ我が国に誇る特産物で儲けさせてもらおう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>この際、都市に住む商人に呼びかけ我が国に誇る特産物で儲けさせてもらおう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TEA_TIME_3</Tag>
+		<English />
+		<French>今はそのような式典を開いている余裕はない。相手国には悪いが式典は延期と伝達しておこう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>今はそのような式典を開いている余裕はない。相手国には悪いが式典は延期と伝達しておこう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_TEA_TIME_1</Tag>
+		<English />
+		<French>紅魔館と%s3_civ_adjectiveの文明は、紅茶館をきっかけにこれまで以上に貿易が盛んになり、親交が深まりました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館と%s3_civ_adjectiveの文明は、紅茶館をきっかけにこれまで以上に貿易が盛んになり、親交が深まりました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_TEA_TIME_2</Tag>
+		<English />
+		<French>紅魔館の指導者は経済の発展を見越し、商人を雇い%s3_civ_adjectiveとの貿易に、より力を入れることを決心したようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館の指導者は経済の発展を見越し、商人を雇い%s3_civ_adjectiveとの貿易に、より力を入れることを決心したようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TEA_TIME_OTHER_1</Tag>
+		<English />
+		<French>紅魔館は親交を深める式典として自慢の紅茶を振舞うと同時に沢山のメイド妖精で迎えてくれました。これを機会に紅魔館を良き貿易相手としましょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館は親交を深める式典として自慢の紅茶を振舞うと同時に沢山のメイド妖精で迎えてくれました。これを機会に紅魔館を良き貿易相手としましょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TEA_TIME_OTHER_2</Tag>
+		<English />
+		<French>紅魔館は紅茶を振舞い厚く持て成すと同時に、共に発展しようと商談を持ちかけてくれました。我が国は快く合意し、両国はこれまで以上に経済による結び付きが強まることでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館は紅茶を振舞い厚く持て成すと同時に、共に発展しようと商談を持ちかけてくれました。我が国は快く合意し、両国はこれまで以上に経済による結び付きが強まることでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_DOZE_GUARD</Tag>
+		<English />
+		<French>紅魔館の門番で知られる紅美鈴がよく居眠りをしている問題で、紅魔館の住民は門番に対し不安を抱いている様です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館の門番で知られる紅美鈴がよく居眠りをしている問題で、紅魔館の住民は門番に対し不安を抱いている様です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_DOZE_GUARD_1</Tag>
+		<English />
+		<French>住民から美鈴の門番に対する職務怠慢と見られる行動が目に付くという声が届きました。対策を立て、住民を落ち着かせよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>住民から美鈴の門番に対する職務怠慢と見られる行動が目に付くという声が届きました。対策を立て、住民を落ち着かせよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DOZE_GUARD_1</Tag>
+		<English />
+		<French>適度に咲夜を見回りに出向かせ、眠っているのを見かけたらナイフを投げるように命じよう。門番として正常に機能すれば住民の不安もそのうち取り除かれるだろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>適度に咲夜を見回りに出向かせ、眠っているのを見かけたらナイフを投げるように命じよう。門番として正常に機能すれば住民の不安もそのうち取り除かれるだろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DOZE_GUARD_2</Tag>
+		<English />
+		<French>門番は紅魔館の要。咲夜に厳しくチェックをさせ何人も通さぬ堅牢な門番になるよう育成しよう。訓練ついでに居眠りしていない時でもナイフを投げさせておこう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>門番は紅魔館の要。咲夜に厳しくチェックをさせ何人も通さぬ堅牢な門番になるよう育成しよう。訓練ついでに居眠りしていない時でもナイフを投げさせておこう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DOZE_GUARD_1_1</Tag>
+		<English />
+		<French>居眠りをしかけた美鈴は殺気を感じ、咄嗟に身を崩しナイフを避けることに成功したようです。まだまだですね！と美鈴の自慢げな顔を見た住民からは苦笑いと共に「居眠り門番」と呼ばれてしまっているようです。何故なら帽子の上にナイフが･･･。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>居眠りをしかけた美鈴は殺気を感じ、咄嗟に身を崩しナイフを避けることに成功したようです。まだまだですね！と美鈴の自慢げな顔を見た住民からは苦笑いと共に「居眠り門番」と呼ばれてしまっているようです。何故なら帽子の上にナイフが･･･。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DOZE_GUARD_2_2</Tag>
+		<English />
+		<French>美鈴は咲夜から放たれる殺気に気付いたのか、居眠りをすることなく神経を尖らせ門番に徹しているようです。門番のしっかりした門構えを見た住民からは安堵の顔が見られ、彼女のはたらきに満足しているそうです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>美鈴は咲夜から放たれる殺気に気付いたのか、居眠りをすることなく神経を尖らせ門番に徹しているようです。門番のしっかりした門構えを見た住民からは安堵の顔が見られ、彼女のはたらきに満足しているそうです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_UNIT_DOZE_GUARD</Tag>
+		<English />
+		<French>眠れる門番・紅美鈴</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>眠れる門番・紅美鈴</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_UNIT_DOZE_GUARD_1</Tag>
+		<English />
+		<French>紅魔館の門番・紅美鈴</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館の門番・紅美鈴</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_A_GOOD_COOK_1</Tag>
+		<English />
+		<French>今期は食材が豊富に取れたので咲夜に料理を作らせ催しを行うことにした。国内だけで行うべきか、他文明の要人を招き友好を深めるかどちらにしますか。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>今期は食材が豊富に取れたので咲夜に料理を作らせ催しを行うことにした。国内だけで行うべきか、他文明の要人を招き友好を深めるかどちらにしますか。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_A_GOOD_COOK_1</Tag>
+		<English />
+		<French>民があっての収穫だ。我が国民には日頃我慢をしてもらっている事が多かろう。料理長である咲夜にとびっきりの料理と酒を振舞うよう依頼し、国を挙げてこの日は祝おう！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>民があっての収穫だ。我が国民には日頃我慢をしてもらっている事が多かろう。料理長である咲夜にとびっきりの料理と酒を振舞うよう依頼し、国を挙げてこの日は祝おう！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_A_GOOD_COOK_2</Tag>
+		<English />
+		<French>他国との関係を改善するため各文明の国賓を紅魔館の館へ招き接待しよう。我が国が誇る料理長兼パーフェクトメイドの十六夜咲夜が居ればどんな人物でも舌が唸ること間違いないだろう！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>他国との関係を改善するため各文明の国賓を紅魔館の館へ招き接待しよう。我が国が誇る料理長兼パーフェクトメイドの十六夜咲夜が居ればどんな人物でも舌が唸ること間違いないだろう！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_A_GOOD_COOK_1_1</Tag>
+		<English />
+		<French>このはからいにより、国民は紅魔館の民であることへの愛国心がより高まったようです。咲夜の料理を初めて口にした国民はその料理の出来の良さに舌鼓を打つ者で溢れていたそうです。残った料理は兵士に持たせておこう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>このはからいにより、国民は紅魔館の民であることへの愛国心がより高まったようです。咲夜の料理を初めて口にした国民はその料理の出来の良さに舌鼓を打つ者で溢れていたそうです。残った料理は兵士に持たせておこう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_A_GOOD_COOK_2_2</Tag>
+		<English />
+		<French>他文明の高官を招き入れた接待は無事成功したようです。どの高官も咲夜が作る料理の腕前に驚いた様子でした。「紅魔館の食のレベルがこれ程とは・・・侮れん。」と声を漏らす高官までいたそうです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>他文明の高官を招き入れた接待は無事成功したようです。どの高官も咲夜が作る料理の腕前に驚いた様子でした。「紅魔館の食のレベルがこれ程とは・・・侮れん。」と声を漏らす高官までいたそうです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_A_GOOD_COOK_1</Tag>
+		<English />
+		<French>紅魔館にて今期の気候はとても穏やかで作物の収穫率が例年以上に伸びたらしく、余剰分の食糧で感謝祭が行われているようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館にて今期の気候はとても穏やかで作物の収穫率が例年以上に伸びたらしく、余剰分の食糧で感謝祭が行われているようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_A_GOOD_COOK_2</Tag>
+		<English />
+		<French>紅魔館から新鮮な食材を使った晩餐会への招待状が届きました。我が国の高官を送り出すと我が国では見たことも食べた事もない豪華な料理が振舞われ、素晴らしい会合だったと評価しています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館から新鮮な食材を使った晩餐会への招待状が届きました。我が国の高官を送り出すと我が国では見たことも食べた事もない豪華な料理が振舞われ、素晴らしい会合だったと評価しています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_PRISM_LIVE_1</Tag>
+		<English />
+		<French>白玉楼でプリズムリバー三姉妹による大規模なライブが決行されました。ライブは大成功を収め、市街では後夜祭を楽しむ幻想郷の住民でいっぱいです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白玉楼でプリズムリバー三姉妹による大規模なライブが決行されました。ライブは大成功を収め、市街では後夜祭を楽しむ幻想郷の住民でいっぱいです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_PRISM_LIVE_2</Tag>
+		<English />
+		<French>幻想郷1の人気を誇る楽団「プリズムリバー楽団」が、白玉楼の都市でコンサートを開きました。コンサートは無事閉幕し、幻想郷の音楽の歴史に新たな１ページを残すコンサートとなり話題となっています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幻想郷1の人気を誇る楽団「プリズムリバー楽団」が、白玉楼の都市でコンサートを開きました。コンサートは無事閉幕し、幻想郷の音楽の歴史に新たな１ページを残すコンサートとなり話題となっています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_PRISM_LIVE_1</Tag>
+		<English />
+		<French>国民的人気グループ「プリズムリバー楽団」が大規模なライブを行うそうだ。幻想郷に白玉楼の音楽文化を浸透させるため、幻想郷に向けてPRしよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国民的人気グループ「プリズムリバー楽団」が大規模なライブを行うそうだ。幻想郷に白玉楼の音楽文化を浸透させるため、幻想郷に向けてPRしよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_PRISM_LIVE_1</Tag>
+		<English />
+		<French>定期的にライブを開かせ、自国からの人気を獲得しつつ基盤を作ろう。自国の音楽文化を根付かせることが先である。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>定期的にライブを開かせ、自国からの人気を獲得しつつ基盤を作ろう。自国の音楽文化を根付かせることが先である。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_PRISM_LIVE_2</Tag>
+		<English />
+		<French>彼女らの演奏に多くの音楽家が心打たれる想いでいっぱいだそうだ。都市に定住させ、音楽の都市として大々的に広めよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>彼女らの演奏に多くの音楽家が心打たれる想いでいっぱいだそうだ。都市に定住させ、音楽の都市として大々的に広めよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_PRISM_LIVE_1</Tag>
+		<English />
+		<French>ライブは成功し、白玉楼ではライブによる経済効果が見込まれています。地方から来ていた観客がもう一度聴きたいと願い移り住む事を決心したそうです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ライブは成功し、白玉楼ではライブによる経済効果が見込まれています。地方から来ていた観客がもう一度聴きたいと願い移り住む事を決心したそうです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_PRISM_LIVE_2</Tag>
+		<English />
+		<French>コンサートは大成功を収め、白玉桜ではコンサートが行われた劇場を文化財に指定しました。国外からは有名な音楽家も訪れ、話題を聞きつけたファンで溢れています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>コンサートは大成功を収め、白玉桜ではコンサートが行われた劇場を文化財に指定しました。国外からは有名な音楽家も訪れ、話題を聞きつけたファンで溢れています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_HARAPEKO_PRINCESS</Tag>
+		<English />
+		<French>白玉楼に住む西行寺家のお嬢様が付き人の庭師を困らせているようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白玉楼に住む西行寺家のお嬢様が付き人の庭師を困らせているようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_HARAPEKO_PRINCESS_1</Tag>
+		<English />
+		<French>幽々子「妖夢ぅ～お腹が空いてこのままでは死んでしまうわ～何か畑からおいしい物を見つけてきてくれないかしら～」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幽々子「妖夢ぅ～お腹が空いてこのままでは死んでしまうわ～何か畑からおいしい物を見つけてきてくれないかしら～」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HARAPEKO_PRINCESS_1</Tag>
+		<English />
+		<French>妖夢「幽々子様はすでに死んでいるじゃないですかー。こほん、ではおいしいお米が取れているか視察して参りますので少しばかり辛抱して下さい。(もぉー、お庭のお手入れしていた最中だったのに。）」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖夢「幽々子様はすでに死んでいるじゃないですかー。こほん、ではおいしいお米が取れているか視察して参りますので少しばかり辛抱して下さい。(もぉー、お庭のお手入れしていた最中だったのに。）」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HARAPEKO_PRINCESS_2</Tag>
+		<English />
+		<French>妖夢「さっき食べたばかりじゃないですかー。こほん。では、おいしい小麦が取れているか視察して参ります。つまみ食いしたらダメですからね！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖夢「さっき食べたばかりじゃないですかー。こほん。では、おいしい小麦が取れているか視察して参ります。つまみ食いしたらダメですからね！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HARAPEKO_PRINCESS_3</Tag>
+		<English />
+		<French>妖夢「そういえばデザートがまだでしたね。そうだ！幽々子様、甘くておいしいとうもろこしなんて如何ですか！すぐ探しに行って参りますので少々お時間頂きます。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖夢「そういえばデザートがまだでしたね。そうだ！幽々子様、甘くておいしいとうもろこしなんて如何ですか！すぐ探しに行って参りますので少々お時間頂きます。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HARAPEKO_PRINCESS_1_1</Tag>
+		<English />
+		<French>妖夢はてくてくと農場の方へ歩いていきました。農場に付くと今期は新しく入荷したお米の苗で試作していたとのことで出来上がりを逸早く召し上がって欲しいと農民から新鮮なお米を頂きました。これで幽々子様も満足するでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖夢はてくてくと農場の方へ歩いていきました。農場に付くと今期は新しく入荷したお米の苗で試作していたとのことで出来上がりを逸早く召し上がって欲しいと農民から新鮮なお米を頂きました。これで幽々子様も満足するでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HARAPEKO_PRINCESS_2_2</Tag>
+		<English />
+		<French>農場へ辿り着くと隣国の小麦を栽培している農家から苗をお裾分けしてもらったらしく、我が国でも栽培することを始めたそうです。小麦を受け取った後、西行寺家へ戻りおいしいパンを作ろうと台所へ向かった妖夢に戦慄が走った。冷蔵庫が・・・空いている。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>農場へ辿り着くと隣国の小麦を栽培している農家から苗をお裾分けしてもらったらしく、我が国でも栽培することを始めたそうです。小麦を受け取った後、西行寺家へ戻りおいしいパンを作ろうと台所へ向かった妖夢に戦慄が走った。冷蔵庫が・・・空いている。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HARAPEKO_PRINCESS_3_3</Tag>
+		<English />
+		<French>妖夢はとうもろこしを探しに地方の農家を訪ねてみると丁度、栽培に成功したばかりの農家があるという情報を手に入れた。そして栽培をしている農家へ足を運ぶと、少しばかり分けてもらいました。しかし、西行寺家へ戻ると、妖夢が後で食べようと隠していた羊羹を待ちきれず食べていた幽々子様であった。みょーん。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖夢はとうもろこしを探しに地方の農家を訪ねてみると丁度、栽培に成功したばかりの農家があるという情報を手に入れた。そして栽培をしている農家へ足を運ぶと、少しばかり分けてもらいました。しかし、西行寺家へ戻ると、妖夢が後で食べようと隠していた羊羹を待ちきれず食べていた幽々子様であった。みょーん。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_STRATEGIES_OF_NINE_TAILED</Tag>
+		<English />
+		<French>白玉楼に住む策士が火器を用いた新たな戦略を考え付いた模様です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白玉楼に住む策士が火器を用いた新たな戦略を考え付いた模様です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_STRATEGIES_OF_NINE_TAILED_1</Tag>
+		<English />
+		<French>八雲藍が今後の戦略についての分析を行っていたようです。考え付いた戦略が3つあるそうです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八雲藍が今後の戦略についての分析を行っていたようです。考え付いた戦略が3つあるそうです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_STRATEGIES_OF_NINE_TAILED_1</Tag>
+		<English />
+		<French>八雲藍「丘陵とは相手の標高差がある分ライフルでの狙いもとりやすく守りに適した立地なのは周知の事実。この丘陵を活かすため、ライフル兵には予め丘陵に絞った訓練をさせておき、先手を崩す組み手を叩き込むとにしましょう。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八雲藍「丘陵とは相手の標高差がある分ライフルでの狙いもとりやすく守りに適した立地なのは周知の事実。この丘陵を活かすため、ライフル兵には予め丘陵に絞った訓練をさせておき、先手を崩す組み手を叩き込むとにしましょう。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_STRATEGIES_OF_NINE_TAILED_2</Tag>
+		<English />
+		<French>八雲藍「攻城兵にも小型銃を持たせ、都市の占領後でも向かい打てるよう、小型銃の取り扱いに慣れさせておきましょう。奪還に来た敵国の兵に今までとの戦いの違いを見せて上げましょう。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八雲藍「攻城兵にも小型銃を持たせ、都市の占領後でも向かい打てるよう、小型銃の取り扱いに慣れさせておきましょう。奪還に来た敵国の兵に今までとの戦いの違いを見せて上げましょう。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_STRATEGIES_OF_NINE_TAILED_3</Tag>
+		<English />
+		<French>八雲藍「騎兵隊に求められるのは一瞬で都市に忍び寄る速さです。河川でも素早く動ける様、送り込んだスパイに橋を掛けさせておきましょう。敵陣を駆け上がり目的位置まで瞬く間に移ることが出来るでしょう。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八雲藍「騎兵隊に求められるのは一瞬で都市に忍び寄る速さです。河川でも素早く動ける様、送り込んだスパイに橋を掛けさせておきましょう。敵陣を駆け上がり目的位置まで瞬く間に移ることが出来るでしょう。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_FIVE_PROBLEMS</Tag>
+		<English />
+		<French>永遠亭の蓬莱山輝夜が退屈しのぎという理由で永遠亭の住人に五つの難題を与えました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永遠亭の蓬莱山輝夜が退屈しのぎという理由で永遠亭の住人に五つの難題を与えました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_FIVE_PROBLEMS_1</Tag>
+		<English />
+		<French>永遠亭のお姫様である蓬莱山輝夜は五つの憂いがあると仰る。五つある中の一つに傾注し姫様を安心させよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永遠亭のお姫様である蓬莱山輝夜は五つの憂いがあると仰る。五つある中の一つに傾注し姫様を安心させよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FIVE_PROBLEMS_1</Tag>
+		<English />
+		<French>他の文明の動向が気になるようなのでスパイを雇い、他の文明から情報を盗む潜入任務を与え、姫様が喜びそうな話題を手に入れるのだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>他の文明の動向が気になるようなのでスパイを雇い、他の文明から情報を盗む潜入任務を与え、姫様が喜びそうな話題を手に入れるのだ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FIVE_PROBLEMS_2</Tag>
+		<English />
+		<French>他の文明とのエネルギー差に憂えているようなので技術者を雇い、生産量を高め、他の文明との生産力の差を埋め姫様を安心させよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>他の文明とのエネルギー差に憂えているようなので技術者を雇い、生産量を高め、他の文明との生産力の差を埋め姫様を安心させよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FIVE_PROBLEMS_3</Tag>
+		<English />
+		<French>未来への研究力に懸念があるようなので科学者を雇い、更なる研究に力を注ぎ、まだ見ぬテクノロジーにいち早く着手し姫様の自慢の種を増やしてあげよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>未来への研究力に懸念があるようなので科学者を雇い、更なる研究に力を注ぎ、まだ見ぬテクノロジーにいち早く着手し姫様の自慢の種を増やしてあげよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FIVE_PROBLEMS_4</Tag>
+		<English />
+		<French>姫様は、裕福な層と貧しい層との格差が激しく低所得層から不満の声が上がっている事実に嘆いているようだ。商人を雇用し、経済力を高め、低所得層も豊かになるような明るい未来を作り、姫様の顔に明かりを灯そう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>姫様は、裕福な層と貧しい層との格差が激しく低所得層から不満の声が上がっている事実に嘆いているようだ。商人を雇用し、経済力を高め、低所得層も豊かになるような明るい未来を作り、姫様の顔に明かりを灯そう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FIVE_PROBLEMS_5</Tag>
+		<English />
+		<French>外の世界に蔓延る姫様のファン(愚民供)を集めてきてライブを行おう。これだけのファン(供物)があれば姫様もさぞお喜びであろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>外の世界に蔓延る姫様のファン(愚民供)を集めてきてライブを行おう。これだけのファン(供物)があれば姫様もさぞお喜びであろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FIVE_PROBLEMS_6</Tag>
+		<English />
+		<French>我が国には姫の難題に応えられる者が残念ながらおらぬ。難題を解決出来る者が現れるのを待とう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国には姫の難題に応えられる者が残念ながらおらぬ。難題を解決出来る者が現れるのを待とう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_FIVE_PROBLEMS_1</Tag>
+		<English />
+		<French>永遠亭のお姫様は絶対に破られない約束の方法とは何かという難題を出しました。永遠亭の住民は知恵を絞り名案を模索しているようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永遠亭のお姫様は絶対に破られない約束の方法とは何かという難題を出しました。永遠亭の住民は知恵を絞り名案を模索しているようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_FIVE_PROBLEMS_2</Tag>
+		<English />
+		<French>永遠亭のお姫様はこの世で一番エネルギーの捻出率の高い方法とは何かという難題を出しました。永遠亭の技術者達は工房に集結し、科学の力を応用した研究を始める模様です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永遠亭のお姫様はこの世で一番エネルギーの捻出率の高い方法とは何かという難題を出しました。永遠亭の技術者達は工房に集結し、科学の力を応用した研究を始める模様です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_FIVE_PROBLEMS_3</Tag>
+		<English />
+		<French>永遠亭のお姫様は幻想郷以外の惑星は真に存在するのかという難題を出しました。永遠亭の科学者達は天文台にて研究チームを集い、幻想郷の周りに存在する惑星について研究し始めるそうです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永遠亭のお姫様は幻想郷以外の惑星は真に存在するのかという難題を出しました。永遠亭の科学者達は天文台にて研究チームを集い、幻想郷の周りに存在する惑星について研究し始めるそうです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_FIVE_PROBLEMS_4</Tag>
+		<English />
+		<French>永遠亭のお姫様は幻想郷で誰も手にした事の無い珍品が見てみたいと難題を出しました。永遠亭の商人達は幻想郷中をかけ巡り我先にと珍品探索に一心不乱だそうです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永遠亭のお姫様は幻想郷で誰も手にした事の無い珍品が見てみたいと難題を出しました。永遠亭の商人達は幻想郷中をかけ巡り我先にと珍品探索に一心不乱だそうです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_FIVE_PROBLEMS_5</Tag>
+		<English />
+		<French>永遠亭のお姫様は幻想郷で未だかつて見たことのない異質なライブをしてみたいと仰りました。住民は訓練されたプロ市民を呼び寄せ、観客からは「ぐーや！ぐーや！」という合いの手に、「この愚民供！」と罵倒する楽曲が用意され、ライブは異様な雰囲気で行われたようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永遠亭のお姫様は幻想郷で未だかつて見たことのない異質なライブをしてみたいと仰りました。住民は訓練されたプロ市民を呼び寄せ、観客からは「ぐーや！ぐーや！」という合いの手に、「この愚民供！」と罵倒する楽曲が用意され、ライブは異様な雰囲気で行われたようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_FIVE_PROBLEMS_6</Tag>
+		<English />
+		<French>難題を出された永遠亭の住民は難題に応えようとしましたが応えられる者がおらず、応えられる者が現れるまで待つしかないようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>難題を出された永遠亭の住民は難題に応えようとしましたが応えられる者がおらず、応えられる者が現れるまで待つしかないようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_NEW_MEDICINE_EXCHANGE</Tag>
+		<English />
+		<French>永遠亭にある新薬実験所の薬を一新させようという政府の動きが見られています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永遠亭にある新薬実験所の薬を一新させようという政府の動きが見られています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_NEW_MEDICINE_EXCHANGE_1</Tag>
+		<English />
+		<French>新薬実験所の薬に古い物が混ざっているらしく、新しい薬に代え、より効果的な薬に一新しよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>新薬実験所の薬に古い物が混ざっているらしく、新しい薬に代え、より効果的な薬に一新しよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NEW_MEDICINE_EXCHANGE_1</Tag>
+		<English />
+		<French>多少お金が掛かっても仕方ない。新しい薬に代えておけば未来にも繋がるので未来に投資しよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>多少お金が掛かっても仕方ない。新しい薬に代えておけば未来にも繋がるので未来に投資しよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NEW_MEDICINE_EXCHANGE_2</Tag>
+		<English />
+		<French>今持っている古い薬でも効用はある。体が弱っている住民に安く提供し、国庫へ循環しよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>今持っている古い薬でも効用はある。体が弱っている住民に安く提供し、国庫へ循環しよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NEW_MEDICINE_EXCHANGE_3</Tag>
+		<English />
+		<French>今持っている古い薬を病院に預け、古い薬を病院で取り扱わせ住民の健康に役立たせよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>今持っている古い薬を病院に預け、古い薬を病院で取り扱わせ住民の健康に役立たせよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NEW_MEDICINE_EXCHANGE_4</Tag>
+		<English />
+		<French>新薬の研究はせずに古い薬はこのまま保持しておこう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>新薬の研究はせずに古い薬はこのまま保持しておこう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NEW_MEDICINE_EXCHANGE_1_1</Tag>
+		<English />
+		<French>古い薬を処分し、新しい薬を生成することに成功したようです。大事に使いましょう！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>古い薬を処分し、新しい薬を生成することに成功したようです。大事に使いましょう！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NEW_MEDICINE_EXCHANGE_2_2</Tag>
+		<English />
+		<French>古い薬を住民に安く提供した結果、少しばかりですが財政が潤ったようです。住民もこのはたらきに喜んでいるようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>古い薬を住民に安く提供した結果、少しばかりですが財政が潤ったようです。住民もこのはたらきに喜んでいるようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NEW_MEDICINE_EXCHANGE_3_3</Tag>
+		<English />
+		<French>古い薬を病院へ提供したおかげで、難病への治療への足がかりが掴めたそうです！住民の我が国への信頼が更に増しています！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>古い薬を病院へ提供したおかげで、難病への治療への足がかりが掴めたそうです！住民の我が国への信頼が更に増しています！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NEW_MEDICINE_EXCHANGE_4_4</Tag>
+		<English />
+		<French>新薬を生成するには時間が掛かるので、今ある分の薬でしのぎ、余裕が出来たときにまた新薬を開発しよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>新薬を生成するには時間が掛かるので、今ある分の薬でしのぎ、余裕が出来たときにまた新薬を開発しよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_TEMPTING_OFFER</Tag>
+		<English />
+		<French>てゐ「良いこと思い付・い・た。コソコソ・・・っと。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>てゐ「良いこと思い付・い・た。コソコソ・・・っと。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_TEMPTING_OFFER_1</Tag>
+		<English />
+		<French>てゐが何か新しい商売を始めようとしてるようです。どのようなことをするか遠くから少し様子を見てみましょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>てゐが何か新しい商売を始めようとしてるようです。どのようなことをするか遠くから少し様子を見てみましょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TEMPTING_OFFER_1</Tag>
+		<English />
+		<French>てゐ「売り物の値段を誤魔化してちょろまかしてやろっと♪逆タイムサービスうさ♪」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>てゐ「売り物の値段を誤魔化してちょろまかしてやろっと♪逆タイムサービスうさ♪」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TEMPTING_OFFER_2</Tag>
+		<English />
+		<French>てゐ「買いに来た人間をつかまえて幸運を売る商売を始めよっと♪詐欺？何のことうさぁ？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>てゐ「買いに来た人間をつかまえて幸運を売る商売を始めよっと♪詐欺？何のことうさぁ？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_RICE</Tag>
+		<English />
+		<French>妖怪の山に豊穣の神、秋姉妹が遊びにきて、幻想郷に秋を稔らせていきました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖怪の山に豊穣の神、秋姉妹が遊びにきて、幻想郷に秋を稔らせていきました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_RICE_1</Tag>
+		<English />
+		<French>妖怪の山に住む農民がどんな環境でも育つ幻の苗を授かりました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖怪の山に住む農民がどんな環境でも育つ幻の苗を授かりました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_RICE_1</Tag>
+		<English />
+		<French>これで我が国の民に充分な食料が行き渡り豊かになるだろう。秋姉妹ありがとう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>これで我が国の民に充分な食料が行き渡り豊かになるだろう。秋姉妹ありがとう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_RICE_2</Tag>
+		<English />
+		<French>さっそく政府を挙げてこの新しい資源の苗付けに取りかかろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>さっそく政府を挙げてこの新しい資源の苗付けに取りかかろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_ARTIFICIAL_LAKE</Tag>
+		<English />
+		<French>妖怪の山にて信仰を得るため懲りずにまた何か企んでいるようです。決して怪しい事じゃないよ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖怪の山にて信仰を得るため懲りずにまた何か企んでいるようです。決して怪しい事じゃないよ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_ARTIFICIAL_LAKE_1</Tag>
+		<English />
+		<French>守矢神社にはまだまだ信仰が足りない！と喝を入れる神奈子の姿。更なる信仰獲得のために新たにダムを建設をしよう！ダムが完成すればその発電力のみならず観光資源としても期待できる。予め賽銭箱を拡張しておこう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>守矢神社にはまだまだ信仰が足りない！と喝を入れる神奈子の姿。更なる信仰獲得のために新たにダムを建設をしよう！ダムが完成すればその発電力のみならず観光資源としても期待できる。予め賽銭箱を拡張しておこう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ARTIFICIAL_LAKE_1</Tag>
+		<English />
+		<French>にとりに頼み、河童の技師たちを集め建設を手伝ってもらおう。にとり「河童の技術力は幻想郷一ィィっ！！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>にとりに頼み、河童の技師たちを集め建設を手伝ってもらおう。にとり「河童の技術力は幻想郷一ィィっ！！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ARTIFICIAL_LAKE_2</Tag>
+		<English />
+		<French>建設成功を見越して河童の技師達にきゅうりを用意しておこう。定期的に配ればこのまま我が国の兵として加わってくれるだろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>建設成功を見越して河童の技師達にきゅうりを用意しておこう。定期的に配ればこのまま我が国の兵として加わってくれるだろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ARTIFICIAL_LAKE_3</Tag>
+		<English />
+		<French>見事建設に成功！信仰増えるね！やったねかなちゃん！賽銭箱は巫女にばれると面倒なので少し調整しておこう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>見事建設に成功！信仰増えるね！やったねかなちゃん！賽銭箱は巫女にばれると面倒なので少し調整しておこう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ARTIFICIAL_LAKE_4</Tag>
+		<English />
+		<French>守矢家は建設成功のお礼に河童達にきゅうりを配りました。これに河童の技師達は喜び、またくれると期待して残ることにしたようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>守矢家は建設成功のお礼に河童達にきゅうりを配りました。これに河童の技師達は喜び、またくれると期待して残ることにしたようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_SENSE_OF_SMELL_1</Tag>
+		<English />
+		<French>我が国に属する白狼天狗の斥候が何かの臭いを嗅ぎ取ったようです。何かの臭いがすると白狼天狗はわふわふ言ってます！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国に属する白狼天狗の斥候が何かの臭いを嗅ぎ取ったようです。何かの臭いがすると白狼天狗はわふわふ言ってます！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SENSE_OF_SMELL_1</Tag>
+		<English />
+		<French>白狼天狗が嗅ぎ取った臭いは4足歩行の動物の群れでした。脚が速く戦略資源に使えるかもしれません。早速開拓者を向かわせましょう！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白狼天狗が嗅ぎ取った臭いは4足歩行の動物の群れでした。脚が速く戦略資源に使えるかもしれません。早速開拓者を向かわせましょう！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SENSE_OF_SMELL_2</Tag>
+		<English />
+		<French>白狼天狗が金属の臭いを嗅ぎ取ったようです。赤茶色の金属のようですが何に使うんでしょうか？わふわふ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白狼天狗が金属の臭いを嗅ぎ取ったようです。赤茶色の金属のようですが何に使うんでしょうか？わふわふ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SENSE_OF_SMELL_3</Tag>
+		<English />
+		<French>白狼天狗が微かに嗅ぎ取った臭いは何やら黒くて堅い金属のようです。とりあえず掘ってみましょう。ここ掘れワンワン！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白狼天狗が微かに嗅ぎ取った臭いは何やら黒くて堅い金属のようです。とりあえず掘ってみましょう。ここ掘れワンワン！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_HOT_SPRING</Tag>
+		<English />
+		<French>地霊殿にてオアシスから地鳴りが聴こえると住民から知らせがあり、現地に探検家を派遣したところ近くに温泉が沸く地層があると判明したそうです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地霊殿にてオアシスから地鳴りが聴こえると住民から知らせがあり、現地に探検家を派遣したところ近くに温泉が沸く地層があると判明したそうです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_HOT_SPRING_1</Tag>
+		<English />
+		<French>住民の知らせを聞き、地鳴りの正体を探検家に調べるよう命じたところ、調査により温泉が湧き出る地層であることが判明した。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>住民の知らせを聞き、地鳴りの正体を探検家に調べるよう命じたところ、調査により温泉が湧き出る地層であることが判明した。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HOT_SPRING_1</Tag>
+		<English />
+		<French>掘削機を緊急製作し、今すぐ温泉を掘り当てよう。温泉の成分によっては不治の病をも治す効果も期待出来よう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>掘削機を緊急製作し、今すぐ温泉を掘り当てよう。温泉の成分によっては不治の病をも治す効果も期待出来よう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HOT_SPRING_2</Tag>
+		<English />
+		<French>多少資金を投入してでも効率の良い最新機器を取寄せなんとしても掘り当てよう。綺麗に掘れればそれだけ不純物も混ざらず効用の高い源泉になるだろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>多少資金を投入してでも効率の良い最新機器を取寄せなんとしても掘り当てよう。綺麗に掘れればそれだけ不純物も混ざらず効用の高い源泉になるだろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HOT_SPRING_3</Tag>
+		<English />
+		<French>今はそんなことに構っている余裕はない。残念だが後回しにする。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>今はそんなことに構っている余裕はない。残念だが後回しにする。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HOT_SPRING_4</Tag>
+		<English />
+		<French>綺麗に掘り当てられた温泉の成分はなんと今までの医学では解決出来なかった病をいとも簡単に治してしまいました。これに住民は喜び、国の政策に感謝しているとの声が届きました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>綺麗に掘り当てられた温泉の成分はなんと今までの医学では解決出来なかった病をいとも簡単に治してしまいました。これに住民は喜び、国の政策に感謝しているとの声が届きました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HOT_SPRING_5</Tag>
+		<English />
+		<French>掘り当てた温泉の成分を専門家に依頼し検査すると土壌を改善する効果もある成分らしく、人体だけでなく地表そのものにも良い影響が出ているとのことです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>掘り当てた温泉の成分を専門家に依頼し検査すると土壌を改善する効果もある成分らしく、人体だけでなく地表そのものにも良い影響が出ているとのことです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_GIFT_FROM_YATAGARASU</Tag>
+		<English />
+		<French>地霊殿にて一部の地域で温度が急激に上昇している模様です。天から眩い光を放ちながら地上へ落ちていくところを目撃したという声がちらほら聞かれます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地霊殿にて一部の地域で温度が急激に上昇している模様です。天から眩い光を放ちながら地上へ落ちていくところを目撃したという声がちらほら聞かれます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_GIFT_FROM_YATAGARASU_1</Tag>
+		<English />
+		<French>太陽の神と崇められている八咫烏様が突如、地上へ降り立ったようです。急ぎ、お空を向かわせ、地上へ御出でなさった理由を聞いて来てもらおう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>太陽の神と崇められている八咫烏様が突如、地上へ降り立ったようです。急ぎ、お空を向かわせ、地上へ御出でなさった理由を聞いて来てもらおう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GIFT_FROM_YATAGARASU_1</Tag>
+		<English />
+		<French>八咫烏「お空よ、地上へ出てきても励んでおるようじゃな。褒美をやろう。たいした力ではないが受け取るが良い、八咫烏の力を。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八咫烏「お空よ、地上へ出てきても励んでおるようじゃな。褒美をやろう。たいした力ではないが受け取るが良い、八咫烏の力を。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GIFT_FROM_YATAGARASU_2</Tag>
+		<English />
+		<French>八咫烏「お空よ、久しいな。元気じゃったか。ん？ほっほっほっ。さような助けが必要か。ならば授けよう、これぞ我が八咫烏の真の力なり。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八咫烏「お空よ、久しいな。元気じゃったか。ん？ほっほっほっ。さような助けが必要か。ならば授けよう、これぞ我が八咫烏の真の力なり。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GIFT_FROM_YATAGARASU_3</Tag>
+		<English />
+		<French>八咫烏「お空よ、与えた力を正しく使っておるか。力の制御を見誤りて暴発するで決してないぞ。この八咫烏が常に見守っておることを忘れるな。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八咫烏「お空よ、与えた力を正しく使っておるか。力の制御を見誤りて暴発するで決してないぞ。この八咫烏が常に見守っておることを忘れるな。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_THE_THIRD_EYES</Tag>
+		<English />
+		<French>地霊殿に住む古明地さとりが持つサードアイから今まで見たことの無い異常が出ている模様です。異変の予感がします。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地霊殿に住む古明地さとりが持つサードアイから今まで見たことの無い異常が出ている模様です。異変の予感がします。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_THE_THIRD_EYES_1</Tag>
+		<English />
+		<French>今まで建てた建造物と古明地さとりの第三の目が強く反応し始めました。どうやら手に入れてしまったようです、第三の目の真の能力を。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>今まで建てた建造物と古明地さとりの第三の目が強く反応し始めました。どうやら手に入れてしまったようです、第三の目の真の能力を。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_THE_THIRD_EYES_1</Tag>
+		<English />
+		<French>第三の目の力により、特殊な建造物が現れました。この建造物から只ならぬエネルギーを感じます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>第三の目の力により、特殊な建造物が現れました。この建造物から只ならぬエネルギーを感じます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_THE_THIRD_EYES_2</Tag>
+		<English />
+		<French>第三の目の力により突如現れた建造物。この建造物が現れてから諜報員の動きが格段に変わったようです。これも第三の目と謎の建造物が持つ力なんでしょうか。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>第三の目の力により突如現れた建造物。この建造物が現れてから諜報員の動きが格段に変わったようです。これも第三の目と謎の建造物が持つ力なんでしょうか。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_HUNCH</Tag>
+		<English />
+		<French>氷精連合に建造されている蟲ポストから大量の蟲が一斉に飛び出し、各地で蟲の大群が目撃されています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>氷精連合に建造されている蟲ポストから大量の蟲が一斉に飛び出し、各地で蟲の大群が目撃されています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_HUNCH_1</Tag>
+		<English />
+		<French>蟲ポストから大量の蟲が飛び立ちました。何かを探しに飛び立ったという勢いでした。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蟲ポストから大量の蟲が飛び立ちました。何かを探しに飛び立ったという勢いでした。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HUNCH_1</Tag>
+		<English />
+		<French>リグルが幻想郷中に落ちている金銭を拾いに行かせたのだろうか。上手く利用して国庫の足しにしよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リグルが幻想郷中に落ちている金銭を拾いに行かせたのだろうか。上手く利用して国庫の足しにしよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HUNCH_1_1</Tag>
+		<English />
+		<French>蟲たちが資金探しの旅から無事帰還したようです。リグルの気分次第でまた利用出来るとのことです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蟲たちが資金探しの旅から無事帰還したようです。リグルの気分次第でまた利用出来るとのことです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_CULTURE_OF_SUPREMACY</Tag>
+		<English />
+		<French>氷精連合に建造された文化的遺産が突如光り輝いています。何か異変でも起こるのでしょうか。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>氷精連合に建造された文化的遺産が突如光り輝いています。何か異変でも起こるのでしょうか。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_CULTURE_OF_SUPREMACY_1</Tag>
+		<English />
+		<French>文化的遺産から光り輝いた原因はミスティアの歌声に関係があるようで、遺産と歌声が共鳴しているように見えます。遺産を一目見ようと訪れた住民から、この光を浴びて以降、体中からエネルギーが溢れ、オーラが体の底から沸いてくると神妙に話しているそうです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>文化的遺産から光り輝いた原因はミスティアの歌声に関係があるようで、遺産と歌声が共鳴しているように見えます。遺産を一目見ようと訪れた住民から、この光を浴びて以降、体中からエネルギーが溢れ、オーラが体の底から沸いてくると神妙に話しているそうです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CULTURE_OF_SUPREMACY_1</Tag>
+		<English />
+		<French>なんだって！よし、全国民に知らせその光で我々の持っている潜在能力を引き上げるのだ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>なんだって！よし、全国民に知らせその光で我々の持っている潜在能力を引き上げるのだ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_UNIT_CULTURE_OF_SUPREMACY</Tag>
+		<English />
+		<French>歌う夜雀・ミスティア・ローレライ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>歌う夜雀・ミスティア・ローレライ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CULTURE_OF_SUPREMACY_1_1</Tag>
+		<English />
+		<French>文化的遺産から放たれた眩い光により住民は活気に満ち、栄光に包まれています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>文化的遺産から放たれた眩い光により住民は活気に満ち、栄光に包まれています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_MYSTERIOUS_SNOWMAN</Tag>
+		<English />
+		<French>氷精連合の氷土に作られた雪だるまの一部に異変が見られるようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>氷精連合の氷土に作られた雪だるまの一部に異変が見られるようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_MYSTERIOUS_SNOWMAN_1</Tag>
+		<English />
+		<French>妖精達で作った雪だるまにひびが入り穴が空いています。中に何かあるのでしょうか。壊して調べて見ましょう！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖精達で作った雪だるまにひびが入り穴が空いています。中に何かあるのでしょうか。壊して調べて見ましょう！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MYSTERIOUS_SNOWMAN_1</Tag>
+		<English />
+		<French>雪だるまを壊した中からふさふさの毛をした小動物が出てきました。冷たい冬の風に耐えるために雪だるまの中に巣を作っていたようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>雪だるまを壊した中からふさふさの毛をした小動物が出てきました。冷たい冬の風に耐えるために雪だるまの中に巣を作っていたようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MYSTERIOUS_SNOWMAN_2</Tag>
+		<English />
+		<French>雪だるまの中に見えたのは草食動物の糞でした。これはもしかしたら近くに動物が住んでいるのかもしれません。この糞を手がかりに周辺地域の生態について詳しく調査してみましょう！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>雪だるまの中に見えたのは草食動物の糞でした。これはもしかしたら近くに動物が住んでいるのかもしれません。この糞を手がかりに周辺地域の生態について詳しく調査してみましょう！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MYSTERIOUS_SNOWMAN_3</Tag>
+		<English />
+		<French>つるはしを使い雪だるまを壊していると、つるはしが床に当たった瞬間、金属音がしました。ひょっとしたらこの地下に埋蔵金が眠っているかもしれません！労働者を集め掘り起こしてみましょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>つるはしを使い雪だるまを壊していると、つるはしが床に当たった瞬間、金属音がしました。ひょっとしたらこの地下に埋蔵金が眠っているかもしれません！労働者を集め掘り起こしてみましょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_GRAMARY_REFINEMENT_1</Tag>
+		<English />
+		<French>アリス「戦争に備えて今扱える魔術の精度を高めましょう。本気を出して負けていたら恥ずかしいわ。あなたもそう思うでしょ？魔理沙。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アリス「戦争に備えて今扱える魔術の精度を高めましょう。本気を出して負けていたら恥ずかしいわ。あなたもそう思うでしょ？魔理沙。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GRAMARY_REFINEMENT_1</Tag>
+		<English />
+		<French>魔理沙「ああ、負けるのは悔しいが今は時間がないから早く準備するのぜ！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔理沙「ああ、負けるのは悔しいが今は時間がないから早く準備するのぜ！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GRAMARY_REFINEMENT_2</Tag>
+		<English />
+		<French>魔理沙「大群が来ても驚かないように少し時間をかけて対策するんだぜ。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔理沙「大群が来ても驚かないように少し時間をかけて対策するんだぜ。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GRAMARY_REFINEMENT_3</Tag>
+		<English />
+		<French>魔理沙「アリスの言うとおり、火力の調整をしとかないとな！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔理沙「アリスの言うとおり、火力の調整をしとかないとな！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GRAMARY_REFINEMENT_4</Tag>
+		<English />
+		<French>魔理沙「私は私なりに精錬するからまた今度にするんだぜ。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔理沙「私は私なりに精錬するからまた今度にするんだぜ。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GRAMARY_REFINEMENT_1_1</Tag>
+		<English />
+		<French>アリス「そうね。じゃあ手短に済ますわよ。今回は実践で使う魔法を集中してやりましょ。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アリス「そうね。じゃあ手短に済ますわよ。今回は実践で使う魔法を集中してやりましょ。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GRAMARY_REFINEMENT_2_1</Tag>
+		<English />
+		<French>アリス「魔理沙って意外と真面目なのね。何も考えていないと思っていたわ、ふふふ。上海、魔導書を取ってきてちょうだい。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アリス「魔理沙って意外と真面目なのね。何も考えていないと思っていたわ、ふふふ。上海、魔導書を取ってきてちょうだい。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GRAMARY_REFINEMENT_3_1</Tag>
+		<English />
+		<French>アリス「あなたはもう少し火力を抑えた方がいいわよ？まぁいいわ。その方があなたらしいものね。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アリス「あなたはもう少し火力を抑えた方がいいわよ？まぁいいわ。その方があなたらしいものね。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GRAMARY_REFINEMENT_4_1</Tag>
+		<English />
+		<French>アリス「そう、残念ね。また次の機会にでも精錬しましょ。言っておくけど次は必ずよ？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アリス「そう、残念ね。また次の機会にでも精錬しましょ。言っておくけど次は必ずよ？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_WONDERFUL_SHRINE_MAIDEN_IN_PARADISE_1</Tag>
+		<English />
+		<French>我が国は戦争状態であり、この戦いは我が国の命運を分ける大事な戦になるかもしれません。博麗の巫女様にこの戦争という名の異変の解決に協力して下さるよう懇願してみよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国は戦争状態であり、この戦いは我が国の命運を分ける大事な戦になるかもしれません。博麗の巫女様にこの戦争という名の異変の解決に協力して下さるよう懇願してみよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WONDERFUL_SHRINE_MAIDEN_IN_PARADISE_1</Tag>
+		<English />
+		<French>霊夢「仕方ないわねぇ。少し本気を出して上げるわ。その代・わ・り！この戦争が終わったらちゃんと神社にお参りに来るのよ！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霊夢「仕方ないわねぇ。少し本気を出して上げるわ。その代・わ・り！この戦争が終わったらちゃんと神社にお参りに来るのよ！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WONDERFUL_SHRINE_MAIDEN_IN_PARADISE_2</Tag>
+		<English />
+		<French>霊夢「何で私が人の撒いた種(戦争)なんかに本気を出さなきゃいけない訳ぇ？撒いた本人だけ戦争してればいいじゃない。それより手土産が無いじゃない。どういう神経で来たのよ・・・はぁ。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霊夢「何で私が人の撒いた種(戦争)なんかに本気を出さなきゃいけない訳ぇ？撒いた本人だけ戦争してればいいじゃない。それより手土産が無いじゃない。どういう神経で来たのよ・・・はぁ。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WONDERFUL_SHRINE_MAIDEN_IN_PARADISE_1_1</Tag>
+		<English />
+		<French>博麗の巫女様は本気を出すと約束して下さいました。これで我が軍の士気も高まることでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗の巫女様は本気を出すと約束して下さいました。これで我が軍の士気も高まることでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WONDERFUL_SHRINE_MAIDEN_IN_PARADISE_2_1</Tag>
+		<English />
+		<French>博麗の巫女様はどうやらあまり戦争にやる気がないらしい。この選択が我が文明の命運にどう影響を与えるのか・・・。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗の巫女様はどうやらあまり戦争にやる気がないらしい。この選択が我が文明の命運にどう影響を与えるのか・・・。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WONDERFUL_SHRINE_MAIDEN_IN_PARADISE_3_1</Tag>
+		<English />
+		<French>博麗の巫女が本気を出したようです。戦場では宙を舞い、その絢爛で鮮麗なる戦姿から「楽園の素敵な巫女」と呼ばれ、この赫々たる戦果に自軍の士気が鼓舞されました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗の巫女が本気を出したようです。戦場では宙を舞い、その絢爛で鮮麗なる戦姿から「楽園の素敵な巫女」と呼ばれ、この赫々たる戦果に自軍の士気が鼓舞されました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_WONDERFUL_SHRINE_MAIDEN_IN_PARADISE_3</Tag>
+		<English />
+		<French>博麗の巫女こと博麗霊夢が幻想郷の異変を解決するため戦場に向かったようです。戦場からは「巫女だー！博麗の巫女が出たぞー！」と恐れる声と同時に、戦う様があまりにも美しいため「楽園の素敵な巫女」と呼ぶ者まで現れています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗の巫女こと博麗霊夢が幻想郷の異変を解決するため戦場に向かったようです。戦場からは「巫女だー！博麗の巫女が出たぞー！」と恐れる声と同時に、戦う様があまりにも美しいため「楽園の素敵な巫女」と呼ぶ者まで現れています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_UNIT_WONDERFUL_SHRINE_MAIDEN_IN_PARADISE</Tag>
+		<English />
+		<French>楽園の素敵な巫女</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>楽園の素敵な巫女</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_KNOWLEDGEBLE</Tag>
+		<English />
+		<French>博麗神社に住む森近霖之助が香霖堂にある倉庫から古い書物を取り出しました。何が書いてあるかは霖之助にしか解読できません。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗神社に住む森近霖之助が香霖堂にある倉庫から古い書物を取り出しました。何が書いてあるかは霖之助にしか解読できません。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_KNOWLEDGEBLE_1</Tag>
+		<English />
+		<French>霖之助は香霖堂にある倉庫から古い書物を取り出してきました。どうやら外の世界から持ち込まれた書物らしく、霖之助にしか解読出来ない書物のようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霖之助は香霖堂にある倉庫から古い書物を取り出してきました。どうやら外の世界から持ち込まれた書物らしく、霖之助にしか解読出来ない書物のようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_KNOWLEDGEBLE_1</Tag>
+		<English />
+		<French>霖之助「(ペラペラ)...これか。以前は必要ないと思っていた本がこんな所で役立つとは。やはり売らずに取っておくべき書物だったようだね。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霖之助「(ペラペラ)...これか。以前は必要ないと思っていた本がこんな所で役立つとは。やはり売らずに取っておくべき書物だったようだね。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_KNOWLEDGEBLE_2</Tag>
+		<English />
+		<French>霖之助「(ペラペラ)...ふむ。なるほど。天文学に詳しい僕にさえも知らない事が載っているとは。僕もまだまだ勉強が足りない・・・な。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霖之助「(ペラペラ)...ふむ。なるほど。天文学に詳しい僕にさえも知らない事が載っているとは。僕もまだまだ勉強が足りない・・・な。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_MILKING</Tag>
+		<English />
+		<French>人間の里にて上白沢慧音が主催となる牛乳搾り競争が催され、里の住民で大いに賑わっています。どこぞの巫女も牛乳に釣られ神社から遊びにきているようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人間の里にて上白沢慧音が主催となる牛乳搾り競争が催され、里の住民で大いに賑わっています。どこぞの巫女も牛乳に釣られ神社から遊びにきているようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_MILKING_1</Tag>
+		<English />
+		<French>牛乳は良い物だ。体の骨格を作るカルシウムの栄養がたっぷり含まれている。牛乳は自然の恵みそのもの。牛乳を飲めるのも牛さんのおかげ。牛さんに感謝しよう！ってけーねが言ってた。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>牛乳は良い物だ。体の骨格を作るカルシウムの栄養がたっぷり含まれている。牛乳は自然の恵みそのもの。牛乳を飲めるのも牛さんのおかげ。牛さんに感謝しよう！ってけーねが言ってた。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MILKING_1</Tag>
+		<English />
+		<French>採れた牛乳を住民全体で飲めるよう雑貨商を建てて住民の健康を育もう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>採れた牛乳を住民全体で飲めるよう雑貨商を建てて住民の健康を育もう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MILKING_2</Tag>
+		<English />
+		<French>この祭りを恒例行事にすれば牛乳の取れ高もきっと増えるだろう。雑貨商の儲けも増え、住民の健康の維持に役立てよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>この祭りを恒例行事にすれば牛乳の取れ高もきっと増えるだろう。雑貨商の儲けも増え、住民の健康の維持に役立てよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MILKING_3</Tag>
+		<English />
+		<French>政府で牛に対する研究費を投入し、安く量産的で且つ安全な食品をテーマに品種改良しよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>政府で牛に対する研究費を投入し、安く量産的で且つ安全な食品をテーマに品種改良しよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_MILKING_1</Tag>
+		<English />
+		<French>人間の里の行事の際に採れた牛乳が美味しいと評判をよんでいます。どこぞの巫女も満足しているそうです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人間の里の行事の際に採れた牛乳が美味しいと評判をよんでいます。どこぞの巫女も満足しているそうです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_MILKING_2</Tag>
+		<English />
+		<French>人間の里の行事の際に建てられた雑貨商が住民の健康にとって良い影響を及ぼしているそうです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人間の里の行事の際に建てられた雑貨商が住民の健康にとって良い影響を及ぼしているそうです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_MILKING_3</Tag>
+		<English />
+		<French>人間の里で牛の品種改良が行われ改良に成功した模様です。これまでにない品種改良であり、牛を取り扱っている幻想郷中の酪農家は驚きを隠せないようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人間の里で牛の品種改良が行われ改良に成功した模様です。これまでにない品種改良であり、牛を取り扱っている幻想郷中の酪農家は驚きを隠せないようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_WATERING_OF_SUNFLOWER</Tag>
+		<English />
+		<French>人間の里にあるひまわり畑が太陽の光の恵みを受け、辺り一面に力強く咲いています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人間の里にあるひまわり畑が太陽の光の恵みを受け、辺り一面に力強く咲いています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_WATERING_OF_SUNFLOWER_1</Tag>
+		<English />
+		<French>ひまわり畑を管理している幽香がにこにこと笑顔で水やりをしています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ひまわり畑を管理している幽香がにこにこと笑顔で水やりをしています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WATERING_OF_SUNFLOWER_1</Tag>
+		<English />
+		<French>水まきの効率を上げるため、水源の用意やじょうろなど道具を提供しよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>水まきの効率を上げるため、水源の用意やじょうろなど道具を提供しよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WATERING_OF_SUNFLOWER_2</Tag>
+		<English />
+		<French>一人で水撒きは大変なので労働者を雇い、人間の里に咲いている全てのひまわりに水を撒くことにしよう！都市も緑に囲まれて自然に優しい街作りの一環になるはずだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>一人で水撒きは大変なので労働者を雇い、人間の里に咲いている全てのひまわりに水を撒くことにしよう！都市も緑に囲まれて自然に優しい街作りの一環になるはずだ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WATERING_OF_SUNFLOWER_3</Tag>
+		<English />
+		<French>水を撒いた効果もあり、都市全体がよりクリーンな環境になりつつあるようです。植物とも共存する生き方を目指していきましょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>水を撒いた効果もあり、都市全体がよりクリーンな環境になりつつあるようです。植物とも共存する生き方を目指していきましょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_COAL_MAKING</Tag>
+		<English />
+		<French>人間の里にてただの石ころを可燃性の石へと変化させることが出来る者がいるそうです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人間の里にてただの石ころを可燃性の石へと変化させることが出来る者がいるそうです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_COAL_MAKING_1</Tag>
+		<English />
+		<French>藤原妹紅からいつも炭を仕入れている焼き鳥屋の店主からある提案があるそうです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>藤原妹紅からいつも炭を仕入れている焼き鳥屋の店主からある提案があるそうです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_COAL_MAKING_1</Tag>
+		<English />
+		<French>火も使わずに炎を出せるんならこの石を燃やすことはできねーか？常連の頼みだ！いっちょ試してくれや！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>火も使わずに炎を出せるんならこの石を燃やすことはできねーか？常連の頼みだ！いっちょ試してくれや！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_COAL_MAKING_2</Tag>
+		<English />
+		<French>ただの石っころに火を宿すこたーできねーだろうか！出来たらいつもの倍の炭代出すからやってみれくねーか・・・！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ただの石っころに火を宿すこたーできねーだろうか！出来たらいつもの倍の炭代出すからやってみれくねーか・・・！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_COAL_MAKING_3</Tag>
+		<English />
+		<French>いやーこほん。なんでもねーわ！炭屋の姉ちゃんなら出来るかと思ったがやっぱ無理だよな。すまねぇ、今のは忘れてくれ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>いやーこほん。なんでもねーわ！炭屋の姉ちゃんなら出来るかと思ったがやっぱ無理だよな。すまねぇ、今のは忘れてくれ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_COAL_MAKING_2_2</Tag>
+		<English />
+		<French>妹紅が作った石炭は一般の鉱山から取れる石炭より純度が高く燃焼した際に発生する有害な煙が出にくい資源のようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妹紅が作った石炭は一般の鉱山から取れる石炭より純度が高く燃焼した際に発生する有害な煙が出にくい資源のようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_UNIT_COAL_MAKING</Tag>
+		<English />
+		<French>炭作りの職人・藤原妹紅</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>炭作りの職人・藤原妹紅</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_DRAWN_PIRATE</Tag>
+		<English />
+		<French>星蓮船の沿岸都市に船籍不明の謎の船舶が流れ着いています。星蓮船は不審船について調査を進める方針だそうです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>星蓮船の沿岸都市に船籍不明の謎の船舶が流れ着いています。星蓮船は不審船について調査を進める方針だそうです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_DRAWN_PIRATE_1</Tag>
+		<English />
+		<French>我が沿岸都市に謎の不審船が漂着しました。不審船を調べてみると乗組員など発見出来ず蛻の殻でした。巷では幽霊船じゃないかと話題になっています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が沿岸都市に謎の不審船が漂着しました。不審船を調べてみると乗組員など発見出来ず蛻の殻でした。巷では幽霊船じゃないかと話題になっています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DRAWN_PIRATE_1</Tag>
+		<English />
+		<French>外装を改造し武装を施して私掠船のように扱おう！そうだな・・・キャプテンの位置は村紗に付かせ海賊船として幻想郷中に挨拶してこようじゃないか！帆を上げろッ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>外装を改造し武装を施して私掠船のように扱おう！そうだな・・・キャプテンの位置は村紗に付かせ海賊船として幻想郷中に挨拶してこようじゃないか！帆を上げろッ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DRAWN_PIRATE_2</Tag>
+		<English />
+		<French>中を調べると案外綺麗であり外装も頑丈でまだまだ使えそうな船だな。改造を施し軍船として仕立て上げよう。他国の海賊船対策にもなるだろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>中を調べると案外綺麗であり外装も頑丈でまだまだ使えそうな船だな。改造を施し軍船として仕立て上げよう。他国の海賊船対策にもなるだろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DRAWN_PIRATE_3</Tag>
+		<English />
+		<French>漂着した船はまだ使えるようなので幾つかを漁船として使い、幾つかを旅客船として使おう。旅客船を使い新たな黄金大陸を目指そうじゃないか！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>漂着した船はまだ使えるようなので幾つかを漁船として使い、幾つかを旅客船として使おう。旅客船を使い新たな黄金大陸を目指そうじゃないか！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DRAWN_PIRATE_1_1</Tag>
+		<English />
+		<French>改造の果て海賊船が3隻出来上がり我らがキャプテン・ムラサの顔も紅潮しています。早速、海賊旗を上げ商船を襲いに掛かりましょう！獲物はすぐ目の前ですぞ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>改造の果て海賊船が3隻出来上がり我らがキャプテン・ムラサの顔も紅潮しています。早速、海賊旗を上げ商船を襲いに掛かりましょう！獲物はすぐ目の前ですぞ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DRAWN_PIRATE_2_1</Tag>
+		<English />
+		<French>武装を施した不審船は技術者の手により見事な軍船に大変身しました。なんということでしょう。我が海域に寄ってきた愚かな海賊共を木っ端微塵にしてやりましょう！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>武装を施した不審船は技術者の手により見事な軍船に大変身しました。なんということでしょう。我が海域に寄ってきた愚かな海賊共を木っ端微塵にしてやりましょう！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DRAWN_PIRATE_3_1</Tag>
+		<English />
+		<French>幾つか漁船が増えた事で沿岸収入が少しばかり増えました。更に、出来上がった旅客船を使い新しい大陸の旅に出ましょう！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幾つか漁船が増えた事で沿岸収入が少しばかり増えました。更に、出来上がった旅客船を使い新しい大陸の旅に出ましょう！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_UNIT_DRAWN_PIRATE</Tag>
+		<English />
+		<French>キャプテン・ムラサ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>キャプテン・ムラサ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TREASURE_SEARCH_1</Tag>
+		<English />
+		<French>突如ナズーリンの持つダウジングロッドが強く反応し始めたようです。おもむろに主人である寅丸星と共に反応する方向に動き出しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>突如ナズーリンの持つダウジングロッドが強く反応し始めたようです。おもむろに主人である寅丸星と共に反応する方向に動き出しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TREASURE_SEARCH_1</Tag>
+		<English />
+		<French>何が見つかるかは反応がする場所の先にしか分からないことだ。何かを探し出してくれることに期待し、その後判断しよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>何が見つかるかは反応がする場所の先にしか分からないことだ。何かを探し出してくれることに期待し、その後判断しよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TREASURE_SEARCH_2</Tag>
+		<English />
+		<French>ダウジングロッドは街の外れにある錆かかった小さな小屋の前で反応が大きくなりました。恐る恐る中に入ってみると科学者と思わしき人物が研究をしていました。ダウジングロッドが反応した人物となれば、人間国宝に値する人物と見て間違いない。すぐ様その都市にアカデミーを建造し更なる研究の後押しをするのだ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ダウジングロッドは街の外れにある錆かかった小さな小屋の前で反応が大きくなりました。恐る恐る中に入ってみると科学者と思わしき人物が研究をしていました。ダウジングロッドが反応した人物となれば、人間国宝に値する人物と見て間違いない。すぐ様その都市にアカデミーを建造し更なる研究の後押しをするのだ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TREASURE_SEARCH_3</Tag>
+		<English />
+		<French>ダウジングロッドが反応した先には星蓮船の町中を騒がせていた凶悪な大強盗団のアジトがありました。この発見により大強盗団は一網打尽となり、今後このような事件が起こらないよう都市にスコットランドヤードを設立し犯罪対策の強化に政府は乗り出しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ダウジングロッドが反応した先には星蓮船の町中を騒がせていた凶悪な大強盗団のアジトがありました。この発見により大強盗団は一網打尽となり、今後このような事件が起こらないよう都市にスコットランドヤードを設立し犯罪対策の強化に政府は乗り出しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TREASURE_SEARCH_4</Tag>
+		<English />
+		<French>ダウジングロッドに導かれた先には以前軍に従事していたと見られる将校の姿がありました。将校はまだまだ指導できるといった強い信念を宿らせた眼で政府に謁見する機会を二人に訴えかけました。謁見の場に招き入れ、政府の重役に会わせた所、この将校の眼を見るやいなや彼の住む都市に士官学校を建設するよう命じました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ダウジングロッドに導かれた先には以前軍に従事していたと見られる将校の姿がありました。将校はまだまだ指導できるといった強い信念を宿らせた眼で政府に謁見する機会を二人に訴えかけました。謁見の場に招き入れ、政府の重役に会わせた所、この将校の眼を見るやいなや彼の住む都市に士官学校を建設するよう命じました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_SHIELD_OR_HALBARD</Tag>
+		<English />
+		<French>命蓮寺の聖白蓮が魔法のような不思議な力を使い兵士の訓練をサポートしているようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>命蓮寺の聖白蓮が魔法のような不思議な力を使い兵士の訓練をサポートしているようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_SHIELD_OR_HALBARD_1</Tag>
+		<English />
+		<French>聖の提案で、平和な時期に魔法を使った特殊な訓練を行うことが決まりました。今回、聖が扱う魔法は自身の体力を極度に消耗するため、進攻か防衛に特化する魔法のどちらかしか選べません。どちらの訓練を行いますか。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖の提案で、平和な時期に魔法を使った特殊な訓練を行うことが決まりました。今回、聖が扱う魔法は自身の体力を極度に消耗するため、進攻か防衛に特化する魔法のどちらかしか選べません。どちらの訓練を行いますか。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SHIELD_OR_HALBARD_1</Tag>
+		<English />
+		<French>進攻に備えるため、槍兵の脚力を鍛える魔法を掛けておきましょう。奇襲に向かってきた敵兵を逃がさず殲滅出来るようになりましょうぞ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>進攻に備えるため、槍兵の脚力を鍛える魔法を掛けておきましょう。奇襲に向かってきた敵兵を逃がさず殲滅出来るようになりましょうぞ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SHIELD_OR_HALBARD_2</Tag>
+		<English />
+		<French>我が国を狙ってくる蛮族や侵略軍の動きを見極めるため、弓兵の視力を高める魔法を掛けておきましょう。打たれる前に先に打つ、それが彼らの役目です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国を狙ってくる蛮族や侵略軍の動きを見極めるため、弓兵の視力を高める魔法を掛けておきましょう。打たれる前に先に打つ、それが彼らの役目です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SHIELD_OR_HALBARD_3</Tag>
+		<English />
+		<French>待て、聖の体力を消耗させるには時期的に悪すぎる。彼女には我が国が侵略の危険にさらされた時、すぐに動いてもらわねば困る。仕方ないが今は戦力アップを改める他ないだろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>待て、聖の体力を消耗させるには時期的に悪すぎる。彼女には我が国が侵略の危険にさらされた時、すぐに動いてもらわねば困る。仕方ないが今は戦力アップを改める他ないだろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_GOLDEN_RYUMYAKU</Tag>
+		<English />
+		<French>神霊廟の風水師達は黄金の龍脈を見つけたようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神霊廟の風水師達は黄金の龍脈を見つけたようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_GOLDEN_RYUMYAKU_1</Tag>
+		<English />
+		<French>神霊廟の風水師達は風水を使い、龍脈地帯に黄金が集結しているのを発見した模様です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神霊廟の風水師達は風水を使い、龍脈地帯に黄金が集結しているのを発見した模様です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GOLDEN_RYUMYAKU_1</Tag>
+		<English />
+		<French>よし、早速その黄金を掘り起こそう！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>よし、早速その黄金を掘り起こそう！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_SYOUTOKU_MONEY</Tag>
+		<English />
+		<French>神子の肖像画が入った紙幣が世界通貨となりました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神子の肖像画が入った紙幣が世界通貨となりました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_SYOUTOKU_MONEY_1</Tag>
+		<English />
+		<French>神子の肖像画を紙幣に入れたところ、幻想郷の住民に大いに受け入れられ世界通貨になりました。これにより我が国は存分に紙幣を刷る事ができます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神子の肖像画を紙幣に入れたところ、幻想郷の住民に大いに受け入れられ世界通貨になりました。これにより我が国は存分に紙幣を刷る事ができます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SYOUTOKU_MONEY_1</Tag>
+		<English />
+		<French>金を無駄にすることはできない。今は蓄えよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>金を無駄にすることはできない。今は蓄えよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SYOUTOKU_MONEY_2</Tag>
+		<English />
+		<French>国のためにインフラを整備しよう！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国のためにインフラを整備しよう！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SYOUTOKU_MONEY_3</Tag>
+		<English />
+		<French>金を刷りまくり他国にばら撒くのだ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>金を刷りまくり他国にばら撒くのだ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_SEIGA_MAGIC</Tag>
+		<English />
+		<French>青娥は新しいキョンシーの技術を開発しました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>青娥は新しいキョンシーの技術を開発しました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_SEIGA_MAGIC_1</Tag>
+		<English />
+		<French>青娥は新技術を開発し、キョンシーを改良できるようになったと言っています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>青娥は新技術を開発し、キョンシーを改良できるようになったと言っています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SEIGA_MAGIC_1</Tag>
+		<English />
+		<French>よし白兵ユニットをキョンシーにして貰おう！疲れを知らぬ兵は敵を恐怖に陥れるだろう！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>よし白兵ユニットをキョンシーにして貰おう！疲れを知らぬ兵は敵を恐怖に陥れるだろう！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SEIGA_MAGIC_2</Tag>
+		<English />
+		<French>では全ての弓兵を不死にしよう！鉄壁の守りを固めるのだ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>では全ての弓兵を不死にしよう！鉄壁の守りを固めるのだ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SEIGA_MAGIC_3</Tag>
+		<English />
+		<French>それなら火薬ユニットを改良する！死体達の行軍で世界を支配するのだ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>それなら火薬ユニットを改良する！死体達の行軍で世界を支配するのだ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SEIGA_MAGIC_4</Tag>
+		<English />
+		<French>我が軍を腐らせるわけにはいけない、今のままで十分だ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が軍を腐らせるわけにはいけない、今のままで十分だ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_TRAIT_KOKOROLIST</Tag>
+		<English />
+		<French>秦こころが新たな面を被りました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>秦こころが新たな面を被りました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_TRAIT_KOKOROLIST</Tag>
+		<English />
+		<French>秦こころの感情が暴走し、新たな志向を得る事ができそうです。手持ちの面を被って新たな志向を得ましょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>秦こころの感情が暴走し、新たな志向を得る事ができそうです。手持ちの面を被って新たな志向を得ましょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRAIT_KOKOROLIST_1</Tag>
+		<English />
+		<French>小面の面 - 研究系の志向を得る喜びの面</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小面の面 - 研究系の志向を得る喜びの面</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRAIT_KOKOROLIST_2</Tag>
+		<English />
+		<French>般若の面 - 戦争系の志向を得る怒りの面</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>般若の面 - 戦争系の志向を得る怒りの面</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRAIT_KOKOROLIST_3</Tag>
+		<English />
+		<French>姥の面 - 生産系の志向を得る哀の面</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>姥の面 - 生産系の志向を得る哀の面</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRAIT_KOKOROLIST_4</Tag>
+		<English />
+		<French>火男の面 - 予測が付かない愉快で楽しい面</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>火男の面 - 予測が付かない愉快で楽しい面</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRAIT_KOKOROLIST_5</Tag>
+		<English />
+		<French>希望の面 - 暴走した感情を抑える失われた面</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>希望の面 - 暴走した感情を抑える失われた面</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRAIT_KOKOROLIST_1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]金融・哲学・宗教・うわばみ・組織のうちどれか2つの志向をランダムで取得</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]金融・哲学・宗教・うわばみ・組織のうちどれか2つの志向をランダムで取得</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRAIT_KOKOROLIST_2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]攻撃・カリスマ・防衛・帝国主義・呪文・集権のうちのどれか2つの志向をランダムで取得</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]攻撃・カリスマ・防衛・帝国主義・呪文・集権のうちのどれか2つの志向をランダムで取得</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRAIT_KOKOROLIST_3_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]創造・拡張・勤労・交易・労働のうちどれか2つの志向をランダムで取得</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]創造・拡張・勤労・交易・労働のうちどれか2つの志向をランダムで取得</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRAIT_KOKOROLIST_4_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]通常全16志向＋この選択肢でしか登場しないシークレット志向のうちどれか2つの志向をランダムで取得</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]通常全16志向＋この選択肢でしか登場しないシークレット志向のうちどれか2つの志向をランダムで取得</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRAIT_KOKOROLIST_5_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]志向の変化は無し&#13;[ICON_BULLET]この選択肢を選ぶと、以後このゲーム中は現在の志向で固定される</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]志向の変化は無し&#13;[ICON_BULLET]この選択肢を選ぶと、以後このゲーム中は現在の志向で固定される</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_ITEMS_RESISTANCE</Tag>
+		<English />
+		<French>%s1_civ_adjectiveで怪しい力を持った道具が発見されました</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveで怪しい力を持った道具が発見されました</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_ITEMS_RESISTANCE</Tag>
+		<English />
+		<French>何やら奇妙な力を持った怪しい道具が落ちています。&#13;使いようによっては役に立つかもしれません</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>何やら奇妙な力を持った怪しい道具が落ちています。&#13;使いようによっては役に立つかもしれません</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ITEMS_RESISTANCE_1</Tag>
+		<English />
+		<French>妖器「お祓い棒」使用&#13;翻弄される回避重視タイプ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖器「お祓い棒」使用&#13;翻弄される回避重視タイプ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ITEMS_RESISTANCE_2</Tag>
+		<English />
+		<French>妖器「ミニ八卦炉」使用&#13;散熱の威力重視タイプ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖器「ミニ八卦炉」使用&#13;散熱の威力重視タイプ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ITEMS_RESISTANCE_3</Tag>
+		<English />
+		<French>妖器「シルバーブレード」使用&#13;輝く銀の牽制攻撃タイプ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖器「シルバーブレード」使用&#13;輝く銀の牽制攻撃タイプ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ITEMS_RESISTANCE_4</Tag>
+		<English />
+		<French>いや、このような怪しい道具は使うべきではない</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>いや、このような怪しい道具は使うべきではない</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ITEMS_RESISTANCE_2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]東方ユニット昇進の基本操作とは別物</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]東方ユニット昇進の基本操作とは別物</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ITEMS_RESISTANCE_3_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]東方ユニット昇進の教練とは別物</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]東方ユニット昇進の教練とは別物</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_ISSUNS_TREASURE</Tag>
+		<English />
+		<French>%s1_civ_adjectiveで謎の秘宝が発見されました。噂では一寸法師本人が遺したものと言われています</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveで謎の秘宝が発見されました。噂では一寸法師本人が遺したものと言われています</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_ISSUNS_TREASURE</Tag>
+		<English />
+		<French>輝針城内部に隠し部屋があり、内部から秘宝が発掘されました。&#13;謎の秘宝は一寸法師が遺したものではないか、と噂されています。&#13;その宝とは………</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>輝針城内部に隠し部屋があり、内部から秘宝が発掘されました。&#13;謎の秘宝は一寸法師が遺したものではないか、と噂されています。&#13;その宝とは………</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ISSUNS_TREASURE_1</Tag>
+		<English />
+		<French>一寸法師本人が用いた針の刀</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>一寸法師本人が用いた針の刀</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ISSUNS_TREASURE_2</Tag>
+		<English />
+		<French>保管されていた幻の美酒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>保管されていた幻の美酒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ISSUNS_TREASURE_3</Tag>
+		<English />
+		<French>古代で使われた幻の楽器</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>古代で使われた幻の楽器</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ISSUNS_TREASURE_4</Tag>
+		<English />
+		<French>金銀財宝。やっぱりアイツ背を伸ばすだけじゃなかったんだな！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>金銀財宝。やっぱりアイツ背を伸ばすだけじゃなかったんだな！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ISSUNS_TREASURE_1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ユニット少名針妙丸が生産済みの場合に限り選択可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ユニット少名針妙丸が生産済みの場合に限り選択可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ISSUNS_TREASURE_2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]全都市で[ICON_HAPPY]+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]全都市で[ICON_HAPPY]+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ISSUNS_TREASURE_3_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]指導者が九十九八橋or九十九弁々の場合に限り選択可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]指導者が九十九八橋or九十九弁々の場合に限り選択可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_LIVE_OF_TSUKUMOGAMI</Tag>
+		<English />
+		<French>%s1_civ_adjectiveの都市%s2_cityで付喪神たちが盛大なライブを開催しました</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_civ_adjectiveの都市%s2_cityで付喪神たちが盛大なライブを開催しました</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_LIVE_OF_TSUKUMOGAMI</Tag>
+		<English />
+		<French>楽器の付喪神たちが%s2_cityに集まって盛大なライブを開きたがっています&#13;しかし色んな種類の楽器由来付喪神が集まったため、どういう構成にするかで揉めているようです</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>楽器の付喪神たちが%s2_cityに集まって盛大なライブを開きたがっています&#13;しかし色んな種類の楽器由来付喪神が集まったため、どういう構成にするかで揉めているようです</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LIVE_OF_TSUKUMOGAMI_1</Tag>
+		<English />
+		<French>琴をメインに据えたアグレッシブな旋律を奏でよう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>琴をメインに据えたアグレッシブな旋律を奏でよう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LIVE_OF_TSUKUMOGAMI_2</Tag>
+		<English />
+		<French>琵琶をメインに据えた伝統的で大人な旋律を奏でよう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>琵琶をメインに据えた伝統的で大人な旋律を奏でよう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LIVE_OF_TSUKUMOGAMI_3</Tag>
+		<English />
+		<French>ドラムをメインに据えた全く新しい音楽を奏でよう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ドラムをメインに据えた全く新しい音楽を奏でよう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LIVE_OF_TSUKUMOGAMI_4</Tag>
+		<English />
+		<French>ええい、各々好きにやってしまえ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ええい、各々好きにやってしまえ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LIVE_OF_TSUKUMOGAMI_1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]指導者が九十九八橋の場合のみ選択可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]指導者が九十九八橋の場合のみ選択可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LIVE_OF_TSUKUMOGAMI_2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]指導者が九十九弁々の場合のみ選択可能&#13;[ICON_BULLET]対象都市で[ICON_HAPPY]+3</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]指導者が九十九弁々の場合のみ選択可能&#13;[ICON_BULLET]対象都市で[ICON_HAPPY]+3</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LIVE_OF_TSUKUMOGAMI_3_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]指導者が堀川雷鼓の場合のみ選択可能&#13;[ICON_BULLET]大宴会発動&#13;[ICON_BULLET]この大宴会は通常の半分のターンのみ開催される</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]指導者が堀川雷鼓の場合のみ選択可能&#13;[ICON_BULLET]大宴会発動&#13;[ICON_BULLET]この大宴会は通常の半分のターンのみ開催される</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_GYAKUTEN</Tag>
+		<English />
+		<French>稀神サグメの能力が発動しました</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>稀神サグメの能力が発動しました</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_GYAKUTEN</Tag>
+		<English />
+		<French>我が国は現在敵国の侵略を受けています。今こそこの事態を逆転させる時です</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が国は現在敵国の侵略を受けています。今こそこの事態を逆転させる時です</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GYAKUTEN_1</Tag>
+		<English />
+		<French>我々はこの期を境に戦時特需へと突入することになるだろう&#13;運命は逆転し始める！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我々はこの期を境に戦時特需へと突入することになるだろう&#13;運命は逆転し始める！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GYAKUTEN_2</Tag>
+		<English />
+		<French>我が民たちが武器を手に取り一致団結し、必ずや侵略者を迎え撃つだろう&#13;運命は逆転し始める！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我が民たちが武器を手に取り一致団結し、必ずや侵略者を迎え撃つだろう&#13;運命は逆転し始める！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GYAKUTEN_3</Tag>
+		<English />
+		<French>この苦境を打開する革新的な武器が技術者の手により開発され、侵略者を叩き潰す事になるだろう&#13;運命は逆転し始める！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>この苦境を打開する革新的な武器が技術者の手により開発され、侵略者を叩き潰す事になるだろう&#13;運命は逆転し始める！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GYAKUTEN_1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]%d1ターンの黄金期が発生する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]%d1ターンの黄金期が発生する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GYAKUTEN_2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]我が国の首都%s3_cityに%d1ユニットの[COLOR_UNIT_TEXT]%s2_unit[COLOR_REVERT]が追加される。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]我が国の首都%s3_cityに%d1ユニットの[COLOR_UNIT_TEXT]%s2_unit[COLOR_REVERT]が追加される。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_THREEFACE_1</Tag>
+		<English />
+		<French>新たなる時代を迎えたため、ヘカーティア・ラピスラズリは「地球」の身体に変化しました</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>新たなる時代を迎えたため、ヘカーティア・ラピスラズリは「地球」の身体に変化しました</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_THREEFACE_2</Tag>
+		<English />
+		<French>新たなる時代を迎えたため、ヘカーティア・ラピスラズリは「月」の身体に変化しました</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>新たなる時代を迎えたため、ヘカーティア・ラピスラズリは「月」の身体に変化しました</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_THREEFACE_1</Tag>
+		<English />
+		<French>「哲学志向・呪文志向」に変化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「哲学志向・呪文志向」に変化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_THREEFACE_2</Tag>
+		<English />
+		<French>「金融志向・呪文志向」に変化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「金融志向・呪文志向」に変化</Japanese>
+	</TEXT>
+</Civ4GameText>

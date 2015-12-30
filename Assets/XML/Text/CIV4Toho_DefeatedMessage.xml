@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Objects -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!-- Koumakan Defeated Start-->
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_REMILIA</Tag>
+		<English />
+		<French>レミリア＝スカーレットは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ち、ちがうのよ。こんなことあるはずがないわ！そ、そう。これは夢、夢なのよ…」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レミリア＝スカーレットは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ち、ちがうのよ。こんなことあるはずがないわ！そ、そう。これは夢、夢なのよ…」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_FLAN</Tag>
+		<English />
+		<French>フランドール＝スカーレットは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…お姉さまに言いつけてやるんだから！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フランドール＝スカーレットは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…お姉さまに言いつけてやるんだから！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SAKUYA</Tag>
+		<English />
+		<French>十六夜咲夜は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「まさか私がこのような醜態を晒す羽目になるとは……無念ですわ」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>十六夜咲夜は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「まさか私がこのような醜態を晒す羽目になるとは……無念ですわ」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_MEIRIN</Tag>
+		<English />
+		<French>紅美鈴は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「こ、この門はフリーパスじゃありませんよ！？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅美鈴は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「こ、この門はフリーパスじゃありませんよ！？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_KOA</Tag>
+		<English />
+		<French>小悪魔は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「申し訳ありませんパチュリー様、本を全部持っていかれました…」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小悪魔は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「申し訳ありませんパチュリー様、本を全部持っていかれました…」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_LITTLE</Tag>
+		<English />
+		<French>リトルは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ま、まさか…本の返却を踏み倒す気ですか？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リトルは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ま、まさか…本の返却を踏み倒す気ですか？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_PATCHOULI</Tag>
+		<English />
+		<French>パチュリー＝ノーレッジは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「むきゅ～……」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パチュリー＝ノーレッジは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「むきゅ～……」</Japanese>
+	</TEXT>
+<!-- Koumakan Defeated End-->
+<!-- Hakugyokurou Defeated Start-->
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_YOUMU</Tag>
+		<English />
+		<French>魂魄妖夢は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「くっ…これもひとえに私の力不足が招いた結果。もっと精進しなければ…」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魂魄妖夢は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「くっ…これもひとえに私の力不足が招いた結果。もっと精進しなければ…」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_YUKARI</Tag>
+		<English />
+		<French>八雲紫は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あなたは酷い人ね。こんないたいけな美少女を泣かせるだなんて…」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八雲紫は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あなたは酷い人ね。こんないたいけな美少女を泣かせるだなんて…」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_YUYUKO</Tag>
+		<English />
+		<French>西行寺幽々子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あらあら、負けちゃったわ～」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>西行寺幽々子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あらあら、負けちゃったわ～」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_RAN</Tag>
+		<English />
+		<French>八雲藍は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「この私の計算術が通用しないとは……。[NEWLINE]お見事です。ですが次はこうはいきませんよ」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八雲藍は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「この私の計算術が通用しないとは……。[NEWLINE]お見事です。ですが次はこうはいきませんよ」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_CHEN</Tag>
+		<English />
+		<French>橙は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ったく…こんなことになったのも式が悪いのよ、式が………[NEWLINE][NEWLINE]…えっ！き、聞いてたの！？い、いや、私は何も言ってないわよ！？[NEWLINE]さ、さーあ藍様にこのことを言いつけにいかなきゃ！じゃーね！！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>橙は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ったく…こんなことになったのも式が悪いのよ、式が………[NEWLINE][NEWLINE]…えっ！き、聞いてたの！？い、いや、私は何も言ってないわよ！？[NEWLINE]さ、さーあ藍様にこのことを言いつけにいかなきゃ！じゃーね！！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_LILYW</Tag>
+		<English />
+		<French>リリーホワイトは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「春は！？春はまだですかー！？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リリーホワイトは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「春は！？春はまだですかー！？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_LILYB</Tag>
+		<English />
+		<French>リリーブラックは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「サクラ散る、とはこのことね…」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リリーブラックは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「サクラ散る、とはこのことね…」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_LUNASA</Tag>
+		<English />
+		<French>ルナサ＝プリズムリバーは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「はぁ…やっぱり私はソロ活動は苦手だわ。ああ、鬱いったらありゃしない」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルナサ＝プリズムリバーは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「はぁ…やっぱり私はソロ活動は苦手だわ。ああ、鬱いったらありゃしない」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_MERLIN</Tag>
+		<English />
+		<French>メルラン＝プリズムリバーは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…はえ？終わり？…もう？あれ？？？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>メルラン＝プリズムリバーは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…はえ？終わり？…もう？あれ？？？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_LYRICA</Tag>
+		<English />
+		<French>リリカ＝プリズムリバーは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「もうちょっと遊んでくれたっていいじゃないのさ…」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リリカ＝プリズムリバーは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「もうちょっと遊んでくれたっていいじゃないのさ…」</Japanese>
+	</TEXT>
+<!-- Hakugyokurou Defeated End-->
+<!-- Eientei Defeated Start-->
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_REISEN</Tag>
+		<English />
+		<French>鈴仙・優曇華院・イナバは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「師匠、なんだって幻想郷はこうも血の気が多い人ばかりなんですか？ヒドイです」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴仙・優曇華院・イナバは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「師匠、なんだって幻想郷はこうも血の気が多い人ばかりなんですか？ヒドイです」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_TEWI</Tag>
+		<English />
+		<French>てゐは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「なんてこったい…」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>てゐは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「なんてこったい…」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_KAGUYA</Tag>
+		<English />
+		<French>蓬莱山輝夜は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「まさか、この私がこんなにボロ負けするなんて……[NEWLINE]も、もう一回よもう一回！さあ次のシド星へ行きましょう！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蓬莱山輝夜は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「まさか、この私がこんなにボロ負けするなんて……[NEWLINE]も、もう一回よもう一回！さあ次のシド星へ行きましょう！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_EIRIN</Tag>
+		<English />
+		<French>八意永琳は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「なんて事……[NEWLINE]あとで姫にからかわれるかと思うと、憂鬱だわ……」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八意永琳は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「なんて事……[NEWLINE]あとで姫にからかわれるかと思うと、憂鬱だわ……」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_MEDICIN</Tag>
+		<English />
+		<French>メディスン＝メランコリーは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「悔しく、なんか、ないん、だからっ………！[NEWLINE][NEWLINE]……ぐすっ」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>メディスン＝メランコリーは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「悔しく、なんか、ないん、だからっ………！[NEWLINE][NEWLINE]……ぐすっ」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_WATAHIME</Tag>
+		<English />
+		<French>綿月豊姫は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「地上の民もやるものですわね……完敗ですわ」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>綿月豊姫は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「地上の民もやるものですわね……完敗ですわ」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_YORIHIME</Tag>
+		<English />
+		<French>綿月依姫は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「認めましょう。私の力が、貴方に及ばなかった。この結果はそれを反映しているだけです。[NEWLINE][NEWLINE]……まだまだ未熟ね、私も……」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>綿月依姫は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「認めましょう。私の力が、貴方に及ばなかった。この結果はそれを反映しているだけです。[NEWLINE][NEWLINE]……まだまだ未熟ね、私も……」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_REISEN2</Tag>
+		<English />
+		<French>レイセンは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「な……何なの、ここは。月よりよっぽど怖い！？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レイセンは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「な……何なの、ここは。月よりよっぽど怖い！？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_KAGEROU</Tag>
+		<English />
+		<French>今泉影狼は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「これが本当の負け犬の遠吠え……[NEWLINE][NEWLINE]……って、何言わせてんのよ！？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>今泉影狼は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「これが本当の負け犬の遠吠え……[NEWLINE][NEWLINE]……って、何言わせてんのよ！？」</Japanese>
+	</TEXT>
+<!-- Eientei Defeated End-->
+<!-- Youkainoyama Defeated Start-->
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_IKU</Tag>
+		<English />
+		<French>永江衣玖は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「黙って立ち去ることにしましょう。それが敗者の定めです。[NEWLINE]…納得はいきませんが、ね」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永江衣玖は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「黙って立ち去ることにしましょう。それが敗者の定めです。[NEWLINE]…納得はいきませんが、ね」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_NITORI</Tag>
+		<English />
+		<French>河城にとりは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「い、いつかぎったんぎったんにしてやるんだからね！！！[NEWLINE]…おーぼーえーてーろー」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>河城にとりは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「い、いつかぎったんぎったんにしてやるんだからね！！！[NEWLINE]…おーぼーえーてーろー」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SANAE</Tag>
+		<English />
+		<French>東風谷早苗は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「完敗です……[NEWLINE]…まだ私は常識を捨てきれていないのかしら？『えればす』とかいう世界で修行してこようかしら…」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>東風谷早苗は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「完敗です……[NEWLINE]…まだ私は常識を捨てきれていないのかしら？『えればす』とかいう世界で修行してこようかしら…」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_KANAKO</Tag>
+		<English />
+		<French>八坂神奈子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ありゃ、やられちまったのかい…[NEWLINE]うーん、どこで手違いを起こしたのかねぇ…」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八坂神奈子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ありゃ、やられちまったのかい…[NEWLINE]うーん、どこで手違いを起こしたのかねぇ…」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_MINORIKO</Tag>
+		<English />
+		<French>秋穣子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あなたが建てた農場なんか、全部イナゴに食われてしまえばいいのです」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>秋穣子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あなたが建てた農場なんか、全部イナゴに食われてしまえばいいのです」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SIZUHA</Tag>
+		<English />
+		<French>秋静葉は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「アンタの領土にある森なんか全部枯れてしまえばいいわ！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>秋静葉は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「アンタの領土にある森なんか全部枯れてしまえばいいわ！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_AYA</Tag>
+		<English />
+		<French>射命丸文は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ああっ、なんてひどい話なのでしょう！[NEWLINE]何もしていないか弱い私を卑怯な手段で滅亡まで追いやった暴虐な蛮族[CT_NAME]のことは是非、新聞に書いて真実を知らしめなければ…！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>射命丸文は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ああっ、なんてひどい話なのでしょう！[NEWLINE]何もしていないか弱い私を卑怯な手段で滅亡まで追いやった暴虐な蛮族[CT_NAME]のことは是非、新聞に書いて真実を知らしめなければ…！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_MOMIZI</Tag>
+		<English />
+		<French>犬走椛は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「このような者に妖怪の山を荒らされてしまうとは……」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>犬走椛は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「このような者に妖怪の山を荒らされてしまうとは……」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_HATATE</Tag>
+		<English />
+		<French>姫海棠はたては滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「特ダネを狙いにきたはずなのに…こんなんじゃ逆に私がゴシップのネタにされてしまうじゃない」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>姫海棠はたては滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「特ダネを狙いにきたはずなのに…こんなんじゃ逆に私がゴシップのネタにされてしまうじゃない」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SUWAKO</Tag>
+		<English />
+		<French>洩矢諏訪子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「か、神様を泣かせるだなんて！呪われても知らないからね！？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>洩矢諏訪子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「か、神様を泣かせるだなんて！呪われても知らないからね！？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_TENSHI</Tag>
+		<English />
+		<French>比那名居天子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「そんな！？この私がこんな目に会うはずがないじゃない！！[NEWLINE]……そうか、わかったわ！あなた、『わあるどびるだあ』使ってるでしょ！？そうよ、そうに決まってるわ！！！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>比那名居天子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「そんな！？この私がこんな目に会うはずがないじゃない！！[NEWLINE]……そうか、わかったわ！あなた、『わあるどびるだあ』使ってるでしょ！？そうよ、そうに決まってるわ！！！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_HINA</Tag>
+		<English />
+		<French>鍵山雛は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「厄いわ、厄すぎるわ………」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鍵山雛は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「厄いわ、厄すぎるわ………」</Japanese>
+	</TEXT>
+<!-- Youkainoyama Defeated End-->
+<!-- Chireiden Defeated Start-->
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_PARSEE</Tag>
+		<English />
+		<French>水橋パルスィは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「これほどまでに妬ましいのは本当に久しぶりよ。夜道にはせいぜい気をつけることね…」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>水橋パルスィは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「これほどまでに妬ましいのは本当に久しぶりよ。夜道にはせいぜい気をつけることね…」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_YUGI</Tag>
+		<English />
+		<French>星熊勇儀は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あんたやるねえ！ここまで私を完璧に負かした奴は本当に久しぶりだよ！[NEWLINE]さあさあ、まずは一杯やろうじゃないか。次に会った時も勝負してくれると嬉しいねえ！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>星熊勇儀は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あんたやるねえ！ここまで私を完璧に負かした奴は本当に久しぶりだよ！[NEWLINE]さあさあ、まずは一杯やろうじゃないか。次に会った時も勝負してくれると嬉しいねえ！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SATORI</Tag>
+		<English />
+		<French>古明地さとりは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「心が読めたところで、どうにもならないこともあるのですよ。[NEWLINE]…ちょうど、今がその時ね」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>古明地さとりは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「心が読めたところで、どうにもならないこともあるのですよ。[NEWLINE]…ちょうど、今がその時ね」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_RIN</Tag>
+		<English />
+		<French>火焔猫燐は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あいたたた……まいったまいった！あたいの負けさ！降参だよ！[NEWLINE]…あんたの死体、運びたかったなあ。くたばる時は連絡ちょーだいね、約束だよ！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>火焔猫燐は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あいたたた……まいったまいった！あたいの負けさ！降参だよ！[NEWLINE]…あんたの死体、運びたかったなあ。くたばる時は連絡ちょーだいね、約束だよ！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_UTSUHO</Tag>
+		<English />
+		<French>霊烏路空は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…まだまだ！核融合炉は絶賛反応…ちゅう……[NEWLINE]…あれ？いつのまにか止まって……る？そんなー」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霊烏路空は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…まだまだ！核融合炉は絶賛反応…ちゅう……[NEWLINE]…あれ？いつのまにか止まって……る？そんなー」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_KOISHI</Tag>
+		<English />
+		<French>古明地こいしは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あなたの心を理解できなかったことが私の敗因ね……[NEWLINE]…お姉ちゃんなら、もっと上手くやれたのかな？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>古明地こいしは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あなたの心を理解できなかったことが私の敗因ね……[NEWLINE]…お姉ちゃんなら、もっと上手くやれたのかな？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_KISUME</Tag>
+		<English />
+		<French>キスメは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「………………！？」[NEWLINE]（どうやら茫然としているようだ）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>キスメは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「………………！？」[NEWLINE]（どうやら茫然としているようだ）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_YAMAME</Tag>
+		<English />
+		<French>黒谷ヤマメは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ひっどいなあ、もうちょっと手加減してくれたっていいじゃないのさ[NEWLINE]こちとらかわいい1ボスちゃんだよ？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>黒谷ヤマメは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ひっどいなあ、もうちょっと手加減してくれたっていいじゃないのさ[NEWLINE]こちとらかわいい1ボスちゃんだよ？」</Japanese>
+	</TEXT>
+<!-- Chireiden Defeated End-->
+<!-- Seirensen Defeated Start-->
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_NAZRIN</Tag>
+		<English />
+		<French>ナズーリンは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「逃げそびれてしまったか…」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ナズーリンは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「逃げそびれてしまったか…」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_ICHIRIN</Tag>
+		<English />
+		<French>雲居一輪は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あらら……やられちゃったわね[NEWLINE]精一杯の力を出したんだもの、悔いは無いわ……聖様に怒られそうなのが怖いけど」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>雲居一輪は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あらら……やられちゃったわね[NEWLINE]精一杯の力を出したんだもの、悔いは無いわ……聖様に怒られそうなのが怖いけど」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_MINAMITSU</Tag>
+		<English />
+		<French>村紗水蜜は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「……コイツが乗る船だけは…絶対に海難事故に……[NEWLINE]…え？ああいえ、何でもありませんよ。ただの独り言です」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>村紗水蜜は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「……コイツが乗る船だけは…絶対に海難事故に……[NEWLINE]…え？ああいえ、何でもありませんよ。ただの独り言です」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SYOU</Tag>
+		<English />
+		<French>寅丸星は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あああああっ！？わ、私の宝塔が…壊れ…！？[NEWLINE]…どどど、どうしましょう！？私、これじゃ毘沙門天様に大目玉食らっちゃいますよ！？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>寅丸星は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あああああっ！？わ、私の宝塔が…壊れ…！？[NEWLINE]…どどど、どうしましょう！？私、これじゃ毘沙門天様に大目玉食らっちゃいますよ！？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_BYAKUREN</Tag>
+		<English />
+		<French>聖白蓮は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…願わくば、貴方のような暴虐非道な者にも御仏の慈悲があらんことを」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖白蓮は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…願わくば、貴方のような暴虐非道な者にも御仏の慈悲があらんことを」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_NUE</Tag>
+		<English />
+		<French>封獣ぬえは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…もう一回封印するのだけは、勘弁してもらえないかな？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>封獣ぬえは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…もう一回封印するのだけは、勘弁してもらえないかな？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_KYOUKO</Tag>
+		<English />
+		<French>幽谷響子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「うわあん、私が何したっていうのさー！？[NEWLINE]こうなったらあなたにされたことを大声で言いふらしてやるんだからね！非人！悪魔！鬼！ヤマビコ殺し、ヤマビコ殺し、ヤマビコ殺し！！！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幽谷響子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「うわあん、私が何したっていうのさー！？[NEWLINE]こうなったらあなたにされたことを大声で言いふらしてやるんだからね！非人！悪魔！鬼！ヤマビコ殺し、ヤマビコ殺し、ヤマビコ殺し！！！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_MAMIZOU</Tag>
+		<English />
+		<French>二ッ岩マミゾウは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「やれやれ、散々な目に会ったわい……[NEWLINE][NEWLINE]このままではぬえの奴に顔向けできんわ。新たな助っ人を呼ぶしかあるまい。[NEWLINE]噂によると『マーキュリアン』なる魔術を唱えればいいらしいが…ホントかのう」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>二ッ岩マミゾウは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「やれやれ、散々な目に会ったわい……[NEWLINE][NEWLINE]このままではぬえの奴に顔向けできんわ。新たな助っ人を呼ぶしかあるまい。[NEWLINE]噂によると『マーキュリアン』なる魔術を唱えればいいらしいが…ホントかのう」</Japanese>
+	</TEXT>
+<!-- Seirensen Defeated End-->
+<!-- Hyouseirengou Defeated Start-->
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_RUMIA</Tag>
+		<English />
+		<French>ルーミアは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…ひどいのかー……」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルーミアは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…ひどいのかー……」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_LETTY</Tag>
+		<English />
+		<French>レティ＝ホワイトロックは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あらあら、滅亡だなんて酷いわね～[NEWLINE]…でもま、春眠するにはちょうどいい頃合かしら。それじゃ、おやすみ～」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レティ＝ホワイトロックは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あらあら、滅亡だなんて酷いわね～[NEWLINE]…でもま、春眠するにはちょうどいい頃合かしら。それじゃ、おやすみ～」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_WRIGGLE</Tag>
+		<English />
+		<French>リグル＝ナイトバグは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ひぇぇ。もうちょっと手加減してよー…[NEWLINE]こんなか弱い妖怪いじめなくたっていいじゃないかー…」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リグル＝ナイトバグは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ひぇぇ。もうちょっと手加減してよー…[NEWLINE]こんなか弱い妖怪いじめなくたっていいじゃないかー…」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_MYSTIA</Tag>
+		<English />
+		<French>ミスティア＝ローレライは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「……だからすぐ焼き鳥にしようとすんなっつってんだろーがー！！！[NEWLINE]鳥目にさすぞぼけー！！！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミスティア＝ローレライは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「……だからすぐ焼き鳥にしようとすんなっつってんだろーがー！！！[NEWLINE]鳥目にさすぞぼけー！！！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_CIRNO</Tag>
+		<English />
+		<French>チルノは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「プレイヤーよ……。　よくぞ　あたいを　たおした。[NEWLINE]だが　ようせいあるかぎり　チルノも　また　ある……。[NEWLINE]あたいには　みえるのだ。　ふたたび　あらたなチルノが　ひょうげんから　あらわれよう……。[NEWLINE]だが　そのときは　おまえは　もうあきて　ここには　いまい。[NEWLINE]わははは………っ。　ぐふっ！[NEWLINE][NEWLINE]………zzZZZ………」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チルノは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「プレイヤーよ……。　よくぞ　あたいを　たおした。[NEWLINE]だが　ようせいあるかぎり　チルノも　また　ある……。[NEWLINE]あたいには　みえるのだ。　ふたたび　あらたなチルノが　ひょうげんから　あらわれよう……。[NEWLINE]だが　そのときは　おまえは　もうあきて　ここには　いまい。[NEWLINE]わははは………っ。　ぐふっ！[NEWLINE][NEWLINE]………zzZZZ………」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_DAIYOUSEI</Tag>
+		<English />
+		<French>大妖精は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「えええーーー！？チ、チルノちゃんどうしよう！？[NEWLINE]全部都市取られちゃった…って、チルノちゃん寝てるし…」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大妖精は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「えええーーー！？チ、チルノちゃんどうしよう！？[NEWLINE]全部都市取られちゃった…って、チルノちゃん寝てるし…」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_KOGASA</Tag>
+		<English />
+		<French>多々良小傘は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「うう…あのね！？私がびっくりさせるのはいいの！[NEWLINE]でも、私をびっくりさせようとするのはルール違反！！！[NEWLINE]それも泣かせるだなんてもっての他なんだからね！？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>多々良小傘は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「うう…あのね！？私がびっくりさせるのはいいの！[NEWLINE]でも、私をびっくりさせようとするのはルール違反！！！[NEWLINE]それも泣かせるだなんてもっての他なんだからね！？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_LUNA</Tag>
+		<English />
+		<French>ルナチャイルドは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「～～～～～ッッッ！？！？！？[NEWLINE]…て、てったい！てった～いっ！！！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルナチャイルドは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「～～～～～ッッッ！？！？！？[NEWLINE]…て、てったい！てった～いっ！！！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_STAR</Tag>
+		<English />
+		<French>スターサファイアは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あらららら…？し、失敗しちゃったわね[NEWLINE]サニー、ルナ。今日のところは諦めましょ。でも、次はもっと上手くやるわ」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スターサファイアは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あらららら…？し、失敗しちゃったわね[NEWLINE]サニー、ルナ。今日のところは諦めましょ。でも、次はもっと上手くやるわ」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SUNNY</Tag>
+		<English />
+		<French>サニーミルクは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「うう…途中まで上手くいってたのになぁ[NEWLINE]わたしの世界征服計画がー……」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>サニーミルクは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「うう…途中まで上手くいってたのになぁ[NEWLINE]わたしの世界征服計画がー……」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_WAKASAGIHIME</Tag>
+		<English />
+		<French>わかさぎ姫は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あ、あの…ところで、そこにスタンバイしてあるてんぷら鍋と衣は、一体……？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>わかさぎ姫は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あ、あの…ところで、そこにスタンバイしてあるてんぷら鍋と衣は、一体……？」</Japanese>
+	</TEXT>
+<!-- Hyouseirengou Defeated End-->
+<!-- Hakureijinja Defeated Start-->
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_REIMU</Tag>
+		<English />
+		<French>博麗霊夢は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「う…全都市取られた？完敗ね……[NEWLINE]…はぁ、日ごろの修行不足が祟ったのかなあ。天運が効かない場所だと辛いわ」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗霊夢は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「う…全都市取られた？完敗ね……[NEWLINE]…はぁ、日ごろの修行不足が祟ったのかなあ。天運が効かない場所だと辛いわ」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_KYUUREIMU</Tag>
+		<English />
+		<French>博麗靈夢(旧)は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「やっぱり昔のコスプレなんかするもんじゃないわね…」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗靈夢(旧)は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「やっぱり昔のコスプレなんかするもんじゃないわね…」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_TOKIKO</Tag>
+		<English />
+		<French>本読み妖怪は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「なんだって私は出てくる度に酷い目に会うのさ……」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>本読み妖怪は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「なんだって私は出てくる度に酷い目に会うのさ……」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_RINNOSUKE</Tag>
+		<English />
+		<French>森近霖之助は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「おいおい、冗談だろう……？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>森近霖之助は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「おいおい、冗談だろう……？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_ALICE</Tag>
+		<English />
+		<French>アリス＝マーガトロイドは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…ふ、ふん。別にいいもの、最初からこのゲームは暇潰し程度でしかなかったんだから。[NEWLINE]全然悔しくなんかないんだから……[NEWLINE][NEWLINE]…ホントよ？ホントに悔しくなんかないんだから！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アリス＝マーガトロイドは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…ふ、ふん。別にいいもの、最初からこのゲームは暇潰し程度でしかなかったんだから。[NEWLINE]全然悔しくなんかないんだから……[NEWLINE][NEWLINE]…ホントよ？ホントに悔しくなんかないんだから！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_MARISA</Tag>
+		<English />
+		<French>霧雨魔理沙は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あのなー……私は乙女なんだぜ？乙女にはもうちょっと優しくするもんなんだぜ？[NEWLINE]それを泣かせるだなんて最低なんだからな！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霧雨魔理沙は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あのなー……私は乙女なんだぜ？乙女にはもうちょっと優しくするもんなんだぜ？[NEWLINE]それを泣かせるだなんて最低なんだからな！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SUIKA</Tag>
+		<English />
+		<French>伊吹萃香は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「お見事！いや～アンタ強いね。昔横道してきたアイツとは違って気持ちの良い殴り合いが出来たよ～[NEWLINE]次やる時はまた私を呼んで欲しいなぁ。その時は一緒に酒呑もうね？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>伊吹萃香は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「お見事！いや～アンタ強いね。昔横道してきたアイツとは違って気持ちの良い殴り合いが出来たよ～[NEWLINE]次やる時はまた私を呼んで欲しいなぁ。その時は一緒に酒呑もうね？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_MIMA</Tag>
+		<English />
+		<French>魅魔は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ふっふっふ…待たせたね！今、私は全盛の力を取り戻した！[NEWLINE]今度こそいざ！尋常に…………[NEWLINE][NEWLINE]……え？お前もう滅亡したから退場だって……？[NEWLINE]……ごめん。やっぱ今のナシで」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魅魔は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ふっふっふ…待たせたね！今、私は全盛の力を取り戻した！[NEWLINE]今度こそいざ！尋常に…………[NEWLINE][NEWLINE]……え？お前もう滅亡したから退場だって……？[NEWLINE]……ごめん。やっぱ今のナシで」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SHINKI</Tag>
+		<English />
+		<French>神綺は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「私は神綺なの！魔界の創造神なの！[NEWLINE]星の神シドを召喚しなさい！ この屈辱を晴らすためなら、ゲームバランスをひとつ残らず壊してやるわ！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神綺は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「私は神綺なの！魔界の創造神なの！[NEWLINE]星の神シドを召喚しなさい！ この屈辱を晴らすためなら、ゲームバランスをひとつ残らず壊してやるわ！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_KASEN</Tag>
+		<English />
+		<French>茨木華扇は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…あのですね？そもそも人のものを奪っちゃいけないというのは常識ですよね？[NEWLINE]私が仙人という徳を積んだ存在だから怒らないとでも…………[NEWLINE][NEWLINE]…え？お前仙人じゃないだろ…ですって！？[NEWLINE]だだだ、誰がそんなことを！私は鬼なんかじゃありませんよ！？[NEWLINE][NEWLINE]…え？鬼かどうかなんて聞いてない…って……[NEWLINE]………あわわわわわわ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>茨木華扇は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…あのですね？そもそも人のものを奪っちゃいけないというのは常識ですよね？[NEWLINE]私が仙人という徳を積んだ存在だから怒らないとでも…………[NEWLINE][NEWLINE]…え？お前仙人じゃないだろ…ですって！？[NEWLINE]だだだ、誰がそんなことを！私は鬼なんかじゃありませんよ！？[NEWLINE][NEWLINE]…え？鬼かどうかなんて聞いてない…って……[NEWLINE]………あわわわわわわ</Japanese>
+	</TEXT>
+<!-- Hakureijinja Defeated End-->
+<!-- Ningennosato Defeated Start-->
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_YUKA</Tag>
+		<English />
+		<French>風見幽香は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「花は美しく咲き誇り、そしていつかは枯れ果てるもの。[NEWLINE]…貴方が咲かせた花は、いつまで咲いていられるかしらね？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>風見幽香は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「花は美しく咲き誇り、そしていつかは枯れ果てるもの。[NEWLINE]…貴方が咲かせた花は、いつまで咲いていられるかしらね？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_EIKI</Tag>
+		<English />
+		<French>四季映姫は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ええ認めましょう。この遊戯において貴方は私に勝利した。それは事実。[NEWLINE][NEWLINE]…しかし！その勝利までに至る過程で貴方は少し度が過ぎている！[NEWLINE]ちょっと来なさい。私自ら直々に説教をして差し上げましょう。それを黙って聞くことが、今の貴方に積める善行です」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>四季映姫は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ええ認めましょう。この遊戯において貴方は私に勝利した。それは事実。[NEWLINE][NEWLINE]…しかし！その勝利までに至る過程で貴方は少し度が過ぎている！[NEWLINE]ちょっと来なさい。私自ら直々に説教をして差し上げましょう。それを黙って聞くことが、今の貴方に積める善行です」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_MERRY</Tag>
+		<English />
+		<French>マエリベリー＝ハーンは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あ～………ダメね、これは。[NEWLINE]さっさとメインメニューに戻ったほうが賢明だわ。さ、次の星はっと………」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マエリベリー＝ハーンは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あ～………ダメね、これは。[NEWLINE]さっさとメインメニューに戻ったほうが賢明だわ。さ、次の星はっと………」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_RENKO</Tag>
+		<English />
+		<French>宇佐美蓮子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「メリーのやつについていったら散々な目に会ったわ……」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宇佐美蓮子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「メリーのやつについていったら散々な目に会ったわ……」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_AKYU</Tag>
+		<English />
+		<French>稗田阿求は滅亡してしまいました！！！[NEWLINE][NEWLINE]名前：[CT_NAME][NEWLINE]種族：プレイヤー（恐らく人間だと思われる）[NEWLINE]危険度：極高[NEWLINE]人間友好度：最悪[NEWLINE][NEWLINE]行動パターンは単純明快。弱者を見つけたらここぞとばかりに襲い掛かり、自分より強い者には徹底的に媚を売る。[NEWLINE]か弱い私を滅亡に追いやったこともある。正真正銘、最低最悪の屑である[NEWLINE]もし見かけたら石でも投げつけてやるといいだろう。[NEWLINE]「……これでよし、と」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>稗田阿求は滅亡してしまいました！！！[NEWLINE][NEWLINE]名前：[CT_NAME][NEWLINE]種族：プレイヤー（恐らく人間だと思われる）[NEWLINE]危険度：極高[NEWLINE]人間友好度：最悪[NEWLINE][NEWLINE]行動パターンは単純明快。弱者を見つけたらここぞとばかりに襲い掛かり、自分より強い者には徹底的に媚を売る。[NEWLINE]か弱い私を滅亡に追いやったこともある。正真正銘、最低最悪の屑である[NEWLINE]もし見かけたら石でも投げつけてやるといいだろう。[NEWLINE]「……これでよし、と」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_KEINE</Tag>
+		<English />
+		<French>上白沢慧音は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「むぅ………人里の守護者としての役割を果たせなかったか。無念[NEWLINE]しかしこのままでは悔しいな。再戦の機会を頂きたいものだ」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>上白沢慧音は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「むぅ………人里の守護者としての役割を果たせなかったか。無念[NEWLINE]しかしこのままでは悔しいな。再戦の機会を頂きたいものだ」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_HAKUTAKU</Tag>
+		<English />
+		<French>上白沢慧音(ハクタク)は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「満月が出ていてもダメなものはダメだったか………」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>上白沢慧音(ハクタク)は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「満月が出ていてもダメなものはダメだったか………」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_MOKOU</Tag>
+		<English />
+		<French>藤原妹紅は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あいたたたた……こ、これ以上はもう勘弁してくれ。降参だ[NEWLINE]私は死なないってだけで、疲れや痛みは普通に感じるんだ。もう限界だよ」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>藤原妹紅は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あいたたたた……こ、これ以上はもう勘弁してくれ。降参だ[NEWLINE]私は死なないってだけで、疲れや痛みは普通に感じるんだ。もう限界だよ」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_KOMACHI</Tag>
+		<English />
+		<French>小野塚小町は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ありゃ……サボりすぎたツケが回ってきたのかねぇ[NEWLINE]四季様に怒られなきゃいいけど……」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小野塚小町は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ありゃ……サボりすぎたツケが回ってきたのかねぇ[NEWLINE]四季様に怒られなきゃいいけど……」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_KOSUZU</Tag>
+		<English />
+		<French>本居小鈴は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「………うがーーー！！！[NEWLINE]なんで！こうなる前に交渉しないんですか！？[NEWLINE]もう知らない！この、バカーーー！！！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>本居小鈴は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「………うがーーー！！！[NEWLINE]なんで！こうなる前に交渉しないんですか！？[NEWLINE]もう知らない！この、バカーーー！！！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SEKIBANKI</Tag>
+		<English />
+		<French>赤蛮奇は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「やれやれだ………慣れないことはするもんじゃないね」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>赤蛮奇は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「やれやれだ………慣れないことはするもんじゃないね」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SUMIREKO</Tag>
+		<English />
+		<French>宇佐見菫子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「そ、そんな………！[NEWLINE]女子高生は最強無敵じゃなかったの！？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宇佐見菫子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「そ、そんな………！[NEWLINE]女子高生は最強無敵じゃなかったの！？」</Japanese>
+	</TEXT>
+<!-- Ningennosato Defeated End-->
+<!-- Shinreibyou Defeated Start-->
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_YOSHIKA</Tag>
+		<English />
+		<French>宮古芳香は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ぐわー！やーらーれーたー！[NEWLINE]…ところで、『滅亡』って何だ？？？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宮古芳香は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「ぐわー！やーらーれーたー！[NEWLINE]…ところで、『滅亡』って何だ？？？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SEIGA</Tag>
+		<English />
+		<French>霍青娥は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…あら。もうおしまいなの？……ここの連中も暇潰しにはなったけど所詮はこの程度ね[NEWLINE]…さ、新しいオモチャを探しにいきましょうか」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霍青娥は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…あら。もうおしまいなの？……ここの連中も暇潰しにはなったけど所詮はこの程度ね[NEWLINE]…さ、新しいオモチャを探しにいきましょうか」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_TOJIKO</Tag>
+		<English />
+		<French>蘇我屠自古は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「やられちまったんよ………」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蘇我屠自古は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「やられちまったんよ………」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_FUTO</Tag>
+		<English />
+		<French>物部布都は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「いや、ち、ちがうのだ。[NEWLINE]まだ我は復活直後で力が戻ってない身分、本来の力さえあればおぬしなんかけちょんけちょんにしてやれるのだぞ？[NEWLINE]…な、なんだその目は！疑ってるのか！？…ほ、ホントなのだぞ！？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>物部布都は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「いや、ち、ちがうのだ。[NEWLINE]まだ我は復活直後で力が戻ってない身分、本来の力さえあればおぬしなんかけちょんけちょんにしてやれるのだぞ？[NEWLINE]…な、なんだその目は！疑ってるのか！？…ほ、ホントなのだぞ！？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_MIMIMIKO</Tag>
+		<English />
+		<French>豊聡耳神子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「な、な、な………！？[NEWLINE]あ、貴方ねえ！私にこんなことしてタダで済むと思っているんですか！？[NEWLINE]…そうだ！私をこのような目に会わせた罰として私の顔が描かれた紙幣を使えなくしてさしあげましょう！ふっふっふ、私の紙幣が使えなくなるのは実に困る事で………[NEWLINE][NEWLINE]……え？それはとっくの昔に使われなくなった？そんなバカな」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>豊聡耳神子は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「な、な、な………！？[NEWLINE]あ、貴方ねえ！私にこんなことしてタダで済むと思っているんですか！？[NEWLINE]…そうだ！私をこのような目に会わせた罰として私の顔が描かれた紙幣を使えなくしてさしあげましょう！ふっふっふ、私の紙幣が使えなくなるのは実に困る事で………[NEWLINE][NEWLINE]……え？それはとっくの昔に使われなくなった？そんなバカな」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_CHIYURI</Tag>
+		<English />
+		<French>北白河ちゆりは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「なんということだ。こいつは私の手に負えない相手だぜ[NEWLINE]ご主人様は良いサンプルが出来たって喜ぶだろうけど………私は嫌だなあ、こんな乱暴なサンプルは」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>北白河ちゆりは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「なんということだ。こいつは私の手に負えない相手だぜ[NEWLINE]ご主人様は良いサンプルが出来たって喜ぶだろうけど………私は嫌だなあ、こんな乱暴なサンプルは」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_YUMEMI</Tag>
+		<English />
+		<French>岡崎夢美は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「……まさか！この私の科学魔法が通用しない……！？[NEWLINE]…流石は幻想郷ね。私の予想を上回るほどの逸材がいるだなんて！これは俄然、やる気が出てきたわ！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>岡崎夢美は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「……まさか！この私の科学魔法が通用しない……！？[NEWLINE]…流石は幻想郷ね。私の予想を上回るほどの逸材がいるだなんて！これは俄然、やる気が出てきたわ！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_KOKORO</Tag>
+		<English />
+		<French>秦こころは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「みてみてー[NEWLINE]これが滅亡して悲しい思いをしてる顔ー」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>秦こころは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「みてみてー[NEWLINE]これが滅亡して悲しい思いをしてる顔ー」</Japanese>
+	</TEXT>
+<!-- Shinreibyou Defeated End-->
+<!-- Kishinjou Defeated Start-->
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_YATUHASHI</Tag>
+		<English />
+		<French>九十九八橋は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「いたたたた……道具は大事に扱おう、って親に教わらなかったのかい？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>九十九八橋は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「いたたたた……道具は大事に扱おう、って親に教わらなかったのかい？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_BENBEN</Tag>
+		<English />
+		<French>九十九弁々は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「……道具の天下はまだまだ遠いのね……」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>九十九弁々は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「……道具の天下はまだまだ遠いのね……」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SEIJA</Tag>
+		<English />
+		<French>鬼人正邪は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「もう少し…もう少しで逃げ切れたのに……[NEWLINE]…おーのーれー」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鬼人正邪は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「もう少し…もう少しで逃げ切れたのに……[NEWLINE]…おーのーれー」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SHINMYOUMARU</Tag>
+		<English />
+		<French>少名針妙丸は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「うう…小人いぢめるだなんて最低だよ！？[NEWLINE]こ、こんなことならあの時きっちり下克上すべきだった…しくしく」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>少名針妙丸は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「うう…小人いぢめるだなんて最低だよ！？[NEWLINE]こ、こんなことならあの時きっちり下克上すべきだった…しくしく」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_RAIKO</Tag>
+		<English />
+		<French>堀川雷鼓は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あのねえ……私、確かに叩かれるのは好きだけどさ。[NEWLINE]それは道具、楽器として叩かれるのが好きなのであって、乱暴に扱われるのが好きなわけじゃないのよ？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>堀川雷鼓は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あのねえ……私、確かに叩かれるのは好きだけどさ。[NEWLINE]それは道具、楽器として叩かれるのが好きなのであって、乱暴に扱われるのが好きなわけじゃないのよ？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_KYUUMARISA</Tag>
+		<English />
+		<French>霧雨魔理沙（旧）は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「負けちゃった。うふ、うふ、うふふふふふふ………」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霧雨魔理沙（旧）は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「負けちゃった。うふ、うふ、うふふふふふふ………」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_LOLISE</Tag>
+		<English />
+		<French>アリスは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「どうせ貴方も好き勝手に奴隷にする気なんでしょう！？[NEWLINE][NEWLINE]うう、ひどいったらありゃしないわ」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アリスは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「どうせ貴方も好き勝手に奴隷にする気なんでしょう！？[NEWLINE][NEWLINE]うう、ひどいったらありゃしないわ」</Japanese>
+	</TEXT>
+<!-- Kishinjou Defeated End-->
+<!-- Kanjuden? Defeated Start-->
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SEIRAN</Tag>
+		<English />
+		<French>清蘭は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「……っ！？[NEWLINE][NEWLINE]『メーデー、メーデー、メーデー！こちら清蘭！[NEWLINE]好戦的な野蛮人と遭遇、交戦したが不覚を取り負傷した！至急救助を求む！繰り返す………』」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>清蘭は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「……っ！？[NEWLINE][NEWLINE]『メーデー、メーデー、メーデー！こちら清蘭！[NEWLINE]好戦的な野蛮人と遭遇、交戦したが不覚を取り負傷した！至急救助を求む！繰り返す………』」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_RINGO</Tag>
+		<English />
+		<French>鈴瑚は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「き、基地が奇襲されるなんて……[NEWLINE]…偵察部隊は何やってんのよ！？こんなの聞いてないわよ！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴瑚は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「き、基地が奇襲されるなんて……[NEWLINE]…偵察部隊は何やってんのよ！？こんなの聞いてないわよ！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_DOREMY</Tag>
+		<English />
+		<French>ドレミー・スイートは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「……アンタに良い夢を見せてやるわ……[NEWLINE]何度星を作っても隣に黄色のアフリカ人、遠くに黄土色のアフリカ人が来る夢を……」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ドレミー・スイートは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「……アンタに良い夢を見せてやるわ……[NEWLINE]何度星を作っても隣に黄色のアフリカ人、遠くに黄土色のアフリカ人が来る夢を……」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_SAGUME</Tag>
+		<English />
+		<French>稀神サグメは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「……いくら事態を逆転させても結果は変わらない。[NEWLINE]そういうこともあるものなのよ。割り切るしか無いわね……」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>稀神サグメは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「……いくら事態を逆転させても結果は変わらない。[NEWLINE]そういうこともあるものなのよ。割り切るしか無いわね……」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_CLOWNPIECE</Tag>
+		<English />
+		<French>クラウンピースは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あ、あたいの妖精ランドがーーー！？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>クラウンピースは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あ、あたいの妖精ランドがーーー！？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_JUNKO</Tag>
+		<English />
+		<French>純狐は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…おい嫦娥ァ！！！[NEWLINE]私がこんな悲惨な目にあってるのもお前の仕業か！？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>純狐は滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「…おい嫦娥ァ！！！[NEWLINE]私がこんな悲惨な目にあってるのもお前の仕業か！？」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_HECATIA</Tag>
+		<English />
+		<French>ヘカーティア・ラピスラズリは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あ、あらららら……？おかしいわ、こんなはずじゃあ……[NEWLINE]……そ、そのー。出来ればこの事は内密にして貰えるかしら？[NEWLINE]私にも一応、女神としての沽券ってモノがあるから…ね？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヘカーティア・ラピスラズリは滅亡してしまいました！！！[NEWLINE][NEWLINE][NEWLINE]「あ、あらららら……？おかしいわ、こんなはずじゃあ……[NEWLINE]……そ、そのー。出来ればこの事は内密にして貰えるかしら？[NEWLINE]私にも一応、女神としての沽券ってモノがあるから…ね？」</Japanese>
+	</TEXT>
+<!-- Kanjuden? Defeated End-->
+</Civ4GameText>

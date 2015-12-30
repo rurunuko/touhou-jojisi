@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Objects -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXP_BY_TURN</Tag>
+		<English>EXP/Turn : </English>
+		<French>
+			<Text>経験値獲得確率/ターン ： </Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>
+			<Text>経験値獲得確率/ターン ： </Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CARD_ATTACK_LEVEL</Tag>
+		<English>Card Attack Level(CAL) : </English>
+		<French>
+			<Text>カードアタックレベル(CAレベル) ： </Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>
+			<Text>カードアタックレベル(CAレベル) ： </Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TOLERANCE</Tag>
+		<English>Danmaku Resistance : </English>
+		<French>
+			<Text>弾幕耐性 ： </Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>
+			<Text>弾幕耐性 ： </Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AUTO_HEAL</Tag>
+		<English>Auto Heal Rate : </English>
+		<French>
+			<Text>自然治癒 ： </Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>
+			<Text>自然治癒 ： </Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDIRECTLY_ATTACK</Tag>
+		<English>Indirectly attack : </English>
+		<French>
+			<Text>間接攻撃力 ： </Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>
+			<Text>間接攻撃力 ： </Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DODGE_BULLET</Tag>
+		<English>dodge bullet : </English>
+		<French>
+			<Text>砲撃回避率 ： </Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>
+			<Text>砲撃回避率 ： </Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DODGE_STG_BULLET</Tag>
+		<English>%s dodge the bullet!</English>
+		<French>
+			<Text>%s1_UnitNameは弾幕を避けきりました！</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>
+			<Text>%s1_UnitNameは弾幕を避けきりました！</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Japanese>
+	</TEXT>
+</Civ4GameText>

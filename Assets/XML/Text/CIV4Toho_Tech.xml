@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Objects -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!-- Other Techs Start-->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DUMMY</Tag>
+		<English />
+		<French>秘密ですよ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>秘密ですよ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KEINENOIRAI</Tag>
+		<English />
+		<French>慧音の依頼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>慧音の依頼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHOOTING_TECHNIQUE2</Tag>
+		<English />
+		<French>パターン化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パターン化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHOOTING_TECHNIQUE3</Tag>
+		<English />
+		<French>判定見切り</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>判定見切り</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHOOTING_TECHNIQUE2_QUOTE</Tag>
+		<English />
+		<French>「ここは、決めボムで」 -にとり　早苗　燐</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「ここは、決めボムで」 -にとり　早苗　燐</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHOOTING_TECHNIQUE3_QUOTE</Tag>
+		<English />
+		<French>「今かすり音がしたか。じゃあもう少しめり込もうか」 -B.B.</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「今かすり音がしたか。じゃあもう少しめり込もうか」 -B.B.</Japanese>
+	</TEXT>
+<!-- Other Techs End-->
+<!-- Koumakan Techs Start-->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GOKUSAINODANMAKU</Tag>
+		<English />
+		<French>極彩の弾幕</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>極彩の弾幕</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SICHIYOUNOMAJUTU</Tag>
+		<English />
+		<French>七曜の魔術</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>七曜の魔術</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_JIKANSOUSA</Tag>
+		<English />
+		<French>時間操作</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>時間操作</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_UNMEISOUSA</Tag>
+		<English />
+		<French>運命操作</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>運命操作</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_QED</Tag>
+		<English />
+		<French>Ｑ.Ｅ.Ｄ.</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Ｑ.Ｅ.Ｄ.</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_AKAIKIRI</Tag>
+		<English />
+		<French>紅い霧</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅い霧</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KOUMAKAN_QUOTE</Tag>
+		<English/>
+		<French>紅魔館</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GOKUSAINODANMAKU_QUOTE</Tag>
+		<English/>
+		<French>「あなたは食べられる人間？」って美鈴が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「あなたは食べられる人間？」って美鈴が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SICHIYOUNOMAJUTU_QUOTE</Tag>
+		<English/>
+		<French>「これらの本はあなたの神社の5年分の賽銭程度の価値があるのよ」ってパチェが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「これらの本はあなたの神社の5年分の賽銭程度の価値があるのよ」ってパチェが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_JIKANSOUSA_QUOTE</Tag>
+		<English/>
+		<French>「あー、お掃除が進まない」って咲夜が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「あー、お掃除が進まない」って咲夜が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_UNMEISOUSA_QUOTE</Tag>
+		<English/>
+		<French>「脳ある鷹は尻尾隠さず・・・よ」ってレミリアが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「脳ある鷹は尻尾隠さず・・・よ」ってレミリアが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_QED_QUOTE</Tag>
+		<English/>
+		<French>「あんたがコンテニューできないのさ！」ってフランが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「あんたがコンテニューできないのさ！」ってフランが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_AKAIKIRI_QUOTE</Tag>
+		<English/>
+		<French>「暑い」ってレミリアが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「暑い」ってレミリアが言ってた</Japanese>
+	</TEXT>
+<!-- Koumakan Techs End-->
+<!-- Hakugyokurou Techs Start-->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NEKOMATA</Tag>
+		<English />
+		<French>猫又</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>猫又</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SIKIGAMI</Tag>
+		<English />
+		<French>式神</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>式神</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ONIWABAN</Tag>
+		<English />
+		<French>お庭番</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>お庭番</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HANGONNOGI</Tag>
+		<English />
+		<French>反魂の儀</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>反魂の儀</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SUKIMA</Tag>
+		<English />
+		<French>スキマ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スキマ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BORDER_OF_LIFE</Tag>
+		<English />
+		<French>ボーダーオブライフ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ボーダーオブライフ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HAKUGYOKUROU_QUOTE</Tag>
+		<English/>
+		<French>白玉楼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白玉楼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NEKOMATA_QUOTE</Tag>
+		<English/>
+		<French>「分からなかったら人に聞く」って橙が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「分からなかったら人に聞く」って橙が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SIKIGAMI_QUOTE</Tag>
+		<English/>
+		<French>「貴方は見た感じ犬に見える」って藍が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「貴方は見た感じ犬に見える」って藍が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ONIWABAN_QUOTE</Tag>
+		<English/>
+		<French>「・・・妖怪が鍛えたこの楼観剣に斬れぬものなど、あんまり無い！」って妖夢が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「・・・妖怪が鍛えたこの楼観剣に斬れぬものなど、あんまり無い！」って妖夢が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HANGONNOGI_QUOTE</Tag>
+		<English/>
+		<French>「くるくる～っと」って幽々子が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「くるくる～っと」って幽々子が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SUKIMA_QUOTE</Tag>
+		<English/>
+		<French>「その道が蜘蛛の糸よりも細く、蜘蛛の糸より複雑な弾幕の道でも？」って紫が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「その道が蜘蛛の糸よりも細く、蜘蛛の糸より複雑な弾幕の道でも？」って紫が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BORDER_OF_LIFE_QUOTE</Tag>
+		<English/>
+		<French>身のうさを思ひしらでややみなましそむくならひのなき世なりせば</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>身のうさを思ひしらでややみなましそむくならひのなき世なりせば</Japanese>
+	</TEXT>
+<!-- Hakugyokurou Techs End-->
+<!-- Hyouseirengou Techs Start-->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KURAYAMI</Tag>
+		<English />
+		<French>暗闇</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>暗闇</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MUSINOSIRASE</Tag>
+		<English />
+		<French>蟲の知らせ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蟲の知らせ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOUUTA</Tag>
+		<English />
+		<French>もう歌しか聞こえない</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>もう歌しか聞こえない</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MARUKYU</Tag>
+		<English />
+		<French>⑨</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>⑨</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LETTYJIRUSI</Tag>
+		<English />
+		<French>レティ印冷蔵庫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レティ印冷蔵庫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SIZENNOKYOUI</Tag>
+		<English />
+		<French>自然の驚異</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>自然の驚異</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HYOUSEIRENGOU_QUOTE</Tag>
+		<English/>
+		<French>氷精連合</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>氷精連合</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KURAYAMI_QUOTE</Tag>
+		<English/>
+		<French>「聖者は十字架に磔られました」ってルーミアが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「聖者は十字架に磔られました」ってルーミアが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MUSINOSIRASE_QUOTE</Tag>
+		<English/>
+		<French>「アイテム蒐集には気をつけな」って誰かが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「アイテム蒐集には気をつけな」って誰かが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOUUTA_QUOTE</Tag>
+		<English/>
+		<French>「私が鳥目にしてあげる！」ってミスティアが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「私が鳥目にしてあげる！」ってミスティアが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MARUKYU_QUOTE</Tag>
+		<English/>
+		<French>「あたいったら最強ね！」ってバカが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「あたいったら最強ね！」ってバカが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LETTYJIRUSI_QUOTE</Tag>
+		<English/>
+		<French>「黒幕～」ってレティが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「黒幕～」ってレティが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SIZENNOKYOUI_QUOTE</Tag>
+		<English/>
+		<French>「１，２ボスにも愛の手を」って誰かが熱弁してた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「１，２ボスにも愛の手を」って誰かが熱弁してた</Japanese>
+	</TEXT>
+<!-- Hyouseirengou Techs End-->
+<!-- Eientei Techs Start-->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_EIENTEI</Tag>
+		<English />
+		<French>永遠亭</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永遠亭</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SUZURANNODOKU</Tag>
+		<English />
+		<French>鈴蘭の毒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴蘭の毒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_INABANOSIROUSAGI</Tag>
+		<English />
+		<French>因幡の白兎</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>因幡の白兎</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SINOOSIE</Tag>
+		<English />
+		<French>師の教え</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>師の教え</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TUKINOZUNOU</Tag>
+		<English />
+		<French>月の頭脳</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月の頭脳</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NANATUNONANDAI</Tag>
+		<English />
+		<French>七つの難題</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>七つの難題</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TUKIKARANOSISHA</Tag>
+		<English />
+		<French>月からの使者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月からの使者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_EIENTEI_QUOTE</Tag>
+		<English/>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SUZURANNODOKU_QUOTE</Tag>
+		<English/>
+		<French>「毒で死んだ人間の霊は、綺麗な姿をしてるって本当？」ってメディスンが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「毒で死んだ人間の霊は、綺麗な姿をしてるって本当？」ってメディスンが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_INABANOSIROUSAGI_QUOTE</Tag>
+		<English/>
+		<French>「みんな私の言うことをきけばもっと幸せになれますよー」っててゐが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「みんな私の言うことをきけばもっと幸せになれますよー」っててゐが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SINOOSIE_QUOTE</Tag>
+		<English/>
+		<French>「月の兎である私の目を見て狂わずに居られるかしら？」って鈴仙が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「月の兎である私の目を見て狂わずに居られるかしら？」って鈴仙が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TUKINOZUNOU_QUOTE</Tag>
+		<English/>
+		<French>「貴方達には、話よりもこの弾幕の薬が必要みたいね！」って永琳が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「貴方達には、話よりもこの弾幕の薬が必要みたいね！」って永琳が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NANATUNONANDAI_QUOTE</Tag>
+		<English/>
+		<French>「今まで、何人もの人間が敗れ去って言った五つの問題。この難題をクリア出来るかしら？」って輝夜が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「今まで、何人もの人間が敗れ去って言った五つの問題。この難題をクリア出来るかしら？」って輝夜が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TUKIKARANOSISHA_QUOTE</Tag>
+		<English/>
+		<French>「これで永夜の術は破れて、夜は明ける！」って輝夜が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「これで永夜の術は破れて、夜は明ける！」って輝夜が言ってた</Japanese>
+	</TEXT>
+<!-- Eientei Techs End-->
+<!-- Youkainoyama Techs Start-->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KAPPANOHATUMEI</Tag>
+		<English />
+		<French>河童の発明</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>河童の発明</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TENGUNOJOUHOUMOU</Tag>
+		<English />
+		<French>天狗の情報網</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天狗の情報網</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ARAHITOGAMINOKISEKI</Tag>
+		<English />
+		<French>現人神の奇跡</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>現人神の奇跡</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MISHAGUJISAMA</Tag>
+		<English />
+		<French>ミシャグジ様</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミシャグジ様</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOUNTAIN_OF_FAITH</Tag>
+		<English />
+		<French>マウンテンオブフェイス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マウンテンオブフェイス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MORIYANOOUKOKU</Tag>
+		<English />
+		<French>洩矢の王国</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>洩矢の王国</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_YOUKAINOYAMA_QUOTE</Tag>
+		<English/>
+		<French>妖怪の山</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖怪の山</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KAPPANOHATUMEI_QUOTE</Tag>
+		<English/>
+		<French>「その本気、確かめさせてもらうよ！」ってにとりが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「その本気、確かめさせてもらうよ！」ってにとりが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TENGUNOJOUHOUMOU_QUOTE</Tag>
+		<English/>
+		<French>「あやややや」ってあややややややや</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「あやややや」ってあややややややや</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ARAHITOGAMINOKISEKI_QUOTE</Tag>
+		<English/>
+		<French>「現人神の能力で懲らしめてあげましょう！」って早苗が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「現人神の能力で懲らしめてあげましょう！」って早苗が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MISHAGUJISAMA_QUOTE</Tag>
+		<English/>
+		<French>「今日は私の弾幕祭りの番よ！」って諏訪子が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「今日は私の弾幕祭りの番よ！」って諏訪子が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOUNTAIN_OF_FAITH_QUOTE</Tag>
+		<English/>
+		<French>「我を呼ぶのは何処の人ぞ」って神奈子が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「我を呼ぶのは何処の人ぞ」って神奈子が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MORIYANOOUKOKU_QUOTE</Tag>
+		<English/>
+		<French>あヽ風の神よ　神湖の地に</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>あヽ風の神よ　神湖の地に</Japanese>
+	</TEXT>
+<!-- Youkainoyama Techs End-->
+<!-- Hakureijinja Techs Start-->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MAHOU</Tag>
+		<English />
+		<French>魔法</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔法</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FURUDOUGUYA</Tag>
+		<English />
+		<French>古道具屋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>古道具屋</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NINGYOUSOUJUTU</Tag>
+		<English />
+		<French>人形操術</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人形操術</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HAKUREINODENTOU</Tag>
+		<English />
+		<French>博麗の伝統</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗の伝統</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HYAKUMANKIYAKOU</Tag>
+		<English />
+		<French>百万鬼夜行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>百万鬼夜行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HAKUREIDAIKEKKAI</Tag>
+		<English />
+		<French>博麗大結界</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗大結界</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HAKUREIJINJA_QUOTE</Tag>
+		<English/>
+		<French>博麗神社</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗神社</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MAHOU_QUOTE</Tag>
+		<English/>
+		<French>「普通の魔法使いだぜ」って魔理沙が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「普通の魔法使いだぜ」って魔理沙が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FURUDOUGUYA_QUOTE</Tag>
+		<English/>
+		<French>「ちゃんとツケを払ってくれよ」って霖之助が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「ちゃんとツケを払ってくれよ」って霖之助が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NINGYOUSOUJUTU_QUOTE</Tag>
+		<English/>
+		<French>「都会派魔法使いよ」ってアリスが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「都会派魔法使いよ」ってアリスが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HAKUREINODENTOU_QUOTE</Tag>
+		<English/>
+		<French>「ちょっとでもおかしな事を見つけたらすぐに出発するのが巫女の役目よ」って霊夢が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「ちょっとでもおかしな事を見つけたらすぐに出発するのが巫女の役目よ」って霊夢が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HYAKUMANKIYAKOU_QUOTE</Tag>
+		<English/>
+		<French>「我が群隊は百鬼夜行、鬼の萃まる所に人間も妖怪も居れる物か！」って萃香が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「我が群隊は百鬼夜行、鬼の萃まる所に人間も妖怪も居れる物か！」って萃香が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HAKUREIDAIKEKKAI_QUOTE</Tag>
+		<English/>
+		<French>「幻想郷はすべてを受け入れる。それはとても残酷なことですわ」って紫が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「幻想郷はすべてを受け入れる。それはとても残酷なことですわ」って紫が言ってた</Japanese>
+	</TEXT>
+<!-- Hakureijinja Techs End-->
+<!-- Chireiden Techs Start-->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CHIREIDEN</Tag>
+		<English />
+		<French>地霊殿</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地霊殿</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HASHIHIME</Tag>
+		<English />
+		<French>橋姫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>橋姫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KAIRIKIRANSHIN</Tag>
+		<English />
+		<French>怪力乱神</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>怪力乱神</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KAENPYO</Tag>
+		<English />
+		<French>火焔猫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>火焔猫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KOKOROWOYOMUME</Tag>
+		<English />
+		<French>心を読む目</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>心を読む目</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MUISHIKINOIDENSHI</Tag>
+		<English />
+		<French>無意識の遺伝子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無意識の遺伝子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CHITEINOTAIYOSHINKO</Tag>
+		<English />
+		<French>地底の太陽信仰</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地底の太陽信仰</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CHIREIDEN_QUOTE</Tag>
+		<English/>
+		<French>地霊殿</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地霊殿</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HASHIHIME_QUOTE</Tag>
+		<English/>
+		<French>「そんな妬ましい貴方は、退屈な私に面白い事を見せる必要がある！」ってパルスィが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「そんな妬ましい貴方は、退屈な私に面白い事を見せる必要がある！」ってパルスィが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KAIRIKIRANSHIN_QUOTE</Tag>
+		<English/>
+		<French>「許せるのは強い奴と勇気のある奴だけだ！」って勇儀が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「許せるのは強い奴と勇気のある奴だけだ！」って勇儀が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KAENPYO_QUOTE</Tag>
+		<English/>
+		<French>ニャーン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ニャーン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KOKOROWOYOMUME_QUOTE</Tag>
+		<English/>
+		<French>「眠りを覚ます恐怖の記憶（トラウマ）で眠るがいい！」ってさとりが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「眠りを覚ます恐怖の記憶（トラウマ）で眠るがいい！」ってさとりが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MUISHIKINOIDENSHI_QUOTE</Tag>
+		<English/>
+		<French>「貴方の死体は地霊殿のエントランスに飾ってあげる！」ってこいしが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「貴方の死体は地霊殿のエントランスに飾ってあげる！」ってこいしが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CHITEINOTAIYOSHINKO_QUOTE</Tag>
+		<English/>
+		<French>「黒い太陽、八咫烏様　我に力を与えてくださった事に感謝します」って空が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「黒い太陽、八咫烏様　我に力を与えてくださった事に感謝します」って空が言ってた</Japanese>
+	</TEXT>
+<!-- Chireiden Techs End-->
+<!-- Seirensen Techs Start-->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SEIRENSEN</Tag>
+		<English />
+		<French>星蓮船</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>星蓮船</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TINY_CLEVER_COMMANDER</Tag>
+		<English />
+		<French>小さな小さな賢将</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小さな小さな賢将</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GUARDIAN_RING</Tag>
+		<English />
+		<French>守り守られし大輪</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>守り守られし大輪</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FlYING_SHIP</Tag>
+		<English />
+		<French>空飛ぶ船</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>空飛ぶ船</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_UNDEFINED_FANTASTIC_OBJECT</Tag>
+		<English />
+		<French>未確認飛行幻想物体</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>未確認飛行幻想物体</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BISHAMON_TIGER</Tag>
+		<English />
+		<French>毘沙門天の寅</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>毘沙門天の寅</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TEACHING_OF_MEIREN</Tag>
+		<English />
+		<French>命蓮の教え</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>命蓮の教え</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SEIRENSEN_QUOTE</Tag>
+		<English/>
+		<French>星蓮船</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>星蓮船</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TINY_CLEVER_COMMANDER_QUOTE</Tag>
+		<English/>
+		<French>「残念だが、ネズミを甘く見ると死ぬよ」ってナズーリンが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「残念だが、ネズミを甘く見ると死ぬよ」ってナズーリンが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GUARDIAN_RING_QUOTE</Tag>
+		<English/>
+		<French>「いやはや、あの拳を見て逃げ出さない人間がおったとは… …」って一輪が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「いやはや、あの拳を見て逃げ出さない人間がおったとは… …」って一輪が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FlYING_SHIP_QUOTE</Tag>
+		<English/>
+		<French>「貴方を乗せていては船は沈みかねない。呪われた水を浴びて船から落ちるが良いわ！」って水蜜が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「貴方を乗せていては船は沈みかねない。呪われた水を浴びて船から落ちるが良いわ！」って水蜜が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_UNDEFINED_FANTASTIC_OBJECT_QUOTE</Tag>
+		<English/>
+		<French>「正体不明の飛行物体に怯えて死ね！！」ってぬえが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「正体不明の飛行物体に怯えて死ね！！」ってぬえが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BISHAMON_TIGER_QUOTE</Tag>
+		<English/>
+		<French>「この毘沙門天の宝塔の前にひれ伏す事になるでしょう！」って星が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「この毘沙門天の宝塔の前にひれ伏す事になるでしょう！」って星が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TEACHING_OF_MEIREN_QUOTE</Tag>
+		<English/>
+		<French>「いざ、南無三──！」って聖が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「いざ、南無三──！」って聖が言ってた</Japanese>
+	</TEXT>
+<!-- Seirensen Techs End-->
+<!-- Shinreibyou Techs Start-->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHINREIBYOU</Tag>
+		<English />
+		<French>神霊廟</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神霊廟</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TYOKUREI</Tag>
+		<English />
+		<French>勅令随身保命</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>勅令随身保命</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ZYASENNOHUKYOU</Tag>
+		<English />
+		<French>邪仙の布教</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>邪仙の布教</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KANIZYUUNIKAI</Tag>
+		<English />
+		<French>冠位十二階</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>冠位十二階</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHIKAISEN</Tag>
+		<English />
+		<French>尸解仙</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>尸解仙</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SEIZINNOHUKKATU</Tag>
+		<English />
+		<French>聖人の復活</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖人の復活</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HOSIHURU_SHINREIBYOU</Tag>
+		<English />
+		<French>星降る神霊廟</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>星降る神霊廟</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHINREIBYOU_QUOTE</Tag>
+		<English></English>
+		<French>神霊廟</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神霊廟</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TYOKUREI_QUOTE</Tag>
+		<English></English>
+		<French>「ゾンビは永遠に不滅です！」って芳香が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「ゾンビは永遠に不滅です！」って芳香が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ZYASENNOHUKYOU_QUOTE</Tag>
+		<English></English>
+		<French>「もうすぐあのお方が復活するの」って青娥が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「もうすぐあのお方が復活するの」って青娥が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KANIZYUUNIKAI_QUOTE</Tag>
+		<English></English>
+		<French>『共に天下の政を輔けて』</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>『共に天下の政を輔けて』</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHIKAISEN_QUOTE</Tag>
+		<English></English>
+		<French>「物部の秘術と道教の融合、お前で試させて貰おう！」って布都が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「物部の秘術と道教の融合、お前で試させて貰おう！」って布都が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SEIZINNOHUKKATU_QUOTE</Tag>
+		<English></English>
+		<French>「太子様が復活なされているのだな！」って布都が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「太子様が復活なされているのだな！」って布都が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HOSIHURU_SHINREIBYOU_QUOTE</Tag>
+		<English></English>
+		<French>周りを見なさい[NEWLINE]星空の様な儚い光[NEWLINE]これら全てが人間の欲なのです</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>周りを見なさい[NEWLINE]星空の様な儚い光[NEWLINE]これら全てが人間の欲なのです</Japanese>
+	</TEXT>
+<!-- Shinreibyou Techs End-->
+<!-- Kishinjou Techs Start-->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KISHINJOU</Tag>
+		<English />
+		<French>輝針城</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>輝針城</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_JAKUSYANORAKUEN</Tag>
+		<English />
+		<French>弱者の楽園</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>弱者の楽園</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_USINAWARETA_SEISIN</Tag>
+		<English />
+		<French>失われた精神</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>失われた精神</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GEKOKUJOU</Tag>
+		<English />
+		<French>道具達の下克上</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>道具達の下克上</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SAIGONONOZOMI</Tag>
+		<English />
+		<French>最後の望み</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>最後の望み</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KAISYUUKI</Tag>
+		<English />
+		<French>魔力の回収期</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔力の回収期</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MUGENNOTIKARA</Tag>
+		<English />
+		<French>夢幻の力</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>夢幻の力</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KISHINJOU_QUOTE</Tag>
+		<English></English>
+		<French>輝針城</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>輝針城</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_JAKUSYANORAKUEN_QUOTE</Tag>
+		<English></English>
+		<French>「さあ、弱者が見捨てられない楽園を築くのだ！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「さあ、弱者が見捨てられない楽園を築くのだ！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_USINAWARETA_SEISIN_QUOTE</Tag>
+		<English></English>
+		<French>「何でも願いを叶えるという打ち出の小槌を使えるというのに、使ってはいけないとは何事だ」…って針妙丸の先祖が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「何でも願いを叶えるという打ち出の小槌を使えるというのに、使ってはいけないとは何事だ」…って針妙丸の先祖が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GEKOKUJOU_QUOTE</Tag>
+		<English></English>
+		<French>「道具だって世界を支配できる！」[NEWLINE]「これからは私達の時代だわ」[NEWLINE]…って九十九姉妹が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「道具だって世界を支配できる！」[NEWLINE]「これからは私達の時代だわ」[NEWLINE]…って九十九姉妹が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SAIGONONOZOMI_QUOTE</Tag>
+		<English></English>
+		<French>「豪華な城を建てて民を支配したい」…って針妙丸の先祖が願ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「豪華な城を建てて民を支配したい」…って針妙丸の先祖が願ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KAISYUUKI_QUOTE</Tag>
+		<English></English>
+		<French>「……多少の代償に目を瞑れば」…って正邪が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「……多少の代償に目を瞑れば」…って正邪が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MUGENNOTIKARA_QUOTE</Tag>
+		<English></English>
+		<French>「利用するだけして後はポイッだ」[NEWLINE]全てのCiv廃人に捧ぐ　　　　-少名針妙丸</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「利用するだけして後はポイッだ」[NEWLINE]全てのCiv廃人に捧ぐ　　　　-少名針妙丸</Japanese>
+	</TEXT>
+<!-- Kishinjou Techs End-->
+</Civ4GameText>

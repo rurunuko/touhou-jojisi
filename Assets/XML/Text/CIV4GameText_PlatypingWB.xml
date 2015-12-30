@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Civilopedia CivLeaders -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- CIVILIZATION INFOS -->
+	<TEXT>
+		<Tag>TXT_KEY_WB_HAPPINESS</Tag>
+		<English>Happiness:</English>
+		<French>幸福：</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幸福：</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_HEALTH</Tag>
+		<English>Health:</English>
+		<French>衛生：</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>衛生：</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_OCCUPATIONTIMER</Tag>
+		<English>Occupation Timer:</English>
+		<French>レジスタンス期間：</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レジスタンス期間：</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_DEFENSE</Tag>
+		<English>Current Defense:</English>
+		<French>文化防御：</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>文化防御：</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_TRADE_ROUTE</Tag>
+		<English>Trade Routes:</English>
+		<French>交易路：</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>交易路：</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_BUILD_ALL</Tag>
+		<English>Build All</English>
+		<French>その時点で建設出来る全建造物の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>その時点で建設出来る全建造物の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_COPY_ALL</Tag>
+		<English>Apply to all Cities</English>
+		<French>全都市に適用</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全都市に適用</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_WONDERS</Tag>
+		<English>Wonders</English>
+		<French>世界遺産</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>世界遺産</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_NATIONAL_WONDERS</Tag>
+		<English>National Wonders</English>
+		<French>国家遺産</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国家遺産</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_TEAM_WONDERS</Tag>
+		<English>Team Wonders</English>
+		<French>チーム遺産（？）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チーム遺産（？）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_WORLD_WONDERS</Tag>
+		<English>World Wonders</English>
+		<French>世界遺産</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>世界遺産</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_RELIGION</Tag>
+		<English>Religions</English>
+		<French>酒（宗教）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>酒（宗教）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_PRESENT</Tag>
+		<English>Present</English>
+		<French>布教/進出済み</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>布教/進出済み</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_HOLY_CITY</Tag>
+		<English>Holy City</English>
+		<French>聖都</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖都</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_COMMANDS</Tag>
+		<English>Commands</English>
+		<French>特殊コマンド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>特殊コマンド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_SPREAD_ALL</Tag>
+		<English>Spread All</English>
+		<French>全てのチェックをオン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全てのチェックをオン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CLEAR_ALL</Tag>
+		<English>Clear All</English>
+		<French>全てのチェックをクリア</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全てのチェックをクリア</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CORPORATION</Tag>
+		<English>Corporations</English>
+		<French>企業</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>企業</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_HEADQUARTERS</Tag>
+		<English>Headquarters</English>
+		<French>企業本社</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>企業本社</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_FREE_SPECIALISTS</Tag>
+		<English>Free Specialists</English>
+		<French>無償の専門家・定住偉人</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無償の専門家・定住偉人</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_GREAT_PEOPLE</Tag>
+		<English>Great People Progress</English>
+		<French>偉人ポイント</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>偉人ポイント</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_FREE_BONUS</Tag>
+		<English>Free Bonus</English>
+		<French>無償の資源</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無償の資源</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_NEXT_CITY</Tag>
+		<English>Next City</English>
+		<French>次の都市</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>次の都市</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_BACK</Tag>
+		<English>Back</English>
+		<French>戻る</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>戻る</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_DIPLOMACY</Tag>
+		<English>Diplomacy</English>
+		<French>外交</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>外交</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_DEAD</Tag>
+		<English>(Dead)</English>
+		<French>（滅亡）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>（滅亡）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_MET</Tag>
+		<English>Has Met</English>
+		<French>遭遇済み</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>遭遇済み</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_MEET_ALL</Tag>
+		<English>Meet All</English>
+		<French>全文明と遭遇</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全文明と遭遇</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_WAR</Tag>
+		<English>At War</English>
+		<French>宣戦布告</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宣戦布告</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_PEACE</Tag>
+		<English>At Peace</English>
+		<French>和平</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>和平</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_STATUS_ALL</Tag>
+		<English>Status with All</English>
+		<French>左外交コマンド-全文明対象</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>左外交コマンド-全文明対象</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_SIGN_ALL</Tag>
+		<English>Sign All</English>
+		<French>全文明とON状態</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全文明とON状態</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CANCEL_ALL</Tag>
+		<English>Cancel All</English>
+		<French>全文明とキャンセル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全文明とキャンセル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_FVASSAL_OF</Tag>
+		<English>Free Vassal of %s1</English>
+		<French>%s1への自発的属国</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1への自発的属国</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CVASSAL_OF</Tag>
+		<English>Capitulated Vassal of %s1</English>
+		<French>%s1への降伏による属国</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1への降伏による属国</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_MASTER_OF</Tag>
+		<English>Master of %s1</English>
+		<French>%s1の宗主国</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1の宗主国</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_NONE</Tag>
+		<English>None</English>
+		<French>無し</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無し</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_MEMORY</Tag>
+		<English>Memory of %s1:</English>
+		<French>%s1に対する外交行動の記憶:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1に対する外交行動の記憶:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_ATTITUDE_TOWARDS</Tag>
+		<English>%s1 towards %s2</English>
+		<French>外交感情：%s2に対し「%s1」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>外交感情：%s2に対し「%s1」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_ESPIONAGE_POINTS</Tag>
+		<English>Espionage Points Against %s1:</English>
+		<French>%s1に対する諜報ポイント:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1に対する諜報ポイント:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_COUNTER_ESPIONAGE_MOD</Tag>
+		<English>Counter Espionage Mod Against %s1:</English>
+		<French>%s1に対する防諜ポイント:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1に対する防諜ポイント:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_COUNTER_ESPIONAGE</Tag>
+		<English>Counter Espionage Turns Left Against %s1:</English>
+		<French>%s1に対する防諜・残りターン:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1に対する防諜・残りターン:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_WAR_WEARINESS</Tag>
+		<English>War Weariness Towards %s1:</English>
+		<French>%s1に対する厭戦感情:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1に対する厭戦感情:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_PLAYER_DATA</Tag>
+		<English>Player Data</English>
+		<French>プレイヤーデータの編集</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>プレイヤーデータの編集</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_TEAM</Tag>
+		<English>Team: %d1</English>
+		<French>チーム：%d1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チーム：%d1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_TRAITS</Tag>
+		<English>Traits:</English>
+		<French>志向:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>志向:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_ERA</Tag>
+		<English>%s1 Era</English>
+		<French>%s1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_RESEARCH</Tag>
+		<English>Research:</English>
+		<French>研究:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>研究:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_ESPIONAGE</Tag>
+		<English>Espionage:</English>
+		<French>諜報:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>諜報:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_GOLDEN_AGE</Tag>
+		<English>Golden Age:</English>
+		<French>黄金期/ターン:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>黄金期/ターン:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_GOLDEN_AGE_UNITS</Tag>
+		<English>Units Required:</English>
+		<French>黄金期発動に必要な偉人数:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>黄金期発動に必要な偉人数:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_ANARCHY</Tag>
+		<English>Anarchy:</English>
+		<French>無政府状態:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無政府状態:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_COMBAT_EXPERIENCE</Tag>
+		<English>Combat XP:</English>
+		<French>ユニットに対する追加の経験値:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ユニットに対する追加の経験値:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CIVICS</Tag>
+		<English>Civics:</English>
+		<French>社会制度:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>社会制度:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_STATE_RELIGION</Tag>
+		<English>State Religion:</English>
+		<French>国教:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国教:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_STATE_RELIGION_UNIT</Tag>
+		<English>Unit Production Mod:</English>
+		<French>国教採用時ハンマーボーナス・ユニット:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国教採用時ハンマーボーナス・ユニット:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_STATE_RELIGION_BUILDING</Tag>
+		<English>Building Production Mod:</English>
+		<French>国教採用時ハンマーボーナス・建造物:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国教採用時ハンマーボーナス・建造物:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_WB_CURRENT_RESEARCH</Tag>
+		<English>Current Research:</English>
+		<French>研究中のテクノロジー:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>研究中のテクノロジー:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_RESEARCH_PROGRESS</Tag>
+		<English>Progress out of %d1:</English>
+		<French>研究完了に必要なビーカー数…%d1:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>研究完了に必要なビーカー数…%d1:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_EDIT_DATA</Tag>
+		<English>Edit Data</English>
+		<French>エディット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エディット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_ADD_NEW_PLAYER</Tag>
+		<English>Add New Player</English>
+		<French>AI文明を追加する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>AI文明を追加する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CHOOSE_CIVILIZATION</Tag>
+		<English>Choose Civilization</English>
+		<French>文明選択</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>文明選択</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CHOOSE_PLAYER</Tag>
+		<English>Choose Player</English>
+		<French>指導者選択</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>指導者選択</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CREATE_PLAYER</Tag>
+		<English>Create Player</English>
+		<French>以上で指定した文明・指導者をマップ上に追加</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>以上で指定した文明・指導者をマップ上に追加</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_GAME_OPTION</Tag>
+		<English>Game Options</English>
+		<French>オプションの変更</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>オプションの変更</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_ADD_UNITS</Tag>
+		<English>Add Units by Categories</English>
+		<French>ユニットカテゴリーの選択</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ユニットカテゴリーの選択</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_NO_CLASS</Tag>
+		<English>Non-Combat Units</English>
+		<French>全てのユニット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全てのユニット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_EDIT_AREA_MAP</Tag>
+		<English>Change Map Area</English>
+		<French>通常マップモード</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>通常マップモード</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_PICK_AREA</Tag>
+		<English>Pick Area</English>
+		<French>一括変更モード：範囲指定</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>一括変更モード：範囲指定</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CHANGE_PLOTTYPE</Tag>
+		<English>Plot Type</English>
+		<French>地形選択</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地形選択</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CHANGE_TERRAIN</Tag>
+		<English>Terrain</English>
+		<French>土地選択</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>土地選択</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CHANGE_ROUTE</Tag>
+		<English>Routes</English>
+		<French>道路/鉄道</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>道路/鉄道</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CHANGE_FEATURE</Tag>
+		<English>Features</English>
+		<French>森林/竹林（ジャングル）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>森林/竹林（ジャングル）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_ADD_JUNGLE</Tag>
+		<English>Add Jungles</English>
+		<French>竹林（ジャングル）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>竹林（ジャングル）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_ADD_FOREST</Tag>
+		<English>Add Forests</English>
+		<French>森林</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>森林</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_TEAM_DATA</Tag>
+		<English>Team Data</English>
+		<French>チームデータの編集</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チームデータの編集</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_LEADER</Tag>
+		<English>Leader: %s1</English>
+		<French>指導者：%s1に開放された要素</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>指導者：%s1に開放された要素</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_DOMAIN_MOVES</Tag>
+		<English>Extra Domain Moves:</English>
+		<French>ユニットの追加移動力（世界一周ボーナス等）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ユニットの追加移動力（世界一周ボーナス等）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_MAP_CENTERING</Tag>
+		<English>Map Centering</English>
+		<French>世界地図の球体化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>世界地図の球体化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_GOLD_TRADING</Tag>
+		<English>Gold Trading</English>
+		<French>外交：ゴールドの取引</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>外交：ゴールドの取引</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_TECH_TRADING</Tag>
+		<English>Tech Trading</English>
+		<French>外交：テクノロジーの取引</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>外交：テクノロジーの取引</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_MAP_TRADING</Tag>
+		<English>Map Trading</English>
+		<French>外交：地図の取引</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>外交：地図の取引</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_OPEN_BORDERS</Tag>
+		<English>Open Borders</English>
+		<French>外交：相互通商条約</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>外交：相互通商条約</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_PERMANENT_ALLIANCE</Tag>
+		<English>Permanent Alliance</English>
+		<French>外交：永久同盟</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>外交：永久同盟</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_DEFENSIVE_PACT</Tag>
+		<English>Defensive Pact</English>
+		<French>外交：防衛協定</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>外交：防衛協定</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_VASSAL_TRADING</Tag>
+		<English>Vassal Trading</English>
+		<French>外交：属国</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>外交：属国</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_WATER_WORK</Tag>
+		<English>Water Work</English>
+		<French>海洋スクエアの利用が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>海洋スクエアの利用が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_EXTRA_WATER_SIGHT</Tag>
+		<English>Extra Water Sight</English>
+		<French>水上視界+1（光学効果）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>水上視界+1（光学効果）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_BRIDGE_BUILDING</Tag>
+		<English>Bridge Building</English>
+		<French>河川に橋を建設（建築学効果）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>河川に橋を建設（建築学効果）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_IRRIGATION</Tag>
+		<English>Irrigation</English>
+		<French>農場が灌漑を繋げる（官吏効果）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>農場が灌漑を繋げる（官吏効果）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_IGNORE_IRRIGATION</Tag>
+		<English>Ignore Irrigation</English>
+		<French>灌漑を無視して農場を建設可能（生物学効果）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>灌漑を無視して農場を建設可能（生物学効果）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_MERGE_TEAM</Tag>
+		<English>Merge Team</English>
+		<French>チームの併合</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チームの併合</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_PROJECTS</Tag>
+		<English>Projects</English>
+		<French>プロジェクト</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>プロジェクト</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_TECHNOLOGY</Tag>
+		<English>Technologies</English>
+		<French>テクノロジー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テクノロジー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_ALL_TECHS</Tag>
+		<English>All Techs</English>
+		<French>全てのテクノロジーを選択</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全てのテクノロジーを選択</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_ADD_ERA</Tag>
+		<English>Add by Era</English>
+		<French>指定した時代のテクノロジーを入手</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>指定した時代のテクノロジーを入手</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_REMOVE_ERA</Tag>
+		<English>Remove by Era</English>
+		<French>指定した時代のテクノロジーを解除</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>指定した時代のテクノロジーを解除</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_NUKE_INTERCEPTION</Tag>
+		<English>Nuke Interception:</English>
+		<French>核攻撃に対する迎撃率:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>核攻撃に対する迎撃率:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_ROUTE_CHANGE</Tag>
+		<English>Route Change:</English>
+		<French>消費移動力の割引率（工学効果）:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>消費移動力の割引率（工学効果）:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_IMPROVEMENT_YIELD</Tag>
+		<English>Extra Improvement Yield:</English>
+		<French>追加のタイル出力（活版印刷等）:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>追加のタイル出力（活版印刷等）:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_UNIT_DATA</Tag>
+		<English>Unit Data (%d1, %d2)</English>
+		<French>ユニットデータ編集(座標X%d1, Y%d2)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ユニットデータ編集(座標X%d1, Y%d2)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_STRENGTH</Tag>
+		<English>Base Strength:</English>
+		<French>基本戦闘力:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>基本戦闘力:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_DAMAGE</Tag>
+		<English>Damage %%:</English>
+		<French>ダメージ %%:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ダメージ %%:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CARGO</Tag>
+		<English>Max Cargo:</English>
+		<French>最大積載量:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>最大積載量:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_MOVES</Tag>
+		<English>Moves Left:</English>
+		<French>残り移動力</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>残り移動力</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_IMMOBILE_TIMER</Tag>
+		<English>Immobile Timer:</English>
+		<French>残り拘束ターン（ならず者イベント等？）:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>残り拘束ターン（ならず者イベント等？）:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_PROMOTION_READY</Tag>
+		<English>Promotion Ready</English>
+		<French>昇進付与が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>昇進付与が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_MADE_ATTACK</Tag>
+		<English>Made Attack</English>
+		<French>攻撃済み</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>攻撃済み</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_MADE_INTERCEPT</Tag>
+		<English>Made Intercept</English>
+		<French>航空機迎撃済み</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>航空機迎撃済み</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_MOVE_UNIT</Tag>
+		<English>Move Unit</English>
+		<French>ユニットの移動</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ユニットの移動</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_ALL_PROMOTIONS</Tag>
+		<English>Grant All Promotions</English>
+		<French>取得が可能な全ての昇進を付与</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>取得が可能な全ての昇進を付与</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CLEAR_ALL_PROMOTIONS</Tag>
+		<English>Clear All Promotions</English>
+		<French>全ての昇進を解除</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全ての昇進を解除</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_DUPLICATE</Tag>
+		<English>Duplicate</English>
+		<French>ユニットの複製</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ユニットの複製</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_PLOT_DATA</Tag>
+		<English>Plot Data (%d1, %d2)</English>
+		<French>地形データの編集(座標X%d1, Y%d2)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地形データの編集(座標X%d1, Y%d2)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_ADD_CITY</Tag>
+		<English>Add City</English>
+		<French>このタイルに都市を設置する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>このタイルに都市を設置する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_MOUNTAIN</Tag>
+		<English>Mountain</English>
+		<French>山岳</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>山岳</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_HILL</Tag>
+		<English>Hill</English>
+		<French>丘陵</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>丘陵</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_LAND</Tag>
+		<English>Land</English>
+		<French>平原</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>平原</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_OCEAN</Tag>
+		<English>Ocean</English>
+		<French>海洋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>海洋</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_BONUS</Tag>
+		<English>Bonus:</English>
+		<French>資源:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>資源:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_FEATURE_VARIETY</Tag>
+		<English>Feature (Variety):</English>
+		<French>森林/ジャングル/その他要素</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>森林/ジャングル/その他要素</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_IMPROVEMENT</Tag>
+		<English>Improvement:</English>
+		<French>都市改善:</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>都市改善:</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_UPGRADE_PROGRESS</Tag>
+		<English>Upgrade Turns:</English>
+		<French>次の段階に成長するまでのターン数</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>次の段階に成長するまでのターン数</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_EDIT_AREA</Tag>
+		<English>Edit Area</English>
+		<French>マップエディット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マップエディット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_POWER</Tag>
+		<English>Power</English>
+		<French>Power</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Power</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CAL</Tag>
+		<English>Card Attack Level</English>
+		<French>CAレベル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>CAレベル</Japanese>
+	</TEXT>
+</Civ4GameText>

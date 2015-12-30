@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Civilopedia CivLeaders -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- CIVILIZATION INFOS -->
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KOUMAKAN1</Tag>
+		<English>KOUMAKAN1</English>
+		<French>紅魔館</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KOUMAKAN2</Tag>
+		<English>KOUMAKAN2</English>
+		<French>門番詰所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>門番詰所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KOUMAKAN3</Tag>
+		<English>KOUMAKAN3</English>
+		<French>大図書館</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大図書館</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KOUMAKAN4</Tag>
+		<English>KOUMAKAN4</English>
+		<French>中庭</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>中庭</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KOUMAKAN5</Tag>
+		<English>KOUMAKAN5</English>
+		<French>メイド隊詰所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>メイド隊詰所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KOUMAKAN6</Tag>
+		<English>KOUMAKAN6</English>
+		<French>狂気の地下室</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>狂気の地下室</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KOUMAKAN7</Tag>
+		<English>KOUMAKAN7</English>
+		<French>暗闇の館</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>暗闇の館</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KOUMAKAN8</Tag>
+		<English>KOUMAKAN8</English>
+		<French>ヴワル魔法図書館</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヴワル魔法図書館</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KOUMAKAN9</Tag>
+		<English>KOUMAKAN9</English>
+		<French>美鈴のさぼり場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>美鈴のさぼり場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KOUMAKAN10</Tag>
+		<English>KOUMAKAN10</English>
+		<French>妖精メイドの訓練所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖精メイドの訓練所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KOUMAKAN11</Tag>
+		<English>KOUMAKAN11</English>
+		<French>全世界ナイトメア</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全世界ナイトメア</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KOUMAKAN12</Tag>
+		<English>KOUMAKAN12</English>
+		<French>ルナダイアル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルナダイアル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KOUMAKAN13</Tag>
+		<English>KOUMAKAN13</English>
+		<French>恋の迷路</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>恋の迷路</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KOUMAKAN14</Tag>
+		<English>KOUMAKAN14</English>
+		<French>セラギネラ９</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>セラギネラ９</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KOUMAKAN15</Tag>
+		<English>KOUMAKAN15</English>
+		<French>少女密室</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>少女密室</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUGYOKUROU1</Tag>
+		<English>HAKUGYOKUROU1</English>
+		<French>白玉楼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白玉楼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUGYOKUROU2</Tag>
+		<English>HAKUGYOKUROU2</English>
+		<French>マヨヒガ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マヨヒガ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUGYOKUROU3</Tag>
+		<English>HAKUGYOKUROU3</English>
+		<French>桜花結界</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>桜花結界</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUGYOKUROU4</Tag>
+		<English>HAKUGYOKUROU4</English>
+		<French>稲荷大社</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>稲荷大社</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUGYOKUROU5</Tag>
+		<English>HAKUGYOKUROU5</English>
+		<French>猫の集会所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>猫の集会所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUGYOKUROU6</Tag>
+		<English>HAKUGYOKUROU6</English>
+		<French>二百由旬の庭</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>二百由旬の庭</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUGYOKUROU7</Tag>
+		<English>HAKUGYOKUROU7</English>
+		<French>中有の道</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>中有の道</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUGYOKUROU8</Tag>
+		<English>HAKUGYOKUROU8</English>
+		<French>冥界</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>冥界</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUGYOKUROU9</Tag>
+		<English>HAKUGYOKUROU9</English>
+		<French>大階段</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大階段</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUGYOKUROU10</Tag>
+		<English>HAKUGYOKUROU10</English>
+		<French>幽明結界</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幽明結界</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUGYOKUROU11</Tag>
+		<English>HAKUGYOKUROU11</English>
+		<French>西行妖</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>西行妖</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUGYOKUROU12</Tag>
+		<English>HAKUGYOKUROU12</English>
+		<French>庭園に見える枯山水</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>庭園に見える枯山水</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUGYOKUROU13</Tag>
+		<English>HAKUGYOKUROU13</English>
+		<French>猫の隠れ里</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>猫の隠れ里</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUGYOKUROU14</Tag>
+		<English>HAKUGYOKUROU14</English>
+		<French>プリズムリバー邸</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>プリズムリバー邸</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUGYOKUROU15</Tag>
+		<English>HAKUGYOKUROU15</English>
+		<French>白玉楼中庭</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白玉楼中庭</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EIENTEI1</Tag>
+		<English>EIENTEI1</English>
+		<French>永遠亭</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永遠亭</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EIENTEI2</Tag>
+		<English>EIENTEI2</English>
+		<French>迷いの竹林</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>迷いの竹林</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EIENTEI3</Tag>
+		<English>EIENTEI3</English>
+		<French>毒畑</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>毒畑</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EIENTEI4</Tag>
+		<English>EIENTEI4</English>
+		<French>蓬莱診療所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蓬莱診療所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EIENTEI5</Tag>
+		<English>EIENTEI5</English>
+		<French>新薬研究所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>新薬研究所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EIENTEI6</Tag>
+		<English>EIENTEI6</English>
+		<French>淤岐島</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>淤岐島</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EIENTEI7</Tag>
+		<English>EIENTEI7</English>
+		<French>無名の丘</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無名の丘</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EIENTEI8</Tag>
+		<English>EIENTEI8</English>
+		<French>月都万象展</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月都万象展</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EIENTEI9</Tag>
+		<English>EIENTEI9</English>
+		<French>月之都</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月之都</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EIENTEI10</Tag>
+		<English>EIENTEI10</English>
+		<French>もこたん休憩所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>もこたん休憩所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EIENTEI11</Tag>
+		<English>EIENTEI11</English>
+		<French>てゐのなわばり</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>てゐのなわばり</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EIENTEI12</Tag>
+		<English>EIENTEI12</English>
+		<French>妖怪の道</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖怪の道</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EIENTEI13</Tag>
+		<English>EIENTEI13</English>
+		<French>高草郡</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>高草郡</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EIENTEI14</Tag>
+		<English>EIENTEI14</English>
+		<French>豊かの海</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>豊かの海</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EIENTEI15</Tag>
+		<English>EIENTEI15</English>
+		<French>静かの海</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>静かの海</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA1</Tag>
+		<English>YOUKAINOYAMA1</English>
+		<French>妖怪の山</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖怪の山</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA2</Tag>
+		<English>YOUKAINOYAMA2</English>
+		<French>守矢神社</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>守矢神社</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA3</Tag>
+		<English>YOUKAINOYAMA3</English>
+		<French>神さびた古戦場跡</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神さびた古戦場跡</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA4</Tag>
+		<English>YOUKAINOYAMA4</English>
+		<French>河童の胡瓜畑</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>河童の胡瓜畑</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA5</Tag>
+		<English>YOUKAINOYAMA5</English>
+		<French>諏訪湖</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>諏訪湖</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA6</Tag>
+		<English>YOUKAINOYAMA6</English>
+		<French>大滝</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大滝</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA7</Tag>
+		<English>YOUKAINOYAMA7</English>
+		<French>風神の湖</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>風神の湖</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA8</Tag>
+		<English>YOUKAINOYAMA8</English>
+		<French>玄雲海</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>玄雲海</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA9</Tag>
+		<English>YOUKAINOYAMA9</English>
+		<French>有頂天</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>有頂天</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA10</Tag>
+		<English>YOUKAINOYAMA10</English>
+		<French>厄神様の通り道</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>厄神様の通り道</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA11</Tag>
+		<English>YOUKAINOYAMA11</English>
+		<French>河童の里</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>河童の里</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA12</Tag>
+		<English>YOUKAINOYAMA12</English>
+		<French>天狗の里</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天狗の里</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA13</Tag>
+		<English>YOUKAINOYAMA13</English>
+		<French>九天の滝</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>九天の滝</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA14</Tag>
+		<English>YOUKAINOYAMA14</English>
+		<French>玄武の沢</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>玄武の沢</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA15</Tag>
+		<English>YOUKAINOYAMA15</English>
+		<French>妖怪の樹海</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖怪の樹海</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA16</Tag>
+		<English>YOUKAINOYAMA16</English>
+		<French>名居守の祠</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>名居守の祠</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA17</Tag>
+		<English>YOUKAINOYAMA17</English>
+		<French>稔りの平原</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>稔りの平原</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA18</Tag>
+		<English>YOUKAINOYAMA18</English>
+		<French>妖怪の溜まり場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖怪の溜まり場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA19</Tag>
+		<English>YOUKAINOYAMA19</English>
+		<French>白狼天狗の住処</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白狼天狗の住処</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA20</Tag>
+		<English>YOUKAINOYAMA20</English>
+		<French>架空索道</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>架空索道</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIREIDEN1</Tag>
+		<English>CHIREIDEN1</English>
+		<French>地霊殿</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地霊殿</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIREIDEN2</Tag>
+		<English>CHIREIDEN2</English>
+		<French>地上と地下を結ぶ縦穴</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地上と地下を結ぶ縦穴</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIREIDEN3</Tag>
+		<English>CHIREIDEN3</English>
+		<French>旧都</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>旧都</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIREIDEN4</Tag>
+		<English>CHIREIDEN4</English>
+		<French>灼熱地獄跡地</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>灼熱地獄跡地</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIREIDEN5</Tag>
+		<English>CHIREIDEN5</English>
+		<French>間欠泉地下センター</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>間欠泉地下センター</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIREIDEN6</Tag>
+		<English>CHIREIDEN6</English>
+		<French>核</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>核</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIREIDEN7</Tag>
+		<English>CHIREIDEN7</English>
+		<French>夢枕</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>夢枕</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIREIDEN8</Tag>
+		<English>CHIREIDEN8</English>
+		<French>旧地獄街道</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>旧地獄街道</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIREIDEN9</Tag>
+		<English>CHIREIDEN9</English>
+		<French>大江山</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大江山</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIREIDEN10</Tag>
+		<English>CHIREIDEN10</English>
+		<French>地獄の深道</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地獄の深道</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIREIDEN11</Tag>
+		<English>CHIREIDEN11</English>
+		<French>姿不見橋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>姿不見橋</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIREIDEN12</Tag>
+		<English>CHIREIDEN12</English>
+		<French>地霊温泉郷</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地霊温泉郷</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIREIDEN13</Tag>
+		<English>CHIREIDEN13</English>
+		<French>地底都市最深部</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地底都市最深部</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIREIDEN14</Tag>
+		<English>CHIREIDEN14</English>
+		<French>立入禁止の涸れ井戸</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>立入禁止の涸れ井戸</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIREIDEN15</Tag>
+		<English>CHIREIDEN15</English>
+		<French>幻想風穴</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幻想風穴</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYOUSEIRENGOU1</Tag>
+		<English>HYOUSEIRENGOU1</English>
+		<French>霧の湖</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霧の湖</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYOUSEIRENGOU2</Tag>
+		<English>HYOUSEIRENGOU2</English>
+		<French>八目鰻の屋台</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八目鰻の屋台</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYOUSEIRENGOU3</Tag>
+		<English>HYOUSEIRENGOU3</English>
+		<French>まっくらもり</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>まっくらもり</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYOUSEIRENGOU4</Tag>
+		<English>HYOUSEIRENGOU4</English>
+		<French>蛍の川</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蛍の川</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYOUSEIRENGOU5</Tag>
+		<English>HYOUSEIRENGOU5</English>
+		<French>レティの冬眠所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レティの冬眠所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYOUSEIRENGOU6</Tag>
+		<English>HYOUSEIRENGOU6</English>
+		<French>大蝦蟇の池</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大蝦蟇の池</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYOUSEIRENGOU7</Tag>
+		<English>HYOUSEIRENGOU7</English>
+		<French>妖怪獣道</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖怪獣道</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYOUSEIRENGOU8</Tag>
+		<English>HYOUSEIRENGOU8</English>
+		<French>妖精の棲み処</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖精の棲み処</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYOUSEIRENGOU9</Tag>
+		<English>HYOUSEIRENGOU9</English>
+		<French>湖畔の釣り場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>湖畔の釣り場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYOUSEIRENGOU10</Tag>
+		<English>HYOUSEIRENGOU10</English>
+		<French>宵闇の荒野</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宵闇の荒野</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYOUSEIRENGOU11</Tag>
+		<English>HYOUSEIRENGOU11</English>
+		<French>残雪の道</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>残雪の道</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYOUSEIRENGOU12</Tag>
+		<English>HYOUSEIRENGOU12</English>
+		<French>鳥獣伎楽ライブステージ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鳥獣伎楽ライブステージ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYOUSEIRENGOU13</Tag>
+		<English>HYOUSEIRENGOU13</English>
+		<French>春の小径</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>春の小径</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYOUSEIRENGOU14</Tag>
+		<English>HYOUSEIRENGOU14</English>
+		<French>チルノのかまくら</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チルノのかまくら</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYOUSEIRENGOU15</Tag>
+		<English>HYOUSEIRENGOU15</English>
+		<French>ルーネイトエルフ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルーネイトエルフ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUREIJINJA1</Tag>
+		<English>HAKUREIJINJA1</English>
+		<French>博麗神社</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗神社</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUREIJINJA2</Tag>
+		<English>HAKUREIJINJA2</English>
+		<French>霧雨魔法店</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霧雨魔法店</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUREIJINJA3</Tag>
+		<English>HAKUREIJINJA3</English>
+		<French>香霖堂</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>香霖堂</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUREIJINJA4</Tag>
+		<English>HAKUREIJINJA4</English>
+		<French>アリスの家</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アリスの家</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUREIJINJA5</Tag>
+		<English>HAKUREIJINJA5</English>
+		<French>鬼ヶ島</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鬼ヶ島</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUREIJINJA6</Tag>
+		<English>HAKUREIJINJA6</English>
+		<French>魔法の森</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔法の森</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUREIJINJA7</Tag>
+		<English>HAKUREIJINJA7</English>
+		<French>ブクレシュティ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ブクレシュティ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUREIJINJA8</Tag>
+		<English>HAKUREIJINJA8</English>
+		<French>人形の森</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人形の森</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUREIJINJA9</Tag>
+		<English>HAKUREIJINJA9</English>
+		<French>太古の大木</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>太古の大木</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUREIJINJA10</Tag>
+		<English>HAKUREIJINJA10</English>
+		<French>戸隠山</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>戸隠山</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUREIJINJA11</Tag>
+		<English>HAKUREIJINJA11</English>
+		<French>間欠泉</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>間欠泉</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUREIJINJA12</Tag>
+		<English>HAKUREIJINJA12</English>
+		<French>裏山</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>裏山</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUREIJINJA13</Tag>
+		<English>HAKUREIJINJA13</English>
+		<French>華仙の屋敷</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>華仙の屋敷</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUREIJINJA14</Tag>
+		<English>HAKUREIJINJA14</English>
+		<French>境内の境界</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>境内の境界</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAKUREIJINJA15</Tag>
+		<English>HAKUREIJINJA15</English>
+		<French>賽銭箱</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>賽銭箱</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO1</Tag>
+		<English>NINGENNOSATO1</English>
+		<French>人間の里</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人間の里</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO2</Tag>
+		<English>NINGENNOSATO2</English>
+		<French>慧音宅</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>慧音宅</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO3</Tag>
+		<English>NINGENNOSATO3</English>
+		<French>妹紅の小屋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妹紅の小屋</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO4</Tag>
+		<English>NINGENNOSATO4</English>
+		<French>寺子屋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>寺子屋</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO5</Tag>
+		<English>NINGENNOSATO5</English>
+		<French>稗田家</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>稗田家</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO6</Tag>
+		<English>NINGENNOSATO6</English>
+		<French>秘封倶楽部</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>秘封倶楽部</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO7</Tag>
+		<English>NINGENNOSATO7</English>
+		<French>太陽の畑</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>太陽の畑</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO8</Tag>
+		<English>NINGENNOSATO8</English>
+		<French>鈴奈庵</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴奈庵</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO9</Tag>
+		<English>NINGENNOSATO9</English>
+		<French>龍神の石像</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>龍神の石像</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO10</Tag>
+		<English>NINGENNOSAT10</English>
+		<French>三途の川</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>三途の川</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO11</Tag>
+		<English>NINGENNOSATO11</English>
+		<French>霧雨店</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霧雨店</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO12</Tag>
+		<English>NINGENNOSATO12</English>
+		<French>紫の桜</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紫の桜</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO13</Tag>
+		<English>NINGENNOSATO13</English>
+		<French>再思の道</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>再思の道</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO14</Tag>
+		<English>NINGENNOSATO14</English>
+		<French>彼岸</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>彼岸</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO15</Tag>
+		<English>NINGENNOSATO15</English>
+		<French>賽の河原</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>賽の河原</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO16</Tag>
+		<English>NINGENNOSATO16</English>
+		<French>閻魔の最高裁判所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>閻魔の最高裁判所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NINGENNOSATO17</Tag>
+		<English>NINGENNOSATO17</English>
+		<French>小町のだべり場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小町のだべり場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN1</Tag>
+		<English>SEIRENSEN1</English>
+		<French>命蓮寺</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>命蓮寺</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN2</Tag>
+		<English>SEIRENSEN2</English>
+		<French>幽霊客船</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幽霊客船</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN3</Tag>
+		<English>SEIRENSEN3</English>
+		<French>寅丸の船室</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>寅丸の船室</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN4</Tag>
+		<English>SEIRENSEN4</English>
+		<French>ネズミ達の船倉</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ネズミ達の船倉</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN5</Tag>
+		<English>SEIRENSEN5</English>
+		<French>惨憺たる大海原</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>惨憺たる大海原</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN6</Tag>
+		<English>SEIRENSEN6</English>
+		<French>飛倉</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>飛倉</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN7</Tag>
+		<English>SEIRENSEN7</English>
+		<French>信貴山</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>信貴山</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN8</Tag>
+		<English>SEIRENSEN8</English>
+		<French>雲山格納庫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>雲山格納庫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN9</Tag>
+		<English>SEIRENSEN9</English>
+		<French>感情の摩天楼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>感情の摩天楼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN10</Tag>
+		<English>SEIRENSEN10</English>
+		<French>春の雲</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>春の雲</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN11</Tag>
+		<English>SEIRENSEN11</English>
+		<French>高速浮遊艇</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>高速浮遊艇</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN12</Tag>
+		<English>SEIRENSEN12</English>
+		<French>聖輦船内部</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖輦船内部</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN13</Tag>
+		<English>SEIRENSEN13</English>
+		<French>法界</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>法界</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN14</Tag>
+		<English>SEIRENSEN14</English>
+		<French>夜の空</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>夜の空</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN15</Tag>
+		<English>SEIRENSEN15</English>
+		<French>命蓮寺墓地</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>命蓮寺墓地</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN16</Tag>
+		<English>SEIRENSEN16</English>
+		<French>佐渡金山</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>佐渡金山</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SEIRENSEN17</Tag>
+		<English>SEIRENSEN17</English>
+		<French>妖怪裏参道</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖怪裏参道</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SHINREIBYOU1</Tag>
+		<English>SHINREIBYOU1</English>
+		<French>神霊廟</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神霊廟</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SHINREIBYOU2</Tag>
+		<English>SHINREIBYOU2</English>
+		<French>夢殿大祀廟</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>夢殿大祀廟</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SHINREIBYOU3</Tag>
+		<English>SHINREIBYOU3</English>
+		<French>素敵な墓場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>素敵な墓場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SHINREIBYOU4</Tag>
+		<English>SHINREIBYOU4</English>
+		<French>直線の楽園</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>直線の楽園</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SHINREIBYOU5</Tag>
+		<English>SHINREIBYOU5</English>
+		<French>タオ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>タオ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SHINREIBYOU6</Tag>
+		<English>SHINREIBYOU6</English>
+		<French>法隆寺</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>法隆寺</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SHINREIBYOU7</Tag>
+		<English>SHINREIBYOU7</English>
+		<French>斑鳩寺</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>斑鳩寺</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SHINREIBYOU8</Tag>
+		<English>SHINREIBYOU8</English>
+		<French>リジットパラダイス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リジットパラダイス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SHINREIBYOU9</Tag>
+		<English>SHINREIBYOU9</English>
+		<French>デザイアドリーム</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>デザイアドリーム</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SHINREIBYOU10</Tag>
+		<English>SHINREIBYOU10</English>
+		<French>神子の隠れ家</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神子の隠れ家</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SHINREIBYOU11</Tag>
+		<English>SHINREIBYOU11</English>
+		<French>元興寺</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>元興寺</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SHINREIBYOU12</Tag>
+		<English>SHINREIBYOU12</English>
+		<French>大神神社</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大神神社</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SHINREIBYOU13</Tag>
+		<English>SHINREIBYOU13</English>
+		<French>紅葉の絨毯</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅葉の絨毯</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SHINREIBYOU14</Tag>
+		<English>SHINREIBYOU14</English>
+		<French>五重塔</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>五重塔</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU1</Tag>
+		<English>KISHINJOU1</English>
+		<French>輝針城</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>輝針城</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU2</Tag>
+		<English>KISHINJOU2</English>
+		<French>魔力嵐</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔力嵐</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU3</Tag>
+		<English>KISHINJOU3</English>
+		<French>柳の運河</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>柳の運河</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU4</Tag>
+		<English>KISHINJOU4</English>
+		<French>小人族の里</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小人族の里</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU5</Tag>
+		<English>KISHINJOU5</English>
+		<French>幻想浄瑠璃</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幻想浄瑠璃</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU6</Tag>
+		<English>KISHINJOU6</English>
+		<French>百器徒然袋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>百器徒然袋</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU7</Tag>
+		<English>KISHINJOU7</English>
+		<French>天乃羅摩船</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天乃羅摩船</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU8</Tag>
+		<English>KISHINJOU8</English>
+		<French>ルルイエ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルルイエ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU9</Tag>
+		<English>KISHINJOU9</English>
+		<French>コシュタ・バワー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>コシュタ・バワー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU10</Tag>
+		<English>KISHINJOU10</English>
+		<French>ネウロイ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ネウロイ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU11</Tag>
+		<English>KISHINJOU11</English>
+		<French>サラスヴァティー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>サラスヴァティー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU12</Tag>
+		<English>KISHINJOU12</English>
+		<French>六段の調</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>六段の調</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU13</Tag>
+		<English>KISHINJOU13</English>
+		<French>天壌夢弓</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天壌夢弓</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU14</Tag>
+		<English>KISHINJOU14</English>
+		<French>堀川波鼓</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>堀川波鼓</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU15</Tag>
+		<English>KISHINJOU15</English>
+		<French>ドク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ドク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU16</Tag>
+		<English>KISHINJOU16</English>
+		<French>グランビー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>グランビー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU17</Tag>
+		<English>KISHINJOU17</English>
+		<French>ハッピー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ハッピー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU18</Tag>
+		<English>KISHINJOU18</English>
+		<French>スリーピー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スリーピー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU19</Tag>
+		<English>KISHINJOU19</English>
+		<French>バッシュフル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>バッシュフル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU20</Tag>
+		<English>KISHINJOU20</English>
+		<French>スニージー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スニージー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KISHINJOU21</Tag>
+		<English>KISHINJOU21</English>
+		<French>ドーピー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ドーピー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN1</Tag>
+		<English>BARBARIAN1</English>
+		<French>ヒカリゴケの洞窟</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヒカリゴケの洞窟</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN2</Tag>
+		<English>BARBARIAN2</English>
+		<French>三月精の住処</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>三月精の住処</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN3</Tag>
+		<English>BARBARIAN3</English>
+		<French>無縁塚</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無縁塚</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN4</Tag>
+		<English>BARBARIAN4</English>
+		<French>幻草原</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幻草原</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN5</Tag>
+		<English>BARBARIAN5</English>
+		<French>未踏の渓谷</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>未踏の渓谷</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN6</Tag>
+		<English>BARBARIAN6</English>
+		<French>天空の花の都</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天空の花の都</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN7</Tag>
+		<English>BARBARIAN7</English>
+		<French>雲の通い道</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>雲の通い道</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN8</Tag>
+		<English>BARBARIAN8</English>
+		<French>上海紅茶館</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>上海紅茶館</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN9</Tag>
+		<English>BARBARIAN9</English>
+		<French>スカイルーイン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スカイルーイン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN10</Tag>
+		<English>BARBARIAN10</English>
+		<French>妖怪モダンコロニー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖怪モダンコロニー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN11</Tag>
+		<English>BARBARIAN11</English>
+		<French>ネメシスの要塞</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ネメシスの要塞</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN12</Tag>
+		<English>BARBARIAN12</English>
+		<French>無何有の郷</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無何有の郷</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN13</Tag>
+		<English>BARBARIAN13</English>
+		<French>月見草</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月見草</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN14</Tag>
+		<English>BARBARIAN14</English>
+		<French>魔所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN15</Tag>
+		<English>BARBARIAN15</English>
+		<French>月輪</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月輪</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN16</Tag>
+		<English>BARBARIAN16</English>
+		<French>森閑</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>森閑</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN17</Tag>
+		<English>BARBARIAN17</English>
+		<French>夜の鳩山</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>夜の鳩山</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BARBARIAN18</Tag>
+		<English>BARBARIAN18</English>
+		<French>黄昏酒場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>黄昏酒場</Japanese>
+	</TEXT>
+</Civ4GameText>

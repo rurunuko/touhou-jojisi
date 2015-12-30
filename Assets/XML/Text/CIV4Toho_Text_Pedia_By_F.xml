@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Strategy -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- UNITINFO - STRATEGY -->
+	<!-- Technologies should be colored COLOR_TECH_TEXT (example: [COLOR_TECH_TEXT]Bronze Working[COLOR_REVERT]) -->
+	<!-- Unit should be colored COLOR_UNIT_TEXT (example: [COLOR_UNIT_TEXT]Archers[COLOR_REVERT]) -->
+	<!-- Buildings should be colored COLOR_BUILDING_TEXT (example: [COLOR_BUILDING_TEXT]Theatre[COLOR_REVERT]) -->
+	<!-- Projects should be colored COLOR_PROJECT_TEXT (example: [COLOR_PROJECT_TEXT]SS Engine[COLOR_REVERT]) -->
+	<!-- Anything else official (that should be capitalized) should be colored COLOR_HIGHLIGHT_TEXT (example: [COLOR_HIGHLIGHT_TEXT]Trade Mission[COLOR_HIGHLIGHT_TEXT] or [COLOR_HIGHLIGHT_TEXT]Islam[COLOR_HIGHLIGHT_TEXT]) -->
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_TOHOUNIT</Tag>
+		<English>toho unit</English>
+		<French>東方ユニット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>東方ユニット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_TOHOUNIT_SPEC</Tag>
+		<English>spec</English>
+		<French>基礎能力</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>基礎能力</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_TOHOUNIT_MARK</Tag>
+		<English>character mark</English>
+		<French>キャラクターマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>キャラクターマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_TOHOUNIT_SKILL</Tag>
+		<English>combat skill</English>
+		<French>スキル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スキル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_TOHOUNIT_STACK_BONUS</Tag>
+		<English>stack bonus</English>
+		<French>スタックボーナス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スタックボーナス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_TOHOUNIT_STG_SKILL</Tag>
+		<English>STG skill (coming soon...)</English>
+		<French>STGスキル </French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>STGスキル </Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_TOHOUNIT_SPELL_CARD</Tag>
+		<English>spell card</English>
+		<French>スペルカード</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スペルカード</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_TOHOUNIT_SPELL_EXTRA</Tag>
+		<English>extra spell</English>
+		<French>Extraスペル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Extraスペル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_TOHOUNIT_SPELL_PHANTASM</Tag>
+		<English>phantasm spell</English>
+		<French>Phantasmスペル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Phantasmスペル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_PREREQ_TECH</Tag>
+		<English>prereq</English>
+		<French>前提テク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>前提テク</Japanese>
+	</TEXT>
+</Civ4GameText>

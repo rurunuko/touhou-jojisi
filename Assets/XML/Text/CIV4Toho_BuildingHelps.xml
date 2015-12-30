@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Civilopedia CivLeaders -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- CIVILIZATION INFOS -->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NIRVANA_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]その都市の世界遺産一つにつき追加の[ICON_PRODUCTION]+5</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]その都市の世界遺産一つにつき追加の[ICON_PRODUCTION]+5</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MEIRENJI1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]+2[ICON_GREATPEOPLE]（全種類）&#13;[ICON_BULLET]ユニット「村紗水蜜」のEXスペル使用でユニットに変化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]+2[ICON_GREATPEOPLE]（全種類）&#13;[ICON_BULLET]ユニット「村紗水蜜」のEXスペル使用でユニットに変化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MYSTIACONCERT_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]全世界に設置されているミスティアファンクラブから追加の[ICON_GOLD]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]全世界に設置されているミスティアファンクラブから追加の[ICON_GOLD]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MYSTIA_FANCLUB_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ミスティアコンサートが建造されている場合、ミスティアコンサートに追加の[ICON_GOLD]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ミスティアコンサートが建造されている場合、ミスティアコンサートに追加の[ICON_GOLD]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PATCHOULI_BOOK_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]時代に応じて追加の[ICON_RESEARCH]を産出</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]時代に応じて追加の[ICON_RESEARCH]を産出</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NIJIIRONOHANABATAKE_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ユニット「紅美鈴」が都市に駐留している場合、[ICON_HAPPY]と[ICON_HEALTHY]が増加していく&#13;[ICON_BULLET]ユニット「紅美鈴」が都市に駐留していない場合、逆に[ICON_HAPPY]と[ICON_HEALTHY]が減少していく</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ユニット「紅美鈴」が都市に駐留している場合、[ICON_HAPPY]と[ICON_HEALTHY]が増加していく&#13;[ICON_BULLET]ユニット「紅美鈴」が都市に駐留していない場合、逆に[ICON_HAPPY]と[ICON_HEALTHY]が減少していく</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HIKAKUBUTURIGAKU_HELP</Tag>
+		<English />
+		<French>[COLOR_RED]青銅器、陶器、畜産、神秘主義のうちいずれか一つを取得すると陳腐化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_RED]青銅器、陶器、畜産、神秘主義のうちいずれか一つを取得すると陳腐化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EIENTEI_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]追加の定住特別市民+4&#13;[ICON_BULLET]その都市に建設している世界遺産1つにつき追加の定住特別市民+2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]追加の定住特別市民+4&#13;[ICON_BULLET]その都市に建設している世界遺産1つにつき追加の定住特別市民+2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KODUTINOMARYOKU_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]都市のユニット生産量2倍</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]都市のユニット生産量2倍</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RAIKO_MAGIC_A_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]火車&#13;　カタフラクト&#13;　イギリス赤服兵&#13;　コサック兵&#13;　巨大殺人ロボット&#13;　以上のUUを生産可能になる&#13;[ICON_BULLET]雷鼓の呪法-内を先に完成させると作成不可</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]火車&#13;　カタフラクト&#13;　イギリス赤服兵&#13;　コサック兵&#13;　巨大殺人ロボット&#13;　以上のUUを生産可能になる&#13;[ICON_BULLET]雷鼓の呪法-内を先に完成させると作成不可</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RAIKO_MAGIC_B_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]薬屋&#13;　城塞&#13;　フェイトリア&#13;　総合組立工場&#13;　シェール油&#13;　ショッピングモール&#13;　以上のUBを生産可能になる&#13;[ICON_BULLET]雷鼓の呪法-戦を先に完成させると作成不可</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]薬屋&#13;　城塞&#13;　フェイトリア&#13;　総合組立工場&#13;　シェール油&#13;　ショッピングモール&#13;　以上のUBを生産可能になる&#13;[ICON_BULLET]雷鼓の呪法-戦を先に完成させると作成不可</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KISHINJOU_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ユニット「小人調査兵団」が自動的に供給される</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ユニット「小人調査兵団」が自動的に供給される</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAGIC_STORM_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]都市のユニット生産量2倍</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]都市のユニット生産量2倍</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHIKACENTER_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]この建造物が設置された都市のみ、迎撃回避率が高い特殊核兵器を作成可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]この建造物が設置された都市のみ、迎撃回避率が高い特殊核兵器を作成可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_CHIREIDEN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]その場で即、大科学者3人分に相当する[ICON_RESEARCH]を得る&#13;[ICON_BULLET]ユニット「第三の眼」を作成可能になる&#13;[ICON_BULLET]「永久同盟」オプション導入時は作成不可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]その場で即、大科学者3人分に相当する[ICON_RESEARCH]を得る&#13;[ICON_BULLET]ユニット「第三の眼」を作成可能になる&#13;[ICON_BULLET]「永久同盟」オプション導入時は作成不可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_THE_INTERNET_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]既知の3文明が所有している、或いはするようになったテクノロジーを即座に入手</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]既知の3文明が所有している、或いはするようになったテクノロジーを即座に入手</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_TECH_SHARE</Tag>
+	</TEXT>
+</Civ4GameText>

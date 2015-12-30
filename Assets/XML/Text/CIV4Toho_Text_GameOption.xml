@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Civilopedia CivLeaders -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- CIVILIZATION INFOS -->
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_PYRAMID</Tag>
+		<English />
+		<French>ピラミッド禁止</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ピラミッド禁止</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_PYRAMID_HELP</Tag>
+		<English />
+		<French>ピラミッドが建造できなくなります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ピラミッドが建造できなくなります</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_GREAT_WALL</Tag>
+		<English />
+		<French>万里の長城禁止</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>万里の長城禁止</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_GREAT_WALL_HELP</Tag>
+		<English />
+		<French>万里の長城が建造できなくなります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>万里の長城が建造できなくなります</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_STATUE_OF_ZEUS</Tag>
+		<English />
+		<French>ゼウス像禁止</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ゼウス像禁止</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_STATUE_OF_ZEUS_HELP</Tag>
+		<English />
+		<French>ゼウス像が建造できなくなります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ゼウス像が建造できなくなります</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_STRONG_AI</Tag>
+		<English />
+		<French>AI強化モード</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>AI強化モード</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_STRONG_AI_HELP</Tag>
+		<English />
+		<French>AIの一般ユニットおよび東方ユニットに対してボーナスが加わります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>AIの一般ユニットおよび東方ユニットに対してボーナスが加わります</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_MUSOU</Tag>
+		<English />
+		<French>無双モード</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無双モード</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_MUSOU_HELP</Tag>
+		<English />
+		<French>一般兵の生産が難しくなる代わりに、東方ユニットが大幅に強化されます（プレイヤーのみ）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>一般兵の生産が難しくなる代わりに、東方ユニットが大幅に強化されます（プレイヤーのみ）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_MULTI</Tag>
+		<English />
+		<French>マルチ用補正</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マルチ用補正</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_MULTI_HELP</Tag>
+		<English />
+		<French>全ての東方ユニットの経験値獲得確率が＋５％され、スペカ使用後に１ターンのディレイが追加されます</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全ての東方ユニットの経験値獲得確率が＋５％され、スペカ使用後に１ターンのディレイが追加されます</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_ORENOYOME</Tag>
+		<English />
+		<French>ORNYM計画</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ORNYM計画</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_ORENOYOME_HELP</Tag>
+		<English />
+		<French>ORNYMプロジェクトが生産可能になり、東方ユニットをさらに強化することができるようになります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ORNYMプロジェクトが生産可能になり、東方ユニットをさらに強化することができるようになります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_SPELL_ONLY_AI</Tag>
+		<English />
+		<French>AIが必ずスペルルート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>AIが必ずスペルルート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_SPELL_ONLY_AI_HELP</Tag>
+		<English />
+		<French>AIのボスユニットが必ずスペルルートに行くようになります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>AIのボスユニットが必ずスペルルートに行くようになります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_AI_NOT_SPEL_CAST</Tag>
+		<English />
+		<French>AIの固有スペル禁止</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>AIの固有スペル禁止</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_AI_NOT_SPEL_CAST_HELP</Tag>
+		<English />
+		<French>AIがボスユニット固有のスペカを使わなくなります。そのかわり周囲にダメージを与えるスペルとユニットを回復するスペルを使ってきます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>AIがボスユニット固有のスペカを使わなくなります。そのかわり周囲にダメージを与えるスペルとユニットを回復するスペルを使ってきます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_NO_EIYAGAESI</Tag>
+		<English />
+		<French>AIの永夜返し効果変化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>AIの永夜返し効果変化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_NO_EIYAGAESI_HELP</Tag>
+		<English />
+		<French>AI永遠亭がユニット蓬莱山輝夜を生産し、スペルを発動させた際は周囲にダメージを与えるスペルに変化します。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>AI永遠亭がユニット蓬莱山輝夜を生産し、スペルを発動させた際は周囲にダメージを与えるスペルに変化します。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_PEACE_OF_BC1000</Tag>
+		<English />
+		<French>BC1000年までの平和</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>BC1000年までの平和</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_PEACE_OF_BC1000_HELP</Tag>
+		<English />
+		<French>BC1000年を超えるまでは宣戦布告が不可能になります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>BC1000年を超えるまでは宣戦布告が不可能になります</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_PEACE_OF_BC1000</Tag>
+		<English />
+		<French>幻想郷がドンパチ、賑やかになる時間がやってきました！[NEWLINE]宣戦布告が解禁されます！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幻想郷がドンパチ、賑やかになる時間がやってきました！[NEWLINE]宣戦布告が解禁されます！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_NO_CIVIC_CHANGE_RESOLUTION</Tag>
+		<English />
+		<French>社会制度変更決議の禁止</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>社会制度変更決議の禁止</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NO_CIVIC_CHANGE_RESOLUTION_HELP</Tag>
+		<English />
+		<French>国連投票の「社会制度変更決議」は提示できなくなります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国連投票の「社会制度変更決議」は提示できなくなります</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_NO_MANHATTAN</Tag>
+		<English />
+		<French>マンハッタン計画禁止</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マンハッタン計画禁止</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_NO_MANHATTAN_HELP</Tag>
+		<English />
+		<French>マンハッタン計画を作成できなくなります[NEWLINE]現代兵器で心置きなく殴り合いたい貴方に</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マンハッタン計画を作成できなくなります[NEWLINE]現代兵器で心置きなく殴り合いたい貴方に</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_NO_SPLITEMPIRE</Tag>
+		<English />
+		<French>植民地独立の禁止</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>植民地独立の禁止</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_NO_SPLITEMPIRE_HELP</Tag>
+		<English />
+		<French>属国関連の取引のうち、「植民地の独立・及び新文明の発生」のみを禁止します[NEWLINE]自発的属国・戦争による降伏の処理等は通常通りです</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>属国関連の取引のうち、「植民地の独立・及び新文明の発生」のみを禁止します[NEWLINE]自発的属国・戦争による降伏の処理等は通常通りです</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_NO_OUKA</Tag>
+		<English />
+		<French>結界系昇進無し</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>結界系昇進無し</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_NO_OUKA_HELP</Tag>
+		<English />
+		<French>決死結界・森羅結界が取得できないようになります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>決死結界・森羅結界が取得できないようになります</Japanese>
+	</TEXT>
+</Civ4GameText>

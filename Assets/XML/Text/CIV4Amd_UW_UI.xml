@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Infos -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EIENTEI_WORKER</Tag>
+		<English />
+		<French>兎労働者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>兎労働者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KOUMAKAN_WORKER</Tag>
+		<English />
+		<French>メイド妖精</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>メイド妖精</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HAKUGYOKUROU_WORKER</Tag>
+		<English />
+		<French>幽霊労働者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幽霊労働者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NINGENNOSATO_WORKER</Tag>
+		<English />
+		<French>熟練労働者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>熟練労働者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HAKUREIJINJA_WORKER</Tag>
+		<English />
+		<French>天人労働者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天人労働者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HYOUSEIRENGOU_WORKER</Tag>
+		<English />
+		<French>妖精労働者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖精労働者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_YOUKAINOYAMA_WORKER</Tag>
+		<English />
+		<French>白狼天狗</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白狼天狗</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHIREIDEN_WORKER</Tag>
+		<English />
+		<French>鬼の建築士</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鬼の建築士</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SEIRENSEN_WORKER</Tag>
+		<English />
+		<French>正体不明の労働者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>正体不明の労働者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SHINREIBYOU_WORKER</Tag>
+		<English />
+		<French>神霊労働者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神霊労働者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KISHINJOU_WORKER</Tag>
+		<English />
+		<French>小人労働者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小人労働者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_EIENTEI_PLANTATION</Tag>
+		<English />
+		<French>製薬所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>製薬所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_EIENTEI_FOREST_PRESERVE</Tag>
+		<English />
+		<French>迷いの竹林</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>迷いの竹林</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_KOUMAKAN_WINERY</Tag>
+		<English />
+		<French>紅茶館</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅茶館</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_KOUMAKAN_FARM</Tag>
+		<English />
+		<French>花壇</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>花壇</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_KOUMAKAN_FARM_2</Tag>
+		<English />
+		<French>美しい花壇</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>美しい花壇</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_KOUMAKAN_FARM_3</Tag>
+		<English />
+		<French>華やかな花壇</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>華やかな花壇</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_KOUMAKAN_FARM_4</Tag>
+		<English />
+		<French>荘厳な花壇</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>荘厳な花壇</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_HAKUGYOKUROU_QUARRY</Tag>
+		<English />
+		<French>墓地</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>墓地</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_HAKUGYOKUROU_WINDMILL</Tag>
+		<English />
+		<French>文人の墓標</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>文人の墓標</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_NINGENNOSATO_COTTAGE</Tag>
+		<English />
+		<French>里</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>里</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_NINGENNOSATO_VILLAGE</Tag>
+		<English />
+		<French>人里</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人里</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_NINGENNOSATO_TOWN</Tag>
+		<English />
+		<French>集落</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>集落</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_NINGENNOSATO_WATERMILL</Tag>
+		<English />
+		<French>改良型水車</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>改良型水車</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_HAKUREIJINJA_FOREST_PRESERVE</Tag>
+		<English />
+		<French>茸栽培所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>茸栽培所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_HAKUREIJINJA_PLANTATION</Tag>
+		<English />
+		<French>宴会会場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宴会会場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_HYOUSEIRENGOU_LUMBERMILL</Tag>
+		<English />
+		<French>妖精の住処</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖精の住処</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_HYOUSEIRENGOU_PASTURE</Tag>
+		<English />
+		<French>妖精の遊び場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖精の遊び場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_YOUKAINOYAMA_FORT</Tag>
+		<English />
+		<French>偵察所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>偵察所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_YOUKAINOYAMA_FARM</Tag>
+		<English />
+		<French>穣子農園</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>穣子農園</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CHIREIDEN_WORKSHOP</Tag>
+		<English />
+		<French>焼却炉</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>焼却炉</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CHIREIDEN_WELL</Tag>
+		<English />
+		<French>エネルギー研究所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エネルギー研究所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SEIRENSEN_MINE</Tag>
+		<English />
+		<French>採掘場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>採掘場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SEIRENSEN_CAMP</Tag>
+		<English />
+		<French>狩猟場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>狩猟場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SHINREIBYOU_COTTAGE</Tag>
+		<English />
+		<French>死欲の小屋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>死欲の小屋</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SHINREIBYOU_HAMLET</Tag>
+		<English />
+		<French>我欲の村落</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>我欲の村落</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SHINREIBYOU_VILLAGE</Tag>
+		<English />
+		<French>強欲の村</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>強欲の村</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SHINREIBYOU_TOWN</Tag>
+		<English />
+		<French>五欲の町</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>五欲の町</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SHINREIBYOU_ROAD</Tag>
+		<English />
+		<French>官道</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>官道</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_KISHINJOU_WORKSHOP</Tag>
+		<English />
+		<French>小人達の作業場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小人達の作業場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_KISHINJOU_WINERY</Tag>
+		<English />
+		<French>丑三つ時宴会場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>丑三つ時宴会場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SPECIAL_RYUKETU</Tag>
+		<English />
+		<French>龍穴</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>龍穴</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SPECIAL_DAIRYUKETU</Tag>
+		<English />
+		<French>大龍穴</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大龍穴</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SPECIAL_RYUMYAKU</Tag>
+		<English />
+		<French>龍脈</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>龍脈</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SPECIAL_KARIGURASHI</Tag>
+		<English />
+		<French>小人たちの借り暮らし</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小人たちの借り暮らし</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_EIENTEI_PLANTATION</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_EIENTEI_PLANTATION]製薬所[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_EIENTEI_PLANTATION]製薬所[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_EIENTEI_FOREST_PRESERVE</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_EIENTEI_FOREST_PRESERVE]迷いの竹林[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_EIENTEI_FOREST_PRESERVE]迷いの竹林[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_KOUMAKAN_WINERY</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_KOUMAKAN_WINERY]紅茶館[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_KOUMAKAN_WINERY]紅茶館[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_KOUMAKAN_FARM</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_KOUMAKAN_FARM]花壇[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_KOUMAKAN_FARM]花壇[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_HAKUGYOKUROU_QUARRY</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_HAKUGYOKUROU_QUARRY]墓地[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_HAKUGYOKUROU_QUARRY]墓地[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_HAKUGYOKUROU_WINDMILL</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_HAKUGYOKUROU_WINDMILL]文人の墓標[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_HAKUGYOKUROU_WINDMILL]文人の墓標[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_NINGENNOSATO_COTTAGE</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_NINGENNOSATO_COTTAGE]里[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_NINGENNOSATO_COTTAGE]里[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_NINGENNOSATO_WATERMILL</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_NINGENNOSATO_COTTAGE]改良型水車[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_NINGENNOSATO_COTTAGE]改良型水車[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_HAKUREIJINJA_FOREST_PRESERVE</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_HAKUREIJINJA_FOREST_PRESERVE]茸栽培所[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_HAKUREIJINJA_FOREST_PRESERVE]茸栽培所[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_HAKUREIJINJA_PLANTATION</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_HAKUREIJINJA_FOREST_PRESERVE]宴会会場[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_HAKUREIJINJA_FOREST_PRESERVE]宴会会場[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_HYOUSEIRENGOU_LUMBERMILL</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_HYOUSEIRENGOU_LUMBERMILL]妖精の住処[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_HYOUSEIRENGOU_LUMBERMILL]妖精の住処[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_HYOUSEIRENGOU_PASTURE</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_HYOUSEIRENGOU_LUMBERMILL]妖精の遊び場[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_HYOUSEIRENGOU_LUMBERMILL]妖精の遊び場[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_YOUKAINOYAMA_FORT</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_YOUKAINOYAMA_FORT]偵察所[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_YOUKAINOYAMA_FORT]偵察所[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_YOUKAINOYAMA_FARM</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_YOUKAINOYAMA_FARM]穣子農園[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_YOUKAINOYAMA_FARM]穣子農園[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_CHIREIDEN_WORKSHOP</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_CHIREIDEN_WORKSHOP]焼却炉[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_CHIREIDEN_WORKSHOP]焼却炉[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_CHIREIDEN_WELL</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_CHIREIDEN_WORKSHOP]エネルギー研究所[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_CHIREIDEN_WORKSHOP]エネルギー研究所[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_SEIRENSEN_MINE</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_SEIRENSEN_MINE]採掘場[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_SEIRENSEN_MINE]採掘場[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_SEIRENSEN_CAMP</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_SEIRENSEN_MINE]狩猟場[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_SEIRENSEN_MINE]狩猟場[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_SHINREIBYOU_COTTAGE</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_NINGENNOSATO_COTTAGE]死欲の小屋[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_NINGENNOSATO_COTTAGE]死欲の小屋[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_SHINREIBYOU_ROAD</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_NINGENNOSATO_COTTAGE]官道[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_NINGENNOSATO_COTTAGE]官道[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_KISHINJOU_WORKSHOP</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_KISHINJOU_WORKSHOP]小人達の作業場[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_KISHINJOU_WORKSHOP]小人達の作業場[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_KISHINJOU_WINERY</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_KISHINJOU_WINERY]丑三つ時宴会場[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_KISHINJOU_WINERY]丑三つ時宴会場[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EIENTEI_WORKER_PEDIA</Tag>
+		<English />
+		<French>永遠亭は、玉兎の代わりに地上の兎を労働力として使っていました。亭内の清掃や、餅搗き、薬搗きなどの仕事に従事しています。時には里へ薬を売りに行ったりもします。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永遠亭は、玉兎の代わりに地上の兎を労働力として使っていました。亭内の清掃や、餅搗き、薬搗きなどの仕事に従事しています。時には里へ薬を売りに行ったりもします。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KOUMAKAN_WORKER_PEDIA</Tag>
+		<English />
+		<French>紅魔館では、労働力として妖精を雇用しています。しかし、所詮は妖精なのであまり役には立たず、メイド長がほとんどの仕事をしているようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館では、労働力として妖精を雇用しています。しかし、所詮は妖精なのであまり役には立たず、メイド長がほとんどの仕事をしているようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HAKUGYOKUROU_WORKER_PEDIA</Tag>
+		<English />
+		<French>罪を犯した幽霊は地獄からの卒業試験として、中有の道で出店を出す決まりとなっています。これは地獄の財政を補うためという一面もあります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>罪を犯した幽霊は地獄からの卒業試験として、中有の道で出店を出す決まりとなっています。これは地獄の財政を補うためという一面もあります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NINGENNOSATO_WORKER_PEDIA</Tag>
+		<English />
+		<French>里の労働者は古くからさまざまな仕事に従事していました。その中でも特に熟練した労働者を集めれば、効率のよい仕事が出来るでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>里の労働者は古くからさまざまな仕事に従事していました。その中でも特に熟練した労働者を集めれば、効率のよい仕事が出来るでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HAKUREIJINJA_WORKER_PEDIA</Tag>
+		<English />
+		<French>天人は天界からあまり降りてはきませんが、博霊神社が倒壊した際に、その原因である天人によって何名かの天人が派遣されました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天人は天界からあまり降りてはきませんが、博霊神社が倒壊した際に、その原因である天人によって何名かの天人が派遣されました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HYOUSEIRENGOU_WORKER_PEDIA</Tag>
+		<English />
+		<French>妖精はいたずらが好きで、よく人間を道に迷わせたりなどをして遊んでいます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖精はいたずらが好きで、よく人間を道に迷わせたりなどをして遊んでいます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_YOUKAINOYAMA_WORKER_PEDIA</Tag>
+		<English />
+		<French>白狼天狗は天狗の里において、自衛と哨戒の任務についています。山の各所に偵察所を持ち、侵入者に対して威嚇や初動攻撃を行います。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白狼天狗は天狗の里において、自衛と哨戒の任務についています。山の各所に偵察所を持ち、侵入者に対して威嚇や初動攻撃を行います。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHIREIDEN_WORKER_PEDIA</Tag>
+		<English />
+		<French>鬼は種族の特徴として力が強く、建築が得意です。一名を除いて地底の旧都に住んでいます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鬼は種族の特徴として力が強く、建築が得意です。一名を除いて地底の旧都に住んでいます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SEIRENSEN_WORKER_PEDIA</Tag>
+		<English />
+		<French>鵺が呼び出したUFOによって連れ去られてしまった労働者。明日はあなたが労働者になる番かもしれない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鵺が呼び出したUFOによって連れ去られてしまった労働者。明日はあなたが労働者になる番かもしれない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SHINREIBYOU_WORKER_PEDIA</Tag>
+		<English />
+		<French>神子の復活に呼応して集まってきた雑多な霊。彼らはどうやらその中でも労働を得意とする者らしい</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神子の復活に呼応して集まってきた雑多な霊。彼らはどうやらその中でも労働を得意とする者らしい</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KISHINJOU_WORKER_PEDIA</Tag>
+		<English />
+		<French>幻想郷でも幻と思われていた小人達の存在が最近確認されました。小さい体でも普通の労働者と同じくらいがんばっているようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幻想郷でも幻と思われていた小人達の存在が最近確認されました。小さい体でも普通の労働者と同じくらいがんばっているようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EIENTEI_WORKER_STRATEGY</Tag>
+		<English />
+		<French>兎労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは森林や竹林を縦横無尽に動き回る事ができます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>兎労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは森林や竹林を縦横無尽に動き回る事ができます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KOUMAKAN_WORKER_STRATEGY</Tag>
+		<English />
+		<French>メイド妖精を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは世襲統治によって都市に幸福を生み出します。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>メイド妖精を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは世襲統治によって都市に幸福を生み出します。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HAKUGYOKUROU_WORKER_STRATEGY</Tag>
+		<English />
+		<French>幽霊労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは敵から姿が見えません。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幽霊労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは敵から姿が見えません。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NINGENNOSATO_WORKER_STRATEGY</Tag>
+		<English />
+		<French>熟練労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは移動力が大きいため、土地の素早い改善が可能です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>熟練労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは移動力が大きいため、土地の素早い改善が可能です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HAKUREIJINJA_WORKER_STRATEGY</Tag>
+		<English />
+		<French>天人労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは少量の文化を生み出すことができます。また都市が反乱状態ならその都市の反乱は治まるでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天人労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは少量の文化を生み出すことができます。また都市が反乱状態ならその都市の反乱は治まるでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HYOUSEIRENGOU_WORKER_STRATEGY</Tag>
+		<English />
+		<French>妖精労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは自らを命を犠牲にし死に物狂いで建造物を建てようとします。妖精の命とは儚いのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖精労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは自らを命を犠牲にし死に物狂いで建造物を建てようとします。妖精の命とは儚いのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_YOUKAINOYAMA_WORKER_STRATEGY</Tag>
+		<English />
+		<French>白狼天狗を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは視界が広いため、敵の接近を素早く察知することが出来ます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白狼天狗を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは視界が広いため、敵の接近を素早く察知することが出来ます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHIREIDEN_WORKER_STRATEGY</Tag>
+		<English />
+		<French>鬼の建築士を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは改善の建設が速いため、土地の素早い改善が可能です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鬼の建築士を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは改善の建設が速いため、土地の素早い改善が可能です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SEIRENSEN_WORKER_STRATEGY</Tag>
+		<English />
+		<French>正体不明の労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットはUFOにより連れて来られたので、他文明の領土に土地感が他都市に潜入することもできます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>正体不明の労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットはUFOにより連れて来られたので、他文明の領土に土地感が他都市に潜入することもできます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SHINREIBYOU_WORKER_STRATEGY</Tag>
+		<English />
+		<French>神霊労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは欲を持つ物に厳しいので、他国のスパイの任務を妨げるでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神霊労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは欲を持つ物に厳しいので、他国のスパイの任務を妨げるでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KISHINJOU_WORKER_STRATEGY</Tag>
+		<English />
+		<French>小人労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは様々な小人の集まりなので、交易を得意とする者が任務によって小額の資金を得ることができます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小人労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは様々な小人の集まりなので、交易を得意とする者が任務によって小額の資金を得ることができます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVISIBLE_WORKER</Tag>
+		<English />
+		<French>幽霊</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幽霊</Japanese>
+	</TEXT>
+</Civ4GameText>

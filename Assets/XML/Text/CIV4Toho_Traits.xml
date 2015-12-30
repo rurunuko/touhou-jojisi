@@ -1,0 +1,2106 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Strategy -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- UNITINFO - STRATEGY -->
+	<!-- Technologies should be colored COLOR_TECH_TEXT (example: [COLOR_TECH_TEXT]Bronze Working[COLOR_REVERT]) -->
+	<!-- Unit should be colored COLOR_UNIT_TEXT (example: [COLOR_UNIT_TEXT]Archers[COLOR_REVERT]) -->
+	<!-- Buildings should be colored COLOR_BUILDING_TEXT (example: [COLOR_BUILDING_TEXT]Theatre[COLOR_REVERT]) -->
+	<!-- Projects should be colored COLOR_PROJECT_TEXT (example: [COLOR_PROJECT_TEXT]SS Engine[COLOR_REVERT]) -->
+	<!-- Anything else official (that should be capitalized) should be colored COLOR_HIGHLIGHT_TEXT (example: [COLOR_HIGHLIGHT_TEXT]Trade Mission[COLOR_HIGHLIGHT_TEXT] or [COLOR_HIGHLIGHT_TEXT]Islam[COLOR_HIGHLIGHT_TEXT]) -->
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REMILIALIST</Tag>
+		<English></English>
+		<French>紅魔館の主</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館の主</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REMILIALIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]紅魔館の生産に[ICON_PRODUCTION]+100%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]紅魔館の生産に[ICON_PRODUCTION]+100%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FLANLIST</Tag>
+		<English></English>
+		<French>禁じられた遊び</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>禁じられた遊び</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FLANLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]フランが都市破壊のスペルを使用可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]フランが都市破壊のスペルを使用可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PATCHOULIST</Tag>
+		<English></English>
+		<French>パチュリーの魔道書</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パチュリーの魔道書</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PATCHOULIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：グリモワールオブパチュリー（時代に応じて[ICON_RESEARCH]産出）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：グリモワールオブパチュリー（時代に応じて[ICON_RESEARCH]産出）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SAKUYALIST</Tag>
+		<English></English>
+		<French>メイド長</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>メイド長</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SAKUYALIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：メイド長の指揮（労働者効率+25%）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：メイド長の指揮（労働者効率+25%）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MEIRINLIST</Tag>
+		<English></English>
+		<French>紅魔館の門番</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館の門番</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MEIRINLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]門番から[ICON_HAPPY]+3</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]門番から[ICON_HAPPY]+3</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YOUMULIST</Tag>
+		<English></English>
+		<French>白玉楼のお庭番</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白玉楼のお庭番</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YOUMULIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YUYUKOLIST</Tag>
+		<English></English>
+		<French>白玉楼の主</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白玉楼の主</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YUYUKOLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]西行妖の生産に[ICON_PRODUCTION]+100%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]西行妖の生産に[ICON_PRODUCTION]+100%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CHENLIST</Tag>
+		<English></English>
+		<French>妖術</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖術</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CHENLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]橙のターン毎の経験値獲得確率+5%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]橙のターン毎の経験値獲得確率+5%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RANLIST</Tag>
+		<English></English>
+		<French>暗算</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>暗算</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RANLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]森林の伐採による[ICON_PRODUCTION]+25%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]森林の伐採による[ICON_PRODUCTION]+25%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YUKARILIST</Tag>
+		<English></English>
+		<French>胡散臭い攻撃</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>胡散臭い攻撃</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YUKARILIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]ユニット「八雲紫」の優先生産権</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]ユニット「八雲紫」の優先生産権</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LILYWLIST</Tag>
+		<English></English>
+		<French>春ですよ～</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>春ですよ～</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LILYWLIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NIJIKAWALIST</Tag>
+		<English></English>
+		<French>幽霊楽団</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幽霊楽団</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TEWILIST</Tag>
+		<English></English>
+		<French>いたずら</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>いたずら</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TEWILIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]てゐに無償のスキル：悪戯（てゐのレベルは2からスタート）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]てゐに無償のスキル：悪戯（てゐのレベルは2からスタート）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REISENLIST</Tag>
+		<English></English>
+		<French>狂気操作</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>狂気操作</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REISENLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：月兎遠隔催眠術（敵の厭戦感情＋20％）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：月兎遠隔催眠術（敵の厭戦感情＋20％）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EIRINLIST</Tag>
+		<English></English>
+		<French>薬師</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>薬師</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EIRINLIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KAGUYALIST</Tag>
+		<English></English>
+		<French>永遠亭の主</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永遠亭の主</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KAGUYALIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]永遠亭の生産に[ICON_PRODUCTION]+100%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]永遠亭の生産に[ICON_PRODUCTION]+100%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MEDICINLIST</Tag>
+		<English></English>
+		<French>スーさんといっしょ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スーさんといっしょ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MEDICINLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]メディスンに無償の昇進：（スーさん）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]メディスンに無償の昇進：（スーさん）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NITORILIST</Tag>
+		<English></English>
+		<French>改良型河童ロボ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>改良型河童ロボ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NITORILIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]河童ロボに無償の昇進：戦闘術1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]河童ロボに無償の昇進：戦闘術1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AYALIST</Tag>
+		<English></English>
+		<French>部下の指導</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>部下の指導</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AYALIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SANAELIST</Tag>
+		<English></English>
+		<French>奇跡の守り</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>奇跡の守り</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SANAELIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KANAKOLIST</Tag>
+		<English></English>
+		<French>信仰の山</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>信仰の山</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KANAKOLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]首都建設時に地形が平原/丘陵に変化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]首都建設時に地形が平原/丘陵に変化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SUWAKOLIST</Tag>
+		<English></English>
+		<French>守矢神社の祟り神</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>守矢神社の祟り神</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SUWAKOLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]守矢神社の生産に[ICON_PRODUCTION]+100%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]守矢神社の生産に[ICON_PRODUCTION]+100%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_IKULIST</Tag>
+		<English></English>
+		<French>空気読み</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>空気読み</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_IKULIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]衣玖のターン毎の経験値獲得確率+5%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]衣玖のターン毎の経験値獲得確率+5%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TENSHILIST</Tag>
+		<English></English>
+		<French>楽しい地上侵略</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>楽しい地上侵略</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TENSHILIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：天子の楽しみ（全都市の厭戦感情－25%）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：天子の楽しみ（全都市の厭戦感情－25%）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HINALIST</Tag>
+		<English></English>
+		<French>厄神様</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>厄神様</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HINALIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PARSEELIST</Tag>
+		<English></English>
+		<French>嫉妬の心</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>嫉妬の心</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PARSEELIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YUGILIST</Tag>
+		<English></English>
+		<French>怪力乱神</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>怪力乱神</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YUGILIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]勇儀に無償の昇進：基本操作1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]勇儀に無償の昇進：基本操作1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SATORILIST</Tag>
+		<English></English>
+		<French>地霊殿の主</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地霊殿の主</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SATORILIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]地霊殿の生産に[ICON_PRODUCTION]+100%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]地霊殿の生産に[ICON_PRODUCTION]+100%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RINLIST</Tag>
+		<English></English>
+		<French>死体処理</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>死体処理</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RINLIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_UTSUHOLIST</Tag>
+		<English></English>
+		<French>夢のエネルギー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>夢のエネルギー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_UTSUHOLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]マンハッタン計画の生産に[ICON_PRODUCTION]+100%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]マンハッタン計画の生産に[ICON_PRODUCTION]+100%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KOISHILIST</Tag>
+		<English></English>
+		<French>無意識の鎮圧</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無意識の鎮圧</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KOISHILIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]都市占領時のレジスタンスの期間-30%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]都市占領時のレジスタンスの期間-30%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CIRNOLIST</Tag>
+		<English></English>
+		<French>⑨</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>⑨</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CIRNOLIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LETTYLIST</Tag>
+		<English></English>
+		<French>寒気操作</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>寒気操作</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LETTYLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]雪原から[ICON_FOOD]+2&#13;[ICON_BULLET]ツンドラから[ICON_PRODUCTION]+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]雪原から[ICON_FOOD]+2&#13;[ICON_BULLET]ツンドラから[ICON_PRODUCTION]+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MYSTIALIST</Tag>
+		<English></English>
+		<French>アイドル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アイドル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MYSTIALIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WRIGGLIST</Tag>
+		<English></English>
+		<French>蟲達の棲処</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蟲達の棲処</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WRIGGLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]森林から[ICON_COMMERCE]+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]森林から[ICON_COMMERCE]+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RUMIALIST</Tag>
+		<English></English>
+		<French>貪欲</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>貪欲</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RUMIALIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REIMULIST</Tag>
+		<English></English>
+		<French>博麗神社の巫女</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗神社の巫女</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REIMULIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]博麗神社の生産に[ICON_PRODUCTION]+100%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]博麗神社の生産に[ICON_PRODUCTION]+100%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MARISALIST</Tag>
+		<English></English>
+		<French>泥棒稼業</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>泥棒稼業</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MARISALIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]魔理沙に無償の昇進：泥棒稼業（略奪+100%）&#13;　　　　　　　　　　　　　　　 ラーニング（スキル）&#13;　[ICON_BULLET]魔理沙のレベルは2からスタート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]魔理沙に無償の昇進：泥棒稼業（略奪+100%）&#13;　　　　　　　　　　　　　　　 ラーニング（スキル）&#13;　[ICON_BULLET]魔理沙のレベルは2からスタート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ALICELIST</Tag>
+		<English></English>
+		<French>人形操作のエキスパート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人形操作のエキスパート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ALICELIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]上海人形に無償の昇進：直轄（戦闘力+10%）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]上海人形に無償の昇進：直轄（戦闘力+10%）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RINNOSUKELIST</Tag>
+		<English></English>
+		<French>香霖堂の主</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>香霖堂の主</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RINNOSUKELIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]香霖堂の生産に[ICON_PRODUCTION]+25%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]香霖堂の生産に[ICON_PRODUCTION]+25%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SUIKALIST</Tag>
+		<English></English>
+		<French>醸す</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>醸す</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SUIKALIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]ユニット「伊吹萃香」の優先生産権</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]ユニット「伊吹萃香」の優先生産権</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RENKOLIST</Tag>
+		<English></English>
+		<French>星を見る人</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>星を見る人</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RENKOLIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MERRYLIST</Tag>
+		<English></English>
+		<French>ミエル目</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミエル目</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MERRYLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]都市建設時に無償の建造物：ミエル目（大醸造人ポイント+1、筆記で陳腐化）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]都市建設時に無償の建造物：ミエル目（大醸造人ポイント+1、筆記で陳腐化）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AKYULIST</Tag>
+		<English></English>
+		<French>稗田流</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>稗田流</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AKYULIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]都市建設時に無償の建造物：稗田流（芸術家から[ICON_COMMERCE]+2）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]都市建設時に無償の建造物：稗田流（芸術家から[ICON_COMMERCE]+2）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YUKALIST</Tag>
+		<English></English>
+		<French>ひまわり妖怪</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ひまわり妖怪</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YUKALIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]幽香のアップグレード毎に無償のPhantasmスペル使用回数+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]幽香のアップグレード毎に無償のPhantasmスペル使用回数+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EIKILIST</Tag>
+		<English></English>
+		<French>楽園の最高裁判長</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>楽園の最高裁判長</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EIKILIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]裁判所の生産に[ICON_PRODUCTION]+50%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]裁判所の生産に[ICON_PRODUCTION]+50%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KEINELIST</Tag>
+		<English></English>
+		<French>歴史知識</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>歴史知識</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KEINELIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MOKOULIST</Tag>
+		<English></English>
+		<French>長生きの秘訣</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>長生きの秘訣</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MOKOULIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KOMACHILIST</Tag>
+		<English></English>
+		<French>渡し賃</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>渡し賃</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KOMACHILIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NAZRINLIST</Tag>
+		<English></English>
+		<French>ネズミたちの大将</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ネズミたちの大将</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NAZRINLIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ICHIRINLIST</Tag>
+		<English></English>
+		<French>雲山</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>雲山</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ICHIRINLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]一輪に無償のスキル：問答無用の妖怪拳（一輪のレベルは2からスタート）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]一輪に無償のスキル：問答無用の妖怪拳（一輪のレベルは2からスタート）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MINAMITSULIST</Tag>
+		<English></English>
+		<French>村紗の導き</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>村紗の導き</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MINAMITSULIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SYOULIST</Tag>
+		<English></English>
+		<French>財宝が集まる程度の能力</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>財宝が集まる程度の能力</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SYOULIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_BYAKURENLIST</Tag>
+		<English></English>
+		<French>封印</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>封印</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_BYAKURENLIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NUELIST</Tag>
+		<English></English>
+		<French>謎の噂</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>謎の噂</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NUELIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KOGASALIST</Tag>
+		<English></English>
+		<French>さでずむ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>さでずむ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KOGASALIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]都市建設時に無償の建造物：さでずむ(奴隷による[ICON_UNHAPPY]継続ターン半減)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]都市建設時に無償の建造物：さでずむ(奴隷による[ICON_UNHAPPY]継続ターン半減)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DAIYOUSEILIST</Tag>
+		<English></English>
+		<French>湖の妖精</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>湖の妖精</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DAIYOUSEILIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]湖からハンマー＋１</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]湖からハンマー＋１</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KOALIST</Tag>
+		<English></English>
+		<French>図書館の司書</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>図書館の司書</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KOALIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TOKIKOLIST</Tag>
+		<English></English>
+		<French>本読み</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>本読み</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TOKIKOLIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LILYBLIST</Tag>
+		<English></English>
+		<French>春です</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>春です</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LILYBLIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YORIHIMELIST</Tag>
+		<English></English>
+		<French>神霊の依り憑く月の姫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神霊の依り憑く月の姫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YORIHIMELIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WATAHIMELIST</Tag>
+		<English></English>
+		<French>海と山を繋ぐ月の姫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>海と山を繋ぐ月の姫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WATAHIMELIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]月からの支援の生産に[ICON_PRODUCTION]+100%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]月からの支援の生産に[ICON_PRODUCTION]+100%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MINORIKOLIST</Tag>
+		<English></English>
+		<French>豊作</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>豊作</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MINORIKOLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]交易路収入[ICON_COMMERCE]+10につき追加の[ICON_FOOD]+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]交易路収入[ICON_COMMERCE]+10につき追加の[ICON_FOOD]+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MOMIZILIST</Tag>
+		<English></English>
+		<French>千里眼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>千里眼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MOMIZILIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SIZUHALIST</Tag>
+		<English></English>
+		<French>寂しさと終焉の秋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>寂しさと終焉の秋</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SIZUHALIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YAMAMELIST</Tag>
+		<English></English>
+		<French>感染症</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>感染症</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YAMAMELIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KISUMELIST</Tag>
+		<English></English>
+		<French>キスメの桶</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>キスメの桶</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KISUMELIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：キスメの桶(すべての都市で都市防御+10% ライフリングで陳腐化)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：キスメの桶(すべての都市で都市防御+10% ライフリングで陳腐化)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LUNALIST</Tag>
+		<English></English>
+		<French>静かな月</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>静かな月</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LUNALIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_STARLIST</Tag>
+		<English></English>
+		<French>星の光</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>星の光</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_STARLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：星の光(スパイ防御力+50%)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：星の光(スパイ防御力+50%)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SUNNYLIST</Tag>
+		<English></English>
+		<French>光の屈折</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>光の屈折</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SUNNYLIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HATATELIST</Tag>
+		<English></English>
+		<French>念写</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>念写</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HATATELIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MIMALIST</Tag>
+		<English></English>
+		<French>久遠の夢</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>久遠の夢</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MIMALIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]魅魔に無償のスキル：ワイドウェーブ（魅魔のレベルは2からスタート）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]魅魔に無償のスキル：ワイドウェーブ（魅魔のレベルは2からスタート）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SHINKILIST</Tag>
+		<English></English>
+		<French>魔界神</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔界神</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SHINKILIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]交易路収入[ICON_COMMERCE]+7以上で追加の[ICON_COMMERCE]ボーナス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]交易路収入[ICON_COMMERCE]+7以上で追加の[ICON_COMMERCE]ボーナス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KYOUKOLIST</Tag>
+		<English></English>
+		<French>山彦</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>山彦</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KYOUKOLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：山彦(首都に[ICON_CULTURE]+25%)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：山彦(首都に[ICON_CULTURE]+25%)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YOSHIKALIST</Tag>
+		<English></English>
+		<French>忠実な死体</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>忠実な死体</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YOSHIKALIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HAKUTAKULIST</Tag>
+		<English></English>
+		<French>歴史の編纂</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>歴史の編纂</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HAKUTAKULIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SEIGALIST</Tag>
+		<English></English>
+		<French>壁抜けの鑿</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>壁抜けの鑿</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SEIGALIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]青娥に無償のスキル：壁抜けの邪仙（青娥のレベルは2からスタート）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]青娥に無償のスキル：壁抜けの邪仙（青娥のレベルは2からスタート）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TOJIKOLIST</Tag>
+		<English></English>
+		<French>遣隋使</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>遣隋使</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TOJIKOLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]都市建設時に無償の建造物：小野妹子墓（全都市で[ICON_TRADE]+1）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]都市建設時に無償の建造物：小野妹子墓（全都市で[ICON_TRADE]+1）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FUTOLIST</Tag>
+		<English></English>
+		<French>大神神話伝</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大神神話伝</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FUTOLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]龍脈から追加の[ICON_FOOD]+2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]龍脈から追加の[ICON_FOOD]+2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MIMIMIKOLIST</Tag>
+		<English></English>
+		<French>聖人</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖人</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MIMIMIKOLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]法隆寺の生産に[ICON_PRODUCTION]+100%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]法隆寺の生産に[ICON_PRODUCTION]+100%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MAMIZOULIST</Tag>
+		<English></English>
+		<French>化け狸の頭領</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>化け狸の頭領</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MAMIZOULIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KASENLIST</Tag>
+		<English></English>
+		<French>仙人</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>仙人</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KASENLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]※「動物の使役」を所持していると動物ユニットに勝利した際、野生動物を味方に付ける事が出来ます</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]※「動物の使役」を所持していると動物ユニットに勝利した際、野生動物を味方に付ける事が出来ます</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KOSUZULIST</Tag>
+		<English></English>
+		<French>鈴奈庵</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴奈庵</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KOSUZULIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：鈴奈庵（[ICON_RESEARCH]+1　雇用可能な科学者枠+1）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：鈴奈庵（[ICON_RESEARCH]+1　雇用可能な科学者枠+1）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CHIYURILIST</Tag>
+		<English></English>
+		<French>セーラーオブタイム</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>セーラーオブタイム</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CHIYURILIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：夢時計（定住大将軍から追加の[ICON_PRODUCTION]+2）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：夢時計（定住大将軍から追加の[ICON_PRODUCTION]+2）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YUMEMILIST</Tag>
+		<English></English>
+		<French>夢幻伝説</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>夢幻伝説</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YUMEMILIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：「比較物理学：応用」（大技術者ポイント+1、青銅器・陶器・畜産・自然酒いずれかの取得で陳腐化）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：「比較物理学：応用」（大技術者ポイント+1、青銅器・陶器・畜産・自然酒いずれかの取得で陳腐化）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KYUUREIMULIST</Tag>
+		<English></English>
+		<French>夢と伝統を保守する巫女</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>夢と伝統を保守する巫女</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KYUUREIMULIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REISEN2LIST</Tag>
+		<English></English>
+		<French>玉兎</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>玉兎</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REISEN2LIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WAKASAGIHIMELIST</Tag>
+		<English></English>
+		<French>人魚の呼び声</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人魚の呼び声</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WAKASAGIHIMELIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]光学取得で社会制度「深海の旧支配者」を採用可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]光学取得で社会制度「深海の旧支配者」を採用可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SEKIBANKILIST</Tag>
+		<English></English>
+		<French>恐怖のろくろ首</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>恐怖のろくろ首</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SEKIBANKILIST_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KAGEROULIST</Tag>
+		<English></English>
+		<French>幻想のオオカミ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幻想のオオカミ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KAGEROULIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]ユニット「ニホンオオカミ」を作成可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]ユニット「ニホンオオカミ」を作成可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KOKOROLIST</Tag>
+		<English></English>
+		<French>感情を操る程度の能力</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>感情を操る程度の能力</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KOKOROLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]ランダムで志向が変化する&#13;　[ICON_BULLET]ランダムで選択される志向をある程度までは好みのものに絞ることが可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]ランダムで志向が変化する&#13;　[ICON_BULLET]ランダムで選択される志向をある程度までは好みのものに絞ることが可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YATUHASHILIST</Tag>
+		<English></English>
+		<French>エコーチェンバー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エコーチェンバー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YATUHASHILIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]新都市は文化圏二段階目からスタート&#13;　[ICON_BULLET]都市建設時に無償の建造物：エコーチェンバー([ICON_CULTURE]-50%)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]新都市は文化圏二段階目からスタート&#13;　[ICON_BULLET]都市建設時に無償の建造物：エコーチェンバー([ICON_CULTURE]-50%)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_BENBENLIST</Tag>
+		<English></English>
+		<French>エチオピアの鐘の音</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エチオピアの鐘の音</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_BENBENLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]モニュメントの代わりに「ステラ」作成可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]モニュメントの代わりに「ステラ」作成可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SEIJALIST</Tag>
+		<English></English>
+		<French>天邪鬼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天邪鬼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SEIJALIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]時代が「中世」以降に社会制度「無秩序」を採用していると全都市で厭戦感情[ICON_UNHAPPY]-50%,[ICON_HAPPY]+5</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]時代が「中世」以降に社会制度「無秩序」を採用していると全都市で厭戦感情[ICON_UNHAPPY]-50%,[ICON_HAPPY]+5</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SHINMYOUMARULIST</Tag>
+		<English></English>
+		<French>小さき者の大きな野望</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小さき者の大きな野望</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SHINMYOUMARULIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]輝針城の生産に[ICON_PRODUCTION]+50%&#13;　[ICON_BULLET]輝針城・天守閣の生産に[ICON_PRODUCTION]+100%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]輝針城の生産に[ICON_PRODUCTION]+50%&#13;　[ICON_BULLET]輝針城・天守閣の生産に[ICON_PRODUCTION]+100%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RAIKOLIST</Tag>
+		<English></English>
+		<French>太鼓の達人</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>太鼓の達人</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KYUUMARISALIST</Tag>
+		<English></English>
+		<French>ミミちゃん</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミミちゃん</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LOLISELIST</Tag>
+		<English></English>
+		<French>死んでくれる？</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>死んでくれる？</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LOLISELIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]奴隷制を採用している場合に限り、全都市で緊急生産のコスト-25%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]奴隷制を採用している場合に限り、全都市で緊急生産のコスト-25%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SUMIREKOLIST</Tag>
+		<English></English>
+		<French>3Dプリンターマスケット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>3Dプリンターマスケット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SEIRANLIST</Tag>
+		<English></English>
+		<French>前線調査部隊</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>前線調査部隊</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SEIRANLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]首都建設時に無償の探検家1体獲得</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]首都建設時に無償の探検家1体獲得</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RINGOLIST</Tag>
+		<English></English>
+		<French>月の団子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月の団子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RINGOLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]首都建設時に首都都市タイルの[ICON_FOOD]+1&#13;　[ICON_BULLET]資源タイル直上の場合は効果無し</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]首都建設時に首都都市タイルの[ICON_FOOD]+1&#13;　[ICON_BULLET]資源タイル直上の場合は効果無し</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DOREMYLIST</Tag>
+		<English></English>
+		<French>This Woman</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>This Woman</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DOREMYLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：This Woman（全都市の厭戦感情－10%,敵の厭戦感情+5%）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]首都建設時に無償の建造物：This Woman（全都市の厭戦感情－10%,敵の厭戦感情+5%）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SAGUMELIST</Tag>
+		<English></English>
+		<French>事態の逆転</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>事態の逆転</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SAGUMELIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]自文明が侵略を受けた際、一度だけ固有のイベントが発生する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]自文明が侵略を受けた際、一度だけ固有のイベントが発生する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CLOWNPIECELIST</Tag>
+		<English></English>
+		<French>フリーダムフェアリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フリーダムフェアリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CLOWNPIECELIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]自由の女神の生産に[ICON_PRODUCTION]+100%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]自由の女神の生産に[ICON_PRODUCTION]+100%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_JUNKOLIST</Tag>
+		<English></English>
+		<French>純粋なる殺意</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>純粋なる殺意</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_JUNKOLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]白兵ユニットの作成コスト-25%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]白兵ユニットの作成コスト-25%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HECATIALIST</Tag>
+		<English></English>
+		<French>三つの世界、三つの身体</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>三つの世界、三つの身体</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HECATIALIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]時代毎に異なった志向を得る&#13;　[ICON_BULLET]太古～古代：創造・呪文&#13;　[ICON_BULLET]中世～ルネサンス：哲学・呪文&#13;　[ICON_BULLET]工業化時代以降：金融・呪文</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]時代毎に異なった志向を得る&#13;　[ICON_BULLET]太古～古代：創造・呪文&#13;　[ICON_BULLET]中世～ルネサンス：哲学・呪文&#13;　[ICON_BULLET]工業化時代以降：金融・呪文</Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TRADELIST</Tag>
+		<English></English>
+		<French>交易志向</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>交易志向</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TRADELIST_SHORT</Tag>
+		<English></English>
+		<French>交</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>交</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TRADELIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]交易路収入[ICON_COMMERCE]+3につき追加の[ICON_PRODUCTION]+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]交易路収入[ICON_COMMERCE]+3につき追加の[ICON_PRODUCTION]+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TRADE_YIELD_MODIFIERS</Tag>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPELLIST</Tag>
+		<English></English>
+		<French>呪文志向</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>呪文志向</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPELLIST_SHORT</Tag>
+		<English></English>
+		<French>呪</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>呪</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPELLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]ボスユニットのCAレベル+1&#13;　[ICON_BULLET]リプレイ博物館の生産に[ICON_PRODUCTION]+50%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]ボスユニットのCAレベル+1&#13;　[ICON_BULLET]リプレイ博物館の生産に[ICON_PRODUCTION]+50%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ALCHOL</Tag>
+		<English></English>
+		<French>うわばみ志向</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>うわばみ志向</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALCHOL_SHORT</Tag>
+		<English></English>
+		<French>酒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>酒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ALCHOL_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]偉大な醸造人誕生時、4ターン（速度普通時）の黄金期を発生させる&#13;　[ICON_BULLET]国酒を採用した状態で都市を建設した場合、新都市に無条件で国酒布教&#13;　[ICON_BULLET]都市占領時のレジスタンスの期間-50%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]偉大な醸造人誕生時、4ターン（速度普通時）の黄金期を発生させる&#13;　[ICON_BULLET]国酒を採用した状態で都市を建設した場合、新都市に無条件で国酒布教&#13;　[ICON_BULLET]都市占領時のレジスタンスの期間-50%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LABORLIST</Tag>
+		<English></English>
+		<French>労働志向</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>労働志向</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LABORLIST_SHORT</Tag>
+		<English></English>
+		<French>労</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>労</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LABORLIST_HELP</Tag>
+		<English></English>
+		<French>　&#13;[ICON_BULLET]採用中の労働制度毎に異なる特殊効果を得る事が出来る&#13;[ICON_BULLET]原始部族社会&#13;　　[ICON_BULLET]都市の[ICON_CULTURE]+1&#13;[ICON_BULLET]奴隷制&#13;　　[ICON_BULLET]都市の[ICON_FOOD]+2&#13;　　[ICON_BULLET]人口犠牲による不満の継続期間-50%（首都のみ）&#13;[ICON_BULLET]農奴制&#13;　　[ICON_BULLET]川沿いタイルの[ICON_PRODUCTION]+1&#13;[ICON_BULLET]カースト制&#13;　　[ICON_BULLET]都市の[ICON_RESEARCH]+1,[ICON_RESEARCH]+10%&#13;　　[ICON_BULLET]市民1人を[LINK=SPECIALIST_SPY]スパイ[\LINK],[LINK=SPECIALIST_ENGINEER]技術者[\LINK]に、市民2人を[LINK=SPECIALIST_PRIEST]醸造人[\LINK]に転向可能&#13;　　[ICON_BULLET]+1[ICON_RESEARCH],+1[ICON_CULTURE],+1[ICON_ESPIONAGE]（専門家1人につき）&#13;　　[ICON_BULLET][LINK=SPECIALIST_PRIEST]醸造人[\LINK]の[ICON_PRODUCTION]+1,[ICON_COMMERCE]+2&#13;[ICON_BULLET]奴隷解放&#13;　　[ICON_BULLET]成長後に[ICON_FOOD]+10%を貯蔵&#13;　　[ICON_BULLET][ICON_HAPPY]+2&#13;[ICON_BULLET]死者の王国&#13;　　[ICON_BULLET][ICON_HEALTHY]+4&#13;[ICON_BULLET]博麗式&#13;　　[ICON_BULLET]緊急生産のコスト-15%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;[ICON_BULLET]採用中の労働制度毎に異なる特殊効果を得る事が出来る&#13;[ICON_BULLET]原始部族社会&#13;　　[ICON_BULLET]都市の[ICON_CULTURE]+1&#13;[ICON_BULLET]奴隷制&#13;　　[ICON_BULLET]都市の[ICON_FOOD]+2&#13;　　[ICON_BULLET]人口犠牲による不満の継続期間-50%（首都のみ）&#13;[ICON_BULLET]農奴制&#13;　　[ICON_BULLET]川沿いタイルの[ICON_PRODUCTION]+1&#13;[ICON_BULLET]カースト制&#13;　　[ICON_BULLET]都市の[ICON_RESEARCH]+1,[ICON_RESEARCH]+10%&#13;　　[ICON_BULLET]市民1人を[LINK=SPECIALIST_SPY]スパイ[\LINK],[LINK=SPECIALIST_ENGINEER]技術者[\LINK]に、市民2人を[LINK=SPECIALIST_PRIEST]醸造人[\LINK]に転向可能&#13;　　[ICON_BULLET]+1[ICON_RESEARCH],+1[ICON_CULTURE],+1[ICON_ESPIONAGE]（専門家1人につき）&#13;　　[ICON_BULLET][LINK=SPECIALIST_PRIEST]醸造人[\LINK]の[ICON_PRODUCTION]+1,[ICON_COMMERCE]+2&#13;[ICON_BULLET]奴隷解放&#13;　　[ICON_BULLET]成長後に[ICON_FOOD]+10%を貯蔵&#13;　　[ICON_BULLET][ICON_HAPPY]+2&#13;[ICON_BULLET]死者の王国&#13;　　[ICON_BULLET][ICON_HEALTHY]+4&#13;[ICON_BULLET]博麗式&#13;　　[ICON_BULLET]緊急生産のコスト-15%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CENTRALIZATION</Tag>
+		<English></English>
+		<French>集権志向</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>集権志向</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CENTRALIZATION_SHORT</Tag>
+		<English></English>
+		<French>集</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>集</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CENTRALIZATION_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]首都の[ICON_PRODUCTION]+1,[ICON_COMMERCE]+4,[ICON_HAPPY]+1&#13;　[ICON_BULLET]時代が「中世」以降に入ると社会制度「官僚制」を無条件で採用可能&#13;　[ICON_BULLET]首都の建造物作成コスト-25%（世界遺産は除く）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]首都の[ICON_PRODUCTION]+1,[ICON_COMMERCE]+4,[ICON_HAPPY]+1&#13;　[ICON_BULLET]時代が「中世」以降に入ると社会制度「官僚制」を無条件で採用可能&#13;　[ICON_BULLET]首都の建造物作成コスト-25%（世界遺産は除く）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RAIDERS</Tag>
+		<English></English>
+		<French>侵掠志向</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>侵掠志向</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RAIDERS_SHORT</Tag>
+		<English></English>
+		<French>侵</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>侵</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_UTOPIA</Tag>
+		<English></English>
+		<French>国有化志向</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国有化志向</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_UTOPIA_SHORT</Tag>
+		<English></English>
+		<French>国</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RESEARCH</Tag>
+		<English></English>
+		<French>研究志向</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>研究志向</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RESEARCH_SHORT</Tag>
+		<English></English>
+		<French>研</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>研</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RESEARCH_HELP</Tag>
+		<English></English>
+		<French>　&#13;　[ICON_BULLET]交易路収入[ICON_COMMERCE]+3につき追加の[ICON_COMMERCE]+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]交易路収入[ICON_COMMERCE]+3につき追加の[ICON_COMMERCE]+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PROTECTIVE_HELP</Tag>
+		<English />
+		<French>　&#13;　[ICON_BULLET]スタンドバイユニットに都市駐留1と教練1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]スタンドバイユニットに都市駐留1と教練1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KOYUUSHIKOU_SHORT</Tag>
+		<English></English>
+		<French>固</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>固</Japanese>
+	</TEXT>
+</Civ4GameText>

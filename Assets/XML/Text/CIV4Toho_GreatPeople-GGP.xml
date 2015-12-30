@@ -1,0 +1,5063 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HIMIKO</Tag>
+		<English>Himiko</English>
+		<French>卑弥呼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>卑弥呼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EN_NO_GYOJA</Tag>
+		<English>En no Gyoja</English>
+		<French>役小角</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>役小角</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JIANZHEN</Tag>
+		<English>Jianzhen</English>
+		<French>鑑真</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鑑真</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SAICHO</Tag>
+		<English>Saicho</English>
+		<French>最澄</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>最澄</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ABE_NO_SEIMEI</Tag>
+		<English>Abe no Seimei</English>
+		<French>安部晴明</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>安部晴明</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HOUNEN</Tag>
+		<English>Hounen</English>
+		<French>法然</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>法然</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SHINRAN</Tag>
+		<English>Shinran</English>
+		<French>親鸞</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>親鸞</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RENNYO</Tag>
+		<English>Rennyo</English>
+		<French>蓮如</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蓮如</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NICHIREN</Tag>
+		<English>Nichiren</English>
+		<French>日蓮</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>日蓮</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EISAI</Tag>
+		<English>Eisai</English>
+		<French>栄西</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>栄西</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DOUGEN</Tag>
+		<English>Dougen</English>
+		<French>道元</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>道元</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IKKYU</Tag>
+		<English>Ikkyu</English>
+		<French>一休宗純</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>一休宗純</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PETRO_KASUI_KIBE</Tag>
+		<English>Petro Kasui Kibe</English>
+		<French>ペトロ・カスイ・岐部</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ペトロ・カスイ・岐部</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HIRATA_ATSUTANE</Tag>
+		<English>Hirata Atsutane</English>
+		<French>平田篤胤</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>平田篤胤</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_UCHIMURA_KANZO</Tag>
+		<English>Uchimura Kanzo</English>
+		<French>内村鑑三</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>内村鑑三</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SUZUKI_DAISETSU</Tag>
+		<English>Suzuki Daisetsu</English>
+		<French>鈴木大拙</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴木大拙</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NAAGAARJUNA</Tag>
+		<English>Naagaarjuna</English>
+		<French>龍樹</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>龍樹</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MAITREYA</Tag>
+		<English>Maitreya</English>
+		<French>弥勒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>弥勒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ASANGA</Tag>
+		<English>Asanga</English>
+		<French>無著</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無著</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_VASUBANDHU</Tag>
+		<English>Vasubandhu</English>
+		<French>世親</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>世親</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KUMARAJIVA</Tag>
+		<English>Kumarajiva</English>
+		<French>鳩摩羅什</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鳩摩羅什</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AN_SHIGAO</Tag>
+		<English>An Shigao</English>
+		<French>安世高</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>安世高</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DAO_AN</Tag>
+		<English>Dao An</English>
+		<French>釈道安</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>釈道安</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_XUANZHUANG</Tag>
+		<English>Xuanzhuang</English>
+		<French>玄奘三蔵</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>玄奘三蔵</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BODHIDHARMA</Tag>
+		<English>Bodhidharma</English>
+		<French>達磨</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>達磨</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SONGTSAN_GAMPO</Tag>
+		<English>Songtsan Gampo</English>
+		<French>ソンツェン・ガンポ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ソンツェン・ガンポ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LITHAI</Tag>
+		<English>Lithai</English>
+		<French>リタイ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リタイ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SONAM_GYATSO</Tag>
+		<English>Sonam Gyatso</English>
+		<French>スーナム・ギャツォ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スーナム・ギャツォ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BHIMRAO_AMBEDKAR</Tag>
+		<English>Bhimrao R.Ambedkar</English>
+		<French>ビームラーオ・Ｒ・アンベードカル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ビームラーオ・Ｒ・アンベードカル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BUDDHADASA</Tag>
+		<English>Buddhadasa</English>
+		<French>プッタタート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>プッタタート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ANTHONY_THE_GREAT</Tag>
+		<English>Anthony the Great</English>
+		<French>大アントニオス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大アントニオス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ST_IOANNES_CHRYSOSTOMOS</Tag>
+		<English>St. Ioannes Chrysostomos</English>
+		<French>聖金口イオアン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖金口イオアン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ST_FRUMENTIUS</Tag>
+		<English>St. Frumentius</English>
+		<French>聖フルメンティウス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖フルメンティウス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NESTORIUS</Tag>
+		<English>Nestorius</English>
+		<French>ネストリウス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ネストリウス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ST_IOAN</Tag>
+		<English>St. Ioan</English>
+		<French>聖イオアン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖イオアン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ST_METHODIOS</Tag>
+		<English>St. Methodios</English>
+		<French>聖メトディオス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖メトディオス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ST_KYRILLOS</Tag>
+		<English>St. Kyrillos</English>
+		<French>聖キュリロス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖キュリロス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ST_IVAN_RILSKI</Tag>
+		<English>St. Ivan Rilski</English>
+		<French>聖イヴァン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖イヴァン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_THOMAS_BECKET</Tag>
+		<English>Thomas Becket</English>
+		<French>トマス・ベケット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>トマス・ベケット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEBRE_MESQEL_LALIBELA</Tag>
+		<English>Gebre Mesqel Lalibela</English>
+		<French>ゲブレ・メスケル・ラリベラ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ゲブレ・メスケル・ラリベラ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRANCISCO_D'ASSISI</Tag>
+		<English>Francesco d'Assisi</English>
+		<French>聖フランチェスコ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖フランチェスコ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MEISTER_ECKHART</Tag>
+		<English>Meister Eckhart</English>
+		<French>マイスター・エックハルト</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マイスター・エックハルト</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ST_SERGIUS</Tag>
+		<English>St. Sergius</English>
+		<French>聖セルギイ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖セルギイ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JAN_HUS</Tag>
+		<English>Jan Hus</English>
+		<French>ヤン・フス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヤン・フス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARTIN_LUTHER</Tag>
+		<English>Martin Luther</English>
+		<French>マルティン・ルター</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マルティン・ルター</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HULDRYCH_ZWINGLI</Tag>
+		<English>Huldrych Zwingli</English>
+		<French>フルドリッヒ・ツヴィングリ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フルドリッヒ・ツヴィングリ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JEAN_CALVIN</Tag>
+		<English>John Calvin</English>
+		<French>ジャン・カルヴァン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジャン・カルヴァン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LAS_CASAS</Tag>
+		<English>las Casas</English>
+		<French>ラス・カサス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ラス・カサス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRANCISCO_DE_XAVIER</Tag>
+		<English>Francisco de Xavier</English>
+		<French>フランシスコ・ザビエル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フランシスコ・ザビエル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WILLIAM_BRADFORD</Tag>
+		<English>William Bradford</English>
+		<French>ウィリアム・ブラッドフォード</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウィリアム・ブラッドフォード</Japanese>
+	</TEXT>	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EMANUEL_SWEDENBORG</Tag>
+		<English>Emanuel Swedenborg</English>
+		<French>エマヌエル・スヴェーデンボリ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エマヌエル・スヴェーデンボリ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_WESLEY</Tag>
+		<English>John Wesley</English>
+		<French>ジョン・ウェスレー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョン・ウェスレー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ST_SERAPHIM</Tag>
+		<English>St. Seraphim</English>
+		<French>聖セラフィム</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖セラフィム</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SOREN_KIERKEGAARD</Tag>
+		<English>Soren Kierkegaard</English>
+		<French>セーレン・キェルケゴール</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>セーレン・キェルケゴール</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHARLES_SPURGEON</Tag>
+		<English>Charles Spurgeon</English>
+		<French>チャールズ・スポルジョン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チャールズ・スポルジョン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KARL_BARTH</Tag>
+		<English>Karl Barth</English>
+		<French>カール・バルト</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カール・バルト</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DIETRICH_BONHOEFFER</Tag>
+		<English>Dietrich Bonhoeffer</English>
+		<French>ディートリッヒ・ボンヘッファー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ディートリッヒ・ボンヘッファー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PAUL_TILLICH</Tag>
+		<English>Paul Tillich</English>
+		<French>パウル・ティリッヒ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パウル・ティリッヒ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MOTHER_TERESA</Tag>
+		<English>Mother Teresa</English>
+		<French>マザー・テレサ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マザー・テレサ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARTIN_LUTHER_KING_JR</Tag>
+		<English>Martin Luther King,Jr.</English>
+		<French>マーティン・ルーサー・キング・Ｊｒ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マーティン・ルーサー・キング・Ｊｒ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AL_BUKHARI</Tag>
+		<English>al-Bukhari</English>
+		<French>アル＝ブハーリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アル＝ブハーリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TABARI</Tag>
+		<English>al-Tabari</English>
+		<French>タバリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>タバリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ASHARI</Tag>
+		<English>Ash'ari</English>
+		<French>アシュアリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アシュアリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AL_GHAZALI</Tag>
+		<English>al Ghazali</English>
+		<French>アル・ガザーリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アル・ガザーリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MULLA_SADRA</Tag>
+		<English>Mulla Sadra</English>
+		<French>モッラー・サドラー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>モッラー・サドラー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AFGHANI</Tag>
+		<English>Jamal-al-Din Afghani</English>
+		<French>アフガーニー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アフガーニー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MUHAMMAD_ABDUH</Tag>
+		<English>Muhammad Abduh</English>
+		<French>ムハンマド・アブドゥフ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ムハンマド・アブドゥフ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RASHID_RIDA</Tag>
+		<English>Rashid Rida</English>
+		<French>ラシード・リダー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ラシード・リダー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YAJNAVALKYA</Tag>
+		<English>Yajnavalkya</English>
+		<French>ヤージュニャヴァルキヤ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヤージュニャヴァルキヤ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PATANJALI</Tag>
+		<English>Patanjali</English>
+		<French>パタンジャリ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パタンジャリ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RAMANUJA</Tag>
+		<English>Ramanuja</English>
+		<French>ラーマーヌジャ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ラーマーヌジャ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RAMANANDA</Tag>
+		<English>Ramananda</English>
+		<French>ラーマーナンダ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ラーマーナンダ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KABIR</Tag>
+		<English>Kabir</English>
+		<French>カビール</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カビール</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SWAMI_VIVEKANANDA</Tag>
+		<English>Swami Vivekananda</English>
+		<French>ヴィヴェーカーナンダ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヴィヴェーカーナンダ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SRI_AUROBINDO</Tag>
+		<English>Sri Aurobindo</English>
+		<French>オーロビンド・ゴーシュ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>オーロビンド・ゴーシュ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EZEKIEL</Tag>
+		<English>Ezekiel</English>
+		<French>エゼキエル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エゼキエル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JUDAH_HANASI</Tag>
+		<English>Judah haNasi</English>
+		<French>イェフーダー・ハン＝ナーシー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>イェフーダー・ハン＝ナーシー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MOSHE_BEN_MAIMON</Tag>
+		<English>Moshe ben Maimon</English>
+		<French>モーシェ・ベン＝マイモーン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>モーシェ・ベン＝マイモーン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MOSES_DE_LEON</Tag>
+		<English>Moses de Leon</English>
+		<French>モーゼス・デ・レオン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>モーゼス・デ・レオン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_THEODOR_HERZL</Tag>
+		<English>Theodor Herzl</English>
+		<French>テーオドール・ヘルツル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テーオドール・ヘルツル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_XUN_ZI</Tag>
+		<English>Xun Zi</English>
+		<French>荀子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>荀子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WANG_YANGMING</Tag>
+		<English>Wang Yangming</English>
+		<French>王陽明</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>王陽明</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_XU_FU</Tag>
+		<English>Xu Fu</English>
+		<French>徐福</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>徐福</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ZHANG_DAOLING</Tag>
+		<English>Zhang Daoling</English>
+		<French>張陵</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>張陵</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WANG_CHONGYANG</Tag>
+		<English>Wang Chongyang</English>
+		<French>王重陽</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>王重陽</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_QIU_CHUJI</Tag>
+		<English>Qiu Chuji</English>
+		<French>丘長春</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>丘長春</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ZHANG_SANFENG</Tag>
+		<English>Zhang Sanfeng</English>
+		<French>張三豊</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>張三豊</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHEN_WANGTING</Tag>
+		<English>Chen Wangting</English>
+		<French>陳王廷</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>陳王廷</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AKHENATEN</Tag>
+		<English>Akhenaten</English>
+		<French>アクエンアテン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アクエンアテン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PLOTINUS</Tag>
+		<English>Plotinus</English>
+		<French>プロティノス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>プロティノス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KARTIR</Tag>
+		<English>Kartir</English>
+		<French>カルティール</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カルティール</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KHOKHCUU_TEB_TENGRI</Tag>
+		<English>Khokhcuu Teb-Tengri</English>
+		<French>ココチュ・テブ・テングリ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ココチュ・テブ・テングリ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TLACAELEL</Tag>
+		<English>Tlacaelel</English>
+		<French>トラカエレル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>トラカエレル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TENOCH</Tag>
+		<English>Tenoch</English>
+		<French>テノチ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テノチ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_DEE</Tag>
+		<English>John Dee</English>
+		<French>ジョン・ディー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョン・ディー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRANCOIS_MACKANDAL</Tag>
+		<English>Francois Mackandal</English>
+		<French>フランソワ・マッカンダル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フランソワ・マッカンダル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HONG_XIUQUAN</Tag>
+		<English>Hong Xiuquan</English>
+		<French>洪秀全</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>洪秀全</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_QUANAH_PARKER</Tag>
+		<English>Quanah Parker</English>
+		<French>クアナ・パーカー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>クアナ・パーカー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WOVOKA</Tag>
+		<English>Wovoka</English>
+		<French>ウォヴォカ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウォヴォカ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALEISTER_CROWLEY</Tag>
+		<English>Aleister Crowley</English>
+		<French>アレイスター・クロウリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アレイスター・クロウリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JIDDU_KRISHNAMURTI</Tag>
+		<English>Jiddu Krishnamurti</English>
+		<French>ジッドゥ・クリシュナムルティ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジッドゥ・クリシュナムルティ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BOBBY_HENDERSON</Tag>
+		<English>Bobby Henderson</English>
+		<French>ボビー･ヘンダーソン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ボビー･ヘンダーソン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MURASAKI_SHIKIBU</Tag>
+		<English>Murasaki Shikibu</English>
+		<French>紫式部</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紫式部</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KANAMI</Tag>
+		<English>Kanami</English>
+		<French>観阿弥</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>観阿弥</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ZEAMI</Tag>
+		<English>Zeami</English>
+		<French>世阿弥</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>世阿弥</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SESSHU</Tag>
+		<English>Sesshu</English>
+		<French>雪舟</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>雪舟</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IKENOBO_SENOU</Tag>
+		<English>Ikenobo Senou</English>
+		<French>池坊専応</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>池坊専応</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SEN_NO_RIKYU</Tag>
+		<English>Sen no Rikyu</English>
+		<French>千利休</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>千利休</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IZUMO_NO_OKUNI</Tag>
+		<English>Izumo no Okuni</English>
+		<French>出雲阿国</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>出雲阿国</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MATSUO_BASYOU</Tag>
+		<English>Matsuo Basyou</English>
+		<French>松尾芭蕉</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>松尾芭蕉</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KATSUSIKA_HOKUSAI</Tag>
+		<English>Katsushika Hokusai</English>
+		<French>葛飾北斎</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>葛飾北斎</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_OKAKURA_TENSHIN</Tag>
+		<English>Okakura Tenshin</English>
+		<French>岡倉天心</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>岡倉天心</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YANAGI_SOETSU</Tag>
+		<English>Yanagi Soetsu</English>
+		<French>柳宗悦</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>柳宗悦</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KITAOOJI_ROSANJIN</Tag>
+		<English>Kitaooji Rosanjin</English>
+		<French>北大路魯山人</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>北大路魯山人</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MIYAZAWA_KENZI</Tag>
+		<English>Miyazawa Kenzi</English>
+		<French>宮沢賢治</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宮沢賢治</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KAWABATA_YASUNARI</Tag>
+		<English>Kawabata Yasunari</English>
+		<French>川端康成</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>川端康成</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TESHIGAHARA_SOFU</Tag>
+		<English>Teshigahara Sofu</English>
+		<French>勅使河原蒼風</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>勅使河原蒼風</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LI_XIANGLAN</Tag>
+		<English>Shirley Yamaguchi</English>
+		<French>李香蘭</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>李香蘭</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MISHIMA_YUKIO</Tag>
+		<English>Misima Yukio</English>
+		<French>三島由紀夫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>三島由紀夫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TEZUKA_OSAMU</Tag>
+		<English>Tezuka Osamu</English>
+		<French>手塚治虫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>手塚治虫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KUROSAWA_AKIRA</Tag>
+		<English>Kurosawa Akira</English>
+		<French>黒澤明</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>黒澤明</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LU_YU</Tag>
+		<English>Lu Yu</English>
+		<French>陸羽</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>陸羽</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARIE_ANTOINE_CAREME</Tag>
+		<English>Marie-Antoine Careme</English>
+		<French>アントナン・カレーム</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アントナン・カレーム</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_J_E_ROBERT_HOUDIN</Tag>
+		<English>J･E･Robert-Houdin</English>
+		<French>Ｊ・Ｅ・ロベール＝ウーダン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Ｊ・Ｅ・ロベール＝ウーダン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARIUS_PETIPA</Tag>
+		<English>Marius Petipa</English>
+		<French>マリウス・プティパ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マリウス・プティパ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SERGEI_DIAGHILEV</Tag>
+		<English>Sergei Diaghilev</English>
+		<French>セルゲイ・ディアギレフ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>セルゲイ・ディアギレフ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HARRY_HOUDINI</Tag>
+		<English>Harry Houdini</English>
+		<French>ハリー・フーディーニ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ハリー・フーディーニ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ISADORA_DUNCAN</Tag>
+		<English>Isadora Duncan</English>
+		<French>イサドラ・ダンカン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>イサドラ・ダンカン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_VASLAV_NIJINSKY</Tag>
+		<English>Vaslav Nijinsky</English>
+		<French>ヴァーツラフ・ニジンスキー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヴァーツラフ・ニジンスキー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALFRED_STIEGLITZ</Tag>
+		<English>Alfred Stieglitz</English>
+		<French>アルフレッド・スティーグリッツ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アルフレッド・スティーグリッツ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHARLES_CHAPLIN</Tag>
+		<English>Charles Chaplin</English>
+		<French>チャールズ・チャップリン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チャールズ・チャップリン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BRUCE_LEE</Tag>
+		<English>Bruce Lee</English>
+		<French>李小龍</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>李小龍</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WALT_DESNEY</Tag>
+		<English>Walt Desney</English>
+		<French>ウォルト・ディズニー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウォルト・ディズニー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BESSIE_SMITH</Tag>
+		<English>Bessie Smith</English>
+		<French>ベッシー・スミス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ベッシー・スミス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DJANGO_REINHARDT</Tag>
+		<English>Django Reinhardt</English>
+		<French>ジャンゴ・ラインハルト</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジャンゴ・ラインハルト</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARLON_BRANDO</Tag>
+		<English>Marlon Brando</English>
+		<French>マーロン・ブランド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マーロン・ブランド</Japanese>
+ </TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARILYN_MONROE</Tag>
+		<English>Marilyn Monroe</English>
+		<French>マリリン・モンロー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マリリン・モンロー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AUDREY_HEPBURN</Tag>
+		<English>Audrey Hepburn</English>
+		<French>オードリー・ヘプバーン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>オードリー・ヘプバーン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RAY_CHARLES</Tag>
+		<English>Ray Charles</English>
+		<French>レイ・チャールズ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レイ・チャールズ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ElVIS_PRESLEY</Tag>
+		<English>Elvis Presley</English>
+		<French>エルヴィス・プレスリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エルヴィス・プレスリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FREDDIE_MERCURY</Tag>
+		<English>Freddie Mercury</English>
+		<French>フレディ・マーキュリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フレディ・マーキュリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ANDY_WARHOL</Tag>
+		<English>Andy Warhol</English>
+		<French>アンディ・ウォーホル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アンディ・ウォーホル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARCEL_DUCHAMP</Tag>
+		<English>Marcel Duchamp</English>
+		<French>マルセル・デュシャン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マルセル・デュシャン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JIMI_HENDRIX</Tag>
+		<English>Jimi Hendrix</English>
+		<French>ジミ・ヘンドリクス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジミ・ヘンドリクス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BOB_MARLEY</Tag>
+		<English>Bob Marley</English>
+		<French>ボブ・マーリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ボブ・マーリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MICHEAL_JACKSON</Tag>
+		<English>Micheal Jackson</English>
+		<French>マイケル・ジャクソン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マイケル・ジャクソン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALFRED_HITCHCOCK</Tag>
+		<English>Alfred Hitchcock</English>
+		<French>アルフレッド・ヒッチコック</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アルフレッド・ヒッチコック</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_LENNON</Tag>
+		<English>John Lennon</English>
+		<French>ジョン・レノン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョン・レノン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SERGEI_EISENSTEIN</Tag>
+		<English>Sergei Eisenstein</English>
+		<French>セルゲイ・エイゼンシュテイン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>セルゲイ・エイゼンシュテイン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LENI_RIEFENSTAHL</Tag>
+		<English>Leni Riefenstahl</English>
+		<French>レニ・リーフェンシュタール</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レニ・リーフェンシュタール</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_STANLEY_KUBRICK</Tag>
+		<English>Stanley Kubrick</English>
+		<French>スタンリー・キューブリック</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スタンリー・キューブリック</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ANDREI_TARKOVSKY</Tag>
+		<English>Andrei Tarkovsky</English>
+		<French>アンドレイ・タルコフスキー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アンドレイ・タルコフスキー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SID_MEIER</Tag>
+		<English>Sid Meier</English>
+		<French>シド・マイヤー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>シド・マイヤー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PHEIDIAS</Tag>
+		<English>Pheidias</English>
+		<French>ペイディアス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ペイディアス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GU_KAIZHI</Tag>
+		<English>Gu Kaizhi</English>
+		<French>顧ガイ之</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>顧ガイ之</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SHEN_ZHOU</Tag>
+		<English>Shen Zhou</English>
+		<French>沈周</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>沈周</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHARLES_LE_BRUN</Tag>
+		<English>Charles Le Brun</English>
+		<French>シャルル・ル・ブラン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>シャルル・ル・ブラン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRANCISCO_GOYA</Tag>
+		<English>Francisco Goya</English>
+		<French>フランシスコ・デ・ゴヤ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フランシスコ・デ・ゴヤ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AUGUSTE_RODIN</Tag>
+		<English>Auguste Rodin</English>
+		<French>オーギュスト・ロダン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>オーギュスト・ロダン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALPHONSE_MUCHA</Tag>
+		<English>Alphonse Mucha</English>
+		<French>アルフォンス・ムハ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アルフォンス・ムハ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EDVARD_MUNCH</Tag>
+		<English>Edvard Munch</English>
+		<French>エドヴァルド・ムンク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エドヴァルド・ムンク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WASSILY_KANDINSKY</Tag>
+		<English>Wassily Kandinsky</English>
+		<French>ワシリー・カンディンスキー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ワシリー・カンディンスキー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MAURITS_ESCHER</Tag>
+		<English>Maurits Escher</English>
+		<French>マウリッツ・エッシャー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マウリッツ・エッシャー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SALVADOR_DALI</Tag>
+		<English>Salvador Dali</English>
+		<French>サルバドール・ダリ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>サルバドール・ダリ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHANN_PACHELBEL</Tag>
+		<English>Johann Pachelbel</English>
+		<French>ヨハン・パッヘルベル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヨハン・パッヘルベル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NICCOLO_PAGANINI</Tag>
+		<English>Niccolo Paganini</English>
+		<French>ニコロ・パガニーニ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ニコロ・パガニーニ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRANZ_SCHUBERT</Tag>
+		<English>Franz Schubert</English>
+		<French>フランツ・シューベルト</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フランツ・シューベルト</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FREDERIC_CHOPIN</Tag>
+		<English>Frederic Chopin</English>
+		<French>フレデリック・ショパン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フレデリック・ショパン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRANZ_LISZT</Tag>
+		<English>Franz Liszt</English>
+		<French>フランツ・リスト</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フランツ・リスト</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RICHARD_WAGNER</Tag>
+		<English>Richard Wagner</English>
+		<French>リヒャルト・ワーグナー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リヒャルト・ワーグナー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PYOTR_TCHAIKOVSKY</Tag>
+		<English>Pyotr Tchaikovsky</English>
+		<French>ピョートル・チャイコフスキー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ピョートル・チャイコフスキー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EDWARD_ELGAR</Tag>
+		<English>Edward Elgar</English>
+		<French>エドワード・エルガー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エドワード・エルガー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PABLO_CASALS</Tag>
+		<English>Pablo Casals</English>
+		<French>パブロ・カザルス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パブロ・カザルス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PAUL_HINDEMITH</Tag>
+		<English>Paul Hindemith</English>
+		<French>パウル・ヒンデミット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パウル・ヒンデミット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ERIK_SATIE</Tag>
+		<English>Erik Satie</English>
+		<French>エリック・サティ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エリック・サティ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IGOR_STRAVINSKY</Tag>
+		<English>Igor Stravinsky</English>
+		<French>イーゴリ・ストラヴィンスキー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>イーゴリ・ストラヴィンスキー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEORGE_GERSHWIN</Tag>
+		<English>George Gershwin</English>
+		<French>ジョージ・ガーシュウィン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョージ・ガーシュウィン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DMITRII_SHOSTAKOVICH</Tag>
+		<English>Dmitrii Shostakovich</English>
+		<French>ドミートリイ・ショスタコーヴィチ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ドミートリイ・ショスタコーヴィチ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_VLADIMIR_HOROWITZ</Tag>
+		<English>Vladimir Horowitz</English>
+		<French>ウラディミール・ホロヴィッツ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウラディミール・ホロヴィッツ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JASCHA_HEIFETZ</Tag>
+		<English>Jascha Heifetz</English>
+		<French>ヤッシャ・ハイフェッツ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヤッシャ・ハイフェッツ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LUCIANO_PAVAROTTI</Tag>
+		<English>Luciano Pavarotti</English>
+		<French>ルチアーノ・パヴァロッティ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルチアーノ・パヴァロッティ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ARTURO_TOSCANINI</Tag>
+		<English>Arturo Toscanini</English>
+		<French>アルトゥーロ・トスカニーニ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アルトゥーロ・トスカニーニ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BRUNO_WALTER</Tag>
+		<English>Bruno Walter</English>
+		<French>ブルーノ・ヴァルター</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ブルーノ・ヴァルター</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LEOPOLD_STOKOWSKI</Tag>
+		<English>Leopold Stokowski</English>
+		<French>レオポルド・ストコフスキー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レオポルド・ストコフスキー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WILHELM_FURTWANGLER</Tag>
+		<English>Wilhelm Furtwangler</English>
+		<French>ヴィルヘルム・フルトヴェングラー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヴィルヘルム・フルトヴェングラー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KARL_BOHM</Tag>
+		<English>Karl Bohm</English>
+		<French>カール・ベーム</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カール・ベーム</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YEVGENY_MRAVINSKY</Tag>
+		<English>Yevgeny Mravinsky</English>
+		<French>エフゲニー・ムラヴィンスキー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エフゲニー・ムラヴィンスキー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HERBERT_VON_KARAJAN</Tag>
+		<English>Herbert von Karajan</English>
+		<French>ヘルベルト・フォン・カラヤン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヘルベルト・フォン・カラヤン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LEONARD_BERNSTEIN</Tag>
+		<English>Leonard Bernstein</English>
+		<French>レナード・バーンスタイン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レナード・バーンスタイン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CARLOS_KLEIBER</Tag>
+		<English>Carlos Kleiber</English>
+		<French>カルロス・クライバー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カルロス・クライバー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SAPPHO</Tag>
+		<English>Sappho</English>
+		<French>サッフォー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>サッフォー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CAO_ZHI</Tag>
+		<English>Cao Zhi</English>
+		<French>曹植</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>曹植</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ABU_NUWAS</Tag>
+		<English>Abu Nuwas</English>
+		<French>アブー・ヌワース</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アブー・ヌワース</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BAI_JUYI</Tag>
+		<English>Bai Juyi</English>
+		<French>白居易</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白居易</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FERDOWSI</Tag>
+		<English>Ferdowsi</English>
+		<French>フェルドウスィー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フェルドウスィー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YUSUF_BALASAGHUNI</Tag>
+		<English>Yusuf Balasaghuni</English>
+		<French>ユースフ・ハーッス・ハージブ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ユースフ・ハーッス・ハージブ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SNORRI_STURLUSON</Tag>
+		<English>Snorri Sturluson</English>
+		<French>スノッリ・ストゥルルソン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スノッリ・ストゥルルソン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HEO_NANSEOLHEON</Tag>
+		<English>Heo Nanseolheon</English>
+		<French>許蘭雪軒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>許蘭雪軒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRIEDRICH_VON_SCHILLER</Tag>
+		<English>Friedrich von Schiller</English>
+		<French>フリードリヒ・フォン・シラー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フリードリヒ・フォン・シラー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHARLES_BAUDELAIRE</Tag>
+		<English>Charles Baudelaire</English>
+		<French>シャルル・ボードレール</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>シャルル・ボードレール</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RABINDRANATH_TAGORE</Tag>
+		<English>Rabindranath Tagore</English>
+		<French>ラビンドラナート・タゴール</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ラビンドラナート・タゴール</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AISOPOS</Tag>
+		<English>Aisopos</English>
+		<French>アイソーポス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アイソーポス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TUROLDUS</Tag>
+		<English>Turoldus</English>
+		<French>テュロルド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テュロルド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HEO_GYUN</Tag>
+		<English>Heo Gyun</English>
+		<French>許イン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>許イン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHOE_NAMSEON</Tag>
+		<English>Choe Nam-seon</English>
+		<French>崔南善</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>崔南善</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LEE_KWANGSU</Tag>
+		<English>Lee Kwang-su</English>
+		<French>李光洙</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>李光洙</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ELIAS_LONNROT</Tag>
+		<English>Elias Lonnrot</English>
+		<French>エリアス・リョンロート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エリアス・リョンロート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEORGE_BERNARD_SHAW</Tag>
+		<English>George Bernard Shaw</English>
+		<French>ジョージ・バーナード・ショー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョージ・バーナード・ショー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FEDOR_DOSTOEVSKII</Tag>
+		<English>Fedor Dostoevskii</English>
+		<French>フョードル・ドストエフスキー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フョードル・ドストエフスキー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LEV_TOLSTOJ</Tag>
+		<English>Lev Tolstoj</English>
+		<French>レフ・トルストイ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レフ・トルストイ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LEWIS_CARROLL</Tag>
+		<English>Lewis Carroll</English>
+		<French>ルイス・キャロル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルイス・キャロル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ARTHUR_CONAN_DOYLE</Tag>
+		<English>Arthur Conan Doyle</English>
+		<French>アーサー・コナン・ドイル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アーサー・コナン・ドイル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_H_G_WELLS</Tag>
+		<English>Herbert George Wells</English>
+		<French>Ｈ・Ｇ・ウェルズ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Ｈ・Ｇ・ウェルズ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_J_R_R_TOLKIEN</Tag>
+		<English>John Ronald Reuel Tolkien</English>
+		<French>Ｊ・Ｒ・Ｒ・トールキン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Ｊ・Ｒ・Ｒ・トールキン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALEXANDRE_DUMAS</Tag>
+		<English>Alexandre Dumas</English>
+		<French>アレクサンドル・デュマ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アレクサンドル・デュマ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HANS_CHRISTIAN_ANDERSEN</Tag>
+		<English>Hans Christian Andersen</English>
+		<French>ハンス・クリスチャン・アンデルセン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ハンス・クリスチャン・アンデルセン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KAREL_CAPEK</Tag>
+		<English>Karel Capek</English>
+		<French>カレル・チャペック</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カレル・チャペック</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JULES_VERNE</Tag>
+		<English>Jules Verne</English>
+		<French>ジュール・ヴェルヌ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジュール・ヴェルヌ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SAINT_EXUPERY</Tag>
+		<English>Saint-Exupery</English>
+		<French>サン＝テグジュペリ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>サン＝テグジュペリ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JEAN_PAUL_SARTRE</Tag>
+		<English>Jean Paul Sartre</English>
+		<French>ジャン＝ポール・サルトル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジャン＝ポール・サルトル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EDGAR_ALLAN_POE</Tag>
+		<English>Edgar Allan Poe</English>
+		<French>エドガー・アラン・ポー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エドガー・アラン・ポー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AMBROSE_BIERCE</Tag>
+		<English>Ambrose Bierce</English>
+		<French>アンブローズ・ビアス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アンブローズ・ビアス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LAURA_INGALLS_WILDER</Tag>
+		<English>Laura Ingalls Wilder</English>
+		<French>ローラ・インガルス・ワイルダー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ローラ・インガルス・ワイルダー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_H_P_LOVECRAFT</Tag>
+		<English>Howard Phillips Lovecraft</English>
+		<French>Ｈ・Ｐ・ラヴクラフト</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Ｈ・Ｐ・ラヴクラフト</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ERNEST_HEMINGWAY</Tag>
+		<English>Ernest Hemingway</English>
+		<French>アーネスト・ヘミングウェイ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アーネスト・ヘミングウェイ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_J_D_SALINGER</Tag>
+		<English>J.D.Salinger</English>
+		<French>Ｊ・Ｄ・サリンジャー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Ｊ・Ｄ・サリンジャー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LUO_GUANZHONG</Tag>
+		<English>Luo Guanzhong</English>
+		<French>羅貫中</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>羅貫中</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ZHOU_SHUREN</Tag>
+		<English>Zhou Shuren</English>
+		<French>魯迅</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魯迅</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WANI</Tag>
+		<English>Wani</English>
+		<French>王仁</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>王仁</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SEKI_TAKAKAZU</Tag>
+		<English>Seki Takakazu</English>
+		<French>関孝和</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>関孝和</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HANAOKA_SEISHU</Tag>
+		<English>Hanaoka Seishu</English>
+		<French>華岡青洲</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>華岡青洲</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KITASATO_SHIBASABURO</Tag>
+		<English>Kitasato Shibasaburo</English>
+		<French>北里柴三郎</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>北里柴三郎</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MINAKATA_KUMAGUSU</Tag>
+		<English>Minakata Kumagusu</English>
+		<French>南方熊楠</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>南方熊楠</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YUKAWA_HIDEKI</Tag>
+		<English>Yukawa Hideki</English>
+		<French>湯川秀樹</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>湯川秀樹</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ITO_KIYOSHI</Tag>
+		<English>Ito Kiyoshi</English>
+		<French>伊藤清</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>伊藤清</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SOLOMON</Tag>
+		<English>Solomon</English>
+		<French>ソロモン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ソロモン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ST_ISIDORUS</Tag>
+		<English>St. Isidorus</English>
+		<French>聖イシドールス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖イシドールス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ST_PHOTIOS</Tag>
+		<English>St. Photios</English>
+		<French>聖フォティオス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖フォティオス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALCUIN</Tag>
+		<English>Alcuin</English>
+		<French>アルクィン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アルクィン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALBERTUS_MAGNUS</Tag>
+		<English>Albertus Magnus</English>
+		<French>アルベルトゥス・マグヌス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アルベルトゥス・マグヌス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FREDERICK_II</Tag>
+		<English>Frederick II</English>
+		<French>フェデリコⅡ世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フェデリコⅡ世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PARACELSUS</Tag>
+		<English>Paracelsus</English>
+		<French>パラケルスス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パラケルスス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALEXANDER_FLEMING</Tag>
+		<English>Alexander Fleming</English>
+		<French>アレクサンダー・フレミング</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アレクサンダー・フレミング</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GREGOR_MENDEL</Tag>
+		<English>Gregor Mendel</English>
+		<French>グレゴール・メンデル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>グレゴール・メンデル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CARL_VON_LINNE</Tag>
+		<English>Carl von Linne</English>
+		<French>カール・フォン・リンネ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カール・フォン・リンネ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LEONHARD_EULER</Tag>
+		<English>Leonhard Euler</English>
+		<French>レオンハルト・オイラー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レオンハルト・オイラー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOSEPH_LOUIS_LAGRANGE</Tag>
+		<English>Joseph Louis Lagrange</English>
+		<French>ジョセフ＝ルイ・ラグランジュ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョセフ＝ルイ・ラグランジュ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PIERRE_SIMON_LAPLACE</Tag>
+		<English>Pierre-Simon Laplace</English>
+		<French>ピエール＝シモン・ラプラス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ピエール＝シモン・ラプラス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SEQUOYAH</Tag>
+		<English>Sequoyah</English>
+		<French>シクウォイア</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>シクウォイア</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JUSTUS_VON_LIEBIG</Tag>
+		<English>Justus von Liebig</English>
+		<French>ユストゥス・フォン・リービッヒ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ユストゥス・フォン・リービッヒ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ERNST_MACH</Tag>
+		<English>Ernst Mach</English>
+		<French>エルンスト・マッハ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エルンスト・マッハ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ROBERT_KOCH</Tag>
+		<English>Robert Koch</English>
+		<French>ロベルト・コッホ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ロベルト・コッホ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KONSTANTIN_TSIOLKOVSKY</Tag>
+		<English>Konstantin Tsiolkovsky</English>
+		<French>コンスタンティン・ツィオルコフスキー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>コンスタンティン・ツィオルコフスキー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_L_L_ZAMENHOF</Tag>
+		<English>L.L.Zamenhof</English>
+		<French>ルドヴィコ・ザメンホフ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルドヴィコ・ザメンホフ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRITZ_HABER</Tag>
+		<English>Fritz Haber</English>
+		<French>フリッツ・ハーバー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フリッツ・ハーバー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LISE_MEITNER</Tag>
+		<English>Lise Meitner</English>
+		<French>リーゼ・マイトナー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リーゼ・マイトナー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ROBERT_OPPENHEIMER</Tag>
+		<English>Robert Oppenheimer</English>
+		<French>ロバート・オッペンハイマー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ロバート・オッペンハイマー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALAN_TURING</Tag>
+		<English>Alan Turing</English>
+		<French>アラン・チューリング</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アラン・チューリング</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_VON_NEUMANN</Tag>
+		<English>John von Neumann</English>
+		<French>ジョン・フォン・ノイマン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョン・フォン・ノイマン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ZHANG_ZHONGJING</Tag>
+		<English>Zhang Zhongjing</English>
+		<French>張機</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>張機</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GE_HONG</Tag>
+		<English>Chen Wangting</English>
+		<French>葛洪</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>葛洪</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TAO_HONGJING</Tag>
+		<English>Tao Hongjing</English>
+		<French>陶弘景</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>陶弘景</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JIA_SIXIE</Tag>
+		<English>Jia Sixie</English>
+		<French>賈思キョウ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>賈思キョウ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LI_SHIZHEN</Tag>
+		<English>Li Shizhen</English>
+		<French>李時珍</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>李時珍</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HEO_JUN</Tag>
+		<English>Heo Jun</English>
+		<French>許浚</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>許浚</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_XU_GUANGQI</Tag>
+		<English>Xu Guangqi</English>
+		<French>徐光啓</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>徐光啓</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ZHU_XI</Tag>
+		<English>Zhu Xi</English>
+		<French>朱熹</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>朱熹</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JEONG_INJI</Tag>
+		<English>Jeong In-ji</English>
+		<French>鄭麟趾</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鄭麟趾</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JAGADISH_CHANDRA_BOSE</Tag>
+		<English>Jagadish Chandra Bose</English>
+		<French>ジャガディッシュ・チャンドラ・ボース</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジャガディッシュ・チャンドラ・ボース</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SRINIVASA_RAMANUJAN</Tag>
+		<English>Srinivasa Ramanujan</English>
+		<French>シュリニヴァーサ・ラマヌジャン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>シュリニヴァーサ・ラマヌジャン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JABIR_IBN_HAYYAN</Tag>
+		<English>Jabir ibn Hayyan</English>
+		<French>ジャービル・イブン＝ハイヤーン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジャービル・イブン＝ハイヤーン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HUNAYN_IBN_ISHAQ</Tag>
+		<English>Hunayn ibn Ishaq</English>
+		<French>フナイン・イブン・イスハーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フナイン・イブン・イスハーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AL_FARABI</Tag>
+		<English>Al-Farabi</English>
+		<French>アル＝ファーラービー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アル＝ファーラービー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ABU_RAYHAN_BIRUNI</Tag>
+		<English>Abu Rayhan Biruni</English>
+		<French>アル＝ビールーニー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アル＝ビールーニー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NASIR_TUSI</Tag>
+		<English>Nasir al-Din al-Tusi</English>
+		<French>ナスィールッディーン・トゥースィー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ナスィールッディーン・トゥースィー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IBN_SINA</Tag>
+		<English>Ibn Sina</English>
+		<French>イブン＝スィーナー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>イブン＝スィーナー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_OMAR_KHAYYAM</Tag>
+		<English>Omar Khayyam</English>
+		<French>ウマル・ハイヤーム</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウマル・ハイヤーム</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IBN_RUSHD</Tag>
+		<English>Ibn Rushd</English>
+		<French>イブン・ルシュド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>イブン・ルシュド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KUNINAKA_NO_KIMIMARO</Tag>
+		<English>Kuninaka no Kimimaro</English>
+		<French>国中公麻呂</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国中公麻呂</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MASAMUNE</Tag>
+		<English>Masamune</English>
+		<French>正宗</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>正宗</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YI_SAMPYEONG</Tag>
+		<English>Yi Sam-pyeong</English>
+		<French>李参平</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>李参平</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HIRAGA_GENNAI</Tag>
+		<English>Hiraga Gennai</English>
+		<French>平賀源内</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>平賀源内</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TANAKA_HISASHIGE</Tag>
+		<English>Tanaka Hisashige</English>
+		<French>田中久重</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>田中久重</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TOYODA_SAKICHI</Tag>
+		<English>Toyoda Sakichi</English>
+		<French>豊田佐吉</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>豊田佐吉</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HONDA_KOTARO</Tag>
+		<English>Honda Kotaro</English>
+		<French>本多光太郎</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>本多光太郎</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YAGI_HIDETSUGU</Tag>
+		<English>Yagi Hidetsugu</English>
+		<French>八木秀次</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八木秀次</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NAITO_TACHU</Tag>
+		<English>Naito Tachu</English>
+		<French>内藤多仲</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>内藤多仲</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SHIMA_HIDEO</Tag>
+		<English>Shima Hideo</English>
+		<French>島秀雄</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>島秀雄</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HONDA_SOUICHIROU</Tag>
+		<English>Honda Souichirou</English>
+		<French>本田宗一郎</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>本田宗一郎</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IBUKA_MASARU</Tag>
+		<English>Ibuka Masaru</English>
+		<French>井深大</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>井深大</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TAKAYANAGI_KENJIRO</Tag>
+		<English>Takayanagi Kenjiro</English>
+		<French>高柳健次郎</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>高柳健次郎</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KALLIKRATES</Tag>
+		<English>Kallikrates</English>
+		<French>カリクラテス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カリクラテス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_APPIUS_CLAUDIUS_CAECUS</Tag>
+		<English>Appius Claudius Caecus</English>
+		<French>アッピウス・クラウディウス・カエクス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アッピウス・クラウディウス・カエクス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_VITRUVIUS</Tag>
+		<English>Vitruvius</English>
+		<French>ウィトルウィウス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウィトルウィウス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MA_JUN</Tag>
+		<English>Ma Jun</English>
+		<French>馬鈞</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>馬鈞</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ISIDOROS</Tag>
+		<English>Isidoros</English>
+		<French>イシドロス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>イシドロス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ABBAS_IBN_FIRNAS</Tag>
+		<English>Abbas Ibn Firnas</English>
+		<French>アッバース・イブン・フィルナス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アッバース・イブン・フィルナス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GUO_SHOUJING</Tag>
+		<English>Guo Shoujing</English>
+		<French>郭守敬</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>郭守敬</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_URBAN</Tag>
+		<English>Urban</English>
+		<French>ウルバン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウルバン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DONATO_BRAMANTE</Tag>
+		<English>Donato Bramante</English>
+		<French>ドナト・ブラマンテ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ドナト・ブラマンテ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHRISTOPHER_WREN</Tag>
+		<English>Christopher Wren</English>
+		<French>クリストファー・レン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>クリストファー・レン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHANNES_GUTENBERG</Tag>
+		<English>Johannes Gutenberg</English>
+		<French>ヨハネス・グーテンベルグ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヨハネス・グーテンベルグ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HEZARFEN_AHMED_CELEBI</Tag>
+		<English>Hezarfen Ahmed Celebi</English>
+		<French>ヘザルフェン・アフメト・チェレビ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヘザルフェン・アフメト・チェレビ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LAGARI_HASAN_CELEBI</Tag>
+		<English>Lagari Hasan celebi</English>
+		<French>ラガリ・ハサン・チェレビ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ラガリ・ハサン・チェレビ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JULES_HARDOUIN_MANSART</Tag>
+		<English>Jules Hardouin Mansart</English>
+		<French>ジュール・アルドゥアン＝マンサール</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジュール・アルドゥアン＝マンサール</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ROBERT_FULTON</Tag>
+		<English>Robert Fulton</English>
+		<French>ロバート・フルトン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ロバート・フルトン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ELI_WHITNEY_JR</Tag>
+		<English>Eli Whitney Jr.</English>
+		<French>イーライ・ホイットニー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>イーライ・ホイットニー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RICHARD_TREVITHICK</Tag>
+		<English>Richard Trevithick</English>
+		<French>リチャード・トレビシック</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リチャード・トレビシック</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEORGE_STEPHENSON</Tag>
+		<English>George Stephenson</English>
+		<French>ジョージ・スチーブンソン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョージ・スチーブンソン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHARLES_BABBAGE</Tag>
+		<English>Charles Babbage</English>
+		<French>チャールズ・バベッジ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チャールズ・バベッジ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KONSTANTIN_THON</Tag>
+		<English>Konstantin Thon</English>
+		<French>コンスタンチン・トーン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>コンスタンチン・トーン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOSEPH_HENRY</Tag>
+		<English>Joseph Henry</English>
+		<French>ジョセフ・ヘンリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョセフ・ヘンリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FREDERICK_LAW_OLMSTED</Tag>
+		<English>Frederick Law Olmsted</English>
+		<French>フレデリック・ロー・オルムステッド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フレデリック・ロー・オルムステッド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALFRED_NOBEL</Tag>
+		<English>Alfred Nobel</English>
+		<French>アルフレッド・ノーベル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アルフレッド・ノーベル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GOTTLIEB_DAIMLER</Tag>
+		<English>Gottlieb Daimler</English>
+		<French>ゴッドリープ・ダイムラー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ゴッドリープ・ダイムラー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WILHELM_RONTGEN</Tag>
+		<English>Wilhelm Rontgen</English>
+		<French>ヴィルヘルム・レントゲン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヴィルヘルム・レントゲン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KARL_BENZ</Tag>
+		<English>Karl Benz</English>
+		<French>カール・ベンツ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カール・ベンツ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_OTTO_LILIENTHAL</Tag>
+		<English>Otto Lilienthal</English>
+		<French>オットー・リリエンタール</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>オットー・リリエンタール</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RUDOLF_DIESEL</Tag>
+		<English>Rudolf Diesel</English>
+		<French>ルドルフ・ディーゼル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルドルフ・ディーゼル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_BROWNING</Tag>
+		<English>John Browning</English>
+		<French>ジョン・ブローニング</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョン・ブローニング</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ANTONI_GAUDI</Tag>
+		<English>Antoni Gaudi</English>
+		<French>アントニ・ガウディ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アントニ・ガウディ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_REGINALD_FESSENDEN</Tag>
+		<English>Reginald Fessenden</English>
+		<French>レジナルド・フェッセンデン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レジナルド・フェッセンデン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AUGUSTE_PERRET</Tag>
+		<English>Auguste Perret</English>
+		<French>オーギュスト・ペレ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>オーギュスト・ペレ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FERDINAND_PORSCHE</Tag>
+		<English>Ferdinand Porsche</English>
+		<French>フェルディナンド・ポルシェ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フェルディナンド・ポルシェ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALBERTO_SANTOS_DUMONT</Tag>
+		<English>Alberto Santos-Dumont</English>
+		<French>アルベルト・サントス・デュモン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アルベルト・サントス・デュモン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IGOR_SIKORSKY</Tag>
+		<English>Igor Sikorsky</English>
+		<French>イーゴリ・シコールスキイ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>イーゴリ・シコールスキイ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JACK_NORTHROP</Tag>
+		<English>Jack Northrop</English>
+		<French>ジャック・ノースロップ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジャック・ノースロップ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WILLY_MESSERSCHMITT</Tag>
+		<English>Willy Messerschmitt</English>
+		<French>ウィリー・メッサーシュミット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウィリー・メッサーシュミット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SERGEY_KOROLYOV</Tag>
+		<English>Sergey Korolyov</English>
+		<French>セルゲイ・コロリョフ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>セルゲイ・コロリョフ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WERNHER_VON_BRAUN</Tag>
+		<English>Wernher von Braun</English>
+		<French>ヴェルナー・フォン・ブラウン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヴェルナー・フォン・ブラウン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHRISTOPHER_COCKERELL</Tag>
+		<English>Christopher Cockerell</English>
+		<French>クリストファー・コッカレル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>クリストファー・コッカレル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LUCIO_COSTA</Tag>
+		<English>Lucio Costa</English>
+		<French>ルシオ・コスタ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルシオ・コスタ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_OSCAR_NIEMEYER</Tag>
+		<English>Oscar Niemeyer</English>
+		<French>オスカー・ニーマイヤー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>オスカー・ニーマイヤー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WILLIAM_SHOCKLEY</Tag>
+		<English>William Shockley</English>
+		<French>ウィリアム・ショックレー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウィリアム・ショックレー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JORN_UTZON</Tag>
+		<English>Jorn Utzon</English>
+		<French>ヨーン・ウツソン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヨーン・ウツソン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MAXIME_FAGET</Tag>
+		<English>Maxime Faget</English>
+		<French>マクシム・ファゲット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マクシム・ファゲット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ISHIDA_MITSUNARI</Tag>
+		<English>Ishida Mitsunari</English>
+		<French>石田三成</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>石田三成</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YAMADA_NAGAMASA</Tag>
+		<English>Yamada Nagamasa</English>
+		<French>山田長政</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>山田長政</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SAKAMOTO_RYOMA</Tag>
+		<English>Sakamoto Ryoma</English>
+		<French>坂本龍馬</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>坂本龍馬</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SHIBUSAWA_EIICHI</Tag>
+		<English>Shibusawa Eiichi</English>
+		<French>渋沢栄一</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>渋沢栄一</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IWASAKI_YATARO</Tag>
+		<English>Iwasaki Yataro</English>
+		<French>岩崎弥太郎</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>岩崎弥太郎</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YAMADA_TORAJIRO</Tag>
+		<English>Yamada Torajiro</English>
+		<French>山田寅次郎</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>山田寅次郎</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TOYODA_EIJI</Tag>
+		<English>Toyoda Eiji</English>
+		<French>豊田英二</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>豊田英二</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MATSUSHITA_KOUNOSUKE</Tag>
+		<English>Matsushita Kounosuke</English>
+		<French>松下幸之助</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>松下幸之助</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SASAKAWA_RYOICHI</Tag>
+		<English>Sasakawa Ryoichi</English>
+		<French>笹川良一</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>笹川良一</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YAMAUCHI_HIROSHI</Tag>
+		<English>Yamauchi Hiroshi</English>
+		<French>山内溥</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>山内溥</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CROESUS</Tag>
+		<English>Croesus</English>
+		<French>クロイソス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>クロイソス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ZI_GONG</Tag>
+		<English>Zi Gong</English>
+		<French>子貢</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>子貢</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FAN_LI</Tag>
+		<English>Fan Li</English>
+		<French>范蠡</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>范蠡</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PHILON</Tag>
+		<English>Philon</English>
+		<French>フィロン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フィロン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SANG_HONGYANG</Tag>
+		<English>Sang Hongyang</English>
+		<French>桑弘羊</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>桑弘羊</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JANG_BOGO</Tag>
+		<English>Jang Bogo</English>
+		<French>張保皐</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>張保皐</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GAN_YING</Tag>
+		<English>Gan Ying</English>
+		<French>甘英</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>甘英</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ODAENATHUS</Tag>
+		<English>Odaenathus</English>
+		<French>セプティミウス・オダエナトゥス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>セプティミウス・オダエナトゥス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ERIK_THE_RED</Tag>
+		<English>Erik the Red</English>
+		<French>赤毛のエイリーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>赤毛のエイリーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PU_SHOUGENG</Tag>
+		<English>Pu Shougeng</English>
+		<French>蒲寿庚</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蒲寿庚</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_INFANTE_DOM_HENRIQUE</Tag>
+		<English>Infante Dom Henrique</English>
+		<French>エンリケ航海王子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エンリケ航海王子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ANIKEY_STROGANOV</Tag>
+		<English>Anikey Stroganov</English>
+		<French>アニケイ・ストロガノフ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アニケイ・ストロガノフ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_THOMAS_GRESHAM</Tag>
+		<English>Thomas Gresham</English>
+		<French>トーマス・グレシャム</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>トーマス・グレシャム</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ZHANG_JUZHENG</Tag>
+		<English>Zhang Juzheng</English>
+		<French>張居正</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>張居正</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SHEN_WANSAN</Tag>
+		<English>Shen Wansan</English>
+		<French>沈万三</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>沈万三</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ASKIA_MOHAMMAD</Tag>
+		<English>Askia Mohammad</English>
+		<French>アスキア・ムハンマド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アスキア・ムハンマド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AMERIGO_VESPUCCI</Tag>
+		<English>Amerigo Vespucci</English>
+		<French>アメリゴ・ヴェスプッチ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アメリゴ・ヴェスプッチ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JACOB_FUGGER</Tag>
+		<English>Jacob Fugger</English>
+		<French>ヤコブ・フッガー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヤコブ・フッガー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WANG_ZHI</Tag>
+		<English>Wang Zhi</English>
+		<French>王直</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>王直</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_J_B_COLBERT</Tag>
+		<English>Jean-Baptiste Colbert</English>
+		<French>ジャン・バティスト・コルベール</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジャン・バティスト・コルベール</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHAN_VAN_OLDENBARNEVELT</Tag>
+		<English>Johan van Oldenbarnevelt</English>
+		<French>ヨーハン・ファン・オルデンバルネフェルト</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヨーハン・ファン・オルデンバルネフェルト</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_SMITH</Tag>
+		<English>John Smith</English>
+		<French>ジョン・スミス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョン・スミス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SAMUEL_DE_CHAMPLAIN</Tag>
+		<English>Samuel de Champlain</English>
+		<French>サミュエル・ド・シャンプラン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>サミュエル・ド・シャンプラン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EVLIYA_CELEBI</Tag>
+		<English>Evliya Celebi</English>
+		<French>エヴリヤ・チェレビ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エヴリヤ・チェレビ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EDWARD_LLOYD</Tag>
+		<English>Edward Lloyd</English>
+		<French>エドワード・ロイド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エドワード・ロイド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NATHAN_ROTHSCHILD</Tag>
+		<English>Nathan Rothschild</English>
+		<French>ネイサン・ロスチャイルド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ネイサン・ロスチャイルド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ARTHUR_GUINNESS</Tag>
+		<English>Arthur Guinness</English>
+		<French>アーサー・ギネス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アーサー・ギネス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RICHARD_ARKWRIGHT</Tag>
+		<English>Richard Arkwright</English>
+		<French>リチャード・アークライト</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リチャード・アークライト</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DAVID_RICARDO</Tag>
+		<English>David Ricardo</English>
+		<French>デヴィッド・リカード</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>デヴィッド・リカード</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALFRED_KRUPP</Tag>
+		<English>Alfred Krupp</English>
+		<French>アルフレート・クルップ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アルフレート・クルップ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JAMSETJI_TATA</Tag>
+		<English>Jamsetji Tata</English>
+		<French>ジャムジェトジ・タタ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジャムジェトジ・タタ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JACOB_SCHIFF</Tag>
+		<English>Jacob Schiff</English>
+		<French>ジェイコブ・シフ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジェイコブ・シフ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHANN_II</Tag>
+		<English>Johann II</English>
+		<French>リヒテンシュタイン公ヨーハンⅡ世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リヒテンシュタイン公ヨーハンⅡ世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WILLIAM_C_DURANT</Tag>
+		<English>William C.Durant</English>
+		<French>ウィリアム・Ｃ・デュラント</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウィリアム・Ｃ・デュラント</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LOUIS_II</Tag>
+		<English>Louis II</English>
+		<French>モナコ大公ルイⅡ世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>モナコ大公ルイⅡ世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ROBERT_WOODRUFF</Tag>
+		<English>Robert Woodruff</English>
+		<French>ロバート・ウッドラフ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ロバート・ウッドラフ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ENZO_FERRARI</Tag>
+		<English>Enzo Ferrari</English>
+		<French>エンツォ・フェラーリ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エンツォ・フェラーリ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRIEDRICH_HAYEK</Tag>
+		<English>Friedrich Hayek</English>
+		<French>フリードリヒ・ハイエク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フリードリヒ・ハイエク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RAYMOND_KROC</Tag>
+		<English>Raymond Kroc</English>
+		<French>レイ・クロック</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レイ・クロック</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ARISTOTLE_ONASSIS</Tag>
+		<English>Aristotle Onassis</English>
+		<French>アリストテレス・オナシス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アリストテレス・オナシス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_STEVE_JOBS</Tag>
+		<English>Steve Jobs</English>
+		<French>スティーブ・ジョブズ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スティーブ・ジョブズ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HOJO_TOKUMUNE</Tag>
+		<English>Hojo Tokimune</English>
+		<French>北条時宗</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>北条時宗</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ODA_NOBUNGA</Tag>
+		<English>Oda Nobunaga</English>
+		<French>織田信長</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>織田信長</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TOYOTOMI_HIDEYOSHI</Tag>
+		<English>Toyotomi Hideyoshi</English>
+		<French>豊臣秀吉</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>豊臣秀吉</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HONDA_TADAKATSU</Tag>
+		<English>Honda Tadakatsu</English>
+		<French>本多忠勝</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>本多忠勝</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SHIMAZU_YOSHIHIRO</Tag>
+		<English>Shimazu Yoshihiro</English>
+		<French>島津義弘</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>島津義弘</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_OYAMA_IWAO</Tag>
+		<English>Oyama Iwao</English>
+		<French>大山巌</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大山巌</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TOGO_HEIHACHIRO</Tag>
+		<English>Togo Heihachiro</English>
+		<French>東郷平八郎</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>東郷平八郎</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KODAMA_GENTARO</Tag>
+		<English>Kodama Gentaro</English>
+		<French>児玉源太郞</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>児玉源太郞</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IMAMURA_HITOSHI</Tag>
+		<English>Imamura Hitoshi</English>
+		<French>今村均</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>今村均</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JIANG_ZIYA</Tag>
+		<English>Jiang Ziya</English>
+		<French>呂尚</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>呂尚</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BAI_QI</Tag>
+		<English>Bai Qi</English>
+		<French>白起</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白起</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YUE_YI</Tag>
+		<English>Yue Yi</English>
+		<French>楽毅</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>楽毅</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HAN_XIN</Tag>
+		<English>Han Xin</English>
+		<French>韓信</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>韓信</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_XIANG_JI</Tag>
+		<English>Xiang Ji</English>
+		<French>項籍</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>項籍</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MAODUN_CHANYU</Tag>
+		<English>Maodun Chanyu</English>
+		<French>冒頓単于</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>冒頓単于</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WEI_QING</Tag>
+		<English>Wei Qing</English>
+		<French>衛青</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>衛青</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HUO_QUBING</Tag>
+		<English>Huo Qubing</English>
+		<French>霍去病</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霍去病</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DENG_YU</Tag>
+		<English>Deng Yu</English>
+		<French>トウ禹</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>トウ禹</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BAN_CHAO</Tag>
+		<English>Ban Chao</English>
+		<French>班超</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>班超</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ZHOU_YU</Tag>
+		<English>Zhou Yu</English>
+		<French>周瑜</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>周瑜</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EULJI_MUNDEOK</Tag>
+		<English>Eulji Mundeok</English>
+		<French>乙支文徳</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>乙支文徳</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KIM_YUSHIN</Tag>
+		<English>Kim Yushin</English>
+		<French>金ユ信</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>金ユ信</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GO_BALHAE</Tag>
+		<English>Go of Balhae</English>
+		<French>大祚栄</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大祚栄</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LI_JING</Tag>
+		<English>Li Jing</English>
+		<French>李靖</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>李靖</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GUO_ZIYI</Tag>
+		<English>Guo Ziyi</English>
+		<French>郭子儀</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>郭子儀</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AGUDA</Tag>
+		<English>Aguda</English>
+		<French>アグダ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アグダ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YEHLU_TASHIH</Tag>
+		<English>Yehlu Tashih</English>
+		<French>耶律大石</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>耶律大石</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YUE_FEI</Tag>
+		<English>Yue Fei</English>
+		<French>岳飛</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>岳飛</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MENG_GONG</Tag>
+		<English>Meng Gong</English>
+		<French>孟キョウ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>孟キョウ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BATU</Tag>
+		<English>Batu</English>
+		<French>バトゥ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>バトゥ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BAYAN</Tag>
+		<English>Bayan</English>
+		<French>バヤン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>バヤン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RAM_KHAMHAENG</Tag>
+		<English>Ram Khamhaeng the Great</English>
+		<French>ラームカムヘーン大王</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ラームカムヘーン大王</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TRAN_HUNG_DAO</Tag>
+		<English>Tran Hung Dao</English>
+		<French>チャン・フン・ダオ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チャン・フン・ダオ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KWOK_HON</Tag>
+		<English>Kwok Hon</English>
+		<French>郭侃</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>郭侃</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_XU_DA</Tag>
+		<English>Xu Da</English>
+		<French>徐達</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>徐達</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YI_SEONGGYE</Tag>
+		<English>Yi Seong-gye</English>
+		<French>李成桂</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>李成桂</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YAO_GUANGXIAO</Tag>
+		<English>Yao Guangxiao</English>
+		<French>姚広孝</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>姚広孝</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LAPU_LAPU</Tag>
+		<English>Lapu-Lapu</English>
+		<French>ラプ＝ラプ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ラプ＝ラプ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_QIN_LIANGYU</Tag>
+		<English>Qin Liangyu</English>
+		<French>秦良玉</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>秦良玉</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YUAN_CHONGHUAN</Tag>
+		<English>Yuan Chonghuan</English>
+		<French>袁崇煥</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>袁崇煥</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YI_SUNSIN</Tag>
+		<English>Yi Sun-sin</English>
+		<French>李舜臣</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>李舜臣</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KOXINGA</Tag>
+		<English>Koxinga</English>
+		<French>鄭成功</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鄭成功</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NURHACI</Tag>
+		<English>Nurhaci</English>
+		<French>ヌルハチ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヌルハチ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ZHANG_ZIZHONG</Tag>
+		<English>Zhang Zizhong</English>
+		<French>張自忠</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>張自忠</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KIM_SUKWON</Tag>
+		<English>Kim Suk-won</English>
+		<French>金錫源</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>金錫源</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BAI_CHONGXI</Tag>
+		<English>Bai Chongxi</English>
+		<French>白崇禧</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白崇禧</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ZHU_DE</Tag>
+		<English>Zhu De</English>
+		<French>朱徳</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>朱徳</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PAIK_SUNYUP</Tag>
+		<English>Paik Sunyup</English>
+		<French>白善燁</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白善燁</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_VO_NGUYEN_GIAP</Tag>
+		<English>Vo Nguyen Giap</English>
+		<French>ヴォー・グエン・ザップ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヴォー・グエン・ザップ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DAVID</Tag>
+		<English>David</English>
+		<French>ダビデ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ダビデ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HARPAGUS</Tag>
+		<English>Harpagus</English>
+		<French>ハルパゴス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ハルパゴス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_THEMISTOCLES</Tag>
+		<English>Themistocles</English>
+		<French>テミストクレス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テミストクレス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EPAMINONDAS</Tag>
+		<English>Epaminondas</English>
+		<French>エパメイノンダス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エパメイノンダス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PHILIPPOS_II</Tag>
+		<English>Philippos II</English>
+		<French>フィリッポスⅡ世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フィリッポスⅡ世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHANAKYA</Tag>
+		<English>Chanakya</English>
+		<French>カウティリヤ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カウティリヤ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MITHRIDATES_VI</Tag>
+		<English>Mithridates VI</English>
+		<French>ミトリダテスⅥ世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミトリダテスⅥ世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARCUS_AGRIPPA</Tag>
+		<English>Marcus Agrippa</English>
+		<French>マルクス・アグリッパ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マルクス・アグリッパ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_VESPASIANUS</Tag>
+		<English>Vespasianus</English>
+		<French>ウェスパシアヌス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウェスパシアヌス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ATTILA</Tag>
+		<English>Attila</English>
+		<French>アッティラ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アッティラ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HERACLIUS</Tag>
+		<English>Heraclius</English>
+		<French>ヘラクレイオス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヘラクレイオス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AMR_IBN_AL_AS</Tag>
+		<English>Amr ibn al-As</English>
+		<French>アムル・イブン・アル＝アース</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アムル・イブン・アル＝アース</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ABU_MUSLIM</Tag>
+		<English>Abu Muslim</English>
+		<French>アブー・ムスリム</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アブー・ムスリム</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ABD_ARRAHMANI</Tag>
+		<English>Abd ar-Rahman I</English>
+		<French>アブド・アッラフマーンⅠ世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アブド・アッラフマーンⅠ世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHANNES_KOURKOUAS</Tag>
+		<English>Johannes Kourkouas</English>
+		<French>ヨハネス・クルクアス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヨハネス・クルクアス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_OTTO_I</Tag>
+		<English>Otto I</English>
+		<French>オットーⅠ世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>オットーⅠ世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MUHAMMAD_IBN_ABI_AAMIR</Tag>
+		<English>Muhammad Ibn Abi Aamir</English>
+		<French>ムハンマド・イブン・アビー・アーミル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ムハンマド・イブン・アビー・アーミル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BASILEIOS_II</Tag>
+		<English>Basileios II</English>
+		<French>バシレイオスⅡ世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>バシレイオスⅡ世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TUGHRIL_BEG</Tag>
+		<English>Tughril Beg</English>
+		<French>トゥグリル・ベク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>トゥグリル・ベク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CNUT_THE_GREAT</Tag>
+		<English>Cnut the Great</English>
+		<French>クヌーズⅠ世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>クヌーズⅠ世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JAGUAR_CLAW</Tag>
+		<English>Eight Deer Jaguar Claw</English>
+		<French>イヤ・ナクアー＝テユシ・ナーナ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>イヤ・ナクアー＝テユシ・ナーナ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ZENGI</Tag>
+		<English>Zengi</English>
+		<French>ザンギー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ザンギー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NUR_AD_DIN</Tag>
+		<English>Nur ad-Din</English>
+		<French>ヌールッディーン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヌールッディーン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BAIBARS</Tag>
+		<English>Baibars</English>
+		<French>バイバルス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>バイバルス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AFONSO_I</Tag>
+		<English>Afonso I</English>
+		<French>アフォンソⅠ世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アフォンソⅠ世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BALDWIN_IV</Tag>
+		<English>Baldwin IV</English>
+		<French>ボードゥアン四世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ボードゥアン四世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RICHARD_I</Tag>
+		<English>Richard I</English>
+		<French>リチャードⅠ世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リチャードⅠ世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALEXANDER_NEVSKY</Tag>
+		<English>Alexander Nevsky</English>
+		<French>アレクサンドル・ネフスキー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アレクサンドル・ネフスキー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_OSMAN_I</Tag>
+		<English>Osman I</English>
+		<French>オスマンⅠ世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>オスマンⅠ世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DMITRY_DONSKOY</Tag>
+		<English>Dmitry Donskoy</English>
+		<French>ドミトリイ・ドンスコイ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ドミトリイ・ドンスコイ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALAUDDIN_KHILJI</Tag>
+		<English>Alauddin Khilji</English>
+		<French>アラー・ウッディーン・ハルジー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アラー・ウッディーン・ハルジー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WILLIAM_WALLACE</Tag>
+		<English>William Wallace</English>
+		<French>ウィリアム・ウォレス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウィリアム・ウォレス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ROBERT_I</Tag>
+		<English>Robert I</English>
+		<French>ロバートⅠ世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ロバートⅠ世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EDWARD_BLACK_PRINCE</Tag>
+		<English>Edward the Black Prince</English>
+		<French>エドワード黒太子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エドワード黒太子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BERTRAND_DU_GUESCLIN</Tag>
+		<English>Bertrand du Guesclin</English>
+		<French>ベルトラン・デュ・ゲクラン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ベルトラン・デュ・ゲクラン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GIOVANNI_DALLE_BANDE_NERE</Tag>
+		<English>Giovanni dalle Bande Nere</English>
+		<French>黒隊長ジョヴァンニ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>黒隊長ジョヴァンニ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GONZALO_DE_CORDOBA</Tag>
+		<English>Gonzalo de Cordoba</English>
+		<French>ゴンサロ・デ・コルドバ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ゴンサロ・デ・コルドバ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JAN_ZIZKA</Tag>
+		<English>Jan Zizka</English>
+		<French>ヤン・ジシュカ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヤン・ジシュカ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BARBAROS_HAYREDDIN</Tag>
+		<English>Barbaros Hayreddin</English>
+		<French>バルバロス・ハイレディン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>バルバロス・ハイレディン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SKANDERBEG</Tag>
+		<English>Skanderbeg</English>
+		<French>スカンデルベグ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スカンデルベグ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HUNYADI_JANOS</Tag>
+		<English>Hunyadi Janos</English>
+		<French>フニャディ・ヤーノシュ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フニャディ・ヤーノシュ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_VLAD_III</Tag>
+		<English>Vlad III</English>
+		<French>ヴラド・ツェペシュ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヴラド・ツェペシュ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YERMAK_TIMOFEYEVICH</Tag>
+		<English>Yermak Timofeyevich</English>
+		<French>イェルマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>イェルマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRANCIS_DRAKE</Tag>
+		<English>Francis Drake</English>
+		<French>フランシス・ドレーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フランシス・ドレーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MAURITS_VAN_NASSAU</Tag>
+		<English>Maurits van Nassau</English>
+		<French>マウリッツ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マウリッツ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALBRECHT_VON_WALLENSTEIN</Tag>
+		<English>Albrecht von Wallenstein</English>
+		<French>アルブレヒト・フォン・ヴァレンシュタイン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アルブレヒト・フォン・ヴァレンシュタイン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_STANISLAW_KONIECPOLSKI</Tag>
+		<English>Stanislaw Koniecpolski</English>
+		<French>スタニスワフ・コニェツポルスキ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スタニスワフ・コニェツポルスキ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BOHDAN_KHMELNYTSKY</Tag>
+		<English>Bohdan Khmelnytsky</English>
+		<French>ボフダン・フメリヌィーツィクィイ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ボフダン・フメリヌィーツィクィイ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AURANGZEB</Tag>
+		<English>Aurangzeb</English>
+		<French>アウラングゼーブ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アウラングゼーブ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_CHURCHILL</Tag>
+		<English>John Churchill</English>
+		<French>ジョン・チャーチル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョン・チャーチル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_VICOMTE_DE_TURENNE</Tag>
+		<English>Vicomte de Turenne</English>
+		<French>テュレンヌ子爵</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テュレンヌ子爵</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NADER_SHAH</Tag>
+		<English>Nader Shah</English>
+		<French>ナーディル・シャー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ナーディル・シャー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALEXANDR_SUVOROV</Tag>
+		<English>Alexandr Suvorov</English>
+		<French>アレクサンドル・スヴォーロフ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アレクサンドル・スヴォーロフ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GRANNY_NANNY</Tag>
+		<English>Granny Nanny</English>
+		<French>グラニー・ナニー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>グラニー・ナニー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TOUSSAINT_LOUVERTURE</Tag>
+		<English>Toussaint Louverture</English>
+		<French>トゥーサン・ルーヴェルチュール</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>トゥーサン・ルーヴェルチュール</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_PAUL_JONES</Tag>
+		<English>John Paul Jones</English>
+		<French>ジョン・ポール・ジョーンズ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョン・ポール・ジョーンズ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TADEUSZ_KOSCIUSZKO</Tag>
+		<English>Tadeusz Kosciuszko</English>
+		<French>タデウシュ・コシチュシュコ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>タデウシュ・コシチュシュコ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LOUIS_NICOLAS_DAVOUT</Tag>
+		<English>Louis-Nicolas d'Avout</English>
+		<French>ルイ＝ニコラ・ダヴー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルイ＝ニコラ・ダヴー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GERHARD_VON_SCHARNHORST</Tag>
+		<English>Gerhard von Scharnhorst</English>
+		<French>ゲルハルト・フォン・シャルンホルスト</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ゲルハルト・フォン・シャルンホルスト</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CARL_VON_CLAUSEWITZ</Tag>
+		<English>Carl von Clausewitz</English>
+		<French>カール・フォン・クラウゼヴィッツ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カール・フォン・クラウゼヴィッツ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ARTHUR_WELLESLEY</Tag>
+		<English>Arthur Wellesley</English>
+		<French>ウェリントン公アーサー・ウェルズリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウェリントン公アーサー・ウェルズリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TECUMSEH</Tag>
+		<English>Tecumseh</English>
+		<French>テカムセ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テカムセ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SIMON_BOLIVAR</Tag>
+		<English>Simon Bolivar</English>
+		<French>シモン・ボリバル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>シモン・ボリバル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ULYSSES_GRANT</Tag>
+		<English>Ulysses Grant</English>
+		<French>ユリシーズ・グラント</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ユリシーズ・グラント</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_THASUNKE_WITKO</Tag>
+		<English>Thasunke Witko</English>
+		<French>タシュンケ・ウィトコ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>タシュンケ・ウィトコ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RANI_LAKSHMIBAI</Tag>
+		<English>Rani Lakshmibai</English>
+		<French>ラクシュミー・バーイー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ラクシュミー・バーイー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GIUSEPPE_GARIBALDI</Tag>
+		<English>Giuseppe Garibaldi</English>
+		<French>ジュゼッペ・ガリバルディ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジュゼッペ・ガリバルディ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HELMUTH_VON_MOLTKE</Tag>
+		<English>Helmuth von Moltke</English>
+		<French>ヘルムート・フォン・モルトケ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヘルムート・フォン・モルトケ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SAMORI_TURE</Tag>
+		<English>Samori Ture</English>
+		<French>サモリ・トゥーレ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>サモリ・トゥーレ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KEMAL_ATATURK</Tag>
+		<English>Kemal Ataturk</English>
+		<French>ケマル・アタチュルク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ケマル・アタチュルク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PHILIPPE_PTAIN</Tag>
+		<English>Philippe Ptain</English>
+		<French>フィリップ・ペタン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フィリップ・ペタン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOZEF_PILSUDSKI</Tag>
+		<English>Jozef Pilsudski</English>
+		<French>ユゼフ・ピウスツキ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ユゼフ・ピウスツキ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PANCHO_VILLA</Tag>
+		<English>Pancho Villa</English>
+		<French>パンチョ・ビリャ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パンチョ・ビリャ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LEON_TROTSKY</Tag>
+		<English>Leon Trotsky</English>
+		<French>レフ・トロツキー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レフ・トロツキー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KARL_DONITZ</Tag>
+		<English>Karl Donitz</English>
+		<French>カール・デーニッツ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カール・デーニッツ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOSIP_BROZ_TITO</Tag>
+		<English>Josip Broz Tito</English>
+		<French>ヨシップ・ブロズ・チトー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヨシップ・ブロズ・チトー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MIKHAIL_TUKHACHEVSKY</Tag>
+		<English>Mikhail Tukhachevsky</English>
+		<French>ミハイル・トゥハチェフスキー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミハイル・トゥハチェフスキー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HUGH_DOWDING</Tag>
+		<English>Hugh Dowding</English>
+		<French>ヒュー・ダウディング</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヒュー・ダウディング</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHESTER_NIMITZ</Tag>
+		<English>Chester Nimitz</English>
+		<French>チェスター・ニミッツ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チェスター・ニミッツ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WILLIAM_HALSEY</Tag>
+		<English>William Halsey</English>
+		<French>ウィリアム・ハルゼー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウィリアム・ハルゼー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RAYMOND_SPRUANCE</Tag>
+		<English>Raymond Spruance</English>
+		<French>レイモンド・スプルーアンス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レイモンド・スプルーアンス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HENRY_ARNOLD</Tag>
+		<English>Henry Harley Arnold</English>
+		<French>ヘンリー・アーノルド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヘンリー・アーノルド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ERICH_VON_MANSTEIN</Tag>
+		<English>Erich von Manstein</English>
+		<French>エーリッヒ・フォン・マンシュタイン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エーリッヒ・フォン・マンシュタイン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CARL_G_MANNERHEIM</Tag>
+		<English>Carl Gustaf Mannerheim</English>
+		<French>カール・グスタフ・マンネルヘイム</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カール・グスタフ・マンネルヘイム</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FIDEL_CASTRO</Tag>
+		<English>Fidel Castro</English>
+		<French>フィデル・カストロ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フィデル・カストロ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHE_GUEVARA</Tag>
+		<English>Che Guevara</English>
+		<French>チェ・ゲバラ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チェ・ゲバラ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JEANNE_DARC</Tag>
+		<English>Jeanne d'Arc</English>
+		<French>ジャンヌ・ダルク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジャンヌ・ダルク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AHMED_SHAH_MASSOUD</Tag>
+		<English>Ahmed Shah Massoud</English>
+		<French>アフマド・シャー・マスード</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アフマド・シャー・マスード</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NAKATOMI_NO_KAMATARI</Tag>
+		<English>Nakatomi no Kamatari</English>
+		<French>中臣鎌足</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>中臣鎌足</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MAMIYA_RINZO</Tag>
+		<English>Mamiya Rinzo</English>
+		<French>間宮林蔵</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>間宮林蔵</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AKASHI_MOTOJIRO</Tag>
+		<English>Akashi Motojiro</English>
+		<French>明石元二郎</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>明石元二郎</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KITA_IKKI</Tag>
+		<English>Kita Ikki</English>
+		<French>北一輝</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>北一輝</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DOIHARA_KENJI</Tag>
+		<English>Doihara Kenji</English>
+		<French>土肥原賢二</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>土肥原賢二</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SHINJO_KENKICHI</Tag>
+		<English>Shinjo Kenkichi</English>
+		<French>新庄健吉</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>新庄健吉</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KAWASHIMA_YOSHIKO</Tag>
+		<English>Kawashima Yoshiko</English>
+		<French>川島芳子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>川島芳子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_XI_SHI</Tag>
+		<English>Xi Shi</English>
+		<French>西施</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>西施</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARCUS_BRUTUS</Tag>
+		<English>Marcus Brutus</English>
+		<French>マルクス・ブルトゥス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マルクス・ブルトゥス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_QIN_HUI</Tag>
+		<English>Qin Hui</English>
+		<French>秦檜</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>秦檜</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HASSAN_SABBAH</Tag>
+		<English>Hassan Sabbah</English>
+		<French>ハサン・サッバーフ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ハサン・サッバーフ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LA_MALINCHE</Tag>
+		<English>La Malinche</English>
+		<French>マリンチェ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マリンチェ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MALYUTA_SKURATOV</Tag>
+		<English>Malyuta Skuratov</English>
+		<French>マリュータ・スクラートフ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マリュータ・スクラートフ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOSEPH_FOUCHE</Tag>
+		<English>Joseph Fouche</English>
+		<French>ジョゼフ・フーシェ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョゼフ・フーシェ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRANCOIS_VIDOCQ</Tag>
+		<English>Francois Vidocq</English>
+		<French>フランソワ・ヴィドック</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フランソワ・ヴィドック</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ROZSA_SANDOR</Tag>
+		<English>Rozsa Sandor</English>
+		<French>ロージャ・シャーンドル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ロージャ・シャーンドル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_WILKES_BOOTH</Tag>
+		<English>John Wilkes Booth</English>
+		<French>ジョン・ウィルクス・ボース</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョン・ウィルクス・ボース</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HERBERT_YARDLEY</Tag>
+		<English>Herbert Yardley</English>
+		<French>ハーバート・ヤードリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ハーバート・ヤードリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RICHARD_SORGE</Tag>
+		<English>Richard Sorge</English>
+		<French>リヒャルト・ゾルゲ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リヒャルト・ゾルゲ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YEVNO_AZEF</Tag>
+		<English>Yevno Azef</English>
+		<French>エヴノ・アゼフ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エヴノ・アゼフ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DRAGUTIN_DIMITRIJEVIC</Tag>
+		<English>Dragutin Dimitrijevic</English>
+		<French>ドラグーティン・ディミトリエビッチ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ドラグーティン・ディミトリエビッチ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FELIX_DZERZHINSKY</Tag>
+		<English>Felix Dzerzhinsky</English>
+		<French>フェリックス・ジェルジンスキー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フェリックス・ジェルジンスキー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_VIDKUN_QUISLING</Tag>
+		<English>Vidkun Quisling</English>
+		<French>ヴィドクン・クヴィスリング</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヴィドクン・クヴィスリング</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_T_E_LAWRENCE</Tag>
+		<English>T.E.Lawrence</English>
+		<French>トーマス・エドワード・ロレンス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>トーマス・エドワード・ロレンス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MICHAEL_COLLINS</Tag>
+		<English>Michael Collins</English>
+		<French>マイケル・コリンズ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マイケル・コリンズ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WILLIAM_JOYCE</Tag>
+		<English>William Joyce</English>
+		<French>ウィリアム・ジョイス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウィリアム・ジョイス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DAI_LI</Tag>
+		<English>Dai Li</English>
+		<French>戴笠</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>戴笠</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LEOPOLD_TREPPER</Tag>
+		<English>Leopold Trepper</English>
+		<French>レオポルド・トレッペル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レオポルド・トレッペル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_REINHARD_GEHLEN</Tag>
+		<English>Reinhard Gehlen</English>
+		<French>ラインハルト・ゲーレン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ラインハルト・ゲーレン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_OTTO_SKORZENY</Tag>
+		<English>Otto Skorzeny</English>
+		<French>オットー・スコルツェニー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>オットー・スコルツェニー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SIMON_WIESENTHAL</Tag>
+		<English>Simon Wiesenthal</English>
+		<French>サイモン・ヴィーゼンタール</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>サイモン・ヴィーゼンタール</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NATHURAM_GODSE</Tag>
+		<English>Nathuram Godse</English>
+		<French>ナートゥラーム・ゴードゼー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ナートゥラーム・ゴードゼー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KIM_PHILBY</Tag>
+		<English>Kim Philby</English>
+		<French>キム・フィルビー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>キム・フィルビー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEORGE_KOVAL</Tag>
+		<English>George Koval</English>
+		<French>ジョルジュ・コワリ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョルジュ・コワリ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WOLFGANG_LOTZ</Tag>
+		<English>Wolfgang Lotz</English>
+		<French>ウォルフガング・ロッツ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウォルフガング・ロッツ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARKUS_WOLF</Tag>
+		<English>Markus Wolf</English>
+		<French>マルクス・ヴォルフ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マルクス・ヴォルフ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GUNTER_GUILLAUME</Tag>
+		<English>Gunter Guillaume</English>
+		<French>ギュンター・ギヨーム</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ギュンター・ギヨーム</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LOUIS_DAGUERRE</Tag>
+		<English>Louis Daguerre</English>
+		<French>ルイ・ダゲール</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルイ・ダゲール</Japanese>
+	</TEXT>
+</Civ4GameText>

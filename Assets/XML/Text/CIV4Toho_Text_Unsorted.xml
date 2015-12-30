@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Civilopedia CivLeaders -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- CIVILIZATION INFOS -->
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_STANDBY</Tag>
+		<English />
+		<French>スタンドバイユニット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スタンドバイユニット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_BOSS</Tag>
+		<English />
+		<French>ボスユニット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ボスユニット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_VORTEX</Tag>
+		<English />
+		<French>渦</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>渦</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_ICEDSEA</Tag>
+		<English />
+		<French>凍った海</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>凍った海</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_SUNFLOWER</Tag>
+		<English />
+		<French>ひまわり畑</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ひまわり畑</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SNOWMAN</Tag>
+		<English />
+		<French>雪だるま</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>雪だるま</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHOOTING_TECHNIQUE1</Tag>
+		<English />
+		<French>チョン避け</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チョン避け</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMESPEED_TENGU</Tag>
+		<English />
+		<French>天狗</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天狗</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMESPEED_TENGU_HELP</Tag>
+		<English />
+		<French>迅速？私にはそんなにゆっくりしている暇もありません。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>迅速？私にはそんなにゆっくりしている暇もありません。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_REMOVE_SUNFLOWER</Tag>
+		<English />
+		<French>幽香の報復を恐れずひまわり畑を伐採</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幽香の報復を恐れずひまわり畑を伐採</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CULTURELEVEL_GLORY</Tag>
+		<English />
+		<French>栄光</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>栄光</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_ORENOYOME</Tag>
+		<English />
+		<French>ORNYM計画</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ORNYM計画</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CHEATERS_NEVER_PROSPER</Tag>
+		<English />
+		<French>紫「この技術が欲しいのかしら？残念だけど、この状況下では許可出来ない仕様なのよこのゲームでは。……リロードは程々にね？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紫「この技術が欲しいのかしら？残念だけど、この状況下では許可出来ない仕様なのよこのゲームでは。……リロードは程々にね？」</Japanese>
+	</TEXT>
+</Civ4GameText>

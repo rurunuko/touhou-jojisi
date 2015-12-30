@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Civilopedia CivLeaders -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- CIVILIZATION INFOS -->
+<!-- Koumakan Start-->
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ENGLAND_PEDIA</Tag>
+		<English />
+		<French>[TAB]幻想郷の1つの勢力を担う吸血鬼の住処である紅魔館。主人はレミリア・スカーレットだが、彼女はまだ子供なので（といっても500歳にもなるが）実質館を取り仕切っているのはメイド長の十六夜咲夜である。[NEWLINE]客人であるパチュリーの書斎となっている大図書館も併設されているが、門番がさぼりがちな為かよく白黒の魔法使いの侵入を許してしまっている。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]幻想郷の1つの勢力を担う吸血鬼の住処である紅魔館。主人はレミリア・スカーレットだが、彼女はまだ子供なので（といっても500歳にもなるが）実質館を取り仕切っているのはメイド長の十六夜咲夜である。[NEWLINE]客人であるパチュリーの書斎となっている大図書館も併設されているが、門番がさぼりがちな為かよく白黒の魔法使いの侵入を許してしまっている。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MEIRIN_PEDIA</Tag>
+		<English />
+		<French>[H1]紅美鈴[\H1][NEWLINE][BOLD]気を使う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（3）[NEWLINE]東方萃夢想/東方非想天則[NEWLINE]東方文化帖（5）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]明治十七年の上海アリス[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]紅魔館の門番。[NEWLINE]門番と言っても、日々襲撃者が相次ぐわけではなく、実際は湖から来る妖精を撃退するぐらいである。[NEWLINE]容姿からも分かる通り武芸の達人であり、彼女を倒しに来る武闘家も少なくはない。[NEWLINE]戦闘においてこれといった長所は無い。が、逆に目立つような弱点も無く、（武人故か、弾幕ごっこは苦手としているようだが）バランスが良い。その為どんな相手でも苦手にする事無く相手にする事が出来る。門番という職業には正にうってつけである。[NEWLINE]紅魔館にある花畑の管理人でもあるなど、基本は穏和な性格である。たまにサボって昼寝をしているのはご愛嬌。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]紅美鈴[\H1][NEWLINE][BOLD]気を使う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（3）[NEWLINE]東方萃夢想/東方非想天則[NEWLINE]東方文化帖（5）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]明治十七年の上海アリス[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]紅魔館の門番。[NEWLINE]門番と言っても、日々襲撃者が相次ぐわけではなく、実際は湖から来る妖精を撃退するぐらいである。[NEWLINE]容姿からも分かる通り武芸の達人であり、彼女を倒しに来る武闘家も少なくはない。[NEWLINE]戦闘においてこれといった長所は無い。が、逆に目立つような弱点も無く、（武人故か、弾幕ごっこは苦手としているようだが）バランスが良い。その為どんな相手でも苦手にする事無く相手にする事が出来る。門番という職業には正にうってつけである。[NEWLINE]紅魔館にある花畑の管理人でもあるなど、基本は穏和な性格である。たまにサボって昼寝をしているのはご愛嬌。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KOA_PEDIA</Tag>
+		<English />
+		<French>[H1]小悪魔[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（4）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]小悪魔は東方紅魔郷4面パチュリー戦の前に遭遇する中ボスであり、大妖精や本読み妖怪と同じ所謂名無しのモブキャラ扱いの一人でもある。原作者曰く、悪魔は強大な種族だが力が弱い部類なので「小悪魔」であり、気まぐれでいたずら好き。普段から紅魔館に住んでいる雑魚クラスのキャラ、とのこと。[NEWLINE]それ以外の一次設定は一切不明であり、他の性格付けは基本的に二次創作によるものである。二次創作においてはパチュリーの使い魔だったり、紅魔館図書館の司書だったり、という姿をよく見かける。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]小悪魔[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（4）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]小悪魔は東方紅魔郷4面パチュリー戦の前に遭遇する中ボスであり、大妖精や本読み妖怪と同じ所謂名無しのモブキャラ扱いの一人でもある。原作者曰く、悪魔は強大な種族だが力が弱い部類なので「小悪魔」であり、気まぐれでいたずら好き。普段から紅魔館に住んでいる雑魚クラスのキャラ、とのこと。[NEWLINE]それ以外の一次設定は一切不明であり、他の性格付けは基本的に二次創作によるものである。二次創作においてはパチュリーの使い魔だったり、紅魔館図書館の司書だったり、という姿をよく見かける。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LITTLE_PEDIA</Tag>
+		<English />
+		<French>[H1]リトル[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（4中）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]紅魔館に住む小さな悪魔。詳しくは小悪魔の項を参照。[NEWLINE]ユーザーの間でしばしば使用される設定は大まかに二通り存在する。[NEWLINE]この小悪魔はそのうちの髪が短く背が低いほうである。[NEWLINE]髪の長いほうと一緒に登場することもあり、その場合は悪戯好きに設定されることが多い。[NEWLINE]なおリトルという名前も公式の物ではなくユーザーの間で付けられた名前である。[NEWLINE][NEWLINE]「ほとんど二次創作キャラみたいなもんじゃないか」と言われればそれまでだが[NEWLINE]それを言ったら名無しの本読み妖怪やリリーブラック辺りもある意味似たようなものである。[NEWLINE]あまり細かい事は気にしない方が良いだろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]リトル[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（4中）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]紅魔館に住む小さな悪魔。詳しくは小悪魔の項を参照。[NEWLINE]ユーザーの間でしばしば使用される設定は大まかに二通り存在する。[NEWLINE]この小悪魔はそのうちの髪が短く背が低いほうである。[NEWLINE]髪の長いほうと一緒に登場することもあり、その場合は悪戯好きに設定されることが多い。[NEWLINE]なおリトルという名前も公式の物ではなくユーザーの間で付けられた名前である。[NEWLINE][NEWLINE]「ほとんど二次創作キャラみたいなもんじゃないか」と言われればそれまでだが[NEWLINE]それを言ったら名無しの本読み妖怪やリリーブラック辺りもある意味似たようなものである。[NEWLINE]あまり細かい事は気にしない方が良いだろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PATCHOULI_PEDIA</Tag>
+		<English />
+		<French>[H1]パチュリー・ノーレッジ[\H1][NEWLINE][BOLD]火+水+木+金+土+日+月を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（4/EX中）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方文化帖（L5）[NEWLINE]東方地霊殿（自サポ）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]ラクトガール ～ 少女密室 [PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]紅魔館の大図書館に住む魔法使い。[NEWLINE]100年位生きており、紅魔館の主人レミリア・スカーレットとは互いをあだ名で呼ぶほどの仲である。[NEWLINE]紅魔館のボスの中で最もスペカ数が多い。（21種）[NEWLINE]ところが喘息持ちで病弱な為、スペルが唱えきれないことが多い。[NEWLINE]そしてついに東方地霊殿にて自機入りを果たす。[NEWLINE]性能はショットの種類を5種類の内から変えることが出来る。ショットを戦闘中に5種類もの数に変更できるのはこれが初めて。[NEWLINE]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]パチュリー・ノーレッジ[\H1][NEWLINE][BOLD]火+水+木+金+土+日+月を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（4/EX中）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方文化帖（L5）[NEWLINE]東方地霊殿（自サポ）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]ラクトガール ～ 少女密室 [PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]紅魔館の大図書館に住む魔法使い。[NEWLINE]100年位生きており、紅魔館の主人レミリア・スカーレットとは互いをあだ名で呼ぶほどの仲である。[NEWLINE]紅魔館のボスの中で最もスペカ数が多い。（21種）[NEWLINE]ところが喘息持ちで病弱な為、スペルが唱えきれないことが多い。[NEWLINE]そしてついに東方地霊殿にて自機入りを果たす。[NEWLINE]性能はショットの種類を5種類の内から変えることが出来る。ショットを戦闘中に5種類もの数に変更できるのはこれが初めて。[NEWLINE]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SAKUYA_PEDIA</Tag>
+		<English />
+		<French>[H1]十六夜咲夜[\H1][NEWLINE][BOLD]時間を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（５・６）[NEWLINE]東方妖々夢（自）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方永夜抄（自）[NEWLINE]東方花映塚（自・敵）[NEWLINE]東方文化帖（L７）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]月時計 ～ ルナ・ダイアル（東方紅魔郷）[NEWLINE]フラワリングナイト（東方花映塚）[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]吸血鬼レミリア・スカーレットが主人の紅魔館のメイド長。[NEWLINE]仕事は主人の世話から清掃、時々侵入者の撃退など様々である。しかし配下のメイド妖精達は出来がよいわけでもなく、主人のレミリアもアレな為、かなりの苦労人であるのは確かである。[NEWLINE]なお、元々彼女は幻想教の生まれではなく「十六夜咲夜」という名前はレミリアから授かった名である。[NEWLINE]また時間＝空間の考えから、空間を操ることも出来る。事実、紅魔館や特に大図書館などは彼女によって空間を広げられた場所である。[NEWLINE]妖々夢ではボム数が一番多い自機として登場。永夜抄では主人のレミリアとともに出撃。そして花映塚では、初期使用キャラの一人になっている。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]十六夜咲夜[\H1][NEWLINE][BOLD]時間を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（５・６）[NEWLINE]東方妖々夢（自）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方永夜抄（自）[NEWLINE]東方花映塚（自・敵）[NEWLINE]東方文化帖（L７）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]月時計 ～ ルナ・ダイアル（東方紅魔郷）[NEWLINE]フラワリングナイト（東方花映塚）[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]吸血鬼レミリア・スカーレットが主人の紅魔館のメイド長。[NEWLINE]仕事は主人の世話から清掃、時々侵入者の撃退など様々である。しかし配下のメイド妖精達は出来がよいわけでもなく、主人のレミリアもアレな為、かなりの苦労人であるのは確かである。[NEWLINE]なお、元々彼女は幻想教の生まれではなく「十六夜咲夜」という名前はレミリアから授かった名である。[NEWLINE]また時間＝空間の考えから、空間を操ることも出来る。事実、紅魔館や特に大図書館などは彼女によって空間を広げられた場所である。[NEWLINE]妖々夢ではボム数が一番多い自機として登場。永夜抄では主人のレミリアとともに出撃。そして花映塚では、初期使用キャラの一人になっている。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_REMILIA_PEDIA</Tag>
+		<English />
+		<French>[H1]レミリア・スカーレット[\H1][NEWLINE][BOLD]運命を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（6）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方永夜抄（自）[NEWLINE]東方文化帖（L7）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]亡き王女の為のセプテット[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]紅魔館に住む吸血鬼。それがレミリア・スカーレットである。[NEWLINE]もう500年以上生きており、狂気の妹が居る。ただし、その割には体格・性格共に子供っぽい所があり、恐らく吸血鬼の中ではまだまだ子供なのではないかと思われる。[NEWLINE]また、少食であり、血液をこぼして服を真っ赤に染める為、スカーレットデビルと呼ばれている。[NEWLINE]基本的にはカリスマ性を感じさせるような、威厳たっぷりの口調で話す。一方でどこぞの天狗の新聞記者に対し「ぎゃおー！たーべちゃうぞー！」などと言って戯れたりする等、ノリが良い一面もある。[NEWLINE]弱点は吸血鬼らしく、豆や日光等である。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]レミリア・スカーレット[\H1][NEWLINE][BOLD]運命を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（6）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方永夜抄（自）[NEWLINE]東方文化帖（L7）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]亡き王女の為のセプテット[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]紅魔館に住む吸血鬼。それがレミリア・スカーレットである。[NEWLINE]もう500年以上生きており、狂気の妹が居る。ただし、その割には体格・性格共に子供っぽい所があり、恐らく吸血鬼の中ではまだまだ子供なのではないかと思われる。[NEWLINE]また、少食であり、血液をこぼして服を真っ赤に染める為、スカーレットデビルと呼ばれている。[NEWLINE]基本的にはカリスマ性を感じさせるような、威厳たっぷりの口調で話す。一方でどこぞの天狗の新聞記者に対し「ぎゃおー！たーべちゃうぞー！」などと言って戯れたりする等、ノリが良い一面もある。[NEWLINE]弱点は吸血鬼らしく、豆や日光等である。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_FLAN_PEDIA</Tag>
+		<English />
+		<French>[H1]フランドール・スカーレット[\H1][NEWLINE][BOLD]ありとあらゆるものを破壊する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（EX）[NEWLINE]東方文化帖（LEX）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]U.N.オーエンは彼女なのか？[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]レミリア・スカーレットの妹。愛称はフラン。歳は495歳である。[NEWLINE]気が触れている為、通常は表へ出して貰えない。（出ようとしても、パチュリーなどが雨を降らし、阻止する。）[NEWLINE]また、人間の襲い方を知らない為、人間を襲う際手加減が出来ず、何も残らず吹っ飛ばしてしまう。[NEWLINE]このような設定の為か、残念ながら他の東方には文化帖ぐらいしか登場していない。[NEWLINE]ちなみに、ボムを打ってもレミリアとフランは蝙蝠になって避けてしまう。例えマスタースパークでも。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]フランドール・スカーレット[\H1][NEWLINE][BOLD]ありとあらゆるものを破壊する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（EX）[NEWLINE]東方文化帖（LEX）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]U.N.オーエンは彼女なのか？[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]レミリア・スカーレットの妹。愛称はフラン。歳は495歳である。[NEWLINE]気が触れている為、通常は表へ出して貰えない。（出ようとしても、パチュリーなどが雨を降らし、阻止する。）[NEWLINE]また、人間の襲い方を知らない為、人間を襲う際手加減が出来ず、何も残らず吹っ飛ばしてしまう。[NEWLINE]このような設定の為か、残念ながら他の東方には文化帖ぐらいしか登場していない。[NEWLINE]ちなみに、ボムを打ってもレミリアとフランは蝙蝠になって避けてしまう。例えマスタースパークでも。</Japanese>
+	</TEXT>
+<!-- Koumakan End-->
+<!-- Hakugyokurou Start-->
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_PEDIA</Tag>
+		<English />
+		<French>[TAB]白玉楼は幻想郷の冥界を統治する西行寺　幽々子の住まいである。冥界とまで言うのだから本来は死者かそれに順ずる者でない限りは訪れる事は出来ないのだろうが、妖夢異変の際に現世と冥界の境界が曖昧になってしまい、現在でも現世の人間や妖怪が訪れる事が出来てしまっている。[NEWLINE]白玉楼側も開き直っているのか、庭までを一般公開している。春になると桜が見事なまでに咲き誇るため、人間・妖怪・幽霊亡霊問わず人気の観光スポットになっているとか。八雲紫率いる式神軍団もここに所属している。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]白玉楼は幻想郷の冥界を統治する西行寺　幽々子の住まいである。冥界とまで言うのだから本来は死者かそれに順ずる者でない限りは訪れる事は出来ないのだろうが、妖夢異変の際に現世と冥界の境界が曖昧になってしまい、現在でも現世の人間や妖怪が訪れる事が出来てしまっている。[NEWLINE]白玉楼側も開き直っているのか、庭までを一般公開している。春になると桜が見事なまでに咲き誇るため、人間・妖怪・幽霊亡霊問わず人気の観光スポットになっているとか。八雲紫率いる式神軍団もここに所属している。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CHEN_PEDIA</Tag>
+		<English />
+		<French>[H1]橙[\H1][NEWLINE][BOLD]妖術を扱う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（2,EX）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則（いずれも紫のサポート）[NEWLINE]東方文花帖（L6）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]ティアオイエツォン(withered leaf)[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]八雲紫の式の八雲藍の式の妖獣。要するに妖怪の式の式。元は化け猫である。[NEWLINE]橙には鬼神が憑いているのだが、憑けているのも妖怪の式な為、能力はやや低い。[NEWLINE]しかし、とにかく水に弱い。濡れると式も離れてしまうし、そもそも憑く前が化け猫なので水が苦手なのである。[NEWLINE]まぁ、一応式が離れていても、人語を理解できる位のレベルではあるのだが。[NEWLINE]藍から可愛がられているが、あまり言う事は聞かないらしく、藍が橙に言う事を聞かせる際、マタタビで釣ったりすることもあるようだ。[NEWLINE]永夜異変の時は一人（一匹？）お留守番。残念。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]橙[\H1][NEWLINE][BOLD]妖術を扱う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（2,EX）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則（いずれも紫のサポート）[NEWLINE]東方文花帖（L6）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]ティアオイエツォン(withered leaf)[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]八雲紫の式の八雲藍の式の妖獣。要するに妖怪の式の式。元は化け猫である。[NEWLINE]橙には鬼神が憑いているのだが、憑けているのも妖怪の式な為、能力はやや低い。[NEWLINE]しかし、とにかく水に弱い。濡れると式も離れてしまうし、そもそも憑く前が化け猫なので水が苦手なのである。[NEWLINE]まぁ、一応式が離れていても、人語を理解できる位のレベルではあるのだが。[NEWLINE]藍から可愛がられているが、あまり言う事は聞かないらしく、藍が橙に言う事を聞かせる際、マタタビで釣ったりすることもあるようだ。[NEWLINE]永夜異変の時は一人（一匹？）お留守番。残念。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LILYW_PEDIA</Tag>
+		<English />
+		<French>[H1]リリーホワイト[\H1][NEWLINE][BOLD]春が来たことを伝える程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（４）[NEWLINE]東方花映塚（敵）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]春の妖精。通称春告精（はるつげせい）。[NEWLINE]春が来るとそれを伝えるために各地を飛び回り春であることを伝え、彼女が通った所は春になる。[NEWLINE]しかし、その時は興奮気味な上に、彼女が最も力を発揮できる状態でもあるので、注意が必要である。[NEWLINE]花映塚では、弾をまき散らしてくるお邪魔キャラとして登場。ボスアタックと組み合わされると泣ける。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]リリーホワイト[\H1][NEWLINE][BOLD]春が来たことを伝える程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（４）[NEWLINE]東方花映塚（敵）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]春の妖精。通称春告精（はるつげせい）。[NEWLINE]春が来るとそれを伝えるために各地を飛び回り春であることを伝え、彼女が通った所は春になる。[NEWLINE]しかし、その時は興奮気味な上に、彼女が最も力を発揮できる状態でもあるので、注意が必要である。[NEWLINE]花映塚では、弾をまき散らしてくるお邪魔キャラとして登場。ボスアタックと組み合わされると泣ける。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LILYB_PEDIA</Tag>
+		<English />
+		<French>[H1]リリーブラック[\H1][NEWLINE][BOLD]（多分）春が来たことを伝える程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方花映塚[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]リリーブラックとは、東方花映塚にて登場した色違いのリリーホワイトのことである。公式設定によるとこの姿は「四季映姫とのバトルであるため、妖精たちがノリで裁判官のコスプレをしている」という事らしく、原作で「リリーブラック」という名前が記された事は無い。[NEWLINE]実質的には「リリーブラック」というキャラクターはほぼ二次創作のみで一人立ちしたキャラクターといっても過言ではない。リリーホワイトとの区別化の為か、主にリリーホワイトとは真逆の性格と描かれる事が多い。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]リリーブラック[\H1][NEWLINE][BOLD]（多分）春が来たことを伝える程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方花映塚[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]リリーブラックとは、東方花映塚にて登場した色違いのリリーホワイトのことである。公式設定によるとこの姿は「四季映姫とのバトルであるため、妖精たちがノリで裁判官のコスプレをしている」という事らしく、原作で「リリーブラック」という名前が記された事は無い。[NEWLINE]実質的には「リリーブラック」というキャラクターはほぼ二次創作のみで一人立ちしたキャラクターといっても過言ではない。リリーホワイトとの区別化の為か、主にリリーホワイトとは真逆の性格と描かれる事が多い。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LUNASA_PEDIA</Tag>
+		<English />
+		<French>[H1]ルナサ・プリズムリバー[\H1][NEWLINE][BOLD]手足を使わずに楽器を演奏する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（４）[NEWLINE]東方花映塚（自・敵）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]幽霊楽団 ～ Phantom Ensemble[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]プリズムリバー家長女。[NEWLINE]得意な楽器は弦楽器（ヴァイオリン等）である。[NEWLINE]プリズムリバー楽団のリーダーなのだが、良くメルランと勘違いされてしまう。[NEWLINE]彼女は鬱の音を担当しており、精神を落ち着かせる効用があるのだが、聴きすぎると本当に憂鬱になってくるらしい。ちなみに彼女自体もそれを反映してか、まっすぐだけど暗い性格である。[NEWLINE]元々この三姉妹は、生き別れで姉を亡くした人間の四女レイラによって生み出された騒霊である。[NEWLINE]本当はレイラが死んだ時点で消える筈なのだが、何故かまだ残っている。不思議。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]ルナサ・プリズムリバー[\H1][NEWLINE][BOLD]手足を使わずに楽器を演奏する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（４）[NEWLINE]東方花映塚（自・敵）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]幽霊楽団 ～ Phantom Ensemble[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]プリズムリバー家長女。[NEWLINE]得意な楽器は弦楽器（ヴァイオリン等）である。[NEWLINE]プリズムリバー楽団のリーダーなのだが、良くメルランと勘違いされてしまう。[NEWLINE]彼女は鬱の音を担当しており、精神を落ち着かせる効用があるのだが、聴きすぎると本当に憂鬱になってくるらしい。ちなみに彼女自体もそれを反映してか、まっすぐだけど暗い性格である。[NEWLINE]元々この三姉妹は、生き別れで姉を亡くした人間の四女レイラによって生み出された騒霊である。[NEWLINE]本当はレイラが死んだ時点で消える筈なのだが、何故かまだ残っている。不思議。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MERLIN_PEDIA</Tag>
+		<English />
+		<French>[H1]メルラン・プリズムリバー[\H1][NEWLINE][BOLD]手足を使わずに楽器を演奏する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（４）[NEWLINE]東方花映塚（自・敵）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]幽霊楽団 ～ Phantom Ensemble[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]プリズムリバー家の次女。[NEWLINE]管楽器を得意とし（トランペット等）、魔法の力は三姉妹の内一番強い。[NEWLINE]彼女は躁の音を担当しており、彼女の演奏を単体で聞き続けると段々とハイになってくる。ただハイになるだけならば良いが、あまり聴きすぎてるとハイになりすぎて無謀な行動を取ってしまう可能性もある。[NEWLINE]なお、この三姉妹はプリズムリバー楽団として、幻想郷のあちこちでライブを開く。ソロ活動もたまにやるらしいが、前述の通りハイになりすぎる可能性もあるため、危険である。[NEWLINE]メルランの明るい性格から、プリズムリバー楽団のリーダーと勘違いする人もいる。（本当はルナサ）[NEWLINE]あとへにょレーザーは勘弁してください。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]メルラン・プリズムリバー[\H1][NEWLINE][BOLD]手足を使わずに楽器を演奏する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（４）[NEWLINE]東方花映塚（自・敵）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]幽霊楽団 ～ Phantom Ensemble[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]プリズムリバー家の次女。[NEWLINE]管楽器を得意とし（トランペット等）、魔法の力は三姉妹の内一番強い。[NEWLINE]彼女は躁の音を担当しており、彼女の演奏を単体で聞き続けると段々とハイになってくる。ただハイになるだけならば良いが、あまり聴きすぎてるとハイになりすぎて無謀な行動を取ってしまう可能性もある。[NEWLINE]なお、この三姉妹はプリズムリバー楽団として、幻想郷のあちこちでライブを開く。ソロ活動もたまにやるらしいが、前述の通りハイになりすぎる可能性もあるため、危険である。[NEWLINE]メルランの明るい性格から、プリズムリバー楽団のリーダーと勘違いする人もいる。（本当はルナサ）[NEWLINE]あとへにょレーザーは勘弁してください。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LYRICA_PEDIA</Tag>
+		<English />
+		<French>[H1]リリカ・プリズムリバー[\H1][NEWLINE][BOLD]手足を使わずに楽器を演奏する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（４）[NEWLINE]東方花映塚（自・敵）[PARAGRAPH:2][BOLD][NEWLINE]幽霊楽団 ～ Phantom Ensemble[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]プリズムリバー家の三女。[NEWLINE]得意な楽器は鍵盤楽器またはパーカッションである。[NEWLINE]彼女の演奏は姉2人とは違い生物の精神には影響しない幻想の音である。が、鬱のルナサと躁のメルランが出す混ざり合った音を丁度いい具合に調整する役割も果たしている。[NEWLINE]性格はお調子者で狡猾なのだが、背が低いせいかどうもよく目立たない。[NEWLINE]この三姉妹は、普段は霧の湖近くの廃洋館に住んでいる。[NEWLINE]また、彼女はソロ活動は一切しない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]リリカ・プリズムリバー[\H1][NEWLINE][BOLD]手足を使わずに楽器を演奏する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（４）[NEWLINE]東方花映塚（自・敵）[PARAGRAPH:2][BOLD][NEWLINE]幽霊楽団 ～ Phantom Ensemble[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]プリズムリバー家の三女。[NEWLINE]得意な楽器は鍵盤楽器またはパーカッションである。[NEWLINE]彼女の演奏は姉2人とは違い生物の精神には影響しない幻想の音である。が、鬱のルナサと躁のメルランが出す混ざり合った音を丁度いい具合に調整する役割も果たしている。[NEWLINE]性格はお調子者で狡猾なのだが、背が低いせいかどうもよく目立たない。[NEWLINE]この三姉妹は、普段は霧の湖近くの廃洋館に住んでいる。[NEWLINE]また、彼女はソロ活動は一切しない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YOUMU_PEDIA</Tag>
+		<English />
+		<French>[H1]魂魄 妖夢[\H1][NEWLINE][BOLD]剣術を扱う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（5）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方永夜抄（自）[NEWLINE]東方文化帖（6）[NEWLINE]東方花映塚（自）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]広有射怪鳥事 ～ Till When?[NEWLINE]東方妖々夢 ～ Ancient Temple[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]白玉楼の西行寺家の専属庭師二代目兼幽々子の警護役。言うまでもなく主人は幽々子である。[NEWLINE]半人半霊であり、楼観剣と白楼剣と言う二本の刀を持っている。[NEWLINE]師匠でもある魂魄妖忌を祖父に持つ。ただし、妖忌はある時を境に幽居して行方不明となっている。[NEWLINE]ちなみに仕事は給金無し休み無し。やはり苦労人である。[NEWLINE]永夜抄では幽々子と組み、異変解決を目指す。花映塚では主人を差し置いて出演している。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]魂魄 妖夢[\H1][NEWLINE][BOLD]剣術を扱う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（5）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方永夜抄（自）[NEWLINE]東方文化帖（6）[NEWLINE]東方花映塚（自）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]広有射怪鳥事 ～ Till When?[NEWLINE]東方妖々夢 ～ Ancient Temple[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]白玉楼の西行寺家の専属庭師二代目兼幽々子の警護役。言うまでもなく主人は幽々子である。[NEWLINE]半人半霊であり、楼観剣と白楼剣と言う二本の刀を持っている。[NEWLINE]師匠でもある魂魄妖忌を祖父に持つ。ただし、妖忌はある時を境に幽居して行方不明となっている。[NEWLINE]ちなみに仕事は給金無し休み無し。やはり苦労人である。[NEWLINE]永夜抄では幽々子と組み、異変解決を目指す。花映塚では主人を差し置いて出演している。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YUYUKO_PEDIA</Tag>
+		<English />
+		<French>[H1]西行寺 幽々子[\H1][NEWLINE][BOLD]主に死を操る程度の能力 [\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（6）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方永夜抄（自）[NEWLINE]東方文化帖（8）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]幽雅に咲かせ、墨染の桜 ～ Border of Life[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]西行寺家のお姫様。亡霊の姫である。[NEWLINE]彼女の亡骸は西行妖により封印されており、これの花を咲かせようと妖々夢の騒動が起こった。（しかし、花が咲く＝幽々子の死に繋がるので、花が咲くことは決してない）[NEWLINE]八雲紫とは旧知の仲。逆に嫌いなのは自分のの力を持ってしても殺せない蓬莱人（※輝夜・妹紅参照）である。[NEWLINE]なお、死を操る能力を実際に用いた場合、対象がゆっくりと死に至るのか、それとも即死するのかは現在では不明である。生者に対して死に誘う事も可能な他、亡霊等の死者を操る事も可能と言われている。[NEWLINE]永夜抄では異変解決のために妖夢と動く。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]西行寺 幽々子[\H1][NEWLINE][BOLD]主に死を操る程度の能力 [\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（6）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方永夜抄（自）[NEWLINE]東方文化帖（8）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]幽雅に咲かせ、墨染の桜 ～ Border of Life[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]西行寺家のお姫様。亡霊の姫である。[NEWLINE]彼女の亡骸は西行妖により封印されており、これの花を咲かせようと妖々夢の騒動が起こった。（しかし、花が咲く＝幽々子の死に繋がるので、花が咲くことは決してない）[NEWLINE]八雲紫とは旧知の仲。逆に嫌いなのは自分のの力を持ってしても殺せない蓬莱人（※輝夜・妹紅参照）である。[NEWLINE]なお、死を操る能力を実際に用いた場合、対象がゆっくりと死に至るのか、それとも即死するのかは現在では不明である。生者に対して死に誘う事も可能な他、亡霊等の死者を操る事も可能と言われている。[NEWLINE]永夜抄では異変解決のために妖夢と動く。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RAN_PEDIA</Tag>
+		<English />
+		<French>[H1]八雲 藍[\H1][NEWLINE][BOLD]式神を使う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（EX・PH）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則（いずれも紫のサポート）[NEWLINE]東方永夜抄（自サポ）[NEWLINE]東方文化帖（8）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]少女幻葬 ～ Necro-Fantasy[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]八雲紫の式神の化け狐。橙の主人でもある。[NEWLINE]紫が冬眠している間（※八雲紫参照）主人の代理を務めるなど、式神としての能力は非常に優秀。[NEWLINE]妖怪の中でも最高峰の実力を誇る九尾の狐を媒体とし、その上に八雲藍という式神をつけている。その為藍単体でもトップクラスの実力者ではあるのだが、そんな藍を自らの式神として使役する紫の実力は計り知れないものがある。[NEWLINE]得意なのは数学。三途の川の長さを求める数千もの方程式を作った事もある。また、式神の身でありながら自らも式神を使う事が出来る。その藍が作った式神が橙である。[NEWLINE]永夜抄では紫の使い魔として働くこととなる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]八雲 藍[\H1][NEWLINE][BOLD]式神を使う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（EX・PH）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則（いずれも紫のサポート）[NEWLINE]東方永夜抄（自サポ）[NEWLINE]東方文化帖（8）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]少女幻葬 ～ Necro-Fantasy[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]八雲紫の式神の化け狐。橙の主人でもある。[NEWLINE]紫が冬眠している間（※八雲紫参照）主人の代理を務めるなど、式神としての能力は非常に優秀。[NEWLINE]妖怪の中でも最高峰の実力を誇る九尾の狐を媒体とし、その上に八雲藍という式神をつけている。その為藍単体でもトップクラスの実力者ではあるのだが、そんな藍を自らの式神として使役する紫の実力は計り知れないものがある。[NEWLINE]得意なのは数学。三途の川の長さを求める数千もの方程式を作った事もある。また、式神の身でありながら自らも式神を使う事が出来る。その藍が作った式神が橙である。[NEWLINE]永夜抄では紫の使い魔として働くこととなる。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YUKARI_PEDIA</Tag>
+		<English />
+		<French>[H1]八雲紫[\H1][NEWLINE][BOLD]境界を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（PH）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方永夜抄（自）[NEWLINE]東方文化帖（EX）[NEWLINE]東方地霊殿（自サポ）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]ネクロファンタジア[NEWLINE]夜が降りてくる ～ Evening Star[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]幻想郷のどこかに住み、幻想郷でも古参でありそして最強クラスの力を持っていると言っても過言ではない人物。それが八雲紫である。[NEWLINE]普段は12時間寝たりしかも冬は冬眠もしたりと寝てばっかりだが、博霊大結界の創造を行ったり監視をしたりと幻想卿を誰よりも見守っている人物である。[NEWLINE]また、数学が得意。彼女の式神である八雲藍も相当高レベルな方程式を求める事が出来るが、その藍ですら紫には絶対に敵わないと称する程である。[NEWLINE]幻想卿に人が紛れ込むのも、紫が境界に揺らぎを作るからである（人間界では「神隠し」と呼ばれているが）[NEWLINE]永夜抄や地霊殿では自機として霊夢と組み、異変解決を行う。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]八雲紫[\H1][NEWLINE][BOLD]境界を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（PH）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方永夜抄（自）[NEWLINE]東方文化帖（EX）[NEWLINE]東方地霊殿（自サポ）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]ネクロファンタジア[NEWLINE]夜が降りてくる ～ Evening Star[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]幻想郷のどこかに住み、幻想郷でも古参でありそして最強クラスの力を持っていると言っても過言ではない人物。それが八雲紫である。[NEWLINE]普段は12時間寝たりしかも冬は冬眠もしたりと寝てばっかりだが、博霊大結界の創造を行ったり監視をしたりと幻想卿を誰よりも見守っている人物である。[NEWLINE]また、数学が得意。彼女の式神である八雲藍も相当高レベルな方程式を求める事が出来るが、その藍ですら紫には絶対に敵わないと称する程である。[NEWLINE]幻想卿に人が紛れ込むのも、紫が境界に揺らぎを作るからである（人間界では「神隠し」と呼ばれているが）[NEWLINE]永夜抄や地霊殿では自機として霊夢と組み、異変解決を行う。</Japanese>
+	</TEXT>
+<!-- Hakugyokurou End-->
+<!-- Hyouseirengou Start-->
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ROME_PEDIA</Tag>
+		<English />
+		<French>[TAB]紅魔館を取り巻く霧の湖。⑨ことチルノを筆頭とした4人組、通称バカルテットと、恐らくは保護者として冬の妖怪レティ、そして星蓮船組から多々良小傘が霧の湖側で参戦している。[NEWLINE]なお、バカルテットとは公式設定で頭が悪いとされているチルノ、ミスティア、リグル、ルーミアの4人組の事である。最近では東方地霊殿のラスボス霊烏路空が公式バカの仲間入りを果たしたが、色々と規格外な為か彼女達4人組の仲間入りに関しては全くといってもいいほど賛同されていない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]紅魔館を取り巻く霧の湖。⑨ことチルノを筆頭とした4人組、通称バカルテットと、恐らくは保護者として冬の妖怪レティ、そして星蓮船組から多々良小傘が霧の湖側で参戦している。[NEWLINE]なお、バカルテットとは公式設定で頭が悪いとされているチルノ、ミスティア、リグル、ルーミアの4人組の事である。最近では東方地霊殿のラスボス霊烏路空が公式バカの仲間入りを果たしたが、色々と規格外な為か彼女達4人組の仲間入りに関しては全くといってもいいほど賛同されていない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CIRNO_PEDIA</Tag>
+		<English />
+		<French>[H1]チルノ[\H1][NEWLINE][BOLD]冷気を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（2）[NEWLINE]東方妖々夢（1）[NEWLINE]東方花映塚（自）[NEWLINE]東方文化帖（L2）[NEWLINE]東方非想天則[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]おてんば恋娘（東方紅魔郷）[NEWLINE]おてんば恋娘の冒険（東方花映塚）[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]湖に住む氷の妖精。氷の妖精なのでチルノの周りは何時も寒い。[NEWLINE]悪戯好きでよく蛙などを凍らして遊ぶことがある。[NEWLINE]また、頭は悪い。どのくらいかと言えば、簡単ななぞなぞも答えられないのだとか。ただし新聞を読み、内容を解する程度の知能はある。[NEWLINE]しかし、戦闘となると妖精の中では規格外の強さを発揮する。「あたいったら最強ね」を口癖としているが、実際に妖精の中では最強との見方が一般的だ。ただし、それはあくまで妖精の中に限った話で、力を過信しすぎて大ガマに食われたこともある。[NEWLINE]妖々夢では1面道中に出てくる。しかし、ＨＡＲＤ以上でなければスペルを使ってこない。花映塚にも出場。[PARAGRAPH:2][BOLD]本作で出てくるスペルカードについて[\BOLD][NEWLINE][TAB]本作で出てくるチルノが使うスペルカードのモデルとなった原作は、「アイシクルフォール」と言うスペルと思われる。このスペルは、チルノの両端から出る交差弾と、チルノ自身が打つ自機狙いの二つを避けていく物である。しかし、残念ながらＥＡＳＹの場合、チルノ自身は自機狙いを打たないため、チルノの真正面が玉が来ない場所（＝安地）となるスペルなのである。なので、本作のＥＡＳＹ時は、スペルの効果がない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]チルノ[\H1][NEWLINE][BOLD]冷気を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（2）[NEWLINE]東方妖々夢（1）[NEWLINE]東方花映塚（自）[NEWLINE]東方文化帖（L2）[NEWLINE]東方非想天則[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]おてんば恋娘（東方紅魔郷）[NEWLINE]おてんば恋娘の冒険（東方花映塚）[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]湖に住む氷の妖精。氷の妖精なのでチルノの周りは何時も寒い。[NEWLINE]悪戯好きでよく蛙などを凍らして遊ぶことがある。[NEWLINE]また、頭は悪い。どのくらいかと言えば、簡単ななぞなぞも答えられないのだとか。ただし新聞を読み、内容を解する程度の知能はある。[NEWLINE]しかし、戦闘となると妖精の中では規格外の強さを発揮する。「あたいったら最強ね」を口癖としているが、実際に妖精の中では最強との見方が一般的だ。ただし、それはあくまで妖精の中に限った話で、力を過信しすぎて大ガマに食われたこともある。[NEWLINE]妖々夢では1面道中に出てくる。しかし、ＨＡＲＤ以上でなければスペルを使ってこない。花映塚にも出場。[PARAGRAPH:2][BOLD]本作で出てくるスペルカードについて[\BOLD][NEWLINE][TAB]本作で出てくるチルノが使うスペルカードのモデルとなった原作は、「アイシクルフォール」と言うスペルと思われる。このスペルは、チルノの両端から出る交差弾と、チルノ自身が打つ自機狙いの二つを避けていく物である。しかし、残念ながらＥＡＳＹの場合、チルノ自身は自機狙いを打たないため、チルノの真正面が玉が来ない場所（＝安地）となるスペルなのである。なので、本作のＥＡＳＹ時は、スペルの効果がない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RUMIA_PEDIA</Tag>
+		<English />
+		<French>[H1]ルーミア[\H1][NEWLINE][BOLD]闇を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（1）[NEWLINE]東方文化帖（1）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]妖魔夜行[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]闇の妖怪。[NEWLINE]その能力通り、自身の周りに闇を作ることが出来る。（周りから見ると、黒い球体があるように見える）[NEWLINE]しかし、中からも見えないため、木などにぶつかる事も多々ある。が、人を襲う時は力業で行うとか。[NEWLINE]最近は妖怪なのに人を襲うのが面倒くさい。[NEWLINE]また、新月の夜には闇を出すことが少ない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]ルーミア[\H1][NEWLINE][BOLD]闇を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（1）[NEWLINE]東方文化帖（1）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]妖魔夜行[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]闇の妖怪。[NEWLINE]その能力通り、自身の周りに闇を作ることが出来る。（周りから見ると、黒い球体があるように見える）[NEWLINE]しかし、中からも見えないため、木などにぶつかる事も多々ある。が、人を襲う時は力業で行うとか。[NEWLINE]最近は妖怪なのに人を襲うのが面倒くさい。[NEWLINE]また、新月の夜には闇を出すことが少ない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WRIGGLE_PEDIA</Tag>
+		<English />
+		<French>[H1]リグル・ナイトバグ[\H1][NEWLINE][BOLD]蟲を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（1）[NEWLINE]東方文化帖（1）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]蠢々秋月 ～ Mooned Insect[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]蛍の妖怪。虫なので、寒さや殺虫剤などに弱い。[NEWLINE]でも異変解決のために急いでいる霊夢達とは会話が成立しない。[NEWLINE]可哀想な子。[NEWLINE]また、目覚まし時計のように時間になったら虫を遣わして知らせる「蟲の知らせサービス」なる物もやっている。[NEWLINE]古来に比べると虫の恐ろしさはどんどん失墜しており、リグル自身も苦労しているとか。なお、見た目男の子っぽいようにも見えるが、決して男の子ではない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]リグル・ナイトバグ[\H1][NEWLINE][BOLD]蟲を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（1）[NEWLINE]東方文化帖（1）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]蠢々秋月 ～ Mooned Insect[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]蛍の妖怪。虫なので、寒さや殺虫剤などに弱い。[NEWLINE]でも異変解決のために急いでいる霊夢達とは会話が成立しない。[NEWLINE]可哀想な子。[NEWLINE]また、目覚まし時計のように時間になったら虫を遣わして知らせる「蟲の知らせサービス」なる物もやっている。[NEWLINE]古来に比べると虫の恐ろしさはどんどん失墜しており、リグル自身も苦労しているとか。なお、見た目男の子っぽいようにも見えるが、決して男の子ではない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MYSTIA_PEDIA</Tag>
+		<English />
+		<French>[H1]ミスティア・ローレライ[\H1][NEWLINE][BOLD]歌で人を狂わす程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（2）[NEWLINE]東方花映塚（自）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]もう歌しか聞こえない[NEWLINE]もう歌しか聞こえない ～ Flower Mix[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][TAB]夜雀。その名の通り、夜に生きる雀である。勿論、大きさは人ぐらいで、言葉もしゃべれるが。[NEWLINE]能力は上記の通りだが、他に人を鳥目にもしてしまう事も出来る。[NEWLINE]また、焼き鳥屋撲滅の為に焼き八目鰻屋をやっている。（しかし時々、普通の鰻や泥鰌等で食品偽装などもしているとか。）[NEWLINE]歌が好きであり、若い人などに特に人気がある。[NEWLINE]花映塚では堂々の自機入り。[NEWLINE]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]ミスティア・ローレライ[\H1][NEWLINE][BOLD]歌で人を狂わす程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（2）[NEWLINE]東方花映塚（自）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]もう歌しか聞こえない[NEWLINE]もう歌しか聞こえない ～ Flower Mix[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][TAB]夜雀。その名の通り、夜に生きる雀である。勿論、大きさは人ぐらいで、言葉もしゃべれるが。[NEWLINE]能力は上記の通りだが、他に人を鳥目にもしてしまう事も出来る。[NEWLINE]また、焼き鳥屋撲滅の為に焼き八目鰻屋をやっている。（しかし時々、普通の鰻や泥鰌等で食品偽装などもしているとか。）[NEWLINE]歌が好きであり、若い人などに特に人気がある。[NEWLINE]花映塚では堂々の自機入り。[NEWLINE]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LETTY_PEDIA</Tag>
+		<English />
+		<French>[H1]レティ・ホワイトロック[\H1][NEWLINE][BOLD]寒気を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（1）[NEWLINE]東方文化帖（2）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]クリスタライズシルバー[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]冬の間だけ活動する妖怪。分かり易く言えば、雪女のようなもの。[NEWLINE]自称「黒幕」を名乗っている。[NEWLINE]春になるとまた何処かへ消えてしまう。次の冬まで隠れて暮らす。[NEWLINE]なお、寒気を操るというのは、冷たい物を放つわけではなく、その場所全体の温度を下げる事である。[PARAGRAPH:1]ちなみに彼女の名前はアガサ・クリスティ著「予告殺人」の登場人物レティから来ているといわれている。レティは愛称で、本名はレティシア・ブラックロック。つまりブラックがホワイトになった、ということである。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]レティ・ホワイトロック[\H1][NEWLINE][BOLD]寒気を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（1）[NEWLINE]東方文化帖（2）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]クリスタライズシルバー[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]冬の間だけ活動する妖怪。分かり易く言えば、雪女のようなもの。[NEWLINE]自称「黒幕」を名乗っている。[NEWLINE]春になるとまた何処かへ消えてしまう。次の冬まで隠れて暮らす。[NEWLINE]なお、寒気を操るというのは、冷たい物を放つわけではなく、その場所全体の温度を下げる事である。[PARAGRAPH:1]ちなみに彼女の名前はアガサ・クリスティ著「予告殺人」の登場人物レティから来ているといわれている。レティは愛称で、本名はレティシア・ブラックロック。つまりブラックがホワイトになった、ということである。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KOGASA_PEDIA</Tag>
+		<English />
+		<French>[H1]多々良 小傘[\H1][NEWLINE][BOLD]人間を驚かす程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方星蓮船（2/EX中）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L3）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]万年置き傘にご注意を[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]元はただの忘れ傘だったが、誰にも拾われる事無く風雨に飛ばされるにつれ、次第に妖怪と化してしまった化け傘である。[NEWLINE]小傘自身は人間に捨てられたと思っているようだが、実際は単に配色のセンスが悪く（早苗曰く「ナスみたいな色」）、誰も手をつけようとしなかっただけである。[NEWLINE]自称「愉快な妖怪」であり、妖怪化した後は人間を驚かす事を生き甲斐としている。（もしくは本人曰く「誰も驚いてくれないとひもじい」らしく、人を驚かす事で腹を満たしているのかもしれない）[NEWLINE]ただ人を驚かすだけなので、遭遇したとしても実害は少ないとされる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]多々良 小傘[\H1][NEWLINE][BOLD]人間を驚かす程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方星蓮船（2/EX中）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L3）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]万年置き傘にご注意を[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]元はただの忘れ傘だったが、誰にも拾われる事無く風雨に飛ばされるにつれ、次第に妖怪と化してしまった化け傘である。[NEWLINE]小傘自身は人間に捨てられたと思っているようだが、実際は単に配色のセンスが悪く（早苗曰く「ナスみたいな色」）、誰も手をつけようとしなかっただけである。[NEWLINE]自称「愉快な妖怪」であり、妖怪化した後は人間を驚かす事を生き甲斐としている。（もしくは本人曰く「誰も驚いてくれないとひもじい」らしく、人を驚かす事で腹を満たしているのかもしれない）[NEWLINE]ただ人を驚かすだけなので、遭遇したとしても実害は少ないとされる。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DAIYOUSEI_PEDIA</Tag>
+		<English />
+		<French>[H1]大妖精[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（2）[NEWLINE]妖精大戦争　～ 東方三月精（霧の湖ステージ/EX）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[NEWLINE]（ただし、ファンの間では紅魔郷2面道中曲「ルーネイトエルフ」が彼女のテーマ曲として扱われる事が多い）[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]大妖精は小悪魔や本読み妖怪と同じく特定の名前が無いモブキャラ的な扱いをされているキャラである。[NEWLINE]原作者が言うには、大妖精とは妖精の中でも力のある者を指す名称らしく、彼女自身の名前ではない。性格は妖精の例に違わず陽気でいたずら好き、とのこと。[NEWLINE]それ以外の一次設定はほぼ皆無であり、主だった性格付けなどは主に二次創作によるものである。二次創作では主に「大ちゃん」の愛称で知られ、紅魔館2面繋がりのチルノと絡む事が多い。[NEWLINE][NEWLINE]最近になって、「妖精大戦争」にてドット絵のディティールが紅魔館時代より鮮明になって久々の再登場を果たしている。この際には氷精のチルノに対し容赦なく炎弾を飛ばしたり、リリーホワイトと一緒にEX中ボスをやっていたりといった姿が目撃されている。名無し組の中では最も恵まれているキャラと言っても過言ではない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]大妖精[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷（2）[NEWLINE]妖精大戦争　～ 東方三月精（霧の湖ステージ/EX）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[NEWLINE]（ただし、ファンの間では紅魔郷2面道中曲「ルーネイトエルフ」が彼女のテーマ曲として扱われる事が多い）[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]大妖精は小悪魔や本読み妖怪と同じく特定の名前が無いモブキャラ的な扱いをされているキャラである。[NEWLINE]原作者が言うには、大妖精とは妖精の中でも力のある者を指す名称らしく、彼女自身の名前ではない。性格は妖精の例に違わず陽気でいたずら好き、とのこと。[NEWLINE]それ以外の一次設定はほぼ皆無であり、主だった性格付けなどは主に二次創作によるものである。二次創作では主に「大ちゃん」の愛称で知られ、紅魔館2面繋がりのチルノと絡む事が多い。[NEWLINE][NEWLINE]最近になって、「妖精大戦争」にてドット絵のディティールが紅魔館時代より鮮明になって久々の再登場を果たしている。この際には氷精のチルノに対し容赦なく炎弾を飛ばしたり、リリーホワイトと一緒にEX中ボスをやっていたりといった姿が目撃されている。名無し組の中では最も恵まれているキャラと言っても過言ではない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SUNNY_PEDIA</Tag>
+		<English />
+		<French>[H1]サニーミルク[\H1][NEWLINE][BOLD]光を屈折させる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方三月精シリーズ[NEWLINE]妖精大戦争[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]サニールチルフレクション[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]ルナチャイルド、スターサファイアと常に行動を共にする悪戯妖精。[NEWLINE]三妖精の参謀兼リーダーであり作戦は専ら彼女が考えている。本人曰く三妖精の中では最強らしい。[NEWLINE]が、詰めが甘い為成功率は著しく低くしょっちゅう酷い目にあっている。[NEWLINE]求聞史記における危険度は三妖精の中で最も高い"低"である（チルノと同じ）[NEWLINE][NEWLINE]現在では博麗神社の裏に住んでおり、信仰集めの手伝いをしている（役に立っているかは不明）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]サニーミルク[\H1][NEWLINE][BOLD]光を屈折させる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方三月精シリーズ[NEWLINE]妖精大戦争[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]サニールチルフレクション[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]ルナチャイルド、スターサファイアと常に行動を共にする悪戯妖精。[NEWLINE]三妖精の参謀兼リーダーであり作戦は専ら彼女が考えている。本人曰く三妖精の中では最強らしい。[NEWLINE]が、詰めが甘い為成功率は著しく低くしょっちゅう酷い目にあっている。[NEWLINE]求聞史記における危険度は三妖精の中で最も高い"低"である（チルノと同じ）[NEWLINE][NEWLINE]現在では博麗神社の裏に住んでおり、信仰集めの手伝いをしている（役に立っているかは不明）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LUNA_PEDIA</Tag>
+		<English />
+		<French>[H1]ルナチャイルド[\H1][NEWLINE][BOLD]音を消す程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方三月精シリーズ[NEWLINE]妖精大戦争[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]夜だから眠れない[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]サニーミルク、スターサファイアと常に行動を共にする悪戯妖精。[NEWLINE]三人の中で最も鈍くさく、よく何もない所で転んでいる。[NEWLINE]理屈っぽい性格をしておりサニーの考えた作戦によく疑問を投げかける役割が多い。[NEWLINE]三人の中では最も残酷であるとされたり、妖怪に近いと称されていたり、妖精なのに人工物を蒐集していたりと妖精らしくない一面が多い。[NEWLINE][NEWLINE]口が栗みたいだとか言ってはいけない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]ルナチャイルド[\H1][NEWLINE][BOLD]音を消す程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方三月精シリーズ[NEWLINE]妖精大戦争[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]夜だから眠れない[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]サニーミルク、スターサファイアと常に行動を共にする悪戯妖精。[NEWLINE]三人の中で最も鈍くさく、よく何もない所で転んでいる。[NEWLINE]理屈っぽい性格をしておりサニーの考えた作戦によく疑問を投げかける役割が多い。[NEWLINE]三人の中では最も残酷であるとされたり、妖怪に近いと称されていたり、妖精なのに人工物を蒐集していたりと妖精らしくない一面が多い。[NEWLINE][NEWLINE]口が栗みたいだとか言ってはいけない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_STAR_PEDIA</Tag>
+		<English />
+		<French>[H1]スターサファイア[\H1][NEWLINE][BOLD]動くものの気配を探る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方三月精シリーズ[NEWLINE]妖精大戦争[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]妖精燦々として[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]サニーミルク、ルナチャイルドと常に行動を共にする悪戯妖精。[NEWLINE]掴み所のない性格をしており、悪戯を行う際もどこか一歩下がった所にいる。[NEWLINE]おそらく失敗した際に一番に逃げる為と思われる。実際二人を差し置いて逃げる事が多い。[NEWLINE]ちなみに妖精、というか東方キャラの中でも服のバリエーションが多いほうで作品内では様々な姿を拝む事ができる。[NEWLINE][NEWLINE]現在では博麗神社の裏に住んでおり、信仰集めの手伝いをしている（役に立っているかは不明）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]スターサファイア[\H1][NEWLINE][BOLD]動くものの気配を探る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方三月精シリーズ[NEWLINE]妖精大戦争[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]妖精燦々として[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]サニーミルク、ルナチャイルドと常に行動を共にする悪戯妖精。[NEWLINE]掴み所のない性格をしており、悪戯を行う際もどこか一歩下がった所にいる。[NEWLINE]おそらく失敗した際に一番に逃げる為と思われる。実際二人を差し置いて逃げる事が多い。[NEWLINE]ちなみに妖精、というか東方キャラの中でも服のバリエーションが多いほうで作品内では様々な姿を拝む事ができる。[NEWLINE][NEWLINE]現在では博麗神社の裏に住んでおり、信仰集めの手伝いをしている（役に立っているかは不明）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WAKASAGIHIME_PEDIA</Tag>
+		<English />
+		<French>[H1]わかさぎ姫[\H1][NEWLINE][BOLD]水中だと力が増す程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城（1）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]秘境のマーメイド[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]霧の湖に住む淡水人魚。おっとりした性格。[NEWLINE]人間に敵対心はなく、普段は石を集めたり歌を歌ったりして静かに過ごしている。[NEWLINE]草の根ネットワークに属する一人であり今泉影狼とは知り合い。[NEWLINE]かつて食べられそうになったらしく仲が良いのかは不明。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]わかさぎ姫[\H1][NEWLINE][BOLD]水中だと力が増す程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城（1）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]秘境のマーメイド[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]霧の湖に住む淡水人魚。おっとりした性格。[NEWLINE]人間に敵対心はなく、普段は石を集めたり歌を歌ったりして静かに過ごしている。[NEWLINE]草の根ネットワークに属する一人であり今泉影狼とは知り合い。[NEWLINE]かつて食べられそうになったらしく仲が良いのかは不明。</Japanese>
+	</TEXT>
+<!-- Hyouseirengou End-->
+<!-- Eientei Start-->
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_PEDIA</Tag>
+		<English />
+		<French>[TAB]永遠亭とは迷いの竹林の奥にある永夜異変の張本人達が潜んでいる館である。永夜異変の前は輝夜の能力を用い、歴史が流れる事を止めていた。歴史を止めるとは即ち一切の変化を止める事であり、歴史が止まっている間は掃除等のメンテナンス作業は一切不要だった。[NEWLINE]永夜異変後は輝夜が術を解除してしまったので、現在の永遠亭では普通に変化がおきている。恐らくもう少し時間が建つと建物の修繕等の必要性も出てくると思われる。[NEWLINE]今作では永遠亭の住民の他、メディスン・メランコリーがこの勢力に属している。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]永遠亭とは迷いの竹林の奥にある永夜異変の張本人達が潜んでいる館である。永夜異変の前は輝夜の能力を用い、歴史が流れる事を止めていた。歴史を止めるとは即ち一切の変化を止める事であり、歴史が止まっている間は掃除等のメンテナンス作業は一切不要だった。[NEWLINE]永夜異変後は輝夜が術を解除してしまったので、現在の永遠亭では普通に変化がおきている。恐らくもう少し時間が建つと建物の修繕等の必要性も出てくると思われる。[NEWLINE]今作では永遠亭の住民の他、メディスン・メランコリーがこの勢力に属している。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TEWI_PEDIA</Tag>
+		<English />
+		<French>[H1]因幡 てゐ[\H1][NEWLINE][BOLD]人間を幸運にする程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（5）[NEWLINE]東方花映塚（自）[NEWLINE]東方文花帖（4）[NEWLINE][PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]お宇佐さまの素い幡[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]健康に気使って長く生きている間に、妖怪変化の力を身につけてしまった兎。[NEWLINE]永遠亭に住む大量の兎のリーダーだが、その気性の激しい性格は妖怪より妖精に近い。[NEWLINE]竹林に迷った者が、稀に彼女の姿を見かける事がある。彼女の姿を見ると必ず竹林から抜け出せると言われていた為、彼女は迷いの竹林の道案内役だと思われている。[NEWLINE]実際は、彼女から貰った幸運をそんな所で使ってしまうのはもったいないのだが、人間は馬鹿だから気が付かないとおもっている。[NEWLINE]元は永夜抄5面の中ボスであり、専用のテーマ曲も存在はしなかったが、次作の花映塚にて専用のテーマ曲を引っさげて自機化するという大躍進を遂げた。東方Project中最も出世した中ボスキャラと言っても過言ではない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]因幡 てゐ[\H1][NEWLINE][BOLD]人間を幸運にする程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（5）[NEWLINE]東方花映塚（自）[NEWLINE]東方文花帖（4）[NEWLINE][PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]お宇佐さまの素い幡[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]健康に気使って長く生きている間に、妖怪変化の力を身につけてしまった兎。[NEWLINE]永遠亭に住む大量の兎のリーダーだが、その気性の激しい性格は妖怪より妖精に近い。[NEWLINE]竹林に迷った者が、稀に彼女の姿を見かける事がある。彼女の姿を見ると必ず竹林から抜け出せると言われていた為、彼女は迷いの竹林の道案内役だと思われている。[NEWLINE]実際は、彼女から貰った幸運をそんな所で使ってしまうのはもったいないのだが、人間は馬鹿だから気が付かないとおもっている。[NEWLINE]元は永夜抄5面の中ボスであり、専用のテーマ曲も存在はしなかったが、次作の花映塚にて専用のテーマ曲を引っさげて自機化するという大躍進を遂げた。東方Project中最も出世した中ボスキャラと言っても過言ではない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_REISEN_PEDIA</Tag>
+		<English />
+		<French>[H1]鈴仙・優曇華院・イナバ[\H1][NEWLINE][BOLD]狂気を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（5）[NEWLINE]東方花映塚（自）[NEWLINE]東方文花帖（4）[NEWLINE]東方緋想天/東方非想天則[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]狂気の瞳 ～ Invisible Full Moon[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]月に住んでいた兎。[NEWLINE]赤い瞳は地上の兎の何倍もの狂気が宿る。[NEWLINE]月の兎同士が使うという、どんなに離れていてもその大きな耳で会話が出来るという月の兎の特殊能力の兎の波動を使える。[NEWLINE]現在は輝夜のペットである。本当の本名はレイセンのみであるが、地上人にカムフラージュする為に漢字を当てている。でも非常に不自然。[NEWLINE]優曇華院は永琳が付けた愛称で、何故そんな愛称で呼ぶのかは不明。さらに永琳は彼女の事を、親しみを込めて「ウドンゲ」と呼ぶ。勝手に愛称をつけてしかも略して呼ぶあたり、宇宙人の思考は良く判らない。[NEWLINE]イナバは輝夜が付けた愛称。むしろ兎全般をイナバと呼んでいる。[NEWLINE]輝夜が「イナバ」と呼ぶと、彼女とてゐと区別がつかないが、どうも区別していないようにも見える。兎なら何でも一緒なのだろう。[NEWLINE]人間以外が住む幻想郷の噂を聞きつけ、月の民が戦っている中、仲間を見捨てて命からがら輝夜の元に逃げ込んだ。そして輝夜の家に置かれる事になった。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]鈴仙・優曇華院・イナバ[\H1][NEWLINE][BOLD]狂気を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（5）[NEWLINE]東方花映塚（自）[NEWLINE]東方文花帖（4）[NEWLINE]東方緋想天/東方非想天則[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]狂気の瞳 ～ Invisible Full Moon[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]月に住んでいた兎。[NEWLINE]赤い瞳は地上の兎の何倍もの狂気が宿る。[NEWLINE]月の兎同士が使うという、どんなに離れていてもその大きな耳で会話が出来るという月の兎の特殊能力の兎の波動を使える。[NEWLINE]現在は輝夜のペットである。本当の本名はレイセンのみであるが、地上人にカムフラージュする為に漢字を当てている。でも非常に不自然。[NEWLINE]優曇華院は永琳が付けた愛称で、何故そんな愛称で呼ぶのかは不明。さらに永琳は彼女の事を、親しみを込めて「ウドンゲ」と呼ぶ。勝手に愛称をつけてしかも略して呼ぶあたり、宇宙人の思考は良く判らない。[NEWLINE]イナバは輝夜が付けた愛称。むしろ兎全般をイナバと呼んでいる。[NEWLINE]輝夜が「イナバ」と呼ぶと、彼女とてゐと区別がつかないが、どうも区別していないようにも見える。兎なら何でも一緒なのだろう。[NEWLINE]人間以外が住む幻想郷の噂を聞きつけ、月の民が戦っている中、仲間を見捨てて命からがら輝夜の元に逃げ込んだ。そして輝夜の家に置かれる事になった。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_EIRIN_PEDIA</Tag>
+		<English />
+		<French>[H1]八意 永琳[\H1][NEWLINE][BOLD]あらゆる薬を作る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（6A）[NEWLINE]東方文花帖（L9）[NEWLINE][PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]千年幻想郷 ～ History of the Moon[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]月の民で、つまりは宇宙人。地上に隠れ住んでから結構長い。[NEWLINE]輝夜との付き合いは、はるか昔輝夜が月に居た頃から始まっている。[NEWLINE]八意家は、何時しか月に住むようになった薬の天才家系。中でも永琳の知能は抜群である。彼女の頭脳は人間のそれをはるかに上回っているが、それがゆえに逆に何を言っているのか良く判らない時も多い。[NEWLINE]本当は、輝夜より圧倒的に強い力を持っている。だが常に輝夜以上にならない様に力をセーブしているらしい。[NEWLINE]はるか昔、月の姫である輝夜の罪が晴れた為、罰として地上に落とされていた輝夜を月に連れ戻しに来た使者の一人。ただ、とある理由で輝夜と共謀し、月の使者を全員殺害してしまった。[NEWLINE]そして二人は人里離れた山奥でひっそりと隠れて暮らす様になった。そう、そこは妖怪も出るような山奥で……。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]八意 永琳[\H1][NEWLINE][BOLD]あらゆる薬を作る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（6A）[NEWLINE]東方文花帖（L9）[NEWLINE][PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]千年幻想郷 ～ History of the Moon[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]月の民で、つまりは宇宙人。地上に隠れ住んでから結構長い。[NEWLINE]輝夜との付き合いは、はるか昔輝夜が月に居た頃から始まっている。[NEWLINE]八意家は、何時しか月に住むようになった薬の天才家系。中でも永琳の知能は抜群である。彼女の頭脳は人間のそれをはるかに上回っているが、それがゆえに逆に何を言っているのか良く判らない時も多い。[NEWLINE]本当は、輝夜より圧倒的に強い力を持っている。だが常に輝夜以上にならない様に力をセーブしているらしい。[NEWLINE]はるか昔、月の姫である輝夜の罪が晴れた為、罰として地上に落とされていた輝夜を月に連れ戻しに来た使者の一人。ただ、とある理由で輝夜と共謀し、月の使者を全員殺害してしまった。[NEWLINE]そして二人は人里離れた山奥でひっそりと隠れて暮らす様になった。そう、そこは妖怪も出るような山奥で……。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KAGUYA_PEDIA</Tag>
+		<English />
+		<French>[H1]蓬莱山 輝夜[\H1][NEWLINE][BOLD]永遠と須臾を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（6B）[NEWLINE]東方文花帖（L9）[NEWLINE][PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]竹取飛翔 ～ Lunatic Princess [PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]カグヤは月の民の一族であり、月の姫として大切に育てられていた。その為、我侭し放題に育てられていたのだ。[NEWLINE]しかし、ある事件を機にカグヤの生活は大きく変わる。興味本位で永琳に、禁断の秘薬である蓬莱の薬を作らせてしまい、それに手を出してしまったのだ。[NEWLINE]その事はすぐにばれてしまい、カグヤは処刑された。しかし、永遠の力を持ったカグヤは死んでもすぐに生まれ変わり、事実上死ぬ事は出来なかった。[NEWLINE]カグヤは罰として次の生は地上の賤しき民と暮らす様に命じられ地上に落とされた。間も無くして、一人の地上人に発見され、そこで輝夜という名前で暮らす事になった。[NEWLINE]その数年後、晴れて輝夜の罪も償われ月に帰る時が来た。しかし、お世話になった地上人への恩と情、心のある地上での生活、どうしても帰りたくない。だが穢ない処もあり、生活しにくい部分もある。輝夜は思い悩んでいた。そんな時月からやってきた使者の中に見覚えのある姿を見た。それは永琳である。[NEWLINE]永琳は他の月の使者を裏切り、輝夜を逃した。[NEWLINE]こうして、二人は人里離れた山奥でひっそりと隠れて暮らす様になった。そう、そこは妖怪も出るような山奥で……。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]蓬莱山 輝夜[\H1][NEWLINE][BOLD]永遠と須臾を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（6B）[NEWLINE]東方文花帖（L9）[NEWLINE][PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]竹取飛翔 ～ Lunatic Princess [PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]カグヤは月の民の一族であり、月の姫として大切に育てられていた。その為、我侭し放題に育てられていたのだ。[NEWLINE]しかし、ある事件を機にカグヤの生活は大きく変わる。興味本位で永琳に、禁断の秘薬である蓬莱の薬を作らせてしまい、それに手を出してしまったのだ。[NEWLINE]その事はすぐにばれてしまい、カグヤは処刑された。しかし、永遠の力を持ったカグヤは死んでもすぐに生まれ変わり、事実上死ぬ事は出来なかった。[NEWLINE]カグヤは罰として次の生は地上の賤しき民と暮らす様に命じられ地上に落とされた。間も無くして、一人の地上人に発見され、そこで輝夜という名前で暮らす事になった。[NEWLINE]その数年後、晴れて輝夜の罪も償われ月に帰る時が来た。しかし、お世話になった地上人への恩と情、心のある地上での生活、どうしても帰りたくない。だが穢ない処もあり、生活しにくい部分もある。輝夜は思い悩んでいた。そんな時月からやってきた使者の中に見覚えのある姿を見た。それは永琳である。[NEWLINE]永琳は他の月の使者を裏切り、輝夜を逃した。[NEWLINE]こうして、二人は人里離れた山奥でひっそりと隠れて暮らす様になった。そう、そこは妖怪も出るような山奥で……。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MEDICIN_PEDIA</Tag>
+		<English />
+		<French>[H1]メディスン・メランコリー[\H1][NEWLINE][BOLD]毒を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方花映塚（自）[NEWLINE][PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]ポイズンボディ ～ Forsaken Doll[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]鈴蘭の咲く無名の丘に住む自律人形。[NEWLINE]人間に対して憎悪を抱いており、人形開放をモットーに活動している。[NEWLINE]どちらかというと生まれたての妖怪で、知識などが少ない。[NEWLINE]ちなみに、メディスンが使う毒というのは鈴蘭の毒限定ではなく、様々な種類の毒である。毒を集める際はコンパロ、コンパロという独特の呪文で毒を集める。[NEWLINE]最近では永遠亭の面々に毒集めの協力を申し出していたりするようだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]メディスン・メランコリー[\H1][NEWLINE][BOLD]毒を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方花映塚（自）[NEWLINE][PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]ポイズンボディ ～ Forsaken Doll[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]鈴蘭の咲く無名の丘に住む自律人形。[NEWLINE]人間に対して憎悪を抱いており、人形開放をモットーに活動している。[NEWLINE]どちらかというと生まれたての妖怪で、知識などが少ない。[NEWLINE]ちなみに、メディスンが使う毒というのは鈴蘭の毒限定ではなく、様々な種類の毒である。毒を集める際はコンパロ、コンパロという独特の呪文で毒を集める。[NEWLINE]最近では永遠亭の面々に毒集めの協力を申し出していたりするようだ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YORIHIME_PEDIA</Tag>
+		<English />
+		<French>[H1]綿月依姫[\H1][NEWLINE][BOLD]神霊の依代となる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方儚月抄[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[NEWLINE]（「綿月のスペルカード」はあくまで、綿月姉妹をイメージした曲であって[NEWLINE]テーマ曲というわけではない）[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]月の都の防衛と地上の監視を担う「月の使者」のリーダーの一人。[NEWLINE]姉の綿月豊姫共々八意永琳の遠い親族であり教え子でもある。[NEWLINE]生真面目な性格で高い戦闘力を有しており、その実力は八雲紫をも上回る。[NEWLINE]遠い昔に月からいなくなり罪人となった八意永琳を今も尊敬しており[NEWLINE]その為彼女を捕らえるという仕事を全うする気は今の所ない。むしろ姉ともども遊びに行ったりしている。[NEWLINE]他人に厳しく自分にも厳しい。月人である事を誇りに思っているが決して地上人を見下しているわけではない。[NEWLINE]（実際月にやってきた霊夢たちを見下すような事はしなかった）[NEWLINE]一見隙の無い人物に見えるが一時期月で目撃された亡霊の噂に怯え、それをネタに姉の豊姫にからかわれる事もある。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]綿月依姫[\H1][NEWLINE][BOLD]神霊の依代となる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方儚月抄[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[NEWLINE]（「綿月のスペルカード」はあくまで、綿月姉妹をイメージした曲であって[NEWLINE]テーマ曲というわけではない）[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]月の都の防衛と地上の監視を担う「月の使者」のリーダーの一人。[NEWLINE]姉の綿月豊姫共々八意永琳の遠い親族であり教え子でもある。[NEWLINE]生真面目な性格で高い戦闘力を有しており、その実力は八雲紫をも上回る。[NEWLINE]遠い昔に月からいなくなり罪人となった八意永琳を今も尊敬しており[NEWLINE]その為彼女を捕らえるという仕事を全うする気は今の所ない。むしろ姉ともども遊びに行ったりしている。[NEWLINE]他人に厳しく自分にも厳しい。月人である事を誇りに思っているが決して地上人を見下しているわけではない。[NEWLINE]（実際月にやってきた霊夢たちを見下すような事はしなかった）[NEWLINE]一見隙の無い人物に見えるが一時期月で目撃された亡霊の噂に怯え、それをネタに姉の豊姫にからかわれる事もある。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WATAHIME_PEDIA</Tag>
+		<English />
+		<French>[H1]綿月豊姫[\H1][NEWLINE][BOLD]海と山を繋ぐ程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方儚月抄[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[NEWLINE]（「綿月のスペルカード」はあくまで、綿月姉妹をイメージした曲であって[NEWLINE]テーマ曲というわけではない）[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]月の都の防衛と地上の監視を担う「月の使者」のリーダーの一人。[NEWLINE]妹の綿月依姫共々八意永琳の遠い親族であり教え子でもある。[NEWLINE]天真爛漫でお転婆な性格で月の最新兵器を常備している。[NEWLINE]遠い昔に月からいなくなり罪人となった八意永琳を今も尊敬しており[NEWLINE]その為彼女を捕らえるという仕事を全うする気は今の所ない。むしろ妹ともども遊びに行ったりしている。[NEWLINE]自分に甘く他人にも甘い。月人である事を誇りに思っているが可愛い物であるならばそれが地上の物でも関係なく愛でる程可愛い物が好き。[NEWLINE]（実際月にやってきた霊夢たちを見下すような事はしなかった）[NEWLINE]一見ほのぼのした人物にも見えるが「森を一瞬で素粒子レベルで浄化する風を起こす扇子」という核兵器も真っ青のアイテムを所持している。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]綿月豊姫[\H1][NEWLINE][BOLD]海と山を繋ぐ程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方儚月抄[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[NEWLINE]（「綿月のスペルカード」はあくまで、綿月姉妹をイメージした曲であって[NEWLINE]テーマ曲というわけではない）[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]月の都の防衛と地上の監視を担う「月の使者」のリーダーの一人。[NEWLINE]妹の綿月依姫共々八意永琳の遠い親族であり教え子でもある。[NEWLINE]天真爛漫でお転婆な性格で月の最新兵器を常備している。[NEWLINE]遠い昔に月からいなくなり罪人となった八意永琳を今も尊敬しており[NEWLINE]その為彼女を捕らえるという仕事を全うする気は今の所ない。むしろ妹ともども遊びに行ったりしている。[NEWLINE]自分に甘く他人にも甘い。月人である事を誇りに思っているが可愛い物であるならばそれが地上の物でも関係なく愛でる程可愛い物が好き。[NEWLINE]（実際月にやってきた霊夢たちを見下すような事はしなかった）[NEWLINE]一見ほのぼのした人物にも見えるが「森を一瞬で素粒子レベルで浄化する風を起こす扇子」という核兵器も真っ青のアイテムを所持している。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_REISEN2_PEDIA</Tag>
+		<English />
+		<French>[H1]レイセン[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方儚月抄[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]月に住む兎（玉兎）東方儚月抄にて餅つきの仕事に嫌気がさし地上に逃亡した。[NEWLINE]だが月へは未練があったため結局は月へと戻っていった。[NEWLINE]その後は綿月姉妹に拾われペット兼兵士として綿月亭へ住む事になる。[NEWLINE]レイセンという名前もその際に綿月豊姫につけられた。[NEWLINE]この名前は昔逃げた兵士、つまり鈴仙・優曇華院・イナバの物でありいわば彼女のはその代わりということになる。[NEWLINE]その関係からかユーザーからはしばしばレイセン二号と呼ばれている。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]レイセン[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方儚月抄[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]月に住む兎（玉兎）東方儚月抄にて餅つきの仕事に嫌気がさし地上に逃亡した。[NEWLINE]だが月へは未練があったため結局は月へと戻っていった。[NEWLINE]その後は綿月姉妹に拾われペット兼兵士として綿月亭へ住む事になる。[NEWLINE]レイセンという名前もその際に綿月豊姫につけられた。[NEWLINE]この名前は昔逃げた兵士、つまり鈴仙・優曇華院・イナバの物でありいわば彼女のはその代わりということになる。[NEWLINE]その関係からかユーザーからはしばしばレイセン二号と呼ばれている。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KAGEROU_PEDIA</Tag>
+		<English />
+		<French>[H1]今泉影狼[\H1][NEWLINE][BOLD]満月の夜に狼に変身する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城(3)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]孤独のウェアウルフ[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]絶滅したニホンオオカミの妖怪。[NEWLINE]いわゆる狼男……ではなく狼女で満月の夜になると狼に変身する。[NEWLINE]一般的に知られる狼男と違って変身しても冷静さを失うことは無く本来の落ち着いた性格を保っている。[NEWLINE]満月の夜になると毛深くなってしまう事を気にしており、竹林の中でひっそりと暮らしている。[NEWLINE]わかさぎ姫とは草の根妖怪ネットワークの仲間なのだが昔食べようとした事があり仲が良いかは不明。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]今泉影狼[\H1][NEWLINE][BOLD]満月の夜に狼に変身する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城(3)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]孤独のウェアウルフ[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]絶滅したニホンオオカミの妖怪。[NEWLINE]いわゆる狼男……ではなく狼女で満月の夜になると狼に変身する。[NEWLINE]一般的に知られる狼男と違って変身しても冷静さを失うことは無く本来の落ち着いた性格を保っている。[NEWLINE]満月の夜になると毛深くなってしまう事を気にしており、竹林の中でひっそりと暮らしている。[NEWLINE]わかさぎ姫とは草の根妖怪ネットワークの仲間なのだが昔食べようとした事があり仲が良いかは不明。</Japanese>
+	</TEXT>
+<!-- Eientei End-->
+<!-- Youkainoyama Start-->
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SPAIN_PEDIA</Tag>
+		<English />
+		<French>[TAB]妖怪の山を住処とする妖怪達の勢力。多くの古参妖怪や神々が住み着いている。昔は鬼も住んでいて、鬼を頂点とする縦社会が形成されていた。その為か現在でも天狗や河童は鬼に対しては頭が上がらないらしい。[NEWLINE]外の世界から越してきた守屋神社もここに位置する。今ゲームでは竜宮の使いと天人もこの勢力に属している。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]妖怪の山を住処とする妖怪達の勢力。多くの古参妖怪や神々が住み着いている。昔は鬼も住んでいて、鬼を頂点とする縦社会が形成されていた。その為か現在でも天狗や河童は鬼に対しては頭が上がらないらしい。[NEWLINE]外の世界から越してきた守屋神社もここに位置する。今ゲームでは竜宮の使いと天人もこの勢力に属している。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SIZUHA_PEDIA</Tag>
+		<English />
+		<French>[H1]秋静葉[\H1][NEWLINE][BOLD]紅葉を司る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（1中）[NEWLINE]東方ダブルスポイラー(LV1)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]妖怪の山に住む紅葉の神様。[NEWLINE]秋穣子の姉でもあり二人合わせて秋姉妹とも呼ばれる。[NEWLINE]物静かで悲観的な性格をしており冬になると暗くなる。[NEWLINE]木の葉を紅葉させる事ができ、秋になると一枚一枚丁寧に色を塗っていく。[NEWLINE]ただどうしても塗りにムラができてしまい、黄色や濃い茶色が混じってしまうとか。[NEWLINE][NEWLINE]実は意外なことに妹の穣子よりも多くの信仰を集めている。[NEWLINE]穣子は需要が高い豊穣を司る分、競合者が多く結果的に信仰が少なくなってしまっているが[NEWLINE]静葉は幻想郷においてもほぼオンリーワンな恩寵を授けるため、ニッチ需要を満たす形となっているらしい。[NEWLINE][NEWLINE]１面中ボスという立ち位置ゆえかどうしても人気が出ず、妹の穣子共々オリキャラ呼ばわりをされていた事があった。[NEWLINE]だがこの姉妹を篤く信仰するファンの努力の甲斐があり現在はそれなりの人気を持っている。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]秋静葉[\H1][NEWLINE][BOLD]紅葉を司る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（1中）[NEWLINE]東方ダブルスポイラー(LV1)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]妖怪の山に住む紅葉の神様。[NEWLINE]秋穣子の姉でもあり二人合わせて秋姉妹とも呼ばれる。[NEWLINE]物静かで悲観的な性格をしており冬になると暗くなる。[NEWLINE]木の葉を紅葉させる事ができ、秋になると一枚一枚丁寧に色を塗っていく。[NEWLINE]ただどうしても塗りにムラができてしまい、黄色や濃い茶色が混じってしまうとか。[NEWLINE][NEWLINE]実は意外なことに妹の穣子よりも多くの信仰を集めている。[NEWLINE]穣子は需要が高い豊穣を司る分、競合者が多く結果的に信仰が少なくなってしまっているが[NEWLINE]静葉は幻想郷においてもほぼオンリーワンな恩寵を授けるため、ニッチ需要を満たす形となっているらしい。[NEWLINE][NEWLINE]１面中ボスという立ち位置ゆえかどうしても人気が出ず、妹の穣子共々オリキャラ呼ばわりをされていた事があった。[NEWLINE]だがこの姉妹を篤く信仰するファンの努力の甲斐があり現在はそれなりの人気を持っている。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MINORIKO_PEDIA</Tag>
+		<English />
+		<French>[H1]秋穣子[\H1][NEWLINE][BOLD]豊穣を司る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（1）[NEWLINE]東方ダブルスポイラー(LV1)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]稲田姫様に叱られるから[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]妖怪の山に住む豊穣の神様。[NEWLINE]秋静葉の妹でもあり二人合わせて秋姉妹とも呼ばれる。[NEWLINE]素朴で明るい性格をしているが冬になると暗くなる。[NEWLINE]人間の作物の収穫具合を調節する事ができ、信仰した人数が働いて育てる程度に豊穣させることができる。[NEWLINE]幻想郷には他にも豊穣を司る神は沢山いる為信仰はそれ程多いわけではないが、本人はあまり仕事をせずに済むと喜んでいるらしい。[NEWLINE][NEWLINE]一時期原作者のＺＵＮさんに秋捻子と名前を間違えられたりスペルカード名を間違えられたり立ち絵が両足とも左足にされたり[NEWLINE]更にはあまりの人気の無さからユーザーからはオリキャラ呼ばわりされる事もあった。[NEWLINE]だがこの姉妹を篤く信仰するファンの努力の甲斐があり現在はそれなりの人気を持っている。[NEWLINE][NEWLINE]余談だが、東方新作が出た翌年は毎年恒例で開催されている人気投票において秋姉妹は大体連番に近い順位を確保するが[NEWLINE]ごく稀にその連番のスキマの中に別のキャラクターがランクインしたりする事がある。その様を秋サンドと呼ぶ風習がある</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]秋穣子[\H1][NEWLINE][BOLD]豊穣を司る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（1）[NEWLINE]東方ダブルスポイラー(LV1)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]稲田姫様に叱られるから[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]妖怪の山に住む豊穣の神様。[NEWLINE]秋静葉の妹でもあり二人合わせて秋姉妹とも呼ばれる。[NEWLINE]素朴で明るい性格をしているが冬になると暗くなる。[NEWLINE]人間の作物の収穫具合を調節する事ができ、信仰した人数が働いて育てる程度に豊穣させることができる。[NEWLINE]幻想郷には他にも豊穣を司る神は沢山いる為信仰はそれ程多いわけではないが、本人はあまり仕事をせずに済むと喜んでいるらしい。[NEWLINE][NEWLINE]一時期原作者のＺＵＮさんに秋捻子と名前を間違えられたりスペルカード名を間違えられたり立ち絵が両足とも左足にされたり[NEWLINE]更にはあまりの人気の無さからユーザーからはオリキャラ呼ばわりされる事もあった。[NEWLINE]だがこの姉妹を篤く信仰するファンの努力の甲斐があり現在はそれなりの人気を持っている。[NEWLINE][NEWLINE]余談だが、東方新作が出た翌年は毎年恒例で開催されている人気投票において秋姉妹は大体連番に近い順位を確保するが[NEWLINE]ごく稀にその連番のスキマの中に別のキャラクターがランクインしたりする事がある。その様を秋サンドと呼ぶ風習がある</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_HINA_PEDIA</Tag>
+		<English />
+		<French>[H1]鍵山 雛[\H1][NEWLINE][BOLD]厄をため込む程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（2）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L2）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]運命のダークサイド[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]彼女は厄神であり、厄払いによって払われた厄を、再び人の元へ返さないように厄を見張っている神様である。[NEWLINE]その為に、彼女の周りには素人目でも分かるような厄が溜まっている[NEWLINE]厄は雛の周りにあるので、雛自身が厄くなることはないが、周りの生き物は不幸な目に遭うだろう。[NEWLINE]あくまで人間想いな神様であり、近づいたら厄が降りかかってしまうものの、人間に厄が回ってこないように働いている良い神様である。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]鍵山 雛[\H1][NEWLINE][BOLD]厄をため込む程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（2）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L2）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]運命のダークサイド[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]彼女は厄神であり、厄払いによって払われた厄を、再び人の元へ返さないように厄を見張っている神様である。[NEWLINE]その為に、彼女の周りには素人目でも分かるような厄が溜まっている[NEWLINE]厄は雛の周りにあるので、雛自身が厄くなることはないが、周りの生き物は不幸な目に遭うだろう。[NEWLINE]あくまで人間想いな神様であり、近づいたら厄が降りかかってしまうものの、人間に厄が回ってこないように働いている良い神様である。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_NITORI_PEDIA</Tag>
+		<English />
+		<French>[H1]河城 にとり[\H1][NEWLINE][BOLD]水を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（EX）[NEWLINE]東方地霊殿（自サポ）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L4）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]芥川龍之介の河童 ～ Candid Friend[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]妖怪の山に住んでいる河童。[NEWLINE]仕事はエンジニアをしており、光学迷彩・携帯電話など幻想郷のどこよりもテクノロジーが発達している。[NEWLINE]人間とは友好的な立場をとってるが、普通の河童は人間を避ける傾向にある。[NEWLINE]例えば風神録エンディングでは文と一緒に霊夢たちの宴会に出ているほどだ。[NEWLINE]東方地霊殿では魔理沙のパートナーがアリス・パチュリーという王道のコンビの中にまさかの参戦。マジックミサイルのようなものに近い。[NEWLINE][NEWLINE]なお、彼女の名前は芥川龍之介著「河童」の一文「大勢の河童[BOLD]にとり[\BOLD]囲まれていました」からきている、と言われている。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]河城 にとり[\H1][NEWLINE][BOLD]水を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（EX）[NEWLINE]東方地霊殿（自サポ）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L4）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]芥川龍之介の河童 ～ Candid Friend[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]妖怪の山に住んでいる河童。[NEWLINE]仕事はエンジニアをしており、光学迷彩・携帯電話など幻想郷のどこよりもテクノロジーが発達している。[NEWLINE]人間とは友好的な立場をとってるが、普通の河童は人間を避ける傾向にある。[NEWLINE]例えば風神録エンディングでは文と一緒に霊夢たちの宴会に出ているほどだ。[NEWLINE]東方地霊殿では魔理沙のパートナーがアリス・パチュリーという王道のコンビの中にまさかの参戦。マジックミサイルのようなものに近い。[NEWLINE][NEWLINE]なお、彼女の名前は芥川龍之介著「河童」の一文「大勢の河童[BOLD]にとり[\BOLD]囲まれていました」からきている、と言われている。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MOMIZI_PEDIA</Tag>
+		<English />
+		<French>[H1]犬走椛[\H1][NEWLINE][BOLD]千里先まで見通す程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（4中）[NEWLINE]東方ダブルスポイラー(LV4)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]妖怪の山に住む白狼天狗。主な仕事は見回り。[NEWLINE]東方風神録からの登場以来詳しい設定はわかっていなかったが[NEWLINE]東方ダブルスポイラーにて射命丸文と不仲である事がわかった。[NEWLINE]セリフがほぼ無いので詳しい性格はわかっていないが、どうも鴉天狗を軽視している節があると文は語っている。[NEWLINE]しかしその割に同じ鴉天狗である姫海棠はたてとの関係は特に悪い訳では無さそうなため[NEWLINE]鴉天狗が、というよりは単に文個人が嫌いなだけかもしれない。[NEWLINE]剣や盾を所持しているが、スペルカードには噛み付く物が多い。どうやら狼らしい攻撃の方が得意と見える。[NEWLINE][NEWLINE]今泉影狼が登場する前までは東方Projectにおいて非常に貴重な犬属性のキャラクターであったためか[NEWLINE]多くの二次創作では犬耳が付いた彼女が登場するが、実際には犬耳は無い。[NEWLINE]ただし他の白狼天狗には犬耳がついてる者も存在する。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]犬走椛[\H1][NEWLINE][BOLD]千里先まで見通す程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（4中）[NEWLINE]東方ダブルスポイラー(LV4)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]妖怪の山に住む白狼天狗。主な仕事は見回り。[NEWLINE]東方風神録からの登場以来詳しい設定はわかっていなかったが[NEWLINE]東方ダブルスポイラーにて射命丸文と不仲である事がわかった。[NEWLINE]セリフがほぼ無いので詳しい性格はわかっていないが、どうも鴉天狗を軽視している節があると文は語っている。[NEWLINE]しかしその割に同じ鴉天狗である姫海棠はたてとの関係は特に悪い訳では無さそうなため[NEWLINE]鴉天狗が、というよりは単に文個人が嫌いなだけかもしれない。[NEWLINE]剣や盾を所持しているが、スペルカードには噛み付く物が多い。どうやら狼らしい攻撃の方が得意と見える。[NEWLINE][NEWLINE]今泉影狼が登場する前までは東方Projectにおいて非常に貴重な犬属性のキャラクターであったためか[NEWLINE]多くの二次創作では犬耳が付いた彼女が登場するが、実際には犬耳は無い。[NEWLINE]ただし他の白狼天狗には犬耳がついてる者も存在する。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AYA_PEDIA</Tag>
+		<English />
+		<French>[H1]射命丸 文[\H1][NEWLINE][BOLD]風を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方花映塚[NEWLINE]東方文花帖（自）[NEWLINE]東方風神録（4）[NEWLINE]東方緋想天/東方非想天則[NEWLINE]東方地霊殿（自サポ）[NEWLINE]ダブルスポイラー ～ 東方文花帖（自/SP）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]風神少女[NEWLINE]妖怪の山 ～ Mysterious Mountain[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]妖怪の山に住む天狗。[NEWLINE]又新聞記者であり、個人新聞「文々。新聞」を発行している。（主に天狗仲間たちに読まれている）[NEWLINE]天狗の新聞は基本的にはデタラメばかりの記事が多いが、彼女が発行する文々。新聞は一応きちんとウラを取った記事が多い。[NEWLINE]ただし、ネタが少ない時は彼女自らがネタになるような事を仕掛け、記事にする。要は捏造である。[NEWLINE]背中には黒い翼があるが、花映塚の時など翼が描かれていない時もある。（しまう事が可能？）[NEWLINE]生真面目な性格だが、一方で弱い者はとことん見下すという嫌な性格も持ち合わせている。が、取材の相手に対してはどんな相手であろうと常に礼儀正しい。[NEWLINE]なお、「文」をよく「ぶん」と読む人が居るが、「あや」である。[NEWLINE]因みに東方文花帖の本は文が書いたと言う設定で、ゲームのほうも文の撮影風景と言う設定である。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]射命丸 文[\H1][NEWLINE][BOLD]風を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方花映塚[NEWLINE]東方文花帖（自）[NEWLINE]東方風神録（4）[NEWLINE]東方緋想天/東方非想天則[NEWLINE]東方地霊殿（自サポ）[NEWLINE]ダブルスポイラー ～ 東方文花帖（自/SP）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]風神少女[NEWLINE]妖怪の山 ～ Mysterious Mountain[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]妖怪の山に住む天狗。[NEWLINE]又新聞記者であり、個人新聞「文々。新聞」を発行している。（主に天狗仲間たちに読まれている）[NEWLINE]天狗の新聞は基本的にはデタラメばかりの記事が多いが、彼女が発行する文々。新聞は一応きちんとウラを取った記事が多い。[NEWLINE]ただし、ネタが少ない時は彼女自らがネタになるような事を仕掛け、記事にする。要は捏造である。[NEWLINE]背中には黒い翼があるが、花映塚の時など翼が描かれていない時もある。（しまう事が可能？）[NEWLINE]生真面目な性格だが、一方で弱い者はとことん見下すという嫌な性格も持ち合わせている。が、取材の相手に対してはどんな相手であろうと常に礼儀正しい。[NEWLINE]なお、「文」をよく「ぶん」と読む人が居るが、「あや」である。[NEWLINE]因みに東方文花帖の本は文が書いたと言う設定で、ゲームのほうも文の撮影風景と言う設定である。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SANAE_PEDIA</Tag>
+		<English />
+		<French>[H1]東風谷 早苗[\H1][NEWLINE][BOLD]奇跡を起こす程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（5）[NEWLINE]東方地霊殿（EX中）[NEWLINE]東方星蓮船（自）[NEWLINE]東方非想天則[NEWLINE]ダブルスポイラー　～ 東方文花帖（EX）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]信仰は儚き人間の為に[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]守矢神社の風祝（かぜはふり）。霊夢とよく対照され巫女服のようなものを着ているが、厳密には巫女ではない。[NEWLINE]神社に祭ってある神については神奈子・諏訪子の欄を参照[NEWLINE]本人は知らないが、実は諏訪子の子孫でありその為現世神として秘術を使うことが出来る。[NEWLINE]髪には蛇と蛙の髪飾りを付けているが、何を示すかは言うまでも無いであろう。[NEWLINE]また、東方地霊殿では神二人を差し置いてEXTRAステージで弾幕勝負をし、挙句の果てには新作東方星蓮船の自機にまでなる始末。時の人である。[NEWLINE]最近では巨大ロボマニア疑惑も生まれている。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]東風谷 早苗[\H1][NEWLINE][BOLD]奇跡を起こす程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（5）[NEWLINE]東方地霊殿（EX中）[NEWLINE]東方星蓮船（自）[NEWLINE]東方非想天則[NEWLINE]ダブルスポイラー　～ 東方文花帖（EX）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]信仰は儚き人間の為に[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]守矢神社の風祝（かぜはふり）。霊夢とよく対照され巫女服のようなものを着ているが、厳密には巫女ではない。[NEWLINE]神社に祭ってある神については神奈子・諏訪子の欄を参照[NEWLINE]本人は知らないが、実は諏訪子の子孫でありその為現世神として秘術を使うことが出来る。[NEWLINE]髪には蛇と蛙の髪飾りを付けているが、何を示すかは言うまでも無いであろう。[NEWLINE]また、東方地霊殿では神二人を差し置いてEXTRAステージで弾幕勝負をし、挙句の果てには新作東方星蓮船の自機にまでなる始末。時の人である。[NEWLINE]最近では巨大ロボマニア疑惑も生まれている。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KANAKO_PEDIA</Tag>
+		<English />
+		<French>[H1]八坂 神奈子[\H1][NEWLINE][BOLD]乾を創造する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（6/EX中）[NEWLINE]東方星蓮船（自サポ）[NEWLINE]東方非想天則（早苗サポ）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L11）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]神さびた古戦場 ～ Suwa Foughten Field[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]表面上、守矢神社に祭られている神様[NEWLINE]外の世界で時が進むにつれ、科学万能の時代が訪れ人が神を信仰しなくなってきた。廃れゆく過去の栄光よりも可能性のある未来を選び、信仰が得られるであろう幻想郷に神社一帯ごと飛んできた。[NEWLINE]昔は風の神だったが、今は山の神である。（詳しくは諏訪子の欄参照）[NEWLINE]背中にあるしめ縄は蛇を表しており、蛇は蛙の天敵である。[NEWLINE]要するに、蛙の神様である諏訪子に勝利した、と言う事を示している。[NEWLINE]何かと豪快な神であり、技術革命が好きらしい。山の産業革命をもたらそうと地獄烏に核融合のエネルギーを与える等の活躍をしている。が、その行動は結果的に多数の異変の引き金にもなっており、妖怪の賢者などにとっては頭痛の種ではないかと思われる。[NEWLINE]戦闘では巨大な御柱を敵に投げつけたりと、これまた非常に豪快である。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]八坂 神奈子[\H1][NEWLINE][BOLD]乾を創造する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（6/EX中）[NEWLINE]東方星蓮船（自サポ）[NEWLINE]東方非想天則（早苗サポ）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L11）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]神さびた古戦場 ～ Suwa Foughten Field[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]表面上、守矢神社に祭られている神様[NEWLINE]外の世界で時が進むにつれ、科学万能の時代が訪れ人が神を信仰しなくなってきた。廃れゆく過去の栄光よりも可能性のある未来を選び、信仰が得られるであろう幻想郷に神社一帯ごと飛んできた。[NEWLINE]昔は風の神だったが、今は山の神である。（詳しくは諏訪子の欄参照）[NEWLINE]背中にあるしめ縄は蛇を表しており、蛇は蛙の天敵である。[NEWLINE]要するに、蛙の神様である諏訪子に勝利した、と言う事を示している。[NEWLINE]何かと豪快な神であり、技術革命が好きらしい。山の産業革命をもたらそうと地獄烏に核融合のエネルギーを与える等の活躍をしている。が、その行動は結果的に多数の異変の引き金にもなっており、妖怪の賢者などにとっては頭痛の種ではないかと思われる。[NEWLINE]戦闘では巨大な御柱を敵に投げつけたりと、これまた非常に豪快である。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SUWAKO_PEDIA</Tag>
+		<English />
+		<French>[H1]洩矢 諏訪子[\H1][NEWLINE][BOLD]坤を創造する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（EX）[NEWLINE]東方星蓮船（自サポ）[NEWLINE]東方非想天則[NEWLINE]ダブルスポイラー ～ 東方文花帖（L11）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]ネイティブフェイス[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]守矢神社に祭られてる本当の神様。普段は蛙の姿などをしている。[NEWLINE]遥か昔に洩矢の王国を持っていたが八坂神奈子に敗北する。その後、反乱の危険性から他の神と諏訪子を融合させた神を作り、信仰させた。[NEWLINE]幻想郷に来た後（※神奈子の記事参照）は別に気にせず二人の仲は良い。[NEWLINE]なお、能力の項目にある「坤」とは、八卦において「地」を意味する言葉である。[NEWLINE]見た目からはとても想像が付かないが、かつては祟り神「ミシャグジ様」の恐怖によって王国を支配していた。その為か現在でも時折ダークな一面が垣間見える事がある。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]洩矢 諏訪子[\H1][NEWLINE][BOLD]坤を創造する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方風神録（EX）[NEWLINE]東方星蓮船（自サポ）[NEWLINE]東方非想天則[NEWLINE]ダブルスポイラー ～ 東方文花帖（L11）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]ネイティブフェイス[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]守矢神社に祭られてる本当の神様。普段は蛙の姿などをしている。[NEWLINE]遥か昔に洩矢の王国を持っていたが八坂神奈子に敗北する。その後、反乱の危険性から他の神と諏訪子を融合させた神を作り、信仰させた。[NEWLINE]幻想郷に来た後（※神奈子の記事参照）は別に気にせず二人の仲は良い。[NEWLINE]なお、能力の項目にある「坤」とは、八卦において「地」を意味する言葉である。[NEWLINE]見た目からはとても想像が付かないが、かつては祟り神「ミシャグジ様」の恐怖によって王国を支配していた。その為か現在でも時折ダークな一面が垣間見える事がある。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_IKU_PEDIA</Tag>
+		<English />
+		<French>[H1]永江 衣玖[\H1][NEWLINE][BOLD]空気を読む程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方緋想天/東方非想天則[NEWLINE]ダブルスポイラー ～ 東方文花帖（L10）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]黒い海に紅く ～ Legendary Fish[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]彼女は竜宮の使いであり、普段は雲の中を泳ぎ、竜神が言葉を発した際には竜神の言葉から大事な部分を抜き取り人々へ伝えるのが仕事である。[NEWLINE]地震が起きそうになるとそれを警告して回る事も彼女の仕事の一つだが、それだけに好き勝手放題に地震を起こされ鎮められた緋想天での一件では、温厚な彼女ですら天子に対し厳しい態度を取っていた。[NEWLINE]また空気を読む能力とは、緋色の雲の空気を読んで地震を予測することである。決して今日流行の「KY」などとは何の関係も無い。[NEWLINE]また、雷雲に住んでいる為、雷を操る力もある。[PARAGRAPH:1]なお、実在する深海魚リュウグウノツカイがモデルと思われる。見つかる事自体がニュースになるほどの非常に珍しい魚であり、リュウグウノツカイが姿を現すと地震が起こるという言い伝えが古くからある。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]永江 衣玖[\H1][NEWLINE][BOLD]空気を読む程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方緋想天/東方非想天則[NEWLINE]ダブルスポイラー ～ 東方文花帖（L10）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]黒い海に紅く ～ Legendary Fish[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]彼女は竜宮の使いであり、普段は雲の中を泳ぎ、竜神が言葉を発した際には竜神の言葉から大事な部分を抜き取り人々へ伝えるのが仕事である。[NEWLINE]地震が起きそうになるとそれを警告して回る事も彼女の仕事の一つだが、それだけに好き勝手放題に地震を起こされ鎮められた緋想天での一件では、温厚な彼女ですら天子に対し厳しい態度を取っていた。[NEWLINE]また空気を読む能力とは、緋色の雲の空気を読んで地震を予測することである。決して今日流行の「KY」などとは何の関係も無い。[NEWLINE]また、雷雲に住んでいる為、雷を操る力もある。[PARAGRAPH:1]なお、実在する深海魚リュウグウノツカイがモデルと思われる。見つかる事自体がニュースになるほどの非常に珍しい魚であり、リュウグウノツカイが姿を現すと地震が起こるという言い伝えが古くからある。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TENSHI_PEDIA</Tag>
+		<English />
+		<French>[H1]比那名居 天子[\H1][NEWLINE][BOLD]大地を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方緋想天/東方非想天則[NEWLINE]ダブルスポイラー ～ 東方文花帖（L10）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]有頂天変 ～ Wonderful Heaven[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]天界に住む不良天人。[NEWLINE]何故不良かというと、本来天人とは修行の末になる物であるが、天子の場合天人に仕えた功績によって天界に住むのを許された為である。[NEWLINE]それもあってか、天界での生活には不満であり、退屈しのぎに緋想の剣を用いて異常気象を起こした。[NEWLINE]さらにそれに乗じて博麗神社を倒壊させ、そこに要石を打ち込むことによって分社化を企んだ。[NEWLINE]性格は非常にワガママであり、一説にはレミリアとタメを張る程と言われている。[NEWLINE]なお、緋想の剣とは、天人にしか扱えず、相手の弱点を必ず突くという物である。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]比那名居 天子[\H1][NEWLINE][BOLD]大地を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方緋想天/東方非想天則[NEWLINE]ダブルスポイラー ～ 東方文花帖（L10）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]有頂天変 ～ Wonderful Heaven[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]天界に住む不良天人。[NEWLINE]何故不良かというと、本来天人とは修行の末になる物であるが、天子の場合天人に仕えた功績によって天界に住むのを許された為である。[NEWLINE]それもあってか、天界での生活には不満であり、退屈しのぎに緋想の剣を用いて異常気象を起こした。[NEWLINE]さらにそれに乗じて博麗神社を倒壊させ、そこに要石を打ち込むことによって分社化を企んだ。[NEWLINE]性格は非常にワガママであり、一説にはレミリアとタメを張る程と言われている。[NEWLINE]なお、緋想の剣とは、天人にしか扱えず、相手の弱点を必ず突くという物である。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_HATATE_PEDIA</Tag>
+		<English />
+		<French>[H1]姫海棠はたて[\H1][NEWLINE][BOLD]念写をする程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方ダブルスポイラー(LV SPOILER)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]妖怪の山に暮らす射命丸文と同じ鴉天狗。[NEWLINE]他の鴉天狗同様新聞を発行しており、新聞の名前は花果子念報という。[NEWLINE]他人の撮った写真を撮る事ができる念写を能力としており、かつて花果子念報はこの写真を元に記事を作っていた。[NEWLINE]射命丸文とはライバル関係にありお互い新聞を最低、妄想と揶揄しあうが決して仲が悪いわけではない。[NEWLINE]思ったことを隠すことなくズバッと言う性格で上下関係を嫌うなど大よそ鴉天狗らしくない性格をしている。[NEWLINE]携帯電話のようなカメラを所持しているが実際に電話として使えるかは不明。[NEWLINE][NEWLINE]ちなみに姫海棠というバラ科の植物が実在する。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]姫海棠はたて[\H1][NEWLINE][BOLD]念写をする程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方ダブルスポイラー(LV SPOILER)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]妖怪の山に暮らす射命丸文と同じ鴉天狗。[NEWLINE]他の鴉天狗同様新聞を発行しており、新聞の名前は花果子念報という。[NEWLINE]他人の撮った写真を撮る事ができる念写を能力としており、かつて花果子念報はこの写真を元に記事を作っていた。[NEWLINE]射命丸文とはライバル関係にありお互い新聞を最低、妄想と揶揄しあうが決して仲が悪いわけではない。[NEWLINE]思ったことを隠すことなくズバッと言う性格で上下関係を嫌うなど大よそ鴉天狗らしくない性格をしている。[NEWLINE]携帯電話のようなカメラを所持しているが実際に電話として使えるかは不明。[NEWLINE][NEWLINE]ちなみに姫海棠というバラ科の植物が実在する。</Japanese>
+	</TEXT>
+<!-- Youkainoyama End-->
+<!-- Hakureijinja Start-->
+	<TEXT>
+		<Tag>TXT_KEY_CIV_JAPAN_PEDIA</Tag>
+		<English />
+		<French>[TAB]幻想郷の最も東、外の世界との境界に位置する博麗神社。[NEWLINE]厳密に言うと博麗神社は幻想郷の外にある位置に建っていて、外の世界でも同じように神社が存在している。が、博麗大結界の効力で外の世界の常識を持つ者は外の世界の博麗神社、幻想郷の常識を持つ者は幻想郷の博麗神社にたどり着く事になる。外の世界の博麗神社は放棄された無人の神社だとか。[NEWLINE]今のところ魔法の森と連合を組んでいる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]幻想郷の最も東、外の世界との境界に位置する博麗神社。[NEWLINE]厳密に言うと博麗神社は幻想郷の外にある位置に建っていて、外の世界でも同じように神社が存在している。が、博麗大結界の効力で外の世界の常識を持つ者は外の世界の博麗神社、幻想郷の常識を持つ者は幻想郷の博麗神社にたどり着く事になる。外の世界の博麗神社は放棄された無人の神社だとか。[NEWLINE]今のところ魔法の森と連合を組んでいる。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_REIMU_PEDIA</Tag>
+		<English />
+		<French>[H1]博麗霊夢[\H1][NEWLINE][BOLD]空を飛ぶ程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方文花帖を除く全ての作品で出演[NEWLINE]及び、ダブルスポイラーを除く全ての作品で主人公[NEWLINE][PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]東方妖恋談[NEWLINE]少女綺想曲[NEWLINE]二色蓮花蝶[NEWLINE]春色小径[NEWLINE]※アレンジによる微妙な違いは省略[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]博霊神社の巫女。東方の第一作から文花帖及びダブルスポイラー以外で全て主人公を勤めている。[NEWLINE]また、幻想郷を守っている博霊大結界を維持している。その為、妖怪は博霊の巫女を殺してはいけないという取り決めがある。[NEWLINE]紅魔郷から導入されたスペルカード制度を作ったのも霊夢。命を取り合う事無く、人間と妖怪が対等に決闘を行う事が出来るようになった。[NEWLINE]また、酒の知識がとても豊富であり、神社では酒を作っていると言ううわさもある。[NEWLINE]なお、博霊神社は参拝客こそ少ないが、霊夢自身は決して貧乏ではない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]博麗霊夢[\H1][NEWLINE][BOLD]空を飛ぶ程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方文花帖を除く全ての作品で出演[NEWLINE]及び、ダブルスポイラーを除く全ての作品で主人公[NEWLINE][PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]東方妖恋談[NEWLINE]少女綺想曲[NEWLINE]二色蓮花蝶[NEWLINE]春色小径[NEWLINE]※アレンジによる微妙な違いは省略[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]博霊神社の巫女。東方の第一作から文花帖及びダブルスポイラー以外で全て主人公を勤めている。[NEWLINE]また、幻想郷を守っている博霊大結界を維持している。その為、妖怪は博霊の巫女を殺してはいけないという取り決めがある。[NEWLINE]紅魔郷から導入されたスペルカード制度を作ったのも霊夢。命を取り合う事無く、人間と妖怪が対等に決闘を行う事が出来るようになった。[NEWLINE]また、酒の知識がとても豊富であり、神社では酒を作っていると言ううわさもある。[NEWLINE]なお、博霊神社は参拝客こそ少ないが、霊夢自身は決して貧乏ではない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MARISA_PEDIA</Tag>
+		<English />
+		<French>[H1]霧雨 魔理沙[\H1][NEWLINE][BOLD]魔法を使う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方靈異伝、東方文花帖を除く全ての作品で出演[NEWLINE]及び、東方封魔録、ダブルスポイラーを除く全ての作品で自機[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]恋色マジック/恋色マスタースパーク[NEWLINE]Dim. Dream[NEWLINE]星の器 ～ Casket of Star[NEWLINE]魔女達の舞踏会 ～ Magus[NEWLINE]オリエンタルダークフライト[NEWLINE]※アレンジによる微妙な違いは省略[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]魔法の森に住む魔法使い。東方全体の主人公その２。[NEWLINE]出演は東方封魔録（旧作２）から出ており、それ以降の東方では文花帖とダブルスポイラー以外の全てで自機として出てくる。[NEWLINE]出てくるのはいいのだが、現在の「～だぜ」口調とはうってかわって、紅魔郷以前では「うふふ」と発言する乙女だった事もあるが、半ば忘れられているようだ。[NEWLINE]得意技はミニ八卦炉（霖之助参照）から出す極太のレーザー「マスタースパーク」[NEWLINE]実は大変な努力家でもあるのだが、自分が努力している姿を他人に見せるのを嫌っている為、努力している姿が表に出る事は無い。[NEWLINE]ちなみに、東方起動プログラムのアイコンは全て魔理沙の絵である。要するにZUNさんお気に入りのキャラ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]霧雨 魔理沙[\H1][NEWLINE][BOLD]魔法を使う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方靈異伝、東方文花帖を除く全ての作品で出演[NEWLINE]及び、東方封魔録、ダブルスポイラーを除く全ての作品で自機[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]恋色マジック/恋色マスタースパーク[NEWLINE]Dim. Dream[NEWLINE]星の器 ～ Casket of Star[NEWLINE]魔女達の舞踏会 ～ Magus[NEWLINE]オリエンタルダークフライト[NEWLINE]※アレンジによる微妙な違いは省略[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]魔法の森に住む魔法使い。東方全体の主人公その２。[NEWLINE]出演は東方封魔録（旧作２）から出ており、それ以降の東方では文花帖とダブルスポイラー以外の全てで自機として出てくる。[NEWLINE]出てくるのはいいのだが、現在の「～だぜ」口調とはうってかわって、紅魔郷以前では「うふふ」と発言する乙女だった事もあるが、半ば忘れられているようだ。[NEWLINE]得意技はミニ八卦炉（霖之助参照）から出す極太のレーザー「マスタースパーク」[NEWLINE]実は大変な努力家でもあるのだが、自分が努力している姿を他人に見せるのを嫌っている為、努力している姿が表に出る事は無い。[NEWLINE]ちなみに、東方起動プログラムのアイコンは全て魔理沙の絵である。要するにZUNさんお気に入りのキャラ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ALICE_PEDIA</Tag>
+		<English />
+		<French>[H1]アリス・マーガトロイド[\H1][NEWLINE][BOLD]魔法を扱う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（3）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方永夜抄（自）[NEWLINE]東方文化帖（L3）[NEWLINE]東方地霊殿（自サポ）[NEWLINE][PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]人形裁判 ～ 人の形弄びし少女[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]魔法の森に住む人形遣い。魔法使いでもある。[NEWLINE]目標は完全な自律人形の作成。半自律人形なら可能なのだが、完全となると実現は難しいらしい。[NEWLINE]人間には基本友好的で、森に迷った人間が居たら泊めてくれる。[NEWLINE]戦う時は本気は出さず、常に相手より少し上の力で戦おうとする。魔法使いのため、その気になれば単体で魔法を使い戦う事も出来ると思うが、人形を使う事に凝っている為基本的には人形を使役して戦う。[NEWLINE]本来は旧作時代からのキャラクターであり、一応同一人物とされている。が、そもそも本当に旧作時代のアリスと同一人物なのかを含め、全体的に設定が曖昧であり、時折ファンの間で議論となる。[NEWLINE]永夜抄や地霊殿では魔理沙と共に異変解決をする。旧作の姿を見るのは自己責任で。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]アリス・マーガトロイド[\H1][NEWLINE][BOLD]魔法を扱う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方妖々夢（3）[NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方永夜抄（自）[NEWLINE]東方文化帖（L3）[NEWLINE]東方地霊殿（自サポ）[NEWLINE][PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]人形裁判 ～ 人の形弄びし少女[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]魔法の森に住む人形遣い。魔法使いでもある。[NEWLINE]目標は完全な自律人形の作成。半自律人形なら可能なのだが、完全となると実現は難しいらしい。[NEWLINE]人間には基本友好的で、森に迷った人間が居たら泊めてくれる。[NEWLINE]戦う時は本気は出さず、常に相手より少し上の力で戦おうとする。魔法使いのため、その気になれば単体で魔法を使い戦う事も出来ると思うが、人形を使う事に凝っている為基本的には人形を使役して戦う。[NEWLINE]本来は旧作時代からのキャラクターであり、一応同一人物とされている。が、そもそも本当に旧作時代のアリスと同一人物なのかを含め、全体的に設定が曖昧であり、時折ファンの間で議論となる。[NEWLINE]永夜抄や地霊殿では魔理沙と共に異変解決をする。旧作の姿を見るのは自己責任で。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SUIKA_PEDIA</Tag>
+		<English />
+		<French>[H1]伊吹 萃香[\H1][NEWLINE][BOLD]密度を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方文花帖（EX）[NEWLINE]東方地霊殿（自サポ）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L6）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]御伽の国の鬼が島 ～ Missing Power[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]妖怪の山からやって来た鬼。山の四天王の内の一人。[NEWLINE]好きなのは酒で、とにかくいつでも飲んでいる。常に酔っ払っており、素面になっていることが無いといわれている。逆に苦手なのは鬼らしく炒った豆。[NEWLINE]また、八雲紫とは古くからの知り合いである。[NEWLINE]妖々夢の異変により宴会が減ってしまったせいで萃夢想の異変を起こしたが、その後は霊夢達とは和解し、霊夢が気に入ったのか神社によく顔を出しているようだ。[NEWLINE]また、何気に登場回数が多く、特に風神録以降のキャラで固めると思われていたダブルスポイラーでの出演はプレイヤーを驚かせた。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]伊吹 萃香[\H1][NEWLINE][BOLD]密度を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方萃夢想/東方緋想天/東方非想天則[NEWLINE]東方文花帖（EX）[NEWLINE]東方地霊殿（自サポ）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L6）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]御伽の国の鬼が島 ～ Missing Power[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]妖怪の山からやって来た鬼。山の四天王の内の一人。[NEWLINE]好きなのは酒で、とにかくいつでも飲んでいる。常に酔っ払っており、素面になっていることが無いといわれている。逆に苦手なのは鬼らしく炒った豆。[NEWLINE]また、八雲紫とは古くからの知り合いである。[NEWLINE]妖々夢の異変により宴会が減ってしまったせいで萃夢想の異変を起こしたが、その後は霊夢達とは和解し、霊夢が気に入ったのか神社によく顔を出しているようだ。[NEWLINE]また、何気に登場回数が多く、特に風神録以降のキャラで固めると思われていたダブルスポイラーでの出演はプレイヤーを驚かせた。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RINNOSUKE_PEDIA</Tag>
+		<English />
+		<French>[H1]森近 霖之助[\H1][NEWLINE][BOLD]道具の名前と用途が判る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方香霖堂（小説）[NEWLINE][PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]香霖堂という古道具屋の店主。また、小説の東方香霖堂の主人公。ゲーム中には一度も出演しておらず、東方Projectでは非常に珍しい男性キャラクター。[NEWLINE]昔は魔理沙の実家で修行をしており、今は立派に店を開いている。そのおかげで魔理沙とも親交があり、魔理沙のミニ八卦炉も彼が手がけている。[NEWLINE]彼の店で売っている物は外の世界から流れてきた品が中心ではあるが、その大半は使い方が分からない品ばかりである。（彼の能力では使い方までは分からない）[NEWLINE]使い方が判明した品も幾つかはあるが、その殆どは彼本人が気に入ってしまって非売品としている。[NEWLINE]なお、彼の店はいつまで経っても春が訪れない事で有名らしい。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]森近 霖之助[\H1][NEWLINE][BOLD]道具の名前と用途が判る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方香霖堂（小説）[NEWLINE][PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]香霖堂という古道具屋の店主。また、小説の東方香霖堂の主人公。ゲーム中には一度も出演しておらず、東方Projectでは非常に珍しい男性キャラクター。[NEWLINE]昔は魔理沙の実家で修行をしており、今は立派に店を開いている。そのおかげで魔理沙とも親交があり、魔理沙のミニ八卦炉も彼が手がけている。[NEWLINE]彼の店で売っている物は外の世界から流れてきた品が中心ではあるが、その大半は使い方が分からない品ばかりである。（彼の能力では使い方までは分からない）[NEWLINE]使い方が判明した品も幾つかはあるが、その殆どは彼本人が気に入ってしまって非売品としている。[NEWLINE]なお、彼の店はいつまで経っても春が訪れない事で有名らしい。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TOKIKO_PEDIA</Tag>
+		<English />
+		<French>[H1]本読み妖怪[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方香霖堂（小説）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]本読み妖怪とは東方香霖堂1話にて登場する名無しのモブキャラのことである。[NEWLINE]彼女は森にて楽しそうに本を読んでいると霊夢に不意打ちで襲われ（霊夢曰く「何となく」が動機）、大事な本を奪われる事になる。その後、本を取り戻す為霊夢を追って森近霖之助が店主を務める店「香霖堂」を訪れるも、今度は魔理沙に攻撃され…と、非常に気の毒な目に会っている。[NEWLINE]これ以外の露出は原作においては皆無であり、ちょっとした設定が原作者から語られた大妖精・小悪魔とは違い、その辺の設定すら存在しない。他の設定は二次創作によるものである。[NEWLINE]二次創作においては、東方香霖堂第二話が朱鷺に関するものだからか、はたまた羽の色が赤く朱鷺を連想させるためか、「朱鷺子」の愛称で呼ばれている。このMOD中でもXMLの記述では「TOKIKO」扱いとなっている。主に霖之助と絡む事が多いが、二次創作では何だかんだで出番が多い小悪魔・大妖精とは違い、こちらは二次創作でさえ出番はあまり無いのが現状である。嗚呼、哀れ本読み妖怪。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]本読み妖怪[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方香霖堂（小説）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]本読み妖怪とは東方香霖堂1話にて登場する名無しのモブキャラのことである。[NEWLINE]彼女は森にて楽しそうに本を読んでいると霊夢に不意打ちで襲われ（霊夢曰く「何となく」が動機）、大事な本を奪われる事になる。その後、本を取り戻す為霊夢を追って森近霖之助が店主を務める店「香霖堂」を訪れるも、今度は魔理沙に攻撃され…と、非常に気の毒な目に会っている。[NEWLINE]これ以外の露出は原作においては皆無であり、ちょっとした設定が原作者から語られた大妖精・小悪魔とは違い、その辺の設定すら存在しない。他の設定は二次創作によるものである。[NEWLINE]二次創作においては、東方香霖堂第二話が朱鷺に関するものだからか、はたまた羽の色が赤く朱鷺を連想させるためか、「朱鷺子」の愛称で呼ばれている。このMOD中でもXMLの記述では「TOKIKO」扱いとなっている。主に霖之助と絡む事が多いが、二次創作では何だかんだで出番が多い小悪魔・大妖精とは違い、こちらは二次創作でさえ出番はあまり無いのが現状である。嗚呼、哀れ本読み妖怪。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MIMA_PEDIA</Tag>
+		<English />
+		<French>[H1]魅魔[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方靈異伝[NEWLINE]東方封魔録（5）[NEWLINE]東方夢時空（自）[NEWLINE]東方怪綺談（自）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]天使伝説[NEWLINE]Complete Darkness[NEWLINE]Reincarnation[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]PC98版における霊夢のライバル的キャラクター。[NEWLINE]人類に復讐を目論む悪霊でその為に博麗神社の秘宝「陰陽玉」を狙う。[NEWLINE]だが霊夢に撃破されてからはどうでも良くなったらしく、その後は霊夢をからかいに行くのが日課になっている。[NEWLINE]人間界を自らの物と思っており、異変が起こった際は霊夢、魔理沙と共に異変解決に赴く様子もしばしば見られる。[NEWLINE]魔理沙は彼女の事を魅魔様と呼び慕っている。魅魔も魔理沙の事を気にかけているのか「もっと修行しなさい」と呼びかけたりもする。[NEWLINE]二人は所謂「ラスボスと五面ボス」の関係であり（東方封魔録は五面までしか無い為厳密には違うが）[NEWLINE]更に魔理沙と魅魔の使用する技に共通する部分が多い為、しばしば師弟関係とされる事が多い。[NEWLINE][NEWLINE]ちなみに原作作品で正式に魔理沙とは師弟関係にあると明言された事は無い[NEWLINE]また、Win版以降となる現在の世界観でも魅魔は相変わらず博麗神社の周辺に居るらしい。[NEWLINE][NEWLINE]二次創作ではその他に幽香と絡む事が多く、彼女と同程度の実力を持つ者として描かれる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]魅魔[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方靈異伝[NEWLINE]東方封魔録（5）[NEWLINE]東方夢時空（自）[NEWLINE]東方怪綺談（自）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]天使伝説[NEWLINE]Complete Darkness[NEWLINE]Reincarnation[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]PC98版における霊夢のライバル的キャラクター。[NEWLINE]人類に復讐を目論む悪霊でその為に博麗神社の秘宝「陰陽玉」を狙う。[NEWLINE]だが霊夢に撃破されてからはどうでも良くなったらしく、その後は霊夢をからかいに行くのが日課になっている。[NEWLINE]人間界を自らの物と思っており、異変が起こった際は霊夢、魔理沙と共に異変解決に赴く様子もしばしば見られる。[NEWLINE]魔理沙は彼女の事を魅魔様と呼び慕っている。魅魔も魔理沙の事を気にかけているのか「もっと修行しなさい」と呼びかけたりもする。[NEWLINE]二人は所謂「ラスボスと五面ボス」の関係であり（東方封魔録は五面までしか無い為厳密には違うが）[NEWLINE]更に魔理沙と魅魔の使用する技に共通する部分が多い為、しばしば師弟関係とされる事が多い。[NEWLINE][NEWLINE]ちなみに原作作品で正式に魔理沙とは師弟関係にあると明言された事は無い[NEWLINE]また、Win版以降となる現在の世界観でも魅魔は相変わらず博麗神社の周辺に居るらしい。[NEWLINE][NEWLINE]二次創作ではその他に幽香と絡む事が多く、彼女と同程度の実力を持つ者として描かれる。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SHINKI_PEDIA</Tag>
+		<English />
+		<French>[H1]神綺[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方怪綺談（6）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]神話幻想　～ Infinite Being[NEWLINE]AN ORDEAL FROM GOD[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]魔界の創造神。東方怪綺談の舞台である魔界に存在する物は生き物を含めて全て彼女が作った物。[NEWLINE]冷静で大らかな性格をしておりゆったりとした口調で喋るが、魔界を荒らす者には容赦せず魔界神としての力を惜しみなく使う。[NEWLINE]二次創作においては、魔界の物は全て彼女が作った物であるという所から夢子やアリスは彼女の娘であるという見方をされる事が多い。[NEWLINE]また、魔界という共通点から聖白蓮との絡みもよく見受けられる。[NEWLINE]（実際原作者であるＺＵＮ氏は聖白蓮の弾幕を作る際神綺の弾幕を意識したらしい）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]神綺[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方怪綺談（6）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]神話幻想　～ Infinite Being[NEWLINE]AN ORDEAL FROM GOD[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]魔界の創造神。東方怪綺談の舞台である魔界に存在する物は生き物を含めて全て彼女が作った物。[NEWLINE]冷静で大らかな性格をしておりゆったりとした口調で喋るが、魔界を荒らす者には容赦せず魔界神としての力を惜しみなく使う。[NEWLINE]二次創作においては、魔界の物は全て彼女が作った物であるという所から夢子やアリスは彼女の娘であるという見方をされる事が多い。[NEWLINE]また、魔界という共通点から聖白蓮との絡みもよく見受けられる。[NEWLINE]（実際原作者であるＺＵＮ氏は聖白蓮の弾幕を作る際神綺の弾幕を意識したらしい）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KASEN_PEDIA</Tag>
+		<English />
+		<French>[H1]茨木華扇[\H1][NEWLINE][BOLD]能力は（現時点では）不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方茨歌仙[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]東方茨歌仙シリーズの主人公。[NEWLINE]妖怪の山に住む仙人。本人曰くまだ修行中の身とのこと。[NEWLINE]以前から人里や博麗神社には顔を出しておりその存在は認識されていた。[NEWLINE]右腕が存在しておらず包帯の下には気体のような物が詰まっている。[NEWLINE]どうも失った右腕を探しているらしいのだが詳しい事はわかっていない。[NEWLINE]生真面目で説教臭い性格をしているがどこか隙が多い為、四季映姫よりは親しみやすい。[NEWLINE]作中ではとにかくよく食事をしている。そんなに食べて太らないのかと言う程食べている。その為大食いキャラの一人として見られる事がある。[NEWLINE][NEWLINE]片腕有角の仙人という二つ名、鬼が身に着けるような鎖を身に着けている、萃香や勇儀と思われる者と知り合い、茨木童子（鬼の四天王の一人）と名前や特徴が似ている等、鬼を思わせる特徴が多いが真偽の程は（今の所）不明。[NEWLINE][NEWLINE]ちなみに書籍のタイトルが茨歌仙、名乗っている名前が茨華仙、本名が茨木華扇である。[NEWLINE]非常に間違えやすく、東方叙事詩においても一時期間違った名前のまま登場していた経緯がある</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]茨木華扇[\H1][NEWLINE][BOLD]能力は（現時点では）不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方茨歌仙[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]東方茨歌仙シリーズの主人公。[NEWLINE]妖怪の山に住む仙人。本人曰くまだ修行中の身とのこと。[NEWLINE]以前から人里や博麗神社には顔を出しておりその存在は認識されていた。[NEWLINE]右腕が存在しておらず包帯の下には気体のような物が詰まっている。[NEWLINE]どうも失った右腕を探しているらしいのだが詳しい事はわかっていない。[NEWLINE]生真面目で説教臭い性格をしているがどこか隙が多い為、四季映姫よりは親しみやすい。[NEWLINE]作中ではとにかくよく食事をしている。そんなに食べて太らないのかと言う程食べている。その為大食いキャラの一人として見られる事がある。[NEWLINE][NEWLINE]片腕有角の仙人という二つ名、鬼が身に着けるような鎖を身に着けている、萃香や勇儀と思われる者と知り合い、茨木童子（鬼の四天王の一人）と名前や特徴が似ている等、鬼を思わせる特徴が多いが真偽の程は（今の所）不明。[NEWLINE][NEWLINE]ちなみに書籍のタイトルが茨歌仙、名乗っている名前が茨華仙、本名が茨木華扇である。[NEWLINE]非常に間違えやすく、東方叙事詩においても一時期間違った名前のまま登場していた経緯がある</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KYUUREIMU_PEDIA</Tag>
+		<English />
+		<French>[H1]博麗靈夢(旧)[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方靈異伝（自）[NEWLINE]東方封魔録（自）[NEWLINE]東方夢時空（自）[NEWLINE]東方幻想郷（自）[NEWLINE]東方怪綺談（自）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]東方妖恋談[NEWLINE]少女綺想曲[NEWLINE]二色蓮花蝶[NEWLINE]春色小径[NEWLINE]※アレンジによる微妙な違いは省略[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]PC98版の作品における霊夢。霊夢について詳しくは博麗霊夢の項を参照。[NEWLINE]現在の「霊夢」と違い、旧作では「靈夢」という漢字が使用されていた（このペディアでは便宜上、以下では「霊夢」と呼称する）[NEWLINE]巫女服は腋が開いていない極普通の巫女服であり、この時は空を飛ぶことができなかった。[NEWLINE]髪の色も違っており紫色をしているのだが、東方靈異伝での髪色は黒色だったりする。[NEWLINE]これは背景の色が黒である為、黒髪にすると目立たなくなってしまう為ではないかと言われている。[NEWLINE]性格は現在の霊夢とさして変わらない。むしろこの時の方が外道だったとも……。[NEWLINE][NEWLINE]ちなみに霊夢に限った話ではないが、東方Projectのキャラクターによく見受けられる「○○する程度の能力」の設定はWindows版からのもので[NEWLINE]PC98時代、所謂旧作の頃は設定されていなかった。なので旧作霊夢にも特定の能力はこれといって設定されてはいない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]博麗靈夢(旧)[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方靈異伝（自）[NEWLINE]東方封魔録（自）[NEWLINE]東方夢時空（自）[NEWLINE]東方幻想郷（自）[NEWLINE]東方怪綺談（自）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]東方妖恋談[NEWLINE]少女綺想曲[NEWLINE]二色蓮花蝶[NEWLINE]春色小径[NEWLINE]※アレンジによる微妙な違いは省略[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]PC98版の作品における霊夢。霊夢について詳しくは博麗霊夢の項を参照。[NEWLINE]現在の「霊夢」と違い、旧作では「靈夢」という漢字が使用されていた（このペディアでは便宜上、以下では「霊夢」と呼称する）[NEWLINE]巫女服は腋が開いていない極普通の巫女服であり、この時は空を飛ぶことができなかった。[NEWLINE]髪の色も違っており紫色をしているのだが、東方靈異伝での髪色は黒色だったりする。[NEWLINE]これは背景の色が黒である為、黒髪にすると目立たなくなってしまう為ではないかと言われている。[NEWLINE]性格は現在の霊夢とさして変わらない。むしろこの時の方が外道だったとも……。[NEWLINE][NEWLINE]ちなみに霊夢に限った話ではないが、東方Projectのキャラクターによく見受けられる「○○する程度の能力」の設定はWindows版からのもので[NEWLINE]PC98時代、所謂旧作の頃は設定されていなかった。なので旧作霊夢にも特定の能力はこれといって設定されてはいない。</Japanese>
+	</TEXT>
+<!-- Hakureijinja End-->
+<!-- Chireiden Start-->
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHIREIDEN_PEDIA</Tag>
+		<English />
+		<French>[TAB]地霊殿とは、既に罪人が落とされる事がなくなった灼熱地獄跡の上に建っている館である。主の古明地さとりは灼熱地獄跡の管理も任されている。さとりの他には彼女の妹である古明地こいしや、さとりのペットである火焔猫燐や霊烏路空が住民とされている。[NEWLINE]今回は地底の住民2人が応援に駆け付けている。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]地霊殿とは、既に罪人が落とされる事がなくなった灼熱地獄跡の上に建っている館である。主の古明地さとりは灼熱地獄跡の管理も任されている。さとりの他には彼女の妹である古明地こいしや、さとりのペットである火焔猫燐や霊烏路空が住民とされている。[NEWLINE]今回は地底の住民2人が応援に駆け付けている。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KISUME_PEDIA</Tag>
+		<English />
+		<French>[H1]キスメ[\H1][NEWLINE][BOLD]鬼火を落とす程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿(1中)[NEWLINE]東方ダブルスポイラー(LV3)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]釣瓶落し。原作でのセリフが存在しない為はっきりとした喋り方はわかっていない。[NEWLINE]二次創作では無口であることが多い為か東方叙事詩においてもほぼ喋らない。[NEWLINE]内気な性格らしいのだが、かつて地上に出て凶暴な面を曝け出した事もあるらしい。[NEWLINE]真偽の程は不明。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]キスメ[\H1][NEWLINE][BOLD]鬼火を落とす程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿(1中)[NEWLINE]東方ダブルスポイラー(LV3)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]釣瓶落し。原作でのセリフが存在しない為はっきりとした喋り方はわかっていない。[NEWLINE]二次創作では無口であることが多い為か東方叙事詩においてもほぼ喋らない。[NEWLINE]内気な性格らしいのだが、かつて地上に出て凶暴な面を曝け出した事もあるらしい。[NEWLINE]真偽の程は不明。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YAMAME_PEDIA</Tag>
+		<English />
+		<French>[H1]黒谷ヤマメ[\H1][NEWLINE][BOLD]病気(主に感染症)を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿(1)[NEWLINE]東方ダブルスポイラー(LV3)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]封じられた妖怪 ～ Lost Place[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]地底に暮らす土蜘蛛。病を操り人間を病気にする恐ろしい妖怪。[NEWLINE]そんな能力とは裏腹に性格は明るく楽しい、地底の人気者。ただ口調はおばさん臭い。[NEWLINE]胴が丸い外見をしているが別に太っている訳ではなく蜘蛛の腹を意識したデザイン。[NEWLINE]能力はあまり使用せず、戦う際も糸を使用したスペルカードが多い。[NEWLINE]そして明るい性格も相まって初対面では怖がられるが知り合いには人気が高い。[NEWLINE]命蓮寺に入門しようとした事もあるが、その理由が理由だった為（精神的に弱った人間目当て）断られてしまった。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]黒谷ヤマメ[\H1][NEWLINE][BOLD]病気(主に感染症)を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿(1)[NEWLINE]東方ダブルスポイラー(LV3)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]封じられた妖怪 ～ Lost Place[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]地底に暮らす土蜘蛛。病を操り人間を病気にする恐ろしい妖怪。[NEWLINE]そんな能力とは裏腹に性格は明るく楽しい、地底の人気者。ただ口調はおばさん臭い。[NEWLINE]胴が丸い外見をしているが別に太っている訳ではなく蜘蛛の腹を意識したデザイン。[NEWLINE]能力はあまり使用せず、戦う際も糸を使用したスペルカードが多い。[NEWLINE]そして明るい性格も相まって初対面では怖がられるが知り合いには人気が高い。[NEWLINE]命蓮寺に入門しようとした事もあるが、その理由が理由だった為（精神的に弱った人間目当て）断られてしまった。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PARSEE_PEDIA</Tag>
+		<English />
+		<French>[H1]水橋 パルスィ[\H1][NEWLINE][BOLD]嫉妬心を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿（2）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L2）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]緑眼のジェラシー[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]地上と地下をつなぐ穴の番人の橋姫。[NEWLINE]とにかく妬ましいと口にする嫉妬深い妖怪。本人も嫉妬深いのだが、同時に他人の嫉妬心を煽る事も出来るため、その気になれば人間関係を容易く破壊することが出来ると思われる。リア充爆発しろ。[NEWLINE]なお、パルスィ（Parsee）とはペルシャ人（現在のイラン人）のことである。ペルシャ出身という訳ではなさそうだが。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]水橋 パルスィ[\H1][NEWLINE][BOLD]嫉妬心を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿（2）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L2）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]緑眼のジェラシー[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]地上と地下をつなぐ穴の番人の橋姫。[NEWLINE]とにかく妬ましいと口にする嫉妬深い妖怪。本人も嫉妬深いのだが、同時に他人の嫉妬心を煽る事も出来るため、その気になれば人間関係を容易く破壊することが出来ると思われる。リア充爆発しろ。[NEWLINE]なお、パルスィ（Parsee）とはペルシャ人（現在のイラン人）のことである。ペルシャ出身という訳ではなさそうだが。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YUGI_PEDIA</Tag>
+		<English />
+		<French>[H1]星熊 勇儀[\H1][NEWLINE][BOLD]怪力乱神を持つ程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿（3）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L6）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]華のさかづき大江山[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]旧都に住む鬼。元・山の四天王。[NEWLINE]何故地底に移ったのかというと、地上の人間に嫌気がさしたためである。[NEWLINE]また、鬼は強い為戦う時に杯の酒を一滴もこぼさずにするというルールを自分に課している。[NEWLINE]明らかに手を抜いて主人公達との勝負に臨んでおり、これらの要素から本気を出した勇儀は最低でも萃香と同程度の実力があるのではないか、とファンの間では語られている。[NEWLINE]登場当時から体操服のような服だと言われていたが、実は本当に体操服をモデルにして作られているらしい。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]星熊 勇儀[\H1][NEWLINE][BOLD]怪力乱神を持つ程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿（3）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L6）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]華のさかづき大江山[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]旧都に住む鬼。元・山の四天王。[NEWLINE]何故地底に移ったのかというと、地上の人間に嫌気がさしたためである。[NEWLINE]また、鬼は強い為戦う時に杯の酒を一滴もこぼさずにするというルールを自分に課している。[NEWLINE]明らかに手を抜いて主人公達との勝負に臨んでおり、これらの要素から本気を出した勇儀は最低でも萃香と同程度の実力があるのではないか、とファンの間では語られている。[NEWLINE]登場当時から体操服のような服だと言われていたが、実は本当に体操服をモデルにして作られているらしい。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SATORI_PEDIA</Tag>
+		<English />
+		<French>[H1]古明地 さとり[\H1][NEWLINE][BOLD]心を読む程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿（4）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L9）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]少女さとり ～ 3rd eye[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]地霊殿の主。読んで字の通り相手の心、即ち考えている事を読む能力を持つ。[NEWLINE]が、その能力を用いて相手が考えている事をいちいち口に出して発言する。口に出す必要は無い筈なのだが。[NEWLINE]その為か地底の住民の中でも特に嫌われており、萃香から「最悪な主」とまで称されるほど。[NEWLINE]このように自身も妖怪ながら他の妖怪に嫌われているが、一方で実に妖怪らしく「人間を襲うのはいいわね」等という発言もしている。恐らく素でさでずむのケがあるのだろう。[NEWLINE]戦闘では相手のトラウマを呼び起こし、苦手とする弾幕を再現する戦闘を行う。ただし戦闘そのものは苦手としているようだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]古明地 さとり[\H1][NEWLINE][BOLD]心を読む程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿（4）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L9）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]少女さとり ～ 3rd eye[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]地霊殿の主。読んで字の通り相手の心、即ち考えている事を読む能力を持つ。[NEWLINE]が、その能力を用いて相手が考えている事をいちいち口に出して発言する。口に出す必要は無い筈なのだが。[NEWLINE]その為か地底の住民の中でも特に嫌われており、萃香から「最悪な主」とまで称されるほど。[NEWLINE]このように自身も妖怪ながら他の妖怪に嫌われているが、一方で実に妖怪らしく「人間を襲うのはいいわね」等という発言もしている。恐らく素でさでずむのケがあるのだろう。[NEWLINE]戦闘では相手のトラウマを呼び起こし、苦手とする弾幕を再現する戦闘を行う。ただし戦闘そのものは苦手としているようだ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RIN_PEDIA</Tag>
+		<English />
+		<French>[H1]火焔猫 燐[\H1][NEWLINE][BOLD]死体を持ち去る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿（4/5/6）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L8）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]死体旅行 ～ Be of good cheer![PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]さとりのペットである火車。（火車と言っても朝鮮版カタパルトではない）火車とは棺を開けて中の死体を持ち去っていく妖怪のことである。[NEWLINE]地霊殿異変で怨霊が地上に出てきたのは彼女の仕業であり、親友のお空が山の神から核の力を授かったばかりに調子に乗り始め、主のさとりや地底の鬼達にお空を処分されることを恐れたため、それを地上の力の強い妖怪に知らせる事が出来れば、と考えての行動である。もっとも、実際に地底に下りてきたのは人間2人だったが。[NEWLINE]なお、黒猫の姿と人型の姿の二種類の姿を持つ。[PARAGRAPH:1]火車は死体を持ち去った後、葬儀や閻魔の裁きをも受けさせず、問答無用で即地獄送りにするため大変恐れられた。財政状態が厳しい事を「火の車」と呼ぶ事があるが、それはこの火車が由来である。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]火焔猫 燐[\H1][NEWLINE][BOLD]死体を持ち去る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿（4/5/6）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L8）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]死体旅行 ～ Be of good cheer![PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]さとりのペットである火車。（火車と言っても朝鮮版カタパルトではない）火車とは棺を開けて中の死体を持ち去っていく妖怪のことである。[NEWLINE]地霊殿異変で怨霊が地上に出てきたのは彼女の仕業であり、親友のお空が山の神から核の力を授かったばかりに調子に乗り始め、主のさとりや地底の鬼達にお空を処分されることを恐れたため、それを地上の力の強い妖怪に知らせる事が出来れば、と考えての行動である。もっとも、実際に地底に下りてきたのは人間2人だったが。[NEWLINE]なお、黒猫の姿と人型の姿の二種類の姿を持つ。[PARAGRAPH:1]火車は死体を持ち去った後、葬儀や閻魔の裁きをも受けさせず、問答無用で即地獄送りにするため大変恐れられた。財政状態が厳しい事を「火の車」と呼ぶ事があるが、それはこの火車が由来である。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_UTSUHO_PEDIA</Tag>
+		<English />
+		<French>[H1]霊烏路 空[\H1][NEWLINE][BOLD]核融合を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿（6）[NEWLINE]東方非想天則[NEWLINE]ダブルスポイラー ～ 東方文花帖（L8）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]霊知の太陽信仰 ～ Nuclear Fusion[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]さとりのペットである地獄鴉。[NEWLINE]仕事は本来火焔地獄跡の火力調節を仕事としていたが、ある日山の神が彼女に八咫烏の力＝核融合を操る力を授けてしまった。[NEWLINE]そのせいで彼女は調子に乗り、幻想郷を火の海にしようと考えたが、地上からやってきた巫女と魔法使いに阻止された。[NEWLINE]その後、地霊殿異変の後に設立された間欠泉地下センターにて核融合炉の管理を任されるようになった。その際2次設定すら霞むほどの強烈な鳥頭を披露した。[NEWLINE]彼女の弾幕は今までの弾幕と比べ大きい弾・引力の力の利用など少し異なる弾幕である。最近では核繋がりか、某世紀末を意識している模様。[NEWLINE]一歩間違えれば幻想郷が核の炎に包まれる事態を起こしかねない為、色々と危険。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]霊烏路 空[\H1][NEWLINE][BOLD]核融合を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿（6）[NEWLINE]東方非想天則[NEWLINE]ダブルスポイラー ～ 東方文花帖（L8）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]霊知の太陽信仰 ～ Nuclear Fusion[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]さとりのペットである地獄鴉。[NEWLINE]仕事は本来火焔地獄跡の火力調節を仕事としていたが、ある日山の神が彼女に八咫烏の力＝核融合を操る力を授けてしまった。[NEWLINE]そのせいで彼女は調子に乗り、幻想郷を火の海にしようと考えたが、地上からやってきた巫女と魔法使いに阻止された。[NEWLINE]その後、地霊殿異変の後に設立された間欠泉地下センターにて核融合炉の管理を任されるようになった。その際2次設定すら霞むほどの強烈な鳥頭を披露した。[NEWLINE]彼女の弾幕は今までの弾幕と比べ大きい弾・引力の力の利用など少し異なる弾幕である。最近では核繋がりか、某世紀末を意識している模様。[NEWLINE]一歩間違えれば幻想郷が核の炎に包まれる事態を起こしかねない為、色々と危険。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KOISHI_PEDIA</Tag>
+		<English />
+		<French>[H1]古明地 こいし[\H1][NEWLINE][BOLD]無意識を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿（EX）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L9）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]ハルトマンの妖怪少女[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]地霊殿の主さとりの妹。[NEWLINE]本来はさとりと同じ能力～相手の心を読む能力～を持っていたのだが、その能力で嫌われるのを恐れ心を読む目を閉ざしてしまった。[NEWLINE]しかしその代わりに、無意識で行動する事が出来るようになり、嫌われることは無くなったものの、好かれることもまた無くなったのだった。[NEWLINE]色々な意味でよく分からない妖怪であり、自身の能力を利用し誰にも気付かれずに行動する事も可能。心を読む事が出来る姉のさとりですらこいしの心だけは読めない。[NEWLINE]余談だが、原作のさとりの絵にネガ・ポジ変換をかけるとこいしに近い色合いになり、逆にこいしの絵にネガ・ポジ変換をかけるとさとりに近い色合いになる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]古明地 こいし[\H1][NEWLINE][BOLD]無意識を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方地霊殿（EX）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L9）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]ハルトマンの妖怪少女[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]地霊殿の主さとりの妹。[NEWLINE]本来はさとりと同じ能力～相手の心を読む能力～を持っていたのだが、その能力で嫌われるのを恐れ心を読む目を閉ざしてしまった。[NEWLINE]しかしその代わりに、無意識で行動する事が出来るようになり、嫌われることは無くなったものの、好かれることもまた無くなったのだった。[NEWLINE]色々な意味でよく分からない妖怪であり、自身の能力を利用し誰にも気付かれずに行動する事も可能。心を読む事が出来る姉のさとりですらこいしの心だけは読めない。[NEWLINE]余談だが、原作のさとりの絵にネガ・ポジ変換をかけるとこいしに近い色合いになり、逆にこいしの絵にネガ・ポジ変換をかけるとさとりに近い色合いになる。</Japanese>
+	</TEXT>
+<!-- Chireiden End-->
+<!-- Seirensen Start-->
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SEIRENSEN_PEDIA</Tag>
+		<English />
+		<French>[TAB]命蓮寺の住人達による勢力。元々は空飛ぶ船「聖輦船」だったが、星蓮船異変の後は地上に降り立ち、人間も妖怪も平等に受け入れる寺として機能している。[NEWLINE]勘違いされがちだが、正式名称はあくまで「聖輦船」であり、「星蓮船」ではない。が、ぶっちゃけた話前者の名称より後者の名称の方がはるかに有名である。本ゲームでの名称も星蓮船で通している。[NEWLINE]なお星蓮船異変の際は霊夢達から宝船と思われていたが、実際は金目の物は特に積んではいなかった。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]命蓮寺の住人達による勢力。元々は空飛ぶ船「聖輦船」だったが、星蓮船異変の後は地上に降り立ち、人間も妖怪も平等に受け入れる寺として機能している。[NEWLINE]勘違いされがちだが、正式名称はあくまで「聖輦船」であり、「星蓮船」ではない。が、ぶっちゃけた話前者の名称より後者の名称の方がはるかに有名である。本ゲームでの名称も星蓮船で通している。[NEWLINE]なお星蓮船異変の際は霊夢達から宝船と思われていたが、実際は金目の物は特に積んではいなかった。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_JOSEF_NAZRIN_PEDIA</Tag>
+		<English />
+		<French>[H1]ナズーリン[\H1][NEWLINE][BOLD]探し物を探し当てる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方星蓮船（1/5中）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L7）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]小さな小さな賢将[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]寅丸星の部下の妖怪鼠であり、生粋のダウザー（ダウジング使いのこと）でもある。[NEWLINE]何処となく気取ったような中性的な口調が特徴であり、性格も非常に狡猾で知能も高い。[NEWLINE]名目上は一応寅丸星の部下という事になっているが、彼女の本当の正体は毘沙門天直属の手下であり、毘沙門天の代理として信仰を集めることになった星の監視が本来の仕事らしい。[NEWLINE]ただしその星との関係は至って良好であり、星が居ない場所でも「ご主人様」と呼んだり、星は星でナズーリンに対し相当な信頼を寄せているようだ。[NEWLINE]ダウザーという設定の為か、戦闘ではペンデュラムやダウジングロッド等、ダウジングに因んだ道具を主に使用する。[NEWLINE][NEWLINE]ちなみに意外なことに住処は無縁塚にあり、普段は命蓮寺に居ない。[NEWLINE]時折手伝いをしに命蓮寺に訪れている、という形のようだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]ナズーリン[\H1][NEWLINE][BOLD]探し物を探し当てる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方星蓮船（1/5中）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L7）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]小さな小さな賢将[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]寅丸星の部下の妖怪鼠であり、生粋のダウザー（ダウジング使いのこと）でもある。[NEWLINE]何処となく気取ったような中性的な口調が特徴であり、性格も非常に狡猾で知能も高い。[NEWLINE]名目上は一応寅丸星の部下という事になっているが、彼女の本当の正体は毘沙門天直属の手下であり、毘沙門天の代理として信仰を集めることになった星の監視が本来の仕事らしい。[NEWLINE]ただしその星との関係は至って良好であり、星が居ない場所でも「ご主人様」と呼んだり、星は星でナズーリンに対し相当な信頼を寄せているようだ。[NEWLINE]ダウザーという設定の為か、戦闘ではペンデュラムやダウジングロッド等、ダウジングに因んだ道具を主に使用する。[NEWLINE][NEWLINE]ちなみに意外なことに住処は無縁塚にあり、普段は命蓮寺に居ない。[NEWLINE]時折手伝いをしに命蓮寺に訪れている、という形のようだ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ICHIRIN_PEDIA</Tag>
+		<English />
+		<French>[H1]雲居 一輪[\H1][NEWLINE][BOLD]入道を使う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方星蓮船（3）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L5）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]時代親父とハイカラ少女[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]白蓮を慕う妖怪の一人であり、相方の入道雲・雲山と常に一緒に行動している。[NEWLINE]彼女自体よりも相方の雲山の方が何かと印象に残る。というのも、初登場時にいきなりデカい親父が現れ、ゲンコツと目からビームを出して来る。東方Projectにおいてはあまりに予想外な弾幕を撃ってきたため、多くのシューターを吹き出させてしまったとか。[NEWLINE]一方で彼女自身は設定の不明瞭さも相まってか、いまいち影が薄いのは否めない。今後に期待といったところだろうか。[PARAGRAPH:1]なお、彼女のテーマ曲「時代親父とハイカラ少女」の、親父は雲山でいいとして、ハイカラ（西洋風の身なりや生活様式をする様）は彼女とは少々かけ離れているような気がする。ここは議論が必要な所なのかもしれない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]雲居 一輪[\H1][NEWLINE][BOLD]入道を使う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方星蓮船（3）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L5）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]時代親父とハイカラ少女[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]白蓮を慕う妖怪の一人であり、相方の入道雲・雲山と常に一緒に行動している。[NEWLINE]彼女自体よりも相方の雲山の方が何かと印象に残る。というのも、初登場時にいきなりデカい親父が現れ、ゲンコツと目からビームを出して来る。東方Projectにおいてはあまりに予想外な弾幕を撃ってきたため、多くのシューターを吹き出させてしまったとか。[NEWLINE]一方で彼女自身は設定の不明瞭さも相まってか、いまいち影が薄いのは否めない。今後に期待といったところだろうか。[PARAGRAPH:1]なお、彼女のテーマ曲「時代親父とハイカラ少女」の、親父は雲山でいいとして、ハイカラ（西洋風の身なりや生活様式をする様）は彼女とは少々かけ離れているような気がする。ここは議論が必要な所なのかもしれない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MINAMITSU_PEDIA</Tag>
+		<English />
+		<French>[H1]村紗 水蜜[\H1][NEWLINE][BOLD]水難事故を引き起こす程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方星蓮船（4）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L5）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]キャプテン・ムラサ[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]彼女は水難事故で死亡した人間の幽霊である。その無念から念縛霊となってしまい、通りかかった船を片っ端から沈めるうちに人々に恐れられ、その恐怖の念から妖怪化した。[NEWLINE]妖怪化した後も変わらず船を沈めていたが、ある時彼女の退治を依頼された聖白蓮に諭され、心を入れ替え未練も捨て救われる事になった。[NEWLINE]その後は白蓮を慕い一緒に行動していたが、白蓮が封印された時に自身も地底に埋められてしまった。しかし地霊殿異変の際に間欠泉から地上に抜け出す事になり、恩がある白蓮を今度は自分が救う番だと考え、行動する事になる。[NEWLINE]聖輦船の船長も勤めているが、実は船は自動航行の為彼女の仕事はあまり無いとか。本来の意味でのセーラー服を着用している。[NEWLINE]戦闘では巨大なアンカーを敵にぶつける豪快な弾幕を得意とする。雲山といい、星蓮船組は何かと豪快な弾幕を好むらしい。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]村紗 水蜜[\H1][NEWLINE][BOLD]水難事故を引き起こす程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方星蓮船（4）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L5）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]キャプテン・ムラサ[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]彼女は水難事故で死亡した人間の幽霊である。その無念から念縛霊となってしまい、通りかかった船を片っ端から沈めるうちに人々に恐れられ、その恐怖の念から妖怪化した。[NEWLINE]妖怪化した後も変わらず船を沈めていたが、ある時彼女の退治を依頼された聖白蓮に諭され、心を入れ替え未練も捨て救われる事になった。[NEWLINE]その後は白蓮を慕い一緒に行動していたが、白蓮が封印された時に自身も地底に埋められてしまった。しかし地霊殿異変の際に間欠泉から地上に抜け出す事になり、恩がある白蓮を今度は自分が救う番だと考え、行動する事になる。[NEWLINE]聖輦船の船長も勤めているが、実は船は自動航行の為彼女の仕事はあまり無いとか。本来の意味でのセーラー服を着用している。[NEWLINE]戦闘では巨大なアンカーを敵にぶつける豪快な弾幕を得意とする。雲山といい、星蓮船組は何かと豪快な弾幕を好むらしい。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SYOU_PEDIA</Tag>
+		<English />
+		<French>[H1]寅丸 星[\H1][NEWLINE][BOLD]財宝が集まる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方星蓮船（5）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L7）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]虎柄の毘沙門天[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]虎の姿をした妖怪であり、財宝が集まってくる縁起が良い妖怪とも言われている。[NEWLINE]かつて白蓮が封印される前、毘沙門天を信仰していた白蓮が寺に毘沙門天を呼ぼうと考えたが、当の毘沙門天は多忙で殆ど寺に訪れる事は無く、また寺の近くに住む妖怪達が毘沙門天に怯えていた。さてどうしたらいいかと考えた結果、山で最も信頼されている妖怪であった星を毘沙門天に紹介し、弟子入りさせて代わりに信仰を集めてもらう事にした。[NEWLINE]毘沙門天は配下のナズーリンを星の監視に当てるなど、いまいち信用してはいなかったようだが、そんな毘沙門天の心配とは裏腹に、星は非常に優秀だった。[NEWLINE]どれくらい優秀かというと、白蓮が人間に封印された際も、取り乱したりする事はなく毘沙門天代理としての業務をこなしていたほど。後悔はしていたが、当時は人間に対し自分の正体が妖怪であると明かすのは自殺行為に近かった為だ。[NEWLINE]それから数百年経った頃、村紗をはじめとしたかつての仲間達が寺に戻ってきた。もう後悔したくはないと決めた星は、封印の解除法を村紗達に教え、白蓮の封印を解く為に一緒に行動する事になる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]寅丸 星[\H1][NEWLINE][BOLD]財宝が集まる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方星蓮船（5）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L7）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]虎柄の毘沙門天[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]虎の姿をした妖怪であり、財宝が集まってくる縁起が良い妖怪とも言われている。[NEWLINE]かつて白蓮が封印される前、毘沙門天を信仰していた白蓮が寺に毘沙門天を呼ぼうと考えたが、当の毘沙門天は多忙で殆ど寺に訪れる事は無く、また寺の近くに住む妖怪達が毘沙門天に怯えていた。さてどうしたらいいかと考えた結果、山で最も信頼されている妖怪であった星を毘沙門天に紹介し、弟子入りさせて代わりに信仰を集めてもらう事にした。[NEWLINE]毘沙門天は配下のナズーリンを星の監視に当てるなど、いまいち信用してはいなかったようだが、そんな毘沙門天の心配とは裏腹に、星は非常に優秀だった。[NEWLINE]どれくらい優秀かというと、白蓮が人間に封印された際も、取り乱したりする事はなく毘沙門天代理としての業務をこなしていたほど。後悔はしていたが、当時は人間に対し自分の正体が妖怪であると明かすのは自殺行為に近かった為だ。[NEWLINE]それから数百年経った頃、村紗をはじめとしたかつての仲間達が寺に戻ってきた。もう後悔したくはないと決めた星は、封印の解除法を村紗達に教え、白蓮の封印を解く為に一緒に行動する事になる。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BYAKUREN_PEDIA</Tag>
+		<English />
+		<French>[H1]聖 白蓮[\H1][NEWLINE][BOLD]魔法を使う程度の能力（主に身体能力を上げる魔法）[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方星蓮船（6）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L12）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]感情の摩天楼　～ Cosmic Mind[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]大昔に人間によって魔界に封印された大魔法使い。[NEWLINE]伝説の大僧侶とも言われる命蓮を弟に持つが、命蓮は白蓮よりも早く亡くなってしまう。その結果極端に死を恐れるようになり、若返りと不老不死の力を手にする事になる。[NEWLINE]寿命が無くなった次は力を失う事を恐れるようになり、妖怪を完全に排除する事は即ち妖術の類、自分の力も維持出来なくなるため、表では妖怪退治を依頼されながらも、裏では妖怪を助けていた。[NEWLINE]この際、最初は自分の力の維持の為妖怪を助けていたようだが、肩入れするうちに妖怪に感情移入し、妖怪の力にならなければと思うようになった。[NEWLINE]突然現れた若くて強い僧侶に最初は人間達の間からも大人気だったが、妖怪を支援している事が表に出ると一変し、魔界に封印されてしまう事になる。[NEWLINE]が、彼女を慕う沢山の妖怪達によって封印は無事に解除される事になる。[NEWLINE]現在では聖輦船を地上に降り立たせ、船を命蓮寺という名前の寺に変えて人々や妖怪達を受け入れている。東方Projectきっての博愛主義者であり、人間も妖怪も分け隔て無く受け入れているようだ。[NEWLINE]決め台詞は「いざ、南無三──！」[PARAGRAPH:1]余談だが、英語圏の東方Projectファンの間では、白蓮の生い立ちを、人の罪を背負い人の手によって処刑されたイエス・キリストになぞらえて、[NEWLINE]「Youkhrist」（Youkai + Christ）[NEWLINE]という、色んな意味で物凄いあだ名を白蓮につけているらしい。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]聖 白蓮[\H1][NEWLINE][BOLD]魔法を使う程度の能力（主に身体能力を上げる魔法）[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方星蓮船（6）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L12）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]感情の摩天楼　～ Cosmic Mind[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]大昔に人間によって魔界に封印された大魔法使い。[NEWLINE]伝説の大僧侶とも言われる命蓮を弟に持つが、命蓮は白蓮よりも早く亡くなってしまう。その結果極端に死を恐れるようになり、若返りと不老不死の力を手にする事になる。[NEWLINE]寿命が無くなった次は力を失う事を恐れるようになり、妖怪を完全に排除する事は即ち妖術の類、自分の力も維持出来なくなるため、表では妖怪退治を依頼されながらも、裏では妖怪を助けていた。[NEWLINE]この際、最初は自分の力の維持の為妖怪を助けていたようだが、肩入れするうちに妖怪に感情移入し、妖怪の力にならなければと思うようになった。[NEWLINE]突然現れた若くて強い僧侶に最初は人間達の間からも大人気だったが、妖怪を支援している事が表に出ると一変し、魔界に封印されてしまう事になる。[NEWLINE]が、彼女を慕う沢山の妖怪達によって封印は無事に解除される事になる。[NEWLINE]現在では聖輦船を地上に降り立たせ、船を命蓮寺という名前の寺に変えて人々や妖怪達を受け入れている。東方Projectきっての博愛主義者であり、人間も妖怪も分け隔て無く受け入れているようだ。[NEWLINE]決め台詞は「いざ、南無三──！」[PARAGRAPH:1]余談だが、英語圏の東方Projectファンの間では、白蓮の生い立ちを、人の罪を背負い人の手によって処刑されたイエス・キリストになぞらえて、[NEWLINE]「Youkhrist」（Youkai + Christ）[NEWLINE]という、色んな意味で物凄いあだ名を白蓮につけているらしい。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_NUE_PEDIA</Tag>
+		<English />
+		<French>[H1]封獣 ぬえ[\H1][NEWLINE][BOLD]正体を判らなくする程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方星蓮船（EX）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L12）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]平安のエイリアン[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]鵺という種族の妖怪で、東方星蓮船における一連の事件を「異変」とみなす場合、その異変の本当の主犯である。[NEWLINE]長い事地底で暮らしていたが、地霊殿異変の際に間欠泉に紛れて地上に飛び出していた。その際地底で一緒だった村紗達が何かをしようとしているのを目撃し、邪魔してやろうと考える事になる。[NEWLINE]そして白蓮の復活に必要な飛倉の破片を見る者によって形が違えて見えるように細工を施した。（霊夢達にはUFOに見えていたようだ）[NEWLINE]邪魔をするようになった理由については、元々彼女が天邪鬼で人の邪魔をしたくなる性格なのも一因ではあるが、他にも彼女なりに色々と理由があり、地底で仲の良かった村紗達が自分を置いて楽しそうに（少なくともぬえにはそう見えた）行動していたのが面白くなかったとも、また人間である（正確にはもう人間を止めているが）白蓮の為に行動しているのが気に食わなかった、とも述べている。[NEWLINE]ただしその白蓮は妖怪の為に行動する魔法使いであり、自分にも利益があると知ると後悔する事になる。東方星蓮船後は暫くの間白蓮に付いていこうと思っているようだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]封獣 ぬえ[\H1][NEWLINE][BOLD]正体を判らなくする程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方星蓮船（EX）[NEWLINE]ダブルスポイラー ～ 東方文花帖（L12）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]平安のエイリアン[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]鵺という種族の妖怪で、東方星蓮船における一連の事件を「異変」とみなす場合、その異変の本当の主犯である。[NEWLINE]長い事地底で暮らしていたが、地霊殿異変の際に間欠泉に紛れて地上に飛び出していた。その際地底で一緒だった村紗達が何かをしようとしているのを目撃し、邪魔してやろうと考える事になる。[NEWLINE]そして白蓮の復活に必要な飛倉の破片を見る者によって形が違えて見えるように細工を施した。（霊夢達にはUFOに見えていたようだ）[NEWLINE]邪魔をするようになった理由については、元々彼女が天邪鬼で人の邪魔をしたくなる性格なのも一因ではあるが、他にも彼女なりに色々と理由があり、地底で仲の良かった村紗達が自分を置いて楽しそうに（少なくともぬえにはそう見えた）行動していたのが面白くなかったとも、また人間である（正確にはもう人間を止めているが）白蓮の為に行動しているのが気に食わなかった、とも述べている。[NEWLINE]ただしその白蓮は妖怪の為に行動する魔法使いであり、自分にも利益があると知ると後悔する事になる。東方星蓮船後は暫くの間白蓮に付いていこうと思っているようだ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KYOUKO_PEDIA</Tag>
+		<English />
+		<French>[H1]幽谷響子[\H1][NEWLINE][BOLD]音を反射させる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方神霊廟(2)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]門前の妖怪小娘[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]山で声を反響するヤマビコの妖怪。[NEWLINE]命蓮寺で修行する妖怪の一人だが出家はしておらず山からの通いである。[NEWLINE]修行する内に覚えた般若心経を歌のように唱える癖があり、住処である山でも唱える物だから[NEWLINE]周辺住民からは山からお経が聞こえてきて不気味だと怖がられいる。[NEWLINE]ちなみにお経の意味はあまり理解していない。[NEWLINE]大人しく臆病な妖怪で、負けると「イジメないでね」と泣きつくこともあり何かと苛められ属性を持っているが[NEWLINE]その反面ミスティア・ローレライとパンクバンドを組んでいたりと意外とアグレッシブな一面を持っていたりもする。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]幽谷響子[\H1][NEWLINE][BOLD]音を反射させる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方神霊廟(2)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]門前の妖怪小娘[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]山で声を反響するヤマビコの妖怪。[NEWLINE]命蓮寺で修行する妖怪の一人だが出家はしておらず山からの通いである。[NEWLINE]修行する内に覚えた般若心経を歌のように唱える癖があり、住処である山でも唱える物だから[NEWLINE]周辺住民からは山からお経が聞こえてきて不気味だと怖がられいる。[NEWLINE]ちなみにお経の意味はあまり理解していない。[NEWLINE]大人しく臆病な妖怪で、負けると「イジメないでね」と泣きつくこともあり何かと苛められ属性を持っているが[NEWLINE]その反面ミスティア・ローレライとパンクバンドを組んでいたりと意外とアグレッシブな一面を持っていたりもする。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MAMIZOU_PEDIA</Tag>
+		<English />
+		<French>[H1]二ッ岩マミゾウ[\H1][NEWLINE][BOLD]化けさせる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方神霊廟(Ex)[NEWLINE]東方心綺楼[NEWLINE]東方鈴奈庵[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]佐渡の二ッ岩[NEWLINE]幻想郷の二ッ岩[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]封獣ぬえが豊聡耳神子に対抗すべく妖怪の戦力増強のために呼んだ化け狸。[NEWLINE]人間と書いてカモと呼ぶ程化かす事が好き。[NEWLINE]それだけにかなりの知性を持っており、登場するたびに他の登場人物に助言を残したりする。[NEWLINE]また非常に年を取っているのか、古い口調で喋ったり、雲山を若造呼ばわりしたり神子に媼呼ばわりされたりしている。[NEWLINE]元々化け狸とは妖怪の中でも上位の存在であり彼女はその中でも三本の指に入る実力者である。[NEWLINE]大妖怪である鵺が助っ人として呼ぶだけの実力があるのは間違いない。[NEWLINE]ただし彼女曰く、妖怪は結束力がないため人間には対抗できないらしい。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]二ッ岩マミゾウ[\H1][NEWLINE][BOLD]化けさせる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方神霊廟(Ex)[NEWLINE]東方心綺楼[NEWLINE]東方鈴奈庵[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]佐渡の二ッ岩[NEWLINE]幻想郷の二ッ岩[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]封獣ぬえが豊聡耳神子に対抗すべく妖怪の戦力増強のために呼んだ化け狸。[NEWLINE]人間と書いてカモと呼ぶ程化かす事が好き。[NEWLINE]それだけにかなりの知性を持っており、登場するたびに他の登場人物に助言を残したりする。[NEWLINE]また非常に年を取っているのか、古い口調で喋ったり、雲山を若造呼ばわりしたり神子に媼呼ばわりされたりしている。[NEWLINE]元々化け狸とは妖怪の中でも上位の存在であり彼女はその中でも三本の指に入る実力者である。[NEWLINE]大妖怪である鵺が助っ人として呼ぶだけの実力があるのは間違いない。[NEWLINE]ただし彼女曰く、妖怪は結束力がないため人間には対抗できないらしい。</Japanese>
+	</TEXT>
+<!-- Seirensen End-->
+<!-- Ningennosato Start-->
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_PEDIA</Tag>
+		<English />
+		<French>[TAB]幻想郷唯一の人間による集落。基本的に妖怪は人間を襲うものではあるが、かといって人間が全滅するのも妖怪にとっては困り物のため、この里は妖怪の賢者による保護を受けている。そのおかげで里の中では妖怪に襲われる事は殆ど無い。[NEWLINE]生活レベルに関しては具体的な記述は無いものの、幻想郷が外の世界（我々が住む世界）と隔離されたのは明治時代初期辺りであり、恐らくその辺りと同等の生活レベルであると思われる。ただし、中途半端に外の世界の発達した道具等もぽつぽつと流れてはいるが。[NEWLINE]妖怪達も買い物をしにきたりする。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]幻想郷唯一の人間による集落。基本的に妖怪は人間を襲うものではあるが、かといって人間が全滅するのも妖怪にとっては困り物のため、この里は妖怪の賢者による保護を受けている。そのおかげで里の中では妖怪に襲われる事は殆ど無い。[NEWLINE]生活レベルに関しては具体的な記述は無いものの、幻想郷が外の世界（我々が住む世界）と隔離されたのは明治時代初期辺りであり、恐らくその辺りと同等の生活レベルであると思われる。ただし、中途半端に外の世界の発達した道具等もぽつぽつと流れてはいるが。[NEWLINE]妖怪達も買い物をしにきたりする。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MOKOU_PEDIA</Tag>
+		<English />
+		<French>[H1]藤原 妹紅[\H1][NEWLINE][BOLD]老いることも死ぬこともない程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（EX）[NEWLINE]東方文花帖（EX）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]月まで届け、不死の煙[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]自称健康マニアの焼き鳥屋さん。その正体は、蓬莱の薬を服用し不死の存在となった人間である。永遠亭に住む蓬莱山輝夜とは過去に因縁があり、殺したり殺されたりする間柄。もっとも、互いに蓬莱の薬を服用している為、殺しても絶対に死なないが。ただし、痛みなどは普通に感じるらしい。[NEWLINE]最低でも1000年以上は生き長らえており、その過程で様々な妖術も習得している。人間故に妖怪に襲われることもあるようだが、軽くあしらう程に強い。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]藤原 妹紅[\H1][NEWLINE][BOLD]老いることも死ぬこともない程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（EX）[NEWLINE]東方文花帖（EX）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]月まで届け、不死の煙[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]自称健康マニアの焼き鳥屋さん。その正体は、蓬莱の薬を服用し不死の存在となった人間である。永遠亭に住む蓬莱山輝夜とは過去に因縁があり、殺したり殺されたりする間柄。もっとも、互いに蓬莱の薬を服用している為、殺しても絶対に死なないが。ただし、痛みなどは普通に感じるらしい。[NEWLINE]最低でも1000年以上は生き長らえており、その過程で様々な妖術も習得している。人間故に妖怪に襲われることもあるようだが、軽くあしらう程に強い。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KEINE_PEDIA</Tag>
+		<English />
+		<French>[H1]上白沢 慧音[\H1][NEWLINE][BOLD]歴史を食べる程度の能力（人間時）[NEWLINE]歴史を創る程度の能力（ハクタク時）[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（3/EX中）[NEWLINE]東方文花帖（L3）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]プレインエイジア[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]人間の里で寺子屋を開く半人半獣、ワーハクタクの少女。普段は人間の姿をしているが、満月の時のみハクタクに変身する。[NEWLINE]普段は温厚な性格だが、満月でハクタクとなっている際はハクタク時限定の能力を用いた仕事の予定が押しているようで、そのせいで気が立っているためか多少好戦的な性格に変わるようだ。[PARAGRAPH:1]ちなみにファンの間ではハクタク時の慧音を指し「きもけーね」というあだ名で呼ばれる事があるが、これは「肝試しの時の慧音」から来ている。決してキモいから、という訳ではない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]上白沢 慧音[\H1][NEWLINE][BOLD]歴史を食べる程度の能力（人間時）[NEWLINE]歴史を創る程度の能力（ハクタク時）[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜抄（3/EX中）[NEWLINE]東方文花帖（L3）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]プレインエイジア[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]人間の里で寺子屋を開く半人半獣、ワーハクタクの少女。普段は人間の姿をしているが、満月の時のみハクタクに変身する。[NEWLINE]普段は温厚な性格だが、満月でハクタクとなっている際はハクタク時限定の能力を用いた仕事の予定が押しているようで、そのせいで気が立っているためか多少好戦的な性格に変わるようだ。[PARAGRAPH:1]ちなみにファンの間ではハクタク時の慧音を指し「きもけーね」というあだ名で呼ばれる事があるが、これは「肝試しの時の慧音」から来ている。決してキモいから、という訳ではない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_HAKUTAKU_PEDIA</Tag>
+		<English />
+		<French>[H1]上白沢慧音（ハクタク版）[\H1][NEWLINE][BOLD]歴史を創る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜称（Ex中）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]プレインエイジア[NEWLINE]懐かしき東方の血　～ Old World[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]詳しくは上白沢慧音の項を参照。[NEWLINE]上白沢慧音が満月の夜に見せる姿であり彼女の妖怪としての姿である。[NEWLINE]この時の彼女は歴史を創る程度の能力を有しており歴史家としての仕事はこの姿の時に行う。[NEWLINE]１ヶ月溜まった仕事を一気に片付けなくてはならない為、この時の彼女は非常に気が立っている。[NEWLINE]この時邪魔をすると角付きの頭突きをお見舞いされる。かなり痛いらしい。[NEWLINE][NEWLINE]しばしば彼女は「きもけーね」と呼ばれるがこれは所謂「キモい」という意味ではなく[NEWLINE]彼女が始めて姿を見せたのが肝試しの夜だからである。つまり肝慧音という事だ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]上白沢慧音（ハクタク版）[\H1][NEWLINE][BOLD]歴史を創る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方永夜称（Ex中）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]プレインエイジア[NEWLINE]懐かしき東方の血　～ Old World[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]詳しくは上白沢慧音の項を参照。[NEWLINE]上白沢慧音が満月の夜に見せる姿であり彼女の妖怪としての姿である。[NEWLINE]この時の彼女は歴史を創る程度の能力を有しており歴史家としての仕事はこの姿の時に行う。[NEWLINE]１ヶ月溜まった仕事を一気に片付けなくてはならない為、この時の彼女は非常に気が立っている。[NEWLINE]この時邪魔をすると角付きの頭突きをお見舞いされる。かなり痛いらしい。[NEWLINE][NEWLINE]しばしば彼女は「きもけーね」と呼ばれるがこれは所謂「キモい」という意味ではなく[NEWLINE]彼女が始めて姿を見せたのが肝試しの夜だからである。つまり肝慧音という事だ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YUKA_PEDIA</Tag>
+		<English />
+		<French>[H1]風見 幽香[\H1][NEWLINE][BOLD]花を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方幻想郷（5/6）[NEWLINE]東方怪綺談（自）[NEWLINE]東方花映塚[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]眠れる恐怖 ～ Sleeping Terror[NEWLINE]幽夢 ～ Inanimate Dream[NEWLINE]今昔幻想郷 ～ Flower Land[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]元は東方旧作からのキャラクター。東方花映塚にて復活した。かつては主人公二人と一緒に他のゲームにも殴りこみに行ったりもした。D-89。[NEWLINE]神社周辺における最強の妖怪と言われている。自身の能力そのものは戦闘には全く役に立たないもののため、純粋な妖力のみでその地位を築いているものと思われる。[NEWLINE]力の強い人間や妖怪をいぢめるのを好むとされる。今回は花屋の娘に頼まれて人里勢力に加担。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]風見 幽香[\H1][NEWLINE][BOLD]花を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方幻想郷（5/6）[NEWLINE]東方怪綺談（自）[NEWLINE]東方花映塚[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]眠れる恐怖 ～ Sleeping Terror[NEWLINE]幽夢 ～ Inanimate Dream[NEWLINE]今昔幻想郷 ～ Flower Land[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]元は東方旧作からのキャラクター。東方花映塚にて復活した。かつては主人公二人と一緒に他のゲームにも殴りこみに行ったりもした。D-89。[NEWLINE]神社周辺における最強の妖怪と言われている。自身の能力そのものは戦闘には全く役に立たないもののため、純粋な妖力のみでその地位を築いているものと思われる。[NEWLINE]力の強い人間や妖怪をいぢめるのを好むとされる。今回は花屋の娘に頼まれて人里勢力に加担。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KOMACHI_PEDIA</Tag>
+		<English />
+		<French>[H1]小野塚 小町[\H1][NEWLINE][BOLD]距離を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方花映塚[NEWLINE]東方文花帖（L10）[NEWLINE]東方緋想天/東方非想天則[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]彼岸帰航 ～ Riverside View[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]三途の河の渡し舟を漕ぐ死神。[NEWLINE]死神といっても彼女の仕事はあくまで三途の川の船頭であり、一般的な死神のイメージに近い「死者の魂を狩りに行く」といったことは基本的には無い。[NEWLINE]死後、三途の川を渡る為には小町のような船頭死神に対し、生前に稼いだ全財産を差し出す事で三途の川を渡る事が出来る。そのためか彼女は金が有り余っているようで、弾幕戦では大量の小銭をばら撒いている。[NEWLINE]かなりのサボり癖がついており、何かと仕事をサボっている。そのおかげで彼女の上司である四季映姫からしょっちゅう説教を受けている模様。[PARAGRAPH:1]ちなみに、「寿命が見える死神の眼」というものも持ち合わせている。案外、名前を書かれたら死亡するノートなんかも持っているのかもしれない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]小野塚 小町[\H1][NEWLINE][BOLD]距離を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方花映塚[NEWLINE]東方文花帖（L10）[NEWLINE]東方緋想天/東方非想天則[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]彼岸帰航 ～ Riverside View[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]三途の河の渡し舟を漕ぐ死神。[NEWLINE]死神といっても彼女の仕事はあくまで三途の川の船頭であり、一般的な死神のイメージに近い「死者の魂を狩りに行く」といったことは基本的には無い。[NEWLINE]死後、三途の川を渡る為には小町のような船頭死神に対し、生前に稼いだ全財産を差し出す事で三途の川を渡る事が出来る。そのためか彼女は金が有り余っているようで、弾幕戦では大量の小銭をばら撒いている。[NEWLINE]かなりのサボり癖がついており、何かと仕事をサボっている。そのおかげで彼女の上司である四季映姫からしょっちゅう説教を受けている模様。[PARAGRAPH:1]ちなみに、「寿命が見える死神の眼」というものも持ち合わせている。案外、名前を書かれたら死亡するノートなんかも持っているのかもしれない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_EIKI_PEDIA</Tag>
+		<English />
+		<French>[H1]四季映姫・ヤマザナドゥ[\H1][NEWLINE][BOLD]白黒はっきりつける程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方花映塚[NEWLINE]東方文花帖（L10）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]六十年目の東方裁判[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]幻想郷担当の閻魔。立派な神の一柱であり、幻想郷においても最高クラスの実力者とされ、同じく幻想郷における名だたる実力者と言われる幽々子や紫ですら苦手とするほど。[NEWLINE]素で説教臭い性格をしており、彼女の部下である小町に対しては勿論、行く先々でも説教をして回っている模様。「そう、貴方は少々○○すぎる」が口癖。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]四季映姫・ヤマザナドゥ[\H1][NEWLINE][BOLD]白黒はっきりつける程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方花映塚[NEWLINE]東方文花帖（L10）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]六十年目の東方裁判[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]幻想郷担当の閻魔。立派な神の一柱であり、幻想郷においても最高クラスの実力者とされ、同じく幻想郷における名だたる実力者と言われる幽々子や紫ですら苦手とするほど。[NEWLINE]素で説教臭い性格をしており、彼女の部下である小町に対しては勿論、行く先々でも説教をして回っている模様。「そう、貴方は少々○○すぎる」が口癖。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MERRY_PEDIA</Tag>
+		<English />
+		<French>[H1]マエリベリー・ハーン[\H1][NEWLINE][BOLD]結界の境目が見える程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]蓮台野夜行[NEWLINE]夢違科学世紀[NEWLINE]卯酉東海道[NEWLINE]大空魔術[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]現在の所無し？[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]外の世界の大学生。宇佐見蓮子と一緒にオカルトサークル「秘封倶楽部」を結成している。愛称はメリー。[NEWLINE]容姿が似ている事や能力の類似性などから、八雲紫との関連性がファンの間ではしばしば議論の対象となる。実際に関係があるかどうかは不明。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]マエリベリー・ハーン[\H1][NEWLINE][BOLD]結界の境目が見える程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]蓮台野夜行[NEWLINE]夢違科学世紀[NEWLINE]卯酉東海道[NEWLINE]大空魔術[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]現在の所無し？[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]外の世界の大学生。宇佐見蓮子と一緒にオカルトサークル「秘封倶楽部」を結成している。愛称はメリー。[NEWLINE]容姿が似ている事や能力の類似性などから、八雲紫との関連性がファンの間ではしばしば議論の対象となる。実際に関係があるかどうかは不明。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RENKO_PEDIA</Tag>
+		<English />
+		<French>[H1]宇佐見 蓮子[\H1][NEWLINE][BOLD]星を見ただけで今の時間が分かり、月を見ただけで今居る場所が分かる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]蓮台野夜行[NEWLINE]夢違科学世紀[NEWLINE]卯酉東海道[NEWLINE]大空魔術[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]現在の所無し？[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]外の世界の大学生。星と月で時間と場所が分かる。18歳で教授になれるなら大学生は何歳だろうなぁ。リンクしてるかどうかは別の話。[NEWLINE]ファンからは「うさみみ」などというあんまりなあだ名で呼ばれる事が稀にある。勿論どこぞの月の兎とは全く関係は無いが。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]宇佐見 蓮子[\H1][NEWLINE][BOLD]星を見ただけで今の時間が分かり、月を見ただけで今居る場所が分かる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]蓮台野夜行[NEWLINE]夢違科学世紀[NEWLINE]卯酉東海道[NEWLINE]大空魔術[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]現在の所無し？[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]外の世界の大学生。星と月で時間と場所が分かる。18歳で教授になれるなら大学生は何歳だろうなぁ。リンクしてるかどうかは別の話。[NEWLINE]ファンからは「うさみみ」などというあんまりなあだ名で呼ばれる事が稀にある。勿論どこぞの月の兎とは全く関係は無いが。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AKYU_PEDIA</Tag>
+		<English />
+		<French>[H1]稗田 阿求[\H1][NEWLINE][BOLD]一度見た物を忘れない程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方求聞史紀（筆者）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]阿礼の子供[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]稗田家にて大体百年から百数十年単位で産まれる御阿礼（みあれ）の子。御阿礼の子は1200年前から転生を続けている存在であり、阿求で九代目となる。[NEWLINE]転生し続ける彼女自身が何世代にも渡って編纂し続けている「幻想郷縁起」の著作者でもある。[NEWLINE]本来は力の強い妖怪に対し人間がどう立ち向かっていくかを記載した非常に重要な書物であったが、幻想郷が平和になるにつれて意味を成さなくなってきたため、彼女の代辺りにもなるとただの面白妖怪読物となっている。[NEWLINE]彼女が手がけた幻想郷縁起は挿絵などを用いて、より親しみやすく、かつ読みやすいよう記載されている。[NEWLINE]紅茶と幺樂団の演奏がお気に入り。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]稗田 阿求[\H1][NEWLINE][BOLD]一度見た物を忘れない程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方求聞史紀（筆者）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]阿礼の子供[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]稗田家にて大体百年から百数十年単位で産まれる御阿礼（みあれ）の子。御阿礼の子は1200年前から転生を続けている存在であり、阿求で九代目となる。[NEWLINE]転生し続ける彼女自身が何世代にも渡って編纂し続けている「幻想郷縁起」の著作者でもある。[NEWLINE]本来は力の強い妖怪に対し人間がどう立ち向かっていくかを記載した非常に重要な書物であったが、幻想郷が平和になるにつれて意味を成さなくなってきたため、彼女の代辺りにもなるとただの面白妖怪読物となっている。[NEWLINE]彼女が手がけた幻想郷縁起は挿絵などを用いて、より親しみやすく、かつ読みやすいよう記載されている。[NEWLINE]紅茶と幺樂団の演奏がお気に入り。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KOSUZU_PEDIA</Tag>
+		<English />
+		<French>[H1]本居小鈴[\H1][NEWLINE][BOLD]あらゆる文字を判読する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方鈴奈庵[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]人間の里で住む人間で貸本屋の娘。[NEWLINE]外の世界の本や妖怪が書いた本を好み、幻想郷一の妖魔本コレクターを自称している。[NEWLINE]普通の人間には妖魔本は読む事が困難であるのだが、彼女の能力はその文字を読み取る事ができる。[NEWLINE]それどころか、当の妖怪ですら読めないほど古い時代の妖魔本でもその能力を用いて解読する事が出来る。[NEWLINE]この能力に目覚めたのはごく最近らしい。[NEWLINE][NEWLINE]好奇心が旺盛で危険な事には積極的に首を突っ込む。その上妖魔本の危険性を理解しておらず[NEWLINE]何かが起こってもその道の専門家（主に霊夢）に任せようとするトラブルメーカー。[NEWLINE]週に一度子供達に本を聞かせたり、稗田阿求、博麗霊夢、霧雨魔理沙、二ッ岩マミゾウと交友関係を持っているなど顔は広い。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]本居小鈴[\H1][NEWLINE][BOLD]あらゆる文字を判読する程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方鈴奈庵[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]人間の里で住む人間で貸本屋の娘。[NEWLINE]外の世界の本や妖怪が書いた本を好み、幻想郷一の妖魔本コレクターを自称している。[NEWLINE]普通の人間には妖魔本は読む事が困難であるのだが、彼女の能力はその文字を読み取る事ができる。[NEWLINE]それどころか、当の妖怪ですら読めないほど古い時代の妖魔本でもその能力を用いて解読する事が出来る。[NEWLINE]この能力に目覚めたのはごく最近らしい。[NEWLINE][NEWLINE]好奇心が旺盛で危険な事には積極的に首を突っ込む。その上妖魔本の危険性を理解しておらず[NEWLINE]何かが起こってもその道の専門家（主に霊夢）に任せようとするトラブルメーカー。[NEWLINE]週に一度子供達に本を聞かせたり、稗田阿求、博麗霊夢、霧雨魔理沙、二ッ岩マミゾウと交友関係を持っているなど顔は広い。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SEKIBANKI_PEDIA</Tag>
+		<English />
+		<French>[H1]赤蛮奇[\H1][NEWLINE][BOLD]頭を飛ばせる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城（2）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]柳の下のデュラハン[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]人間の里で暮らしているろくろ首。[NEWLINE]ろくろ首には首を伸ばすタイプと飛ばすタイプがあり、彼女は後者である「抜け首」あるいは「飛頭蛮」に属する。[NEWLINE]斜に構えた性格をしており非常にプライドが高い。[NEWLINE]普段は人間の振りをしながらひっそりと暮らしていたが輝針城異変の際に打出の小槌の影響を受け暴走してしまう。[NEWLINE]その後霊夢たちに退治され、今はもう大人しい。[NEWLINE][NEWLINE]何かと西洋の首無し騎士・デュラハンを意識しておりスペルカードにもデュラハンの名がつくものがある。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]赤蛮奇[\H1][NEWLINE][BOLD]頭を飛ばせる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城（2）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]柳の下のデュラハン[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]人間の里で暮らしているろくろ首。[NEWLINE]ろくろ首には首を伸ばすタイプと飛ばすタイプがあり、彼女は後者である「抜け首」あるいは「飛頭蛮」に属する。[NEWLINE]斜に構えた性格をしており非常にプライドが高い。[NEWLINE]普段は人間の振りをしながらひっそりと暮らしていたが輝針城異変の際に打出の小槌の影響を受け暴走してしまう。[NEWLINE]その後霊夢たちに退治され、今はもう大人しい。[NEWLINE][NEWLINE]何かと西洋の首無し騎士・デュラハンを意識しておりスペルカードにもデュラハンの名がつくものがある。</Japanese>
+	</TEXT>
+<!-- Ningennosato End-->
+<!-- Shinreibyou Start-->
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SHINREIBYOU_PEDIA</Tag>
+		<English />
+		<French>[TAB]豊聡耳神子とそれに付き従う者達の勢力。神子がかつて道教に魅せられ尸解仙になるため眠りつき、長い時を経てついに復活の時が訪れた。[NEWLINE]…が、いざ幻想郷に霊廟を移し復活の時と思いきや、狙ったかのように霊廟の上に仏教勢力の寺が建設されてしまう。その寺こそが他ならぬ命蓮寺であった。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]豊聡耳神子とそれに付き従う者達の勢力。神子がかつて道教に魅せられ尸解仙になるため眠りつき、長い時を経てついに復活の時が訪れた。[NEWLINE]…が、いざ幻想郷に霊廟を移し復活の時と思いきや、狙ったかのように霊廟の上に仏教勢力の寺が建設されてしまう。その寺こそが他ならぬ命蓮寺であった。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YOSHIKA_PEDIA</Tag>
+		<English />
+		<French>[H1]宮古芳香[\H1][NEWLINE][BOLD]何でも喰う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方神霊廟(3)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]リジットパラダイス[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]霍青娥が操るキョンシー。命蓮寺の墓場にて侵入者を追い払っていた。[NEWLINE]ノリが良い性格で間延びした喋り方をする。脳が腐っているせいで物覚えが悪く侵入者を追い払う理由もいまいちよくわかっていない。[NEWLINE]だが腐乱臭を気にしてお肌のケアを欠かさなかったり毎日風呂に入っていたりと結構乙女。[NEWLINE]普段は額に貼ってあるお札で操られており霍青娥の命令に忠実に従うが[NEWLINE]頭が腐ってるゆえに命令の意味を把握できず時たまおかしな行動を取る（それもまた可愛いと霍青娥は可愛がっている）[NEWLINE]このお札を剥がすと生前の記憶を取り戻すらしく時折墓場で古い詩を詠っている彼女が目撃される。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]宮古芳香[\H1][NEWLINE][BOLD]何でも喰う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方神霊廟(3)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]リジットパラダイス[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]霍青娥が操るキョンシー。命蓮寺の墓場にて侵入者を追い払っていた。[NEWLINE]ノリが良い性格で間延びした喋り方をする。脳が腐っているせいで物覚えが悪く侵入者を追い払う理由もいまいちよくわかっていない。[NEWLINE]だが腐乱臭を気にしてお肌のケアを欠かさなかったり毎日風呂に入っていたりと結構乙女。[NEWLINE]普段は額に貼ってあるお札で操られており霍青娥の命令に忠実に従うが[NEWLINE]頭が腐ってるゆえに命令の意味を把握できず時たまおかしな行動を取る（それもまた可愛いと霍青娥は可愛がっている）[NEWLINE]このお札を剥がすと生前の記憶を取り戻すらしく時折墓場で古い詩を詠っている彼女が目撃される。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SEIGA_PEDIA</Tag>
+		<English />
+		<French>[H1]霍青娥[\H1][NEWLINE][BOLD]壁をすり抜けられる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方神霊廟(4)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]古きユアンシェン[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]仙人だがその中でも行いが悪い邪仙。[NEWLINE]邪仙とは言え仙人としての腕は本物で豊聡耳神子を仙人の道に誘ったのは彼女である。[NEWLINE]ゆったりとした掴み所のない性格。一見人当たりは良く礼儀も正しく悪い者には見えない。[NEWLINE]だが人間としての道徳は微塵も無く、自分の目的の為ならば平気で他人を犠牲にし、多くの人を巻き込むことも厭わない非常に自己中心的な人物である。[NEWLINE]そもそも本人は悪い事をしているという自覚がない節すらある。[NEWLINE]また頭の回転が良く非常に策士。更に話術も巧みで敵に回すと非常に厄介な人物。[NEWLINE][NEWLINE]だが仙人になった動機は仙人になった父に再会する為と意外とまとも。[NEWLINE]また、東方Projectにおいて非常に貴重な人妻属性持ちでもあったりする</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]霍青娥[\H1][NEWLINE][BOLD]壁をすり抜けられる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方神霊廟(4)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]古きユアンシェン[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]仙人だがその中でも行いが悪い邪仙。[NEWLINE]邪仙とは言え仙人としての腕は本物で豊聡耳神子を仙人の道に誘ったのは彼女である。[NEWLINE]ゆったりとした掴み所のない性格。一見人当たりは良く礼儀も正しく悪い者には見えない。[NEWLINE]だが人間としての道徳は微塵も無く、自分の目的の為ならば平気で他人を犠牲にし、多くの人を巻き込むことも厭わない非常に自己中心的な人物である。[NEWLINE]そもそも本人は悪い事をしているという自覚がない節すらある。[NEWLINE]また頭の回転が良く非常に策士。更に話術も巧みで敵に回すと非常に厄介な人物。[NEWLINE][NEWLINE]だが仙人になった動機は仙人になった父に再会する為と意外とまとも。[NEWLINE]また、東方Projectにおいて非常に貴重な人妻属性持ちでもあったりする</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TOJIKO_PEDIA</Tag>
+		<English />
+		<French>[H1]蘇我屠自古[\H1][NEWLINE][BOLD]雷を起こす程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方神霊廟（5中）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]物部布都と同じく豊聡耳神子の腹心。[NEWLINE]幽々子と同じ亡霊だがこちらは足がないタイプの亡霊。[NEWLINE]１４００年程前の豪族、蘇我氏の一人。[NEWLINE]本来は神子達と一緒に尸解仙になるはずだったのだが物部布都に依代となる壷をすり替えられ、結果として亡霊となってしまった。[NEWLINE]しかし意外と亡霊の体は快適だったらしく現在はその事を受け入れており物部布都との関係もそれ程悪くない。[NEWLINE]ガラが悪く口も悪いが情に厚い性格。怒らせると雷を落とされる。[NEWLINE]中ボスゆえに喋る姿を見ることはできないが、豊聡耳神子がスペルカード「豪族乱舞」を使用すると[NEWLINE]布都と共に現れ、少しだけセリフを見る事ができる。[NEWLINE]その時のセリフの一つ「やってやんよ！」は彼女の代名詞の一つとして度々扱われる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]蘇我屠自古[\H1][NEWLINE][BOLD]雷を起こす程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方神霊廟（5中）[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]物部布都と同じく豊聡耳神子の腹心。[NEWLINE]幽々子と同じ亡霊だがこちらは足がないタイプの亡霊。[NEWLINE]１４００年程前の豪族、蘇我氏の一人。[NEWLINE]本来は神子達と一緒に尸解仙になるはずだったのだが物部布都に依代となる壷をすり替えられ、結果として亡霊となってしまった。[NEWLINE]しかし意外と亡霊の体は快適だったらしく現在はその事を受け入れており物部布都との関係もそれ程悪くない。[NEWLINE]ガラが悪く口も悪いが情に厚い性格。怒らせると雷を落とされる。[NEWLINE]中ボスゆえに喋る姿を見ることはできないが、豊聡耳神子がスペルカード「豪族乱舞」を使用すると[NEWLINE]布都と共に現れ、少しだけセリフを見る事ができる。[NEWLINE]その時のセリフの一つ「やってやんよ！」は彼女の代名詞の一つとして度々扱われる。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_FUTO_PEDIA</Tag>
+		<English />
+		<French>[H1]物部布都[\H1][NEWLINE][BOLD]風水を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方神霊廟（5）[NEWLINE]東方心綺楼[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]大神神話伝[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]豊聡耳神子の腹心の一人。[NEWLINE]彼女への忠誠は高く、宗教戦争の裏で糸を引き、尸解仙へ至る過程で死への眠りに落ちる際に躊躇なく実験台になったりもした。[NEWLINE]かなりの策士であるはずなのだが原作では見栄っ張りで思い込みが激しくとぼけた性格が目立つ。[NEWLINE]仏教に敵意（というより恐怖心）を持っており、油断するとすぐに火をつけようとする。[NEWLINE]ただし聖白蓮はそれを読んでいるらしく命蓮寺は完全防火仕様にしてある。[NEWLINE][NEWLINE]東方心綺楼においては神子のサポートに周り、会話パートでは主にツッコミ役を担当するなど意外と常識人な一面も伺える。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]物部布都[\H1][NEWLINE][BOLD]風水を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方神霊廟（5）[NEWLINE]東方心綺楼[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]大神神話伝[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]豊聡耳神子の腹心の一人。[NEWLINE]彼女への忠誠は高く、宗教戦争の裏で糸を引き、尸解仙へ至る過程で死への眠りに落ちる際に躊躇なく実験台になったりもした。[NEWLINE]かなりの策士であるはずなのだが原作では見栄っ張りで思い込みが激しくとぼけた性格が目立つ。[NEWLINE]仏教に敵意（というより恐怖心）を持っており、油断するとすぐに火をつけようとする。[NEWLINE]ただし聖白蓮はそれを読んでいるらしく命蓮寺は完全防火仕様にしてある。[NEWLINE][NEWLINE]東方心綺楼においては神子のサポートに周り、会話パートでは主にツッコミ役を担当するなど意外と常識人な一面も伺える。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MIMIMIKO_PEDIA</Tag>
+		<English />
+		<French>[H1]豊聡耳神子[\H1][NEWLINE][BOLD]十人の話を同時に聞くことが出来る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方神霊廟（6）[NEWLINE]東方心綺楼[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]聖徳伝説　～ True Administrator[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]日本史でも有名な聖徳太子その人。[NEWLINE]命蓮寺の墓の地下にある霊廟から復活した仙人。[NEWLINE]古代日本にて政治をする傍ら道教を学んでいた。[NEWLINE]しかし錬丹に使用する薬品（水銀など）により体を壊してしまい尸解仙となる決意をする。[NEWLINE]何時か自分を必要とする時代に目覚める事を願い死の眠りにつく。[NEWLINE]その後ナズーリンによってその存在を察知され聖白蓮がその復活を阻止するため真上に命蓮寺を建てるも[NEWLINE]逆に彼女を刺激する形になってしまい復活を早める結果となってしまった。[NEWLINE]復活後は部下と共に道教の布教などに努めている。[NEWLINE][NEWLINE]東方心綺楼ではマントを着た姿で登場しており、東方神霊廟で登場した時よりも強気な口調で喋っている。[NEWLINE]あまりのハジケぶりにファンの間ではしばしばネタにされている。[NEWLINE]だが一方で東方心綺楼の異変は彼女が解決したとも言えるほど活躍している。[NEWLINE]ただその際に作ったお面が……非常に奇抜なデザインをしている。[NEWLINE]デザインセンスはあまり良くないらしい。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]豊聡耳神子[\H1][NEWLINE][BOLD]十人の話を同時に聞くことが出来る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方神霊廟（6）[NEWLINE]東方心綺楼[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]聖徳伝説　～ True Administrator[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]日本史でも有名な聖徳太子その人。[NEWLINE]命蓮寺の墓の地下にある霊廟から復活した仙人。[NEWLINE]古代日本にて政治をする傍ら道教を学んでいた。[NEWLINE]しかし錬丹に使用する薬品（水銀など）により体を壊してしまい尸解仙となる決意をする。[NEWLINE]何時か自分を必要とする時代に目覚める事を願い死の眠りにつく。[NEWLINE]その後ナズーリンによってその存在を察知され聖白蓮がその復活を阻止するため真上に命蓮寺を建てるも[NEWLINE]逆に彼女を刺激する形になってしまい復活を早める結果となってしまった。[NEWLINE]復活後は部下と共に道教の布教などに努めている。[NEWLINE][NEWLINE]東方心綺楼ではマントを着た姿で登場しており、東方神霊廟で登場した時よりも強気な口調で喋っている。[NEWLINE]あまりのハジケぶりにファンの間ではしばしばネタにされている。[NEWLINE]だが一方で東方心綺楼の異変は彼女が解決したとも言えるほど活躍している。[NEWLINE]ただその際に作ったお面が……非常に奇抜なデザインをしている。[NEWLINE]デザインセンスはあまり良くないらしい。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CHIYURI_PEDIA</Tag>
+		<English />
+		<French>[H1]北白河ちゆり[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方夢時空(8)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]Sailor of Time[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]未来の外の世界の更に可能性世界（パラレルワールド）から岡崎夢美と共にやってきた大学助教授。[NEWLINE]東方では珍しく年齢が設定されており彼女は１５歳とされている。[NEWLINE]「～だぜ」や「～か」といった男口調で喋る。[NEWLINE]夢美の事はご主人様と呼んでいる。しかしタメ口だったりパイプ椅子で殴ったりと服従してるわけではない様子。[NEWLINE]なお幻想郷にも彼女は存在しておりパラレル世界でのもう一人の彼女らしい。[NEWLINE]ちゆりが科学兵器による擬似魔法で戦うのに対し、パラレルちゆりは本物の魔法で戦う。[NEWLINE]容姿といい口調といい、魔女の格好をさせると魔理沙にしか見えなくなるが何の関係もない。ないったらない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]北白河ちゆり[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方夢時空(8)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]Sailor of Time[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]未来の外の世界の更に可能性世界（パラレルワールド）から岡崎夢美と共にやってきた大学助教授。[NEWLINE]東方では珍しく年齢が設定されており彼女は１５歳とされている。[NEWLINE]「～だぜ」や「～か」といった男口調で喋る。[NEWLINE]夢美の事はご主人様と呼んでいる。しかしタメ口だったりパイプ椅子で殴ったりと服従してるわけではない様子。[NEWLINE]なお幻想郷にも彼女は存在しておりパラレル世界でのもう一人の彼女らしい。[NEWLINE]ちゆりが科学兵器による擬似魔法で戦うのに対し、パラレルちゆりは本物の魔法で戦う。[NEWLINE]容姿といい口調といい、魔女の格好をさせると魔理沙にしか見えなくなるが何の関係もない。ないったらない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YUMEMI_PEDIA</Tag>
+		<English />
+		<French>[H1]岡崎夢美[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方夢時空[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]夢幻伝説[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]外の世界の更に並行世界からやってきた大学教授。18歳[NEWLINE]PC98版作品の「東方夢時空」において最終ボスを務めている。[NEWLINE]学会にて魔力の存在を唱えたが大笑いされ、実在を認めさせるために幻想郷にまで来てしまった。[NEWLINE]いわばマッドサイエンティストでオカルトに相当するものを見ると「素敵！」と賞賛する変人。[NEWLINE]どうやら苺が好きらしく全身が赤い。とにかく赤い。武器も攻撃も全部赤い。[NEWLINE]そんなふざけた外見だが人間でありながら東方史上最強のラスボスと言われている。[NEWLINE][NEWLINE]外の世界の人間で大学教授という職業である為か、二次創作で宇佐見蓮子、マエリベリー・ハーンと共演する事が多い。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]岡崎夢美[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方夢時空[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]夢幻伝説[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]外の世界の更に並行世界からやってきた大学教授。18歳[NEWLINE]PC98版作品の「東方夢時空」において最終ボスを務めている。[NEWLINE]学会にて魔力の存在を唱えたが大笑いされ、実在を認めさせるために幻想郷にまで来てしまった。[NEWLINE]いわばマッドサイエンティストでオカルトに相当するものを見ると「素敵！」と賞賛する変人。[NEWLINE]どうやら苺が好きらしく全身が赤い。とにかく赤い。武器も攻撃も全部赤い。[NEWLINE]そんなふざけた外見だが人間でありながら東方史上最強のラスボスと言われている。[NEWLINE][NEWLINE]外の世界の人間で大学教授という職業である為か、二次創作で宇佐見蓮子、マエリベリー・ハーンと共演する事が多い。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KOKORO_PEDIA</Tag>
+		<English />
+		<French>[H1]秦こころ[\H1][NEWLINE][BOLD]感情を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方心綺楼[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]亡失のエモーション[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]お面の集合体の付喪神。面霊気とも呼ばれる。[NEWLINE]常に周囲に無数のお面を浮かべており、このお面を被る事により感情を表現する。[NEWLINE]その際彼女自身の表情は全く動かない。[NEWLINE]しかしまったく感情が読み取れないわけではなく、むしろ台詞の抑揚や本人自体の動きが激しい為非常にわかりやすい。[NEWLINE]東方心綺楼の異変を得て、現在は無表情を克服しようと感情の勉強をしている。[NEWLINE]ただその始めに雲居一輪に妙なアドバイスをされたおかげで「最強の称号を賭けて戦え！」と決闘を仕掛けるようになってしまった。[NEWLINE][NEWLINE]このお面は遥か昔に聖徳太子、つまり豊聡耳神子が作った物。[NEWLINE]いわば国宝級のお宝の付喪神である為、彼女は付喪神の中でトップクラスの実力者である。[NEWLINE]二次創作においては東方心綺楼で出会った人々との交流や他の付喪神との交流が描かれる事が多い。[NEWLINE]特に製作者、ある意味で親とも言える豊聡耳神子との絡みが多い傾向にある。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]秦こころ[\H1][NEWLINE][BOLD]感情を操る程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方心綺楼[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]亡失のエモーション[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]お面の集合体の付喪神。面霊気とも呼ばれる。[NEWLINE]常に周囲に無数のお面を浮かべており、このお面を被る事により感情を表現する。[NEWLINE]その際彼女自身の表情は全く動かない。[NEWLINE]しかしまったく感情が読み取れないわけではなく、むしろ台詞の抑揚や本人自体の動きが激しい為非常にわかりやすい。[NEWLINE]東方心綺楼の異変を得て、現在は無表情を克服しようと感情の勉強をしている。[NEWLINE]ただその始めに雲居一輪に妙なアドバイスをされたおかげで「最強の称号を賭けて戦え！」と決闘を仕掛けるようになってしまった。[NEWLINE][NEWLINE]このお面は遥か昔に聖徳太子、つまり豊聡耳神子が作った物。[NEWLINE]いわば国宝級のお宝の付喪神である為、彼女は付喪神の中でトップクラスの実力者である。[NEWLINE]二次創作においては東方心綺楼で出会った人々との交流や他の付喪神との交流が描かれる事が多い。[NEWLINE]特に製作者、ある意味で親とも言える豊聡耳神子との絡みが多い傾向にある。</Japanese>
+	</TEXT>
+<!-- Shinreibyou End-->
+<!-- Kishinjou Start-->
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KISHINJOU_PEDIA</Tag>
+		<English />
+		<French>[TAB]鬼人正邪、少名針妙丸を中心とした自称レジスタンス組織。弱者が強者の上に立つ世界を目指すため幻想郷の転覆を目論んでいる。[NEWLINE]輝針城とは幻想郷の上空に逆さまの状態で浮かぶ小人達の住む城であり、正邪達はかつてこの城を根城に計画を進めていた。[NEWLINE]異変の解決後は正邪は行方知らず、針妙丸は博麗神社で保護される身となった為現在は活動休止状態にある。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]鬼人正邪、少名針妙丸を中心とした自称レジスタンス組織。弱者が強者の上に立つ世界を目指すため幻想郷の転覆を目論んでいる。[NEWLINE]輝針城とは幻想郷の上空に逆さまの状態で浮かぶ小人達の住む城であり、正邪達はかつてこの城を根城に計画を進めていた。[NEWLINE]異変の解決後は正邪は行方知らず、針妙丸は博麗神社で保護される身となった為現在は活動休止状態にある。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YATUHASHI_PEDIA</Tag>
+		<English />
+		<French>[H1]九十九八橋[\H1][NEWLINE][BOLD]自ら音を発して演奏できる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城(4)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]幻想浄瑠璃[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]お琴の付喪神。打出の小槌の力で付喪神になった道具の一つ。[NEWLINE]明るく無邪気、かつ無鉄砲な性格で語尾を延ばす傾向がある。[NEWLINE]九十九弁々とは姉妹の関係なのだが本当の姉妹というわけではなく[NEWLINE]同じ時期に付喪神になったのでそのまま姉妹になったのだという。彼女が妹。[NEWLINE]異変の最中は道具による世界征服を企てていたが、異変解決後はただの道具に戻ってしまう危機に陥りそれどころではなくなってしまう。[NEWLINE]しかし堀川雷鼓からある呪法を教わることにより難を逃れる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]九十九八橋[\H1][NEWLINE][BOLD]自ら音を発して演奏できる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城(4)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]幻想浄瑠璃[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]お琴の付喪神。打出の小槌の力で付喪神になった道具の一つ。[NEWLINE]明るく無邪気、かつ無鉄砲な性格で語尾を延ばす傾向がある。[NEWLINE]九十九弁々とは姉妹の関係なのだが本当の姉妹というわけではなく[NEWLINE]同じ時期に付喪神になったのでそのまま姉妹になったのだという。彼女が妹。[NEWLINE]異変の最中は道具による世界征服を企てていたが、異変解決後はただの道具に戻ってしまう危機に陥りそれどころではなくなってしまう。[NEWLINE]しかし堀川雷鼓からある呪法を教わることにより難を逃れる。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BENBEN_PEDIA</Tag>
+		<English />
+		<French>[H1]九十九弁々[\H1][NEWLINE][BOLD]自ら音を発して演奏できる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城(4)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]幻想浄瑠璃[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]琵琶の付喪神。打出の小槌の力で付喪神になった道具の一つ。[NEWLINE]大人びた性格であり、少しキツい口調で喋る。[NEWLINE]九十九八橋とは姉妹の関係なのだが本当の姉妹ではなく[NEWLINE]同じ時期に付喪神になったのでそのまま姉妹になったのだという。彼女が姉。[NEWLINE]異変の最中は道具による世界征服を企てていたが、異変解決後はただの道具に戻ってしまう危機に陥りそれどころではなくなってしまう。[NEWLINE]しかし堀川雷鼓からある呪法を教わることにより難を逃れる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]九十九弁々[\H1][NEWLINE][BOLD]自ら音を発して演奏できる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城(4)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]幻想浄瑠璃[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]琵琶の付喪神。打出の小槌の力で付喪神になった道具の一つ。[NEWLINE]大人びた性格であり、少しキツい口調で喋る。[NEWLINE]九十九八橋とは姉妹の関係なのだが本当の姉妹ではなく[NEWLINE]同じ時期に付喪神になったのでそのまま姉妹になったのだという。彼女が姉。[NEWLINE]異変の最中は道具による世界征服を企てていたが、異変解決後はただの道具に戻ってしまう危機に陥りそれどころではなくなってしまう。[NEWLINE]しかし堀川雷鼓からある呪法を教わることにより難を逃れる。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SEIJA_PEDIA</Tag>
+		<English />
+		<French>[H1]鬼人正邪[\H1][NEWLINE][BOLD]何でもひっくり返す程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城(5)[NEWLINE]弾幕アマノジャク[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]リバースイデオロギー[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]何にでも反逆する天邪鬼。角があるが鬼ではない。[NEWLINE]性格は人が嫌がることを好む、人を喜ばせると自己嫌悪に陥る、人の命令は絶対に聞かない[NEWLINE]得をしても見返りは与えない、嫌われると喜ぶというまさに天邪鬼。 [NEWLINE]五面ボスという立場でありながら輝針城異変の真の黒幕。[NEWLINE]今の安定した幻想郷を嫌っており、これをぶち壊し弱者が支配する世界を作るという野望を抱いている。[NEWLINE]その為に打出の小槌を使える少名針妙丸を唆し今回の異変を起こさせた。[NEWLINE]だがその際に針妙丸には打出の小槌を使用するリスクを意図的に説明しなかった。[NEWLINE]更には異変が解決した後、針妙丸を見捨てて逃げるなど東方シリーズには珍しい純粋な悪者。[NEWLINE][NEWLINE]現在は幻想郷転覆を企んだテロリストとして妖怪たちから狙われる日々を送っている。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]鬼人正邪[\H1][NEWLINE][BOLD]何でもひっくり返す程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城(5)[NEWLINE]弾幕アマノジャク[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]リバースイデオロギー[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]何にでも反逆する天邪鬼。角があるが鬼ではない。[NEWLINE]性格は人が嫌がることを好む、人を喜ばせると自己嫌悪に陥る、人の命令は絶対に聞かない[NEWLINE]得をしても見返りは与えない、嫌われると喜ぶというまさに天邪鬼。 [NEWLINE]五面ボスという立場でありながら輝針城異変の真の黒幕。[NEWLINE]今の安定した幻想郷を嫌っており、これをぶち壊し弱者が支配する世界を作るという野望を抱いている。[NEWLINE]その為に打出の小槌を使える少名針妙丸を唆し今回の異変を起こさせた。[NEWLINE]だがその際に針妙丸には打出の小槌を使用するリスクを意図的に説明しなかった。[NEWLINE]更には異変が解決した後、針妙丸を見捨てて逃げるなど東方シリーズには珍しい純粋な悪者。[NEWLINE][NEWLINE]現在は幻想郷転覆を企んだテロリストとして妖怪たちから狙われる日々を送っている。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SHINMYOUMARU_PEDIA</Tag>
+		<English />
+		<French>[H1]少名針妙丸[\H1][NEWLINE][BOLD]打ち出の小槌を扱う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城(6)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]輝く針の小人族～Little_Princess[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]一寸法師の子孫、小人族の末裔。[NEWLINE]東方輝針城における黒幕の一人で異変の原因である打出の小槌は彼女が操っていた。[NEWLINE]とても素直で弱い者の為に戦う事ができる心優しい性格。[NEWLINE]この性格が災いし、打出の小槌を扱える力に目をつけた鬼人正邪に騙され今回の異変を起こしていた。[NEWLINE]小人と呼ばれる種族ではあるが一寸法師ほど小さくはなく、普段は少女の膝下ほどの身長である。[NEWLINE]だが打出の小槌の力を使いすぎてしまった為、大型の虫ほどの大きさになってしまう。[NEWLINE]その状態では危険であると判断した霊夢により博麗神社に保護されている。[NEWLINE][NEWLINE]力と身長が戻った後は鬼人正邪を追いかけているようである。[NEWLINE]ただ問答無用で襲い掛かる追っ手達と違い、彼女だけは鬼人正邪を説得しようとしている。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]少名針妙丸[\H1][NEWLINE][BOLD]打ち出の小槌を扱う程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城(6)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]輝く針の小人族～Little_Princess[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]一寸法師の子孫、小人族の末裔。[NEWLINE]東方輝針城における黒幕の一人で異変の原因である打出の小槌は彼女が操っていた。[NEWLINE]とても素直で弱い者の為に戦う事ができる心優しい性格。[NEWLINE]この性格が災いし、打出の小槌を扱える力に目をつけた鬼人正邪に騙され今回の異変を起こしていた。[NEWLINE]小人と呼ばれる種族ではあるが一寸法師ほど小さくはなく、普段は少女の膝下ほどの身長である。[NEWLINE]だが打出の小槌の力を使いすぎてしまった為、大型の虫ほどの大きさになってしまう。[NEWLINE]その状態では危険であると判断した霊夢により博麗神社に保護されている。[NEWLINE][NEWLINE]力と身長が戻った後は鬼人正邪を追いかけているようである。[NEWLINE]ただ問答無用で襲い掛かる追っ手達と違い、彼女だけは鬼人正邪を説得しようとしている。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RAIKO_PEDIA</Tag>
+		<English />
+		<French>[H1]堀川雷鼓[\H1][NEWLINE][BOLD]何でもリズムに乗らせる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城(Ex)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]始原のビート　～ Pristine Beat[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]ドラムの付喪神。元々は和太鼓の付喪神だった。[NEWLINE]ある日、打出の小槌の影響を受け凶暴な感情が芽生えるが[NEWLINE]聡明だった彼女はこれが鬼の力であることを見抜く。[NEWLINE]このままでは自我を乗っ取られると危惧した彼女は外の世界に赴き[NEWLINE]依り代である和太鼓を捨て外の世界のドラムを新たな依り代とする事で難を逃れる。[NEWLINE]上記の通り賢い妖怪なのだが存外に軽い性格をしている為いまいち迫力がない。[NEWLINE][NEWLINE]余談だが、総じて胸が小さめに描かれるＺＵＮ絵において、胸の膨らみらしきものを確認出来る珍しいキャラクターでもある。[NEWLINE]それを受け、二次創作では基本的に巨乳として描かれる傾向が強い。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]堀川雷鼓[\H1][NEWLINE][BOLD]何でもリズムに乗らせる程度の能力[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方輝針城(Ex)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]始原のビート　～ Pristine Beat[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]ドラムの付喪神。元々は和太鼓の付喪神だった。[NEWLINE]ある日、打出の小槌の影響を受け凶暴な感情が芽生えるが[NEWLINE]聡明だった彼女はこれが鬼の力であることを見抜く。[NEWLINE]このままでは自我を乗っ取られると危惧した彼女は外の世界に赴き[NEWLINE]依り代である和太鼓を捨て外の世界のドラムを新たな依り代とする事で難を逃れる。[NEWLINE]上記の通り賢い妖怪なのだが存外に軽い性格をしている為いまいち迫力がない。[NEWLINE][NEWLINE]余談だが、総じて胸が小さめに描かれるＺＵＮ絵において、胸の膨らみらしきものを確認出来る珍しいキャラクターでもある。[NEWLINE]それを受け、二次創作では基本的に巨乳として描かれる傾向が強い。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LOLISE_PEDIA</Tag>
+		<English />
+		<French>[H1]アリス[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方怪綺談(3/Ex)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]プラスチックマインド[NEWLINE]不思議の国のアリス[NEWLINE]the Grimoire of Alice[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]旧作に登場するアリス。現在のアリスよりずっと幼い外見をしている。[NEWLINE]異変の際に魔界にやってきて暴れまわる霊夢たちを迎え撃つがあえなく敗北。[NEWLINE]雪辱を果たすべく禁書を持ち出し幻想郷へやってくるが、やはり敗北してしまう。[NEWLINE]その後はメイドにされたり逆さ吊りにされたりと散々な目にあう。[NEWLINE]現在のアリスとは同一人物であることが名言されており、外見の差の事でたびたび議論が為されているが一向にその結論は出ていない。[NEWLINE]なおこのアリスが二次創作に登場する際は平仮名で「ありす」と呼ばれる事が多い。[NEWLINE][NEWLINE]ちなみにキャラクターとしての元ネタは「六本木のアリス」であると付属txtで明言されている。[NEWLINE]つまりは大元ネタである「ルイス・キャロルのアリス」ではなく、何かと東京が破壊される某二身合体なゲームに登場する「アリス」が直接の元ネタである。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]アリス[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方怪綺談(3/Ex)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]プラスチックマインド[NEWLINE]不思議の国のアリス[NEWLINE]the Grimoire of Alice[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]旧作に登場するアリス。現在のアリスよりずっと幼い外見をしている。[NEWLINE]異変の際に魔界にやってきて暴れまわる霊夢たちを迎え撃つがあえなく敗北。[NEWLINE]雪辱を果たすべく禁書を持ち出し幻想郷へやってくるが、やはり敗北してしまう。[NEWLINE]その後はメイドにされたり逆さ吊りにされたりと散々な目にあう。[NEWLINE]現在のアリスとは同一人物であることが名言されており、外見の差の事でたびたび議論が為されているが一向にその結論は出ていない。[NEWLINE]なおこのアリスが二次創作に登場する際は平仮名で「ありす」と呼ばれる事が多い。[NEWLINE][NEWLINE]ちなみにキャラクターとしての元ネタは「六本木のアリス」であると付属txtで明言されている。[NEWLINE]つまりは大元ネタである「ルイス・キャロルのアリス」ではなく、何かと東京が破壊される某二身合体なゲームに登場する「アリス」が直接の元ネタである。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KYUUMARISA_PEDIA</Tag>
+		<English />
+		<French>[H1]霧雨魔理沙(旧)[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方封魔録(4)[NEWLINE]東方夢時空(自)[NEWLINE]東方幻想郷(自/4)[NEWLINE]東方怪綺談(自)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]恋色マジック[NEWLINE]Dim.Dream[NEWLINE]星の器　～ Casket of Star[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]PC98版における霧雨魔理沙。[NEWLINE]魔理沙だけに限った話ではないが、この頃は設定がまだ定まっていなかったためか[NEWLINE]口調、姿形諸々が不安定であり、出てくる度に微妙に異なるキャラクターとなっていた。もっとも服装に関してはWin版以降も毎回微妙に異なるが。[NEWLINE]（東方叙事詩においては東方夢時空の姿がベースとなっている）[NEWLINE]また、東方封魔録で初登場した際は「魔梨沙」という名前になっていた。[NEWLINE]ただし「魔梨沙」に関しては「靈夢」とは違い、単なる誤字だといわれている。[NEWLINE][NEWLINE]大の修行マニアであり普段は何をしているか不明。[NEWLINE]また、Win版以降の特徴的な口調とは違い、この頃は基本的に「うふふふふ」を始めとした女口調で喋る。[NEWLINE]と、このように現在のWin版以降の霧雨魔理沙とは似ても似つかない。[NEWLINE]その為二次創作ではしばしば彼女の黒歴史として弄りネタにされる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]霧雨魔理沙(旧)[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方封魔録(4)[NEWLINE]東方夢時空(自)[NEWLINE]東方幻想郷(自/4)[NEWLINE]東方怪綺談(自)[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]恋色マジック[NEWLINE]Dim.Dream[NEWLINE]星の器　～ Casket of Star[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]PC98版における霧雨魔理沙。[NEWLINE]魔理沙だけに限った話ではないが、この頃は設定がまだ定まっていなかったためか[NEWLINE]口調、姿形諸々が不安定であり、出てくる度に微妙に異なるキャラクターとなっていた。もっとも服装に関してはWin版以降も毎回微妙に異なるが。[NEWLINE]（東方叙事詩においては東方夢時空の姿がベースとなっている）[NEWLINE]また、東方封魔録で初登場した際は「魔梨沙」という名前になっていた。[NEWLINE]ただし「魔梨沙」に関しては「靈夢」とは違い、単なる誤字だといわれている。[NEWLINE][NEWLINE]大の修行マニアであり普段は何をしているか不明。[NEWLINE]また、Win版以降の特徴的な口調とは違い、この頃は基本的に「うふふふふ」を始めとした女口調で喋る。[NEWLINE]と、このように現在のWin版以降の霧雨魔理沙とは似ても似つかない。[NEWLINE]その為二次創作ではしばしば彼女の黒歴史として弄りネタにされる。</Japanese>
+	</TEXT>
+<!-- Kishinjou End-->
+<!-- etc Start-->
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BARBARIAN_PEDIA</Tag>
+		<English />
+		<French>[TAB]　　　蛮族を英語では"バーバリアン（barbarian）"と呼びますが、これは古代ギリシャ語の"バルバロイ"という言葉に由来します。この言葉はもともと異国人という意味だったのですが、しだいに否定的なニュアンスが含まれるようになり、自分たちよりも"劣等"な文明を指す言葉として広く使われるようになりました。中国では自分たち以外のすべての文化を、満州人からトルコ人、ヨーロッパ人も含めて蛮族と見なしています。古代ローマではフン族やゲルマン諸部族、そしてゲルマン人より文明の進んだガリア人も含めて蛮族と見なしていました。[PARAGRAPH:2]　　　シヴィライゼーション４において蛮族とは、ゲームに登場する非文明人のことです。彼らは古くから狩猟生活を営み、"弱小"文明を襲います。蛮族の中には剣や斧など比較的高度な武器を装備している者もいて、都市を占領したり、自分たちの都市を建設したりする場合さえありますが、基本的には略奪を続ける流浪の民で、目の前にあるものをすべて破壊していきます。蛮族に何かを与えて説得したり、懐柔したりすることはできません。蛮族は倒すしかないのです。でなければあなたがやられます！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]　　　蛮族を英語では"バーバリアン（barbarian）"と呼びますが、これは古代ギリシャ語の"バルバロイ"という言葉に由来します。この言葉はもともと異国人という意味だったのですが、しだいに否定的なニュアンスが含まれるようになり、自分たちよりも"劣等"な文明を指す言葉として広く使われるようになりました。中国では自分たち以外のすべての文化を、満州人からトルコ人、ヨーロッパ人も含めて蛮族と見なしています。古代ローマではフン族やゲルマン諸部族、そしてゲルマン人より文明の進んだガリア人も含めて蛮族と見なしていました。[PARAGRAPH:2]　　　シヴィライゼーション４において蛮族とは、ゲームに登場する非文明人のことです。彼らは古くから狩猟生活を営み、"弱小"文明を襲います。蛮族の中には剣や斧など比較的高度な武器を装備している者もいて、都市を占領したり、自分たちの都市を建設したりする場合さえありますが、基本的には略奪を続ける流浪の民で、目の前にあるものをすべて破壊していきます。蛮族に何かを与えて説得したり、懐柔したりすることはできません。蛮族は倒すしかないのです。でなければあなたがやられます！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KEDAMA_PEDIA</Tag>
+		<English />
+		<French>[H1]毛玉[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷[NEWLINE]東方妖々夢[NEWLINE]東方永夜抄[NEWLINE]東方風神録[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]東方Projectのステージ道中において大量に出現するモブ。[NEWLINE]一体彼らがどういう生き物なのか、そもそも生き物かどうかすら判明していないが[NEWLINE]とにかくゲームに登場した際は玉をばらまき、そして霊夢や魔理沙のショット一発で吹っ飛ばされるのが主な役目である[NEWLINE]恐らく精霊か何かの姿なのではないかといわれてはいるが、これもただの推測に過ぎない[NEWLINE]東方叙事詩においては基本的に指導者として登場することは無いものの、指導者制限無しオプション導入時などの特殊な状況下でのみ、AI文明の指導者として登場する可能性がある。[NEWLINE]その他、MOD製作の知識がある人は直接XMLを多少弄ればゲームに登場させる事は可能だろう。もっとも登場させたところで何も得はしないだろうが。[NEWLINE][NEWLINE]二次創作においては、アスキーアートのギコ猫のような顔「( ﾟдﾟ )」を付けられる事が多い</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]毛玉[\H1][NEWLINE][BOLD]能力は不明[\BOLD][PARAGRAPH:2][BOLD]登場したシリーズ[\BOLD][NEWLINE]東方紅魔郷[NEWLINE]東方妖々夢[NEWLINE]東方永夜抄[NEWLINE]東方風神録[PARAGRAPH:2][BOLD]テーマ曲[\BOLD][NEWLINE]特定のものは無し[PARAGRAPH:2][BOLD]原作における立ち位置[\BOLD][NEWLINE][NEWLINE]東方Projectのステージ道中において大量に出現するモブ。[NEWLINE]一体彼らがどういう生き物なのか、そもそも生き物かどうかすら判明していないが[NEWLINE]とにかくゲームに登場した際は玉をばらまき、そして霊夢や魔理沙のショット一発で吹っ飛ばされるのが主な役目である[NEWLINE]恐らく精霊か何かの姿なのではないかといわれてはいるが、これもただの推測に過ぎない[NEWLINE]東方叙事詩においては基本的に指導者として登場することは無いものの、指導者制限無しオプション導入時などの特殊な状況下でのみ、AI文明の指導者として登場する可能性がある。[NEWLINE]その他、MOD製作の知識がある人は直接XMLを多少弄ればゲームに登場させる事は可能だろう。もっとも登場させたところで何も得はしないだろうが。[NEWLINE][NEWLINE]二次創作においては、アスキーアートのギコ猫のような顔「( ﾟдﾟ )」を付けられる事が多い</Japanese>
+	</TEXT>
+<!-- etc End-->
+</Civ4GameText>

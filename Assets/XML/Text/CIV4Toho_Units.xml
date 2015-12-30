@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Objects -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!-- Koumakan Units Start-->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FLAN</Tag>
+		<English />
+		<French>フランドール＝スカーレット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フランドール＝スカーレット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_REMILIA</Tag>
+		<English />
+		<French>レミリア＝スカーレット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レミリア＝スカーレット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SAKUYA</Tag>
+		<English />
+		<French>十六夜咲夜</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>十六夜咲夜</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PATCHOULI</Tag>
+		<English />
+		<French>パチュリー＝ノーレッジ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パチュリー＝ノーレッジ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MEIRIN</Tag>
+		<English />
+		<French>紅美鈴</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅美鈴</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BAT</Tag>
+		<English />
+		<French>蝙蝠</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蝙蝠</Japanese>
+	</TEXT>
+<!-- Koumakan Units End-->
+<!-- Hakugyokurou Units Start-->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHEN</Tag>
+		<English />
+		<French>橙</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>橙</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_YOUMU</Tag>
+		<English />
+		<French>魂魄妖夢</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魂魄妖夢</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_YUYUKO</Tag>
+		<English />
+		<French>西行寺幽々子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>西行寺幽々子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RAN</Tag>
+		<English />
+		<French>八雲藍</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八雲藍</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_YUKARI</Tag>
+		<English />
+		<French>八雲紫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八雲紫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AKAONI</Tag>
+		<English />
+		<French>赤鬼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>赤鬼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AOONI</Tag>
+		<English />
+		<French>青鬼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>青鬼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ZENKI</Tag>
+		<English />
+		<French>前鬼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>前鬼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GOKI</Tag>
+		<English />
+		<French>後鬼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>後鬼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUKIMA</Tag>
+		<English />
+		<French>紫式</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紫式</Japanese>
+	</TEXT>
+<!-- Hakugyokurou Units End-->
+<!-- Hyouseirengou Units Start-->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WRIGGLE</Tag>
+		<English />
+		<French>リグル･ナイトバグ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リグル･ナイトバグ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CIRNO</Tag>
+		<English />
+		<French>チルノ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チルノ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RUMIA</Tag>
+		<English />
+		<French>ルーミア</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルーミア</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MYSTIA</Tag>
+		<English />
+		<French>ミスティア＝ローレライ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミスティア＝ローレライ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LETTY</Tag>
+		<English />
+		<French>レティ＝ホワイトロック</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レティ＝ホワイトロック</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KOGASA</Tag>
+		<English />
+		<French>多々良小傘</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>多々良小傘</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LITTLE_BUG</Tag>
+		<English />
+		<French>リトルバグ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リトルバグ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FIRE_FLY</Tag>
+		<English />
+		<French>ファイアフライ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ファイアフライ</Japanese>
+	</TEXT>
+<!-- Hyouseirengou Units End-->
+<!-- Eientei Units Start-->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TEWI</Tag>
+		<English />
+		<French>てゐ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>てゐ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EIRIN</Tag>
+		<English />
+		<French>八意永琳</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八意永琳</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MEDICIN</Tag>
+		<English />
+		<French>メディスン＝メランコリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>メディスン＝メランコリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_REISEN</Tag>
+		<English />
+		<French>鈴仙・優曇華院・イナバ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴仙・優曇華院・イナバ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KAGUYA</Tag>
+		<English />
+		<French>蓬莱山輝夜</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蓬莱山輝夜</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TRAP</Tag>
+		<English />
+		<French>罠</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>罠</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HOURAINOKUSURI</Tag>
+		<English />
+		<French>蓬莱の薬</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蓬莱の薬</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MYSTERYIUM</Tag>
+		<English />
+		<French>ミステリウム</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミステリウム</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NIHONOOKAMI</Tag>
+		<English />
+		<French>ニホンオオカミ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ニホンオオカミ</Japanese>
+	</TEXT>
+<!-- Eientei Units End-->
+<!-- Youkainoyama Units Start-->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_IKU</Tag>
+		<English />
+		<French>永江衣玖</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永江衣玖</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NITORI</Tag>
+		<English />
+		<French>河城にとり</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>河城にとり</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUWAKO</Tag>
+		<English />
+		<French>洩矢諏訪子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>洩矢諏訪子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SANAE</Tag>
+		<English />
+		<French>東風谷早苗</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>東風谷早苗</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KANAKO</Tag>
+		<English />
+		<French>八坂神奈子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八坂神奈子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TENSHI</Tag>
+		<English />
+		<French>比那名居天子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>比那名居天子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KAPPA_ROBOT</Tag>
+		<English />
+		<French>河童ロボ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>河童ロボ</Japanese>
+	</TEXT>
+<!-- Youkainoyama Units End-->
+<!-- Hakureijinja Units Start-->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MARISA</Tag>
+		<English />
+		<French>霧雨魔理沙</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霧雨魔理沙</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ALICE</Tag>
+		<English />
+		<French>アリス＝マーガトロイド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アリス＝マーガトロイド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_REIMU</Tag>
+		<English />
+		<French>博麗霊夢</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗霊夢</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUIKA</Tag>
+		<English />
+		<French>伊吹萃香</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>伊吹萃香</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUIKA_SMALL</Tag>
+		<English />
+		<French>ちび萃香</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ちび萃香</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUIKA_BIG</Tag>
+		<English />
+		<French>デカ萃香</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>デカ萃香</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MIMA</Tag>
+		<English />
+		<French>魅魔</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魅魔</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SHANGHAI_DOLL</Tag>
+		<English />
+		<French>上海人形</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>上海人形</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HOURAI_DOLL</Tag>
+		<English />
+		<French>蓬莱人形</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蓬莱人形</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GETLION</Tag>
+		<English />
+		<French>ペットのライオン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ペットのライオン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GETBEAR</Tag>
+		<English />
+		<French>ペットのクマ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ペットのクマ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GETPANTHER</Tag>
+		<English />
+		<French>ペットのヒョウ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ペットのヒョウ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GETWOLF</Tag>
+		<English />
+		<French>ペットのオオカミ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ペットのオオカミ</Japanese>
+	</TEXT>
+<!-- Hakureijinja Units End-->
+<!-- Chireiden Units Start-->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PARSEE</Tag>
+		<English />
+		<French>水橋パルスィ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>水橋パルスィ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_YUGI</Tag>
+		<English />
+		<French>星熊勇儀</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>星熊勇儀</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KOISHI</Tag>
+		<English />
+		<French>古明地こいし</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>古明地こいし</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KOISHI_FADE</Tag>
+		<English />
+		<French>古明地こいし</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>古明地こいし</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SATORI</Tag>
+		<English />
+		<French>古明地さとり</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>古明地さとり</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RIN</Tag>
+		<English />
+		<French>火焔猫燐</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>火焔猫燐</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RIN_CATMODE</Tag>
+		<English />
+		<French>火炎猫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>火炎猫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREENEYEDMONSTER</Tag>
+		<English />
+		<French>グリーンアイドモンスター</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>グリーンアイドモンスター</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_3RDEYE</Tag>
+		<English />
+		<French>第三の眼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>第三の眼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_UTSUHO_2</Tag>
+		<English />
+		<French>八咫烏特製のICBM</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八咫烏特製のICBM</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TACTICAL_UTSUHO_2</Tag>
+		<English />
+		<French>八咫烏特製の戦術核</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八咫烏特製の戦術核</Japanese>
+	</TEXT>
+<!-- Chireiden Units End-->
+<!-- Ningennosato Units Start-->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOKOU</Tag>
+		<English />
+		<French>藤原妹紅</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>藤原妹紅</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KEINE</Tag>
+		<English />
+		<French>上白沢慧音</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>上白沢慧音</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HAKUTAKUKEINE</Tag>
+		<English />
+		<French>上白沢慧音</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>上白沢慧音</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_YUKA</Tag>
+		<English />
+		<French>風見幽香</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>風見幽香</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KOMACHI</Tag>
+		<English />
+		<French>小野塚小町</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小野塚小町</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EIKI</Tag>
+		<English />
+		<French>四季映姫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>四季映姫</Japanese>
+	</TEXT>
+<!-- Ningennosato Units End-->
+<!-- Seirensen Units Start-->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NAZRIN</Tag>
+		<English />
+		<French>ナズーリン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ナズーリン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ICHIRIN</Tag>
+		<English />
+		<French>雲居一輪</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>雲居一輪</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MINAMITSU</Tag>
+		<English />
+		<French>村紗水蜜</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>村紗水蜜</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SYOU</Tag>
+		<English />
+		<French>寅丸星</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>寅丸星</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BYAKUREN</Tag>
+		<English />
+		<French>聖白蓮</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖白蓮</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NUE</Tag>
+		<English />
+		<French>封獣ぬえ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>封獣ぬえ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SEIRENSEN</Tag>
+		<English />
+		<French>聖輦船</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖輦船</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RED_UFO</Tag>
+		<English />
+		<French>レッドUFO</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レッドUFO</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREEN_UFO</Tag>
+		<English />
+		<French>グリーンUFO</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>グリーンUFO</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BLUE_UFO</Tag>
+		<English />
+		<French>ブルーUFO</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ブルーUFO</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RAINBOW_UFO</Tag>
+		<English />
+		<French>虹色UFO</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>虹色UFO</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_UNARGUABLE_PUNCH</Tag>
+		<English />
+		<French>問答無用の妖怪拳</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>問答無用の妖怪拳</Japanese>
+	</TEXT>
+<!-- Seirensen Units End-->
+<!-- Shinreibyou Units Start-->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_YOSHIKA</Tag>
+		<English />
+		<French>宮古芳香</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宮古芳香</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SEIGA</Tag>
+		<English />
+		<French>霍青娥</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霍青娥</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TOJIKO</Tag>
+		<English />
+		<French>蘇我屠自古</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蘇我屠自古</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FUTO</Tag>
+		<English />
+		<French>物部布都</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>物部布都</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MIMIMIKO</Tag>
+		<English />
+		<French>豊聡耳神子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>豊聡耳神子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SHINREI</Tag>
+		<English />
+		<French>神霊</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神霊</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_SHINREI</Tag>
+		<English />
+		<French>神霊</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神霊</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_SHINREI_PEDIA</Tag>
+		<English />
+		<French>神霊は神霊廟専門の特殊な定住専門家です。[NEWLINE]神霊を獲得するには神霊廟の東方ユニットで敵を倒す必要があります。[NEWLINE]また神霊そのものは定住しても、それ単体では殆ど効果的に活用する事は出来ません[NEWLINE][NEWLINE]太子堂を建設する、代議制を制定する、神子のスペルを使う等の事をして出力を上げる必要があります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神霊は神霊廟専門の特殊な定住専門家です。[NEWLINE]神霊を獲得するには神霊廟の東方ユニットで敵を倒す必要があります。[NEWLINE]また神霊そのものは定住しても、それ単体では殆ど効果的に活用する事は出来ません[NEWLINE][NEWLINE]太子堂を建設する、代議制を制定する、神子のスペルを使う等の事をして出力を上げる必要があります。</Japanese>
+	</TEXT>
+<!-- Shinreibyou Units End-->
+<!-- KIshinjou Units Start-->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_YATUHASHI</Tag>
+		<English />
+		<French>九十九八橋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>九十九八橋</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BENBEN</Tag>
+		<English />
+		<French>九十九弁々</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>九十九弁々</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SEIJA</Tag>
+		<English />
+		<French>鬼人正邪</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鬼人正邪</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SHINMYOUMARU</Tag>
+		<English />
+		<French>少名針妙丸</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>少名針妙丸</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RAIKO</Tag>
+		<English />
+		<French>堀川雷鼓</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>堀川雷鼓</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KOBITO_TYOUSAHEIDAN</Tag>
+		<English />
+		<French>小人調査兵団</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小人調査兵団</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KOBITO_TYOUSAHEIDAN_HELP</Tag>
+		<English />
+		<French>[COLOR_RED]「魔力の回収期」取得で陳腐化&#13;[COLOR_RED]ゲームオプション「マルチ補正」導入時は作成不可</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_RED]「魔力の回収期」取得で陳腐化&#13;[COLOR_RED]ゲームオプション「マルチ補正」導入時は作成不可</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TSUKUMOGAMI_KOU</Tag>
+		<English />
+		<French>付喪神・甲</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>付喪神・甲</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TSUKUMOGAMI_OTU</Tag>
+		<English />
+		<French>付喪神・乙</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>付喪神・乙</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RAIKO_ROCKET_TYPE1</Tag>
+		<English />
+		<French>高速和太鼓ロケット・一鼓</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>高速和太鼓ロケット・一鼓</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RAIKO_ROCKET_TYPE2</Tag>
+		<English />
+		<French>高速和太鼓ロケット・二鼓</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>高速和太鼓ロケット・二鼓</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RAIKO_ROCKET_TYPE3</Tag>
+		<English />
+		<French>高速和太鼓ロケット・三鼓</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>高速和太鼓ロケット・三鼓</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RAIKO_ROCKET_TYPE4</Tag>
+		<English />
+		<French>高速和太鼓ロケット・死鼓</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>高速和太鼓ロケット・死鼓</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KISHINJOU_MECH</Tag>
+		<English />
+		<French>巨大殺人ロボット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>巨大殺人ロボット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CULTURE_BOMB</Tag>
+		<English />
+		<French>文化爆弾</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>文化爆弾</Japanese>
+	</TEXT>
+<!-- KIshinjou Units End-->
+</Civ4GameText>

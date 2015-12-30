@@ -1,0 +1,2996 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Civilopedia CivLeaders -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- CIVILIZATION INFOS -->
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ANTI_BOSS1</Tag>
+		<English />
+		<French>集中砲火1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>集中砲火1</Japanese>
+	</TEXT><TEXT>
+		<Tag>TXT_KEY_PROMOTION_ANTI_BOSS2</Tag>
+		<English />
+		<French>集中砲火2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>集中砲火2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TENGU_EYE</Tag>
+		<English />
+		<French>天狗の観察眼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天狗の観察眼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_COMBAT1</Tag>
+		<English />
+		<French>基本操作1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>基本操作1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_COMBAT1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋１％</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋１％</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_COMBAT2</Tag>
+		<English />
+		<French>基本操作2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>基本操作2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_COMBAT2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]部隊戦闘力＋１％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋２％</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]部隊戦闘力＋１％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋２％</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_COMBAT3</Tag>
+		<English />
+		<French>基本操作3</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>基本操作3</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_COMBAT3_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]部隊戦闘力＋２％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋３％</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]部隊戦闘力＋２％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋３％</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_COMBAT4</Tag>
+		<English />
+		<French>基本操作4</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>基本操作4</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_COMBAT4_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]部隊戦闘力＋３％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋４％</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]部隊戦闘力＋３％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋４％</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_COMBAT5</Tag>
+		<English />
+		<French>基本操作5</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>基本操作5</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_COMBAT5_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]部隊戦闘力＋４％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋５％</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]部隊戦闘力＋４％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋５％</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_COMBAT6</Tag>
+		<English />
+		<French>基本操作6</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>基本操作6</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_COMBAT6_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]部隊戦闘力＋５％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋６％</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]部隊戦闘力＋５％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋６％</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_COVER</Tag>
+		<English />
+		<French>カバー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カバー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_SHOCK</Tag>
+		<English />
+		<French>陽動</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>陽動</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_PINCH</Tag>
+		<English />
+		<French>急襲</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>急襲</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_FORMATION</Tag>
+		<English />
+		<French>隊形</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>隊形</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_CHARGE</Tag>
+		<English />
+		<French>突撃</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>突撃</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_AMBUSH</Tag>
+		<English />
+		<French>伏兵</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>伏兵</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_DRILL1</Tag>
+		<English />
+		<French>教練1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>教練1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_DRILL2</Tag>
+		<English />
+		<French>教練2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>教練2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_DRILL3</Tag>
+		<English />
+		<French>教練3</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>教練3</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_DRILL4</Tag>
+		<English />
+		<French>教練4</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>教練4</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOHO_PROMOTION_MARCH</Tag>
+		<English />
+		<French>行軍</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>行軍</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_BLITZ</Tag>
+		<English />
+		<French>電撃戦</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>電撃戦</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_COMMANDO</Tag>
+		<English />
+		<French>特別奇襲</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>特別奇襲</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_BARRAGE1</Tag>
+		<English />
+		<French>弾幕Ⅰ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>弾幕Ⅰ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_BARRAGE1_HELP</Tag>
+		<English />
+		<French>砲撃ダメージ＋30％</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>砲撃ダメージ＋30％</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_BARRAGE2</Tag>
+		<English />
+		<French>弾幕Ⅱ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>弾幕Ⅱ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_BARRAGE2_HELP</Tag>
+		<English />
+		<French>砲撃ダメージ＋50％</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>砲撃ダメージ＋50％</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_BARRAGE3</Tag>
+		<English />
+		<French>弾幕Ⅲ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>弾幕Ⅲ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_BARRAGE3_HELP</Tag>
+		<English />
+		<French>砲撃ダメージ＋70％</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>砲撃ダメージ＋70％</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_MORALE1</Tag>
+		<English />
+		<French>高速移動</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>高速移動</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOHO_MORALE2</Tag>
+		<English />
+		<French>超速移動</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>超速移動</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPELLCARD</Tag>
+		<English />
+		<French>スペルカード</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スペルカード</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPELLCARD_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]Powerを0.5上昇させる&#13;[ICON_BULLET]何度でも獲得が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]Powerを0.5上昇させる&#13;[ICON_BULLET]何度でも獲得が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPELL_CASTED</Tag>
+		<English />
+		<French>スペル使用済み</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スペル使用済み</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPELL_CASTED_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]このターンはスペル・スペカが使用不可</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]このターンはスペル・スペカが使用不可</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AUTO_BOMB</Tag>
+		<English />
+		<French>決死結界</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>決死結界</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MODE_EASY</Tag>
+		<English />
+		<French>難易度EASY</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>難易度EASY</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MODE_EASY_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]CAレベル+1&#13;[ICON_BULLET]同スタックのユニットへの砲撃回避率ボーナス＋2％</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]CAレベル+1&#13;[ICON_BULLET]同スタックのユニットへの砲撃回避率ボーナス＋2％</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MODE_NORMAL</Tag>
+		<English />
+		<French>難易度NORMAL</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>難易度NORMAL</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MODE_NORMAL_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]CAレベル+2&#13;[ICON_BULLET]同スタックのユニットへの砲撃回避率ボーナス＋4％</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]CAレベル+2&#13;[ICON_BULLET]同スタックのユニットへの砲撃回避率ボーナス＋4％</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MODE_HARD</Tag>
+		<English />
+		<French>難易度HARD</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>難易度HARD</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MODE_HARD_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]CAレベル+3&#13;[ICON_BULLET]同スタックのユニットへの砲撃回避率ボーナス＋6％&#13;[ICON_BULLET]レベル＋1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]CAレベル+3&#13;[ICON_BULLET]同スタックのユニットへの砲撃回避率ボーナス＋6％&#13;[ICON_BULLET]レベル＋1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MODE_LUNATIC</Tag>
+		<English />
+		<French>難易度LUNATIC</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>難易度LUNATIC</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MODE_LUNATIC_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]CAレベル+4&#13;[ICON_BULLET]同スタックのユニットへの砲撃回避率ボーナス＋8％&#13;[ICON_BULLET]レベル＋1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]CAレベル+4&#13;[ICON_BULLET]同スタックのユニットへの砲撃回避率ボーナス＋8％&#13;[ICON_BULLET]レベル＋1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HOURAINOKUSURI</Tag>
+		<English />
+		<French>蓬莱の薬</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蓬莱の薬</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BUNSHIN</Tag>
+		<English />
+		<French>分身</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>分身</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BUNSHIN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ダメージ10%/ターン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ダメージ10%/ターン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ILLUSION</Tag>
+		<English />
+		<French>幻影</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幻影</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ILLUSION_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]このユニットは次のターンに消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]このユニットは次のターンに消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FREEZE</Tag>
+		<English />
+		<French>凍結</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>凍結</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FREEZE_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]この昇進はターン開始時に50%の確率で消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]この昇進はターン開始時に50%の確率で消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RENZOKUKOUGEKI</Tag>
+		<English />
+		<French>連続攻撃</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>連続攻撃</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RENZOKUKOUGEKI_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]連続戦闘が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]連続戦闘が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REKISHI1</Tag>
+		<English />
+		<French>歴史喰い</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>歴史喰い</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REKISHI1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘敗北時に耐久力1%で復活</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘敗北時に耐久力1%で復活</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REKISHI2</Tag>
+		<English />
+		<French>歴史喰い</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>歴史喰い</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REKISHI2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘敗北時に耐久力5%で復活</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘敗北時に耐久力5%で復活</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REKISHI3</Tag>
+		<English />
+		<French>歴史喰い</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>歴史喰い</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REKISHI3_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘敗北時に耐久力10%で復活</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘敗北時に耐久力10%で復活</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REKISHI4</Tag>
+		<English />
+		<French>歴史喰い</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>歴史喰い</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REKISHI4_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘敗北時に耐久力15%で復活</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘敗北時に耐久力15%で復活</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REKISHI5</Tag>
+		<English />
+		<French>歴史喰い</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>歴史喰い</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REKISHI5_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘敗北時に耐久力20%で復活</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘敗北時に耐久力20%で復活</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REKISHI6</Tag>
+		<English />
+		<French>歴史喰い</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>歴史喰い</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REKISHI6_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘敗北時に耐久力25%で復活</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘敗北時に耐久力25%で復活</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHITTOSHIN_EASY</Tag>
+		<English />
+		<French>嫉妬心</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>嫉妬心</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHITTOSHIN_EASY_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]蛮族化の確率+10%&#13;[ICON_BULLET]この昇進は次のターンに消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]蛮族化の確率+10%&#13;[ICON_BULLET]この昇進は次のターンに消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHITTOSHIN_NORMAL</Tag>
+		<English />
+		<French>嫉妬心</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>嫉妬心</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHITTOSHIN_NORMAL_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]蛮族化の確率+10%&#13;[ICON_BULLET]この昇進は2ターン後に消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]蛮族化の確率+10%&#13;[ICON_BULLET]この昇進は2ターン後に消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHITTOSHIN_HARD</Tag>
+		<English />
+		<French>嫉妬心</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>嫉妬心</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHITTOSHIN_HARD_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]蛮族化の確率+10%&#13;[ICON_BULLET]この昇進は3ターン後に消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]蛮族化の確率+10%&#13;[ICON_BULLET]この昇進は3ターン後に消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHITTOSHIN_LUNATIC</Tag>
+		<English />
+		<French>嫉妬心</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>嫉妬心</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHITTOSHIN_LUNATIC_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]蛮族化の確率+10%&#13;[ICON_BULLET]この昇進は4ターン後に消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]蛮族化の確率+10%&#13;[ICON_BULLET]この昇進は4ターン後に消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NEKKYOU</Tag>
+		<English />
+		<French>熱狂</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>熱狂</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NEKKYOU_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]次のターン開始時に耐久力が半減する&#13;[ICON_BULLET]この昇進は次のターンに消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]次のターン開始時に耐久力が半減する&#13;[ICON_BULLET]この昇進は次のターンに消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KONPAKUNOOSHIE</Tag>
+		<English />
+		<French>魂魄の教え</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魂魄の教え</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HOTARUNOHIKARI</Tag>
+		<English />
+		<French>蛍の光</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蛍の光</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARM</Tag>
+		<English />
+		<French>魅了</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魅了</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARM_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]この昇進はターン開始時に50%の確率で消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]この昇進はターン開始時に50%の確率で消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DOLLS_WAR</Tag>
+		<English />
+		<French>ドールズウォー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ドールズウォー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DOLLS_WAR_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]この昇進は次のターンに消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]この昇進は次のターンに消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_THEWORLD_EASY</Tag>
+		<English />
+		<French>ザ・ワールド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ザ・ワールド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_THEWORLD_EASY_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン開始時にダメージ30%&#13;[ICON_BULLET]このダメージにより耐久力が10%以下にはならない&#13;[ICON_BULLET]この昇進は次のターンに消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン開始時にダメージ30%&#13;[ICON_BULLET]このダメージにより耐久力が10%以下にはならない&#13;[ICON_BULLET]この昇進は次のターンに消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_THEWORLD_NORMAL</Tag>
+		<English />
+		<French>ザ・ワールド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ザ・ワールド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_THEWORLD_NORMAL_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン開始時にダメージ40%&#13;[ICON_BULLET]このダメージにより耐久力が10%以下にはならない&#13;[ICON_BULLET]この昇進は次のターンに消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン開始時にダメージ40%&#13;[ICON_BULLET]このダメージにより耐久力が10%以下にはならない&#13;[ICON_BULLET]この昇進は次のターンに消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_THEWORLD_HARD</Tag>
+		<English />
+		<French>ザ・ワールド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ザ・ワールド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_THEWORLD_HARD_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン開始時にダメージ50%&#13;[ICON_BULLET]このダメージにより耐久力が10%以下にはならない&#13;[ICON_BULLET]この昇進は次のターンに消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン開始時にダメージ50%&#13;[ICON_BULLET]このダメージにより耐久力が10%以下にはならない&#13;[ICON_BULLET]この昇進は次のターンに消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_THEWORLD_LUNATIC</Tag>
+		<English />
+		<French>ザ・ワールド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ザ・ワールド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_THEWORLD_LUNATIC_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン開始時にダメージ60%&#13;[ICON_BULLET]このダメージにより耐久力が10%以下にはならない&#13;[ICON_BULLET]この昇進は次のターンに消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン開始時にダメージ60%&#13;[ICON_BULLET]このダメージにより耐久力が10%以下にはならない&#13;[ICON_BULLET]この昇進は次のターンに消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POISON1</Tag>
+		<English />
+		<French>鈴蘭の毒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴蘭の毒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POISON1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]この昇進はターン開始時に30%の確率で消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]この昇進はターン開始時に30%の確率で消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POISON2</Tag>
+		<English />
+		<French>トリカブトの毒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>トリカブトの毒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POISON2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン開始時に無条件ダメージ15%&#13;[ICON_BULLET]この昇進はターン開始時に30%の確率で消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン開始時に無条件ダメージ15%&#13;[ICON_BULLET]この昇進はターン開始時に30%の確率で消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POISON3</Tag>
+		<English />
+		<French>ベラドンナの毒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ベラドンナの毒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POISON3_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]この昇進はターン開始時に30%の確率で消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]この昇進はターン開始時に30%の確率で消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POISON4</Tag>
+		<English />
+		<French>彼岸花の毒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>彼岸花の毒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POISON4_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン開始時に無条件ダメージ15%&#13;[ICON_BULLET]この昇進はターン開始時に30%の確率で消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン開始時に無条件ダメージ15%&#13;[ICON_BULLET]この昇進はターン開始時に30%の確率で消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YAMANOSINKOU</Tag>
+		<English />
+		<French>山の信仰</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>山の信仰</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YAMANOSINKOU_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘力+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘力+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KURAYAMI</Tag>
+		<English />
+		<French>暗闇</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>暗闇</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KURAYAMI_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]この昇進はターン開始時に20%の確率で消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]この昇進はターン開始時に20%の確率で消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LONGRANGE1</Tag>
+		<English />
+		<French>遠距離攻撃1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>遠距離攻撃1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LONGRANGE1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LONGRANGE2</Tag>
+		<English />
+		<French>遠距離攻撃2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>遠距離攻撃2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LONGRANGE2_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LONGRANGE3</Tag>
+		<English />
+		<French>遠距離攻撃3</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>遠距離攻撃3</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LONGRANGE3_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_3WAYSHOT</Tag>
+		<English />
+		<French>3Wayショット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>3Wayショット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_3WAYSHOT_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]砲撃弾数＋2 &#13;[ICON_BULLET]砲撃ダメージ－30%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]砲撃弾数＋2 &#13;[ICON_BULLET]砲撃ダメージ－30%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_5WAYSHOT</Tag>
+		<English />
+		<French>5Wayショット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>5Wayショット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_5WAYSHOT_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]砲撃弾数＋2 &#13;[ICON_BULLET]砲撃ダメージ－20%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]砲撃弾数＋2 &#13;[ICON_BULLET]砲撃ダメージ－20%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_7WAYSHOT</Tag>
+		<English />
+		<French>7Wayショット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>7Wayショット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_7WAYSHOT_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]砲撃弾数＋2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]砲撃弾数＋2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RUNNINGFIRE</Tag>
+		<English />
+		<French>連射</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>連射</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RUNNINGFIRE_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]1ターンに移動力分だけ遠距離攻撃が出来る</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]1ターンに移動力分だけ遠距離攻撃が出来る</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NAIKIKOU1</Tag>
+		<English />
+		<French>内気功1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>内気功1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NAIKIKOU1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]自然治癒+10%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]自然治癒+10%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NAIKIKOU2</Tag>
+		<English />
+		<French>内気功2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>内気功2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NAIKIKOU2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]自然治癒+15%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]自然治癒+15%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NAIKIKOU3</Tag>
+		<English />
+		<French>内気功3</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>内気功3</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NAIKIKOU3_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]自然治癒+20%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]自然治癒+20%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DANMAKUKEKKAI</Tag>
+		<English />
+		<French>弾幕結界</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>弾幕結界</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DANMAKUKEKKAI_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]数ターンの間ダメージを受け続ける&#13;[ICON_BULLET]ダメージ量は次第に増加していく</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]数ターンの間ダメージを受け続ける&#13;[ICON_BULLET]ダメージ量は次第に増加していく</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HINEZUMINOKAWAGOROMO</Tag>
+		<English />
+		<French>火鼠の皮衣</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>火鼠の皮衣</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HINEZUMINOKAWAGOROMO_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ZOMBIEFAIRY</Tag>
+		<English />
+		<French>ゾンビフェアリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ゾンビフェアリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ZOMBIEFAIRY_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘敗北時に15%の確率で耐久力1%で復活</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘敗北時に15%の確率で耐久力1%で復活</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CATMODE</Tag>
+		<English />
+		<French>猫形態</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>猫形態</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CATMODE_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FROST</Tag>
+		<English />
+		<French>寒気</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>寒気</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FROST_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KUONNOYUME</Tag>
+		<English />
+		<French>久遠の夢</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>久遠の夢</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KUONNOYUME_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]移動力が０になる&#13;[ICON_BULLET]ターン開始時に30%の確率で消滅</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]移動力が０になる&#13;[ICON_BULLET]ターン開始時に30%の確率で消滅</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LAEVATEINN</Tag>
+		<English />
+		<French>レーヴァテイン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レーヴァテイン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LAEVATEINN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘後に消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘後に消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GREENEYEDMONSTER</Tag>
+		<English />
+		<French>グリーンアイドモンスター</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>グリーンアイドモンスター</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GREENEYEDMONSTER_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUBCONSCIOUS</Tag>
+		<English />
+		<French>無意識</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無意識</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUBCONSCIOUS_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SYLPHAEHORN</Tag>
+		<English />
+		<French>シルフィホルン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>シルフィホルン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SYLPHAEHORN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]1ターン後に消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]1ターン後に消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RETURN_DELAY1_1</Tag>
+		<English />
+		<French>休憩中</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>休憩中</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RETURN_DELAY1_1HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]この昇進は1ターン後に消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]この昇進は1ターン後に消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RETURN_DELAY1_2</Tag>
+		<English />
+		<French>休憩中</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>休憩中</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RETURN_DELAY1_2HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]この昇進は2ターン後に消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]この昇進は2ターン後に消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RETURN_DELAY1_3</Tag>
+		<English />
+		<French>休憩中</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>休憩中</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RETURN_DELAY1_3HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]この昇進は3ターン後に消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]この昇進は3ターン後に消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RETURN_DELAY1_4</Tag>
+		<English />
+		<French>休憩中</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>休憩中</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RETURN_DELAY1_4HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]この昇進は4ターン後に消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]この昇進は4ターン後に消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RETURN_DELAY1_3</Tag>
+		<English />
+		<French>休憩中</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>休憩中</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RETURN_DELAY1_5HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]この昇進は5ターン後に消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]この昇進は5ターン後に消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHOOTING_TECHNIQUE1</Tag>
+		<English />
+		<French>チョン避け</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チョン避け</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHOOTING_TECHNIQUE1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]弾幕耐性+15% &#13;[ICON_BULLET]砲撃回避+15%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]弾幕耐性+15% &#13;[ICON_BULLET]砲撃回避+15%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHOOTING_TECHNIQUE2</Tag>
+		<English />
+		<French>パターン化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パターン化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHOOTING_TECHNIQUE2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]弾幕耐性+20% &#13;[ICON_BULLET]砲撃回避+20%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]弾幕耐性+20% &#13;[ICON_BULLET]砲撃回避+20%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHOOTING_TECHNIQUE3</Tag>
+		<English />
+		<French>判定見切り</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>判定見切り</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHOOTING_TECHNIQUE3_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]弾幕耐性+25% &#13;[ICON_BULLET]砲撃回避+25%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]弾幕耐性+25% &#13;[ICON_BULLET]砲撃回避+25%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FAMILIAR1</Tag>
+		<English />
+		<French>使い魔１</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>使い魔１</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FAMILIAR2</Tag>
+		<English />
+		<French>使い魔２</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>使い魔２</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FAMILIAR3</Tag>
+		<English />
+		<French>使い魔３</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>使い魔３</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FAMILIAR4</Tag>
+		<English />
+		<French>使い魔４</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>使い魔４</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FAMILIAR5</Tag>
+		<English />
+		<French>使い魔５</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>使い魔５</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FAMILIAR6</Tag>
+		<English />
+		<French>使い魔６</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>使い魔６</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FAMILIAR7</Tag>
+		<English />
+		<French>使い魔７</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>使い魔７</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FAMILIAR8</Tag>
+		<English />
+		<French>使い魔８</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>使い魔８</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FAMILIAR9</Tag>
+		<English />
+		<French>使い魔９</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>使い魔９</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FAMILIAR10</Tag>
+		<English />
+		<French>使い魔１０</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>使い魔１０</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GOLEM</Tag>
+		<English />
+		<French>ゴーレム</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ゴーレム</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GOLEM_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BARRIER</Tag>
+		<English />
+		<French>魔法障壁</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔法障壁</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BARRIER_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]弾幕耐性+15%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]弾幕耐性+15%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHIKINOSHIKI</Tag>
+		<English />
+		<French>式の式</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>式の式</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHIKINOSHIKI_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]連続戦闘が可能&#13;[ICON_BULLET]ターン開始時に消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]連続戦闘が可能&#13;[ICON_BULLET]ターン開始時に消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MADNESS</Tag>
+		<English />
+		<French>狂気</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>狂気</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MADNESS_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ユニットが不可解な行動を取る&#13;[ICON_BULLET]ターン開始時に確率で消滅</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ユニットが不可解な行動を取る&#13;[ICON_BULLET]ターン開始時に確率で消滅</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FAIR_WIND</Tag>
+		<English />
+		<French>順風</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>順風</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FAIR_WIND_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TERRIBLE_SOUVEBNIR1</Tag>
+		<English />
+		<French>眠りを覚ます恐怖の記憶</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>眠りを覚ます恐怖の記憶</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TERRIBLE_SOUVEBNIR1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン開始時に消滅</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン開始時に消滅</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TERRIBLE_SOUVEBNIR2</Tag>
+		<English />
+		<French>眠りを覚ます恐怖の記憶</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>眠りを覚ます恐怖の記憶</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TERRIBLE_SOUVEBNIR2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン開始時に効果が弱くなる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン開始時に効果が弱くなる</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TERRIBLE_SOUVEBNIR3</Tag>
+		<English />
+		<French>眠りを覚ます恐怖の記憶</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>眠りを覚ます恐怖の記憶</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TERRIBLE_SOUVEBNIR3_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン開始時に効果が弱くなる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン開始時に効果が弱くなる</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TERRIBLE_SOUVEBNIR4</Tag>
+		<English />
+		<French>眠りを覚ます恐怖の記憶</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>眠りを覚ます恐怖の記憶</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TERRIBLE_SOUVEBNIR4_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン開始時に効果が弱くなる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン開始時に効果が弱くなる</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TERRIBLE_SOUVEBNIR5</Tag>
+		<English />
+		<French>眠りを覚ます恐怖の記憶</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>眠りを覚ます恐怖の記憶</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TERRIBLE_SOUVEBNIR5_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン開始時に効果が弱くなる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン開始時に効果が弱くなる</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TERRIBLE_SOUVEBNIR6</Tag>
+		<English />
+		<French>眠りを覚ます恐怖の記憶</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>眠りを覚ます恐怖の記憶</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TERRIBLE_SOUVEBNIR6_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン開始時に効果が弱くなる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン開始時に効果が弱くなる</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TORIME</Tag>
+		<English />
+		<French>鳥目</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鳥目</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TORIME_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン開始時に周囲にミスティアが居なければ消滅</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン開始時に周囲にミスティアが居なければ消滅</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MISSING_POWER_EASY</Tag>
+		<English />
+		<French>ミッシングパワー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミッシングパワー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MISSING_POWER_EASY_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]連続戦闘が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]連続戦闘が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MISSING_POWER_NORMAL</Tag>
+		<English />
+		<French>ミッシングパワー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミッシングパワー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MISSING_POWER_NORMAL_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]連続戦闘が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]連続戦闘が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MISSING_POWER_HARD</Tag>
+		<English />
+		<French>ミッシングパープルパワー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミッシングパープルパワー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MISSING_POWER_HARD_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]連続戦闘が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]連続戦闘が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MISSING_POWER_LUNATIC</Tag>
+		<English />
+		<French>ミッシングパープルパワー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミッシングパープルパワー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MISSING_POWER_LUNATIC_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]連続戦闘が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]連続戦闘が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KENZOKU</Tag>
+		<English />
+		<French>吸血鬼の眷属</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>吸血鬼の眷属</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KENZOKU_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘勝利時に回復+5%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘勝利時に回復+5%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUKIMA</Tag>
+		<English />
+		<French>スキマ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スキマ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HEAVY_RAIN</Tag>
+		<English />
+		<French>土砂降り</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>土砂降り</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OOPS</Tag>
+		<English />
+		<French>びっくり！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>びっくり！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UNKNOWN_TRICK</Tag>
+		<English />
+		<French>正体不明の種</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>正体不明の種</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AIR_SCROLL1</Tag>
+		<English />
+		<French>エア巻物</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エア巻物</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AIR_SCROLL2</Tag>
+		<English />
+		<French>エア巻物</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エア巻物</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AIR_SCROLL3</Tag>
+		<English />
+		<French>エア巻物</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エア巻物</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AIR_SCROLL4</Tag>
+		<English />
+		<French>エア巻物</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エア巻物</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AIR_SCROLL5</Tag>
+		<English />
+		<French>エア巻物</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エア巻物</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AIR_SCROLL6</Tag>
+		<English />
+		<French>エア巻物</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エア巻物</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KYONSHII</Tag>
+		<English />
+		<French>キョンシー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>キョンシー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BLUEUFO</Tag>
+		<English />
+		<French>ブルーUFO</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ブルーUFO</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REDUFO</Tag>
+		<English />
+		<French>レッドUFO</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レッドUFO</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GREENUFO</Tag>
+		<English />
+		<French>グリーンUFO</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>グリーンUFO</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RAINBOWUFO</Tag>
+		<English />
+		<French>虹色UFO</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>虹色UFO</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ZOMBIE_POISON</Tag>
+		<English />
+		<French>ゾンビの毒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ゾンビの毒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCORE_DESIRE</Tag>
+		<English />
+		<French>スコアデザイアイーター</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スコアデザイアイーター</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KYOURAN1</Tag>
+		<English />
+		<French>狂乱</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>狂乱</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KYOURAN2</Tag>
+		<English />
+		<French>狂乱</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>狂乱</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KYOURAN3</Tag>
+		<English />
+		<French>狂乱</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>狂乱</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ATUMARU_SHINREI1</Tag>
+		<English />
+		<French>集まる神霊</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>集まる神霊</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ATUMARU_SHINREI1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]神霊発生率：極小&#13;[ICON_BULLET]戦闘勝利時、2％の確率で定住用特殊偉人：神霊が発生する可能性がある&#13;[ICON_BULLET]海上ユニットの場合は神霊の発生は無し</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]神霊発生率：極小&#13;[ICON_BULLET]戦闘勝利時、2％の確率で定住用特殊偉人：神霊が発生する可能性がある&#13;[ICON_BULLET]海上ユニットの場合は神霊の発生は無し</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ATUMARU_SHINREI2</Tag>
+		<English />
+		<French>集まる神霊</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>集まる神霊</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ATUMARU_SHINREI2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]神霊発生率：小&#13;[ICON_BULLET]戦闘勝利時、4％の確率で定住用特殊偉人：神霊が発生する可能性がある&#13;[ICON_BULLET]海上ユニットの場合は神霊の発生は無し</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]神霊発生率：小&#13;[ICON_BULLET]戦闘勝利時、4％の確率で定住用特殊偉人：神霊が発生する可能性がある&#13;[ICON_BULLET]海上ユニットの場合は神霊の発生は無し</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KABENUKE</Tag>
+		<English />
+		<French>壁抜け</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>壁抜け</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HAKKA</Tag>
+		<English />
+		<French>発火</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>発火</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HAKKA_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]この昇進を持っていると、ターン開始時25％のダメージを負う事になる&#13;[ICON_BULLET]ダメージを負った後、50％の確率で除去</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]この昇進を持っていると、ターン開始時25％のダメージを負う事になる&#13;[ICON_BULLET]ダメージを負った後、50％の確率で除去</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SOUSA_HANTEN</Tag>
+		<English />
+		<French>操作反転</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>操作反転</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_JOUGE_HANTEN</Tag>
+		<English />
+		<French>上下反転</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>上下反転</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UCHIDENO_KODUCHI</Tag>
+		<English />
+		<French>打ち出の小槌</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>打ち出の小槌</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UCHIDENO_KODUCHI_3TURN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]3ターン後に「小槌の反動」に変化する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]3ターン後に「小槌の反動」に変化する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UCHIDENO_KODUCHI_2TURN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]2ターン後に「小槌の反動」に変化する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]2ターン後に「小槌の反動」に変化する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UCHIDENO_KODUCHI_1TURN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]1ターン後に「小槌の反動」に変化する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]1ターン後に「小槌の反動」に変化する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KODUCHI_HANDOU</Tag>
+		<English />
+		<French>小槌の反動</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小槌の反動</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KODUCHI_HANDOU_3TURN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]3ターン後に消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]3ターン後に消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KODUCHI_HANDOU_2TURN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]2ターン後に消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]2ターン後に消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KODUCHI_HANDOU_1TURN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]1ターン後に消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]1ターン後に消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TSUKUMOGAMI</Tag>
+		<English />
+		<French>付喪神</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>付喪神</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TSUKUMOGAMI_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘力+2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘力+2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KISHINKEN</Tag>
+		<English />
+		<French>輝針剣</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>輝針剣</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KISHINKEN_1UP_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘力+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘力+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KISHINKEN_2UP_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘力+2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘力+2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KISHINKEN_3UP_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘力+3</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘力+3</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PRISTINE_BEAT</Tag>
+		<English />
+		<French>始原のビート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>始原のビート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PRISTINE_BEAT_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]一回のみの連続戦闘が可能&#13;[ICON_BULLET]次ターン開始時に消去</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]一回のみの連続戦闘が可能&#13;[ICON_BULLET]次ターン開始時に消去</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MARISALIST_PILLAGE</Tag>
+		<English />
+		<French>泥棒稼業</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>泥棒稼業</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ORGANIZED</Tag>
+		<English />
+		<French>精鋭</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>精鋭</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHOKKATSU</Tag>
+		<English />
+		<French>直轄</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>直轄</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUSAN</Tag>
+		<English />
+		<French>スーさんといっしょ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スーさんといっしょ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUSAN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]CAレベル+1&#13;[ICON_BULLET]戦闘力+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]CAレベル+1&#13;[ICON_BULLET]戦闘力+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MURASAGUID</Tag>
+		<English />
+		<French>村紗の導き</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>村紗の導き</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KASENLIST_DOUBUTU</Tag>
+		<English />
+		<French>動物の使役</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>動物の使役</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KASENLIST_DOUBUTU_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]動物系ユニット（ライオン・クマ・ヒョウ・オオカミ）に勝利時、撃破したユニットを味方に加える事が出来る&#13;[ICON_BULLET]加わった動物系ユニットは白兵ユニット扱いとなる&#13;[ICON_BULLET]加わった動物系ユニットは軍隊としての維持費は発生しない</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]動物系ユニット（ライオン・クマ・ヒョウ・オオカミ）に勝利時、撃破したユニットを味方に加える事が出来る&#13;[ICON_BULLET]加わった動物系ユニットは白兵ユニット扱いとなる&#13;[ICON_BULLET]加わった動物系ユニットは軍隊としての維持費は発生しない</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EIENTEI_UW</Tag>
+		<English />
+		<French>兎労働者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>兎労働者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SEKIBANKILIST_FEAR</Tag>
+		<English />
+		<French>恐怖のろくろ首</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>恐怖のろくろ首</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SEKIBANKILIST_FEAR_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘敗北時、周囲1マスの敵対ユニットスタックに10%の確率でペナルティ系昇進「恐怖」を強制付与させる&#13;[ICON_BULLET]敵東方ユニットにも付く可能性がある</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘敗北時、周囲1マスの敵対ユニットスタックに10%の確率でペナルティ系昇進「恐怖」を強制付与させる&#13;[ICON_BULLET]敵東方ユニットにも付く可能性がある</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FEAR</Tag>
+		<English />
+		<French>恐怖</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>恐怖</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FEAR_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン開始時、50％の確率で自動除去&#13;[ICON_BULLET]東方ユニットの場合はターン開始時、100％の確率で自動除去</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン開始時、50％の確率で自動除去&#13;[ICON_BULLET]東方ユニットの場合はターン開始時、100％の確率で自動除去</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_REMILIA</Tag>
+		<English />
+		<French>レミリアマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レミリアマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_FLAN</Tag>
+		<English />
+		<French>フランドールマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フランドールマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_CHEN</Tag>
+		<English />
+		<French>橙マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>橙マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_YOUMU</Tag>
+		<English />
+		<French>妖夢マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖夢マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_WRIGGLE</Tag>
+		<English />
+		<French>リグルマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リグルマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_CIRNO</Tag>
+		<English />
+		<French>チルノマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チルノマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_TEWI</Tag>
+		<English />
+		<French>てゐマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>てゐマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_EIRIN</Tag>
+		<English />
+		<French>永琳マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永琳マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_NITORI</Tag>
+		<English />
+		<French>にとりマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>にとりマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_SUWAKO</Tag>
+		<English />
+		<French>諏訪子マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>諏訪子マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_SANAE</Tag>
+		<English />
+		<French>早苗マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>早苗マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_MARISA</Tag>
+		<English />
+		<French>魔理沙マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔理沙マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_ALICE</Tag>
+		<English />
+		<French>アリスマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アリスマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_PARSEE</Tag>
+		<English />
+		<French>パルスィマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パルスィマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_YUGI</Tag>
+		<English />
+		<French>勇儀マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>勇儀マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_MOKOU</Tag>
+		<English />
+		<French>妹紅マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妹紅マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_KEINE</Tag>
+		<English />
+		<French>慧音マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>慧音マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_HAKUTAKUKEINE</Tag>
+		<English />
+		<French>白沢慧音マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白沢慧音マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_SAKUYA</Tag>
+		<English />
+		<French>咲夜マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>咲夜マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_YUYUKO</Tag>
+		<English />
+		<French>幽々子マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幽々子マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_RUMIA</Tag>
+		<English />
+		<French>ルーミアマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルーミアマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_MEDICIN</Tag>
+		<English />
+		<French>メディスンマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>メディスンマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_KANAKO</Tag>
+		<English />
+		<French>神奈子マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神奈子マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_REIMU</Tag>
+		<English />
+		<French>霊夢マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霊夢マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_YUKA</Tag>
+		<English />
+		<French>幽香マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幽香マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_KOISHI</Tag>
+		<English />
+		<French>こいしマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>こいしマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_PATCHOULI</Tag>
+		<English />
+		<French>パチュリーマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パチュリーマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_RAN</Tag>
+		<English />
+		<French>藍マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>藍マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_REISEN</Tag>
+		<English />
+		<French>鈴仙マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴仙マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_IKU</Tag>
+		<English />
+		<French>衣玖マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>衣玖マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_SATORI</Tag>
+		<English />
+		<French>さとりマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>さとりマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_MYSTIA</Tag>
+		<English />
+		<French>ミスティアマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミスティアマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_SUIKA</Tag>
+		<English />
+		<French>萃香マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>萃香マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_KOMACHI</Tag>
+		<English />
+		<French>小町マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小町マーク</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_MEIRIN</Tag>
+		<English />
+		<French>美鈴マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>美鈴マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_YUKARI</Tag>
+		<English />
+		<French>紫マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紫マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_KAGUYA</Tag>
+		<English />
+		<French>輝夜マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>輝夜マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_TENSHI</Tag>
+		<English />
+		<French>天子マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天子マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_RIN</Tag>
+		<English />
+		<French>燐マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>燐マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_LETTY</Tag>
+		<English />
+		<French>レティマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レティマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_MIMA</Tag>
+		<English />
+		<French>魅魔マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魅魔マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_EIKI</Tag>
+		<English />
+		<French>映姫マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>映姫マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_NAZRIN</Tag>
+		<English />
+		<French>ナズーリンマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ナズーリンマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_NAZRIN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘勝利時に[ICON_GOLD]をUG段階×2獲得</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘勝利時に[ICON_GOLD]をUG段階×2獲得</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_ICHIRIN</Tag>
+		<English />
+		<French>一輪マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>一輪マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_ICHIRIN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘力+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘力+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_MINAMITSU</Tag>
+		<English />
+		<French>水蜜マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>水蜜マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_MINAMITSU_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]海上移動コスト1/2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]海上移動コスト1/2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_SYOU</Tag>
+		<English />
+		<French>星マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>星マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_BYAKUREN</Tag>
+		<English />
+		<French>白蓮マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白蓮マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_NUE</Tag>
+		<English />
+		<French>ぬえマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ぬえマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_KOGASA</Tag>
+		<English />
+		<French>小傘マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小傘マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_YOSHIKA</Tag>
+		<English />
+		<French>芳香マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>芳香マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_YOSHIKA_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]キョンシー発生率：中&#13;[ICON_BULLET]戦闘勝利時、撃破したユニットを8％の確率で味方に加える可能性がある</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]キョンシー発生率：中&#13;[ICON_BULLET]戦闘勝利時、撃破したユニットを8％の確率で味方に加える可能性がある</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_SEIGA</Tag>
+		<English />
+		<French>青娥マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>青娥マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_SEIGA_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]キョンシー発生率：大&#13;[ICON_BULLET]戦闘勝利時、撃破したユニットを12％の確率で味方に加える可能性がある</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]キョンシー発生率：大&#13;[ICON_BULLET]戦闘勝利時、撃破したユニットを12％の確率で味方に加える可能性がある</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_TOJIKO</Tag>
+		<English />
+		<French>屠自古マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>屠自古マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_TOJIKO_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]神霊発生率：小&#13;[ICON_BULLET]戦闘勝利時、5％の確率で定住用特殊偉人：神霊が発生する可能性がある&#13;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]神霊発生率：小&#13;[ICON_BULLET]戦闘勝利時、5％の確率で定住用特殊偉人：神霊が発生する可能性がある&#13;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_FUTO</Tag>
+		<English />
+		<French>布都マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>布都マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_FUTO_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]神霊発生率：大&#13;[ICON_BULLET]戦闘勝利時、10％の確率で定住用特殊偉人：神霊が発生する可能性がある</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]神霊発生率：大&#13;[ICON_BULLET]戦闘勝利時、10％の確率で定住用特殊偉人：神霊が発生する可能性がある</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_MIMIMIKO</Tag>
+		<English />
+		<French>神子マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神子マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_MIMIMIKO_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]神霊発生率：大&#13;[ICON_BULLET]戦闘勝利時、10％の確率で定住用特殊偉人：神霊が発生する可能性がある</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]神霊発生率：大&#13;[ICON_BULLET]戦闘勝利時、10％の確率で定住用特殊偉人：神霊が発生する可能性がある</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_YATUHASHI</Tag>
+		<English />
+		<French>八橋マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八橋マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_BENBEN</Tag>
+		<English />
+		<French>弁々マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>弁々マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_BENBEN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]副次的損害+25%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]副次的損害+25%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_SEIJA</Tag>
+		<English />
+		<French>正邪マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>正邪マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_SHINMYOUMARU</Tag>
+		<English />
+		<French>針妙丸マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>針妙丸マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_RAIKO</Tag>
+		<English />
+		<French>雷鼓マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>雷鼓マーク</Japanese>
+	</TEXT>
+</Civ4GameText>

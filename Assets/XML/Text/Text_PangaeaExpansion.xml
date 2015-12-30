@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_EXISTENCE_ARCHIPELAGO</Tag>
+		<English>Archipelago</English>
+		<French>&#32676;&#23798;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#32676;&#23798;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_RIVER_START</Tag>
+		<English>Extra river at start</English>
+		<French>&#38283;&#22987;&#28857;&#12395;&#24029;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#38283;&#22987;&#28857;&#12395;&#24029;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_ENABLE</Tag>
+		<English>Enable</English>
+		<French>&#26377;&#21177;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#26377;&#21177;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_DISABLE</Tag>
+		<English>Disable</English>
+		<French>&#28961;&#21177;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#28961;&#21177;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_ALLOW_ARCHIPELAGO</Tag>
+		<English>Allow archipelago</English>
+		<French>&#32676;&#23798;&#22320;&#22495;&#12434;&#35377;&#21487;&#12377;&#12427;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#32676;&#23798;&#22320;&#22495;&#12434;&#35377;&#21487;&#12377;&#12427;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_DISALLOW_ARCHIPELAGO</Tag>
+		<English>Disallow archipelago</English>
+		<French>&#32676;&#23798;&#22320;&#22495;&#12434;&#35377;&#21487;&#12375;&#12394;&#12356;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#32676;&#23798;&#22320;&#22495;&#12434;&#35377;&#21487;&#12375;&#12394;&#12356;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_AMOUNT_WHALE</Tag>
+		<English>Amount of whale</English>
+		<French>&#39912;&#12398;&#37327;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#39912;&#12398;&#37327;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_AMOUNT_X10_WHALE</Tag>
+		<English>Amount of whale x10</English>
+		<French>&#39912;&#12398;&#37327; x10</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#39912;&#12398;&#37327; x10</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_WHALE_NORMAL</Tag>
+		<English>Normal</English>
+		<French>&#36890;&#24120;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#36890;&#24120;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_WHALE_TIMES</Tag>
+		<English>times</English>
+		<French>&#20493;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#20493;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_RAGING_WHALE</Tag>
+		<English>Raging whales</English>
+		<French>&#30772;&#22730;&#30340;&#12394;&#39912;&#39006;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#30772;&#22730;&#30340;&#12394;&#39912;&#39006;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_RAGING_WHALE_LAKE_AND_COAST</Tag>
+		<English>Enable - Allow lakes and coasts</English>
+		<French>&#26377;&#21177; - &#28246;&#12392;&#36817;&#28023;&#12408;&#12398;&#37197;&#32622;&#12434;&#35377;&#21487;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#26377;&#21177; - &#28246;&#12392;&#36817;&#28023;&#12408;&#12398;&#37197;&#32622;&#12434;&#35377;&#21487;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_RAGING_WHALE_COAST</Tag>
+		<English>Enable - Allow coasts</English>
+		<French>&#26377;&#21177; - &#36817;&#28023;&#12408;&#12398;&#37197;&#32622;&#12434;&#35377;&#21487;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#26377;&#21177; - &#36817;&#28023;&#12408;&#12398;&#37197;&#32622;&#12434;&#35377;&#21487;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_RAGING_WHALE_LAKE</Tag>
+		<English>Enable - Allow lakes</English>
+		<French>&#26377;&#21177; - &#28246;&#12408;&#12398;&#37197;&#32622;&#12434;&#35377;&#21487;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#26377;&#21177; - &#28246;&#12408;&#12398;&#37197;&#32622;&#12434;&#35377;&#21487;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_FOREST_TYPE</Tag>
+		<English>Forest Type</English>
+		<French>&#26862;&#26519;&#37197;&#32622;&#26041;&#24335;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#26862;&#26519;&#37197;&#32622;&#26041;&#24335;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_BONUS_TYPE</Tag>
+		<English>Bonus Type</English>
+		<French>&#36039;&#28304;&#37197;&#32622;&#26041;&#24335;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#36039;&#28304;&#37197;&#32622;&#26041;&#24335;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_TERRAIN_TYPE</Tag>
+		<English>Terrain Type</English>
+		<French>&#22320;&#24418;&#37197;&#32622;&#26041;&#24335;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#22320;&#24418;&#37197;&#32622;&#26041;&#24335;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_PANGAEA_LIKE</Tag>
+		<English>Pangaea-like</English>
+		<French>Pangaea</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Pangaea</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_ARBORIA_LIKE</Tag>
+		<English>Arboria-like</English>
+		<French>Arboria</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Arboria</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_RAINFOREST_LIKE</Tag>
+		<English>Rainforest-like</English>
+		<French>Rainforest</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Rainforest</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_MAP_SCRIPT_FLUID</Tag>
+		<English>Fluid</English>
+		<French>&#27969;&#21205;&#30340;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#27969;&#21205;&#30340;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANGAEA_EXPANSION_MAP_SCRIPT_TECTONICS_LIKE</Tag>
+		<English>Tectonics-like</English>
+		<French>Tectonics</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Tectonics</Japanese>
+	</TEXT>
+</Civ4GameText>

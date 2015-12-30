@@ -1,0 +1,1675 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Civilopedia CivLeaders -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- CIVILIZATION INFOS -->
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_HINA</Tag>
+		<English>Hina Kagiyama</English>
+		<French>鍵山雛</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鍵山雛</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LILYW</Tag>
+		<English>Lilywhite</English>
+		<French>リリーホワイト</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リリーホワイト</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LUNASA</Tag>
+		<English>Lunasa Prismriver</English>
+		<French>ルナサ＝プリズムリバー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルナサ＝プリズムリバー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MERLIN</Tag>
+		<English>Merlin Prismriver</English>
+		<French>メルラン＝プリズムリバー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>メルラン＝プリズムリバー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LYRICA</Tag>
+		<English>Lyrica Prismriver</English>
+		<French>リリカ＝プリズムリバー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リリカ＝プリズムリバー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TENSHI</Tag>
+		<English>Tenshi Hinanai</English>
+		<French>比那名居天子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>比那名居天子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KOMACHI</Tag>
+		<English>Komachi Onozuka</English>
+		<French>小野塚小町</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小野塚小町</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YUKA</Tag>
+		<English>Yuka Kazami</English>
+		<French>風見幽香</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>風見幽香</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PARSEE</Tag>
+		<English>Parsee Mizuhashi</English>
+		<French>水橋パルスィ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>水橋パルスィ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YUGI</Tag>
+		<English>Yuugi Hoshiguma</English>
+		<French>星熊勇儀</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>星熊勇儀</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SATORI</Tag>
+		<English>Satori Komeiji</English>
+		<French>古明地さとり</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>古明地さとり</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RIN</Tag>
+		<English>Rin Kaenbyou</English>
+		<French>火焔猫燐</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>火焔猫燐</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_UTSUHO</Tag>
+		<English>Utsuho Reiuji</English>
+		<French>霊烏路空</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霊烏路空</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KOISHI</Tag>
+		<English>Koishi Komeiji</English>
+		<French>古明地こいし</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>古明地こいし</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_EIKI</Tag>
+		<English>Sikieiki</English>
+		<French>四季映姫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>四季映姫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_IKU</Tag>
+		<English>Iku Nagae</English>
+		<French>永江衣玖</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永江衣玖</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AKYU</Tag>
+		<English>Hieda no Akyu</English>
+		<French>稗田阿求</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>稗田阿求</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ALICE</Tag>
+		<English>Alice Margatroid</English>
+		<French>アリス＝マーガトロイド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アリス＝マーガトロイド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AYA</Tag>
+		<English>Aya Syameimaru</English>
+		<French>射命丸文</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>射命丸文</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CHEN</Tag>
+		<English>Chen</English>
+		<French>橙</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>橙</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CIRNO</Tag>
+		<English>Cirno</English>
+		<French>チルノ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チルノ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_EIRIN</Tag>
+		<English>Eirin Yagokoro</English>
+		<French>八意永琳</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八意永琳</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_FLAN</Tag>
+		<English>Flandre Scarlet</English>
+		<French>フランドール＝スカーレット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フランドール＝スカーレット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KAGUYA</Tag>
+		<English>Kaguya Houraisan</English>
+		<French>蓬莱山輝夜</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蓬莱山輝夜</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KANAKO</Tag>
+		<English>Kanako Yasaka</English>
+		<French>八坂神奈子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八坂神奈子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KEINE</Tag>
+		<English>Keine Kamishirasawa</English>
+		<French>上白沢慧音</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>上白沢慧音</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RINNOSUKE</Tag>
+		<English>Rinnosuke Morichika</English>
+		<French>森近霖之助</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>森近霖之助</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LETTY</Tag>
+		<English>Letty Whiterock</English>
+		<French>レティ＝ホワイトロック</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レティ＝ホワイトロック</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MARISA</Tag>
+		<English>Marisa Kirisame</English>
+		<French>霧雨魔理沙</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霧雨魔理沙</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MEDICIN</Tag>
+		<English>Medicine Melancholy</English>
+		<French>メディスン＝メランコリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>メディスン＝メランコリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MEIRIN</Tag>
+		<English>Hong Meirin</English>
+		<French>紅美鈴</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅美鈴</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MERRY</Tag>
+		<English>Maribel Han</English>
+		<French>マエリベリー＝ハーン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マエリベリー＝ハーン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MOKOU</Tag>
+		<English>Fujiwara no Mokou</English>
+		<French>藤原妹紅</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>藤原妹紅</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MYSTIA</Tag>
+		<English>Mystia Lorelei</English>
+		<French>ミスティア＝ローレライ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミスティア＝ローレライ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_NITORI</Tag>
+		<English>Nitori Kawashiro</English>
+		<French>河城にとり</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>河城にとり</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PATCHOULI</Tag>
+		<English>Patchouli Knowledge</English>
+		<French>パチュリー＝ノーレッジ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パチュリー＝ノーレッジ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RAN</Tag>
+		<English>Ran Yakumo</English>
+		<French>八雲藍</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八雲藍</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_REIMU</Tag>
+		<English>Reimu Hakurei</English>
+		<French>博麗霊夢</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗霊夢</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_REISEN</Tag>
+		<English>Reisen Udongein Inaba</English>
+		<French>鈴仙・優曇華院・イナバ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴仙・優曇華院・イナバ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_REMILIA</Tag>
+		<English>Remilia Scarlet</English>
+		<French>レミリア＝スカーレット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レミリア＝スカーレット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RENKO</Tag>
+		<English>Renko Usami</English>
+		<French>宇佐美蓮子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宇佐美蓮子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RUMIA</Tag>
+		<English>Rumia</English>
+		<French>ルーミア</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルーミア</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SAKUYA</Tag>
+		<English>Sakuya Izayoi</English>
+		<French>十六夜咲夜</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>十六夜咲夜</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SANAE</Tag>
+		<English>Sanae Kochiya</English>
+		<French>東風谷早苗</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>東風谷早苗</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SUIKA</Tag>
+		<English>Suika Ibuki</English>
+		<French>伊吹萃香</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>伊吹萃香</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TEWI</Tag>
+		<English>Tewi</English>
+		<French>てゐ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>てゐ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WRIGGLE</Tag>
+		<English>Wriggle Nightbug</English>
+		<French>リグル＝ナイトバグ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リグル＝ナイトバグ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YOUMU</Tag>
+		<English>Youmu Konpaku</English>
+		<French>魂魄妖夢</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魂魄妖夢</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YUKARI</Tag>
+		<English>Yukari Yakumo</English>
+		<French>八雲紫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八雲紫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YUYUKO</Tag>
+		<English>Yuyuko Saigyouji</English>
+		<French>西行寺幽々子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>西行寺幽々子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SUWAKO</Tag>
+		<English>Suwako Moriya</English>
+		<French>洩矢諏訪子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>洩矢諏訪子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_NAZRIN</Tag>
+		<English>Nazrin</English>
+		<French>ナズーリン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ナズーリン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KOGASA</Tag>
+		<English>Kogasa Tatara</English>
+		<French>多々良小傘</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>多々良小傘</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ICHIRIN</Tag>
+		<English>Ichirin Kumoi</English>
+		<French>雲居一輪</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>雲居一輪</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MINAMITSU</Tag>
+		<English>Minamitsu Murasa</English>
+		<French>村紗水蜜</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>村紗水蜜</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SYOU</Tag>
+		<English>Shou Toramaru</English>
+		<French>寅丸星</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>寅丸星</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BYAKUREN</Tag>
+		<English>Byakuren Hijiri</English>
+		<French>聖白蓮</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖白蓮</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_NUE</Tag>
+		<English>Nue Houjuu</English>
+		<French>封獣ぬえ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>封獣ぬえ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LILYB</Tag>
+		<English>Lilyblack</English>
+		<French>リリーブラック</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リリーブラック</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TOKIKO</Tag>
+		<English>HonyomiYoukai</English>
+		<French>本読み妖怪</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>本読み妖怪</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KOA</Tag>
+		<English>Koakuma</English>
+		<French>小悪魔</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小悪魔</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DAIYOUSEI</Tag>
+		<English>Daiyousei</English>
+		<French>大妖精</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大妖精</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SIZUHA</Tag>
+		<English />
+		<French>秋静葉</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>秋静葉</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MINORIKO</Tag>
+		<English />
+		<French>秋穣子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>秋穣子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MOMIZI</Tag>
+		<English />
+		<French>犬走椛</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>犬走椛</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KISUME</Tag>
+		<English />
+		<French>キスメ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>キスメ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YAMAME</Tag>
+		<English />
+		<French>黒谷ヤマメ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>黒谷ヤマメ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_STAR</Tag>
+		<English />
+		<French>スターサファイア</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スターサファイア</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SUNNY</Tag>
+		<English />
+		<French>サニーミルク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>サニーミルク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LUNA</Tag>
+		<English />
+		<French>ルナチャイルド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルナチャイルド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YORIHIME</Tag>
+		<English />
+		<French>綿月依姫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>綿月依姫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WATAHIME</Tag>
+		<English />
+		<French>綿月豊姫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>綿月豊姫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MIMA</Tag>
+		<English />
+		<French>魅魔</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魅魔</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SHINKI</Tag>
+		<English />
+		<French>神綺</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神綺</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_HAKUTAKU</Tag>
+		<English />
+		<French>上白沢慧音(ハクタク)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>上白沢慧音(ハクタク)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_HATATE</Tag>
+		<English />
+		<French>姫海棠はたて</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>姫海棠はたて</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YOSHIKA</Tag>
+		<English />
+		<French>宮古芳香</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宮古芳香</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KYOUKO</Tag>
+		<English />
+		<French>幽谷響子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幽谷響子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_HAKUTAKU</Tag>
+		<English />
+		<French>上白沢慧音(ハクタク)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>上白沢慧音(ハクタク)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SEIGA</Tag>
+		<English />
+		<French>霍青娥</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霍青娥</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TOJIKO</Tag>
+		<English />
+		<French>蘇我屠自古</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蘇我屠自古</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_FUTO</Tag>
+		<English />
+		<French>物部布都</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>物部布都</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MIMIMIKO</Tag>
+		<English />
+		<French>豊聡耳神子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>豊聡耳神子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MAMIZOU</Tag>
+		<English />
+		<French>二ッ岩マミゾウ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>二ッ岩マミゾウ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KASEN</Tag>
+		<English />
+		<French>茨木華扇</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>茨木華扇</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KOSUZU</Tag>
+		<English />
+		<French>本居小鈴</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>本居小鈴</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CHIYURI</Tag>
+		<English />
+		<French>北白河ちゆり</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>北白河ちゆり</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YUMEMI</Tag>
+		<English />
+		<French>岡崎夢美</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>岡崎夢美</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KYUUREIMU</Tag>
+		<English />
+		<French>博麗靈夢(旧)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗靈夢(旧)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_REISEN2</Tag>
+		<English />
+		<French>レイセン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>レイセン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WAKASAGIHIME</Tag>
+		<English />
+		<French>わかさぎ姫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>わかさぎ姫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SEKIBANKI</Tag>
+		<English />
+		<French>赤蛮奇</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>赤蛮奇</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KAGEROU</Tag>
+		<English />
+		<French>今泉影狼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>今泉影狼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KOKORO</Tag>
+		<English />
+		<French>秦こころ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>秦こころ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_YATUHASHI</Tag>
+		<English />
+		<French>九十九八橋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>九十九八橋</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BENBEN</Tag>
+		<English />
+		<French>九十九弁々</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>九十九弁々</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SEIJA</Tag>
+		<English />
+		<French>鬼人正邪</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鬼人正邪</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SHINMYOUMARU</Tag>
+		<English />
+		<French>少名針妙丸</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>少名針妙丸</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RAIKO</Tag>
+		<English />
+		<French>堀川雷鼓</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>堀川雷鼓</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KYUUMARISA</Tag>
+		<English />
+		<French>霧雨魔理沙（旧）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霧雨魔理沙（旧）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LOLISE</Tag>
+		<English />
+		<French>アリス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アリス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LITTLE</Tag>
+		<English />
+		<French>リトル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リトル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SUMIREKO</Tag>
+		<English />
+		<French>宇佐見菫子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宇佐見菫子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SEIRAN</Tag>
+		<English />
+		<French>清蘭</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>清蘭</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RINGO</Tag>
+		<English />
+		<French>鈴瑚</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴瑚</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DOREMY</Tag>
+		<English />
+		<French>ドレミー・スイート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ドレミー・スイート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SAGUME</Tag>
+		<English />
+		<French>稀神サグメ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>稀神サグメ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CLOWNPIECE</Tag>
+		<English />
+		<French>クラウンピース</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>クラウンピース</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_JUNKO</Tag>
+		<English />
+		<French>純狐</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>純狐</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_HECATIA</Tag>
+		<English />
+		<French>ヘカーティア・ラピスラズリ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヘカーティア・ラピスラズリ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KEDAMA</Tag>
+		<English />
+		<French>毛玉</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>毛玉</Japanese>
+	</TEXT>
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KOUMAKAN_PEDIA</Tag>
+		<English />
+		<French>霧の泉の近くに建つ紅魔館。主レミリア・スカーレットを中心に、その妹のフランドール・スカーレット、メイド長の十六夜咲夜、内部にある大図書の魔法使い・パチュリー・ノーレッジ、そして門番の紅美鈴が住んでいる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霧の泉の近くに建つ紅魔館。主レミリア・スカーレットを中心に、その妹のフランドール・スカーレット、メイド長の十六夜咲夜、内部にある大図書の魔法使い・パチュリー・ノーレッジ、そして門番の紅美鈴が住んでいる。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_GOKUSAINODANMAKU_PEDIA</Tag>
+		<English />
+		<French>彼女は門番。紅魔館の玄関口たる門を守り、館を守り、主を守る鉄壁の盾。彼女の名は……</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>彼女は門番。紅魔館の玄関口たる門を守り、館を守り、主を守る鉄壁の盾。彼女の名は……</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_SICHIYOUNOMAJUTU_PEDIA</Tag>
+		<English />
+		<French>動かない大図書館。七つの属性の魔法を自在に操る妖怪の魔法使い。彼女の深い知恵の海があれば、この世でわからないことはあんまりない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>動かない大図書館。七つの属性の魔法を自在に操る妖怪の魔法使い。彼女の深い知恵の海があれば、この世でわからないことはあんまりない。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_JIKANSOUSA_PEDIA</Tag>
+		<English />
+		<French>「そして時は動き出す……」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「そして時は動き出す……」</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_UNMEISOUSA_PEDIA</Tag>
+		<English />
+		<French />
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>その能力がどのようなものなのか、誰もその実態を知らない。　なぜなら、運命を操作された者が、その『運命』が自分が本来持っていたものなのか、それとも操作され作為的に行われたものなのか見分ける手段などないのだから……　
+		あるいは、そうして運命が操作されること自体含めて、その者の『運命』なのかもしれない……</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_QED_PEDIA</Tag>
+		<English />
+		<French>彼女に悪意はない。彼女に邪気はない。彼女には一切の雑音も雑念も混在しておらず、誰よりも純粋で、純真。故に……誰よりも恐ろしい。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>彼女に悪意はない。彼女に邪気はない。彼女には一切の雑音も雑念も混在しておらず、誰よりも純粋で、純真。故に……誰よりも恐ろしい。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_AKAIKIRI_PEDIA</Tag>
+		<English />
+		<French>血のように紅い霧。人ではその妖霧には三十分と耐えることはできない。その紅い霧が日の光を隠す時、静かに湖の岬に建つ紅い館の主は笑うのだろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>血のように紅い霧。人ではその妖霧には三十分と耐えることはできない。その紅い霧が日の光を隠す時、静かに湖の岬に建つ紅い館の主は笑うのだろう。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_HAKUGYOKUROU_PEDIA</Tag>
+		<English />
+		<French>亡霊たちの集う白玉楼。西行寺幽々子の納めるその屋敷の庭先には、決して咲くことのない桜の木が生えている。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>亡霊たちの集う白玉楼。西行寺幽々子の納めるその屋敷の庭先には、決して咲くことのない桜の木が生えている。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_NEKOMATA_PEDIA</Tag>
+		<English />
+		<French>「ちぇぇぇぇぇぇぇぇぇーーーーーーん！！！！！！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「ちぇぇぇぇぇぇぇぇぇーーーーーーん！！！！！！」</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_SIKIGAMI_PEDIA</Tag>
+		<English />
+		<French>彼女たちは私の手であり、目であり、耳である。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>彼女たちは私の手であり、目であり、耳である。</Japanese>
+	</TEXT>
+<TEXT>
+		<Tag>TXT_KEY_TECH_ONIWABAN_PEDIA</Tag>
+		<English />
+		<French>お庭番と言っても庭の世話だけをしていればいいわけではない。だが、剣の修行だけしていれば良いと言うわけでもない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>お庭番と言っても庭の世話だけをしていればいいわけではない。だが、剣の修行だけしていれば良いと言うわけでもない。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_HANGONNOGI_PEDIA</Tag>
+		<English />
+		<French>そこで眠っているのは、誰？</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>そこで眠っているのは、誰？</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_SUKIMA_PEDIA</Tag>
+		<English />
+		<French>それはどこにでもあるし、どこにでも通じている。だが、間違っても普通の人間がそれを見つけようなどと思ってはいけない。通り抜けようなどと思ってはいけない。なぜなら、それは――</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>それはどこにでもあるし、どこにでも通じている。だが、間違っても普通の人間がそれを見つけようなどと思ってはいけない。通り抜けようなどと思ってはいけない。なぜなら、それは――</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_BORDER_OF_LIFE_PEDIA</Tag>
+		<English />
+		<French>境界を越えてはいけない。越えてはいけないからこそ、境界なのだから。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>境界を越えてはいけない。越えてはいけないからこそ、境界なのだから。</Japanese>
+	</TEXT>
+			<TEXT>
+		<Tag>TXT_KEY_TECH_HYOUSEIRENGOU_PEDIA</Tag>
+		<English />
+		<French>妖精と妖怪とは本来まったく性質の違う、どちらかと言えば敵対している者同士で相容れない存在である。……だが、彼女たちにはあまり関係はない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖精と妖怪とは本来まったく性質の違う、どちらかと言えば敵対している者同士で相容れない存在である。……だが、彼女たちにはあまり関係はない。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_KURAYAMI_PEDIA</Tag>
+		<English />
+		<French>闇を畏れよ。その闇の中に、彼女が潜んでいないとは限らないのだから。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>闇を畏れよ。その闇の中に、彼女が潜んでいないとは限らないのだから。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_MUSINOSIRASE_PEDIA</Tag>
+		<English />
+		<French>良い知らせなら信じよ。悪い知らせなら、放っておけ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>良い知らせなら信じよ。悪い知らせなら、放っておけ。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_MOUUTA_PEDIA</Tag>
+		<English />
+		<French>歌が聞こえれば十分だ。本当に怖いのは、闇の中の静寂なのだから。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>歌が聞こえれば十分だ。本当に怖いのは、闇の中の静寂なのだから。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_MARUKYU_PEDIA</Tag>
+		<English />
+		<French>「あたいったら最強ね！」「ええ、最強ね」「最強なのかー」「最強なの？」「最強なんじゃないかな？」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「あたいったら最強ね！」「ええ、最強ね」「最強なのかー」「最強なの？」「最強なんじゃないかな？」</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_LETTYJIRUSI_PEDIA</Tag>
+		<English />
+		<French>春が来て、夏を過ごし、秋が去って、冬が訪れるからこそ、美しい。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>春が来て、夏を過ごし、秋が去って、冬が訪れるからこそ、美しい。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_SIZENNOKYOUI_PEDIA</Tag>
+		<English />
+		<French>自然を侮ってはいけない。時として、いかなる強力な妖怪よりもその力は絶大な猛威と成り得るのだから。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>自然を侮ってはいけない。時として、いかなる強力な妖怪よりもその力は絶大な猛威と成り得るのだから。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_EIENTEI_PEDIA</Tag>
+		<English />
+		<French>永遠亭。月の姫とその加護者と兎たちの住む屋敷。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永遠亭。月の姫とその加護者と兎たちの住む屋敷。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_SUZURANNODOKU_PEDIA</Tag>
+		<English />
+		<French>「毒を持って毒を制する」。使い方次第で毒すらも薬と成り得る。そして、その逆もまた然り。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「毒を持って毒を制する」。使い方次第で毒すらも薬と成り得る。そして、その逆もまた然り。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_INABANOSIROUSAGI_PEDIA</Tag>
+		<English />
+		<French>嘘も方便。だが、一度失った信頼を取り戻すのは並大抵の労力ではないことを忘れてはいけない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>嘘も方便。だが、一度失った信頼を取り戻すのは並大抵の労力ではないことを忘れてはいけない。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_SINOOSIE_PEDIA</Tag>
+		<English />
+		<French>時として『正常』であることが狂気を生む。所詮、それは他者との比較から生まれるものでしかない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>時として『正常』であることが狂気を生む。所詮、それは他者との比較から生まれるものでしかない。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_TUKINOZUNOU_PEDIA</Tag>
+		<English />
+		<French>その智は、まさに宇宙。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>その智は、まさに宇宙。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_NANATUNONANDAI_PEDIA</Tag>
+		<English />
+		<French>決して解かれることのない問題。人の智でその問いの答えを見つけることは可能なのだろうか？</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>決して解かれることのない問題。人の智でその問いの答えを見つけることは可能なのだろうか？</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_TUKIKARANOSISHA_PEDIA</Tag>
+		<English />
+		<French>月の民は彼女たちを恨んではいない。だが、それと罪が消えることは同意ではない。彼女たちが背負った罪は、彼女たち自身のものなのだから。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月の民は彼女たちを恨んではいない。だが、それと罪が消えることは同意ではない。彼女たちが背負った罪は、彼女たち自身のものなのだから。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_YOUKAINOYAMA_PEDIA</Tag>
+		<English />
+		<French>妖怪の山。その名の通り、様々な妖怪たちが住んでいる。中には天狗たちのように組織的なコミュニティーを築いている者たちもいる。山奥でありながら、実は幻想郷で最も文化的な場所なのかもしれない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖怪の山。その名の通り、様々な妖怪たちが住んでいる。中には天狗たちのように組織的なコミュニティーを築いている者たちもいる。山奥でありながら、実は幻想郷で最も文化的な場所なのかもしれない。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_KAPPANOHATUMEI_PEDIA</Tag>
+		<English />
+		<French>河童の技術力は幻想郷いちぃぃぃぃぃぃぃぃぃぃぃーーー！！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>河童の技術力は幻想郷いちぃぃぃぃぃぃぃぃぃぃぃーーー！！</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_TENGUNOJOUHOUMOU_PEDIA</Tag>
+		<English />
+		<French>最速の文屋。あややややややや。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>最速の文屋。あややややややや。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_ARAHITOGAMINOKISEKI_PEDIA</Tag>
+		<English />
+		<French />
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神でありながら、人。人でありながら、神……だが、肉を持ち人の言葉を話すそれらは、所詮『凄い力を持っただけの人』ではないのだろうか？
+		　それとも、既にそれは人を超えた『人の姿をした神』と成り得るのだろうか？</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_MISHAGUJISAMA_PEDIA</Tag>
+		<English />
+		<French>神は死なない。ただ、忘れられ、消えて行くだけ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神は死なない。ただ、忘れられ、消えて行くだけ。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_MOUNTAIN_OF_FAITH_PEDIA</Tag>
+		<English />
+		<French>山には昔から神がいると信じられていた。雄雄しくそびえるその自然の大きさに、人は神の威光を重ねたのだろうか？</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>山には昔から神がいると信じられていた。雄雄しくそびえるその自然の大きさに、人は神の威光を重ねたのだろうか？</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_MORIYANOOUKOKU_PEDIA</Tag>
+		<English />
+		<French>信仰はやむことなく。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>信仰はやむことなく。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_HAKUREIJINJA_PEDIA</Tag>
+		<English />
+		<French>博麗神社。幻想郷の素敵な神社の素敵な賽銭箱には、今日も素敵に賽銭はない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗神社。幻想郷の素敵な神社の素敵な賽銭箱には、今日も素敵に賽銭はない。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_MAHOU_PEDIA</Tag>
+		<English />
+		<French>それは世界の理を覆す術。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>それは世界の理を覆す術。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_FURUDOUGUYA_PEDIA</Tag>
+		<English />
+		<French>幻想郷には外で忘れられ、既に幻想となった物しか入ってこない。故に、その店にあるものは常に『古い』ものしかないのだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幻想郷には外で忘れられ、既に幻想となった物しか入ってこない。故に、その店にあるものは常に『古い』ものしかないのだ。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_NINGYOUSOUJUTU_PEDIA</Tag>
+		<English />
+		<French>上海人形や蓬莱人形たちは自らの意思で動いてるわけではない。彼女らはあくまでアリスの魔力によって操作されているのだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>上海人形や蓬莱人形たちは自らの意思で動いてるわけではない。彼女らはあくまでアリスの魔力によって操作されているのだ。</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_HAKUREINODENTOU_PEDIA</Tag>
+		<English />
+		<French>先代もやはり巫女だったのだろうか？</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>先代もやはり巫女だったのだろうか？</Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_HYAKUMANKIYAKOU_PEDIA</Tag>
+		<English />
+		<French>一人が千に、千が万に、万が億に。だがどれだけ増えたとしても、それは一人でしかない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>一人が千に、千が万に、万が億に。だがどれだけ増えたとしても、それは一人でしかない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HAKUREIDAIKEKKAI_PEDIA</Tag>
+		<English />
+		<French>閉じられた世界は、その世界の中にいるものたちを守ると同時に……その世界のものたちが外へと出て行かないように、外の世界を守る役目も果たしている。その結界が無くなったとき、世界のすべては変わるだろう。幻想郷の内も、外も、一切の区別無く、すべて。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>閉じられた世界は、その世界の中にいるものたちを守ると同時に……その世界のものたちが外へと出て行かないように、外の世界を守る役目も果たしている。その結界が無くなったとき、世界のすべては変わるだろう。幻想郷の内も、外も、一切の区別無く、すべて。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CHIREIDEN_PEDIA</Tag>
+		<English />
+		<French>地底の灼熱地霊殿後に立てられた地霊殿</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地底の灼熱地霊殿後に立てられた地霊殿</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HASHIHIME_PEDIA</Tag>
+		<English />
+		<French>橋姫。丑の刻参りの6日目ぐらいに黒い牛が現れるらしい。調べてません。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>橋姫。丑の刻参りの6日目ぐらいに黒い牛が現れるらしい。調べてません。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KAIRIKIRANSHIN_PEDIA</Tag>
+		<English />
+		<French>力の勇儀。手を抜いてまけるあたり鬼らしい。勿論抜いて勝つことも。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>力の勇儀。手を抜いてまけるあたり鬼らしい。勿論抜いて勝つことも。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KAENPYO_PEDIA</Tag>
+		<English />
+		<French>死体を運び炉に投げ込むのが火焔猫のお仕事。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>死体を運び炉に投げ込むのが火焔猫のお仕事。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KOKOROWOYOMUME_PEDIA</Tag>
+		<English />
+		<French>第3の目は心を見透かす。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>第3の目は心を見透かす。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MUISHIKINOIDENSHI_PEDIA</Tag>
+		<English />
+		<French>どう考えても耐久スペルです。ほんとうにありがとうございました。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>どう考えても耐久スペルです。ほんとうにありがとうございました。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CHITEINOTAIYOSHINKO_PEDIA</Tag>
+		<English />
+		<French>夢のエネルギーを与えてくれる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>夢のエネルギーを与えてくれる。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SEIRENSEN_PEDIA</Tag>
+		<English />
+		<French>聖輦船が変形して誕生した寺が命蓮寺。縁起のいい寺として評判を得てる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖輦船が変形して誕生した寺が命蓮寺。縁起のいい寺として評判を得てる。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TINY_CLEVER_COMMANDER_PEDIA</Tag>
+		<English />
+		<French />
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>実際鼠を侮ってはいけない。鼠は病原菌の媒体になりその影響は人間にも及ぶ。14世紀のヨーロッパで人口の3分の1が死亡したペストの原因は、不衛生によって鼠が大繁殖し病原菌を運んだからともいわれている。
+		また、キャラクタービジネスにおいても鼠は脅威の対象である。もし貴方が無許可で世界一有名な鼠を書けば、今にも貴方の後ろに魔の手が……</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GUARDIAN_RING_PEDIA</Tag>
+		<English />
+		<French>問答無用。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>問答無用。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FlYING_SHIP_PEDIA</Tag>
+		<English />
+		<French>彼女は舟幽霊。船を沈めることができる。ただし幻想郷に海はない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>彼女は舟幽霊。船を沈めることができる。ただし幻想郷に海はない。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_UNDEFINED_FANTASTIC_OBJECT_PEDIA</Tag>
+		<English />
+		<French>古来より正体不明なものは恐怖の対象であった。正体不明を明確にするために、ある人は神や妖怪で形を作り、ある人は科学を発展させ理解するようにした。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>古来より正体不明なものは恐怖の対象であった。正体不明を明確にするために、ある人は神や妖怪で形を作り、ある人は科学を発展させ理解するようにした。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BISHAMON_TIGER_PEDIA</Tag>
+		<English />
+		<French>ただし、その宝塔は一度失くしてます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ただし、その宝塔は一度失くしてます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TEACHING_OF_MEIREN_PEDIA</Tag>
+		<English />
+		<French>人も妖怪も神も仏も全て同じと言う絶対平等の教え。その教えは見る人にとっては素晴らしく、見る人にとっては胡散臭い。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人も妖怪も神も仏も全て同じと言う絶対平等の教え。その教えは見る人にとっては素晴らしく、見る人にとっては胡散臭い。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHINREIBYOU_PEDIA</Tag>
+		<English />
+		<French>神霊廟。伝説の聖人が眠る場所。最近その聖人の存在が否定されてきたので幻想卿へ移動した。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神霊廟。伝説の聖人が眠る場所。最近その聖人の存在が否定されてきたので幻想卿へ移動した。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TYOKUREI_PEDIA</Tag>
+		<English />
+		<French>勅令随身保命…キョンシーのお札に書いてある言葉。意味は「天の命令により蘇って付き従え」とかそういった系統の事。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>勅令随身保命…キョンシーのお札に書いてある言葉。意味は「天の命令により蘇って付き従え」とかそういった系統の事。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ZYASENNOHUKYOU_PEDIA</Tag>
+		<English />
+		<French>霍青娥が1400年前に道教を布教したのが、すべてのはじまり。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霍青娥が1400年前に道教を布教したのが、すべてのはじまり。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KANIZYUUNIKAI_PEDIA</Tag>
+		<English />
+		<French>聖徳太子が制定した、日本で初めて制定された冠位制。あまりにも有名。歴史の授業は苦手でも、聞いた事くらいはあるという人が殆どだろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖徳太子が制定した、日本で初めて制定された冠位制。あまりにも有名。歴史の授業は苦手でも、聞いた事くらいはあるという人が殆どだろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHIKAISEN_PEDIA</Tag>
+		<English />
+		<French>尸解仙とは自分の死後（もしくは死んだように見せかけて）再び復活する秘術。ちなみに尸解仙は仙人の一種でもあるが、仙人の中では一番格下らしい</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>尸解仙とは自分の死後（もしくは死んだように見せかけて）再び復活する秘術。ちなみに尸解仙は仙人の一種でもあるが、仙人の中では一番格下らしい</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SEIZINNOHUKKATU_PEDIA</Tag>
+		<English />
+		<French>いつの世も執政者は不老不死に憧れるもの。かの始皇帝も不死の妙薬を追い求めていたそうな</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>いつの世も執政者は不老不死に憧れるもの。かの始皇帝も不死の妙薬を追い求めていたそうな</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HOSIHURU_SHINREIBYOU_PEDIA</Tag>
+		<English />
+		<French>彼女は十の欲の声も一度に聞き取れる。故に相手の全てを見通せる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>彼女は十の欲の声も一度に聞き取れる。故に相手の全てを見通せる。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KISHINJOU_PEDIA</Tag>
+		<English />
+		<French>輝針城。民を支配することを夢見た結果がこれだよ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>輝針城。民を支配することを夢見た結果がこれだよ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_JAKUSYANORAKUEN_PEDIA</Tag>
+		<English />
+		<French>しかし針妙丸は、まだ打ち出の小槌の代償のことは知らなかった。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>しかし針妙丸は、まだ打ち出の小槌の代償のことは知らなかった。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_USINAWARETA_SEISIN_PEDIA</Tag>
+		<English />
+		<French>いつの世にも、異端児と呼ばれる者は出てくるものである</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>いつの世にも、異端児と呼ばれる者は出てくるものである</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GEKOKUJOU_PEDIA</Tag>
+		<English />
+		<French>この異変は正確に言うと道具達が引き起こしたものではないが、しかしこの機に乗じて下克上を狙う道具が多いようだ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>この異変は正確に言うと道具達が引き起こしたものではないが、しかしこの機に乗じて下克上を狙う道具が多いようだ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SAIGONONOZOMI_PEDIA</Tag>
+		<English />
+		<French>この直後に悲劇が起こる[NEWLINE]しかしその原因となった「贅の極みを尽したそいつ」自体にはこの後、どんな反動に見舞われたというのだろうか。今では知る由も無い</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>この直後に悲劇が起こる[NEWLINE]しかしその原因となった「贅の極みを尽したそいつ」自体にはこの後、どんな反動に見舞われたというのだろうか。今では知る由も無い</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KAISYUUKI_PEDIA</Tag>
+		<English />
+		<French>問題がある事を分かっていながら説明はしない。完全に詐欺師の手法</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>問題がある事を分かっていながら説明はしない。完全に詐欺師の手法</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MUGENNOTIKARA_PEDIA</Tag>
+		<English />
+		<French>この台詞に心当たりがあるプレイヤーは多いはずだ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>この台詞に心当たりがあるプレイヤーは多いはずだ</Japanese>
+	</TEXT>
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KEINENOIRAI_PEDIA</Tag>
+		<English />
+		<French>妖怪に対抗するために妹紅の力を借りたいのだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖怪に対抗するために妹紅の力を借りたいのだ。</Japanese>
+	</TEXT>
+
+
+
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHOOTING_TECHNIQUE2_PEDIA</Tag>
+		<English />
+		<French>敵の出現ポイント、弾の種類などは決まっています。何度か繰り返し挑戦し、様々な場面でのパターンを決めておきましょう。ボムと残機をクリアまでに使い切らなければ、ミスのない限りクリアできるはずなのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>敵の出現ポイント、弾の種類などは決まっています。何度か繰り返し挑戦し、様々な場面でのパターンを決めておきましょう。ボムと残機をクリアまでに使い切らなければ、ミスのない限りクリアできるはずなのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHOOTING_TECHNIQUE3_PEDIA</Tag>
+		<English />
+		<French>弾の当たり判定と自機の当たり判定は、一般的に見た目よりも小さいです。そのわずかな差が生と死の境界になることもあります。そんなときのために「本当の」弾の当たり判定と自機の当たり判定を見極めておくのは大切なことです。粥とナイフは悪魔。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>弾の当たり判定と自機の当たり判定は、一般的に見た目よりも小さいです。そのわずかな差が生と死の境界になることもあります。そんなときのために「本当の」弾の当たり判定と自機の当たり判定を見極めておくのは大切なことです。粥とナイフは悪魔。</Japanese>
+	</TEXT>
+</Civ4GameText>

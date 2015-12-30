@@ -1,0 +1,1236 @@
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- CIVILIZATION INFOS -->
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KESSIKEKKAI</Tag>
+		<English />
+		<French>決死結界</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>決死結界</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KESSIKEKKAI_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]Power1.0を消費して復活が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]Power1.0を消費して復活が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OUKAKEKKAI</Tag>
+		<English />
+		<French>森羅結界</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>森羅結界</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OUKAKEKKAI_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]森羅結界を消費して一度だけ復活が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]森羅結界を消費して一度だけ復活が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CARD_ATTACK_LEVEL_UP</Tag>
+		<English />
+		<French>カードアタックレベル強化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カードアタックレベル強化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CARD_ATTACK_LEVEL_UP_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]CAレベル+1&#13;[ICON_BULLET]何度でも獲得が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]CAレベル+1&#13;[ICON_BULLET]何度でも獲得が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OMAMORI_EASY</Tag>
+		<English />
+		<French>幸運のお守り</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幸運のお守り</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OMAMORI_NORMAL</Tag>
+		<English />
+		<French>幸運のお守り</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幸運のお守り</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OMAMORI_HARD</Tag>
+		<English />
+		<French>幸運のお守り</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幸運のお守り</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OMAMORI_LUNATIC</Tag>
+		<English />
+		<French>幸運のお守り</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幸運のお守り</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REVIVAL</Tag>
+		<English />
+		<French>復活</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>復活</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REVIVAL_HELP</Tag>
+		<English />
+		<French>倒されても一度だけ復活する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>倒されても一度だけ復活する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MODE_EXTRA</Tag>
+		<English />
+		<French>難易度EXTRA</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>難易度EXTRA</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MODE_EXTRA_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]スペル(Ex)が使用可能&#13;[ICON_BULLET]CAレベル+1&#13;[ICON_BULLET]同スタックのユニットへの砲撃回避率ボーナス＋5％&#13;[ICON_BULLET]レベル＋1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]スペル(Ex)が使用可能&#13;[ICON_BULLET]CAレベル+1&#13;[ICON_BULLET]同スタックのユニットへの砲撃回避率ボーナス＋5％&#13;[ICON_BULLET]レベル＋1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MODE_PHANTASM</Tag>
+		<English />
+		<French>難易度PHANTASM</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>難易度PHANTASM</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MODE_PHANTASM_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]スペル(Pha)が使用可能&#13;[ICON_BULLET]CAレベル+1&#13;[ICON_BULLET]同スタックのユニットへの砲撃回避率ボーナス＋5％&#13;[ICON_BULLET]レベル＋1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]スペル(Pha)が使用可能&#13;[ICON_BULLET]CAレベル+1&#13;[ICON_BULLET]同スタックのユニットへの砲撃回避率ボーナス＋5％&#13;[ICON_BULLET]レベル＋1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SANAE_SKILL1</Tag>
+		<English />
+		<French>護国の風</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>護国の風</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SANAE_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REMILIA_SKILL1</Tag>
+		<English />
+		<French>吸血</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>吸血</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REMILIA_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]連続戦闘が可能&#13;[ICON_BULLET]戦闘勝利時に耐久力回復10%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]連続戦闘が可能&#13;[ICON_BULLET]戦闘勝利時に耐久力回復10%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHEN_SKILL1</Tag>
+		<English />
+		<French>飛翔韋駄天</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>飛翔韋駄天</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHEN_SKILL1_HELP</Tag>
+		<English />
+		<French>倒されたときの経験値ペナルティ-30%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>倒されたときの経験値ペナルティ-30%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WRIGGLE_SKILL1</Tag>
+		<English />
+		<French>フライフェノメノン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フライフェノメノン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WRIGGLE_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TEWI_SKILL1</Tag>
+		<English />
+		<French>悪戯</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>悪戯</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TEWI_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]同じスクウェアのユニットに悪戯を仕掛ける(自動)&#13;[ICON_BULLET]悪戯が成功するとユニットに経験値+1&#13;[ICON_BULLET]東方ユニットにも仕掛け、成功するとてゐにも経験値+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]同じスクウェアのユニットに悪戯を仕掛ける(自動)&#13;[ICON_BULLET]悪戯が成功するとユニットに経験値+1&#13;[ICON_BULLET]東方ユニットにも仕掛け、成功するとてゐにも経験値+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NITORI_SKILL1</Tag>
+		<English />
+		<French>リサイクル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リサイクル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NITORI_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘勝利時に敵の残骸から河童ロボを生産する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘勝利時に敵の残骸から河童ロボを生産する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MARISA_SKILL1</Tag>
+		<English />
+		<French>ラーニング</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ラーニング</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MARISA_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘勝利時に敵の昇進を盗む&#13;[ICON_BULLET]「判定見切り」取得前までは昇進を盗む確率は半減</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘勝利時に敵の昇進を盗む&#13;[ICON_BULLET]「判定見切り」取得前までは昇進を盗む確率は半減</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FLAN_SKILL1</Tag>
+		<English />
+		<French>破壊</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>破壊</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FLAN_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]連続戦闘が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]連続戦闘が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YOUMU_SKILL1</Tag>
+		<English />
+		<French>業風閃影陣</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>業風閃影陣</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YOUMU_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]連続戦闘が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]連続戦闘が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CIRNO_SKILL1</Tag>
+		<English />
+		<French>チルタッチ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チルタッチ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CIRNO_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘勝利時に敵スタックのユニットを凍らせることがある</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘勝利時に敵スタックのユニットを凍らせることがある</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EIRIN_SKILL1</Tag>
+		<English />
+		<French>行軍薬師</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>行軍薬師</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EIRIN_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]同じスクウェアのユニットを無条件に回復+30%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]同じスクウェアのユニットを無条件に回復+30%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUWAKO_SKILL1</Tag>
+		<English />
+		<French>ミシャグジエンパイア</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミシャグジエンパイア</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUWAKO_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘勝利時に敵が寝返ることがある</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘勝利時に敵が寝返ることがある</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ALICE_SKILL1</Tag>
+		<English />
+		<French>人形作成</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人形作成</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ALICE_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン開始時に上海・蓬莱人形を確率で作成する&#13;[ICON_BULLET]上海・蓬莱人形の戦闘力はアリスの戦闘力に依存&#13;[ICON_BULLET]Phanスペルの使用が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン開始時に上海・蓬莱人形を確率で作成する&#13;[ICON_BULLET]上海・蓬莱人形の戦闘力はアリスの戦闘力に依存&#13;[ICON_BULLET]Phanスペルの使用が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOKOU_SKILL1</Tag>
+		<English />
+		<French>インぺリシャブルシューティング</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>インぺリシャブルシューティング</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOKOU_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEINE_SKILL1</Tag>
+		<English />
+		<French>満月</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>満月</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEINE_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]変身が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]変身が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PARSEE_SKILL1</Tag>
+		<English />
+		<French>橋姫の呪い</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>橋姫の呪い</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PARSEE_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YUGI_SKILL1</Tag>
+		<English />
+		<French>三歩必殺</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>三歩必殺</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YUGI_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SAKUYA_SKILL1</Tag>
+		<English />
+		<French>プライベートスクウェア</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>プライベートスクウェア</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SAKUYA_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]Phanスペルの使用が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]Phanスペルの使用が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YUYUKO_SKILL1</Tag>
+		<English />
+		<French>ギャストリドリーム</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ギャストリドリーム</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YUYUKO_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RUMIA_SKILL1</Tag>
+		<English />
+		<French>暗闇発生</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>暗闇発生</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RUMIA_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MEDICIN_SKILL1</Tag>
+		<English />
+		<French>様々な毒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>様々な毒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MEDICIN_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]同じスクウェアのユニットを無条件に回復+5%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]同じスクウェアのユニットを無条件に回復+5%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KANAKO_SKILL1</Tag>
+		<English />
+		<French>軍神</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>軍神</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KANAKO_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]周囲１マスの敵ユニットが寝返る確率+5%/ターン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]周囲１マスの敵ユニットが寝返る確率+5%/ターン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REIMU_SKILL1</Tag>
+		<English />
+		<French>博麗の力</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗の力</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REIMU_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YUKA_SKILL1</Tag>
+		<English />
+		<French>開花</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>開花</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YUKA_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]連続戦闘が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]連続戦闘が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KOISHI_SKILL1</Tag>
+		<English />
+		<French>嫌われ者のフィロソフィ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>嫌われ者のフィロソフィ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KOISHI_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]不可視化が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]不可視化が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PATCHOULI_SKILL1</Tag>
+		<English />
+		<French>ゴーレム作成</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ゴーレム作成</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PATCHOULI_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘勝利時に倒した相手のゴーレムを生成する&#13;[ICON_BULLET]東方ユニットには効果なし</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘勝利時に倒した相手のゴーレムを生成する&#13;[ICON_BULLET]東方ユニットには効果なし</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RAN_SKILL1</Tag>
+		<English />
+		<French>弾道計算</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>弾道計算</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RAN_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REISEN_SKILL1</Tag>
+		<English />
+		<French>狂視調律(イリュージョンシーカー)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>狂視調律(イリュージョンシーカー)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REISEN_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IKU_SKILL1</Tag>
+		<English />
+		<French>羽衣は空の如く</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>羽衣は空の如く</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IKU_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SATORI_SKILL1</Tag>
+		<English />
+		<French>読心</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>読心</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SATORI_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MYSTIA_SKILL1</Tag>
+		<English />
+		<French>イルスタードダイブ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>イルスタードダイブ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MYSTIA_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUIKA_SKILL1</Tag>
+		<English />
+		<French>百万鬼夜行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>百万鬼夜行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUIKA_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]倒された際に小すいかを３体残す</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]倒された際に小すいかを３体残す</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KOMACHI_SKILL1</Tag>
+		<English />
+		<French>プライス・オブ・ライフ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>プライス・オブ・ライフ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KOMACHI_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘勝利時に追加の経験値+2　&#13;[ICON_BULLET]戦闘勝利時に倒した相手のレベルに応じて金銭を獲得</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘勝利時に追加の経験値+2　&#13;[ICON_BULLET]戦闘勝利時に倒した相手のレベルに応じて金銭を獲得</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MEIRIN_SKILL1</Tag>
+		<English />
+		<French>門番</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>門番</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MEIRIN_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]都市駐留時、同スタックに居る味方東方ユニットの数に応じて戦闘力上昇</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]都市駐留時、同スタックに居る味方東方ユニットの数に応じて戦闘力上昇</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YUKARI_SKILL1</Tag>
+		<English />
+		<French>気のせい</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>気のせい</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YUKARI_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘敗北時に25%の確率で相手と耐久力を入れ替える</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘敗北時に25%の確率で相手と耐久力を入れ替える</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KAGUYA_SKILL1</Tag>
+		<English />
+		<French>須臾の攻撃</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>須臾の攻撃</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KAGUYA_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TENSHI_SKILL1</Tag>
+		<English />
+		<French>無念無想の境地</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無念無想の境地</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TENSHI_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]倒されたときの経験値ペナルティ-100%&#13;[ICON_BULLET]連続戦闘が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]倒されたときの経験値ペナルティ-100%&#13;[ICON_BULLET]連続戦闘が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RIN_SKILL1</Tag>
+		<English />
+		<French>「燃料」補充</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「燃料」補充</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RIN_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]周囲１マスでユニットが死亡すると経験値＋１&#13;[ICON_BULLET]1ターン中に獲得可能な経験値の上限はレベルと同じ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]周囲１マスでユニットが死亡すると経験値＋１&#13;[ICON_BULLET]1ターン中に獲得可能な経験値の上限はレベルと同じ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LETTY_SKILL1</Tag>
+		<English />
+		<French>寒冷化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>寒冷化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LETTY_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ツンドラに駐留時の回復+40%&#13;[ICON_BULLET]雪原に駐留時の回復+80%&#13;[ICON_BULLET]砂漠に駐留時、耐久力が最大ならば40%のダメージと引き換えに砂漠を平原化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ツンドラに駐留時の回復+40%&#13;[ICON_BULLET]雪原に駐留時の回復+80%&#13;[ICON_BULLET]砂漠に駐留時、耐久力が最大ならば40%のダメージと引き換えに砂漠を平原化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MIMA_SKILL1</Tag>
+		<English />
+		<French>ワイドウェーブ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ワイドウェーブ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MIMA_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]砲撃ダメージ＋30％&#13;[ICON_BULLET]砲撃弾数＋1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]砲撃ダメージ＋30％&#13;[ICON_BULLET]砲撃弾数＋1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EIKI_SKILL1</Tag>
+		<English />
+		<French>浄頗梨の鏡</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>浄頗梨の鏡</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EIKI_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NAZRIN_SKILL1</Tag>
+		<English />
+		<French>ペンデュラムガード</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ペンデュラムガード</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NAZRIN_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]同スタックのユニットに15％の弾幕耐性と砲撃回避を付与></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]同スタックのユニットに15％の弾幕耐性と砲撃回避を付与></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ICHIRIN_SKILL1</Tag>
+		<English />
+		<French>問答無用の妖怪拳</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>問答無用の妖怪拳</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ICHIRIN_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ミサイルユニット：問答無用の妖怪拳を[z20]体召喚可能(数はレベル依存)&#13;[ICON_BULLET]妖怪拳の戦闘力は一輪と同じで、基本操作と教練を引き継ぐ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ミサイルユニット：問答無用の妖怪拳を[z20]体召喚可能(数はレベル依存)&#13;[ICON_BULLET]妖怪拳の戦闘力は一輪と同じで、基本操作と教練を引き継ぐ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MINAMITSU_SKILL1</Tag>
+		<English />
+		<French>舟幽霊</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>舟幽霊</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MINAMITSU_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]海上移動コスト1/2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]海上移動コスト1/2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SYOU_SKILL1</Tag>
+		<English />
+		<French>至宝の独鈷杵</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>至宝の独鈷杵</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SYOU_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]毎ターン金銭が国庫に入る。その量は戦闘力に比例する。&#13;[ICON_BULLET]まれに減ることがある&#13;[ICON_BULLET]戦闘勝利時に自身の戦闘力に比例した金銭を入手する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]毎ターン金銭が国庫に入る。その量は戦闘力に比例する。&#13;[ICON_BULLET]まれに減ることがある&#13;[ICON_BULLET]戦闘勝利時に自身の戦闘力に比例した金銭を入手する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BYAKUREN_SKILL1</Tag>
+		<English />
+		<French>自己強化魔法</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>自己強化魔法</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BYAKUREN_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]連続戦闘が可能。&#13;[ICON_BULLET]自分のHPを50%回復するスペルを使用可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]連続戦闘が可能。&#13;[ICON_BULLET]自分のHPを50%回復するスペルを使用可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NUE_SKILL1</Tag>
+		<English />
+		<French>正体不明の攻撃</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>正体不明の攻撃</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NUE_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KOGASA_SKILL1</Tag>
+		<English />
+		<French>忘れ傘の夜行列車</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>忘れ傘の夜行列車</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KOGASA_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YOSHIKA_SKILL1</Tag>
+		<English />
+		<French>死なない殺人鬼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>死なない殺人鬼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YOSHIKA_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]連続戦闘が可能。&#13;[ICON_BULLET]タイルを略奪することで耐久力回復20%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]連続戦闘が可能。&#13;[ICON_BULLET]タイルを略奪することで耐久力回復20%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SEIGA_SKILL1</Tag>
+		<English />
+		<French>壁抜けの邪仙</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>壁抜けの邪仙</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SEIGA_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOJIKO_SKILL1</Tag>
+		<English />
+		<French>怨霊の雷</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>怨霊の雷</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOJIKO_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FUTO_SKILL1</Tag>
+		<English />
+		<French>風水師</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>風水師</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FUTO_SKILL1_HELP</Tag>
+		<English />
+		<French></French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MIMIMIKO_SKILL1</Tag>
+		<English />
+		<French>日出ずる処の天子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>日出ずる処の天子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MIMIMIKO_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]このスキルを取得すると神霊発生率が更に5%上昇する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]このスキルを取得すると神霊発生率が更に5%上昇する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YATUHASHI_SKILL1</Tag>
+		<English />
+		<French>音響振動</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>音響振動</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YATUHASHI_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]敵対都市の防御値を減少させる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]敵対都市の防御値を減少させる</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BENBEN_SKILL1</Tag>
+		<English />
+		<French>ハーモニクスブロウ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ハーモニクスブロウ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SEIJA_SKILL1</Tag>
+		<English />
+		<French>瓜子姫の衣</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>瓜子姫の衣</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHINMYOUMARU_SKILL1</Tag>
+		<English />
+		<French>進撃の小人</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>進撃の小人</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RAIKO_SKILL1</Tag>
+		<English />
+		<French>パーフェクトコンボ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パーフェクトコンボ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RAIKO_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]連続戦闘が可能&#13;[ICON_BULLET]戦闘勝利時5%の確率で1ターンのみの黄金期が発生する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]連続戦闘が可能&#13;[ICON_BULLET]戦闘勝利時5%の確率で1ターンのみの黄金期が発生する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TEMP_STACK_BONUS</Tag>
+		<English />
+		<French>スタックボーナス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スタックボーナス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PROMOTION_TEMP_STACK_BONUS_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]部隊戦闘力＋10％&#13;[ICON_BULLET]この昇進は1.125辺りでユニット固有のものに置き換わる予定です</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]部隊戦闘力＋10％&#13;[ICON_BULLET]この昇進は1.125辺りでユニット固有のものに置き換わる予定です</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TEMP_STG_SKILL</Tag>
+		<English />
+		<French>STGスキル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>STGスキル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PROMOTION_TEMP_STG_SKILL_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]砲撃命中率＋30％&#13;[ICON_BULLET]この昇進は1.125辺りでユニット固有のものに置き換わる予定です</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]砲撃命中率＋30％&#13;[ICON_BULLET]この昇進は1.125辺りでユニット固有のものに置き換わる予定です</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ZIKI</Tag>
+		<English />
+		<French>自機</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>自機</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ZIKI_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]経験値獲得確率/ターンが２倍&#13;[ICON_BULLET]被弾時の経験値ペナルティ-50％&#13;[ICON_BULLET]森羅結界再取得に必要なターン-50%&#13;[ICON_BULLET]自然治癒+10%&#13;[ICON_BULLET]CAレベル+15%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]経験値獲得確率/ターンが２倍&#13;[ICON_BULLET]被弾時の経験値ペナルティ-50％&#13;[ICON_BULLET]森羅結界再取得に必要なターン-50%&#13;[ICON_BULLET]自然治癒+10%&#13;[ICON_BULLET]CAレベル+15%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_STAN</Tag>
+		<English />
+		<French>スタン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スタン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_STAN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]行動が不可能になる&#13;[ICON_BULLET]1ターン後に消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]行動が不可能になる&#13;[ICON_BULLET]1ターン後に消滅する</Japanese>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,2070 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Civilopedia CivLeaders -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- CIVILIZATION INFOS -->
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EIENTEI_DESC</Tag>
+		<English />
+		<French>永遠亭</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永遠亭</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KOUMAKAN_DESC</Tag>
+		<English />
+		<French>紅魔館</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HAKUGYOKUROU_DESC</Tag>
+		<English />
+		<French>白玉楼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白玉楼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NINGENNOSATO_DESC</Tag>
+		<English />
+		<French>人間の里</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人間の里</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HAKUREIJINJA_DESC</Tag>
+		<English />
+		<French>博麗神社</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗神社</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HYOUSEIRENGOU_DESC</Tag>
+		<English />
+		<French>氷精連合</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>氷精連合</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YOUKAINOYAMA_DESC</Tag>
+		<English />
+		<French>妖怪の山</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖怪の山</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHIREIDEN_DESC</Tag>
+		<English />
+		<French>地霊殿</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地霊殿</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHIREIDEN_DESC</Tag>
+		<English />
+		<French>妖怪の山</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖怪の山</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SEIRENSEN_DESC</Tag>
+		<English />
+		<French>星蓮船</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>星蓮船</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SHINREIBYOU_DESC</Tag>
+		<English />
+		<French>神霊廟</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神霊廟</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KISHINJOU_DESC</Tag>
+		<English />
+		<French>輝針城</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>輝針城</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_SHOW_RELIGION_SCREEN</Tag>
+		<English />
+		<French>国酒を改酒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国酒を改酒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CANNOT_SPREAD_NON_STATE_RELIGION</Tag>
+		<English />
+		<French>[COLOR_WARNING_TEXT]この都市では、国酒でない[ICON_RELIGION]は製造できません。[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_WARNING_TEXT]この都市では、国酒でない[ICON_RELIGION]は製造できません。[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_ONLY_HOLY_CONSTRUCT</Tag>
+		<English />
+		<French>[COLOR_WARNING_TEXT]建設できるのは%F1_RelIconの発祥の地のみです。[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[COLOR_WARNING_TEXT]建設できるのは%F1_RelIconの発祥の地のみです。[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_START_GOLDENAGE</Tag>
+		<English />
+		<French>大宴会の開始</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大宴会の開始</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GOLDEN_AGE</Tag>
+		<English />
+		<French>大宴会を開始可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大宴会を開始可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_GREAT_PEOPLE_MOD_STATE_RELIGION</Tag>
+		<English />
+		<French>[ICON_BULLET]%F2_Religionを国酒とする都市で、[ICON_GREATPEOPLE] 出生率%D1_Mod%%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]%F2_Religionを国酒とする都市で、[ICON_GREATPEOPLE] 出生率%D1_Mod%%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_NO_STATE_RELIGION</Tag>
+		<English />
+		<French>[ICON_BULLET]国酒[ICON_RELIGION]なし</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]国酒[ICON_RELIGION]なし</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_NO_NON_STATE_SPREAD</Tag>
+		<English />
+		<French>[ICON_BULLET]国酒以外の[ICON_RELIGION]なし</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]国酒以外の[ICON_RELIGION]なし</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_NON_STATE_REL_HAPPINESS_WITH_STATE</Tag>
+		<English />
+		<French>[ICON_BULLET]1都市の国酒でない1[ICON_RELIGION]につき%F2_HappyOrUn%D1_Change</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]1都市の国酒でない1[ICON_RELIGION]につき%F2_HappyOrUn%D1_Change</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_FREE_SPEECH</Tag>
+		<English />
+		<French>国連決議 #3445 （世界的社会制度－表現自由）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国連決議 #3445 （世界的社会制度－表現自由）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_FREE_RELIGION</Tag>
+		<English />
+		<French>国連決議 #427 （世界的社会制度－酒の自由）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国連決議 #427 （世界的社会制度－酒の自由）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_HOLY_CITY</Tag>
+		<English />
+		<French>発祥の碑 （国酒 [ICON_RELIGION]の場合）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>発祥の碑 （国酒 [ICON_RELIGION]の場合）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ALL_CITIES</Tag>
+		<English />
+		<French>全都市 （国酒 [ICON_RELIGION]の場合）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全都市 （国酒 [ICON_RELIGION]の場合）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GOLDEN_AGE</Tag>
+		<English />
+		<French>[ICON_BULLET]大宴会の開始</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]大宴会の開始</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RELIGION_HAPPINESS</Tag>
+		<English />
+		<French>[ICON_BULLET]%F3_RelIconが国酒[ICON_RELIGION]になると、 %F2_HappyOrUn%D1_Change</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]%F3_RelIconが国酒[ICON_RELIGION]になると、 %F2_HappyOrUn%D1_Change</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STATE_REL_BUILDINGS</Tag>
+		<English />
+		<French>を[SPACE]すべての国酒 [ICON_RELIGION] の建造物から取得</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>を[SPACE]すべての国酒 [ICON_RELIGION] の建造物から取得</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SPREADS_RELIGION</Tag>
+		<English />
+		<French>[ICON_BULLET]%F1_RelIconを製造</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]%F1_RelIconを製造</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_CONVERT</Tag>
+		<English />
+		<French>改酒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>改酒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_SCREEN_TITLE</Tag>
+		<English />
+		<French>酒担当相</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>酒担当相</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_SCREEN_NO_STATE</Tag>
+		<English />
+		<French>国酒なし</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国酒なし</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_SCREEN_HOLY_CITY</Tag>
+		<English />
+		<French>発祥の碑</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>発祥の碑</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT</Tag>
+		<English />
+		<French>世は人妖の跋扈する幻想の世界。幻想郷の賢者達は弾幕ごっこに変わる「遊び」を創り上げました。箱庭の中にはまっさらな世界が在り、そこから新たな幻想郷が生まれようとしています。[NEWLINE][NEWLINE]%s3_leaderよ、人民はあなたに絶対的権力を与えました。あなたなら時の試練に耐える文明を築いてくれると信じて！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>世は人妖の跋扈する幻想の世界。幻想郷の賢者達は弾幕ごっこに変わる「遊び」を創り上げました。箱庭の中にはまっさらな世界が在り、そこから新たな幻想郷が生まれようとしています。[NEWLINE][NEWLINE]%s3_leaderよ、人民はあなたに絶対的権力を与えました。あなたなら時の試練に耐える文明を築いてくれると信じて！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_PERCENT_RELIGION</Tag>
+		<English />
+		<French>酒の影響力の%d1%%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>酒の影響力の%d1%%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ANGER_RELIGION_FIGHT</Tag>
+		<English />
+		<French>[ICON_UNHAPPY]+%d1_Change:「同じ酒を飲む兄弟姉妹とは戦いたくない！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_UNHAPPY]+%d1_Change:「同じ酒を飲む兄弟姉妹とは戦いたくない！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ANGER_STATE_RELIGION</Tag>
+		<English />
+		<French>ANGER_STATE_RELIGION,[ICON_UNHAPPY]+%d1_Change:「別の酒を飲ませてくれ！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ANGER_STATE_RELIGION,[ICON_UNHAPPY]+%d1_Change:「別の酒を飲ませてくれ！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ANGER_RELIGIOUS_FREEDOM</Tag>
+		<English />
+		<French>[ICON_UNHAPPY]+%d1_Change:「酒の自由を求める！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_UNHAPPY]+%d1_Change:「酒の自由を求める！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HAPPY_STATE_RELIGION</Tag>
+		<English />
+		<French>[ICON_HAPPY]+%d1_Change:「我々の酒にまさるものはない！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_HAPPY]+%d1_Change:「我々の酒にまさるものはない！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HAPPY_RELIGIOUS_FREEDOM</Tag>
+		<English />
+		<French>[ICON_HAPPY]+%d1_Change:「我々の酒は信頼できるよ！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_HAPPY]+%d1_Change:「我々の酒は信頼できるよ！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_CONVERTING_EFFECTS</Tag>
+		<English />
+		<French>[SPACE]改酒すれば、%F3_RelIconに帰依する全都市で、%F2_HappOrUn%D1_Change</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[SPACE]改酒すれば、%F3_RelIconに帰依する全都市で、%F2_HappOrUn%D1_Change</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_LIKE_TO_CONVERT</Tag>
+		<English />
+		<French>[SPACE]この新しい酒を国酒としますか？</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[SPACE]この新しい酒を国酒としますか？</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_CONVERT_RELIGION</Tag>
+		<English />
+		<French>よし、改酒しよう！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>よし、改酒しよう！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_NO_CONVERSION</Tag>
+		<English />
+		<French>いや、この酒を飲むのは後にしよう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>いや、この酒を飲むのは後にしよう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_NO_STATE_REL</Tag>
+		<English />
+		<French>国酒 [ICON_RELIGION]なし</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国酒 [ICON_RELIGION]なし</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_CONVERT_TO_REL</Tag>
+		<English />
+		<French>%s1_RelNameに改酒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_RelNameに改酒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_NO_STATE_RELIGION</Tag>
+		<English />
+		<French>国酒なし</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国酒なし</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ALREADY_STATE_REL</Tag>
+		<English />
+		<French>現在の国酒です</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>現在の国酒です</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_NEW_REL_DISCOVERED</Tag>
+		<English />
+		<French>開発された酒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>開発された酒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_PLAYER_CONVERT_RELIGION</Tag>
+		<English />
+		<French>%s1_PlyrNameが[COLOR_HIGHLIGHT_TEXT]%s2_RelName[COLOR_REVERT]に改酒しました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_PlyrNameが[COLOR_HIGHLIGHT_TEXT]%s2_RelName[COLOR_REVERT]に改酒しました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_RELIGION_FAILED_TO_SPREAD</Tag>
+		<English />
+		<French>あなたの%s1_UnitNameが、%s3_CityNameでの%F2_RelIconの生産に失敗しました！！！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>あなたの%s1_UnitNameが、%s3_CityNameでの%F2_RelIconの生産に失敗しました！！！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_PROD_RELIGION</Tag>
+		<English />
+		<French>[ICON_BULLET]%s2_religionの国酒化のために[ICON_PRODUCTION]%D1%%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]%s2_religionの国酒化のために[ICON_PRODUCTION]%D1%%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_CONVERT_RELIGION</Tag>
+		<English />
+		<French>%s1_Religionに改酒する。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_Religionに改酒する。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_GP_BORN</Tag>
+		<English />
+		<French>%s2_CityNameにて%s1_GPNameが幻想郷入りしました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s2_CityNameにて%s1_GPNameが幻想郷入りしました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_GP_BORN_SOMEWHERE</Tag>
+		<English />
+		<French>%s1_GPNameが、異国で幻想郷入りしました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_GPNameが、異国で幻想郷入りしました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_PLAYER_GOLDEN_AGE_BEGINS</Tag>
+		<English />
+		<French>%s1_PlyrNameの大宴会が開催されました</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_PlyrNameの大宴会が開催されました</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_PLAYER_GOLDEN_AGE_HAS_BEGUN</Tag>
+		<English />
+		<French>%s1_PlyrNameの大宴会が開催されました！！！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_PlyrNameの大宴会が開催されました！！！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_PLAYER_GOLDEN_AGE_ENDED</Tag>
+		<English />
+		<French>%s1_PlyrNameの大宴会が終了しました...</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_PlyrNameの大宴会が終了しました...</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_RELIGION_COMMERCE</Tag>
+		<English />
+		<French>[ICON_BULLET]酒により%F2%D1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]酒により%F2%D1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_SAME_RELIGION</Tag>
+		<English />
+		<French>%D1:「同じ酒を飲む兄弟姉妹には、好意をもっているぞ。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%D1:「同じ酒を飲む兄弟姉妹には、好意をもっているぞ。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_DIFFERENT_RELIGION</Tag>
+		<English />
+		<French>%D1:「そんな酒を飲むとは、なんとも不愉快だな。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%D1:「そんな酒を飲むとは、なんとも不愉快だな。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DENIAL_MINORITY_RELIGION</Tag>
+		<English />
+		<French>「ここにはそういう酒を飲む者は見当たらないのだ...」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「ここにはそういう酒を飲む者は見当たらないのだ...」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MEMORY_ACCEPTED_RELIGION</Tag>
+		<English />
+		<French>「お前は、我々の酒を受け入れたのだな。」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「お前は、我々の酒を受け入れたのだな。」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MEMORY_DENIED_RELIGION</Tag>
+		<English />
+		<French>「お前は、我々の酒を拒んだのだぞ！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「お前は、我々の酒を拒んだのだぞ！」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_GREATPEOPLE_RELIGION</Tag>
+		<English />
+		<French>[ICON_BULLET]酒により[ICON_GREATPEOPLE]%D1%%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]酒により[ICON_GREATPEOPLE]%D1%%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GOLDEN_AGE</Tag>
+		<English />
+		<French>[ICON_BULLET]大宴会の開始</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]大宴会の開始</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GOLDENAGE_MOD</Tag>
+		<English />
+		<French>[ICON_BULLET]大宴会の期間%D1_Mod%%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]大宴会の期間%D1_Mod%%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_POPE_ELECTION</Tag>
+		<English />
+		<French>宴会の幹事として、投票にかける決議案を選ぶことができます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宴会の幹事として、投票にかける決議案を選ぶことができます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_PICK_RELIGION_HELP</Tag>
+		<English />
+		<French>酒を興す時、どの酒にするかウィンドが表示されます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>酒を興す時、どの酒にするかウィンドが表示されます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_POPE</Tag>
+		<English />
+		<French>宴会幹事役選挙（当選者は宴会事項を提案できます）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宴会幹事役選挙（当選者は宴会事項を提案できます）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_SOURCE_RELIGION</Tag>
+		<English />
+		<French>%s1_religionの指導者は、%s3_buildingとしての責任を感じ%s2_religion_adjectiveの呑んべぇをすべて団結させるという夢をもっています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_religionの指導者は、%s3_buildingとしての責任を感じ%s2_religion_adjectiveの呑んべぇをすべて団結させるという夢をもっています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_APOSTOLIC_PALACE_RESIDENT</Tag>
+		<English />
+		<French>宴会の幹事役</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宴会の幹事役</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_PICK_RELIGION</Tag>
+		<English />
+		<French>酒を選択</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>酒を選択</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_START_GOLDENAGE_HELP</Tag>
+		<English />
+		<French>1人、またはタイプの異なる2人以上の偉人を消費して大宴会を開始させます（[ICON_PRODUCTION]、[ICON_COMMERCE]、[ICON_GREATPEOPLE]が向上し、無政府状態なし）。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>1人、またはタイプの異なる2人以上の偉人を消費して大宴会を開始させます（[ICON_PRODUCTION]、[ICON_COMMERCE]、[ICON_GREATPEOPLE]が向上し、無政府状態なし）。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_TEXT_STRING</Tag>
+		<English />
+		<French>%s1_leaderは、このゲームの中で%s2_leaderのごとき評価を得ました！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%s1_leaderは、このゲームの中で%s2_leaderのごとき評価を得ました！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_1</Tag>
+		<English />
+		<French>天照大神</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天照大神</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_2</Tag>
+		<English />
+		<French>ミシャクジさま</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミシャクジさま</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_3</Tag>
+		<English />
+		<French>大穴牟遅神</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大穴牟遅神</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_4</Tag>
+		<English />
+		<French>毘沙門天</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>毘沙門天</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_5</Tag>
+		<English />
+		<French>建御名方神</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>建御名方神</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_6</Tag>
+		<English />
+		<French>奇稲田姫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>奇稲田姫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_7</Tag>
+		<English />
+		<French>八咫烏</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八咫烏</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_8</Tag>
+		<English />
+		<French>剣鎧護法童子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>剣鎧護法童子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_9</Tag>
+		<English />
+		<French>酒呑童子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>酒呑童子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_10</Tag>
+		<English />
+		<French>茨城童子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>茨城童子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_11</Tag>
+		<English />
+		<French>星熊童子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>星熊童子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_12</Tag>
+		<English />
+		<French>玉藻前</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>玉藻前</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_13</Tag>
+		<English />
+		<French>団三郎狸</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>団三郎狸</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_14</Tag>
+		<English />
+		<French>聖徳太子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖徳太子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_15</Tag>
+		<English />
+		<French>ヴラド・ツェペシュ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヴラド・ツェペシュ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_16</Tag>
+		<English />
+		<French>藤原不比等</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>藤原不比等</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_17</Tag>
+		<English />
+		<French>西行法師</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>西行法師</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_18</Tag>
+		<English />
+		<French>稗田阿礼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>稗田阿礼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_19</Tag>
+		<English />
+		<French>芥川龍之介</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>芥川龍之介</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_20</Tag>
+		<English />
+		<French>大ナマズ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大ナマズ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WINERY</Tag>
+		<English />
+		<French>葡萄ジュース製作所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>葡萄ジュース製作所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_CITIZEN</Tag>
+		<English />
+		<French>特別市民</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>特別市民</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_PRIEST</Tag>
+		<English />
+		<French>醸造人</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>醸造人</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_PRIEST</Tag>
+		<English />
+		<French>大醸造人</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大醸造人</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JEWISH_MISSIONARY</Tag>
+		<English />
+		<French>ワイン酵母</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ワイン酵母</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHRISTIAN_MISSIONARY</Tag>
+		<English />
+		<French>ウィスキー酵母</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウィスキー酵母</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ISLAMIC_MISSIONARY</Tag>
+		<English />
+		<French>ジン酵母</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジン酵母</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HINDU_MISSIONARY</Tag>
+		<English />
+		<French>中国酒酵母</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>中国酒酵母</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BUDDHIST_MISSIONARY</Tag>
+		<English />
+		<French>蜂蜜酒酵母</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蜂蜜酒酵母</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CONFUCIAN_MISSIONARY</Tag>
+		<English />
+		<French>ビール酵母</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ビール酵母</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TAOIST_MISSIONARY</Tag>
+		<English />
+		<French>麹菌</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>麹菌</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_PROPHET</Tag>
+		<English />
+		<French>大醸造者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大醸造者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SUZURAN</Tag>
+		<English />
+		<French>鈴蘭</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴蘭</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_YOSUZUNOUTA</Tag>
+		<English />
+		<French>夜雀の歌</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>夜雀の歌</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_DOKU</Tag>
+		<English />
+		<French>毒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>毒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_KUROGEWAGYU</Tag>
+		<English />
+		<French>黒毛和牛</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>黒毛和牛</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_INCENSE</Tag>
+		<English />
+		<French>柿の種</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>柿の種</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_INCENSE_PEDIA</Tag>
+		<English />
+		<French>[TAB]柿の種はビールや酒のおつまみとして広まった食べ物です。マメ科の植物で砂漠等の乾燥した土地でよく取れると言われています。辛味が強く、保存が利き長きに渡り多くの呑んべぇに親しまれてきました。最近の日本では全てパックされた状態で出荷されているので、柿の種が木からなるものだと言うことを知らない若者が増えてきている。　　　　　ウサ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]柿の種はビールや酒のおつまみとして広まった食べ物です。マメ科の植物で砂漠等の乾燥した土地でよく取れると言われています。辛味が強く、保存が利き長きに渡り多くの呑んべぇに親しまれてきました。最近の日本では全てパックされた状態で出荷されているので、柿の種が木からなるものだと言うことを知らない若者が増えてきている。　　　　　ウサ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_WINE</Tag>
+		<English />
+		<French>葡萄</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>葡萄</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MYSTICISM</Tag>
+		<English />
+		<French>自然酒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>自然酒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MEDITATION</Tag>
+		<English />
+		<French>自然発酵</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>自然発酵</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_POLYTHEISM</Tag>
+		<English />
+		<French>醸造術</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>醸造術</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PRIESTHOOD</Tag>
+		<English />
+		<French>製酒法</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>製酒法</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MONOTHEISM</Tag>
+		<English />
+		<French>発酵術</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>発酵術</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_THEOLOGY</Tag>
+		<English />
+		<French>蒸留術</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蒸留術</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DIVINE_RIGHT</Tag>
+		<English />
+		<French>酒主権</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>酒主権</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ALPHABET</Tag>
+		<English />
+		<French>契約</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>契約</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PHILOSOPHY</Tag>
+		<English />
+		<French>清酒術</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>清酒術</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FISSION</Tag>
+		<English />
+		<French>核融合</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>核融合</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FUSION</Tag>
+		<English />
+		<French>住吉さんのお力</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>住吉さんのお力</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FREE_SPEECH</Tag>
+		<English />
+		<French>表現の自由</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>表現の自由</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PAGANISM</Tag>
+		<English />
+		<French>アルコール飲み</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アルコール飲み</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ORGANIZED_RELIGION</Tag>
+		<English />
+		<French>製酒の組織化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>製酒の組織化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_THEOCRACY</Tag>
+		<English />
+		<French>絶対酒制度</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>絶対酒制度</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PACIFISM</Tag>
+		<English />
+		<French>呑んべえ主義</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>呑んべえ主義</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FREE_RELIGION</Tag>
+		<English />
+		<French>酒の自由</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>酒の自由</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PAGANISM_PEDIA</Tag>
+		<English />
+		<French>[TAB]アルコール飲みはとりあえず酒を飲むというものです。まだ製酒法が開発されたばかりで酒はまだまだ貴重なものであり、だからこそ究極の嗜好品だったのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]アルコール飲みはとりあえず酒を飲むというものです。まだ製酒法が開発されたばかりで酒はまだまだ貴重なものであり、だからこそ究極の嗜好品だったのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ORGANIZED_RELIGION_PEDIA</Tag>
+		<English />
+		<French>[TAB]製酒法の組織化が行われると、酒の価格は安定し、嗜好品ではなく、日常の欠かせないものになりました。人々は日常的に酒を飲むようになり、それにより人々の作業効率が上がることになります。これは国が酒の流通を支えることにより初めて行われることです。その為に多くの維持費がかかるが国民の笑顔が我々の支えとなるでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]製酒法の組織化が行われると、酒の価格は安定し、嗜好品ではなく、日常の欠かせないものになりました。人々は日常的に酒を飲むようになり、それにより人々の作業効率が上がることになります。これは国が酒の流通を支えることにより初めて行われることです。その為に多くの維持費がかかるが国民の笑顔が我々の支えとなるでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_THEOCRACY_PEDIA</Tag>
+		<English />
+		<French>[TAB]絶対酒制度は酒が政治の中心となる政治体制です。自分の飲む酒を絶対的なものとし、異なる酒を飲むものを嫌います。例えば他国が他の酒を好むようであれば、兵士達はどのような過酷な訓練にも耐え、異酒徒を倒しに行く事でしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]絶対酒制度は酒が政治の中心となる政治体制です。自分の飲む酒を絶対的なものとし、異なる酒を飲むものを嫌います。例えば他国が他の酒を好むようであれば、兵士達はどのような過酷な訓練にも耐え、異酒徒を倒しに行く事でしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PACIFISM_PEDIA</Tag>
+		<English />
+		<French>[TAB]呑んべぇ主義は、いつでも何処でも酒を呑むことを赦す社会制度です。人々は何時、どのような時も酒を呑み、酒に呑まれます。抑制された社会から開放された国家では、より文化が栄え、数多くの偉人が生まれることでしょう。しかし貴方の国では兵士達も酒を呑み続けます。彼らは常に平穏をもたらすわけではありません。その管理に、国は多大な予算を組まなければならないでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]呑んべぇ主義は、いつでも何処でも酒を呑むことを赦す社会制度です。人々は何時、どのような時も酒を呑み、酒に呑まれます。抑制された社会から開放された国家では、より文化が栄え、数多くの偉人が生まれることでしょう。しかし貴方の国では兵士達も酒を呑み続けます。彼らは常に平穏をもたらすわけではありません。その管理に、国は多大な予算を組まなければならないでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FREE_RELIGION_PEDIA</Tag>
+		<English />
+		<French>[TAB]酒の自由は、社会の中で特定の酒を優遇されていない状況を示します。貴方はどの酒を呑もうとももう咎める者はいないのです。このような社会は、他の酒で迫害された人々も移民して来やすい環境にあるということです。ただ、どの酒でも呑んでよいと言うのは、特定の酒に対する信仰心が弱くなり、その結果、道徳心の退化や退廃を招く恐れがあります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]酒の自由は、社会の中で特定の酒を優遇されていない状況を示します。貴方はどの酒を呑もうとももう咎める者はいないのです。このような社会は、他の酒で迫害された人々も移民して来やすい環境にあるということです。ただ、どの酒でも呑んでよいと言うのは、特定の酒に対する信仰心が弱くなり、その結果、道徳心の退化や退廃を招く恐れがあります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVICOPTION_RELIGION</Tag>
+		<English />
+		<French>酒制度</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>酒制度</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_IMMORTAL</Tag>
+		<English />
+		<French>蓬莱人</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蓬莱人</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_DEMIGOD</Tag>
+		<English />
+		<French>現人神</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>現人神</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_BOSS</Tag>
+		<English />
+		<French>首領</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>首領</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_DEMIGOD_HELP</Tag>
+		<English />
+		<French>私もこの難易度で天帝の挑み方を学びました[NEWLINE]天帝では常識に囚われてはいけないのですね！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>私もこの難易度で天帝の挑み方を学びました[NEWLINE]天帝では常識に囚われてはいけないのですね！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_BOSS_HELP</Tag>
+		<English />
+		<French>このさきには[NEWLINE]暴力的で[NEWLINE]鬼のような[NEWLINE]極殺指導者どもが[NEWLINE]あなたをまっています。[NEWLINE][NEWLINE]そ　れ　で　も　プレイしますか？</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>このさきには[NEWLINE]暴力的で[NEWLINE]鬼のような[NEWLINE]極殺指導者どもが[NEWLINE]あなたをまっています。[NEWLINE][NEWLINE]そ　れ　で　も　プレイしますか？</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_CHIREIDEN</Tag>
+		<English />
+		<French>地霊殿</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地霊殿</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_CHIREIDEN_PEDIA</Tag>
+		<English />
+		<French>[TAB]地霊殿の主、古明地さとりは読書及び本の執筆が趣味とされています。[NEWLINE]妖怪が持つ長い寿命を元に執筆された書物を紐解くと、地底が持つ独特の文化、技術の記載があるかもしれません。[NEWLINE]解読に成功した暁には我が文明の技術開発に多大な恩恵をもたらしてくれることでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]地霊殿の主、古明地さとりは読書及び本の執筆が趣味とされています。[NEWLINE]妖怪が持つ長い寿命を元に執筆された書物を紐解くと、地底が持つ独特の文化、技術の記載があるかもしれません。[NEWLINE]解読に成功した暁には我が文明の技術開発に多大な恩恵をもたらしてくれることでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_THE_INTERNET</Tag>
+		<English />
+		<French>博麗神社</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗神社</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_THE_INTERNET_PEDIA</Tag>
+		<English />
+		<French>[TAB]博麗神社では定期的に宴会が行われます。[NEWLINE]幻想郷において酒が嫌いな者はおらず、酔う事を拒む者はいません。[NEWLINE]また博麗神社の巫女、博麗霊夢は人妖問わず他者を惹きつけます。[NEWLINE]彼女と酒を飲み交わして彼女を嫌いになる者はおりません。[NEWLINE]故に彼女のいる宴会では皆が皆とても良い気分でお酒を飲むのです。[NEWLINE]酒に酔い、うっかり口を滑らして大切な知識を喋ってしまっても彼女達は気にしないのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]博麗神社では定期的に宴会が行われます。[NEWLINE]幻想郷において酒が嫌いな者はおらず、酔う事を拒む者はいません。[NEWLINE]また博麗神社の巫女、博麗霊夢は人妖問わず他者を惹きつけます。[NEWLINE]彼女と酒を飲み交わして彼女を嫌いになる者はおりません。[NEWLINE]故に彼女のいる宴会では皆が皆とても良い気分でお酒を飲むのです。[NEWLINE]酒に酔い、うっかり口を滑らして大切な知識を喋ってしまっても彼女達は気にしないのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_JUDAISM</Tag>
+		<English />
+		<French>ワイン派</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ワイン派</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_CHRISTIANITY</Tag>
+		<English />
+		<French>ウィスキー派</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウィスキー派</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ISLAM</Tag>
+		<English />
+		<French>ジン派</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジン派</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_HINDUISM</Tag>
+		<English />
+		<French>中国酒派</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>中国酒派</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_BUDDHISM</Tag>
+		<English />
+		<French>蜂蜜酒派</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蜂蜜酒派</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_CONFUCIANISM</Tag>
+		<English />
+		<French>ビール派</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ビール派</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_TAOISM</Tag>
+		<English />
+		<French>日本酒派</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>日本酒派</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RELIGIOUS</Tag>
+		<English />
+		<French>平和的解決</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>平和的解決</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JEWISH_TEMPLE</Tag>
+		<English />
+		<French>ワイン製作所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ワイン製作所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JEWISH_MONASTERY</Tag>
+		<English />
+		<French>ワイン酵母精製所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ワイン酵母精製所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JEWISH_CATHEDRAL</Tag>
+		<English />
+		<French>大規模ワイン製作所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大規模ワイン製作所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JEWISH_SHRINE</Tag>
+		<English />
+		<French>ワイン発祥の碑</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ワイン発祥の碑</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHRISTIAN_TEMPLE</Tag>
+		<English />
+		<French>ウィスキー製作所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウィスキー製作所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHRISTIAN_MONASTERY</Tag>
+		<English />
+		<French>ウィスキー酵母精製所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウィスキー酵母精製所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHRISTIAN_CATHEDRAL</Tag>
+		<English />
+		<French>大規模ウィスキー製造所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大規模ウィスキー製造所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHRISTIAN_SHRINE</Tag>
+		<English />
+		<French>ウィスキー発祥の碑</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウィスキー発祥の碑</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_TEMPLE</Tag>
+		<English />
+		<French>ジン製作所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジン製作所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_MONASTERY</Tag>
+		<English />
+		<French>ジン酵母精製所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジン酵母精製所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_CATHEDRAL</Tag>
+		<English />
+		<French>大規模ジン製作所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大規模ジン製作所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_SHRINE</Tag>
+		<English />
+		<French>ジン発祥の碑</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジン発祥の碑</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_TEMPLE</Tag>
+		<English />
+		<French>中国酒製作所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>中国酒製作所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_MONASTERY</Tag>
+		<English />
+		<French>中国酒酵母精製所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>中国酒酵母精製所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_CATHEDRAL</Tag>
+		<English />
+		<French>大規模中国酒製作所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大規模中国酒製作所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_SHRINE</Tag>
+		<English />
+		<French>中国酒発祥の地</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>中国酒発祥の地</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUDDHIST_TEMPLE</Tag>
+		<English />
+		<French>蜂蜜酒製作所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蜂蜜酒製作所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUDDHIST_MONASTERY</Tag>
+		<English />
+		<French>蜂蜜酒酵母精製所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蜂蜜酒酵母精製所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUDDHIST_CATHEDRAL</Tag>
+		<English />
+		<French>大規模蜂蜜酒製作所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大規模蜂蜜酒製作所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUDDHIST_SHRINE</Tag>
+		<English />
+		<French>蜂蜜酒発祥の碑</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蜂蜜酒発祥の碑</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONFUCIAN_TEMPLE</Tag>
+		<English />
+		<French>ビール製作所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ビール製作所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONFUCIAN_MONASTERY</Tag>
+		<English />
+		<French>ビール酵母精製所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ビール酵母精製所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONFUCIAN_CATHEDRAL</Tag>
+		<English />
+		<French>大規模ビール製作所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大規模ビール製作所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONFUCIAN_SHRINE</Tag>
+		<English />
+		<French>ビール発祥の碑</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ビール発祥の碑</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAOIST_TEMPLE</Tag>
+		<English />
+		<French>日本酒製作所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>日本酒製作所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAOIST_MONASTERY</Tag>
+		<English />
+		<French>麹菌精製所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>麹菌精製所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAOIST_CATHEDRAL</Tag>
+		<English />
+		<French>大規模日本酒製作所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大規模日本酒製作所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAOIST_SHRINE</Tag>
+		<English />
+		<French>日本酒発祥の碑</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>日本酒発祥の碑</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UNITED_NATIONS</Tag>
+		<English />
+		<French>博麗会議</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗会議</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_RELIGION</Tag>
+		<English />
+		<French>酒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>酒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_RELIGIONS</Tag>
+		<English />
+		<French>酒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>酒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_RELIGION</Tag>
+		<English />
+		<French>酒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>酒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CRISTO_REDENTOR</Tag>
+		<English />
+		<French>聖者は十字架に磔られました像</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖者は十字架に磔られました像</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_JUDAISM_ADJECTIVE</Tag>
+		<English />
+		<French>ワイン派</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ワイン派</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_CHRISTIANITY_ADJECTIVE</Tag>
+		<English />
+		<French>ウィスキー派</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウィスキー派</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ISLAM_ADJECTIVE</Tag>
+		<English />
+		<French>ジン派</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジン派</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_HINDUISM_ADJECTIVE</Tag>
+		<English />
+		<French>中国酒派</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>中国酒派</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_BUDDHISM_ADJECTIVE</Tag>
+		<English />
+		<French>蜂蜜酒派</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蜂蜜酒派</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_CONFUCIANISM_ADJECTIVE</Tag>
+		<English />
+		<French>ビール派</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ビール派</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_TAOISM_ADJECTIVE</Tag>
+		<English />
+		<French>日本酒派</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>日本酒派</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_APOSTOLIC_PALACE</Tag>
+		<English />
+		<French>宴会幹事役</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宴会幹事役</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_UNKNOWN</Tag>
+		<English />
+		<French>国酒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国酒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_PICK_RELIGION</Tag>
+		<English />
+		<French>国酒を選択</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>国酒を選択</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>CONCEPT_APOSTOLIC_PALACE</Tag>
+		<English />
+		<French>宴会幹事役</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>宴会幹事役</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_JUNGLE</Tag>
+		<English />
+		<French>竹林</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>竹林</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_REMOVE_JUNGLE</Tag>
+		<English />
+		<French>[LINK=FEATURE_JUNGLE]竹林[\LINK]の開拓</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=FEATURE_JUNGLE]竹林[\LINK]の開拓</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_1</Tag>
+		<English />
+		<French>チョン避けは大事です。自機狙い弾を避ける最高の手段です。ただし画面端には注意しましょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チョン避けは大事です。自機狙い弾を避ける最高の手段です。ただし画面端には注意しましょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_2</Tag>
+		<English />
+		<French>偶数弾と奇数弾を見極めましょう。偶数弾は動かなくても避けることは出来ます。きちんと避けるべきは奇数弾です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>偶数弾と奇数弾を見極めましょう。偶数弾は動かなくても避けることは出来ます。きちんと避けるべきは奇数弾です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_3</Tag>
+		<English />
+		<French>常に下避けが良いとは限りません。思い切って近づいてみるのも手です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>常に下避けが良いとは限りません。思い切って近づいてみるのも手です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_4</Tag>
+		<English />
+		<French>集中力が持たないと思ったときはボスにショットをきちんと当ててみましょう。撃破時間が早ければ避ける時間も短くなるのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>集中力が持たないと思ったときはボスにショットをきちんと当ててみましょう。撃破時間が早ければ避ける時間も短くなるのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_5</Tag>
+		<English />
+		<French>495年の波紋は時間切れまで待てばいい。その考えは大いに間違えです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>495年の波紋は時間切れまで待てばいい。その考えは大いに間違えです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_6</Tag>
+		<English />
+		<French>抱え落ちは最も愚かな行為です。ボムは使い切りましょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>抱え落ちは最も愚かな行為です。ボムは使い切りましょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_7</Tag>
+		<English />
+		<French>危ないからボムではなく、危なくなるだろうからボムるべきだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>危ないからボムではなく、危なくなるだろうからボムるべきだ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_8</Tag>
+		<English />
+		<French>スコアを稼ぐのは構いませんが、かすろうとして死ぬのは構います。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スコアを稼ぐのは構いませんが、かすろうとして死ぬのは構います。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_9</Tag>
+		<English />
+		<French>アイテム蒐集は大事です。蒐集方法を見極めておきましょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アイテム蒐集は大事です。蒐集方法を見極めておきましょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_10</Tag>
+		<English />
+		<French>使用キャラの特性を理解しましょう。得意な場面はそれぞれ違うのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>使用キャラの特性を理解しましょう。得意な場面はそれぞれ違うのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_11</Tag>
+		<English />
+		<French>パターン化は攻略の要です。組み切ればクリアできない難易度などは無いのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パターン化は攻略の要です。組み切ればクリアできない難易度などは無いのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_12</Tag>
+		<English />
+		<French>気合い避けは最後の砦です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>気合い避けは最後の砦です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_13</Tag>
+		<English />
+		<French>自機狙い弾と言うことは、弾の方向を自分でコントロールできるのです。どの方向へ誘導するかによって難易度が変わります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>自機狙い弾と言うことは、弾の方向を自分でコントロールできるのです。どの方向へ誘導するかによって難易度が変わります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_14</Tag>
+		<English />
+		<French>機数を上がる行為は積極的に行うべきだ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>機数を上がる行為は積極的に行うべきだ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_15</Tag>
+		<English />
+		<French>ボムの残弾数は数えておきましょう。ボムが無くなった時にこそ、気合い避けの精度が最も高くなります（精神的な意味において）。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ボムの残弾数は数えておきましょう。ボムが無くなった時にこそ、気合い避けの精度が最も高くなります（精神的な意味において）。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_16</Tag>
+		<English />
+		<French>大きく避けるべきか小さく避けるべきかはスペルによって変わります。切り返せないちょん避けはいずれあなたを画面端へ追い詰めてしまうでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大きく避けるべきか小さく避けるべきかはスペルによって変わります。切り返せないちょん避けはいずれあなたを画面端へ追い詰めてしまうでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_17</Tag>
+		<English />
+		<French>スコアを稼ぐならまずは落ちない事が大切です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スコアを稼ぐならまずは落ちない事が大切です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_18</Tag>
+		<English />
+		<French>「最初からやり直す」を選ぶたびに１＄貰っていたら今頃億万長者だぜ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「最初からやり直す」を選ぶたびに１＄貰っていたら今頃億万長者だぜ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_19</Tag>
+		<English />
+		<French>通貨はなんつーか重要な技術です</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>通貨はなんつーか重要な技術です</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_20</Tag>
+		<English />
+		<French>このゲームには色々なプレイ法があります。しかし最強の戦法は存在しません。その場の状況により最適解は異なります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>このゲームには色々なプレイ法があります。しかし最強の戦法は存在しません。その場の状況により最適解は異なります</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_21</Tag>
+		<English />
+		<French>「あんな高難易度クリア出来る気がしない」と思っているかもしれません。しかし、世の華々しい高難易度プレイレポをアップしている人もまた、同じ人間なのです。ならば、あなたに出来ない理由もないはずです</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「あんな高難易度クリア出来る気がしない」と思っているかもしれません。しかし、世の華々しい高難易度プレイレポをアップしている人もまた、同じ人間なのです。ならば、あなたに出来ない理由もないはずです</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_22</Tag>
+		<English />
+		<French>「コンバットルート」の東方ユニットは１～２世代上の戦闘力を持つ、攻撃可能な移動式丘都市長弓兵みたいなものです。正攻法で突っ込むとダメージを与えられないため、どうやって体力を削るかが攻略の鍵です</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「コンバットルート」の東方ユニットは１～２世代上の戦闘力を持つ、攻撃可能な移動式丘都市長弓兵みたいなものです。正攻法で突っ込むとダメージを与えられないため、どうやって体力を削るかが攻略の鍵です</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_23</Tag>
+		<English />
+		<French>「STGルート」の東方ユニットは自由に移動し、かつノーリスクで爆撃可能な爆撃機みたいなものです。特に遠距離からの砲撃は非常に厄介ですが、近接戦闘にさえ持ち込めば勝機はあります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「STGルート」の東方ユニットは自由に移動し、かつノーリスクで爆撃可能な爆撃機みたいなものです。特に遠距離からの砲撃は非常に厄介ですが、近接戦闘にさえ持ち込めば勝機はあります</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_24</Tag>
+		<English />
+		<French>「スペルカードルート」の東方ユニットはキャラクターによって危険度が異なりますが、敵に回した場合ダメージ系スペルと召喚系スペルは特に脅威となる傾向があります。しかし、Powerが尽きると無力なのはプレイヤーもAIも同じです</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「スペルカードルート」の東方ユニットはキャラクターによって危険度が異なりますが、敵に回した場合ダメージ系スペルと召喚系スペルは特に脅威となる傾向があります。しかし、Powerが尽きると無力なのはプレイヤーもAIも同じです</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_25</Tag>
+		<English />
+		<French>このMODの攻略には東方ユニットの運用と独自技術・建造物が鍵となります。それ以外はバニラCiv4の知識を流用しましょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>このMODの攻略には東方ユニットの運用と独自技術・建造物が鍵となります。それ以外はバニラCiv4の知識を流用しましょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_26</Tag>
+		<English />
+		<French>このゲームは往々にして世界遺産より国家遺産の方が強力です。特にオックスフォード大学と製鉄所だけは建設都市を厳選することをお勧めします</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>このゲームは往々にして世界遺産より国家遺産の方が強力です。特にオックスフォード大学と製鉄所だけは建設都市を厳選することをお勧めします</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_27</Tag>
+		<English />
+		<French>あなたの嫁が登場しても、涙を飲んで容赦無く対応しましょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>あなたの嫁が登場しても、涙を飲んで容赦無く対応しましょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_28</Tag>
+		<English />
+		<French>奴隷制や普通選挙で緊急生産を行う場合、最低でも1ターン分はハンマーを投入してから行いましょう。そうしないと余計な消耗をしてしまう可能性があります。同様に、国家遺産や世界遺産の緊急生産も効率が悪くなる補正があります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>奴隷制や普通選挙で緊急生産を行う場合、最低でも1ターン分はハンマーを投入してから行いましょう。そうしないと余計な消耗をしてしまう可能性があります。同様に、国家遺産や世界遺産の緊急生産も効率が悪くなる補正があります</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_29</Tag>
+		<English />
+		<French>なんてこった！パカルがまた滅亡しちまった！この人でなし！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>なんてこった！パカルがまた滅亡しちまった！この人でなし！</Japanese>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,1392 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jesse Smith (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Infos -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!-- ###################################################  -->
+<!-- 				Other Texts -->
+<!-- ###################################################  -->
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_MISC_TRUE</Tag>
+		<English>x</English>
+		<French>&#9675;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#9675;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_MISC_FALSE</Tag>
+		<English>-</English>
+		<French>&#65293;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#65293;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_MISC_COLORS</Tag>
+		<English>Colors</English>
+		<French>&#34920;&#31034;&#33394;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#34920;&#31034;&#33394;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_MISC_PROBLEM</Tag>
+		<English>Problematic</English>
+		<French>&#21839;&#38988;&#12354;&#12426;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#21839;&#38988;&#12354;&#12426;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_MISC_NEUTRAL</Tag>
+		<English>Neutral</English>
+		<French>&#36890;&#24120;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#36890;&#24120;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_MISC_GREAT</Tag>
+		<English>Great</English>
+		<French>&#12392;&#12390;&#12418;&#33391;&#22909;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#12392;&#12390;&#12418;&#33391;&#22909;</Japanese>
+	</TEXT>
+<!-- ###################################################  -->
+<!-- 				Table Columns Headers  -->
+<!-- ###################################################  -->
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_UNITS_MIL_AIR_PATROL</Tag>
+		<English>#AP</English>
+		<French>&#36814;&#12518;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#36814;&#12518;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_UNITS_MIL_AIR_DEFENSE_AVG</Tag>
+		<English>aAD</English>
+		<French>&#36814;&#25731;&#29575;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#36814;&#25731;&#29575;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_UNITS_MIL_AIR_DEFENSE_NUM</Tag>
+		<English>#AD</English>
+		<French>&#38450;&#31354;&#12518;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#38450;&#31354;&#12518;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_UNITS_MIL_GROUND_DEFENSE_AVG</Tag>
+		<English>aGD</English>
+		<French>&#22343;&#38520;&#23041;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#22343;&#38520;&#23041;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_UNITS_MIL_GROUND_DEFENSE_SUM</Tag>
+		<English>tGD</English>
+		<French>&#32207;&#38520;&#23041;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#32207;&#38520;&#23041;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_UNITS_MIL_AIR_NUM</Tag>
+		<English>#MAU.</English>
+		<French>&#31354;&#12518;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#31354;&#12518;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_UNITS_MIL_SEA_NUM</Tag>
+		<English>#MSU.</English>
+		<French>&#28023;&#12518;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#28023;&#12518;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_UNITS_MIL_GROUND_NUM</Tag>
+		<English>#MGU.</English>
+		<French>&#38520;&#12518;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#38520;&#12518;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_UNITS_MIL_NUM</Tag>
+		<English>#MU.</English>
+		<French>&#36557;&#12518;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#36557;&#12518;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_UNITS_TOTAL_NUM</Tag>
+		<English>#Units</English>
+		<French>&#32207;&#12518;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#32207;&#12518;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_COASTAL</Tag>
+		<English>Coastal?</English>
+		<French>&#27839;&#23736;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#27839;&#23736;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_FREE_EXPERIENCE</Tag>
+		<English>Free XP(L, S, A)</English>
+		<French>&#32076;&#39443;&#20516;(&#x9678;,&#x6d77;,&#x7a7a;)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#32076;&#39443;&#20516;(&#x9678;,&#x6d77;,&#x7a7a;)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_NO_MILITARY_ANGER</Tag>
+		<English>Mil. Anger?</English>
+		<French>&#39376;&#23663;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#39376;&#23663;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_WAR_WEARINESS</Tag>
+		<English>War Weariness</English>
+		<French>&#21421;&#25126;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#21421;&#25126;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_DISORDER</Tag>
+		<English>Disorder</English>
+		<French>&#28961;&#31209;&#24207;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#28961;&#31209;&#24207;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_THREATS</Tag>
+		<English>Threats</English>
+		<French>&#33029;&#23041;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#33029;&#23041;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_POWER</Tag>
+		<!-- %c : Power Icon  -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_CONSCRIPT_UNIT</Tag>
+		<English>Conscript Unit</English>
+		<French>&#24500;&#38598;&#20853;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#24500;&#38598;&#20853;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_CONSCRIPT</Tag>
+		<English>Conscript?</English>
+		<French>&#24500;&#38598;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#24500;&#38598;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_DEFENSE_TOTAL</Tag>
+		<!-- %c : Defense Icon  -->
+		<English>t%c</English>
+		<French>%c&#35336;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c&#35336;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_DEFENSE_DAMAGE</Tag>
+		<!-- %c : Defense Icon  -->
+		<English>-%c</English>
+		<French>%c-</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c-</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_DEFENSE_VIS</Tag>
+		<!-- %c : Defense Icon  -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_AUTOMATION</Tag>
+		<English>Automation</English>
+		<French>&#33258;&#21205;&#21270;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#33258;&#21205;&#21270;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_SPECIALISTS</Tag>
+		<English>Specialists</English>
+		<French>&#23554;&#38272;&#23478;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#23554;&#38272;&#23478;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_RELIGIONS</Tag>
+		<English>Religions</English>
+		<French>&#23447;&#25945;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#23447;&#25945;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_PRODUCING</Tag>
+		<English>Producing</English>
+		<French>&#29983;&#29987;&#20013;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#29983;&#29987;&#20013;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_GREATPEOPLE_TURNS</Tag>
+		<!-- %c : Head Icon  -->
+		<English>t%c</English>
+		<French>%ct</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%ct</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_GREATPEOPLE</Tag>
+		<!-- %c : Head Icon  -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_GREATPEOPLE_RATE</Tag>
+		<!-- %c : Head Icon  -->
+		<English>r%c</English>
+		<French>%c&#22679;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c&#22679;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_GREATGENERAL</Tag>
+		<!-- %c : Head Icon  -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_CULTURE</Tag>
+		<!-- %c : Culture Icon  -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_CULTURE_RATE</Tag>
+		<!-- %c : Culture Icon  -->
+		<English>r%c</English>
+		<French>%c&#22679;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c&#22679;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_RESEARCH</Tag>
+		<!-- %c : Research Icon  -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_GOLD</Tag>
+		<!-- %c : Gold Icon  -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_COMMERCE</Tag>
+		<!-- %c : Commerce Icon  -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_TRADE</Tag>
+		<!-- %c : Trade Icon  -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_MAINTENANCE_NUMCITIES</Tag>
+		<!-- %c : Bad Gold Icon  -->
+		<English>c%c</English>
+		<French>%cC</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%cC</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_MAINTENANCE_DISTANCE</Tag>
+		<!-- %c : Bad Gold Icon  -->
+		<English>d%c</English>
+		<French>%cD</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%cD</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_MAINTENANCE</Tag>
+		<!-- %c : Bad Gold Icon  -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_BASE_PRODUCTION</Tag>
+		<!-- %c : Production Icon (hammer) -->
+		<English>b%c</English>
+		<French>%cB</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%cB</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_PRODUCTION</Tag>
+		<!-- %c : Production Icon (hammer) -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_BASE_FOOD</Tag>
+		<!-- %c : Food Icon (gold food) -->
+		<English>b%c</English>
+		<French>%cB</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%cB</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_FOOD_STORED</Tag>
+		<!-- %c : Food Icon (gold food) -->
+		<English>s%c</English>
+		<French>%cS</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%cS</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_FOOD</Tag>
+		<!-- %c : Food Icon (gold food) -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_GROWTH</Tag>
+		<!-- %c : BadFood Icon (red food) -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_BASE_BADHEALTH</Tag>
+		<!-- %c : Unhealthy (sick) Icon -->
+		<English>b%c</English>
+		<French>%cB</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%cB</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_BASE_GOODHEALTH</Tag>
+		<!-- %c : Health Icon -->
+		<English>b%c</English>
+		<French>%cB</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%cB</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_HEALTH</Tag>
+		<!-- %c : Health Icon -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_BASE_UNHAPPY</Tag>
+		<!-- %c : UnHappy People Icon -->
+		<English>b%c</English>
+		<French>%cB</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%cB</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_BASE_HAPPY</Tag>
+		<!-- %c : Happy People Icon -->
+		<English>b%c</English>
+		<French>%cB</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%cB</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_HAPPY</Tag>
+		<!-- %c : Happy People Icon -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_GARRISON</Tag>
+		<!-- %c : Military Icon -->
+		<English>g%c</English>
+		<French>%cG</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%cG</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_POPULATION_REAL</Tag>
+		<English>Real Population</English>
+		<French>&#23455;&#20154;&#21475;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#23455;&#20154;&#21475;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_POPULATION</Tag>
+		<English>Population</English>
+		<French>&#20154;&#21475;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#20154;&#21475;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_LANDMARKS</Tag>
+		<English>Landmarks</English>
+		<French>&#12521;&#12531;&#12489;&#12510;&#12540;&#12463;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#12521;&#12531;&#12489;&#12510;&#12540;&#12463;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_FOUNDED</Tag>
+		<English>Founded</English>
+		<French>&#24314;&#35373;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#24314;&#35373;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_NAME</Tag>
+		<English>Name</English>
+		<French>&#21517;&#21069;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#21517;&#21069;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_BUTTON</Tag>
+		<English>City Zoom</English>
+		<French>&#37117;&#24066;&#30011;&#38754;&#12434;&#38283;&#12367;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#30011;&#38754;&#12434;&#38283;&#12367;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_AUTOMATION</Tag>
+		<English>Automation</English>
+		<French>&#33258;&#21205;&#21270;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#33258;&#21205;&#21270;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_TURNS</Tag>
+		<English>Turns</English>
+		<French>&#12479;&#12540;&#12531;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#12479;&#12540;&#12531;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_ESPIONAGE</Tag>
+		<!-- %c : Espionage Icon  -->
+		<English>%c</English>
+		<French>%c</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%c</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_CORPORATIONS</Tag>
+		<English>Corporations</English>
+		<French>&#x4f01;&#x696d;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#x4f01;&#x696d;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_BASE_RESEARCH</Tag>
+		<!-- %c : Research Icon  -->
+		<English>b%c</English>
+		<French>%cB</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%cB</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_COL_HEADER_BASE_GOLD</Tag>
+		<!-- %c : Gold Icon  -->
+		<English>b%c</English>
+		<French>%cB</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>%cB</Japanese>
+	</TEXT>
+<!-- ###################################################  -->
+<!-- 				Button Names  -->
+<!-- ###################################################  -->
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_WORLD_MILITARY_VIEW</Tag>
+		<English>Military</English>
+		<French>&#36557;&#38538;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#36557;&#38538;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_WORLD_WONDERS_VIEW</Tag>
+		<English>World Wonders</English>
+		<French>&#19990;&#30028;&#36986;&#29987;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#19990;&#30028;&#36986;&#29987;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_NATIONAL_WONDERS_VIEW</Tag>
+		<English>Nat. Wonders</English>
+		<French>&#22269;&#23478;&#36986;&#29987;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#22269;&#23478;&#36986;&#29987;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_TEAM_PROJECTS_VIEW</Tag>
+		<English>Team Projects</English>
+		<French>&#12503;&#12525;&#12472;&#12455;&#12463;&#12488;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#12503;&#12525;&#12472;&#12455;&#12463;&#12488;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_BUILDINGS_VIEW</Tag>
+		<English>Buildings</English>
+		<French>&#24314;&#36896;&#29289;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#24314;&#36896;&#29289;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_CITY_VIEW</Tag>
+		<English>City</English>
+		<French>&#37117;&#24066;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_SPECIALISTS_VIEW</Tag>
+		<English>Specialists</English>
+		<French>&#23554;&#38272;&#23478;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#23554;&#38272;&#23478;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_FAT_CROSS_VIEW</Tag>
+		<English>Fat Cross</English>
+		<French>&#x90fd;&#x5e02;&#x570f;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#x90fd;&#x5e02;&#x570f;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_REDRAW</Tag>
+		<English>Refresh</English>
+		<French>&#26356;&#26032;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#26356;&#26032;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_SCREEN_EXIT</Tag>
+		<English>Exit</English>
+		<French>&#32066;&#20102;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#32066;&#20102;</Japanese>
+	</TEXT>
+<!-- ###################################################  -->
+<!-- 				On-Line Help for columns-->
+<!-- ###################################################  -->
+	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_BUTTON</Tag>
+		<English>Button to jump to the city view. When leaving the city view with ESC, this domestic advisor screen is opened again.</English>
+		<French>&#12508;&#12479;&#12531;&#12434;&#25276;&#12377;&#12392;&#37117;&#24066;&#30011;&#38754;&#12364;&#38283;&#12363;&#12428;&#12427;&#12290;[NEWLINE]&#38283;&#12363;&#12428;&#12383;&#37117;&#24066;&#30011;&#38754;&#12434;ESC&#12391;&#38281;&#12376;&#12427;&#12392;&#12289;&#20877;&#12403;&#12371;&#12398;&#37117;&#24066;&#19968;&#35239;&#12364;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#12508;&#12479;&#12531;&#12434;&#25276;&#12377;&#12392;&#37117;&#24066;&#30011;&#38754;&#12364;&#38283;&#12363;&#12428;&#12427;&#12290;[NEWLINE]&#38283;&#12363;&#12428;&#12383;&#37117;&#24066;&#30011;&#38754;&#12434;ESC&#12391;&#38281;&#12376;&#12427;&#12392;&#12289;&#20877;&#12403;&#12371;&#12398;&#37117;&#24066;&#19968;&#35239;&#12364;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_NAME</Tag>
+		<!-- %c :  Gold Star,  Silver Star-->
+		<English>The name of the city.[NEWLINE]%c means that the city demands liberation.</English>
+		<French>&#37117;&#24066;&#12398;&#21517;&#21069;&#12290;[NEWLINE]&#x958b;&#x653e;&#x3092;&#x6c42;&#x3081;&#x3066;&#x3044;&#x308b;&#x90fd;&#x5e02;&#x306f;&#x540d;&#x524d;&#x306e;&#x5f8c;&#x306b;%c&#x30a2;&#x30a4;&#x30b3;&#x30f3;&#x304c;&#x8868;&#x793a;&#x3055;&#x308c;&#x308b;&#x3002;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12398;&#21517;&#21069;&#12290;[NEWLINE]&#x958b;&#x653e;&#x3092;&#x6c42;&#x3081;&#x3066;&#x3044;&#x308b;&#x90fd;&#x5e02;&#x306f;&#x540d;&#x524d;&#x306e;&#x5f8c;&#x306b;%c&#x30a2;&#x30a4;&#x30b3;&#x30f3;&#x304c;&#x8868;&#x793a;&#x3055;&#x308c;&#x308b;&#x3002;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_DATE</Tag>
+		<English>Date the city was founded.</English>
+		<French>&#37117;&#24066;&#12364;&#24314;&#35373;&#12373;&#12428;&#12383;&#24180;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12364;&#24314;&#35373;&#12373;&#12428;&#12383;&#24180;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_LANDMARKS</Tag>
+		<!-- %c :  Gold Star,  Silver Star,  Bullet Icon, Power Icon, Angry Icon,  Occupation Icon -->
+		<English>Some landmarks of the city:[NEWLINE] %c : capital [NEWLINE] %c : gouvernement center[NEWLINE] %c : national wonder [NEWLINE] %c : city has a powerplant [NEWLINE] %c : city is in disorder [NEWLINE] %c : city is occupied[NEWLINE] %c : city is connected to capital. [NEWLINE]In case the city is occupied, the rounds till the occupation ends is displayed in brackets.</English>
+		<French>&#37117;&#24066;&#12398;&#12521;&#12531;&#12489;&#12510;&#12540;&#12463;:[NEWLINE] %c : &#39318;&#37117;[NEWLINE] %c : &#20013;&#22830;&#25919;&#24220;[NEWLINE] %c : &#22269;&#23478;&#36986;&#29987;[NEWLINE] %c : &#30330;&#38651;&#25152;[NEWLINE] %c : &#28961;&#31209;&#24207;&#29366;&#24907;[NEWLINE] %c : &#21344;&#38936;&#29366;&#24907;[NEWLINE] %c : &#x4ea4;&#x6613;&#x8def;&#x304c;&#x9996;&#x90fd;&#x3068;&#x63a5;&#x7d9a;[NEWLINE]&#37117;&#24066;&#12364;&#21344;&#38936;&#12373;&#12428;&#12390;&#12356;&#12427;&#22580;&#21512;&#12289;&#21344;&#38936;&#12364;&#32066;&#20102;&#12377;&#12427;&#12414;&#12391;&#12398;&#12521;&#12454;&#12531;&#12489;&#12364;&#25324;&#24359;&#20869;&#12395;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12398;&#12521;&#12531;&#12489;&#12510;&#12540;&#12463;:[NEWLINE] %c : &#39318;&#37117;[NEWLINE] %c : &#20013;&#22830;&#25919;&#24220;[NEWLINE] %c : &#22269;&#23478;&#36986;&#29987;[NEWLINE] %c : &#30330;&#38651;&#25152;[NEWLINE] %c : &#28961;&#31209;&#24207;&#29366;&#24907;[NEWLINE] %c : &#21344;&#38936;&#29366;&#24907;[NEWLINE] %c : &#x4ea4;&#x6613;&#x8def;&#x304c;&#x9996;&#x90fd;&#x3068;&#x63a5;&#x7d9a;[NEWLINE]&#37117;&#24066;&#12364;&#21344;&#38936;&#12373;&#12428;&#12390;&#12356;&#12427;&#22580;&#21512;&#12289;&#21344;&#38936;&#12364;&#32066;&#20102;&#12377;&#12427;&#12414;&#12391;&#12398;&#12521;&#12454;&#12531;&#12489;&#12364;&#25324;&#24359;&#20869;&#12395;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_POPULATION</Tag>
+		<English>Population size of the city.</English>
+		<French>&#37117;&#24066;&#12398;&#20154;&#21475;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12398;&#20154;&#21475;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_POPULATION_REAL</Tag>
+		<English>Real population of the city, in citizens.</English>
+		<French>&#37117;&#24066;&#12398;&#23455;&#20154;&#21475;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12398;&#23455;&#20154;&#21475;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_GARRISON</Tag>
+		<English>The number of military units creating happiness in the city. This is usually the number of garrisoned ground units in the city (no air, sea, transport and helicopter units).</English>
+		<French>&#36557;&#20107;&#12518;&#12491;&#12483;&#12488;&#12395;&#12424;&#12426;&#12418;&#12383;&#12425;&#12373;&#12428;&#12427;&#24184;&#31119;&#12398;&#25968;&#12290;&#36890;&#24120;&#12391;&#12354;&#12428;&#12400;&#12289;&#12371;&#12428;&#12399;&#37117;&#24066;&#12395;&#39376;&#23663;&#12377;&#12427;&#38520;&#36557;&#12518;&#12491;&#12483;&#12488;&#12398;&#25968;&#12395;&#12424;&#12426;&#27770;&#12417;&#12425;&#12428;&#12427;&#12290;(&#31354;&#36557;&#12289;&#28023;&#36557;&#12289;&#36664;&#36865;&#12289;&#12504;&#12522;&#12518;&#12491;&#12483;&#12488;&#12399;&#28961;&#21177;&#12290;)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#36557;&#20107;&#12518;&#12491;&#12483;&#12488;&#12395;&#12424;&#12426;&#12418;&#12383;&#12425;&#12373;&#12428;&#12427;&#24184;&#31119;&#12398;&#25968;&#12290;&#36890;&#24120;&#12391;&#12354;&#12428;&#12400;&#12289;&#12371;&#12428;&#12399;&#37117;&#24066;&#12395;&#39376;&#23663;&#12377;&#12427;&#38520;&#36557;&#12518;&#12491;&#12483;&#12488;&#12398;&#25968;&#12395;&#12424;&#12426;&#27770;&#12417;&#12425;&#12428;&#12427;&#12290;(&#31354;&#36557;&#12289;&#28023;&#36557;&#12289;&#36664;&#36865;&#12289;&#12504;&#12522;&#12518;&#12491;&#12483;&#12488;&#12399;&#28961;&#21177;&#12290;)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_HAPPY</Tag>
+		<English>Net happy people. Calculated by happy people minus unhappy people.</English>
+		<French>&#37117;&#24066;&#12398;&#24184;&#31119;&#12398;&#25968;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12398;&#24184;&#31119;&#12398;&#25968;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_BASE_HAPPY</Tag>
+		<English>Number of happy population.</English>
+		<French>&#24184;&#31119;&#12394;&#20303;&#27665;&#12398;&#25968;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#24184;&#31119;&#12394;&#20303;&#27665;&#12398;&#25968;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_BASE_UNHAPPY</Tag>
+		<English>Number of unhappy population.</English>
+		<French>&#19981;&#24184;&#12394;&#20303;&#27665;&#12398;&#25968;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#19981;&#24184;&#12394;&#20303;&#27665;&#12398;&#25968;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_BASE_HEALTH</Tag>
+		<English>Net healthy people. Calculated by good health people minus bad health people.</English>
+		<French>&#37117;&#24066;&#12398;&#34907;&#29983;&#12398;&#25968;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12398;&#34907;&#29983;&#12398;&#25968;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_BASE_GOODHEALTH</Tag>
+		<English>Number of good health people in the city.</English>
+		<French>&#34907;&#29983;&#30340;&#12394;&#20303;&#27665;&#12398;&#25968;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#34907;&#29983;&#30340;&#12394;&#20303;&#27665;&#12398;&#25968;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_BASE_BADHEALTH</Tag>
+		<English>Number of bad health people in the city.</English>
+		<French>&#19981;&#34907;&#29983;&#12394;&#20303;&#27665;&#12398;&#25968;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#19981;&#34907;&#29983;&#12394;&#20303;&#27665;&#12398;&#25968;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_GROWTH</Tag>
+		<English>Indicates the cities growth rate. Is calculated by the difference between food production and food consumption. [NEWLINE]If positive, it indicates the turns till the city growths. [NEWLINE]If negative, it indicates the turns till the city starves. [NEWLINE]If '-' is displayed, it indicates that there is no growth, maybe because the city is producing a worker or settler.</English>
+		<French>&#37117;&#24066;&#12398;&#25104;&#38263;&#29366;&#27841;&#12290;&#39135;&#26009;&#12398;&#29983;&#29987;&#37327;&#12392;&#28040;&#36027;&#37327;&#12398;&#24046;&#12391;&#31639;&#20986;&#12373;&#12428;&#12427;&#12290;[NEWLINE]&#34920;&#31034;&#12364;&#27491;&#12398;&#20516;&#12394;&#12425;&#20154;&#21475;&#12364;&#22679;&#21152;&#12377;&#12427;&#12414;&#12391;&#12398;&#12479;&#12540;&#12531;&#25968;&#12289;[NEWLINE]&#36000;&#12398;&#20516;&#12394;&#12425;&#39138;&#39187;&#12364;&#30330;&#29983;&#12377;&#12427;&#12414;&#12391;&#12398;&#12479;&#12540;&#12531;&#25968;&#12434;&#31034;&#12377;&#12290;[NEWLINE]'-'&#12392;&#34920;&#31034;&#12373;&#12428;&#12390;&#12356;&#12428;&#12400;&#12289;&#21172;&#20685;&#32773;&#12420;&#38283;&#25299;&#32773;&#12398;&#29983;&#29987;&#12394;&#12393;&#12391;&#37117;&#24066;&#12364;&#25104;&#38263;&#12375;&#12390;&#12356;&#12394;&#12356;&#12371;&#12392;&#12434;&#31034;&#12377;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12398;&#25104;&#38263;&#29366;&#27841;&#12290;&#39135;&#26009;&#12398;&#29983;&#29987;&#37327;&#12392;&#28040;&#36027;&#37327;&#12398;&#24046;&#12391;&#31639;&#20986;&#12373;&#12428;&#12427;&#12290;[NEWLINE]&#34920;&#31034;&#12364;&#27491;&#12398;&#20516;&#12394;&#12425;&#20154;&#21475;&#12364;&#22679;&#21152;&#12377;&#12427;&#12414;&#12391;&#12398;&#12479;&#12540;&#12531;&#25968;&#12289;[NEWLINE]&#36000;&#12398;&#20516;&#12394;&#12425;&#39138;&#39187;&#12364;&#30330;&#29983;&#12377;&#12427;&#12414;&#12391;&#12398;&#12479;&#12540;&#12531;&#25968;&#12434;&#31034;&#12377;&#12290;[NEWLINE]'-'&#12392;&#34920;&#31034;&#12373;&#12428;&#12390;&#12356;&#12428;&#12400;&#12289;&#21172;&#20685;&#32773;&#12420;&#38283;&#25299;&#32773;&#12398;&#29983;&#29987;&#12394;&#12393;&#12391;&#37117;&#24066;&#12364;&#25104;&#38263;&#12375;&#12390;&#12356;&#12394;&#12356;&#12371;&#12392;&#12434;&#31034;&#12377;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_FOOD</Tag>
+		<English>Net food production. A value is also displayed when there is food production (eg. worker or settler).</English>
+		<French>&#39135;&#26009;&#22679;&#21152;&#37327;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#39135;&#26009;&#22679;&#21152;&#37327;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_FOOD_STORED</Tag>
+		<English>The food stored in the city.</English>
+		<French>&#37117;&#24066;&#12398;&#39135;&#31975;&#20633;&#33988;&#37327;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12398;&#39135;&#31975;&#20633;&#33988;&#37327;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_BASE_FOOD</Tag>
+		<English>Gross food production of the city, before food consumption.</English>
+		<French>&#37117;&#24066;&#12398;&#39135;&#26009;&#29983;&#29987;&#37327;&#12290;(&#28040;&#36027;&#21069;)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12398;&#39135;&#26009;&#29983;&#29987;&#37327;&#12290;(&#28040;&#36027;&#21069;)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_PRODUCTION</Tag>
+		<English>Net production of the city, which can be used for building units, wonders and buildings.</English>
+		<French>&#32207;&#29983;&#29987;&#21147;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#32207;&#29983;&#29987;&#21147;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_BASE_PRODUCTION</Tag>
+		<English>Gross production of the city.</English>
+		<French>&#22522;&#26412;&#29983;&#29987;&#21147;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#22522;&#26412;&#29983;&#29987;&#21147;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_MAINTENANCE</Tag>
+		<English>Total maintenance costs for this city.</English>
+		<French>&#37117;&#24066;&#12398;&#32173;&#25345;&#36027;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12398;&#32173;&#25345;&#36027;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_MAINTENANCE_DISTANCE</Tag>
+		<English>Maintenance caused by the distance to the capital and/or governement center.</English>
+		<French>&#39318;&#37117;&#12420;&#20013;&#22830;&#25919;&#24220;&#12363;&#12425;&#12398;&#36317;&#38626;&#12395;&#12424;&#12427;&#32173;&#25345;&#36027;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#39318;&#37117;&#12420;&#20013;&#22830;&#25919;&#24220;&#12363;&#12425;&#12398;&#36317;&#38626;&#12395;&#12424;&#12427;&#32173;&#25345;&#36027;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_MAINTENANCE_NUMCITIES</Tag>
+		<English>Maintenance caused by the total number of cities.</English>
+		<French>&#32207;&#37117;&#24066;&#25968;&#12395;&#12424;&#12427;&#32173;&#25345;&#36027;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#32207;&#37117;&#24066;&#25968;&#12395;&#12424;&#12427;&#32173;&#25345;&#36027;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_TRADE</Tag>
+		<English>Net trade income for all trade routes and yield types.</English>
+		<French>&#20132;&#26131;&#36335;&#12363;&#12425;&#12398;&#21454;&#20837;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#20132;&#26131;&#36335;&#12363;&#12425;&#12398;&#21454;&#20837;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_COMMERCE</Tag>
+		<English>Base commerce for the city, generated by specialists, buildings, religions...</English>
+		<French>&#22522;&#26412;&#21830;&#26989;&#20516;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#22522;&#26412;&#21830;&#26989;&#20516;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_GOLD</Tag>
+		<English>Net gold income per turn.</English>
+		<French>&#37329;&#37549;&#21454;&#20837;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37329;&#37549;&#21454;&#20837;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_RESEARCH</Tag>
+		<English>Net research rate.</English>
+		<French>&#30740;&#31350;&#36027;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#30740;&#31350;&#36027;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_CULTURE_RATE</Tag>
+		<English>Net culture rate.</English>
+		<French>&#25991;&#21270;&#12524;&#12540;&#12488;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#25991;&#21270;&#12524;&#12540;&#12488;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_CULTURE</Tag>
+		<English>Actual total culture value of this city.</English>
+		<French>&#29694;&#22312;&#12398;&#25991;&#21270;&#20516;&#12398;&#21512;&#35336;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#29694;&#22312;&#12398;&#25991;&#21270;&#20516;&#12398;&#21512;&#35336;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_GREATPEOPLE_RATE</Tag>
+		<English>Great people rate.</English>
+		<French>&#20553;&#20154;&#35477;&#29983;&#12524;&#12540;&#12488;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#20553;&#20154;&#35477;&#29983;&#12524;&#12540;&#12488;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_GREATPEOPLE</Tag>
+		<English>Actual total great people value.</English>
+		<French>&#29694;&#22312;&#12398;&#20553;&#20154;&#35477;&#29983;&#12509;&#12452;&#12531;&#12488;&#12398;&#21512;&#35336;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#29694;&#22312;&#12398;&#20553;&#20154;&#35477;&#29983;&#12509;&#12452;&#12531;&#12488;&#12398;&#21512;&#35336;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_GREATPEOPLE_TURNS</Tag>
+		<English>Number of turns till the city creates a great person.</English>
+		<French>&#20553;&#20154;&#35477;&#29983;&#12414;&#12391;&#12398;&#12479;&#12540;&#12531;&#25968;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#20553;&#20154;&#35477;&#29983;&#12414;&#12391;&#12398;&#12479;&#12540;&#12531;&#25968;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_PRODUCING</Tag>
+		<English>What the city currently produces. In case there is a production queue defined, the length of the queue is displayed in square brackets.</English>
+		<French>&#29694;&#22312;&#29983;&#29987;&#20013;&#12398;&#12518;&#12491;&#12483;&#12488;&#12420;&#24314;&#36896;&#29289;&#12290;[NEWLINE]&#29983;&#29987;&#12461;&#12517;&#12540;&#12395;&#30331;&#37682;&#12364;&#12354;&#12427;&#22580;&#21512;&#12289;&#25324;&#24359;&#20869;&#12395;&#25968;&#12364;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#29694;&#22312;&#29983;&#29987;&#20013;&#12398;&#12518;&#12491;&#12483;&#12488;&#12420;&#24314;&#36896;&#29289;&#12290;[NEWLINE]&#29983;&#29987;&#12461;&#12517;&#12540;&#12395;&#30331;&#37682;&#12364;&#12354;&#12427;&#22580;&#21512;&#12289;&#25324;&#24359;&#20869;&#12395;&#25968;&#12364;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_TURNS</Tag>
+		<English>Number of turns till current production is finshed. In case there is a production queue defined, the length of the queue is displayed in square brackets. [NEWLINE][COLOR_YELLOW]Yellow[COLOR_REVERT]: Avairable to hurry this prodction.</English>
+		<French>&#29694;&#22312;&#29983;&#29987;&#20013;&#12398;&#12518;&#12491;&#12483;&#12488;&#12420;&#24314;&#36896;&#29289;&#12398;&#12289;&#23436;&#25104;&#12414;&#12391;&#12398;&#12479;&#12540;&#12531;&#25968;&#12290;[NEWLINE]&#29983;&#29987;&#12461;&#12517;&#12540;&#12395;&#30331;&#37682;&#12364;&#12354;&#12427;&#22580;&#21512;&#12289;&#25324;&#24359;&#20869;&#12395;&#12381;&#12398;&#25968;&#12364;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;[NEWLINE]&#x7dca;&#x6025;&#x751f;&#x7523;&#x304c;&#x53ef;&#x80fd;&#x306a;&#x5834;&#x5408;&#x3001;&#x9ec4;&#x8272;&#x3067;&#x8868;&#x793a;&#x3055;&#x308c;&#x308b;&#x3002;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#29694;&#22312;&#29983;&#29987;&#20013;&#12398;&#12518;&#12491;&#12483;&#12488;&#12420;&#24314;&#36896;&#29289;&#12398;&#12289;&#23436;&#25104;&#12414;&#12391;&#12398;&#12479;&#12540;&#12531;&#25968;&#12290;[NEWLINE]&#29983;&#29987;&#12461;&#12517;&#12540;&#12395;&#30331;&#37682;&#12364;&#12354;&#12427;&#22580;&#21512;&#12289;&#25324;&#24359;&#20869;&#12395;&#12381;&#12398;&#25968;&#12364;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;[NEWLINE]&#x7dca;&#x6025;&#x751f;&#x7523;&#x304c;&#x53ef;&#x80fd;&#x306a;&#x5834;&#x5408;&#x3001;&#x9ec4;&#x8272;&#x3067;&#x8868;&#x793a;&#x3055;&#x308c;&#x308b;&#x3002;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_RELIGIONS</Tag>
+		<English>Current religions of the city. Does also indicate if the city is the holy city of that religion.</English>
+		<French>&#29694;&#22312;&#12398;&#37117;&#24066;&#12398;&#23447;&#25945;&#12290;[NEWLINE]&#12381;&#12398;&#37117;&#24066;&#12364;&#23447;&#25945;&#12398;&#32854;&#37117;&#12391;&#12354;&#12427;&#12363;&#12393;&#12358;&#12363;&#12418;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#29694;&#22312;&#12398;&#37117;&#24066;&#12398;&#23447;&#25945;&#12290;[NEWLINE]&#12381;&#12398;&#37117;&#24066;&#12364;&#23447;&#25945;&#12398;&#32854;&#37117;&#12391;&#12354;&#12427;&#12363;&#12393;&#12358;&#12363;&#12418;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_SPECIALISTS</Tag>
+		<!-- %c :  Bullet Icon, Happy Icon, Culture Icon, Research Icon, Gold Icon,  Hammer Icon -->
+		<English>Number of active specialists for all kinds.[NEWLINE][NEWLINE]REMARK: the way the specialist are displayed in this screen can be setup with the variale 'bShowCompressedSpecialists' in the file 'CvModSpecialDomesticAdvisor.py'. Look for the comments there to reduce the screen space for display.</English>
+		<French>&#27963;&#21205;&#20013;&#12398;&#23554;&#38272;&#23478;&#12398;&#25968;&#12290;[NEWLINE][NEWLINE]&#27880;&#24847;: 'CvModSpecialDomesticAdvisor.py'&#12398;&#12289;'bShowCompressedSpecialists'&#12398;&#20516;&#12434;&#22793;&#26356;&#12377;&#12427;&#12392;&#12289;&#23554;&#38272;&#23478;&#12398;&#34920;&#31034;&#26041;&#27861;&#12434;&#22793;&#26356;&#21487;&#33021;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#27963;&#21205;&#20013;&#12398;&#23554;&#38272;&#23478;&#12398;&#25968;&#12290;[NEWLINE][NEWLINE]&#27880;&#24847;: 'CvModSpecialDomesticAdvisor.py'&#12398;&#12289;'bShowCompressedSpecialists'&#12398;&#20516;&#12434;&#22793;&#26356;&#12377;&#12427;&#12392;&#12289;&#23554;&#38272;&#23478;&#12398;&#34920;&#31034;&#26041;&#27861;&#12434;&#22793;&#26356;&#21487;&#33021;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_AUTOMATION</Tag>
+		<!-- %c :  Food Icon, Hammer Icon, Gold Icon, Research Icon, Head Icon, red Food Icon -->
+		<English>Active automations: [NEWLINE] %s : citizens [NEWLINE] %s : prodction [NEWLINE] %s : emphasize food [NEWLINE] %s : emphasize production [NEWLINE] %s : emphasize commerce [NEWLINE] %s : emphasize research [NEWLINE] %s : emphasize great persons [NEWLINE] %s : emphasize avoid growth.</English>
+		<French>&#26377;&#21177;&#12395;&#12394;&#12387;&#12390;&#12356;&#12427;&#33258;&#21205;&#21270;&#35373;&#23450;: [NEWLINE] %s : &#20303;&#27665;&#37197;&#32622; [NEWLINE] %s : &#29983;&#29987; [NEWLINE] %s : &#39135;&#26009;&#29983;&#29987;&#12434;&#20778;&#20808; [NEWLINE] %s : &#29983;&#29987;&#21147;&#12434;&#20778;&#20808; [NEWLINE] %s : &#21830;&#26989;&#12434;&#20778;&#20808; [NEWLINE] %s : &#30740;&#31350;&#12434;&#20778;&#20808; [NEWLINE] %s : &#20553;&#20154;&#35477;&#29983;&#12434;&#20778;&#20808; [NEWLINE] %s : &#20154;&#21475;&#22679;&#21152;&#12434;&#20572;&#27490;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#26377;&#21177;&#12395;&#12394;&#12387;&#12390;&#12356;&#12427;&#33258;&#21205;&#21270;&#35373;&#23450;: [NEWLINE] %s : &#20303;&#27665;&#37197;&#32622; [NEWLINE] %s : &#29983;&#29987; [NEWLINE] %s : &#39135;&#26009;&#29983;&#29987;&#12434;&#20778;&#20808; [NEWLINE] %s : &#29983;&#29987;&#21147;&#12434;&#20778;&#20808; [NEWLINE] %s : &#21830;&#26989;&#12434;&#20778;&#20808; [NEWLINE] %s : &#30740;&#31350;&#12434;&#20778;&#20808; [NEWLINE] %s : &#20553;&#20154;&#35477;&#29983;&#12434;&#20778;&#20808; [NEWLINE] %s : &#20154;&#21475;&#22679;&#21152;&#12434;&#20572;&#27490;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_DEFENSE_VIS</Tag>
+		<English>Actual defense modifier of the city. It is calculated by the total city defense modifier minus the actual city defense damage.</English>
+		<French>&#29694;&#22312;&#12398;&#37117;&#24066;&#12398;&#38450;&#24481;&#12508;&#12540;&#12490;&#12473;&#20516;&#12290;[NEWLINE](&#26412;&#26469;&#12398;&#38450;&#24481;&#12508;&#12540;&#12490;&#12473;&#20516;&#12363;&#12425;&#12289;&#29694;&#22312;&#21463;&#12369;&#12390;&#12356;&#12427;&#12480;&#12513;&#12540;&#12472;&#20516;&#12434;&#24341;&#12356;&#12383;&#25968;&#20516;&#12290;)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#29694;&#22312;&#12398;&#37117;&#24066;&#12398;&#38450;&#24481;&#12508;&#12540;&#12490;&#12473;&#20516;&#12290;[NEWLINE](&#26412;&#26469;&#12398;&#38450;&#24481;&#12508;&#12540;&#12490;&#12473;&#20516;&#12363;&#12425;&#12289;&#29694;&#22312;&#21463;&#12369;&#12390;&#12356;&#12427;&#12480;&#12513;&#12540;&#12472;&#20516;&#12434;&#24341;&#12356;&#12383;&#25968;&#20516;&#12290;)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_DEFENSE_DAMAGE</Tag>
+		<English>Actual city defense damage.</English>
+		<French>&#29694;&#22312;&#12398;&#37117;&#24066;&#12398;&#38450;&#24481;&#12508;&#12540;&#12490;&#12473;&#12408;&#12398;&#12480;&#12513;&#12540;&#12472;&#20516;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#29694;&#22312;&#12398;&#37117;&#24066;&#12398;&#38450;&#24481;&#12508;&#12540;&#12490;&#12473;&#12408;&#12398;&#12480;&#12513;&#12540;&#12472;&#20516;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_DEFENSE_TOTAL</Tag>
+		<English>Total city defense modifier.</English>
+		<French>&#37117;&#24066;&#12398;&#38450;&#24481;&#12508;&#12540;&#12490;&#12473;&#20516;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12398;&#38450;&#24481;&#12508;&#12540;&#12490;&#12473;&#20516;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_CONSCRIPT</Tag>
+		<English>Can the city conscript units?</English>
+		<French>&#37117;&#24066;&#12364;&#12518;&#12491;&#12483;&#12488;&#12434;&#24500;&#20853;&#12391;&#12365;&#12427;&#12363;&#12393;&#12358;&#12363;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12364;&#12518;&#12491;&#12483;&#12488;&#12434;&#24500;&#20853;&#12391;&#12365;&#12427;&#12363;&#12393;&#12358;&#12363;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_CONSCRIPT_UNIT</Tag>
+		<English>The best unit the city can conscript. If the city can't conspript anyway, a '-' is displayed.</English>
+		<French>&#37117;&#24066;&#12364;&#24500;&#20853;&#12391;&#12365;&#12427;&#26368;&#33391;&#12398;&#12518;&#12491;&#12483;&#12488;&#12290;'-'&#12392;&#34920;&#31034;&#12373;&#12428;&#12390;&#12356;&#12427;&#22580;&#21512;&#12399;&#24500;&#20853;&#19981;&#21487;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12364;&#24500;&#20853;&#12391;&#12365;&#12427;&#26368;&#33391;&#12398;&#12518;&#12491;&#12483;&#12488;&#12290;'-'&#12392;&#34920;&#31034;&#12373;&#12428;&#12390;&#12356;&#12427;&#22580;&#21512;&#12399;&#24500;&#20853;&#19981;&#21487;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_POWER</Tag>
+		<!-- %c :  Power Icon -->
+		<English>An %c indicates that the city has a power plant.</English>
+		<French>&#37117;&#24066;&#12395;&#30330;&#38651;&#25152;&#12364;&#12354;&#12428;&#12400;&#12289;%c&#12364;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12395;&#30330;&#38651;&#25152;&#12364;&#12354;&#12428;&#12400;&#12289;%c&#12364;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_THREATS</Tag>
+		<!-- %c :  Angry Icon -->
+		<English>An %c indicates, that there are enemy units in the city area.</English>
+		<French>&#37117;&#24066;&#22287;&#12395;&#25973;&#12518;&#12491;&#12483;&#12488;&#12364;&#23384;&#22312;&#12377;&#12427;&#22580;&#21512;&#12289;%c&#12364;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#22287;&#12395;&#25973;&#12518;&#12491;&#12483;&#12488;&#12364;&#23384;&#22312;&#12377;&#12427;&#22580;&#21512;&#12289;%c&#12364;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_DISORDER</Tag>
+		<!-- %c :  Occupation Icon, Angry Icon -->
+		<English>Indicates problems with the citizens: [NEWLINE] %c : city is in disorder [NEWLINE] %c : city is under occupation.[NEWLINE][NEWLINE]The number of turns the current status remains active is displayed behind the icon.</English>
+		<French>&#20303;&#27665;&#12395;&#21839;&#38988;&#12364;&#12354;&#12427;&#22580;&#21512;&#12395;&#12450;&#12452;&#12467;&#12531;&#12364;&#34920;&#31034;&#12373;&#12428;&#12427;: [NEWLINE] %c : &#28961;&#31209;&#24207;&#29366;&#24907; [NEWLINE] %c : &#21344;&#38936;&#29366;&#24907; [NEWLINE][NEWLINE]&#37117;&#24066;&#27963;&#21205;&#12364;&#26377;&#21177;&#12395;&#12394;&#12427;&#12414;&#12391;&#12398;&#27531;&#12426;&#12479;&#12540;&#12531;&#25968;&#12364;&#25324;&#24359;&#20869;&#12395;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#20303;&#27665;&#12395;&#21839;&#38988;&#12364;&#12354;&#12427;&#22580;&#21512;&#12395;&#12450;&#12452;&#12467;&#12531;&#12364;&#34920;&#31034;&#12373;&#12428;&#12427;: [NEWLINE] %c : &#28961;&#31209;&#24207;&#29366;&#24907; [NEWLINE] %c : &#21344;&#38936;&#29366;&#24907; [NEWLINE][NEWLINE]&#37117;&#24066;&#27963;&#21205;&#12364;&#26377;&#21177;&#12395;&#12394;&#12427;&#12414;&#12391;&#12398;&#27531;&#12426;&#12479;&#12540;&#12531;&#25968;&#12364;&#25324;&#24359;&#20869;&#12395;&#34920;&#31034;&#12373;&#12428;&#12427;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<!-- %c :  Happy  Icon, Unhappy Icon -->
+		<Tag>TXT_KEY_DOM_ADV_HELP_NO_MILITARY_ANGER</Tag>
+		<English>Indicates, if there are unhappy people due to missing military ground units. [NEWLINE] %c : no military anger [NEWLINE] %c : military anger</English>
+		<French>&#37117;&#24066;&#12395;&#38520;&#36557;&#12518;&#12491;&#12483;&#12488;&#12364;&#39376;&#23663;&#12375;&#12390;&#12356;&#12427;&#12363;&#12393;&#12358;&#12363;&#12434;&#31034;&#12377;&#12290;[NEWLINE](&#39376;&#23663;&#12375;&#12390;&#12356;&#12394;&#12356;&#12392;&#12289;&#19981;&#24184;&#12394;&#20303;&#27665;&#12364;&#22679;&#12360;&#12427;&#21407;&#22240;&#12392;&#12394;&#12427;&#12290;)[NEWLINE] %c : &#39376;&#23663;&#12375;&#12390;&#12356;&#12427; [NEWLINE] %c : &#39376;&#23663;&#12375;&#12390;&#12356;&#12394;&#12356;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12395;&#38520;&#36557;&#12518;&#12491;&#12483;&#12488;&#12364;&#39376;&#23663;&#12375;&#12390;&#12356;&#12427;&#12363;&#12393;&#12358;&#12363;&#12434;&#31034;&#12377;&#12290;[NEWLINE](&#39376;&#23663;&#12375;&#12390;&#12356;&#12394;&#12356;&#12392;&#12289;&#19981;&#24184;&#12394;&#20303;&#27665;&#12364;&#22679;&#12360;&#12427;&#21407;&#22240;&#12392;&#12394;&#12427;&#12290;)[NEWLINE] %c : &#39376;&#23663;&#12375;&#12390;&#12356;&#12427; [NEWLINE] %c : &#39376;&#23663;&#12375;&#12390;&#12356;&#12394;&#12356;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_WAR_WEARINESS</Tag>
+		<English>Actual War Weariness in the city. Does only matters if you are on war, but is always calculated, so that you can take countermeasures (not sure about that).</English>
+		<French>&#37117;&#24066;&#12398;&#21421;&#25126;&#24863;&#24773;&#12290;&#24120;&#12395;&#25968;&#20516;&#12364;&#34920;&#31034;&#12373;&#12428;&#12427;&#12364;&#12289;&#25126;&#20105;&#20013;&#12391;&#12394;&#12356;&#22580;&#21512;&#12395;&#12399;&#19981;&#30906;&#12363;&#12394;&#25968;&#20516;&#12392;&#12394;&#12427;&#12363;&#12418;&#12375;&#12428;&#12394;&#12356;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12398;&#21421;&#25126;&#24863;&#24773;&#12290;&#24120;&#12395;&#25968;&#20516;&#12364;&#34920;&#31034;&#12373;&#12428;&#12427;&#12364;&#12289;&#25126;&#20105;&#20013;&#12391;&#12394;&#12356;&#22580;&#21512;&#12395;&#12399;&#19981;&#30906;&#12363;&#12394;&#25968;&#20516;&#12392;&#12394;&#12427;&#12363;&#12418;&#12375;&#12428;&#12394;&#12356;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_FREE_EXPERIENCE</Tag>
+		<English>Number of free experience points a military units gets when its produced in this city.[NEWLINE]Points in order of Land Units, Sea Unit and Air Units</English>
+		<French>&#12381;&#12398;&#37117;&#24066;&#12391;&#29983;&#29987;&#12373;&#12428;&#12427;&#36557;&#20107;&#12518;&#12491;&#12483;&#12488;&#12364;&#12289;&#29983;&#29987;&#26178;&#12395;&#24471;&#12425;&#12428;&#12427;&#32076;&#39443;&#20516;&#12290;[NEWLINE]&#x9678;&#x3001;&#x6d77;&#x3001;&#x7a7a;&#x306e;&#x9806;&#x306b;&#x8868;&#x793a;&#x3002;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#12381;&#12398;&#37117;&#24066;&#12391;&#29983;&#29987;&#12373;&#12428;&#12427;&#36557;&#20107;&#12518;&#12491;&#12483;&#12488;&#12364;&#12289;&#29983;&#29987;&#26178;&#12395;&#24471;&#12425;&#12428;&#12427;&#32076;&#39443;&#20516;&#12290;[NEWLINE]&#x9678;&#x3001;&#x6d77;&#x3001;&#x7a7a;&#x306e;&#x9806;&#x306b;&#x8868;&#x793a;&#x3002;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_COASTAL</Tag>
+		<English>Indicates if the city is at the coast. If yes, it can build sea units and create related buildings like drydocks.</English>
+		<French>&#37117;&#24066;&#12364;&#28023;&#23736;&#12395;&#25509;&#12375;&#12390;&#12356;&#12427;&#12363;&#12393;&#12358;&#12363;&#12290;[NEWLINE]&#25509;&#12375;&#12390;&#12356;&#12427;&#22580;&#21512;&#12395;&#12398;&#12415;&#12289;&#28023;&#19978;&#12518;&#12491;&#12483;&#12488;&#12420;&#38306;&#36899;&#12377;&#12427;&#26045;&#35373;&#12398;&#24314;&#31689;&#12364;&#12391;&#12365;&#12427;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12364;&#28023;&#23736;&#12395;&#25509;&#12375;&#12390;&#12356;&#12427;&#12363;&#12393;&#12358;&#12363;&#12290;[NEWLINE]&#25509;&#12375;&#12390;&#12356;&#12427;&#22580;&#21512;&#12395;&#12398;&#12415;&#12289;&#28023;&#19978;&#12518;&#12491;&#12483;&#12488;&#12420;&#38306;&#36899;&#12377;&#12427;&#26045;&#35373;&#12398;&#24314;&#31689;&#12364;&#12391;&#12365;&#12427;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_UNITS_TOTAL_NUM</Tag>
+		<English>Number of own units in the city. [NEWLINE]This includes military and non military units.</English>
+		<French>&#37117;&#24066;&#12395;&#12356;&#12427;&#33258;&#22269;&#12518;&#12491;&#12483;&#12488;&#25968;&#12290; [NEWLINE]&#36557;&#20107;&#12518;&#12491;&#12483;&#12488;&#12418;&#38750;&#36557;&#20107;&#12518;&#12491;&#12483;&#12488;&#12418;&#21547;&#12414;&#12428;&#12427;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12395;&#12356;&#12427;&#33258;&#22269;&#12518;&#12491;&#12483;&#12488;&#25968;&#12290; [NEWLINE]&#36557;&#20107;&#12518;&#12491;&#12483;&#12488;&#12418;&#38750;&#36557;&#20107;&#12518;&#12491;&#12483;&#12488;&#12418;&#21547;&#12414;&#12428;&#12427;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_UNITS_MIL_NUM</Tag>
+		<English>Number of own military units in the city. [NEWLINE]Military units are here all units which have either combat or aircombat strength. This excludes ICBMs and spies.</English>
+		<French>&#37117;&#24066;&#12395;&#12356;&#12427;&#33258;&#22269;&#36557;&#20107;&#12518;&#12491;&#12483;&#12488;&#25968;&#12290; [NEWLINE]&#25126;&#38360;&#33021;&#21147;/&#31354;&#25126;&#33021;&#21147;&#12434;&#25345;&#12388;&#20840;&#12390;&#12398;&#12518;&#12491;&#12483;&#12488;&#12364;&#12459;&#12454;&#12531;&#12488;&#12373;&#12428;&#12427;&#12290;[NEWLINE](ICBM&#12392;&#12473;&#12497;&#12452;&#12399;&#38500;&#12367;&#12290;)</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12395;&#12356;&#12427;&#33258;&#22269;&#36557;&#20107;&#12518;&#12491;&#12483;&#12488;&#25968;&#12290; [NEWLINE]&#25126;&#38360;&#33021;&#21147;/&#31354;&#25126;&#33021;&#21147;&#12434;&#25345;&#12388;&#20840;&#12390;&#12398;&#12518;&#12491;&#12483;&#12488;&#12364;&#12459;&#12454;&#12531;&#12488;&#12373;&#12428;&#12427;&#12290;[NEWLINE](ICBM&#12392;&#12473;&#12497;&#12452;&#12399;&#38500;&#12367;&#12290;)</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_UNITS_MIL_GROUND_NUM</Tag>
+		<English>Number of own military ground units in the city. [NEWLINE]Ground units are all military units assigned to the domain 'land'.</English>
+		<French>&#37117;&#24066;&#12395;&#12356;&#12427;&#33258;&#22269;&#38520;&#36557;&#12518;&#12491;&#12483;&#12488;&#25968;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12395;&#12356;&#12427;&#33258;&#22269;&#38520;&#36557;&#12518;&#12491;&#12483;&#12488;&#25968;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_UNITS_MIL_SEA_NUM</Tag>
+		<English>Number of own military sea units in the city. [NEWLINE]Sea units are all military units assigned to the domain 'sea'.</English>
+		<French>&#37117;&#24066;&#12395;&#12356;&#12427;&#33258;&#22269;&#28023;&#36557;&#12518;&#12491;&#12483;&#12488;&#25968;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12395;&#12356;&#12427;&#33258;&#22269;&#28023;&#36557;&#12518;&#12491;&#12483;&#12488;&#25968;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_UNITS_MIL_AIR_NUM</Tag>
+		<English>Number of own military air units in the city. [NEWLINE]Air units are all military units assigned to the domain 'air'.</English>
+		<French>&#37117;&#24066;&#12395;&#12356;&#12427;&#33258;&#22269;&#31354;&#36557;&#12518;&#12491;&#12483;&#12488;&#25968;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12395;&#12356;&#12427;&#33258;&#22269;&#31354;&#36557;&#12518;&#12491;&#12483;&#12488;&#25968;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_UNITS_MIL_GROUND_DEFENSE_SUM</Tag>
+		<English>Sum of combat values of all own military ground units. [NEWLINE]It takes consideration of promotions, damages and defense modifiers of the units and the city. This roughly represents the city's actual strength against ground attacks.</English>
+		<French>&#33258;&#22269;&#38520;&#36557;&#12518;&#12491;&#12483;&#12488;&#12398;&#32207;&#25126;&#38360;&#20516;&#12290; [NEWLINE]&#37117;&#24066;&#12392;&#12518;&#12491;&#12483;&#12488;&#12398;&#26119;&#36914;&#12289;&#25613;&#23475;&#12289;&#38450;&#24481;&#29366;&#24907;&#12394;&#12393;&#12364;&#32771;&#24942;&#12373;&#12428;&#12427;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#33258;&#22269;&#38520;&#36557;&#12518;&#12491;&#12483;&#12488;&#12398;&#32207;&#25126;&#38360;&#20516;&#12290; [NEWLINE]&#37117;&#24066;&#12392;&#12518;&#12491;&#12483;&#12488;&#12398;&#26119;&#36914;&#12289;&#25613;&#23475;&#12289;&#38450;&#24481;&#29366;&#24907;&#12394;&#12393;&#12364;&#32771;&#24942;&#12373;&#12428;&#12427;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_UNITS_MIL_GROUND_DEFENSE_AVG</Tag>
+		<English>Average combat value of all own military ground units. [NEWLINE]It takes consideration of promotions, damages and defense modifiers of the units and the city. This roughly represents the actual quality of the city defense ground units.</English>
+		<French>&#33258;&#22269;&#38520;&#36557;&#12518;&#12491;&#12483;&#12488;&#12398;&#24179;&#22343;&#25126;&#38360;&#20516;&#12290; [NEWLINE]&#37117;&#24066;&#12392;&#12518;&#12491;&#12483;&#12488;&#12398;&#26119;&#36914;&#12289;&#25613;&#23475;&#12289;&#38450;&#24481;&#29366;&#24907;&#12394;&#12393;&#12364;&#32771;&#24942;&#12373;&#12428;&#12427;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#33258;&#22269;&#38520;&#36557;&#12518;&#12491;&#12483;&#12488;&#12398;&#24179;&#22343;&#25126;&#38360;&#20516;&#12290; [NEWLINE]&#37117;&#24066;&#12392;&#12518;&#12491;&#12483;&#12488;&#12398;&#26119;&#36914;&#12289;&#25613;&#23475;&#12289;&#38450;&#24481;&#29366;&#24907;&#12394;&#12393;&#12364;&#32771;&#24942;&#12373;&#12428;&#12427;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_UNITS_MIL_AIR_DEFENSE_NUM</Tag>
+		<English>Number of own air defense units in the city. [NEWLINE]These could be ground, sea or air units. It roughly represents the strength of the city's defense against air strikes.</English>
+		<French>&#37117;&#24066;&#12398;&#33258;&#22269;&#38450;&#31354;&#12518;&#12491;&#12483;&#12488;&#25968;&#12290; [NEWLINE]&#31354;&#36557;&#12384;&#12369;&#12391;&#12394;&#12367;&#12289;&#23550;&#31354;&#33021;&#21147;&#12398;&#12354;&#12427;&#38520;/&#28023;&#36557;&#12518;&#12491;&#12483;&#12488;&#12418;&#21547;&#12414;&#12428;&#12427;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12398;&#33258;&#22269;&#38450;&#31354;&#12518;&#12491;&#12483;&#12488;&#25968;&#12290; [NEWLINE]&#31354;&#36557;&#12384;&#12369;&#12391;&#12394;&#12367;&#12289;&#23550;&#31354;&#33021;&#21147;&#12398;&#12354;&#12427;&#38520;/&#28023;&#36557;&#12518;&#12491;&#12483;&#12488;&#12418;&#21547;&#12414;&#12428;&#12427;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_UNITS_MIL_AIR_DEFENSE_AVG</Tag>
+		<English>Average air interception probability of all own air defense units in the city. [NEWLINE]These could be ground, sea or air units. It roughly represents the quality of the city's air defense.</English>
+		<French>&#37117;&#24066;&#12398;&#33258;&#22269;&#38450;&#31354;&#12518;&#12491;&#12483;&#12488;&#12395;&#12424;&#12427;&#12289;&#24179;&#22343;&#23550;&#31354;&#36814;&#25731;&#29575;&#12290; [NEWLINE]&#31354;&#36557;&#12384;&#12369;&#12391;&#12394;&#12367;&#12289;&#23550;&#31354;&#33021;&#21147;&#12398;&#12354;&#12427;&#38520;/&#28023;&#36557;&#12518;&#12491;&#12483;&#12488;&#12418;&#21547;&#12414;&#12428;&#12427;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#37117;&#24066;&#12398;&#33258;&#22269;&#38450;&#31354;&#12518;&#12491;&#12483;&#12488;&#12395;&#12424;&#12427;&#12289;&#24179;&#22343;&#23550;&#31354;&#36814;&#25731;&#29575;&#12290; [NEWLINE]&#31354;&#36557;&#12384;&#12369;&#12391;&#12394;&#12367;&#12289;&#23550;&#31354;&#33021;&#21147;&#12398;&#12354;&#12427;&#38520;/&#28023;&#36557;&#12518;&#12491;&#12483;&#12488;&#12418;&#21547;&#12414;&#12428;&#12427;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_UNITS_MIL_AIR_PATROL</Tag>
+		<English>The number of air units currently doing air patrol.</English>
+		<French>&#23550;&#31354;&#36814;&#25731;&#24907;&#21218;&#12434;&#12392;&#12387;&#12390;&#12356;&#12427;&#31354;&#36557;&#12518;&#12491;&#12483;&#12488;&#25968;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#23550;&#31354;&#36814;&#25731;&#24907;&#21218;&#12434;&#12392;&#12387;&#12390;&#12356;&#12427;&#31354;&#36557;&#12518;&#12491;&#12483;&#12488;&#25968;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_ESPIONAGE</Tag>
+		<English>Net espionage point.</English>
+		<French>&#x8adc;&#x5831;&#x30dd;&#x30a4;&#x30f3;&#x30c8;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#x8adc;&#x5831;&#x30dd;&#x30a4;&#x30f3;&#x30c8;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_CORPORATIONS</Tag>
+		<English>Current Corporations of the city. Does also indicate if the city is the headquarter of that Corporation.</English>
+		<French>&#x73fe;&#x5728;&#x306e;&#x90fd;&#x5e02;&#x306e;&#x4f01;&#x696d;&#x3002;[NEWLINE]&#x305d;&#x306e;&#x90fd;&#x5e02;&#x306b;&#x4f01;&#x696d;&#x306e;&#x672c;&#x793e;&#x304c;&#x3042;&#x308b;&#x304b;&#x3069;&#x3046;&#x304b;&#x3082;&#x8868;&#x793a;&#x3055;&#x308c;&#x308b;&#x3002;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#x73fe;&#x5728;&#x306e;&#x90fd;&#x5e02;&#x306e;&#x4f01;&#x696d;&#x3002;[NEWLINE]&#x305d;&#x306e;&#x90fd;&#x5e02;&#x306b;&#x4f01;&#x696d;&#x306e;&#x672c;&#x793e;&#x304c;&#x3042;&#x308b;&#x304b;&#x3069;&#x3046;&#x304b;&#x3082;&#x8868;&#x793a;&#x3055;&#x308c;&#x308b;&#x3002;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_BASE_GOLD</Tag>
+		<English>Base gold income per turn.</English>
+		<French>&#x57fa;&#x672c;&#37329;&#37549;&#21454;&#20837;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#x57fa;&#x672c;&#37329;&#37549;&#21454;&#20837;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_BASE_RESEARCH</Tag>
+		<English>Net research rate.</English>
+		<French>&#x57fa;&#x672c;&#30740;&#31350;&#36027;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#x57fa;&#x672c;&#30740;&#31350;&#36027;&#12290;</Japanese>
+	</TEXT>
+<!-- ###################################################  -->
+<!-- 				On-Line Help for Views -->
+<!-- ###################################################  -->
+	<TEXT>
+		<!--   %s : objectHave,  objectPossible, objectUnderConstruction, objectNotPossible, objectHaveObsolete -->
+		<Tag>TXT_KEY_DOM_ADV_HELP_BUILD_VIEW</Tag>
+		<English>In this view, a list of all available buildings of your civ is displayed. The list will grow as soon as you get the prerequisites to build other buildings. [NEWLINE]The symbols have the following meaning : [NEWLINE] %s : already built[NEWLINE] %s : can be build[NEWLINE] %s : under construction[NEWLINE] %s : can't be build[NEWLINE] %s : already built, but became obsolete</English>
+		<French>&#29694;&#26178;&#28857;&#12391;&#24314;&#31689;&#21487;&#33021;&#12394;&#20840;&#12390;&#12398;&#26045;&#35373;&#12398;&#19968;&#35239;&#12290; [NEWLINE]&#35352;&#21495;&#12398;&#24847;&#21619;: [NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;[NEWLINE] %s : &#24314;&#31689;&#21487;&#33021;[NEWLINE] %s : &#24314;&#31689;&#20013;[NEWLINE] %s : &#24314;&#31689;&#19981;&#21487;[NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;&#12384;&#12364;&#38515;&#33104;&#21270;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#29694;&#26178;&#28857;&#12391;&#24314;&#31689;&#21487;&#33021;&#12394;&#20840;&#12390;&#12398;&#26045;&#35373;&#12398;&#19968;&#35239;&#12290; [NEWLINE]&#35352;&#21495;&#12398;&#24847;&#21619;: [NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;[NEWLINE] %s : &#24314;&#31689;&#21487;&#33021;[NEWLINE] %s : &#24314;&#31689;&#20013;[NEWLINE] %s : &#24314;&#31689;&#19981;&#21487;[NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;&#12384;&#12364;&#38515;&#33104;&#21270;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_WW_VIEW</Tag>
+		<!--   %s : objectHave,  objectPossible, objectUnderConstruction, objectNotPossible, objectHaveObsolete, objectPossibleConcurrent, objectNotPossibleConcurrent  -->
+		<English>In this view, a list of all available world wonders is displayed. The list will grow as soon as you get the prerequisites to construct other world wonders. [NEWLINE]The symbols have the following meaning : [NEWLINE] %s : already built[NEWLINE] %s : can be build[NEWLINE] %s : under construction[NEWLINE] %s : can't be build[NEWLINE] %s : already built, but became obsolete[NEWLINE] %s : can be built, but is under construction by another civ[NEWLINE] %s : can't be build, but is under construction by another civ[NEWLINE][NEWLINE]Remark:[NEWLINE]If you don't like see information about civs you havn't met yet, then this can be setup inside of the source code. Please look in the file 'CvModSpecialDomesticAdvisor.py' for the variable 'bShowKnownCivsOnly' and read the comments for further information. The default setting is, that you see the information about civs you haven't met yet.</English>
+		<French>&#29694;&#26178;&#28857;&#12391;&#24314;&#31689;&#21487;&#33021;&#12394;&#20840;&#12390;&#12398;&#19990;&#30028;&#36986;&#29987;&#12290; [NEWLINE]&#35352;&#21495;&#12398;&#24847;&#21619;: [NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;[NEWLINE] %s : &#24314;&#31689;&#21487;&#33021;[NEWLINE] %s : &#24314;&#31689;&#20013;[NEWLINE] %s : &#24314;&#31689;&#19981;&#21487;[NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;&#12384;&#12364;&#38515;&#33104;&#21270;[NEWLINE] %s : &#24314;&#31689;&#21487;&#33021;&#12290;&#20182;&#12398;&#25991;&#26126;&#12364;&#29694;&#22312;&#24314;&#31689;&#20013;&#12290;[NEWLINE] %s : &#24314;&#31689;&#19981;&#21487;&#12290;&#20182;&#12398;&#25991;&#26126;&#12364;&#29694;&#22312;&#24314;&#31689;&#20013;&#12290;[NEWLINE][NEWLINE]&#27880;&#24847;:[NEWLINE]&#27161;&#28310;&#12398;&#35373;&#23450;&#12391;&#12399;&#12289;&#26410;&#30693;&#12398;&#25991;&#26126;&#12395;&#38306;&#12377;&#12427;&#24773;&#22577;&#12418;&#24471;&#12425;&#12428;&#12427;&#12290;&#12381;&#12428;&#12364;&#22909;&#12414;&#12375;&#12367;&#12394;&#12356;&#22580;&#21512;&#12399;&#12289;'CvModSpecialDomesticAdvisor.py'&#12392;&#12356;&#12358;&#12501;&#12449;&#12452;&#12523;&#20869;&#12398;&#12289;'bShowKnownCivsOnly'&#12398;&#20516;&#12434;&#22793;&#26356;&#12377;&#12427;&#12290;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#29694;&#26178;&#28857;&#12391;&#24314;&#31689;&#21487;&#33021;&#12394;&#20840;&#12390;&#12398;&#19990;&#30028;&#36986;&#29987;&#12290; [NEWLINE]&#35352;&#21495;&#12398;&#24847;&#21619;: [NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;[NEWLINE] %s : &#24314;&#31689;&#21487;&#33021;[NEWLINE] %s : &#24314;&#31689;&#20013;[NEWLINE] %s : &#24314;&#31689;&#19981;&#21487;[NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;&#12384;&#12364;&#38515;&#33104;&#21270;[NEWLINE] %s : &#24314;&#31689;&#21487;&#33021;&#12290;&#20182;&#12398;&#25991;&#26126;&#12364;&#29694;&#22312;&#24314;&#31689;&#20013;&#12290;[NEWLINE] %s : &#24314;&#31689;&#19981;&#21487;&#12290;&#20182;&#12398;&#25991;&#26126;&#12364;&#29694;&#22312;&#24314;&#31689;&#20013;&#12290;[NEWLINE][NEWLINE]&#27880;&#24847;:[NEWLINE]&#27161;&#28310;&#12398;&#35373;&#23450;&#12391;&#12399;&#12289;&#26410;&#30693;&#12398;&#25991;&#26126;&#12395;&#38306;&#12377;&#12427;&#24773;&#22577;&#12418;&#24471;&#12425;&#12428;&#12427;&#12290;&#12381;&#12428;&#12364;&#22909;&#12414;&#12375;&#12367;&#12394;&#12356;&#22580;&#21512;&#12399;&#12289;'CvModSpecialDomesticAdvisor.py'&#12392;&#12356;&#12358;&#12501;&#12449;&#12452;&#12523;&#20869;&#12398;&#12289;'bShowKnownCivsOnly'&#12398;&#20516;&#12434;&#22793;&#26356;&#12377;&#12427;&#12290;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_NW_VIEW</Tag>
+		<!--   %s : objectHave,  objectPossible, objectUnderConstruction, objectNotPossible, objectHaveObsolete  -->
+		<English>In this view, a list of all available national wonders is displayed. The list will grow as soon as you get the prerequisites to construct other national wonders. [NEWLINE]The symbols have the following meaning : [NEWLINE] %s : already built[NEWLINE] %s : can be build[NEWLINE] %s : under construction[NEWLINE] %s : can't be build[NEWLINE] %s : already built, but became obsolete</English>
+		<French>&#29694;&#26178;&#28857;&#12391;&#24314;&#31689;&#21487;&#33021;&#12394;&#20840;&#12390;&#12398;&#22269;&#23478;&#36986;&#29987;&#12290; [NEWLINE]&#35352;&#21495;&#12398;&#24847;&#21619;: [NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;[NEWLINE] %s : &#24314;&#31689;&#21487;&#33021;[NEWLINE] %s : &#24314;&#31689;&#20013;[NEWLINE] %s : &#24314;&#31689;&#19981;&#21487;[NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;&#12384;&#12364;&#38515;&#33104;&#21270;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#29694;&#26178;&#28857;&#12391;&#24314;&#31689;&#21487;&#33021;&#12394;&#20840;&#12390;&#12398;&#22269;&#23478;&#36986;&#29987;&#12290; [NEWLINE]&#35352;&#21495;&#12398;&#24847;&#21619;: [NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;[NEWLINE] %s : &#24314;&#31689;&#21487;&#33021;[NEWLINE] %s : &#24314;&#31689;&#20013;[NEWLINE] %s : &#24314;&#31689;&#19981;&#21487;[NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;&#12384;&#12364;&#38515;&#33104;&#21270;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_TW_VIEW</Tag>
+		<!--   %s : objectHave,  objectPossible, objectUnderConstruction, objectNotPossible, objectHaveObsolete  -->
+		<English>In this view, a list of all available team projects is displayed. The list will grow as soon as you get the prerequisites to construct other team projects . [NEWLINE]The symbols have the following meaning : [NEWLINE] %s : already built[NEWLINE] %s : can be build[NEWLINE] %s : under construction[NEWLINE] %s : can't be build[NEWLINE] %s : already built, but became obsolete</English>
+		<French>&#29694;&#26178;&#28857;&#12391;&#24314;&#31689;&#21487;&#33021;&#12394;&#20840;&#12390;&#12398;&#12481;&#12540;&#12512;&#12503;&#12525;&#12472;&#12455;&#12463;&#12488;&#12290; [NEWLINE]&#35352;&#21495;&#12398;&#24847;&#21619;: [NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;[NEWLINE] %s : &#24314;&#31689;&#21487;&#33021;[NEWLINE] %s : &#24314;&#31689;&#20013;[NEWLINE] %s : &#24314;&#31689;&#19981;&#21487;[NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;&#12384;&#12364;&#38515;&#33104;&#21270;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#29694;&#26178;&#28857;&#12391;&#24314;&#31689;&#21487;&#33021;&#12394;&#20840;&#12390;&#12398;&#12481;&#12540;&#12512;&#12503;&#12525;&#12472;&#12455;&#12463;&#12488;&#12290; [NEWLINE]&#35352;&#21495;&#12398;&#24847;&#21619;: [NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;[NEWLINE] %s : &#24314;&#31689;&#21487;&#33021;[NEWLINE] %s : &#24314;&#31689;&#20013;[NEWLINE] %s : &#24314;&#31689;&#19981;&#21487;[NEWLINE] %s : &#24314;&#31689;&#28168;&#12415;&#12384;&#12364;&#38515;&#33104;&#21270;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ADV_HELP_VISTA_WARNING</Tag>
+		<English>Not Function on Vista</English>
+		<French>&#x56;&#x69;&#x73;&#x74;&#x61;&#x3067;&#x306f;&#x6a5f;&#x80fd;&#x3057;&#x307e;&#x305b;&#x3093;&#x3002;</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>&#x56;&#x69;&#x73;&#x74;&#x61;&#x3067;&#x306f;&#x6a5f;&#x80fd;&#x3057;&#x307e;&#x305b;&#x3093;&#x3002;</Japanese>
+	</TEXT>
+</Civ4GameText>

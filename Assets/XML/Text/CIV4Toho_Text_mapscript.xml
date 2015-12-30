@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Civilopedia CivLeaders -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- PerfectWorld2 Start -->
+	<TEXT>
+		<Tag>TXT_KEY_PERFECTWORLD_NEWWORLD_RULES</Tag>
+		<English />
+		<French>新大陸形成時のルール</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>新大陸形成時のルール</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PERFECTWORLD_PANGAEA_RULES</Tag>
+		<English />
+		<French>パンゲアの有無</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パンゲアの有無</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PERFECTWORLD_NEWWORLD_OLD_WORLD</Tag>
+		<English />
+		<French>全員が旧大陸からスタート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全員が旧大陸からスタート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PERFECTWORLD_NEWWORLD_ANYWHERE</Tag>
+		<English />
+		<French>新大陸側でも文明設置を許可</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>新大陸側でも文明設置を許可</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PERFECTWORLD_PANGAEA_OFF</Tag>
+		<English />
+		<French>パンゲア状マップを形成しない</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パンゲア状マップを形成しない</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PERFECTWORLD_PANGAEA_ON</Tag>
+		<English />
+		<French>パンゲア状マップを形成する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パンゲア状マップを形成する</Japanese>
+	</TEXT>
+	<!-- PerfectWorld2 End -->
+	<!-- Continents and Islands Start -->
+	<TEXT>
+		<Tag>TXT_KEY_MAP_SCRIPT_ADD_WATER</Tag>
+		<English />
+		<French>水タイルの増加率</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>水タイルの増加率</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MAP_SCRIPT_REDUCE_DESERT</Tag>
+		<English />
+		<French>砂漠タイルの減少率</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>砂漠タイルの減少率</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MAP_SCRIPT_ADD_PLAINS</Tag>
+		<English />
+		<French>平原タイルの増加率</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>平原タイルの増加率</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MAP_SCRIPT_TERRAIN_CLUMPING</Tag>
+		<English />
+		<French>地形の凝縮率</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地形の凝縮率</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MAP_SCRIPT_LOW</Tag>
+		<English />
+		<French>低</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>低</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MAP_SCRIPT_NORMAL</Tag>
+		<English />
+		<French>普通</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>普通</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MAP_SCRIPT_CLUMPED</Tag>
+		<English />
+		<French>高</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>高</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MAP_SCRIPT_VERY_CLUMPED</Tag>
+		<English />
+		<French>極高</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>極高</Japanese>
+	</TEXT>
+</Civ4GameText>

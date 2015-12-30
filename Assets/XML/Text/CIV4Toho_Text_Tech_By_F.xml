@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Civilopedia CivLeaders -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- CIVILIZATION INFOS -->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHOOTING_TECHNIQUE2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン毎の経験値獲得の可能性+5%&#13;[ICON_BULLET]スタンドバイユニット枠+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン毎の経験値獲得の可能性+5%&#13;[ICON_BULLET]スタンドバイユニット枠+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SHOOTING_TECHNIQUE3_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]ターン毎の経験値獲得の可能性+5%&#13;[ICON_BULLET]スタンドバイユニット枠+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]ターン毎の経験値獲得の可能性+5%&#13;[ICON_BULLET]スタンドバイユニット枠+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BISHAMON_TIGER_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]偉人バーをリセットする</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]偉人バーをリセットする</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TEACHING_OF_MEIREN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]全都市の人口+5</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]全都市の人口+5</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KANIZYUUNIKAI_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]偉人誕生時に追加の神霊取得</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]偉人誕生時に追加の神霊取得</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HOSIHURU_SHINREIBYOU_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]全偉人を獲得&#13;[ICON_BULLET]偉人誕生時に追加の神霊取得</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]全偉人を獲得&#13;[ICON_BULLET]偉人誕生時に追加の神霊取得</Japanese>
+	</TEXT>
+</Civ4GameText>

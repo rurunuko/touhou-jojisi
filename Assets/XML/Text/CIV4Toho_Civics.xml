@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Civilopedia CivLeaders -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- CIVILIZATION INFOS -->
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_KARISUMATOUCHI</Tag>
+		<English />
+		<French>カリスマ統治</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カリスマ統治</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SISHANOOUKOKU</Tag>
+		<English />
+		<French>死者の王国</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>死者の王国</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MARUKYU</Tag>
+		<English />
+		<French>⑨</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>⑨</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CHIJOUNOMISSITU</Tag>
+		<English />
+		<French>地上の密室</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地上の密室</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_JIGOKUBUNKEN</Tag>
+		<English />
+		<French>地獄分権</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>地獄分権</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_DOCHAKUSINKOU</Tag>
+		<English />
+		<French>土着信仰</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>土着信仰</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_HAKUREISIKI</Tag>
+		<English />
+		<French>博麗式</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗式</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_TAKUHATSU</Tag>
+		<English />
+		<French>托鉢</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>托鉢</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ZYUUSHICHIZYO_KENPOU</Tag>
+		<English />
+		<French>十七条憲法</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>十七条憲法</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_JAKUSYANORAKUEN</Tag>
+		<English />
+		<French>弱者の楽園</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>弱者の楽園</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVICOPTION_FAITH</Tag>
+		<English />
+		<French>信仰</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>信仰</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_NONE_RELIGION</Tag>
+		<English />
+		<French>無宗教</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無宗教</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_SHINTO</Tag>
+		<English />
+		<French>神道</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>神道</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_BUDDHISM</Tag>
+		<English />
+		<French>仏教</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>仏教</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_TAOISM</Tag>
+		<English />
+		<French>道教</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>道教</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_RYUJINSINKOU</Tag>
+		<English />
+		<French>龍神信仰</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>龍神信仰</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_SCIENTISM</Tag>
+		<English />
+		<French>科学主義</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>科学主義</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_CTHULHU</Tag>
+		<English />
+		<French>深海の旧支配者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>深海の旧支配者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_KARISUMATOUCHI_PEDIA</Tag>
+		<English />
+		<French>[TAB]レミリア自身の統率によりより早く部隊を整え、より精鋭のユニットが作成される。また、そのカリスマにより人々は戦争を嫌がることはなく、国民は不満を言うことなく戦争を行うあなたを支持するでしょう。また、レミリアに触発され、より多くの偉大なる将軍が発生することでしょう。ただし、彼女の我侭により、維持費はより多くかかります。少々の軍隊なら変わりませんが、多くの軍隊を抱えたままこの制度を採用すると、紅魔館の財政はすぐに食いつぶされてしまいます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]レミリア自身の統率によりより早く部隊を整え、より精鋭のユニットが作成される。また、そのカリスマにより人々は戦争を嫌がることはなく、国民は不満を言うことなく戦争を行うあなたを支持するでしょう。また、レミリアに触発され、より多くの偉大なる将軍が発生することでしょう。ただし、彼女の我侭により、維持費はより多くかかります。少々の軍隊なら変わりませんが、多くの軍隊を抱えたままこの制度を採用すると、紅魔館の財政はすぐに食いつぶされてしまいます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SISHANOOUKOKU_PEDIA</Tag>
+		<English />
+		<French>[TAB]幽々子は冥界の拡大化を図っています。それに不満を唱えるものも多く居ますが、その力により、白玉楼の人口は爆発的に増えることでしょう。しかし注意してください。貴方の大事な首都ではその代償として多くの残機が失われます。幽々子様に独り占めにされているのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]幽々子は冥界の拡大化を図っています。それに不満を唱えるものも多く居ますが、その力により、白玉楼の人口は爆発的に増えることでしょう。しかし注意してください。貴方の大事な首都ではその代償として多くの残機が失われます。幽々子様に独り占めにされているのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MARUKYU_PEDIA</Tag>
+		<English />
+		<French>[TAB]みんななに困った顔してるの？まぁいいやとりあえず遊ぼう！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]みんななに困った顔してるの？まぁいいやとりあえず遊ぼう！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CHIJOUNOMISSITU_PEDIA</Tag>
+		<English />
+		<French>[TAB]永琳の結界により外界との交易が閉ざされた。監視の目もなくなり、月の技術をフルに活用することが出来るでしょう。ただし注意してください。人々はそんな楽園から外に出るのは嫌がっています。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]永琳の結界により外界との交易が閉ざされた。監視の目もなくなり、月の技術をフルに活用することが出来るでしょう。ただし注意してください。人々はそんな楽園から外に出るのは嫌がっています。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_DOCHAKUSINKOU_PEDIA</Tag>
+		<English />
+		<French>[TAB]いにしえの戦争では、軍人と平民の違いはなく、集落同士のすべての人がその戦争を己の信じるもののために戦いました。複雑化した社会では軍人と平民の役割がわかれ、生活や身分などにも差が出来ました。全人口に対する軍隊の割合は下がりましたが、その維持費は多くかかるようになりました。古来より数多の戦争を見てきた神奈子と諏訪子は、国民の意志を統一し、軍人と平民の隔たりをなくしました。農民も戦争に出陣するため、戦争中は余り人口は増えにくく、食糧問題も起こります。しかし、軍人だからという維持費はかかりません。彼らは自分の信じるもののために戦っているのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]いにしえの戦争では、軍人と平民の違いはなく、集落同士のすべての人がその戦争を己の信じるもののために戦いました。複雑化した社会では軍人と平民の役割がわかれ、生活や身分などにも差が出来ました。全人口に対する軍隊の割合は下がりましたが、その維持費は多くかかるようになりました。古来より数多の戦争を見てきた神奈子と諏訪子は、国民の意志を統一し、軍人と平民の隔たりをなくしました。農民も戦争に出陣するため、戦争中は余り人口は増えにくく、食糧問題も起こります。しかし、軍人だからという維持費はかかりません。彼らは自分の信じるもののために戦っているのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_HAKUREISIKI_PEDIA</Tag>
+		<English />
+		<French>[TAB]博麗神社の神を信じる人々は、よくお賽銭を入れてくれます。特に専門的な仕事についている人はインスピレーションを受けるために良くお賽銭を入れに行きます。入れに行かなかった専門家もお賽銭出張サービスにより、自宅でも楽々お賽銭を奉納することが出来ます。それでも各専門家の仕事の効率は変わらないのですから、博麗神社のご利益は侮れません。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]博麗神社の神を信じる人々は、よくお賽銭を入れてくれます。特に専門的な仕事についている人はインスピレーションを受けるために良くお賽銭を入れに行きます。入れに行かなかった専門家もお賽銭出張サービスにより、自宅でも楽々お賽銭を奉納することが出来ます。それでも各専門家の仕事の効率は変わらないのですから、博麗神社のご利益は侮れません。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_JIGOKUBUNKEN_PEDIA</Tag>
+		<English />
+		<French>[TAB]地獄分権では地方ごとにそれぞれの行政を任せています。なので余計な維持費がかかりにくいです。しかし、大きな都市ではこの社会制度に不満を唱えるものが多くいます。大きな都市ではそれ単独で支えるのは難しいのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]地獄分権では地方ごとにそれぞれの行政を任せています。なので余計な維持費がかかりにくいです。しかし、大きな都市ではこの社会制度に不満を唱えるものが多くいます。大きな都市ではそれ単独で支えるのは難しいのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_TAKUHATSU_PEDIA</Tag>
+		<English />
+		<French>[TAB]命蓮寺の修行者は交易がある国に托鉢を行いにいきます。托鉢の布施は文明のために使われより豊かに発展していくでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]命蓮寺の修行者は交易がある国に托鉢を行いにいきます。托鉢の布施は文明のために使われより豊かに発展していくでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ZYUUSHICHIZYO_KENPOU_PEDIA</Tag>
+		<English />
+		<French>[TAB]十七条憲法は聖徳太子が制定した憲法です。何よりも『和』を大切にするこの憲法は、国内を平安に導き偉人の誕生を早めることになるのです。超人たる神子の力を思う存分発揮させる事でより多くの神霊を手に入れる事も出来るでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]十七条憲法は聖徳太子が制定した憲法です。何よりも『和』を大切にするこの憲法は、国内を平安に導き偉人の誕生を早めることになるのです。超人たる神子の力を思う存分発揮させる事でより多くの神霊を手に入れる事も出来るでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_JAKUSYANORAKUEN_PEDIA</Tag>
+		<English />
+		<French>[TAB]弱者のみが住む楽園ではお互いがお互いの為に行動できる為とても住みやすい世界を形作ります。[NEWLINE]国民はこの楽園を守るために戦争にもある程度積極的になります。[NEWLINE]若干の不衛生は発生しますが平和が崩れない限りこの国はゆっくりと発展していくことでしょう。[NEWLINE]弱者の間にも必ず格差は生まれ、いずれは強者が生み出される。[NEWLINE]その事に気づかない限り楽園は何時までも楽園でいられるでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]弱者のみが住む楽園ではお互いがお互いの為に行動できる為とても住みやすい世界を形作ります。[NEWLINE]国民はこの楽園を守るために戦争にもある程度積極的になります。[NEWLINE]若干の不衛生は発生しますが平和が崩れない限りこの国はゆっくりと発展していくことでしょう。[NEWLINE]弱者の間にも必ず格差は生まれ、いずれは強者が生み出される。[NEWLINE]その事に気づかない限り楽園は何時までも楽園でいられるでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_NONE_RELIGION_PEDIA</Tag>
+		<English />
+		<French>[TAB]無宗教とは、すなわち何の信仰も無い状態です。人々の心は混沌に満ち溢れ、何の効力も示さないでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]無宗教とは、すなわち何の信仰も無い状態です。人々の心は混沌に満ち溢れ、何の効力も示さないでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_SHINTO_PEDIA</Tag>
+		<English />
+		<French>[TAB]神道は古来より伝わる日本固有の宗教です。この宗教を信仰する事により八百万の神の祝福を受け、生産力がほんの少し増幅します。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]神道は古来より伝わる日本固有の宗教です。この宗教を信仰する事により八百万の神の祝福を受け、生産力がほんの少し増幅します。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_BUDDHISM_PEDIA</Tag>
+		<English />
+		<French>[TAB]仏教は大陸より伝来した戒律の厳しいストイックな宗教です。決してスペイン発祥ではありません。この宗教を信仰する事により人々に自戒の心が芽生え、都市の維持費が減少します。また、偉人がほんの少しだけ誕生しやすくなります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]仏教は大陸より伝来した戒律の厳しいストイックな宗教です。決してスペイン発祥ではありません。この宗教を信仰する事により人々に自戒の心が芽生え、都市の維持費が減少します。また、偉人がほんの少しだけ誕生しやすくなります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_TAOISM_PEDIA</Tag>
+		<English />
+		<French>[TAB]道教は大陸より伝来した、不老不死を究極の理想とする宗教です。この宗教を信仰すると人々は健康的になり衛生状態が改善され、仙人が練る謎の神秘的な薬を手に入れる事も出来るでしょう。時代が進むと特殊な建造物を建設出来るようにもなります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]道教は大陸より伝来した、不老不死を究極の理想とする宗教です。この宗教を信仰すると人々は健康的になり衛生状態が改善され、仙人が練る謎の神秘的な薬を手に入れる事も出来るでしょう。時代が進むと特殊な建造物を建設出来るようにもなります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_RYUJINSINKOU_PEDIA</Tag>
+		<English />
+		<French>[TAB]龍神信仰は幻想郷における最高神の龍を崇める、幻想郷独自の宗教です。この宗教を信仰すると人々は幻想郷最高神を信仰している自負からか、大都市に住む人々は幸福になり、また平和を維持するための軍事力というものを意識しだします。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]龍神信仰は幻想郷における最高神の龍を崇める、幻想郷独自の宗教です。この宗教を信仰すると人々は幻想郷最高神を信仰している自負からか、大都市に住む人々は幸福になり、また平和を維持するための軍事力というものを意識しだします。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_SCIENTISM_PEDIA</Tag>
+		<English />
+		<French>[TAB]科学主義は科学技術の進歩により、全ての神秘的な事象は科学的に証明出来ると考えている新たな「宗教」です。この宗教を信仰する事により市民を科学者に無制限で変更することが出来る上、科学力が増幅し、偉人が発生しやすくなります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]科学主義は科学技術の進歩により、全ての神秘的な事象は科学的に証明出来ると考えている新たな「宗教」です。この宗教を信仰する事により市民を科学者に無制限で変更することが出来る上、科学力が増幅し、偉人が発生しやすくなります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_CTHULHU_PEDIA</Tag>
+		<English />
+		<French>[TAB]外の世界の進んだ科学技術はついに新たな神話を生み出しました。外の世界ではこの神話は創作された架空の神話とされていますが、とある冬の時代が終わった世界で神話として確立され、その世界を経由し幻想入りしました。[NEWLINE]この宗教を信仰すると海洋タイルの商業が増加し、また首都の食料も多少ながら増加します。[NEWLINE]　　　なおこの宗教を信仰すると十中八九、あなたの国民のSAN値がまずいことになると思われますが、Civilizationにおいてはそんなこと関係ありません！デメリットはないのでどんどん住民を精神病院送りにしてやりましょう！いあ！いあ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]外の世界の進んだ科学技術はついに新たな神話を生み出しました。外の世界ではこの神話は創作された架空の神話とされていますが、とある冬の時代が終わった世界で神話として確立され、その世界を経由し幻想入りしました。[NEWLINE]この宗教を信仰すると海洋タイルの商業が増加し、また首都の食料も多少ながら増加します。[NEWLINE]　　　なおこの宗教を信仰すると十中八九、あなたの国民のSAN値がまずいことになると思われますが、Civilizationにおいてはそんなこと関係ありません！デメリットはないのでどんどん住民を精神病院送りにしてやりましょう！いあ！いあ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_KARISUMATOUCHI_STRATEGY</Tag>
+		<English />
+		<French>軍事ユニットの生産速度と経験値が増え、偉大なる将軍も生まれやすくなります。また厭戦感情も抑えられます。しかし軍事ユニットの維持費は上がるでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>軍事ユニットの生産速度と経験値が増え、偉大なる将軍も生まれやすくなります。また厭戦感情も抑えられます。しかし軍事ユニットの維持費は上がるでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SISHANOOUKOKU_STRATEGY</Tag>
+		<English />
+		<French>農場からより多くの残機が手に入ります。しかし、人々の不満は増え、首都では残機が減ります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>農場からより多くの残機が手に入ります。しかし、人々の不満は増え、首都では残機が減ります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ZYUUSHICHIZYO_KENPOU_STRATEGY</Tag>
+		<English />
+		<French>全都市で偉人が発生しやすくなります。偉人発生時の追加の神霊も増えるでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全都市で偉人が発生しやすくなります。偉人発生時の追加の神霊も増えるでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CHIJOUNOMISSITU_STRATEGY</Tag>
+		<English />
+		<French>首都より得られるハンマーとコインが増大します。しかし、外国との交易は無くなり、厭戦感情も増えます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>首都より得られるハンマーとコインが増大します。しかし、外国との交易は無くなり、厭戦感情も増えます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_DOCHAKUSINKOU_STRATEGY</Tag>
+		<English />
+		<French>非常に多くの軍事ユニットの維持費が無くなります。しかし、余剰な残機はパワーになってしまいます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>非常に多くの軍事ユニットの維持費が無くなります。しかし、余剰な残機はパワーになってしまいます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_HAKUREISIKI_STRATEGY</Tag>
+		<English />
+		<French>専門家より得られるコインが増加し、緊急生産を可能とします。しかし代償として全都市で衛生が下がります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>専門家より得られるコインが増加し、緊急生産を可能とします。しかし代償として全都市で衛生が下がります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_JIGOKUBUNKEN_STRATEGY</Tag>
+		<English />
+		<French>距離による維持費、都市の数による維持費を全てカットし、その上で企業の維持費を半額にします。しかし大きな都市では不幸が増えます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>距離による維持費、都市の数による維持費を全てカットし、その上で企業の維持費を半額にします。しかし大きな都市では不幸が増えます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_TAKUHATSU_STRATEGY</Tag>
+		<English />
+		<French>交易路から追加のハンマーとコインを入手する事ができます。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>交易路から追加のハンマーとコインを入手する事ができます。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MARUKYU_STRATEGY</Tag>
+		<English />
+		<French>みんなが遊んでくれるよ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>みんなが遊んでくれるよ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_JAKUSYANORAKUEN_STRATEGY</Tag>
+		<English />
+		<French>都市維持費を始めとする維持費諸々を軽減しつつ、多少の不衛生と引き換えに都市にほんの少しの幸福を発生させます</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>都市維持費を始めとする維持費諸々を軽減しつつ、多少の不衛生と引き換えに都市にほんの少しの幸福を発生させます</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_SHINTO_STRATEGY</Tag>
+		<English />
+		<French>全ての都市で少しだけ生産力が増加します</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全ての都市で少しだけ生産力が増加します</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_BUDDHISM_STRATEGY</Tag>
+		<English />
+		<French>都市の維持費が多少緩和されます。また、ほんの少しだけ偉人が誕生しやすくなります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>都市の維持費が多少緩和されます。また、ほんの少しだけ偉人が誕生しやすくなります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_TAOISM_STRATEGY</Tag>
+		<English />
+		<French>衛生にボーナスが加わり、幸せになれる奇妙な薬がついてきます。将来特殊な建造物を建設出来るようにもなります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>衛生にボーナスが加わり、幸せになれる奇妙な薬がついてきます。将来特殊な建造物を建設出来るようにもなります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_RYUJINSINKOU_STRATEGY</Tag>
+		<English />
+		<French>軍事ユニットの生産に多少のボーナスが加わり、厭戦感情が少しだけ減少します。また、大都市の幸福も少しだけ増えるでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>軍事ユニットの生産に多少のボーナスが加わり、厭戦感情が少しだけ減少します。また、大都市の幸福も少しだけ増えるでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_SCIENTISM_STRATEGY</Tag>
+		<English />
+		<French>全ての都市で科学力が少しだけ増幅し、科学者の雇用制限が無くなります。同時に偉人も誕生させやすくなります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>全ての都市で科学力が少しだけ増幅し、科学者の雇用制限が無くなります。同時に偉人も誕生させやすくなります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_CTHULHU_STRATEGY</Tag>
+		<English />
+		<French>海洋タイルの商業が1増加し、また首都の食料が多少増加します</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>海洋タイルの商業が1増加し、また首都の食料が多少増加します</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ZYUUSHICHIZYO_KENPOU_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]偉人誕生時に追加の神霊</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]偉人誕生時に追加の神霊</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_JAKUSYANORAKUEN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]全都市の[ICON_HAPPY]+1&#13;[ICON_BULLET][ICON_UNHEALTHY]+2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]全都市の[ICON_HAPPY]+1&#13;[ICON_BULLET][ICON_UNHEALTHY]+2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_CTHULHU_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]海洋タイルの[ICON_COMMERCE]+1&#13;[ICON_BULLET]首都の[ICON_TRADE]+2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]海洋タイルの[ICON_COMMERCE]+1&#13;[ICON_BULLET]首都の[ICON_TRADE]+2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_BUDDHISM_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]都市の維持管理費-25%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]都市の維持管理費-25%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_SHINTO_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]都市の[ICON_PRODUCTION]+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]都市の[ICON_PRODUCTION]+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FAITH_TAOISM_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]資源「仙丹」を1個供給&#13;[ICON_BULLET]共通規格取得後、建造物「陰陽寮」を建設可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]資源「仙丹」を1個供給&#13;[ICON_BULLET]共通規格取得後、建造物「陰陽寮」を建設可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_TRIBALISM_HELP</Tag>
+		<English />
+		<French>※以下、労働志向時限定効果&#13;[ICON_BULLET]都市の[ICON_CULTURE]+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※以下、労働志向時限定効果&#13;[ICON_BULLET]都市の[ICON_CULTURE]+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SLAVERY_HELP</Tag>
+		<English />
+		<French>※以下、労働志向時限定効果&#13;[ICON_BULLET]都市の[ICON_FOOD]+2&#13;[ICON_BULLET]首都の人口犠牲による不満の継続期間-50%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※以下、労働志向時限定効果&#13;[ICON_BULLET]都市の[ICON_FOOD]+2&#13;[ICON_BULLET]首都の人口犠牲による不満の継続期間-50%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SERFDOM_HELP</Tag>
+		<English />
+		<French>※以下、労働志向時限定効果&#13;[ICON_BULLET]川沿いタイルの[ICON_PRODUCTION]+1</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※以下、労働志向時限定効果&#13;[ICON_BULLET]川沿いタイルの[ICON_PRODUCTION]+1</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CASTE_SYSTEM_HELP</Tag>
+		<English />
+		<French>※以下、労働志向時限定効果&#13;[ICON_BULLET]都市の[ICON_RESEARCH]+1,[ICON_RESEARCH]+10%&#13;[ICON_BULLET]市民1人を[LINK=SPECIALIST_SPY]スパイ[\LINK],[LINK=SPECIALIST_ENGINEER]技術者[\LINK]に、市民2人を[LINK=SPECIALIST_PRIEST]醸造人[\LINK]に転向可能&#13;[ICON_BULLET]+1[ICON_RESEARCH],+1[ICON_CULTURE],+1[ICON_ESPIONAGE]（専門家1人につき）&#13;[ICON_BULLET][LINK=SPECIALIST_PRIEST]醸造人[\LINK]の[ICON_PRODUCTION]+1,[ICON_COMMERCE]+2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※以下、労働志向時限定効果&#13;[ICON_BULLET]都市の[ICON_RESEARCH]+1,[ICON_RESEARCH]+10%&#13;[ICON_BULLET]市民1人を[LINK=SPECIALIST_SPY]スパイ[\LINK],[LINK=SPECIALIST_ENGINEER]技術者[\LINK]に、市民2人を[LINK=SPECIALIST_PRIEST]醸造人[\LINK]に転向可能&#13;[ICON_BULLET]+1[ICON_RESEARCH],+1[ICON_CULTURE],+1[ICON_ESPIONAGE]（専門家1人につき）&#13;[ICON_BULLET][LINK=SPECIALIST_PRIEST]醸造人[\LINK]の[ICON_PRODUCTION]+1,[ICON_COMMERCE]+2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_EMANCIPATION_HELP</Tag>
+		<English />
+		<French>※以下、労働志向時限定効果&#13;[ICON_BULLET]成長後に[ICON_FOOD]+10%を貯蔵&#13;[ICON_BULLET][ICON_HAPPY]+2</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※以下、労働志向時限定効果&#13;[ICON_BULLET]成長後に[ICON_FOOD]+10%を貯蔵&#13;[ICON_BULLET][ICON_HAPPY]+2</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SISHANOOUKOKU_HELP</Tag>
+		<English />
+		<French>※以下、労働志向時限定効果&#13;[ICON_BULLET]都市の[ICON_HEALTHY]+4</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※以下、労働志向時限定効果&#13;[ICON_BULLET]都市の[ICON_HEALTHY]+4</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_HAKUREISIKI_HELP</Tag>
+		<English />
+		<French>※以下、労働志向時限定効果&#13;[ICON_BULLET]緊急生産のコスト-15%</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※以下、労働志向時限定効果&#13;[ICON_BULLET]緊急生産のコスト-15%</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CTHULHU</Tag>
+		<English />
+		<French>ネクロノミコン写本</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ネクロノミコン写本</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TORII</Tag>
+		<English />
+		<French>鳥居</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鳥居</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUTUZOU</Tag>
+		<English />
+		<French>仏像</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>仏像</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SENTAN</Tag>
+		<English />
+		<French>仙丹</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>仙丹</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SENTAN</Tag>
+		<English />
+		<French>仙丹</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>仙丹</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ONMYOURYOU</Tag>
+		<English />
+		<French>陰陽寮</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>陰陽寮</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ONMYOURYOU1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]+2[ICON_FOOD],+2[ICON_PRODUCTION],+2[ICON_CULTURE]は道教採用中のみ発揮される</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]+2[ICON_FOOD],+2[ICON_PRODUCTION],+2[ICON_CULTURE]は道教採用中のみ発揮される</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LABORLIST_TRIBALISM</Tag>
+		<English />
+		<French>労働志向：原始部族社会</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>労働志向：原始部族社会</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LABORLIST_SLAVERY_1</Tag>
+		<English />
+		<French>労働志向：奴隷制</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>労働志向：奴隷制</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LABORLIST_SLAVERY_2</Tag>
+		<English />
+		<French>労働志向：奴隷制・首都</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>労働志向：奴隷制・首都</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LABORLIST_SERFDOM</Tag>
+		<English />
+		<French>労働志向：農奴制</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>労働志向：農奴制</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LABORLIST_CASTE_1</Tag>
+		<English />
+		<French>労働志向：カースト制</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>労働志向：カースト制</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LABORLIST_CASTE_2</Tag>
+		<English />
+		<French>労働志向：カースト制・首都</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>労働志向：カースト制・首都</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LABORLIST_EMANCIPATION</Tag>
+		<English />
+		<French>労働志向：奴隷解放</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>労働志向：奴隷解放</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LABORLIST_SISHANOOUKOKU</Tag>
+		<English />
+		<French>労働志向：死者の王国</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>労働志向：死者の王国</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LABORLIST_HAKUREISIKI</Tag>
+		<English />
+		<French>労働志向：博麗式</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>労働志向：博麗式</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAKUSYANORAKUEN</Tag>
+		<English />
+		<French>弱者の楽園</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>弱者の楽園</Japanese>
+	</TEXT>
+</Civ4GameText>

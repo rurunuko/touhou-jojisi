@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Civilopedia CivLeaders -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- CIVILIZATION INFOS -->
+<!-- etc Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DANMAKUKOUZA1_STRATEGY</Tag>
+		<English />
+		<French>まずは一般ユニットたちに弾幕回避の基本であるチョン避けを講義します。この講座を受けたユニットは強力な幻想少女たちに対しても少しは有利に立ち向かえるようになるでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>まずは一般ユニットたちに弾幕回避の基本であるチョン避けを講義します。この講座を受けたユニットは強力な幻想少女たちに対しても少しは有利に立ち向かえるようになるでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DANMAKUKOUZA2_STRATEGY</Tag>
+		<English />
+		<French>チョン避けをマスターしたユニットに対し、次は更に一歩進んだ弾幕回避の方法を講義します。どのような鬼畜弾幕でもパターンさえ組み切れば難なく回避は可能なのです。※注！ただしこの建造物は国家遺産であり、英雄叙事詩やウェスポイントなどの重要国家遺産と競合する恐れがあります！建設都市は十分に考慮してから決めましょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チョン避けをマスターしたユニットに対し、次は更に一歩進んだ弾幕回避の方法を講義します。どのような鬼畜弾幕でもパターンさえ組み切れば難なく回避は可能なのです。※注！ただしこの建造物は国家遺産であり、英雄叙事詩やウェスポイントなどの重要国家遺産と競合する恐れがあります！建設都市は十分に考慮してから決めましょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DANMAKUKOUZA3_STRATEGY</Tag>
+		<English />
+		<French>チョン避け・パターン化をマスターしたユニットに対し最後の弾幕回避講座を行います。ドット単位の命中判定を見切ることができればもう弾幕シューティングは怖くありません。ただしこの建造物を建設するには大将軍の手助けが必要です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チョン避け・パターン化をマスターしたユニットに対し最後の弾幕回避講座を行います。ドット単位の命中判定を見切ることができればもう弾幕シューティングは怖くありません。ただしこの建造物を建設するには大将軍の手助けが必要です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REPLAY_MUSEUM_PEDIA</Tag>
+		<English />
+		<French>リプレイ博物館は色々な人がプレイしたリプレイを保存している場所です。他人のリプレイを見ることは攻略、稼ぎ共に非常に参考になることでしょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リプレイ博物館は色々な人がプレイしたリプレイを保存している場所です。他人のリプレイを見ることは攻略、稼ぎ共に非常に参考になることでしょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REPLAY_MUSEUM_STRATEGY</Tag>
+		<English />
+		<French>他人のリプレイを見ることはシューティングゲームは勿論、このCivilizationでも非常に参考となる行為の一つです。この建造物を建設することにより、ボスユニットのターン毎の経験値獲得の可能性が+7%上昇します</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>他人のリプレイを見ることはシューティングゲームは勿論、このCivilizationでも非常に参考となる行為の一つです。この建造物を建設することにより、ボスユニットのターン毎の経験値獲得の可能性が+7%上昇します</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ONMYOURYOU1_STRATEGY</Tag>
+		<English />
+		<French>これは特殊な建造物で、社会制度の道教を採用している時のみ建設可能な強力な建造物です。ただし、この強力な効果は道教採用中のみでしか効力を発揮しません！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>これは特殊な建造物で、社会制度の道教を採用している時のみ建設可能な強力な建造物です。ただし、この強力な効果は道教採用中のみでしか効力を発揮しません！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SENTAN_PEDIA</Tag>
+		<English />
+		<French>錬丹術で生成される長寿の為の薬。[NEWLINE]内丹と外丹の二つが存在するが、基本的に扱われるのは外丹である。[NEWLINE]硫化水銀や金を液状にした物が材料となる事が多く実際の所人体には有害である。[NEWLINE]バニラBtSでもお馴染み、秦の始皇帝もこの仙丹を服用したことによる水銀中毒が死因になったのではないかという説もある[NEWLINE]その為この研究は最終的に失敗したが、中国の医薬学の発展に貢献したとされている。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>錬丹術で生成される長寿の為の薬。[NEWLINE]内丹と外丹の二つが存在するが、基本的に扱われるのは外丹である。[NEWLINE]硫化水銀や金を液状にした物が材料となる事が多く実際の所人体には有害である。[NEWLINE]バニラBtSでもお馴染み、秦の始皇帝もこの仙丹を服用したことによる水銀中毒が死因になったのではないかという説もある[NEWLINE]その為この研究は最終的に失敗したが、中国の医薬学の発展に貢献したとされている。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CTHULHU_PEDIA</Tag>
+		<English />
+		<French>クトゥルフ神話における強大な魔導書の写本。[NEWLINE]本書は禁書として扱われる事が多く、中には強大な魔法が記されている、深淵の神々を召喚する方法が記されている、またはそれを殲滅する方法が示されている等諸説ある。[NEWLINE]またこれを読むことで気が狂うとされている事も多い。[NEWLINE]ちなみにクトゥルフ神話の怪物の一つは、かのSF映画「エイリアン」のモデルとなった物もいる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>クトゥルフ神話における強大な魔導書の写本。[NEWLINE]本書は禁書として扱われる事が多く、中には強大な魔法が記されている、深淵の神々を召喚する方法が記されている、またはそれを殲滅する方法が示されている等諸説ある。[NEWLINE]またこれを読むことで気が狂うとされている事も多い。[NEWLINE]ちなみにクトゥルフ神話の怪物の一つは、かのSF映画「エイリアン」のモデルとなった物もいる。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MIERUME_PEDIA</Tag>
+		<English />
+		<French>マエリベリー・ハーンの目は境界を見る事ができる。[NEWLINE]その力は時として幻想の壁を抜け彼女を異世界へと導く。[NEWLINE]何かしらの対処をしなければ彼女はいずれ幻想郷へとやってくるだろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マエリベリー・ハーンの目は境界を見る事ができる。[NEWLINE]その力は時として幻想の壁を抜け彼女を異世界へと導く。[NEWLINE]何かしらの対処をしなければ彼女はいずれ幻想郷へとやってくるだろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUZUNAAN_PEDIA</Tag>
+		<English />
+		<French>人間の里にある貸本屋。[NEWLINE]本居小鈴はこの貸本屋の一人娘。[NEWLINE]父母と共に暮らしているが店番は専ら彼女の仕事である。[NEWLINE]また里で数少ない印刷機をもつ店でもあり、阿求が執筆する幻想郷縁起はここで印刷されている。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人間の里にある貸本屋。[NEWLINE]本居小鈴はこの貸本屋の一人娘。[NEWLINE]父母と共に暮らしているが店番は専ら彼女の仕事である。[NEWLINE]また里で数少ない印刷機をもつ店でもあり、阿求が執筆する幻想郷縁起はここで印刷されている。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SIGOTONOKOKOROE_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「小野塚小町」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]一つ、疲れたと感じたら素直に休憩する[NEWLINE]一つ、必ず昼寝時間を設ける[NEWLINE]一つ、昼休みは二時間</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「小野塚小町」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]一つ、疲れたと感じたら素直に休憩する[NEWLINE]一つ、必ず昼寝時間を設ける[NEWLINE]一つ、昼休みは二時間</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KENKOUKAN_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「藤原妹紅」のPhantasmスペル使用によって建設されます[NEWLINE][NEWLINE]藤原妹紅は自称"健康マニアの焼き鳥屋"である。[NEWLINE]実際の所健康マニアなのかどうかは定かではないが不老不死なのでどの道意味は無い。[NEWLINE]おそらく不老不死に対する皮肉なのだろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「藤原妹紅」のPhantasmスペル使用によって建設されます[NEWLINE][NEWLINE]藤原妹紅は自称"健康マニアの焼き鳥屋"である。[NEWLINE]実際の所健康マニアなのかどうかは定かではないが不老不死なのでどの道意味は無い。[NEWLINE]おそらく不老不死に対する皮肉なのだろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TERAKOYA_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「上白沢慧音」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]江戸時代に町人の子供に読み書きや計算、道徳などを教えていた施設。[NEWLINE]幻想郷では慧音が経営しており主に歴史を教えている。[NEWLINE]寺小屋、手習所とも呼ばれる。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「上白沢慧音」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]江戸時代に町人の子供に読み書きや計算、道徳などを教えていた施設。[NEWLINE]幻想郷では慧音が経営しており主に歴史を教えている。[NEWLINE]寺小屋、手習所とも呼ばれる。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AI_NINGENNOSATO_PEDIA</Tag>
+		<English />
+		<French>※この建造物は「人間の里」文明がAI文明として登場した場合のみ建設されるAI専用建造物です[NEWLINE][NEWLINE]幻想郷において最も信仰されている絶対神、龍神を祀る石像。[NEWLINE]この石像は龍神の加護が宿っておりその瞳の色を見ると次の日の天気がわかる。[NEWLINE]そこそこ的中率が良いと評判である。[NEWLINE]が、実はこれは龍神の加護でも何でもなく信仰の為に河童がつけた機能だったりする。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物は「人間の里」文明がAI文明として登場した場合のみ建設されるAI専用建造物です[NEWLINE][NEWLINE]幻想郷において最も信仰されている絶対神、龍神を祀る石像。[NEWLINE]この石像は龍神の加護が宿っておりその瞳の色を見ると次の日の天気がわかる。[NEWLINE]そこそこ的中率が良いと評判である。[NEWLINE]が、実はこれは龍神の加護でも何でもなく信仰の為に河童がつけた機能だったりする。</Japanese>
+	</TEXT>
+<!-- etc End-->
+<!-- Koumakan Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONBAN_STRATEGY</Tag>
+		<English />
+		<French>この建造物を建設すると特別市民が産出する出力が跳ね上がります。技術者や科学者にも見劣りしない出力となってくれるでしょう。特別市民を侮ってはいけません</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>この建造物を建設すると特別市民が産出する出力が跳ね上がります。技術者や科学者にも見劣りしない出力となってくれるでしょう。特別市民を侮ってはいけません</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TOKEIDAI_STRATEGY</Tag>
+		<English />
+		<French>少々の不衛生と引き換えに軍事ユニットの生産に+50%の生産ボーナスを加えるこの一般建造物は、軍事文明としての紅魔館の特色を決定付ける建造物と言えるでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>少々の不衛生と引き換えに軍事ユニットの生産に+50%の生産ボーナスを加えるこの一般建造物は、軍事文明としての紅魔館の特色を決定付ける建造物と言えるでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DAITOSHOKAN_STRATEGY</Tag>
+		<English />
+		<French>研究力を直接産出するこの建造物は是非、アカデミーやオックスフォード大学がある都市に建設しましょう。ただし大理石が無いと少々建設に苦労するかもしれません。むきゅー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>研究力を直接産出するこの建造物は是非、アカデミーやオックスフォード大学がある都市に建設しましょう。ただし大理石が無いと少々建設に苦労するかもしれません。むきゅー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOUMAKAN_STRATEGY</Tag>
+		<English />
+		<French>大将軍の発生確率が3倍になるこの建造物は、まさしく軍事と戦争の紅魔館に相応しい建造物と言えるでしょう。スーパーエリート衛生兵を作るもよし、超定住軍事都市を作るもよし、全都市に士官学校を作るもよし。あなたの思うがままの軍事国家を作りましょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大将軍の発生確率が3倍になるこの建造物は、まさしく軍事と戦争の紅魔館に相応しい建造物と言えるでしょう。スーパーエリート衛生兵を作るもよし、超定住軍事都市を作るもよし、全都市に士官学校を作るもよし。あなたの思うがままの軍事国家を作りましょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_495NENNOHAMON_STRATEGY</Tag>
+		<English />
+		<French>この建造物は必要なハンマーも多く、建設都市では不満が増えるデメリットは確かに存在します。ですが、それが気にならないほどの強烈な効力を発揮してくれます。強力な東方ユニットと生産された時点で歴戦の戦士となる一般ユニットの2つで、全世界を蹂躙してやりましょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>この建造物は必要なハンマーも多く、建設都市では不満が増えるデメリットは確かに存在します。ですが、それが気にならないほどの強烈な効力を発揮してくれます。強力な東方ユニットと生産された時点で歴戦の戦士となる一般ユニットの2つで、全世界を蹂躙してやりましょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PATCHOULI_BOOK_PEDIA</Tag>
+		<English />
+		<French>パチュリー・ノーレッジが所有する魔導書。[NEWLINE]パチュリーにとって魔導書とは宝であり自身の有り様である。[NEWLINE]彼女は日々これを読み過ごしている。[NEWLINE]これを設置するということはその膨大な知識の片鱗に触れることを意味するのである。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パチュリー・ノーレッジが所有する魔導書。[NEWLINE]パチュリーにとって魔導書とは宝であり自身の有り様である。[NEWLINE]彼女は日々これを読み過ごしている。[NEWLINE]これを設置するということはその膨大な知識の片鱗に触れることを意味するのである。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MEIDOCHOUNOSHIKI_PEDIA</Tag>
+		<English />
+		<French>十六夜咲夜は優秀なメイドでありその行動は非常に効率的である。[NEWLINE]彼女の力があれば役に立たない妖精のメイドもその力を存分に発揮できる。[NEWLINE]逆に言えば彼女の力無しでは妖精メイドは役に立たない。[NEWLINE]紅魔館の将来が心配である。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>十六夜咲夜は優秀なメイドでありその行動は非常に効率的である。[NEWLINE]彼女の力があれば役に立たない妖精のメイドもその力を存分に発揮できる。[NEWLINE]逆に言えば彼女の力無しでは妖精メイドは役に立たない。[NEWLINE]紅魔館の将来が心配である。</Japanese>
+	</TEXT>
+<!-- Koumakan End-->
+<!-- Hakugyokurou Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEKONOTE_STRATEGY</Tag>
+		<English />
+		<French>忙しい序盤は猫の手の一つも借りたくなりませんか？では貸してあげましょう。この建造物があると全都市で緊急生産時のコストに-20%の補正が付きます。勿論、奴隷だけではなく金銭購入にも有効です。なお、魚資源があると猫を釣りやるくなるそうです</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>忙しい序盤は猫の手の一つも借りたくなりませんか？では貸してあげましょう。この建造物があると全都市で緊急生産時のコストに-20%の補正が付きます。勿論、奴隷だけではなく金銭購入にも有効です。なお、魚資源があると猫を釣りやるくなるそうです</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KENJUTUSINANJO_STRATEGY</Tag>
+		<English />
+		<French>この建造物が設置された都市では生産されたユニットに経験値+5の補正が付くため、生産された時点ですぐに歴戦の戦士と同等の昇進を付ける事が出来るようになるでしょう。ですが気をつけなくてはならないことがあります。これは国家遺産扱いなので建設は慎重に判断しなくてはいけません。無計画に建設した結果、本当に欲しい国家遺産を建設出来なくなると泣きを見る事になります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>この建造物が設置された都市では生産されたユニットに経験値+5の補正が付くため、生産された時点ですぐに歴戦の戦士と同等の昇進を付ける事が出来るようになるでしょう。ですが気をつけなくてはならないことがあります。これは国家遺産扱いなので建設は慎重に判断しなくてはいけません。無計画に建設した結果、本当に欲しい国家遺産を建設出来なくなると泣きを見る事になります</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SAIGYOUAYAKASI_STRATEGY</Tag>
+		<English />
+		<French>少々建設に必要なハンマーが多いものの、それだけあって強力な軍事ユニット生産補正を付ける事ができます。生産に特化した都市に建設することでほぼ全てのユニットを1ターンで輩出できるようになるでしょう。呪いの桜ですが、東方叙事詩では特にペナルティは無いので気にせず建設しておきましょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>少々建設に必要なハンマーが多いものの、それだけあって強力な軍事ユニット生産補正を付ける事ができます。生産に特化した都市に建設することでほぼ全てのユニットを1ターンで輩出できるようになるでしょう。呪いの桜ですが、東方叙事詩では特にペナルティは無いので気にせず建設しておきましょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAYOIGA_STRATEGY</Tag>
+		<English />
+		<French>効力的には「訪問者に幸福を授ける幻の迷い家」というよりはむしろ胡散臭いスキマ的なものがあるこの建造物は、生産力を跳ね上げる上に電力まで供給する恐るべき「一般建造物」です</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>効力的には「訪問者に幸福を授ける幻の迷い家」というよりはむしろ胡散臭いスキマ的なものがあるこの建造物は、生産力を跳ね上げる上に電力まで供給する恐るべき「一般建造物」です</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HANGONCHOU_STRATEGY</Tag>
+		<English />
+		<French>ゲーム後半は偉人が発生しにくい？ではこの建造物を建設してみましょう。最後の最後に偉人の発生率を強力に押し上げてくれるでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ゲーム後半は偉人が発生しにくい？ではこの建造物を建設してみましょう。最後の最後に偉人の発生率を強力に押し上げてくれるでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEKOYASHIKI_PEDIA</Tag>
+		<English />
+		<French>猫に支配された屋敷。[NEWLINE]猫が好きすぎて沢山飼っている家を総じてこう呼ばれる。[NEWLINE]当人にとってはまさに楽園と呼べるだろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>猫に支配された屋敷。[NEWLINE]猫が好きすぎて沢山飼っている家を総じてこう呼ばれる。[NEWLINE]当人にとってはまさに楽園と呼べるだろう。</Japanese>
+	</TEXT>
+<!-- Hakugyokurou End-->
+<!-- Hyouseirengou Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YAMINOSASOI_STRATEGY</Tag>
+		<English />
+		<French>闇の誘いとは一体何なのでしょうか？ルーミアが悪さをしているのでしょうか？しかしそういう幾つかの疑問はさておき、効力は強力です。建設した都市では軍事ユニットを簡単に生産出来るようになるでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>闇の誘いとは一体何なのでしょうか？ルーミアが悪さをしているのでしょうか？しかしそういう幾つかの疑問はさておき、効力は強力です。建設した都市では軍事ユニットを簡単に生産出来るようになるでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUSIPOSUTO_STRATEGY</Tag>
+		<English />
+		<French>リグル・ナイトバグが蟲を利用した新たなサービスを始めたようです。そのサービスを利用したい都市にはこの建造物を設置しましょう。交易路の増大は地味ですが、しかし非常に強力な効力です</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リグル・ナイトバグが蟲を利用した新たなサービスを始めたようです。そのサービスを利用したい都市にはこの建造物を設置しましょう。交易路の増大は地味ですが、しかし非常に強力な効力です</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MYSTIACONCERT_STRATEGY</Tag>
+		<English />
+		<French>コンサートはお金になるのは我々の世界も、そして幻想郷でも同じです。さあミスティアのコンサート会場を建設しましょう。建設都市の市民は幸福になり、強力な文化が発生し、そして夜雀の歌を資源として交易に出すことも出来ます</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>コンサートはお金になるのは我々の世界も、そして幻想郷でも同じです。さあミスティアのコンサート会場を建設しましょう。建設都市の市民は幸福になり、強力な文化が発生し、そして夜雀の歌を資源として交易に出すことも出来ます</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REITOUGAERU_STRATEGY</Tag>
+		<English />
+		<French>カエルは一般的な食料ではありませんが、聞くところによると鶏肉に似た味がして美味だとか。チルノが遊びで凍らせたカエルなら鮮度も完璧、人々の食料となってくれるでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>カエルは一般的な食料ではありませんが、聞くところによると鶏肉に似た味がして美味だとか。チルノが遊びで凍らせたカエルなら鮮度も完璧、人々の食料となってくれるでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KUROMAKU_STRATEGY</Tag>
+		<English />
+		<French>なんと東方妖々夢では1面ボスから黒幕が登場するようです。黒幕の力により建設都市の不衛生を劇的に改善させた上で、黄金期を発生させます。さすがは黒幕です</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>なんと東方妖々夢では1面ボスから黒幕が登場するようです。黒幕の力により建設都市の不衛生を劇的に改善させた上で、黄金期を発生させます。さすがは黒幕です</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SADESM_PEDIA</Tag>
+		<English />
+		<French>加虐性淫乱症とも呼ばれる加虐性嗜好の事。名前の由来はとあるフランスの侯爵の名前である。[NEWLINE]多々良小傘は東風谷早苗のことをさでずむだと思っているようだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>加虐性淫乱症とも呼ばれる加虐性嗜好の事。名前の由来はとあるフランスの侯爵の名前である。[NEWLINE]多々良小傘は東風谷早苗のことをさでずむだと思っているようだ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YATAI_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「ミスティア・ローレライ」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]ミスティア・ローレライが経営する屋台。[NEWLINE]八目鰻は鳥目に効くとされており、ミスティアは人間を鳥目にすれば八目鰻が売れると考えたようだ。[NEWLINE]実際のとこは鳥目とは関係なく結構美味しいので普通に繁盛している。[NEWLINE]結果オーライである。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「ミスティア・ローレライ」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]ミスティア・ローレライが経営する屋台。[NEWLINE]八目鰻は鳥目に効くとされており、ミスティアは人間を鳥目にすれば八目鰻が売れると考えたようだ。[NEWLINE]実際のとこは鳥目とは関係なく結構美味しいので普通に繁盛している。[NEWLINE]結果オーライである。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MYSTIA_FANCLUB_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「ミスティア・ローレライ」のPhantasmスペル使用によって建設されます[NEWLINE][NEWLINE]ミスティア・ローレライの歌は若い妖怪に人気があるらしい。[NEWLINE]そして彼女の経営する八目鰻屋台も中々の人気をもっている。[NEWLINE]当然ファンクラブも存在するだろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「ミスティア・ローレライ」のPhantasmスペル使用によって建設されます[NEWLINE][NEWLINE]ミスティア・ローレライの歌は若い妖怪に人気があるらしい。[NEWLINE]そして彼女の経営する八目鰻屋台も中々の人気をもっている。[NEWLINE]当然ファンクラブも存在するだろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JUSSINHOU_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「ルーミア」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]ルーミアのポーズを見て霧雨魔理沙は「人類は十進法を採用しました」と見えると発言した[NEWLINE]実際の所は聖者が十字架に貼り付けにされたポーズを再現しているらしい。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「ルーミア」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]ルーミアのポーズを見て霧雨魔理沙は「人類は十進法を採用しました」と見えると発言した[NEWLINE]実際の所は聖者が十字架に貼り付けにされたポーズを再現しているらしい。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YOUSEIOUKOKU_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「チルノ」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]妖精が好む世界とは即ち自然そのもの。[NEWLINE]妖精が暮らす王国とは自然豊かな地球のあるべき姿そのものなのである。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「チルノ」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]妖精が好む世界とは即ち自然そのもの。[NEWLINE]妖精が暮らす王国とは自然豊かな地球のあるべき姿そのものなのである。</Japanese>
+	</TEXT>
+<!-- Hyouseirengou End-->
+<!-- Eientei Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUMEINOOKA_STRATEGY</Tag>
+		<English />
+		<French>「丘を建設し、毒を販売する」と書くととても奇妙なように思えるかもしれませんが、毒は薬にもなるものなのです。この建造物を建設すると資源：毒を交易に出すことが可能になります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「丘を建設し、毒を販売する」と書くととても奇妙なように思えるかもしれませんが、毒は薬にもなるものなのです。この建造物を建設すると資源：毒を交易に出すことが可能になります</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KUSURIURI_STRATEGY</Tag>
+		<English />
+		<French>薬は古来、そして現在に至るまで人々に大変重宝されています。すなわち需要があり、多大な富ももたらす商品でもあるのです。この建造物を設置すると根幹となる商業力そのものに補正を加えてくれるでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>薬は古来、そして現在に至るまで人々に大変重宝されています。すなわち需要があり、多大な富ももたらす商品でもあるのです。この建造物を設置すると根幹となる商業力そのものに補正を加えてくれるでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HOURAINOKUSURI_STRATEGY</Tag>
+		<English />
+		<French>本来、蓬莱の薬は禁忌であるはずなのですが、東方叙事詩では比較的気軽に作っています。ですが恐らく本物ではありません。実際の蓬莱の薬と違いマイルドな効能となっています。何故なら姫や永琳のような完全な不死の体を量産するわけではなく、あくまで健康体にさせるだけなのです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>本来、蓬莱の薬は禁忌であるはずなのですが、東方叙事詩では比較的気軽に作っています。ですが恐らく本物ではありません。実際の蓬莱の薬と違いマイルドな効能となっています。何故なら姫や永琳のような完全な不死の体を量産するわけではなく、あくまで健康体にさせるだけなのです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EIENTEI_STRATEGY</Tag>
+		<English />
+		<French>本来、永遠亭は月の追手から隠れるために建設されたものですが、現在ではその必要は無いことが判明しています。建設都市に存在する世界遺産の数が多ければ多いほど、追加の定住特別市民を得る事が出来るでしょう。特別市民とは一体何なのかは気になりますが、恐らくてゐ辺りが連れてきた配下のウサギなのでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>本来、永遠亭は月の追手から隠れるために建設されたものですが、現在ではその必要は無いことが判明しています。建設都市に存在する世界遺産の数が多ければ多いほど、追加の定住特別市民を得る事が出来るでしょう。特別市民とは一体何なのかは気になりますが、恐らくてゐ辺りが連れてきた配下のウサギなのでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TUKIKARANOSIEN_STRATEGY</Tag>
+		<English />
+		<French>どうやら姫と月は和解したようです。技術力の進んだ月からの大々的な支援を受けることにより、今後の宇宙開発競争が大幅に進展するのは間違いありません。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>どうやら姫と月は和解したようです。技術力の進んだ月からの大々的な支援を受けることにより、今後の宇宙開発競争が大幅に進展するのは間違いありません。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REIGETUSAI_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「鈴仙・優曇華院・イナバ」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]月を祀るお祭り。[NEWLINE]永遠亭で定期的に行われており、十五夜のように団子を供える。[NEWLINE]この団子は非常に美味と評判らしい。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「鈴仙・優曇華院・イナバ」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]月を祀るお祭り。[NEWLINE]永遠亭で定期的に行われており、十五夜のように団子を供える。[NEWLINE]この団子は非常に美味と評判らしい。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MOUKEBANASHI_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「因幡てゐ」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]世の中にうまい話など存在しない。[NEWLINE]兎が寄ってきて都合の良い話をもちかけてもよく考えてみよう。[NEWLINE]きっと何処かに落とし穴があるはずである。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「因幡てゐ」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]世の中にうまい話など存在しない。[NEWLINE]兎が寄ってきて都合の良い話をもちかけてもよく考えてみよう。[NEWLINE]きっと何処かに落とし穴があるはずである。</Japanese>
+	</TEXT>
+<!-- Eientei End-->
+<!-- Youkainoyama Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NITORIKOUBOU_STRATEGY</Tag>
+		<English />
+		<French>河童の技術力は素晴らしいものがあります。彼らのための専用の工房を設置して、更に河童からの恩恵を授かりましょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>河童の技術力は素晴らしいものがあります。彼らのための専用の工房を設置して、更に河童からの恩恵を授かりましょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUNBUNMARUSINBUN_STRATEGY</Tag>
+		<English />
+		<French>鴉天狗の射命丸文が発行する新聞「文々。新聞」の定期購読契約です。新聞は情報の入手から様々な雑用的利用まであり生活の支えとなってくれるでしょう。もちろん彼女達、鴉天狗の報道力は素晴らしいものがあり、敵対する国家の情報も欲しいがままになります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鴉天狗の射命丸文が発行する新聞「文々。新聞」の定期購読契約です。新聞は情報の入手から様々な雑用的利用まであり生活の支えとなってくれるでしょう。もちろん彼女達、鴉天狗の報道力は素晴らしいものがあり、敵対する国家の情報も欲しいがままになります</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KAZEHAFURIENBU_PEDIA</Tag>
+		<English />
+		<French>風祝（かぜはふり）が奇跡を呼ぶ演舞を行います。この演舞が完了すると奇跡の力により、何と無償のテクノロジーが一つ入手できます。奇跡ってすごいや。ですが気をつけてください、この演舞は科学的手法の技術を入手してしまうと奇跡の力を失ってしまうため、建造できなくなります。建設はお早めに。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>風祝（かぜはふり）が奇跡を呼ぶ演舞を行います。この演舞が完了すると奇跡の力により、何と無償のテクノロジーが一つ入手できます。奇跡ってすごいや。ですが気をつけてください、この演舞は科学的手法の技術を入手してしまうと奇跡の力を失ってしまうため、建造できなくなります。建設はお早めに。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MORIYAJINJA_STRATEGY</Tag>
+		<English />
+		<French>最近になって、外の世界から引っ越してきた神社があるようです。その神社を迎えた都市は謎の力により食料と、そしてユニットの空輸能力を授かることができます。どうやって空輸しているかって？多分神の力でどうにかしているんでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>最近になって、外の世界から引っ越してきた神社があるようです。その神社を迎えた都市は謎の力により食料と、そしてユニットの空輸能力を授かることができます。どうやって空輸しているかって？多分神の力でどうにかしているんでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TENSHINOTANOSHIMI_PEDIA</Tag>
+		<English />
+		<French>暇を潰すために神社を潰す天人。[NEWLINE]そんな彼女の楽しみなど一つしかないのである。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>暇を潰すために神社を潰す天人。[NEWLINE]そんな彼女の楽しみなど一つしかないのである。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NITORIKYOUIKU_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「河城にとり」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]妖怪の山では新人の河童に高度な教育を施しているそうです。[NEWLINE]具体的に何をどうしているかは不明ですが、とにかく技術者が増えるのは確かなようです。[NEWLINE]ただし、環境への配慮はお世辞にも良いとはいえず、多少の不衛生が発生する模様です。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「河城にとり」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]妖怪の山では新人の河童に高度な教育を施しているそうです。[NEWLINE]具体的に何をどうしているかは不明ですが、とにかく技術者が増えるのは確かなようです。[NEWLINE]ただし、環境への配慮はお世辞にも良いとはいえず、多少の不衛生が発生する模様です。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YASAKABUNSHA_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「八坂神奈子」のExtraスペル使用によって建設されます[NEWLINE][NEWLINE]神というのは分社から分社へと自由に移動できる。[NEWLINE]つまりこれを設置すると八坂神奈子がひょっこり現れるかもしれないのだ。[NEWLINE]そこに移動する価値があればの話だが……。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「八坂神奈子」のExtraスペル使用によって建設されます[NEWLINE][NEWLINE]神というのは分社から分社へと自由に移動できる。[NEWLINE]つまりこれを設置すると八坂神奈子がひょっこり現れるかもしれないのだ。[NEWLINE]そこに移動する価値があればの話だが……。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KANAMEISHI_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「比那名居天子」のPhantasmスペル使用によって建設されます[NEWLINE][NEWLINE]地震を抑えるために大鯰、または竜の頭を押さえる石。[NEWLINE]日本において要石は、茨城県鹿嶋市の鹿島神宮と千葉県香取市の香取神宮にある。[NEWLINE]この石を操る力をもつ比那名居家はこの何方かの一族なのかもしれない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「比那名居天子」のPhantasmスペル使用によって建設されます[NEWLINE][NEWLINE]地震を抑えるために大鯰、または竜の頭を押さえる石。[NEWLINE]日本において要石は、茨城県鹿嶋市の鹿島神宮と千葉県香取市の香取神宮にある。[NEWLINE]この石を操る力をもつ比那名居家はこの何方かの一族なのかもしれない。</Japanese>
+	</TEXT>
+<!-- Youkainoyama End-->
+<!-- Hakureijinja Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KIRISAMEMAHOUTEN_STRATEGY</Tag>
+		<English />
+		<French>魔法の森の中に霧雨魔理沙が経営する何でも屋「霧雨魔法店」がある…ということにはなっていますが、要するに彼女の自宅です。本人が留守にしがちなので店としてはアテにしない方が良いでしょう。ですが建造物としての効力は確かなものがあります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔法の森の中に霧雨魔理沙が経営する何でも屋「霧雨魔法店」がある…ということにはなっていますが、要するに彼女の自宅です。本人が留守にしがちなので店としてはアテにしない方が良いでしょう。ですが建造物としての効力は確かなものがあります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOURINDOU_STRATEGY</Tag>
+		<English />
+		<French>魔法の森の入口付近に香霖堂と呼ばれる謎の店があります。外の世界のゴｍ…品物から妖怪の道具まで様々なものを揃えていますが、店主はお世辞にも商売人に向いている性格とはいえません。ですが東方叙事詩においては心強い効力を発揮してくれることでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔法の森の入口付近に香霖堂と呼ばれる謎の店があります。外の世界のゴｍ…品物から妖怪の道具まで様々なものを揃えていますが、店主はお世辞にも商売人に向いている性格とはいえません。ですが東方叙事詩においては心強い効力を発揮してくれることでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NINGYOUNOYAKATA_STRATEGY</Tag>
+		<English />
+		<French>魔法の森の中に人形遣いが住まう家があります。人外の中では比較的親切な彼女は迷った人間を泊めたりもしていますが、その家は人形だらけでファンシーな雰囲気だとも、不気味な空気だとも伝わっています。そんな人形遣いの彼女に協力を申し出る事により、各都市で無償で人形劇を開催してくれることでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔法の森の中に人形遣いが住まう家があります。人外の中では比較的親切な彼女は迷った人間を泊めたりもしていますが、その家は人形だらけでファンシーな雰囲気だとも、不気味な空気だとも伝わっています。そんな人形遣いの彼女に協力を申し出る事により、各都市で無償で人形劇を開催してくれることでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DAIENKAI_STRATEGY</Tag>
+		<English />
+		<French>大抵の神社では1年に1回か2回、その神社で定められた重要な日に盛大な祭事を行います。当然、博麗神社も例外ではありません。もっとも「博麗神社の例大祭」といえば、我々プレイヤーにとっては別のものを思い浮かべる人が大半でしょう。私もそうです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大抵の神社では1年に1回か2回、その神社で定められた重要な日に盛大な祭事を行います。当然、博麗神社も例外ではありません。もっとも「博麗神社の例大祭」といえば、我々プレイヤーにとっては別のものを思い浮かべる人が大半でしょう。私もそうです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUMIYOSISANSHIN_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「博麗霊夢」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]底筒男命、中筒男命、表筒男命の事。[NEWLINE]東方においては東方儚月抄において霊夢が召喚している。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「博麗霊夢」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]底筒男命、中筒男命、表筒男命の事。[NEWLINE]東方においては東方儚月抄において霊夢が召喚している。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HAKUREIJINJANOONRYOU_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「魅魔」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]アタシャココニイルヨ……</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「魅魔」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]アタシャココニイルヨ……</Japanese>
+	</TEXT>
+<!-- Hakureijinja End-->
+<!-- Chireiden Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KUROGEWAGYU_STRATEGY</Tag>
+		<English />
+		<French>黒毛和牛の肉質は世界最高峰と称される最高品質のものであり、人々に愛されています。資源としても重宝されることは間違いないでしょう。ところでこれが何故地霊殿に関係あるのか、ですか？実は丑の刻参りの最終段階では黒い牛がどこからともなく現れる、という伝説があるのです</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>黒毛和牛の肉質は世界最高峰と称される最高品質のものであり、人々に愛されています。資源としても重宝されることは間違いないでしょう。ところでこれが何故地霊殿に関係あるのか、ですか？実は丑の刻参りの最終段階では黒い牛がどこからともなく現れる、という伝説があるのです</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ONINOSHIREN_STRATEGY</Tag>
+		<English />
+		<French>鬼といえば様々なイメージがあるでしょうが、鬼の側面の一つに地獄で罪人に罰を与える役目、というものがあります。そんな地獄譲りのスパルタ教育を受けた軍隊は素晴らしい練度を誇ることでしょう。軍隊の産出も早まります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鬼といえば様々なイメージがあるでしょうが、鬼の側面の一つに地獄で罪人に罰を与える役目、というものがあります。そんな地獄譲りのスパルタ教育を受けた軍隊は素晴らしい練度を誇ることでしょう。軍隊の産出も早まります</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEKOGURUMA_STRATEGY</Tag>
+		<English />
+		<French>火車は死者の亡骸を集めます。本来は人間限定と思われますが、東方叙事詩ではどうやら生物の死骸なら何でもよさそうです。所有する資源によって性能が大幅に変動しますが、様々な死骸を載せた猫車は最高峰の性能を発揮してくれることでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>火車は死者の亡骸を集めます。本来は人間限定と思われますが、東方叙事詩ではどうやら生物の死骸なら何でもよさそうです。所有する資源によって性能が大幅に変動しますが、様々な死骸を載せた猫車は最高峰の性能を発揮してくれることでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUISHIKISERIES_STRATEGY</Tag>
+		<English />
+		<French>古明地こいしに気に入られると無意識のうちに色々な効力・建造物を発揮してくれるようです。非常に様々な効力が勢ぞろいです。是非とも彼女とは仲良くしましょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>古明地こいしに気に入られると無意識のうちに色々な効力・建造物を発揮してくれるようです。非常に様々な効力が勢ぞろいです。是非とも彼女とは仲良くしましょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHIKACENTER_STRATEGY</Tag>
+		<English />
+		<French>この巨大な核融合研究施設を建設することにより、地霊殿の全都市に核融合の恩恵を授けることが可能になります。メルトダウンの心配もありません。また、この建造物を設置した都市では迎撃回避率の高い特殊な核兵器を製造可能になります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>この巨大な核融合研究施設を建設することにより、地霊殿の全都市に核融合の恩恵を授けることが可能になります。メルトダウンの心配もありません。また、この建造物を設置した都市では迎撃回避率の高い特殊な核兵器を製造可能になります</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FUSION_PLANT_STRATEGY</Tag>
+		<English />
+		<French>核融合反応を利用して電力を得る施設です。通常の発電所よりパワフルで、しかもメルトダウンの心配はありません</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>核融合反応を利用して電力を得る施設です。通常の発電所よりパワフルで、しかもメルトダウンの心配はありません</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SATORIHOUSE_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「古明地さとり」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]地霊殿の事。さとりはここで多数のペットと暮らしている。[NEWLINE]ペットに仕事をさせペットの世話もペットにさせている。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「古明地さとり」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]地霊殿の事。さとりはここで多数のペットと暮らしている。[NEWLINE]ペットに仕事をさせペットの世話もペットにさせている。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHITTO_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「水橋パルスィ」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]妬ましい妬ましい……。[NEWLINE]あんな技術を持ってるなんて妬ましい……。[NEWLINE]スパイを使って奪ってやるわ……。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「水橋パルスィ」のExtraスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]妬ましい妬ましい……。[NEWLINE]あんな技術を持ってるなんて妬ましい……。[NEWLINE]スパイを使って奪ってやるわ……。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DAISHITTO_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「水橋パルスィ」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]妬ましい妬ましい……。[NEWLINE]あんな技術を持ってるなんて妬ましい……。[NEWLINE]スパイを使って奪ってやるわ……。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「水橋パルスィ」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]妬ましい妬ましい……。[NEWLINE]あんな技術を持ってるなんて妬ましい……。[NEWLINE]スパイを使って奪ってやるわ……。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KISUMENOOKE_PEDIA</Tag>
+		<English />
+		<French>キスメが入っている桶。[NEWLINE]とても固く丈夫で幻想少女たちが被っている帽子を真似て"ＺＵＮ桶"と呼ばれる事もある。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>キスメが入っている桶。[NEWLINE]とても固く丈夫で幻想少女たちが被っている帽子を真似て"ＺＵＮ桶"と呼ばれる事もある。</Japanese>
+	</TEXT>
+<!-- Chireiden End-->
+<!-- Seirensen Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TINY_TREASURE_STRATEGY</Tag>
+		<English />
+		<French>ネズミはある意味人類にとっての天敵です。何処にでも発生し、駆除はひたすらに困難です。しかしそんなネズミたちを味方にすることが出来るとしたら、都市の市民にとって大きな力となってくれるでしょう。毎年幾らかはネズミに食われる穀物庫の貯蔵も、消耗率が抑えられ食料供給がラクになること間違い無しです</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ネズミはある意味人類にとっての天敵です。何処にでも発生し、駆除はひたすらに困難です。しかしそんなネズミたちを味方にすることが出来るとしたら、都市の市民にとって大きな力となってくれるでしょう。毎年幾らかはネズミに食われる穀物庫の貯蔵も、消耗率が抑えられ食料供給がラクになること間違い無しです</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SWORD_OF_AMULET_STRATEGY</Tag>
+		<English />
+		<French>剣鎧護法（けんがいごほう）はどちらかというと白蓮よりも、その弟の命蓮とのエピソードに関連があります。簡潔に言うと時の帝の病を治療したエピソードです。東方叙事詩においても新規ユニットに行軍の昇進、という形で人々の治療を行っています</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>剣鎧護法（けんがいごほう）はどちらかというと白蓮よりも、その弟の命蓮とのエピソードに関連があります。簡潔に言うと時の帝の病を治療したエピソードです。東方叙事詩においても新規ユニットに行軍の昇進、という形で人々の治療を行っています</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MEIRENJI_STRATEGY</Tag>
+		<English />
+		<French>聖白蓮の復活後、状況が落ち着いた頃に村紗水蜜の聖輦船が変形して誕生したのがこの命蓮寺です。建設すると全ての偉人ポイントを産出するようになり、またユニット村紗水蜜のEXスペルと組み合わせることで再び船に変化することも可能です。ちなみにとある目的のため、設置場所は特定の場所を選んでいたとか何とか…</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖白蓮の復活後、状況が落ち着いた頃に村紗水蜜の聖輦船が変形して誕生したのがこの命蓮寺です。建設すると全ての偉人ポイントを産出するようになり、またユニット村紗水蜜のEXスペルと組み合わせることで再び船に変化することも可能です。ちなみにとある目的のため、設置場所は特定の場所を選んでいたとか何とか…</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NIRVANA_STRATEGY</Tag>
+		<English />
+		<French>ニルヴァーナとは、要するに「涅槃」のことであり、仏教における究極の目標の一つでもあります。もしもあなたがこの建造物を全力で生かしたい場合は世界遺産が沢山建設されている都市を選びましょう。さすれば、悟りは必ずや開かれるはずです</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ニルヴァーナとは、要するに「涅槃」のことであり、仏教における究極の目標の一つでもあります。もしもあなたがこの建造物を全力で生かしたい場合は世界遺産が沢山建設されている都市を選びましょう。さすれば、悟りは必ずや開かれるはずです</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YAMABIKO_PEDIA</Tag>
+		<English />
+		<French>山に向かって発した声が返ってくる現象。[NEWLINE]または山彦という妖怪が引き起こす現象。[NEWLINE]犬に近い姿をしているとされているからか幽谷響子もまた犬のような外見をしている。[NEWLINE]ちなみに山彦に尻尾はない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>山に向かって発した声が返ってくる現象。[NEWLINE]または山彦という妖怪が引き起こす現象。[NEWLINE]犬に近い姿をしているとされているからか幽谷響子もまた犬のような外見をしている。[NEWLINE]ちなみに山彦に尻尾はない。</Japanese>
+	</TEXT>
+<!-- Seirensen End-->
+<!-- Shinreibyou Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHIZARUZOU_STRATEGY</Tag>
+		<English />
+		<French>仙人の豊聡耳神子が人々に何やら怪しい品物を売っているようです。何でも「置いておくと寿命が延びる」だそうです。果たして本当に効果があるかどうかはさておき、これが人々に行き渡ると人々は幸福になるようです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>仙人の豊聡耳神子が人々に何やら怪しい品物を売っているようです。何でも「置いておくと寿命が延びる」だそうです。果たして本当に効果があるかどうかはさておき、これが人々に行き渡ると人々は幸福になるようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FUUSUI_LABO_STRATEGY</Tag>
+		<English />
+		<French>風水といえば現代ではどちらかというとゲン担ぎ的な側面の方が強いでしょうが、古代においては風水師は国家をも動かす程の影響力を持っていました。そのような力を持つ風水を研究することで技術開発の力にもなってくれるでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>風水といえば現代ではどちらかというとゲン担ぎ的な側面の方が強いでしょうが、古代においては風水師は国家をも動かす程の影響力を持っていました。そのような力を持つ風水を研究することで技術開発の力にもなってくれるでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KYONSHII_FACTORY_STRATEGY</Tag>
+		<English />
+		<French>キョンシーというと様々なイメージがあるかもしれませんが、一言で言うと東洋版ゾンビです。死体から作った軍隊は精神衛生上の問題を除けば実に理想的な軍隊となります。ただし所詮は死体なので、生身の人間と比べるとあまり成長はしないようです</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>キョンシーというと様々なイメージがあるかもしれませんが、一言で言うと東洋版ゾンビです。死体から作った軍隊は精神衛生上の問題を除けば実に理想的な軍隊となります。ただし所詮は死体なので、生身の人間と比べるとあまり成長はしないようです</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAISHIDOU_STRATEGY</Tag>
+		<English />
+		<French>外の世界では「聖徳太子」は信仰の対象ともなっています。そんな信仰対象となった聖徳太子を祀っているのがこの太子堂と呼ばれる建造物です。しかし「豊聡耳神子」はこのことを聞いたら嫌な顔をするかもしれません。何故かって？太子堂では聖徳太子を「仏教興隆の祖」として祀っているからです</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>外の世界では「聖徳太子」は信仰の対象ともなっています。そんな信仰対象となった聖徳太子を祀っているのがこの太子堂と呼ばれる建造物です。しかし「豊聡耳神子」はこのことを聞いたら嫌な顔をするかもしれません。何故かって？太子堂では聖徳太子を「仏教興隆の祖」として祀っているからです</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HOURYUUJI_STRATEGY</Tag>
+		<English />
+		<French>聖徳太子ゆかりの寺院であり、代名詞の一つといえばこの法隆寺です。法隆寺の効力はあくまで「定住させた偉人」のみが対象であり、通常の専門家に効力はありませんが、それを踏まえても非常に強力な効果を持っていることは確かです。ちなみに正真正銘の「世界遺産」でもあります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖徳太子ゆかりの寺院であり、代名詞の一つといえばこの法隆寺です。法隆寺の効力はあくまで「定住させた偉人」のみが対象であり、通常の専門家に効力はありませんが、それを踏まえても非常に強力な効果を持っていることは確かです。ちなみに正真正銘の「世界遺産」でもあります</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHIKAISEN_CENTER_STRATEGY</Tag>
+		<English />
+		<French>進んだ科学技術により、ついに仙人を量産することに成功しました。この建造物を建設することで都市の不衛生は劇的に改善されるでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>進んだ科学技術により、ついに仙人を量産することに成功しました。この建造物を建設することで都市の不衛生は劇的に改善されるでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAISHIKOU_STRATEGY</Tag>
+		<English />
+		<French>「講」とは同一の信仰を持つ者同士が集まった結社です。その中でも聖徳太子を信仰する、同職の職人たちの集いを「太子講」と呼びます。もっとも、科学者だのスパイだのの集いは流石に幻想郷にしか存在しないと思いますが。ちなみに、大太子講は国家遺産扱いのため、建設場所には十分注意してください。重要な国家遺産を建設できなくなっても知りませんよ！</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「講」とは同一の信仰を持つ者同士が集まった結社です。その中でも聖徳太子を信仰する、同職の職人たちの集いを「太子講」と呼びます。もっとも、科学者だのスパイだのの集いは流石に幻想郷にしか存在しないと思いますが。ちなみに、大太子講は国家遺産扱いのため、建設場所には十分注意してください。重要な国家遺産を建設できなくなっても知りませんよ！</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IMOKONOHAKA_PEDIA</Tag>
+		<English />
+		<French>よく女性と間違えられる小野妹子だが[NEWLINE]おそらく幻想入りすると女の子になると思われる。[NEWLINE]聖徳太子すら女の子になる幻想郷なのだから。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>よく女性と間違えられる小野妹子だが[NEWLINE]おそらく幻想入りすると女の子になると思われる。[NEWLINE]聖徳太子すら女の子になる幻想郷なのだから。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HIKAKUBUTURIGAKU_PEDIA</Tag>
+		<English />
+		<French>岡崎夢美が専門とする学問。[NEWLINE]詳しい内容は不明だが、平行世界にこだわる所が多い彼女の様子を見ると[NEWLINE]平行世界との比較を行う学問なのかもしれない。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>岡崎夢美が専門とする学問。[NEWLINE]詳しい内容は不明だが、平行世界にこだわる所が多い彼女の様子を見ると[NEWLINE]平行世界との比較を行う学問なのかもしれない。</Japanese>
+	</TEXT>
+<!-- Shinreibyou End-->
+<!-- Kishinjou Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WALL_ISSUN_STRATEGY</Tag>
+		<English />
+		<French>進撃してくる巫女を撃退するために作られた、輝針城の防壁固有建造物です。この建造物は本来の防壁の機能に加え、多少の軍事ユニット生産ボーナスを加えます。更に小人調査兵団を生産するにはこのウォールオブイッスンが必要となります。是非あなたの都市にこの建造物を設置し、軍事面の充実を図りましょう。ダンとかいう存在意義が怪しいUBとは格が違うのです</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>進撃してくる巫女を撃退するために作られた、輝針城の防壁固有建造物です。この建造物は本来の防壁の機能に加え、多少の軍事ユニット生産ボーナスを加えます。更に小人調査兵団を生産するにはこのウォールオブイッスンが必要となります。是非あなたの都市にこの建造物を設置し、軍事面の充実を図りましょう。ダンとかいう存在意義が怪しいUBとは格が違うのです</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KODUTINOMARYOKU_STRATEGY</Tag>
+		<English />
+		<French>打ち出の小槌はどんな願いでもかなえてくれます。指導者が持つ「もっと手早くユニットを集めたい」という願いもかなえてくれるでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>打ち出の小槌はどんな願いでもかなえてくれます。指導者が持つ「もっと手早くユニットを集めたい」という願いもかなえてくれるでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RAIKO_MAGIC_A_STRATEGY</Tag>
+		<English />
+		<French>堀川雷鼓が外の力を借りようとしています。こちらの呪法は主に戦争面で力を借りるものであり、我々にとってお馴染みの固有ユニットの力を借りることができます。しかしこちらを先に建設してしまうと「雷鼓の呪法-内」は建設できなくなります。どちから片方を選びましょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>堀川雷鼓が外の力を借りようとしています。こちらの呪法は主に戦争面で力を借りるものであり、我々にとってお馴染みの固有ユニットの力を借りることができます。しかしこちらを先に建設してしまうと「雷鼓の呪法-内」は建設できなくなります。どちから片方を選びましょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RAIKO_MAGIC_B_STRATEGY</Tag>
+		<English />
+		<French>堀川雷鼓が外の力を借りようとしています。こちらの呪法は主に内政面で力を借りるものであり、我々にとってお馴染みの固有建造物の力を借りることができます。しかしこちらを先に建設してしまうと「雷鼓の呪法-戦」は建設できなくなります。どちから片方を選びましょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>堀川雷鼓が外の力を借りようとしています。こちらの呪法は主に内政面で力を借りるものであり、我々にとってお馴染みの固有建造物の力を借りることができます。しかしこちらを先に建設してしまうと「雷鼓の呪法-戦」は建設できなくなります。どちから片方を選びましょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KISHINJOU_STRATEGY</Tag>
+		<English />
+		<French>昔、欲をかきすぎたとある小人族が最後に願ったのがこの「輝針城」の建設です。もっともそれを願った直後に城は逆転し、小人族もろとも鬼の世界へ幽閉されてしまいましたが。この城が建設されている都市ではどこからともなく無償の「小人調査兵団」が沸いて出てくることでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>昔、欲をかきすぎたとある小人族が最後に願ったのがこの「輝針城」の建設です。もっともそれを願った直後に城は逆転し、小人族もろとも鬼の世界へ幽閉されてしまいましたが。この城が建設されている都市ではどこからともなく無償の「小人調査兵団」が沸いて出てくることでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KISHINJOU_TENSHUKAKU_STRATEGY</Tag>
+		<English />
+		<French>日本の城は基本的に、中心であって象徴となる天守閣の存在は欠かせないものとなっています。勿論、輝針城とてその例外ではありません。「輝針城」が建設されている都市には是非この建造物も建設しましょう。でなければ画竜点睛を欠く、というものです</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>日本の城は基本的に、中心であって象徴となる天守閣の存在は欠かせないものとなっています。勿論、輝針城とてその例外ではありません。「輝針城」が建設されている都市には是非この建造物も建設しましょう。でなければ画竜点睛を欠く、というものです</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAGIC_STORM_STRATEGY</Tag>
+		<English />
+		<French>幻想郷の上空に謎の魔力の嵐を発生させます。かつての小槌の魔力とまるで同じような効力を持つこの建造物は、かつての輝きをもう一度取り戻してくれるでしょう。さあ核兵ｋ…おっと。ユニット量産の時間です</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幻想郷の上空に謎の魔力の嵐を発生させます。かつての小槌の魔力とまるで同じような効力を持つこの建造物は、かつての輝きをもう一度取り戻してくれるでしょう。さあ核兵ｋ…おっと。ユニット量産の時間です</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ECHO_CHAMBER_PEDIA</Tag>
+		<English />
+		<French>直訳で"反響する部屋"である。[NEWLINE]最近ではSNSなどで問題になっている現象を指したりもする。[NEWLINE][NEWLINE]この建造物はペナルティしか発生させないため、消す手段があるなら積極的に消してしまうといいだろう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>直訳で"反響する部屋"である。[NEWLINE]最近ではSNSなどで問題になっている現象を指したりもする。[NEWLINE][NEWLINE]この建造物はペナルティしか発生させないため、消す手段があるなら積極的に消してしまうといいだろう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AMANOJAKU_PEDIA</Tag>
+		<English />
+		<French>天邪鬼は仏教において煩悩を表す象徴とされている。[NEWLINE]鬼人正邪の野望は果たして煩悩なのだろうか……。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天邪鬼は仏教において煩悩を表す象徴とされている。[NEWLINE]鬼人正邪の野望は果たして煩悩なのだろうか……。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SINDEKURERU_PEDIA</Tag>
+		<English />
+		<French>某女神が転生するＲＰＧにおいてたびたび登場する「魔人アリス」の代名詞と化している台詞及びスキル。[NEWLINE]技としての効果は敵全体を即死させるというとんでもない効果。[NEWLINE]ただし闇属性が弱点の相手以外にはそれほど効かないので少し微妙である。[NEWLINE]そんな物騒な効果である為かコレを元ネタとする旧作版アリスも物騒な独自志向を持つ。[NEWLINE]奴隷さん死んでくれる？</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>某女神が転生するＲＰＧにおいてたびたび登場する「魔人アリス」の代名詞と化している台詞及びスキル。[NEWLINE]技としての効果は敵全体を即死させるというとんでもない効果。[NEWLINE]ただし闇属性が弱点の相手以外にはそれほど効かないので少し微妙である。[NEWLINE]そんな物騒な効果である為かコレを元ネタとする旧作版アリスも物騒な独自志向を持つ。[NEWLINE]奴隷さん死んでくれる？</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TOWER_FARM_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「堀川雷鼓」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]農業は国の根幹となる重要な産業ですが、広大な敷地を必要とするというデメリットが常々存在していました。[NEWLINE]この「集積高層農場」はそんな農場の敷地問題を解決する切り札となるかもしれません。[NEWLINE]横に広げるのが場所を取るならば、縦に伸ばしてしまえばいいというわけです[NEWLINE][NEWLINE]設定に無理があると思いますか？なあに、問題ありません。異郷のシム人が暮らす世界ではよくある事です。[NEWLINE][NEWLINE]堀川雷鼓は外の世界の力としてこの力を使うつもりのようだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「堀川雷鼓」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]農業は国の根幹となる重要な産業ですが、広大な敷地を必要とするというデメリットが常々存在していました。[NEWLINE]この「集積高層農場」はそんな農場の敷地問題を解決する切り札となるかもしれません。[NEWLINE]横に広げるのが場所を取るならば、縦に伸ばしてしまえばいいというわけです[NEWLINE][NEWLINE]設定に無理があると思いますか？なあに、問題ありません。異郷のシム人が暮らす世界ではよくある事です。[NEWLINE][NEWLINE]堀川雷鼓は外の世界の力としてこの力を使うつもりのようだ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SOYLENT_SID_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「堀川雷鼓」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]創造主Sidは日本の郷土料理"寿司"が大好物です。[NEWLINE]その創造主Sidに捧げる魔法の魚肉缶詰生産工場がこのソイレント・シドです。[NEWLINE]謎のソイレント的パワーによりエントロピーを凌駕した謎の魚肉缶詰を日々量産しています。[NEWLINE]しかし、ここで働いていた元従業員はこう証言しています[NEWLINE]「ソイレント・シドの缶詰をまた食べたいですか？」[NEWLINE]「いいえ、私は遠慮しておきます」[NEWLINE][NEWLINE]堀川雷鼓は外の世界の力としてこの力を使うつもりのようだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「堀川雷鼓」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]創造主Sidは日本の郷土料理"寿司"が大好物です。[NEWLINE]その創造主Sidに捧げる魔法の魚肉缶詰生産工場がこのソイレント・シドです。[NEWLINE]謎のソイレント的パワーによりエントロピーを凌駕した謎の魚肉缶詰を日々量産しています。[NEWLINE]しかし、ここで働いていた元従業員はこう証言しています[NEWLINE]「ソイレント・シドの缶詰をまた食べたいですか？」[NEWLINE]「いいえ、私は遠慮しておきます」[NEWLINE][NEWLINE]堀川雷鼓は外の世界の力としてこの力を使うつもりのようだ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LITTLE_MAID_FARM_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「堀川雷鼓」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]マインでクラフトな世界において活躍する小さなメイドさんは日々砂糖を要求しています。[NEWLINE]彼女たちは砂糖が切れるとすぐにストライキを起こすため、メイドの維持には砂糖の安定供給を可能とする巨大砂糖農場が欠かせません[NEWLINE]堀川雷鼓は外の世界の力としてこの力を使うつもりのようだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「堀川雷鼓」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]マインでクラフトな世界において活躍する小さなメイドさんは日々砂糖を要求しています。[NEWLINE]彼女たちは砂糖が切れるとすぐにストライキを起こすため、メイドの維持には砂糖の安定供給を可能とする巨大砂糖農場が欠かせません[NEWLINE]堀川雷鼓は外の世界の力としてこの力を使うつもりのようだ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COBBLESTONE_MAKER_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「堀川雷鼓」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]マインでクラフトな世界において丸石は非常に用途が多く需要が常に高い。[NEWLINE]その丸石を確保するために溶岩と水を用いて作られるのがこの建物である。[NEWLINE]堀川雷鼓は外の世界の力としてこの力を使うつもりのようだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「堀川雷鼓」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]マインでクラフトな世界において丸石は非常に用途が多く需要が常に高い。[NEWLINE]その丸石を確保するために溶岩と水を用いて作られるのがこの建物である。[NEWLINE]堀川雷鼓は外の世界の力としてこの力を使うつもりのようだ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BRANCH_MINING_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「堀川雷鼓」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]マインでクラフトな世界において貴重な鉱石を効率良く見つける為の採掘テクニック。[NEWLINE]堀川雷鼓は外の世界の力としてこの力を使うつもりのようだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「堀川雷鼓」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]マインでクラフトな世界において貴重な鉱石を効率良く見つける為の採掘テクニック。[NEWLINE]堀川雷鼓は外の世界の力としてこの力を使うつもりのようだ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FARLEYS_FOUNDRY_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「堀川雷鼓」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]よう野郎ども、待たせたな！シム人が暮らす世界からみんな大好きファーリーが幻想郷に進出だ！[NEWLINE]税率20%？発生され次第潰される？そんなもんじゃファーリーは潰せない！[NEWLINE]今日も元気にあのオカマ野郎のクリーン産業を潰すためにファーリー・スモッグ全開さ。これが男の工場ってもんよ[NEWLINE][NEWLINE]堀川雷鼓は外の世界の力としてこの力を使うつもりのようだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「堀川雷鼓」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]よう野郎ども、待たせたな！シム人が暮らす世界からみんな大好きファーリーが幻想郷に進出だ！[NEWLINE]税率20%？発生され次第潰される？そんなもんじゃファーリーは潰せない！[NEWLINE]今日も元気にあのオカマ野郎のクリーン産業を潰すためにファーリー・スモッグ全開さ。これが男の工場ってもんよ[NEWLINE][NEWLINE]堀川雷鼓は外の世界の力としてこの力を使うつもりのようだ。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FORTUNE_PICKEL_PEDIA</Tag>
+		<English />
+		<French>※この建造物はユニット「堀川雷鼓」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]マインでクラフトな世界において多大な経験を犠牲にすることで得られる素晴らしいピッケル。[NEWLINE]基本的に貴重な存在なのでより貴重な素材を用いたピッケルを素体とすることが多い。[NEWLINE]が、貴重な存在故に滅多に使用されないエリクサーのジレンマ的な問題が発生することも。溶岩落ちロストだけは気をつけよう。[NEWLINE]堀川雷鼓は外の世界の力としてこの力を使うつもりのようだ。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>※この建造物はユニット「堀川雷鼓」のPhantasmスペル使用によって建設されます[NEWLINE]※この建造物は術者がターン終了時に建設都市から離れていると消滅します[NEWLINE][NEWLINE]マインでクラフトな世界において多大な経験を犠牲にすることで得られる素晴らしいピッケル。[NEWLINE]基本的に貴重な存在なのでより貴重な素材を用いたピッケルを素体とすることが多い。[NEWLINE]が、貴重な存在故に滅多に使用されないエリクサーのジレンマ的な問題が発生することも。溶岩落ちロストだけは気をつけよう。[NEWLINE]堀川雷鼓は外の世界の力としてこの力を使うつもりのようだ。</Japanese>
+	</TEXT>
+<!-- Kishinjou End-->
+</Civ4GameText>

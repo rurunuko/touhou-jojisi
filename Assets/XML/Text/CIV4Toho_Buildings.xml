@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Objects -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!-- Original Building -->
+<!-- Koumakan Buildings Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONBAN</Tag>
+		<English />
+		<French>門番</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>門番</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DAITOSHOKAN</Tag>
+		<English />
+		<French>大図書館</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大図書館</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TOKEIDAI</Tag>
+		<English />
+		<French>時計台</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>時計台</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOUMAKAN</Tag>
+		<English />
+		<French>紅魔館</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>紅魔館</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_495NENNOHAMON</Tag>
+		<English />
+		<French>４９５年の波紋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>４９５年の波紋</Japanese>
+	</TEXT>
+<!-- Koumakan Buildings End-->
+<!-- Hakugyokurou Buildings Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEKONOTE</Tag>
+		<English />
+		<French>猫の手</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>猫の手</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KENJUTUSINANJO</Tag>
+		<English />
+		<French>剣術指南所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>剣術指南所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SAIGYOUAYAKASI</Tag>
+		<English />
+		<French>西行妖</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>西行妖</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAYOIGA</Tag>
+		<English />
+		<French>迷い家</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>迷い家</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HANGONCHOU</Tag>
+		<English />
+		<French>反魂蝶</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>反魂蝶</Japanese>
+	</TEXT>
+<!-- Hakugyokurou Buildings End-->
+<!-- Hyouseirengou Buildings Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YAMINOSASOI</Tag>
+		<English />
+		<French>闇の誘い</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>闇の誘い</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUSIPOSUTO</Tag>
+		<English />
+		<French>蟲ポスト</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蟲ポスト</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MYSTIACONCERT</Tag>
+		<English />
+		<French>ミスティアコンサート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミスティアコンサート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REITOUGAERU</Tag>
+		<English />
+		<French>冷凍ガエル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>冷凍ガエル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KUROMAKU</Tag>
+		<English />
+		<French>黒幕</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>黒幕</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SIZENHASSEI</Tag>
+		<English />
+		<French>自然発生</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>自然発生</Japanese>
+	</TEXT>
+<!-- Hyouseirengou Buildings End-->
+<!-- Eientei Buildings Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUMEINOOKA</Tag>
+		<English />
+		<French>無名の丘</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無名の丘</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KUSURIURI</Tag>
+		<English />
+		<French>薬売り</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>薬売り</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HOURAINOKUSURI</Tag>
+		<English />
+		<French>蓬莱の薬</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蓬莱の薬</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EIENTEI</Tag>
+		<English />
+		<French>永遠亭</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>永遠亭</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TUKIKARANOSIEN</Tag>
+		<English />
+		<French>月からの支援</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月からの支援</Japanese>
+	</TEXT>
+<!-- Eientei Buildings End-->
+<!-- Youkainoyama Buildings Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NITORIKOUBOU</Tag>
+		<English />
+		<French>にとり工房</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>にとり工房</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUNBUNMARUSINBUN</Tag>
+		<English />
+		<French>文々。新聞</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>文々。新聞</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KAZEHAFURIENBU</Tag>
+		<English />
+		<French>風祝演舞</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>風祝演舞</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MORIYAJINJA</Tag>
+		<English />
+		<French>守矢神社</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>守矢神社</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ONBASIRA</Tag>
+		<English />
+		<French>御柱</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>御柱</Japanese>
+	</TEXT>
+<!-- Youkainoyama Buildings End-->
+<!-- Hakureijinja Buildings Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KIRISAMEMAHOUTEN</Tag>
+		<English />
+		<French>霧雨魔法店</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>霧雨魔法店</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOURINDOU</Tag>
+		<English />
+		<French>香霖堂</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>香霖堂</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NINGYOUNOYAKATA</Tag>
+		<English />
+		<French>人形の館</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>人形の館</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DAIENKAI</Tag>
+		<English />
+		<French>例大祭</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>例大祭</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HAKUREISIKIKEKKAI</Tag>
+		<English />
+		<French>博麗式結界</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗式結界</Japanese>
+	</TEXT>
+<!-- Hakureijinja Buildings End-->
+<!-- Chireiden Buildings Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KUROGEWAGYU</Tag>
+		<English />
+		<French>黒毛和牛</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>黒毛和牛</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ONINOSHIREN</Tag>
+		<English />
+		<French>鬼の試練</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鬼の試練</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEKOGURUMA</Tag>
+		<English />
+		<French>猫車</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>猫車</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUISHIKINOKENKYU</Tag>
+		<English />
+		<French>無意識の研究</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無意識の研究</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUISHIKINOCHOCHIKU</Tag>
+		<English />
+		<French>無意識の貯蓄</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無意識の貯蓄</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUISHIKINODANZAI</Tag>
+		<English />
+		<French>無意識の断罪</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無意識の断罪</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUISHIKINOCHOZO</Tag>
+		<English />
+		<French>無意識の貯蔵</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無意識の貯蔵</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHIKACENTER</Tag>
+		<English />
+		<French>間欠泉地下センター</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>間欠泉地下センター</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FUSION_PLANT</Tag>
+		<English />
+		<French>核融合発電所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>核融合発電所</Japanese>
+	</TEXT>
+<!-- Chireiden Buildings End-->
+<!-- Seirensen Buildings Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TINY_TREASURE</Tag>
+		<English />
+		<French>小さな小さな宝物</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小さな小さな宝物</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SWORD_OF_AMULET</Tag>
+		<English />
+		<French>剣鎧護法</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>剣鎧護法</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MEIRENJI</Tag>
+		<English />
+		<French>命蓮寺</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>命蓮寺</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NIRVANA</Tag>
+		<English />
+		<French>ニルヴァーナ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ニルヴァーナ</Japanese>
+	</TEXT>
+<!-- Seirensen Buildings End-->
+<!-- Shinreibyou Buildings Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHIZARUZOU</Tag>
+		<English />
+		<French>四猿像</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>四猿像</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FUUSUI_LABO</Tag>
+		<English />
+		<French>風水研究所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>風水研究所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KYONSHII_FACTORY</Tag>
+		<English />
+		<French>キョンシー生産場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>キョンシー生産場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAISHIDOU</Tag>
+		<English />
+		<French>太子堂</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>太子堂</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HOURYUUJI</Tag>
+		<English />
+		<French>法隆寺</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>法隆寺</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHIKAISEN_CENTER</Tag>
+		<English />
+		<French>尸解仙転生センター</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>尸解仙転生センター</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAISHIKOU_SCIENTIST</Tag>
+		<English />
+		<French>太子講：科学者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>太子講：科学者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAISHIKOU_MERCHANT</Tag>
+		<English />
+		<French>太子講：商人</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>太子講：商人</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAISHIKOU_ARTIST</Tag>
+		<English />
+		<French>太子講：芸術家</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>太子講：芸術家</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAISHIKOU_SPY</Tag>
+		<English />
+		<French>太子講：スパイ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>太子講：スパイ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DAITAISHIKOU_SCIENTIST</Tag>
+		<English />
+		<French>大太子講：科学者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大太子講：科学者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DAITAISHIKOU_MERCHANT</Tag>
+		<English />
+		<French>大太子講：商人</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大太子講：商人</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DAITAISHIKOU_ARTIST</Tag>
+		<English />
+		<French>大太子講：芸術家</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大太子講：芸術家</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DAITAISHIKOU_SPY</Tag>
+		<English />
+		<French>大太子講：スパイ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大太子講：スパイ</Japanese>
+	</TEXT>
+<!-- Shinreibyou Buildings End-->
+<!-- Kishinjou Buildings Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WALL_ISSUN</Tag>
+		<English />
+		<French>ウォールオブイッスン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ウォールオブイッスン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KODUTINOMARYOKU</Tag>
+		<English />
+		<French>小槌の魔力</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小槌の魔力</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RAIKO_MAGIC_A</Tag>
+		<English />
+		<French>雷鼓の呪法-戦</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>雷鼓の呪法-戦</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RAIKO_MAGIC_B</Tag>
+		<English />
+		<French>雷鼓の呪法-内</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>雷鼓の呪法-内</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KISHINJOU</Tag>
+		<English />
+		<French>輝針城</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>輝針城</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KISHINJOU_TENSHUKAKU</Tag>
+		<English />
+		<French>輝針城・天守閣</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>輝針城・天守閣</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAGIC_STORM</Tag>
+		<English />
+		<French>魔力嵐</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>魔力嵐</Japanese>
+	</TEXT>
+<!-- Kishinjou Buildings End-->
+<!-- Other Buildings Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DANMAKUKOUZA1</Tag>
+		<English />
+		<French>弾幕講座チョン避け編</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>弾幕講座チョン避け編</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DANMAKUKOUZA2</Tag>
+		<English />
+		<French>弾幕講座パターン化編</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>弾幕講座パターン化編</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DANMAKUKOUZA3</Tag>
+		<English />
+		<French>弾幕講座判定見切り編</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>弾幕講座判定見切り編</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REPLAY_MUSEUM</Tag>
+		<English />
+		<French>リプレイ博物館</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リプレイ博物館</Japanese>
+	</TEXT>
+<!-- Add Buildings End-->
+<!-- Trait Buildings Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SPELL_OBELISK</Tag>
+		<English />
+		<French>スペルオベリスク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スペルオベリスク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CENTRALIZATION</Tag>
+		<English />
+		<French>集権志向</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>集権志向</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MEIDOCHOUNOSHIKI</Tag>
+		<English />
+		<French>メイド長の指揮</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>メイド長の指揮</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PATCHOULI_BOOK</Tag>
+		<English />
+		<French>グリモワールオブパチュリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>グリモワールオブパチュリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TELEMESMELISM</Tag>
+		<English />
+		<French>月兎遠隔催眠術</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月兎遠隔催眠術</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TENSHINOTANOSHIMI</Tag>
+		<English />
+		<French>天子の楽しみ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天子の楽しみ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MIERUME</Tag>
+		<English />
+		<French>ミエル目</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミエル目</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HIEDARYUUKIOKUJUTU</Tag>
+		<English />
+		<French>稗田流</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>稗田流</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SADESM</Tag>
+		<English />
+		<French>さでずむ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>さでずむ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KISUMENOOKE</Tag>
+		<English />
+		<French>キスメの桶</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>キスメの桶</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HOSHINOHIKARI</Tag>
+		<English />
+		<French>星の光</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>星の光</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YAMABIKO</Tag>
+		<English />
+		<French>山彦</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>山彦</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IMOKONOHAKA</Tag>
+		<English />
+		<French>小野妹子墓</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小野妹子墓</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUZUNAAN</Tag>
+		<English />
+		<French>鈴奈庵</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴奈庵</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YUMEDOKEI</Tag>
+		<English />
+		<French>夢時計</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>夢時計</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HIKAKUBUTURIGAKU</Tag>
+		<English />
+		<French>比較物理学：応用</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>比較物理学：応用</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOUYOU</Tag>
+		<English />
+		<French>昂揚の神楽獅子</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>昂揚の神楽獅子</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ECHO_CHAMBER</Tag>
+		<English />
+		<French>エコーチェンバー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エコーチェンバー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AMANOJAKU</Tag>
+		<English />
+		<French>天邪鬼</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天邪鬼</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SINDEKURERU</Tag>
+		<English />
+		<French>死んでくれる？</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>死んでくれる？</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_THISWOMAN</Tag>
+		<English />
+		<French>This Woman</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>This Woman</Japanese>
+	</TEXT>
+<!-- Trait Buildings End-->
+<!-- Spell Buildings Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NIJIIRONOHANABATAKE</Tag>
+		<English />
+		<French>虹色の花畑</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>虹色の花畑</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEKOYASHIKI</Tag>
+		<English />
+		<French>猫屋敷</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>猫屋敷</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEKOKESSHA</Tag>
+		<English />
+		<French>猫結社</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>猫結社</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HANAMI</Tag>
+		<English />
+		<French>花見</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>花見</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ANALYZER_EASY</Tag>
+		<English />
+		<French>分析器</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>分析器</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ANALYZER_NORMAL</Tag>
+		<English />
+		<French>高度分析器</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>高度分析器</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ANALYZER_HARD</Tag>
+		<English />
+		<French>超高度分析器</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>超高度分析器</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ANALYZER_LUNATIC</Tag>
+		<English />
+		<French>お稲荷様のお陰</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>お稲荷様のお陰</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YOUSEIOUKOKU</Tag>
+		<English />
+		<French>妖精王国</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>妖精王国</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JUSSINHOU</Tag>
+		<English />
+		<French>十進法</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>十進法</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YATAI</Tag>
+		<English />
+		<French>八目鰻の屋台</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八目鰻の屋台</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MYSTIA_FANCLUB</Tag>
+		<English />
+		<French>ミスティアファンクラブ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ミスティアファンクラブ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SCARY_HOUSE</Tag>
+		<English />
+		<French>怪談小屋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>怪談小屋</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MOUKEBANASHI</Tag>
+		<English />
+		<French>儲け話</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>儲け話</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHINYAKUJIKKENNJO</Tag>
+		<English />
+		<French>新薬研究所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>新薬研究所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUZURAN</Tag>
+		<English />
+		<French>鈴蘭</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴蘭</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GYOUSHOU</Tag>
+		<English />
+		<French>行商</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>行商</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REIGETUSAI</Tag>
+		<English />
+		<French>例月祭</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>例月祭</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAMANOEDA</Tag>
+		<English />
+		<French>蓬莱の玉の枝</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>蓬莱の玉の枝</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KINKAKUJI</Tag>
+		<English />
+		<French>金閣寺の一枚天井</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>金閣寺の一枚天井</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ILMENITEFORGE</Tag>
+		<English />
+		<French>イルメナイト精錬所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>イルメナイト精錬所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NITORIKYOUIKU</Tag>
+		<English />
+		<French>にとり教育</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>にとり教育</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUWABUNSHA</Tag>
+		<English />
+		<French>諏訪分社</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>諏訪分社</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YASAKABUNSHA</Tag>
+		<English />
+		<French>八坂分社</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>八坂分社</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WEATHER_REPORT</Tag>
+		<English />
+		<French>気象台</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>気象台</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KANAMEISHI</Tag>
+		<English />
+		<French>要石</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>要石</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LITTLE_LEGION</Tag>
+		<English />
+		<French>リトルレギオン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リトルレギオン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUMIYOSISANSHIN</Tag>
+		<English />
+		<French>住吉三神</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>住吉三神</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHUEN</Tag>
+		<English />
+		<French>酒宴</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>酒宴</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HAKUREIJINJANOONRYOU</Tag>
+		<English />
+		<French>博麗神社の怨霊</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>博麗神社の怨霊</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHITTO</Tag>
+		<English />
+		<French>嫉妬</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>嫉妬</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DAISHITTO</Tag>
+		<English />
+		<French>大嫉妬</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大嫉妬</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ONINOENKAI</Tag>
+		<English />
+		<French>鬼の宴会</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鬼の宴会</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUISHIKINOROUDOU</Tag>
+		<English />
+		<French>無意識の労働</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無意識の労働</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SATORIHOUSE</Tag>
+		<English />
+		<French>さとりの家</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>さとりの家</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KENKOUKAN</Tag>
+		<English />
+		<French>健康館</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>健康館</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TERAKOYA</Tag>
+		<English />
+		<French>寺子屋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>寺子屋</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SIGOTONOKOKOROE</Tag>
+		<English />
+		<French>仕事の心得</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>仕事の心得</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RAKUENNOSAIKOUSAI</Tag>
+		<English />
+		<French>楽園の最高裁</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>楽園の最高裁</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RATHOLE</Tag>
+		<English />
+		<French>鼠穴</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鼠穴</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ABSOLUTE_JUSTICE</Tag>
+		<English />
+		<French>絶対正義の信仰</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>絶対正義の信仰</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GATHERING_TREASURE1</Tag>
+		<English />
+		<French>集まる財宝</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>集まる財宝</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GATHERING_TREASURE2</Tag>
+		<English />
+		<French>集まる財宝</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>集まる財宝</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GATHERING_TREASURE3</Tag>
+		<English />
+		<French>集まる財宝</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>集まる財宝</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BYAKUREN_SERMON</Tag>
+		<English />
+		<French>白蓮の説法</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>白蓮の説法</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ENIGMATIC_CRY</Tag>
+		<English />
+		<French>正体不明の鳴き声</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>正体不明の鳴き声</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ZUIGAKUKENKYUU</Tag>
+		<English />
+		<French>隋学研究所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>隋学研究所</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IRUKANOKAMINARI</Tag>
+		<English />
+		<French>入鹿の雷</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>入鹿の雷</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AMANOIWAHUNE</Tag>
+		<English />
+		<French>天の磐舟</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>天の磐舟</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OOPARTS</Tag>
+		<English />
+		<French>聖徳太子のオーパーツ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>聖徳太子のオーパーツ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SYOGYOU_MUJOU</Tag>
+		<English />
+		<French>諸行無常の琴の音</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>諸行無常の琴の音</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GION_SYOUJA</Tag>
+		<English />
+		<French>祇園精舎の鐘の音</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>祇園精舎の鐘の音</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HEIKE_MONOGATARI</Tag>
+		<English />
+		<French>平家物語弾き語り</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>平家物語弾き語り</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOBITO_SYUUKAIJO</Tag>
+		<English />
+		<French>小人の集会場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>小人の集会場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TOWER_FARM</Tag>
+		<English />
+		<French>集積高層農場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>集積高層農場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SOYLENT_SID</Tag>
+		<English />
+		<French>ソイレント・シド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ソイレント・シド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LITTLE_MAID_FARM</Tag>
+		<English />
+		<French>メイドさんの砂糖農場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>メイドさんの砂糖農場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COBBLESTONE_MAKER</Tag>
+		<English />
+		<French>丸石製造機</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>丸石製造機</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BRANCH_MINING</Tag>
+		<English />
+		<French>ブランチマイニング</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ブランチマイニング</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FARLEYS_FOUNDRY</Tag>
+		<English />
+		<French>ファーリーの鋳物工場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ファーリーの鋳物工場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FORTUNE_PICKEL</Tag>
+		<English />
+		<French>フォーチュン・ピッケル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フォーチュン・ピッケル</Japanese>
+	</TEXT>
+<!-- Spell Buildings End-->
+<!-- System Buildings Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUSOU_MODE</Tag>
+		<English />
+		<French>無双モード</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>無双モード</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AI_NINGENNOSATO</Tag>
+		<English />
+		<French>龍神の石像</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>龍神の石像</Japanese>
+	</TEXT>
+<!-- System Buildings End-->
+</Civ4GameText>
