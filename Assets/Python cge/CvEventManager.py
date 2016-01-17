@@ -2073,8 +2073,13 @@ class CvEventManager:
 					#連続戦闘が発生するとメッセージが出る
 					CyInterface().addImmediateMessage(PyHelpers.PyInfo.UnitInfo(pWinner.getUnitType()).getDescription() + "&#12398;&#36899;&#32154;&#25126;&#38360;&#65281(" + str(pWinner.getNumCombatCombo()) + "/" + str(pWinner.getLevel()/4 + 1) + ")","")
 
-		#昇進「始原のビート」を持っている場合、一度限りの連続戦闘を可能とする
-		if pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_PRISTINE_BEAT')):
+		#昇進「始原のビート」あるいは「打ち出の小槌」系列を持っている場合、一度限りの連続戦闘を可能とする
+		if (pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_PRISTINE_BEAT')) or
+			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_5TURN')) or
+			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_4TURN')) or
+			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_3TURN')) or
+			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_2TURN')) or
+			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_1TURN')) ):
 			if pWinner.getNumCombatCombo() < 1:
 				if gc.getPlayer(pWinner.getOwner()).isTurnActive(): #アクティブターンなら
 					pWinner.changeMoves(-50)
@@ -2082,7 +2087,8 @@ class CvEventManager:
 					pWinner.setNumCombatCombo(pWinner.getNumCombatCombo()+1)
 					#連続戦闘が発生するとメッセージが出る
 					CyInterface().addImmediateMessage(PyHelpers.PyInfo.UnitInfo(pWinner.getUnitType()).getDescription() + "&#12398;&#36899;&#32154;&#25126;&#38360;&#65281(" + str(pWinner.getNumCombatCombo()) + "/" + str( + 1) + ")","")
-					
+		
+		
 		#一度戦闘をするとレーヴァテインが消滅
 		pWinner.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LAEVATEINN'),False)
 		pLoser.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LAEVATEINN'),False)
@@ -2148,7 +2154,7 @@ class CvEventManager:
 		
 		#小町のスキル持ちは、戦闘勝利に追加の経験値と金銭を獲得する
 		if pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KOMACHI_SKILL1')):
-			pWinner.changeExperience(2,-1,False,False,False)
+			pWinner.changeExperience(1,-1,False,False,False)
 			gc.getPlayer(pWinner.getOwner()).changeGold(pLoser.getLevel()*5)
 
 		#統合MOD追記部分
@@ -2636,6 +2642,37 @@ class CvEventManager:
 				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_EIENTEI")) == True:
 					pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_CITIZEN"), 2)
 
+		#神霊廟法隆寺の偉人変換処理
+		if iBuildingType == gc.getInfoTypeForString('BUILDING_HOURYUUJI'):
+			iPRIEST = pCity.getFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_PRIEST"))
+			iARTIST = pCity.getFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_ARTIST"))
+			iSCIENTIST = pCity.getFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_SCIENTIST"))
+			iMERCHANT = pCity.getFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_MERCHANT"))
+			iENGINEER = pCity.getFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_ENGINEER"))
+			iGENERAL = pCity.getFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_GENERAL"))
+			iSPY = pCity.getFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_SPY"))
+			
+			pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_PRIEST"), -iPRIEST)
+			pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_PRIEST_HOURYUUJI"), iPRIEST)
+			
+			pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_ARTIST"), -iARTIST)
+			pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_ARTIST_HOURYUUJI"), iARTIST)
+			
+			pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_SCIENTIST"), -iSCIENTIST)
+			pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_SCIENTIST_HOURYUUJI"), iSCIENTIST)
+			
+			pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_MERCHANT"), -iMERCHANT)
+			pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_MERCHANT_HOURYUUJI"), iMERCHANT)
+			
+			pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_ENGINEER"), -iENGINEER)
+			pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_ENGINEER_HOURYUUJI"), iENGINEER)
+			
+			pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_GENERAL"), -iGENERAL)
+			pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_GENERAL_HOURYUUJI"), iGENERAL)
+			
+			pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_SPY"), -iSPY)
+			pCity.changeFreeSpecialistCount(gc.getInfoTypeForString("SPECIALIST_GREAT_SPY_HOURYUUJI"), iSPY)
+
 		#アンコールワット建設時、弁々スペル建造物があれば強化版に切り替え
 		if iBuildingType == gc.getInfoTypeForString('BUILDING_ANGKOR_WAT'):
 			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_GION_SYOUJA_A")):
@@ -3066,9 +3103,10 @@ class CvEventManager:
 		if Functions.checkUnit(unit.getX(),unit.getY(),RangeList,gc.getInfoTypeForString('UNIT_RIN0'),gc.getInfoTypeForString('UNIT_RIN_CATMODE6')):
 			pUnit = Functions.checkUnit(unit.getX(),unit.getY(),RangeList,gc.getInfoTypeForString('UNIT_RIN0'),gc.getInfoTypeForString('UNIT_RIN_CATMODE6'),1)
 			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RIN_SKILL1')) :
-				if pUnit.getSpecialNumber() < pUnit.getLevel():
-					pUnit.changeExperience(1,-1,False,False,False)
-					pUnit.setSpecialNumber(pUnit.getSpecialNumber()+1)
+				if gc.getGame().getSorenRandNum(100, "orin skill") < 25:
+					if pUnit.getSpecialNumber() < pUnit.getLevel():
+						pUnit.changeExperience(1,-1,False,False,False)
+						pUnit.setSpecialNumber(pUnit.getSpecialNumber()+1)
 		
 		
 		#ゾンビフェアリーの昇進をもっていればその場で復活する可能性
