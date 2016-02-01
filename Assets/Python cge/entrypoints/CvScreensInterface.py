@@ -45,6 +45,12 @@ import CvDebugTools
 import CvDebugInfoScreen
 #import CvDiplomacy
 
+## Platypedia ##
+import PlatyPediaMain
+import PlatyPediaHistory
+import PlatyPediaMovie
+## Platypedia ##
+
 import CvUtil
 import CvEventInterface
 import CvPopupInterface
@@ -208,7 +214,10 @@ def showGreatPersonScreen(argsList):
 #################################################
 ## Civilopedia
 #################################################
-pediaMainScreen = CvPediaMain.CvPediaMain()
+## Platypedia ##
+pediaMainScreen = PlatyPediaMain.CvPediaMain()
+## Platypedia ##
+#pediaMainScreen = CvPediaMain.CvPediaMain()
 def linkToPedia(argsList):
 	pediaMainScreen.link(argsList[0])
 		
@@ -1307,6 +1316,8 @@ HandleInputMap = {  MAIN_INTERFACE : mainInterface,
 					
 					DEBUG_INFO_SCREEN : debugInfoScreen,
 				
+## Platypedia ##
+					PLATYPEDIA_MOVIE : PlatyPediaMovie.CvPediaMovie(pediaMainScreen),
 				# add new screens here
 					UNIT_PLACEMENTS_SCREEN: unitPlacementScreen,
 					ALERTS_LOG_SCREEN: alertslogScreen

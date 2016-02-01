@@ -1110,7 +1110,55 @@ class CvGameUtils:
 		
 	def getWidgetHelp(self, argsList):
 		eWidgetType, iData1, iData2, bOption = argsList
-		
+## Platypedia ##
+		if eWidgetType == WidgetTypes.WIDGET_PYTHON:
+			if iData1 == 6781:
+				if iData2 == -2:
+					return CyTranslator().getText("TXT_KEY_PEDIA_ALL_GROUPS", ())
+				elif iData2 == -1:
+					return CyTranslator().getText("TXT_PEDIA_NON_COMBAT", ())
+				else:
+					return gc.getUnitCombatInfo(iData2).getDescription()
+			elif iData1 == 6782:
+				return CyGameTextMgr().parseCorporationInfo(iData2, False)
+			elif iData1 == 6783:
+				return CyTranslator().getText("TXT_KEY_MISC_RIVERS", ())
+			elif iData1 == 6785:
+				return CyGameTextMgr().getProjectHelp(iData2, False, CyCity())
+			elif iData1 == 6786:
+				return gc.getVictoryInfo(iData2).getDescription()
+			elif iData1 == 6787:
+				return gc.getProcessInfo(iData2).getDescription()
+			elif iData1 == 6788:
+				if iData2 == -1:
+					return CyTranslator().getText("TXT_KEY_CULTURELEVEL_NONE", ())
+				return gc.getRouteInfo(iData2).getDescription()
+			elif iData1 == 6789:
+				return gc.getTraitInfo(iData2).getDescription()
+			elif iData1 == 6791:
+				return gc.getCultureLevelInfo(iData2).getDescription()
+			elif iData1 == 6792:
+				return gc.getGameSpeedInfo(iData2).getDescription()
+			elif iData1 == 6793:
+				return gc.getHandicapInfo(iData2).getDescription()
+			elif iData1 == 6795:
+				return gc.getEraInfo(iData2).getDescription()
+			elif iData1 == 6796:
+				if iData2 == 999:
+					return CyTranslator().getText("TXT_KEY_CIVICS_SCREEN_NO_UPKEEP", ())
+				return gc.getUpkeepInfo(iData2).getDescription()
+			elif iData1 == 6797:
+				return gc.getWorldInfo(iData2).getDescription()
+## Tech Help Text ##
+			elif iData1 == 7800:
+				return gc.getTechInfo(iData2).getHelp()
+## Religion Widget Text##
+			elif iData1 == 7869:
+				return CyGameTextMgr().parseReligionInfo(iData2, False)
+## Building Widget Text##
+			elif iData1 == 7870:
+				return CyGameTextMgr().getBuildingHelp(iData2, False, False, False, None)
+## Ultrapack ##
 		return u""
 		
 	def getUpgradePriceOverride(self, argsList):
