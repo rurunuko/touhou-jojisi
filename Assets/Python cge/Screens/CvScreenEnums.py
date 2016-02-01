@@ -39,6 +39,11 @@ CORPORATION_SCREEN = 29
 MAIN_INTERFACE = 99
 DEBUG_INFO_SCREEN = 100
 
+#ìåï˚èñéñéçìùçáMODí«ãL
+PLATYPEDIA_MOVIE = 150
+#ìåï˚èñéñéçìùçáMODí«ãLÇ±Ç±Ç‹Ç≈
+
+
 #[MOD] UnitUpgrades / fitchn's Civilopedia Index
 CivilopediaPageTypes.CIVILOPEDIA_PAGE_UPGRADES=CivilopediaPageTypes.CIVILOPEDIA_PAGE_HINTS+1
 CivilopediaPageTypes.CIVILOPEDIA_PAGE_PROMOTION_TREE=CivilopediaPageTypes.CIVILOPEDIA_PAGE_UPGRADES+1
