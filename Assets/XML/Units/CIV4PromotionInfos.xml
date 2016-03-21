@@ -6924,6 +6924,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/SPELL_CASTED.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KESSIKEKKAI</Type>
@@ -7060,6 +7061,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/OUKAKEKKAI.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MODE_EASY</Type>
@@ -7535,6 +7537,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/HOURAINOKUSURI.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_BUNSHIN</Type>
@@ -7603,6 +7606,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/bunshin.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_ILLUSION</Type>
@@ -7671,6 +7675,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/illusion.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FREEZE</Type>
@@ -7739,6 +7744,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/freeze.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_RENZOKUKOUGEKI</Type>
@@ -7874,6 +7880,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/SANAE_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_REMILIA</Type>
@@ -7941,6 +7948,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/REMILIA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_CHEN</Type>
@@ -8008,6 +8016,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/CHEN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_WRIGGLE</Type>
@@ -8084,6 +8093,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/WRIGGLE_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_TEWI</Type>
@@ -8151,6 +8161,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/TEWI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_NITORI</Type>
@@ -8218,6 +8229,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/NITORI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MARISA</Type>
@@ -8285,6 +8297,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MARISA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FLAN</Type>
@@ -8352,6 +8365,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/FLAN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_YOUMU</Type>
@@ -8419,6 +8433,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/YOUMU_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_CIRNO</Type>
@@ -8486,6 +8501,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/CIRNO_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_EIRIN</Type>
@@ -8553,6 +8569,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/EIRIN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SUWAKO</Type>
@@ -8620,6 +8637,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/SUWAKO_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_ALICE</Type>
@@ -8687,6 +8705,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/ALICE_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_PARSEE</Type>
@@ -8754,6 +8773,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/PARSEE_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_YUGI</Type>
@@ -8821,6 +8841,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/YUGI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MOKOU</Type>
@@ -8888,6 +8909,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MOKOU_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KEINE</Type>
@@ -8955,6 +8977,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/KEINE_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_HAKUTAKUKEINE</Type>
@@ -9022,6 +9045,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/HAKUTAKUKEINE_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SAKUYA</Type>
@@ -9089,6 +9113,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/SAKUYA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_YUYUKO</Type>
@@ -9156,6 +9181,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/YUYUKO_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_RUMIA</Type>
@@ -9223,6 +9249,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/RUMIA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MEDICIN</Type>
@@ -9290,6 +9317,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MEDICIN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KANAKO</Type>
@@ -9357,6 +9385,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/KANAKO_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_REIMU</Type>
@@ -9424,6 +9453,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/REIMU_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_YUKA</Type>
@@ -9496,6 +9526,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/YUKA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KOISHI</Type>
@@ -9563,6 +9594,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/KOISHI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_PATCHOULI</Type>
@@ -9630,6 +9662,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/PATCHOULI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_RAN</Type>
@@ -9697,6 +9730,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/RAN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_REISEN</Type>
@@ -9764,6 +9798,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/REISEN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_IKU</Type>
@@ -9831,6 +9866,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/IKU_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SATORI</Type>
@@ -9898,6 +9934,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/SATORI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MYSTIA</Type>
@@ -9965,6 +10002,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MYSTIA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SUIKA</Type>
@@ -10032,6 +10070,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/SUIKA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KOMACHI</Type>
@@ -10099,6 +10138,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/KOMACHI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MEIRIN</Type>
@@ -10171,6 +10211,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MEIRIN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_YUKARI</Type>
@@ -10238,6 +10279,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/YUKARI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KAGUYA</Type>
@@ -10305,6 +10347,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/KAGUYA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_TENSHI</Type>
@@ -10372,6 +10415,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/TENSHI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_RIN</Type>
@@ -10439,6 +10483,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/RIN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_LETTY</Type>
@@ -10515,6 +10560,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/LETTY_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MIMA</Type>
@@ -10582,6 +10628,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MIMA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_EIKI</Type>
@@ -10654,6 +10701,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/EIKI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_NAZRIN</Type>
@@ -10722,6 +10770,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/NAZRIN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KOGASA</Type>
@@ -10789,6 +10838,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/KOGASA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_ICHIRIN</Type>
@@ -10857,6 +10907,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/ICHIRIN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MINAMITSU</Type>
@@ -10925,6 +10976,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MINAMITSU_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SYOU</Type>
@@ -10992,6 +11044,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/SYOU_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_BYAKUREN</Type>
@@ -11059,6 +11112,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/BYAKUREN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_NUE</Type>
@@ -11126,6 +11180,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/NUE_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_YOSHIKA</Type>
@@ -11194,6 +11249,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/YOSHIKA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SEIGA</Type>
@@ -11262,6 +11318,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/SEIGA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_TOJIKO</Type>
@@ -11330,6 +11387,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/TOJIKO_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FUTO</Type>
@@ -11398,6 +11456,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/FUTO_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MIMIMIKO</Type>
@@ -11466,6 +11525,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MIMIMIKO_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_YATUHASHI</Type>
@@ -11533,6 +11593,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/yatuhashi_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_BENBEN</Type>
@@ -11601,6 +11662,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/benben_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SEIJA</Type>
@@ -11673,6 +11735,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/seija_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SHINMYOUMARU</Type>
@@ -11740,6 +11803,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/shinmyoumaru_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_RAIKO</Type>
@@ -11807,6 +11871,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/raiko_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_OMAMORI_EASY</Type>
@@ -14420,6 +14485,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/FAMILIAR1.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FAMILIAR2</Type>
@@ -14489,6 +14555,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/FAMILIAR2.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FAMILIAR3</Type>
@@ -14558,6 +14625,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/FAMILIAR3.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FAMILIAR4</Type>
@@ -14627,6 +14695,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/FAMILIAR4.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FAMILIAR5</Type>
@@ -14696,6 +14765,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/FAMILIAR5.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FAMILIAR6</Type>
@@ -14765,6 +14835,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/FAMILIAR6.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FAMILIAR7</Type>
@@ -14834,6 +14905,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/FAMILIAR7.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FAMILIAR8</Type>
@@ -14903,6 +14975,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/FAMILIAR8.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FAMILIAR9</Type>
@@ -14972,6 +15045,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/FAMILIAR9.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FAMILIAR10</Type>
@@ -15041,6 +15115,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/FAMILIAR10.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_GOLEM</Type>
@@ -15104,6 +15179,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/golem.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_BARRIER</Type>
@@ -15167,6 +15243,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/BARRIER.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SHIKINOSHIKI</Type>
@@ -15230,6 +15307,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/SHIKINOSHIKI.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MADNESS</Type>
@@ -15293,6 +15371,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/MADNESS.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FAIR_WIND</Type>
@@ -15356,6 +15435,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/FAIR_WIND.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_TERRIBLE_SOUVEBNIR1</Type>
@@ -15448,6 +15528,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/TERRIBLE_SOUVEBNIR1.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_TERRIBLE_SOUVEBNIR2</Type>
@@ -15540,6 +15621,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/TERRIBLE_SOUVEBNIR2.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_TERRIBLE_SOUVEBNIR3</Type>
@@ -15632,6 +15714,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/TERRIBLE_SOUVEBNIR3.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_TERRIBLE_SOUVEBNIR4</Type>
@@ -15724,6 +15807,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/TERRIBLE_SOUVEBNIR4.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_TERRIBLE_SOUVEBNIR5</Type>
@@ -15816,6 +15900,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/TERRIBLE_SOUVEBNIR4.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_TORIME</Type>
@@ -15879,6 +15964,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/TORIME.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MISSING_POWER_EASY</Type>
@@ -15947,6 +16033,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/MISSING_POWER.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MISSING_POWER_NORMAL</Type>
@@ -16015,6 +16102,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/MISSING_POWER.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MISSING_POWER_HARD</Type>
@@ -16083,6 +16171,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/MISSING_POWER.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MISSING_POWER_LUNATIC</Type>
@@ -16151,6 +16240,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/MISSING_POWER.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KENZOKU</Type>
@@ -16214,6 +16304,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/KENZOKU.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_NAIKIKOU1</Type>
@@ -16277,6 +16368,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/NAIKIKOU1.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_NAIKIKOU2</Type>
@@ -16548,6 +16640,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/DANMAKUKEKKAI.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_HINEZUMINOKAWAGOROMO</Type>
@@ -16616,6 +16709,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Spells/SALAMANDERSHIELD.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_ZOMBIEFAIRY</Type>
@@ -16679,6 +16773,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/ZOMBIEFAIRY.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_CATMODE</Type>
@@ -16742,6 +16837,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/CATMODE.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FROST</Type>
@@ -16805,6 +16901,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/FROST.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KUONNOYUME</Type>
@@ -16868,6 +16965,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/KUONNOYUME.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_LAEVATEINN</Type>
@@ -16931,6 +17029,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/LAEVATEINN.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_GREENEYEDMONSTER</Type>
@@ -16994,6 +17093,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/GREENEYEDMONSTER.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SUBCONSCIOUS</Type>
@@ -17057,6 +17157,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/SUBCONSCIOUS.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SYLPHAEHORN</Type>
@@ -17120,6 +17221,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Spells/THURSDAY.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SUKIMA</Type>
@@ -17182,6 +17284,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/SUKIMA.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_HEAVY_RAIN</Type>
@@ -17257,6 +17360,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/HEAVY_RAIN.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_OOPS</Type>
@@ -17319,6 +17423,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/OOPS.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_UNKNOWN_TRICK</Type>
@@ -17381,6 +17486,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/UNKNOWN_TRICK.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_AIR_SCROLL1</Type>
@@ -17448,6 +17554,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/AIR_SCROLL.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_AIR_SCROLL2</Type>
@@ -17515,6 +17622,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/AIR_SCROLL.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_AIR_SCROLL3</Type>
@@ -17582,6 +17690,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/AIR_SCROLL.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_AIR_SCROLL4</Type>
@@ -17649,6 +17758,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/AIR_SCROLL.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_AIR_SCROLL5</Type>
@@ -17716,6 +17826,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/AIR_SCROLL.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_AIR_SCROLL6</Type>
@@ -17783,6 +17894,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/AIR_SCROLL.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KYONSHII</Type>
@@ -17858,6 +17970,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/KYONSHII.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_ZOMBIE_POISON</Type>
@@ -17933,6 +18046,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/zombiePOISON.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SCORE_DESIRE</Type>
@@ -18008,6 +18122,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/YOSHIKA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KYOURAN1</Type>
@@ -18088,6 +18203,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/MODE_LUNATIC.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KYOURAN2</Type>
@@ -18168,6 +18284,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/MODE_LUNATIC.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KYOURAN3</Type>
@@ -18248,6 +18365,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/MODE_LUNATIC.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_ATUMARU_SHINREI1</Type>
@@ -18325,6 +18443,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/mimimiko_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_ATUMARU_SHINREI2</Type>
@@ -18401,6 +18520,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/mimimiko_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KABENUKE</Type>
@@ -18476,6 +18596,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/SEIGA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_HAKKA</Type>
@@ -19731,6 +19852,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/AIR_SCROLL.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_GREENUFO</Type>
@@ -19793,6 +19915,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/GREENUFO.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_BLUEUFO</Type>
@@ -19855,6 +19978,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/BLUEUFO.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_RAINBOWUFO</Type>
@@ -19917,6 +20041,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/RAINBOWUFO.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_CHOKKATSU</Type>
@@ -19979,6 +20104,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/CHOKKATSU.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SUSAN</Type>
@@ -20042,6 +20168,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/SUSAN.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MARISALIST_PILLAGE</Type>
@@ -20104,6 +20231,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/MAGIC_HAT.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_ORGANIZED</Type>
@@ -20166,6 +20294,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/loyalty.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MURASAGUID</Type>
@@ -20238,6 +20367,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/MURASAGUID.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KASENLIST_DOUBUTU</Type>
@@ -20301,6 +20431,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/kasen_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_EIENTEI_UW</Type>
@@ -20372,6 +20503,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Civilizations/eientei.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SEKIBANKILIST_FEAR</Type>
@@ -20435,6 +20567,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/sekibanki_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SANAE_SKILL1</Type>
@@ -24783,6 +24916,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Promotions/ZIKI.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_STAN</Type>

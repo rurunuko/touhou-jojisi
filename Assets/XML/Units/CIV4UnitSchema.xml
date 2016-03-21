@@ -1018,4 +1018,5 @@
 	<ElementType name="Civ4AnimationPathInfos" content="eltOnly">
 		<element type="AnimationPaths" minOccurs="1" maxOccurs="1"/>
 	</ElementType>
+	<ElementType name="bGraphicalOnly" content="textOnly" dt:type="boolean"/>
 </Schema>

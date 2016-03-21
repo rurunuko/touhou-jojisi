@@ -44,6 +44,12 @@ import CvDebugTools
 import CvDebugInfoScreen
 #import CvDiplomacy
 
+## Platypedia ##
+import PlatyPediaMain
+import PlatyPediaHistory
+import PlatyPediaMovie
+## Platypedia ##
+
 import CvUtil
 import CvEventInterface
 import CvPopupInterface
@@ -193,7 +199,9 @@ def showVictoryScreen():
 #################################################
 ## Civilopedia
 #################################################
-pediaMainScreen = CvPediaMain.CvPediaMain()
+## Platypedia ##
+pediaMainScreen = PlatyPediaMain.CvPediaMain()
+## Platypedia ##
 def linkToPedia(argsList):
 	pediaMainScreen.link(argsList[0])
 		
@@ -1292,6 +1300,9 @@ HandleInputMap = {  MAIN_INTERFACE : mainInterface,
 					WORLDBUILDER_DIPLOMACY_SCREEN : worldBuilderDiplomacyScreen,
 					
 					DEBUG_INFO_SCREEN : debugInfoScreen,
+## Platypedia ##
+					PLATYPEDIA_MOVIE : PlatyPediaMovie.CvPediaMovie(pediaMainScreen),
+				
 				
 				# add new screens here
 				}

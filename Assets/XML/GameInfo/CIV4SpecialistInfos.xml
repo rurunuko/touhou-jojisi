@@ -431,6 +431,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/MainScreen/CityScreen/Great_Priest.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </SpecialistInfo>
     <SpecialistInfo>
       <Type>SPECIALIST_GREAT_ARTIST_HOURYUUJI</Type>
@@ -460,6 +461,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/MainScreen/CityScreen/Great_Artist.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </SpecialistInfo>
     <SpecialistInfo>
       <Type>SPECIALIST_GREAT_SCIENTIST_HOURYUUJI</Type>
@@ -489,6 +491,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/MainScreen/CityScreen/Great_Scientist.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </SpecialistInfo>
     <SpecialistInfo>
       <Type>SPECIALIST_GREAT_MERCHANT_HOURYUUJI</Type>
@@ -518,6 +521,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/MainScreen/CityScreen/Great_Merchant.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </SpecialistInfo>
     <SpecialistInfo>
       <Type>SPECIALIST_GREAT_ENGINEER_HOURYUUJI</Type>
@@ -547,6 +551,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/MainScreen/CityScreen/Great_Engineer.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </SpecialistInfo>
     <SpecialistInfo>
       <Type>SPECIALIST_GREAT_GENERAL_HOURYUUJI</Type>
@@ -576,6 +581,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>,Art/Interface/MainScreen/CityScreen/Great_Engineer.dds,Art/Interface/Buttons/Warlords_Atlas_2.dds,2,6</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </SpecialistInfo>
     <SpecialistInfo>
       <Type>SPECIALIST_GREAT_SPY_HOURYUUJI</Type>
@@ -602,6 +608,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>,Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,6,14</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </SpecialistInfo>
   </SpecialistInfos>
 </Civ4SpecialistInfos>

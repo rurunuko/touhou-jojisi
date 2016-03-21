@@ -21,88 +21,108 @@ class CvPediaTohoUnit:
 	def __init__(self, main):
 		self.iUnit = -1
 		self.top = main
-						
+		self.CAL = 6
+
 	# Screen construction function
 	def interfaceScreen(self, iUnit):	
-		self.CAL = 6
+		self.iUnit = iUnit
+		self.top.deleteAllWidgets()										
+		screen = self.top.getScreen()
 		
-		self.X_TOHO_UNIT_PANE0 = 20
-		self.Y_TOHO_UNIT_PANE0 = 55
+		self.H_ICON = 150
+		self.W_MAIN_PANE = (self.top.W_ITEMS_PANE - self.top.W_BORDER * 2)/3
+		self.H_MAIN_PANE = 210
+		self.X_ICON = self.top.X_ITEMS_PANE + 30
+		self.Y_ICON = (self.H_MAIN_PANE - self.H_ICON)/2 + self.top.Y_ITEMS_PANE
+		self.H_ALLOWS = 110
+		self.W_ALLOWS = (self.top.W_ITEMS_PANE - self.top.W_BORDER)/2
+		self.Y_ALLOWS = screen.getYResolution() - self.top.Y_ITEMS_PANE - self.H_ALLOWS
+		self.X_RIGHT = self.top.X_ITEMS_PANE + self.W_MAIN_PANE + self.top.W_BORDER
+		self.Y_SPECIAL = self.top.Y_ITEMS_PANE + self.H_MAIN_PANE + 10
+		self.H_SPECIAL = self.Y_ALLOWS - self.Y_SPECIAL - 10
+		
+		self.X_STATS_PANE = self.X_ICON + self.H_ICON
+		self.Y_STATS_PANE = self.Y_ICON + self.H_ICON /4
+		self.W_STATS_PANE = self.top.X_ITEMS_PANE + self.W_MAIN_PANE - self.X_STATS_PANE + self.top.X_ITEMS_PANE
+		self.H_STATS_PANE = self.H_MAIN_PANE - self.Y_STATS_PANE + self.top.Y_ITEMS_PANE
+		
+		self.X_TOHO_UNIT_PANE0 = self.X_ICON - 30
+		self.Y_TOHO_UNIT_PANE0 = self.Y_ICON - 50
 		self.W_TOHO_UNIT_PANE0 = 433
 		self.H_TOHO_UNIT_PANE0 = 54
 		
-		self.X_TOHO_UNIT_MARK = 20
-		self.Y_TOHO_UNIT_MARK = 330
-		self.W_TOHO_UNIT_MARK = 210
+		self.X_TOHO_UNIT_MARK = self.X_ICON - 30
+		self.Y_TOHO_UNIT_MARK = self.top.Y_ITEMS_PANE + (self.H_MAIN_PANE *2/3) + self.Y_ICON +5
+		self.W_TOHO_UNIT_MARK = self.W_MAIN_PANE + 4
 		self.H_TOHO_UNIT_MARK = 130
 		
-		self.X_TOHO_UNIT_SKILL = 243
-		self.Y_TOHO_UNIT_SKILL = 330
-		self.W_TOHO_UNIT_SKILL = 210
+		self.X_TOHO_UNIT_SKILL = self.X_ICON - 30
+		self.Y_TOHO_UNIT_SKILL = self.top.Y_ITEMS_PANE + (self.H_MAIN_PANE *5/3) + 30
+		self.W_TOHO_UNIT_SKILL = self.W_MAIN_PANE + 4
 		self.H_TOHO_UNIT_SKILL = 130
 		
-		self.X_TOHO_UNIT_STACK_BONUS = 20
-		self.Y_TOHO_UNIT_STACK_BONUS = 465
-		self.W_TOHO_UNIT_STACK_BONUS = 210
-		self.H_TOHO_UNIT_STACK_BONUS = 130
+#		self.X_TOHO_UNIT_STACK_BONUS = 20
+#		self.Y_TOHO_UNIT_STACK_BONUS = 465
+#		self.W_TOHO_UNIT_STACK_BONUS = 210
+#		self.H_TOHO_UNIT_STACK_BONUS = 130
+#		
+#		self.X_TOHO_UNIT_STG_SKILL = 243
+#		self.Y_TOHO_UNIT_STG_SKILL = 465
+#		self.W_TOHO_UNIT_STG_SKILL = 210
+#		self.H_TOHO_UNIT_STG_SKILL = 130
 		
-		self.X_TOHO_UNIT_STG_SKILL = 243
-		self.Y_TOHO_UNIT_STG_SKILL = 465
-		self.W_TOHO_UNIT_STG_SKILL = 210
-		self.H_TOHO_UNIT_STG_SKILL = 130
-		
-		self.X_CAL = 475
-		self.Y_CAL = 275
+		self.X_CAL = self.top.X_ITEMS_PANE + (self.W_MAIN_PANE *2) - self.top.W_BORDER
+		self.Y_CAL = 280
 		self.W_CAL = 303
 		self.H_CAL = 50
 		
-		self.X_SPELL_CARD = 475
-		self.Y_SPELL_CARD = 330
-		self.W_SPELL_CARD = 303
-		self.H_SPELL_CARD = 124
+		self.X_SPELL_CARD = self.top.X_ITEMS_PANE + self.W_MAIN_PANE + self.top.W_BORDER
+		self.Y_SPELL_CARD = self.top.Y_ITEMS_PANE + (self.H_MAIN_PANE *2/3) + self.Y_ICON +5
+		self.W_SPELL_CARD = self.W_MAIN_PANE + 4
+		self.H_SPELL_CARD = self.Y_ALLOWS - (self.Y_SPECIAL *2/3)
 		
-		self.X_SPELL_EXTRA = 475
-		self.Y_SPELL_EXTRA = 459
-		self.W_SPELL_EXTRA = 303
-		self.H_SPELL_EXTRA = 124
+		self.X_SPELL_EXTRA = self.X_RIGHT + self.W_MAIN_PANE + self.top.W_BORDER
+		self.Y_SPELL_EXTRA = self.top.Y_ITEMS_PANE + (self.H_MAIN_PANE *2/3) + self.Y_ICON +5
+		self.W_SPELL_EXTRA = self.W_MAIN_PANE
+		self.H_SPELL_EXTRA = (self.Y_ALLOWS /2) - (self.Y_SPECIAL /3) - 10
 		
-		self.X_SPELL_PHANTASM = 475
-		self.Y_SPELL_PHANTASM = 588
-		self.W_SPELL_PHANTASM = 303
-		self.H_SPELL_PHANTASM = 124
+		self.X_SPELL_PHANTASM = self.X_RIGHT + self.W_MAIN_PANE + self.top.W_BORDER
+		self.Y_SPELL_PHANTASM = self.Y_SPECIAL + (self.Y_ALLOWS *2/5) - 10
+		self.W_SPELL_PHANTASM = self.W_MAIN_PANE
+		self.H_SPELL_PHANTASM = (self.Y_ALLOWS /2) - (self.Y_SPECIAL /3) - 10
 		
 		
 		self.X_UNIT_PANE = 20
 		self.Y_UNIT_PANE = 70
 		self.W_UNIT_PANE = 433
 		self.H_UNIT_PANE = 210
-
-		self.X_UNIT_ANIMATION = 475
-		self.Y_UNIT_ANIMATION = 78
-		self.W_UNIT_ANIMATION = 303
-		self.H_UNIT_ANIMATION = 200
+		
+		self.X_UNIT_ANIMATION = self.top.X_ITEMS_PANE + (self.W_MAIN_PANE *2) - self.top.W_BORDER
+		self.Y_UNIT_ANIMATION = self.top.Y_ITEMS_PANE + 8
+		self.W_UNIT_ANIMATION = self.W_MAIN_PANE
+		self.H_UNIT_ANIMATION = self.H_MAIN_PANE - 10
 		self.X_ROTATION_UNIT_ANIMATION = -20
 		self.Z_ROTATION_UNIT_ANIMATION = 30
 		self.SCALE_ANIMATION = 1.0
-
-		self.X_ICON = 48
-		self.Y_ICON = 105
+		
+#		self.X_ICON = 48
+#		self.Y_ICON = 105
 		self.W_ICON = 150
-		self.H_ICON = 150
+#		self.H_ICON = 150
 		self.ICON_SIZE = 64
 
 		self.BUTTON_SIZE = 64
 		self.PROMOTION_ICON_SIZE = 32
 
-		self.X_STATS_PANE = 210
-		self.Y_STATS_PANE = 145
-		self.W_STATS_PANE = 250
-		self.H_STATS_PANE = 200
+#		self.X_STATS_PANE = 210
+#		self.Y_STATS_PANE = 145
+#		self.W_STATS_PANE = 250
+#		self.H_STATS_PANE = 200
 
-		self.X_SPECIAL_PANE = 20
-		self.Y_SPECIAL_PANE = 600
-		self.W_SPECIAL_PANE = 433
-		self.H_SPECIAL_PANE = 114
+		self.X_SPECIAL_PANE = self.X_ICON - 30
+		self.Y_SPECIAL_PANE = self.top.Y_ITEMS_PANE + (self.H_MAIN_PANE *5/2) - 10
+		self.W_SPECIAL_PANE = self.W_MAIN_PANE + 4
+		self.H_SPECIAL_PANE = self.Y_ALLOWS - (self.Y_SPECIAL *3/2) - 20
 
 		self.X_PREREQ_PANE = 20
 		self.Y_PREREQ_PANE = 292
@@ -123,7 +143,6 @@ class CvPediaTohoUnit:
 		self.Y_HISTORY_PANE = 420
 		self.W_HISTORY_PANE = 303
 		self.H_HISTORY_PANE = 278
-		
 		
 		#self.CAL = 1;
 		
@@ -446,10 +465,10 @@ class CvPediaTohoUnit:
 
 		# Header...
 		szHeader = u"<font=4b>" + gc.getUnitInfo(self.iUnit).getDescription().upper() + u"</font>"
-		screen.setLabel(self.top.getNextWidgetName(), "Background", szHeader, CvUtil.FONT_CENTER_JUSTIFY, self.top.X_SCREEN, self.top.Y_TITLE, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, CivilopediaPageTypes.CIVILOPEDIA_PAGE_TOHOUNIT, iUnit)
+		screen.setLabel(self.top.getNextWidgetName(), "Background", szHeader, CvUtil.FONT_CENTER_JUSTIFY, screen.getXResolution()/2, self.top.Y_TITLE, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, CivilopediaPageTypes.CIVILOPEDIA_PAGE_TOHOUNIT, iUnit)
 
 		# Top
-		screen.setText(self.top.getNextWidgetName(), "Background", self.top.MENU_TEXT, CvUtil.FONT_LEFT_JUSTIFY, self.top.X_MENU, self.top.Y_MENU, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_PEDIA_MAIN, CivilopediaPageTypes.CIVILOPEDIA_PAGE_TOHOUNIT, -1)
+		screen.setText(self.top.getNextWidgetName(), "Background", self.top.MENU_TEXT, CvUtil.FONT_LEFT_JUSTIFY, screen.getXResolution()/2, screen.getYResolution() - 42, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_PEDIA_MAIN, CivilopediaPageTypes.CIVILOPEDIA_PAGE_TOHOUNIT, -1)
 
 		if self.top.iLastScreen	!= CvScreenEnums.PEDIA_TOHOUNIT or bNotActive:		
 			self.placeLinks(true)
@@ -501,6 +520,8 @@ class CvPediaTohoUnit:
 		#self.placePromotions()
 										
 		#self.placeHistory()
+		
+		self.placeLinks(self.top.iLastScreen == CvScreenEnums.PEDIA_UNIT and screen.isActive())
 
 	# Place strength/movement
 	def placeStats(self):
@@ -616,16 +637,16 @@ class CvPediaTohoUnit:
 
 		
 		#スタックボーナス
-		screen.addPanel(self.top.getNextWidgetName(), localText.getText("TXT_KEY_PEDIA_CATEGORY_TOHOUNIT_STACK_BONUS", ()), "", true, true, self.X_TOHO_UNIT_STACK_BONUS, self.Y_TOHO_UNIT_STACK_BONUS, self.W_TOHO_UNIT_STACK_BONUS, self.H_TOHO_UNIT_STACK_BONUS, PanelStyles.PANEL_STYLE_BLUE50 )
-		screen.setImageButton(self.top.getNextWidgetName(), gc.getPromotionInfo(gc.getInfoTypeForString('PROMOTION_TEMP_STACK_BONUS')).getButton(), self.X_TOHO_UNIT_STACK_BONUS + 5, self.Y_TOHO_UNIT_STACK_BONUS + 30 , 48, 48, WidgetTypes.WIDGET_PEDIA_JUMP_TO_PROMOTION, gc.getInfoTypeForString('PROMOTION_TEMP_STACK_BONUS'), -1)
-		screen.setText(self.top.getNextWidgetName(), "", u"<font=3><color=140,255,40,255>" + "%s" %gc.getPromotionInfo(gc.getInfoTypeForString('PROMOTION_TEMP_STACK_BONUS')).getDescription() + u"</color></font>", CvUtil.FONT_LEFT_JUSTIFY, self.X_TOHO_UNIT_STACK_BONUS + 60, self.Y_TOHO_UNIT_STACK_BONUS + 30, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, 0, 0)
-		screen.addMultilineText(self.top.getNextWidgetName(), CyGameTextMgr().getPromotionHelp( gc.getInfoTypeForString('PROMOTION_TEMP_STACK_BONUS'), True )[1:] , self.X_TOHO_UNIT_STACK_BONUS+55, self.Y_TOHO_UNIT_STACK_BONUS+50, self.W_TOHO_UNIT_STACK_BONUS-60, self.H_TOHO_UNIT_STACK_BONUS-60, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)	
+		#screen.addPanel(self.top.getNextWidgetName(), localText.getText("TXT_KEY_PEDIA_CATEGORY_TOHOUNIT_STACK_BONUS", ()), "", true, true, self.X_TOHO_UNIT_STACK_BONUS, self.Y_TOHO_UNIT_STACK_BONUS, self.W_TOHO_UNIT_STACK_BONUS, self.H_TOHO_UNIT_STACK_BONUS, PanelStyles.PANEL_STYLE_BLUE50 )
+		#screen.setImageButton(self.top.getNextWidgetName(), gc.getPromotionInfo(gc.getInfoTypeForString('PROMOTION_TEMP_STACK_BONUS')).getButton(), self.X_TOHO_UNIT_STACK_BONUS + 5, self.Y_TOHO_UNIT_STACK_BONUS + 30 , 48, 48, WidgetTypes.WIDGET_PEDIA_JUMP_TO_PROMOTION, gc.getInfoTypeForString('PROMOTION_TEMP_STACK_BONUS'), -1)
+		#screen.setText(self.top.getNextWidgetName(), "", u"<font=3><color=140,255,40,255>" + "%s" %gc.getPromotionInfo(gc.getInfoTypeForString('PROMOTION_TEMP_STACK_BONUS')).getDescription() + u"</color></font>", CvUtil.FONT_LEFT_JUSTIFY, self.X_TOHO_UNIT_STACK_BONUS + 60, self.Y_TOHO_UNIT_STACK_BONUS + 30, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, 0, 0)
+		#screen.addMultilineText(self.top.getNextWidgetName(), CyGameTextMgr().getPromotionHelp( gc.getInfoTypeForString('PROMOTION_TEMP_STACK_BONUS'), True )[1:] , self.X_TOHO_UNIT_STACK_BONUS+55, self.Y_TOHO_UNIT_STACK_BONUS+50, self.W_TOHO_UNIT_STACK_BONUS-60, self.H_TOHO_UNIT_STACK_BONUS-60, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)	
 		
 		#STGスキル
-		screen.addPanel(self.top.getNextWidgetName(), localText.getText("TXT_KEY_PEDIA_CATEGORY_TOHOUNIT_STG_SKILL", ()), "", true, true, self.X_TOHO_UNIT_STG_SKILL, self.Y_TOHO_UNIT_STG_SKILL, self.W_TOHO_UNIT_STG_SKILL, self.H_TOHO_UNIT_STG_SKILL, PanelStyles.PANEL_STYLE_BLUE50 )
-		screen.setImageButton(self.top.getNextWidgetName(), gc.getPromotionInfo(gc.getInfoTypeForString('PROMOTION_TEMP_STG_SKILL')).getButton(), self.X_TOHO_UNIT_STG_SKILL + 5, self.Y_TOHO_UNIT_STG_SKILL + 30 , 48, 48, WidgetTypes.WIDGET_PEDIA_JUMP_TO_PROMOTION, gc.getInfoTypeForString('PROMOTION_TEMP_STG_SKILL'), -1)
-		screen.setText(self.top.getNextWidgetName(), "", u"<font=3><color=140,255,40,255>" + "%s" %gc.getPromotionInfo(gc.getInfoTypeForString('PROMOTION_TEMP_STG_SKILL')).getDescription() + u"</color></font>", CvUtil.FONT_LEFT_JUSTIFY, self.X_TOHO_UNIT_STG_SKILL + 60, self.Y_TOHO_UNIT_STG_SKILL + 30, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, 0, 0)
-		screen.addMultilineText(self.top.getNextWidgetName(), CyGameTextMgr().getPromotionHelp( gc.getInfoTypeForString('PROMOTION_TEMP_STG_SKILL'), True )[1:] , self.X_TOHO_UNIT_STG_SKILL+55, self.Y_TOHO_UNIT_STG_SKILL+50, self.W_TOHO_UNIT_STG_SKILL-60, self.H_TOHO_UNIT_STG_SKILL-60, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)	
+		#screen.addPanel(self.top.getNextWidgetName(), localText.getText("TXT_KEY_PEDIA_CATEGORY_TOHOUNIT_STG_SKILL", ()), "", true, true, self.X_TOHO_UNIT_STG_SKILL, self.Y_TOHO_UNIT_STG_SKILL, self.W_TOHO_UNIT_STG_SKILL, self.H_TOHO_UNIT_STG_SKILL, PanelStyles.PANEL_STYLE_BLUE50 )
+		#screen.setImageButton(self.top.getNextWidgetName(), gc.getPromotionInfo(gc.getInfoTypeForString('PROMOTION_TEMP_STG_SKILL')).getButton(), self.X_TOHO_UNIT_STG_SKILL + 5, self.Y_TOHO_UNIT_STG_SKILL + 30 , 48, 48, WidgetTypes.WIDGET_PEDIA_JUMP_TO_PROMOTION, gc.getInfoTypeForString('PROMOTION_TEMP_STG_SKILL'), -1)
+		#screen.setText(self.top.getNextWidgetName(), "", u"<font=3><color=140,255,40,255>" + "%s" %gc.getPromotionInfo(gc.getInfoTypeForString('PROMOTION_TEMP_STG_SKILL')).getDescription() + u"</color></font>", CvUtil.FONT_LEFT_JUSTIFY, self.X_TOHO_UNIT_STG_SKILL + 60, self.Y_TOHO_UNIT_STG_SKILL + 30, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, 0, 0)
+		#screen.addMultilineText(self.top.getNextWidgetName(), CyGameTextMgr().getPromotionHelp( gc.getInfoTypeForString('PROMOTION_TEMP_STG_SKILL'), True )[1:] , self.X_TOHO_UNIT_STG_SKILL+55, self.Y_TOHO_UNIT_STG_SKILL+50, self.W_TOHO_UNIT_STG_SKILL-60, self.H_TOHO_UNIT_STG_SKILL-60, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)	
 
 		
 		
@@ -839,63 +860,40 @@ class CvPediaTohoUnit:
 	def placeLinks(self, bRedraw):
 
 		screen = self.top.getScreen()
-		
 		if bRedraw:
-			screen.clearListBoxGFC(self.top.LIST_ID)
-		
-		# sort Units alphabetically
-		unitsList=[(0,0)]*gc.getNumUnitInfos()
-		for j in range(gc.getNumUnitInfos()):
-			unitsList[j] = (gc.getUnitInfo(j).getDescription(), j)
-		
-		unitsList.sort()
-		
-		listCopy = unitsList[:]
-		for item in listCopy:
-			if item[1] > 0:
-				if gc.getUnitInfo(item[1]-1).getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_STANDBY'):
-					unitsList.remove(item)
-			else:
-				unitsList.remove(item)
-		
-		#ソートなんてめんどうだ、自分でリストを作ってしまえ
-		unitsList=[(0,0)]*len(self.SortList)
-		for j in range(len(self.SortList)):
-			unitsList[j] = ( self.SortList[j][2] + gc.getUnitInfo(gc.getInfoTypeForString(self.SortList[j][0])).getDescription() + "</color>", gc.getInfoTypeForString(self.SortList[j][0]))
-		
-		i = 0
-		iSelected = 0
-		#print unitsList
-		#for iI in range(gc.getNumUnitInfos()):
-		for iI in range(len(unitsList)):
-			if (not gc.getUnitInfo(unitsList[iI][1]).isGraphicalOnly()):
-				if (not gc.getDefineINT("CIVILOPEDIA_SHOW_ACTIVE_CIVS_ONLY") or not gc.getGame().isFinalInitialized() or gc.getGame().isUnitEverActive(unitsList[iI][1])):
-					if bRedraw:
-						screen.appendListBoxStringNoUpdate( self.top.LIST_ID, unitsList[iI][0], WidgetTypes.WIDGET_PEDIA_JUMP_TO_TOHOUNIT, unitsList[iI][1], 0, CvUtil.FONT_LEFT_JUSTIFY )
-					if unitsList[iI][1] == self.iUnit:
-						iSelected = i
-					i += 1
-					
-		if bRedraw:
-			screen.updateListBox(self.top.LIST_ID)
+			screen.show("PlatyTable")
+			return
+		screen.addTableControlGFC("PlatyTable", 1, self.top.X_PANEL, 55, self.top.W_PANEL, screen.getYResolution() - 110, False, False, 24, 24, TableStyles.TABLE_STYLE_STANDARD);
+		screen.enableSelect("PlatyTable", True)
+		screen.setTableColumnHeader("PlatyTable", 0, "", self.top.W_PANEL)
+		listSorted = self.top.sortTohoUnits(0)
+		self.top.placePediaLinks(listSorted, CyTranslator().getText(self.top.sUnitIcon, ()), self.iUnit, WidgetTypes.WIDGET_PEDIA_JUMP_TO_TOHOUNIT, -1)
 
-		screen.setSelectedListBoxStringGFC(self.top.LIST_ID, iSelected)
-			
 	def placePromotions(self):
+#		screen = self.top.getScreen()
+#		
+#		# add pane and text
+#		panelName = self.top.getNextWidgetName()
+#		screen.addPanel(panelName, localText.getText("TXT_KEY_PEDIA_CATEGORY_PROMOTION", ()), "", true, true, self.X_PROMO_PANE, self.Y_PROMO_PANE, self.W_PROMO_PANE, self.H_PROMO_PANE, PanelStyles.PANEL_STYLE_BLUE50 )
+#				
+#		# add promotion buttons
+#		rowListName = self.top.getNextWidgetName()
+#		screen.addMultiListControlGFC(rowListName, "", self.X_PROMO_PANE+15, self.Y_PROMO_PANE+40, self.W_PROMO_PANE-20, self.H_PROMO_PANE-40, 1, self.PROMOTION_ICON_SIZE, self.PROMOTION_ICON_SIZE, TableStyles.TABLE_STYLE_STANDARD)
+#	
+#		for k in range(gc.getNumPromotionInfos()):
+#			if (isPromotionValid(k, self.iUnit, false) and not gc.getPromotionInfo(k).isGraphicalOnly()):
+#				screen.appendMultiListButton( rowListName, gc.getPromotionInfo(k).getButton(), 0, WidgetTypes.WIDGET_PEDIA_JUMP_TO_PROMOTION, k, -1, false )
+
 		screen = self.top.getScreen()
-		
-		# add pane and text
 		panelName = self.top.getNextWidgetName()
-		screen.addPanel(panelName, localText.getText("TXT_KEY_PEDIA_CATEGORY_PROMOTION", ()), "", true, true, self.X_PROMO_PANE, self.Y_PROMO_PANE, self.W_PROMO_PANE, self.H_PROMO_PANE, PanelStyles.PANEL_STYLE_BLUE50 )
-				
-		# add promotion buttons
+		screen.addPanel(panelName, CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_PROMOTION", ()), "", true, true, self.top.X_ITEMS_PANE, self.Y_PROMO_PANE, self.W_MAIN_PANE, self.H_SPECIAL_PANE, PanelStyles.PANEL_STYLE_BLUE50 )
 		rowListName = self.top.getNextWidgetName()
-		screen.addMultiListControlGFC(rowListName, "", self.X_PROMO_PANE+15, self.Y_PROMO_PANE+40, self.W_PROMO_PANE-20, self.H_PROMO_PANE-40, 1, self.PROMOTION_ICON_SIZE, self.PROMOTION_ICON_SIZE, TableStyles.TABLE_STYLE_STANDARD)
-	
-		for k in range(gc.getNumPromotionInfos()):
-			if (isPromotionValid(k, self.iUnit, false) and not gc.getPromotionInfo(k).isGraphicalOnly()):
-				screen.appendMultiListButton( rowListName, gc.getPromotionInfo(k).getButton(), 0, WidgetTypes.WIDGET_PEDIA_JUMP_TO_PROMOTION, k, -1, false )
-								
+		screen.addMultiListControlGFC(rowListName, "", self.top.X_ITEMS_PANE + 15, self.Y_PROMO_PANE + 40, self.W_MAIN_PANE - 20, self.H_SPECIAL_PANE - 40, 1, self.PROMOTION_ICON_SIZE, self.PROMOTION_ICON_SIZE, TableStyles.TABLE_STYLE_STANDARD)
+		for k in xrange(gc.getNumPromotionInfos()):
+			if isPromotionValid(k, self.iUnit, True) and not gc.getPromotionInfo(k).isGraphicalOnly():
+				screen.appendMultiListButton(rowListName, gc.getPromotionInfo(k).getButton(), 0, WidgetTypes.WIDGET_PEDIA_JUMP_TO_PROMOTION, k, -1, false )
+
+
 	# Will handle the input for this screen...
 	def handleInput (self, inputClass):
 		return 0

@@ -48,7 +48,7 @@ class CvPediaTrait:
 				
 	def placeSpecial(self):
 		screen = self.top.getScreen()
-		screen.addPanel(self.top.getNextWidgetName(), CyTranslator().getText("TXT_KEY_PEDIA_EFFECTS", ()), "", true, false, self.top.X_ITEMS_PANE, self.Y_CONCEPT, self.W_EFFECTS, self.H_CONCEPT, PanelStyles.PANEL_STYLE_BLUE50 )	
+		screen.addPanel(self.top.getNextWidgetName(), CyTranslator().getText("TXT_KEY_PEDIA_EFFECTS", ()), "", true, false, self.top.X_ITEMS_PANE, self.Y_CONCEPT, self.W_EFFECTS, self.H_CONCEPT, PanelStyles.PANEL_STYLE_BLUE50 )
 		TraitInfo = gc.getTraitInfo(self.iTrait)
 		if self.iLeader > -1:
 			szText = CyGameTextMgr().parseLeaderTraits(self.iLeader, -1, False, True)

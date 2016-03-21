@@ -49,6 +49,7 @@ import CvDebugInfoScreen
 import PlatyPediaMain
 import PlatyPediaHistory
 import PlatyPediaMovie
+import CvPediaTohoUnitonplatypedia
 ## Platypedia ##
 
 import CvUtil
@@ -245,7 +246,6 @@ def pediaJumpToTohoUnit(argsList):
 
 def doPediaCalChange(argsList):
 	pediaMainScreen.pediaTohoUnitScreen.changeCAL(argsList[1])
-	
 	
 ##### </written by F> #####
 def pediaJumpToBuilding(argsList):

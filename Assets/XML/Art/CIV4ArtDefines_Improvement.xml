@@ -320,7 +320,7 @@
       <fScale>15.0</fScale>
       <fInterfaceScale>1.0</fInterfaceScale>
       <NIF>Art/Structures/Improvements/Barracks/harounbarracks.nif</NIF>
-      <KFM>Art/Structures/Improvements/Barracks/harounbarracks.kfm</KFM>
+      <KFM />
       <Button>Art/Interface/Buttons/Builds/buildhyouseilumbermill.dds</Button>
     </ImprovementArtInfo>
     <ImprovementArtInfo>
@@ -437,7 +437,7 @@
       <fScale>0.6</fScale>
       <fInterfaceScale>1.0</fInterfaceScale>
       <NIF>Art/Structures/Improvements/watermill/modern_watermill.nif</NIF>
-      <KFM>Art/Structures/Improvements/WaterMill/modern_watermill.kfm</KFM>
+      <KFM>Art/Structures/Improvements/WaterMill/WaterMill.kfm</KFM>
       <Button>Art/Interface/Buttons/Builds/buildningenwatermill.dds</Button>
     </ImprovementArtInfo>
     <ImprovementArtInfo>
@@ -519,7 +519,7 @@
       <fScale>5.0</fScale>
       <fInterfaceScale>1.0</fInterfaceScale>
       <NIF>Art/Structures/Improvements/MageTower/MageTower.nif</NIF>
-      <KFM>Art/Structures/Improvements/MageTower/MageTower.kfm</KFM>
+      <KFM />
       <Button>Art/Interface/Buttons/Units/futo_button.dds</Button>
     </ImprovementArtInfo>
     <ImprovementArtInfo>
@@ -528,7 +528,7 @@
       <fScale>10.0</fScale>
       <fInterfaceScale>1.0</fInterfaceScale>
       <NIF>Art/Structures/Improvements/TempleofIce/TempleofIce.nif</NIF>
-      <KFM>Art/Structures/Improvements/TempleofIce/TempleofIce.kfm</KFM>
+      <KFM />
       <Button>Art/Interface/Buttons/Units/futo_button.dds</Button>
     </ImprovementArtInfo>
     <ImprovementArtInfo>

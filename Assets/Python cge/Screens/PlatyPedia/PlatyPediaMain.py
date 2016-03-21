@@ -90,6 +90,10 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		self.listCategories = []
 		self.iLastScreen = -1
 
+		#東方叙事詩統合MOD追記
+		self.pediaTohoUnitScreen = CvPediaTohoUnitonplatypedia.CvPediaTohoUnit(self)
+		#東方叙事詩統合MOD追記ここまで
+
 		self.iCategory = -1
 		self.iActivePlayer = -1
 		self.iCount = 0
@@ -98,6 +102,8 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		self.iNumColumns = 1
 		self.iNumRows = 1
 		self.sTableName = ""
+		
+		self.LIST_ID = "PediaMainList"
 
 		self.mapCategories = { 
 			self.PLATYPEDIA_TECH		: self.placeTechs, 
@@ -283,7 +289,7 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 					CyTranslator().getText(self.sUpgradeIcon, ()) + CyTranslator().getText("TXT_KEY_PEDIA_TREE", ()),
 					CyTranslator().getText(self.sCivIcon, ()) + CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_CIV", ()),
 					CyTranslator().getText(self.sLeaderIcon, ()) + CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_LEADER", ()),
-					CyTranslator().getText(self.sTraitIcon, ()) + CyTranslator().getText("TXT_KEY_PEDIA_TRAITS", ()),
+					CyTranslator().getText(self.sTraitIcon, ()) + CyTranslator().getText("TXT_KEY_PLATYPEDIA_TRAITS", ()),
 					CyTranslator().getText(self.sSpecialistIcon, ()) + CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_SPECIALIST", ()),
 					CyTranslator().getText(self.sReligionIcon, ()) + CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_RELIGION", ()),
 					CyTranslator().getText(self.sCorporationIcon, ()) + CyTranslator().getText("TXT_KEY_CONCEPT_CORPORATIONS", ()),
@@ -496,17 +502,13 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		self.placePedia(listSorted, CyTranslator().getText(self.sUnitCombatIcon, ()), WidgetTypes.WIDGET_PEDIA_JUMP_TO_UNIT_COMBAT, -1, True)
 #東方叙事詩統合MOD追記
 	def placeTohoUnits(self):
-		screen = self.getScreen()
-		listSorted = self.sortTohoUnits(1)
-		self.setTable(0, listSorted)
 
-		iCount = 0
-		for item in listSorted[0]:
-			iRow = iCount % self.iNumRows
-			iColumn = iCount / self.iNumRows
-			ItemInfo = gc.getFeatureInfo(item[1])
-			screen.setTableText(self.sTableName, iColumn, iRow, u"<font=3>" + self.color2+ item[0] + u"</color></font>", gc.getFeatureInfo(item[1]).getButton(), WidgetTypes.WIDGET_PEDIA_JUMP_TO_FEATURE, item[1], 1, CvUtil.FONT_LEFT_JUSTIFY)
-			iCount += 1
+		screen = self.getScreen()
+		if CyGame().isFinalInitialized(): screen.show("HideInactive")
+		listSorted = self.sortTohoUnits(0)
+		self.setNewTable(0, listSorted)
+		self.placePedia(listSorted, CyTranslator().getText(self.sTohoUnitIcon, ()), WidgetTypes.WIDGET_PEDIA_JUMP_TO_TOHOUNIT, -1, True)
+
 #東方叙事詩統合MOD追記ここまで
 	def placePromotions(self):
 		screen = self.getScreen()
@@ -594,7 +596,7 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		screen = self.getScreen()
 		screen.addDropDownBoxGFC("PlatySort", self.X_SORT, self.Y_SORT, self.W_SORT, WidgetTypes.WIDGET_GENERAL, -1, -1, FontTypes.GAME_FONT)
 		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_DOMESTIC_ADVISOR_NAME", ()), 0, 0, 0 == self.iSortTerrains)
-		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_PEDIA_DOMAIN", ()), 1, 1, 1 == self.iSortTerrains)
+		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_PEDIA_LAND_DOMAIN", ()), 1, 1, 1 == self.iSortTerrains)
 
 		listSorted = self.sortTerrains(self.iSortTerrains)
 		self.setNewTable(self.iSortTerrains, listSorted)
@@ -612,7 +614,7 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_DOMESTIC_ADVISOR_NAME", ()), 0, 0, 0 == self.iSortBonus)
 		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_SPACE_SHIP_SCREEN_TYPE_BUTTON", ()), 1, 1, 1 == self.iSortBonus)
 		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_PEDIA_ERA", ()), 2, 2, 2 == self.iSortBonus)
-		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_PEDIA_DOMAIN", ()), 3, 3, 3 == self.iSortBonus)
+		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_PEDIA_LAND_DOMAIN", ()), 3, 3, 3 == self.iSortBonus)
 		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_CONCEPT_CORPORATIONS", ()), 4, 4, 4 == self.iSortBonus)
 
 		listSorted = self.sortBonus(self.iSortBonus)
@@ -624,7 +626,7 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		screen.addDropDownBoxGFC("PlatySort", self.X_SORT, self.Y_SORT, self.W_SORT, WidgetTypes.WIDGET_GENERAL, -1, -1, FontTypes.GAME_FONT)
 		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_DOMESTIC_ADVISOR_NAME", ()), 0, 0, 0 == self.iSortImprovements)
 		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_PEDIA_ERA", ()), 1, 1, 1 == self.iSortImprovements)
-		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_PEDIA_DOMAIN", ()), 2, 2, 2 == self.iSortImprovements)
+		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_PEDIA_LAND_DOMAIN", ()), 2, 2, 2 == self.iSortImprovements)
 
 		listSorted = self.sortImprovements(self.iSortImprovements)
 		self.setNewTable(self.iSortImprovements, listSorted)
@@ -694,9 +696,9 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		screen.addDropDownBoxGFC("PlatySort", self.X_SORT, self.Y_SORT, self.W_SORT, WidgetTypes.WIDGET_GENERAL, -1, -1, FontTypes.GAME_FONT)
 		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_DOMESTIC_ADVISOR_NAME", ()), 0, 0, 0 == self.iSortLeaders)
 		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_CIV", ()), 1, 1, 1 == self.iSortLeaders)
-		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_PEDIA_TRAITS", ()), 2, 2, 2 == self.iSortLeaders)
-		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_CIVIC", ()), 3, 3, 3 == self.iSortLeaders)
-		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_RELIGION", ()), 4, 4, 4 == self.iSortLeaders)
+		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_PLATYPEDIA_TRAITS", ()), 2, 2, 2 == self.iSortLeaders)
+		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_PLATYPEDIA_CATEGORY_CIVIC_LEADER", ()), 3, 3, 3 == self.iSortLeaders)
+		screen.addPullDownString("PlatySort",  CyTranslator().getText("TXT_KEY_PLATYPEDIA_CATEGORY_RELIGION", ()), 4, 4, 4 == self.iSortLeaders)
 
 		listSorted = self.sortLeaders(self.iSortLeaders)
 		self.setNewTable(self.iSortLeaders, listSorted)
@@ -860,6 +862,12 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		if temp:
 			for item in temp[0][2]:
 				listSorted.append([item[0], gc.getUnitCombatInfo(item[1]).getButton(), "", WidgetTypes.WIDGET_PEDIA_JUMP_TO_UNIT_COMBAT, item[1], 1])
+		#東方叙事詩統合MOD追記
+		temp = self.sortTohoUnits(0)
+		if temp:
+			for item in temp[0][2]:
+				listSorted.append([item[0], gc.getUnitInfo(item[1]).getButton(), "", WidgetTypes.WIDGET_PEDIA_JUMP_TO_TOHOUNIT, item[1], 1])
+		#東方叙事詩統合MOD追記ここまで
 		temp = self.sortCivilizations(0)
 		if temp:
 			for item in temp[0][2]:
@@ -1171,8 +1179,8 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 			if gc.getWorldInfo(i).isMatchForLink(szLink, False):
 				return self.pediaJump(self.PLATYPEDIA_GAME_INFO, 6797 * 10000 + i, True)
 		#東方叙事詩統合MOD追記
-		if (szLink == "PEDIA_MAIN_TOHOUNIT"):
-			return self.pediaJump(CvScreenEnums.PEDIA_MAIN, int(CivilopediaPageTypes.CIVILOPEDIA_PAGE_TOHOUNIT), True)	
+#		if (szLink == "PEDIA_MAIN_TOHOUNIT"):
+#			return self.pediaJump(CvScreenEnums.PEDIA_MAIN, int(CivilopediaPageTypes.CIVILOPEDIA_PAGE_TOHOUNIT), True)	
 		for i in range(gc.getNumUnitInfos()):
 			if (gc.getUnitInfo(i).isMatchForLink(szLink, False)):
 				return self.pediaJump(CvScreenEnums.PEDIA_TOHOUNIT, i, True)
@@ -1285,8 +1293,8 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		if self.iLastScreen == CvScreenEnums.PEDIA_LEADER:
 			return self.pediaLeader.handleInput(inputClass)
 		#東方叙事詩統合MOD追記
-		if (self.iLastScreen == CvScreenEnums.PEDIA_TOHOUNIT):
-			return self.pediaTohoUnitScreen.handleInput(inputClass)
+		#if (self.iLastScreen == CvScreenEnums.PEDIA_TOHOUNIT):
+		#	return self.pediaTohoUnitScreen.handleInput(inputClass)
 		#東方叙事詩統合MOD追記ここまで
 		return 0
 
@@ -1609,20 +1617,144 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		return lSorted
 #東方叙事詩統合MOD追記
 	def sortTohoUnits(self, iType):
-		lItem = []
-		lNatural = []
-		for iItem in xrange(gc.getNumFeatureInfos()):
-			ItemInfo = gc.getFeatureInfo(iItem)
-			if ItemInfo.isGraphicalOnly(): continue
-			if ItemInfo.getType().find("FEATURE_PLATY_") == -1:
-				lItem.append([ItemInfo.getDescription(), iItem])
-			else:
-				lNatural.append([ItemInfo.getDescription(), iItem])
-		if iType == 1:
-			lNatural.sort()
-			return [lNatural]
-		lItem.sort()
-		return [lItem]
+
+		lSorted = []
+		lItems = []
+		iActivePlayer = CyGame().getActivePlayer()
+		for iItem in xrange(gc.getNumUnitInfos()):
+			ItemInfo = gc.getUnitInfo(iItem)
+			if ItemInfo.isGraphicalOnly() and not CyGame().isDebugMode(): continue
+			sButton = ItemInfo.getButton()
+			if CyGame().isFinalInitialized():
+				if gc.getDefineINT("CIVILOPEDIA_SHOW_ACTIVE_CIVS_ONLY"):
+					if not CyGame().isUnitEverActive(iItem): continue
+				if iActivePlayer > -1:
+					sButton = gc.getPlayer(iActivePlayer).getUnitButton(iItem)
+			lItems.append([ItemInfo.getDescription(), iItem, sButton])
+		if not lItems: return lSorted
+		#lItems.sort()
+		if iType == 0:
+			lTemp = []
+			#紅魔館
+			for item in lItems:
+				ItemInfo = gc.getUnitInfo(item[1])
+				if ItemInfo.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+					if (ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_REMILIA1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_FLAN1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_SAKUYA1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_PATCHOULI1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_MEIRIN1') ):
+						lTemp.append(item)
+			#白玉楼
+			for item in lItems:
+				ItemInfo = gc.getUnitInfo(item[1])
+				if ItemInfo.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+					if (ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_YOUMU1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_YUYUKO1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_CHEN1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_RAN1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_YUKARI1') ):
+						lTemp.append(item)
+			#永遠亭
+			for item in lItems:
+				ItemInfo = gc.getUnitInfo(item[1])
+				if ItemInfo.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+					if (ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_TEWI1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_REISEN1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_EIRIN1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_KAGUYA1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_MEDICIN1') ):
+						lTemp.append(item)
+			#妖怪の山
+			for item in lItems:
+				ItemInfo = gc.getUnitInfo(item[1])
+				if ItemInfo.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+					if (ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_NITORI1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_IKU1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_TENSHI1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_SANAE1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_KANAKO1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_SUWAKO1') ):
+						lTemp.append(item)
+			#地霊殿
+			for item in lItems:
+				ItemInfo = gc.getUnitInfo(item[1])
+				if ItemInfo.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+					if (ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_PARSEE1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_YUGI1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_RIN1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_SATORI1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_KOISHI1') ):
+						lTemp.append(item)
+			#氷精連合
+			for item in lItems:
+				ItemInfo = gc.getUnitInfo(item[1])
+				if ItemInfo.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+					if (ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_CIRNO1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_WRIGGLE1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_MYSTIA1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_RUMIA1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_LETTY1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_KOGASA1') ):
+						lTemp.append(item)
+			#博麗神社
+			for item in lItems:
+				ItemInfo = gc.getUnitInfo(item[1])
+				if ItemInfo.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+					if (ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_REIMU1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_MARISA1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_ALICE1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_SUIKA1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_MIMA1') ):
+						lTemp.append(item)
+			#人間の里
+			for item in lItems:
+				ItemInfo = gc.getUnitInfo(item[1])
+				if ItemInfo.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+					if (ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_MOKOU1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_KEINE1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_YUKA1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_KOMACHI1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_EIKI1') ):
+						lTemp.append(item)
+			#星蓮船
+			for item in lItems:
+				ItemInfo = gc.getUnitInfo(item[1])
+				if ItemInfo.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+					if (ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_NAZRIN1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_ICHIRIN1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_MINAMITSU1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_SYOU1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_BYAKUREN1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_NUE1') ):
+						lTemp.append(item)
+			#神霊廟
+			for item in lItems:
+				ItemInfo = gc.getUnitInfo(item[1])
+				if ItemInfo.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+					if (ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_YOSHIKA1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_SEIGA1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_TOJIKO1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_FUTO1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_MIMIMIKO1') ):
+						lTemp.append(item)
+			#輝針城
+			for item in lItems:
+				ItemInfo = gc.getUnitInfo(item[1])
+				if ItemInfo.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+					if (ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_YATUHASHI1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_BENBEN1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_SEIJA1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_SHINMYOUMARU1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_RAIKO1') ):
+						lTemp.append(item)
+			if lTemp:
+				lSorted.append(["", "", lTemp])
+		
+		if iType > 0 and not lSorted[0][0]:
+			lSorted[0][0] = CyTranslator().getText("TXT_KEY_MAIN_MENU_NONE", ())
+		return lSorted
+
 #東方叙事詩統合MOD追記ここまで
 	def sortPromotions(self, iType):
 		lSorted = []
@@ -2075,11 +2207,21 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 						lTemp.append(item)
 				if lTemp:
 					sDescription = CyTranslator().getText("TXT_KEY_GLOBELAYER_RESOURCES_GENERAL",())
-					if iBonusClass > 0:
-						sDescription = gc.getBonusClassInfo(iBonusClass).getType()
-						sDescription = sDescription[sDescription.find("_") +1:]
-						sDescription = sDescription.lower()
-						sDescription = sDescription.capitalize()
+					if iBonusClass == 1:
+						sDescription = CyTranslator().getText("TXT_KEY_PLATYPEDIA_GRAIN",())
+					if iBonusClass == 2:
+						sDescription = CyTranslator().getText("TXT_KEY_PLATYPEDIA_LIVESTOCK",())
+					if iBonusClass == 3:
+						sDescription = CyTranslator().getText("TXT_KEY_PLATYPEDIA_RUSH",())
+					if iBonusClass == 4:
+						sDescription = CyTranslator().getText("TXT_KEY_PLATYPEDIA_MODERN",())
+					if iBonusClass == 5:
+						sDescription = CyTranslator().getText("TXT_KEY_PLATYPEDIA_WONDER",())
+#					if iBonusClass > 0:
+#						sDescription = gc.getBonusClassInfo(iBonusClass).getType()
+#						sDescription = sDescription[sDescription.find("_") +1:]
+#						sDescription = sDescription.lower()
+#						sDescription = sDescription.capitalize()
 					lSorted.append([sDescription, "", lTemp])
 				iBonusClass += 1
 				if gc.getBonusClassInfo(iBonusClass) == None: break

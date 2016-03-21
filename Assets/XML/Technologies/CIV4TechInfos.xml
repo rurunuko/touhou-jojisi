@@ -6153,6 +6153,7 @@
       <SoundMP>
       </SoundMP>
       <Button>,Art/Interface/Buttons/TechTree/Fusion.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,4</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </TechInfo>
     <TechInfo>
       <Type>TECH_SHOOTING_TECHNIQUE2</Type>
@@ -13108,6 +13109,7 @@
       <Sound>AS2D_TECH_FUSION</Sound>
       <SoundMP>AS2D_TECH_MP_FUSION</SoundMP>
       <Button>,Art/Interface/Buttons/TechTree/Fusion.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,4</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </TechInfo>
   </TechInfos>
 </Civ4TechInfos>
