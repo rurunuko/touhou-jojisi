@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Basic Infos -->
+<Civ4BasicInfos xmlns="x-schema:CIV4BasicInfoSchema.xml">
+	<ConceptInfos>
+		<ConceptInfo>
+			<Type>CONCEPT_TOHOUNIT</Type>
+			<Description>TXT_KEY_TOHOUNIT</Description>
+			<Civilopedia>TXT_KEY_TOHOUNIT_PEDIA</Civilopedia>
+		</ConceptInfo>
+		<ConceptInfo>
+			<Type>CONCEPT_TOHOUNIT_COMBAT</Type>
+			<Description>TXT_KEY_TOHOUNIT_COMBAT</Description>
+			<Civilopedia>TXT_KEY_TOHOUNIT_COMBAT_PEDIA</Civilopedia>
+		</ConceptInfo>
+		<ConceptInfo>
+			<Type>CONCEPT_TOHOUNIT_SHOOTING</Type>
+			<Description>TXT_KEY_TOHOUNIT_SHOOTING</Description>
+			<Civilopedia>TXT_KEY_TOHOUNIT_SHOOTING_PEDIA</Civilopedia>
+		</ConceptInfo>
+		<ConceptInfo>
+			<Type>CONCEPT_TOHOUNIT_SPELL</Type>
+			<Description>TXT_KEY_TOHOUNIT_SPELL</Description>
+			<Civilopedia>TXT_KEY_TOHOUNIT_SPELL_PEDIA</Civilopedia>
+		</ConceptInfo>
+		<ConceptInfo>
+			<Type>CONCEPT_TOHOUNIT_SPELL_TYPE</Type>
+			<Description>TXT_KEY_TOHOUNIT_SPELL_TYPE</Description>
+			<Civilopedia>TXT_KEY_TOHOUNIT_SPELL_TYPE_PEDIA</Civilopedia>
+		</ConceptInfo>
+		<ConceptInfo>
+			<Type>CONCEPT_TOHOUNIT_SANSUKUMI</Type>
+			<Description>TXT_KEY_TOHOUNIT_SANSUKUMI</Description>
+			<Civilopedia>TXT_KEY_TOHOUNIT_SANSUKUMI_PEDIA</Civilopedia>
+		</ConceptInfo>
+		<ConceptInfo>
+			<Type>CONCEPT_KEIZAI</Type>
+			<Description>TXT_KEY_KEIZAI</Description>
+			<Civilopedia>TXT_KEY_KEIZAI_PEDIA</Civilopedia>
+		</ConceptInfo>
+		<ConceptInfo>
+			<Type>CONCEPT_SENMONKA_KEIZAI</Type>
+			<Description>TXT_KEY_SENMONKA_KEIZAI</Description>
+			<Civilopedia>TXT_KEY_SENMONKA_KEIZAI_PEDIA</Civilopedia>
+		</ConceptInfo>
+		<ConceptInfo>
+			<Type>CONCEPT_BUNMEI_GUIDE</Type>
+			<Description>TXT_KEY_BUNMEI_GUIDE</Description>
+			<Civilopedia>TXT_KEY_BUNMEI_GUIDE_PEDIA</Civilopedia>
+		</ConceptInfo>
+		<ConceptInfo>
+			<Type>CONCEPT_ISAN_HYOUKA</Type>
+			<Description>TXT_KEY_ISAN_HYOUKA</Description>
+			<Civilopedia>TXT_KEY_ISAN_HYOUKA_PEDIA</Civilopedia>
+		</ConceptInfo>
+		<ConceptInfo>
+			<Type>CONCEPT_HAGE</Type>
+			<Description>TXT_KEY_HAGE</Description>
+			<Civilopedia>TXT_KEY_HAGE_PEDIA</Civilopedia>
+		</ConceptInfo>
+	</ConceptInfos>
+</Civ4BasicInfos>
