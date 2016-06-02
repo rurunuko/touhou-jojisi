@@ -212,6 +212,9 @@ class CvEventManager:
 		if (config != None):
 			CFG_EnabledCitizensAutomated = config.getboolean( "Citizens Automated", "Enabled", True)
 
+                # 地霊殿持ち越し用
+                self.ChireidenOverflow = (-1, 0)
+
 #################### EVENT STARTERS ######################
 	def handleEvent(self, argsList):
 		'EventMgr entry point'
@@ -2778,23 +2781,22 @@ class CvEventManager:
 			pTeam = gc.getTeam(iTeam)
 			
 			##研究力増幅値
-			iResearch = 0
-			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_MARATHON'):
-				iResearch= 13500
-			elif gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_EPIC'):
-				iResearch= 6600
-			elif gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_NORMAL'):
-				iResearch= 4500
-			elif gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_QUICK'):
-				iResearch= 3000
-			elif gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_TENGU'):
-				iResearch= 2250
-
+                        unitResearchPercent = gc.getGameSpeedInfo(gc.getGame().getGameSpeedType()).getUnitDiscoverPercent()
+			iResearch = 4500 * unitResearchPercent / 100
+                        
 			##自分の研究を判断
 			pResearch = pPlayer.getCurrentResearch ()
 
-			pTeam.changeResearchProgress(pResearch,iResearch,iPlayer)
-			
+                        ##研究を入れていない場合、いったんプールし、さっさと次の研究を選ぶように促す
+                        ##see also onTechSelected().
+                        if(pResearch == gc.getInfoTypeForString('NO_TECH')):
+                                self.ChireidenOverflow = (iPlayer, iResearch)
+                                pPlayer.chooseTech(0, "&#22320;&#38666;&#27583;&#12364;&#23436;&#25104;&#12375;&#12414;&#12375;&#12383;&#65281;&#30740;&#31350;&#12377;&#12427;&#12486;&#12463;&#12494;&#12525;&#12472;&#12540;&#12434;&#36984;&#25246;&#12375;&#12390;&#12367;&#12384;&#12373;&#12356;&#12290;", true)
+
+                        ##そうでない場合、今やってる研究を応援する
+                        else:
+			        pTeam.changeResearchProgress(pResearch,iResearch,iPlayer)
+                        
 			CyInterface().addImmediateMessage("&#21476;&#26126;&#22320;&#12373;&#12392;&#12426;&#12364;&#22519;&#31558;&#12375;&#12383;&#26360;&#29289;&#12398;&#35299;&#35501;&#12395;&#12424;&#12426;&#12289;&#22320;&#38666;&#27583;&#25991;&#26126;&#12398;&#30740;&#31350;&#12364;&#22823;&#24133;&#12395;&#36914;&#12415;&#12414;&#12375;&#12383;&#65281;","")
 
 		## originai:CGEsスーパーコンピューター ##
@@ -3653,6 +3655,15 @@ class CvEventManager:
 	def onTechSelected(self, argsList):
 		'Tech Selected'
 		iTechType, iPlayer = argsList
+
+                chiPlayer, chiProgress = self.ChireidenOverflow
+
+                # プールされた研究力があって、それが自分のものであるなら、今選んだ技術につぎこむ
+                if(iPlayer == chiPlayer and chiProgress > 0):
+                        pTeam = gc.getTeam(gc.getPlayer(iPlayer).getTeam())
+                        pTeam.changeResearchProgress(iTechType,chiProgress,iPlayer)
+                        self.ChireidenOverflow = (-1, 0)
+                        
 		if (not self.__LOG_TECH):
 			return
 		CvUtil.pyPrint('%s was selected by Player %d' %(PyInfo.TechnologyInfo(iTechType).getDescription(), iPlayer))
