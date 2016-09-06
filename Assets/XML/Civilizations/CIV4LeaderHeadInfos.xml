@@ -15257,15 +15257,15 @@
       <Description>TXT_KEY_LEADER_RINGO</Description>
       <Civilopedia>TXT_KEY_LEADER_RINGO_PEDIA</Civilopedia>
       <ArtDefineTag>ART_DEF_LEADER_RINGO</ArtDefineTag>
-      <iWonderConstructRand>40</iWonderConstructRand>
+      <iWonderConstructRand>20</iWonderConstructRand>
       <iBaseAttitude>0</iBaseAttitude>
       <iBasePeaceWeight>8</iBasePeaceWeight>
       <iPeaceWeightRand>3</iPeaceWeightRand>
       <iWarmongerRespect>1</iWarmongerRespect>
-      <iEspionageWeight>100</iEspionageWeight>
+      <iEspionageWeight>130</iEspionageWeight>
       <iRefuseToTalkWarThreshold>10</iRefuseToTalkWarThreshold>
       <iNoTechTradeThreshold>10</iNoTechTradeThreshold>
-      <iTechTradeKnownPercent>40</iTechTradeKnownPercent>
+      <iTechTradeKnownPercent>20</iTechTradeKnownPercent>
       <iMaxGoldTradePercent>5</iMaxGoldTradePercent>
       <iMaxGoldPerTurnTradePercent>10</iMaxGoldPerTurnTradePercent>
       <iMaxWarRand>300</iMaxWarRand>
@@ -15311,7 +15311,7 @@
       <iFavoriteCivicAttitudeChangeLimit>4</iFavoriteCivicAttitudeChangeLimit>
       <DemandTributeAttitudeThreshold>ATTITUDE_CAUTIOUS</DemandTributeAttitudeThreshold>
       <NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
-      <TechRefuseAttitudeThreshold>ATTITUDE_ANNOYED</TechRefuseAttitudeThreshold>
+      <TechRefuseAttitudeThreshold>ATTITUDE_FURIOUS</TechRefuseAttitudeThreshold>
       <StrategicBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StrategicBonusRefuseAttitudeThreshold>
       <HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
       <HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
@@ -15401,11 +15401,11 @@
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_TRADE_TECH</ContactType>
-          <iContactRand>5</iContactRand>
+          <iContactRand>3</iContactRand>
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_TRADE_BONUS</ContactType>
-          <iContactRand>5</iContactRand>
+          <iContactRand>3</iContactRand>
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_TRADE_MAP</ContactType>
@@ -15889,7 +15889,7 @@
       <VassalRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</VassalRefuseAttitudeThreshold>
       <iVassalPowerModifier>0</iVassalPowerModifier>
       <iFreedomAppreciation>10</iFreedomAppreciation>
-      <FavoriteCivic>CIVIC_UNIVERSAL_SUFFRAGE</FavoriteCivic>
+      <FavoriteCivic>CIVIC_FAITH_CTHULHU</FavoriteCivic>
       <FavoriteReligion>NONE</FavoriteReligion>
       <Traits>
         <Trait>
@@ -54253,7 +54253,7 @@
       <Description>TXT_KEY_LEADER_FUTO</Description>
       <Civilopedia>TXT_KEY_LEADER_FUTO_PEDIA</Civilopedia>
       <ArtDefineTag>ART_DEF_LEADER_FUTO</ArtDefineTag>
-      <iWonderConstructRand>30</iWonderConstructRand>
+      <iWonderConstructRand>40</iWonderConstructRand>
       <iBaseAttitude>0</iBaseAttitude>
       <iBasePeaceWeight>9</iBasePeaceWeight>
       <iPeaceWeightRand>3</iPeaceWeightRand>
@@ -54265,11 +54265,11 @@
       <iMaxGoldTradePercent>5</iMaxGoldTradePercent>
       <iMaxGoldPerTurnTradePercent>10</iMaxGoldPerTurnTradePercent>
       <iMaxWarRand>200</iMaxWarRand>
-      <iMaxWarNearbyPowerRatio>90</iMaxWarNearbyPowerRatio>
-      <iMaxWarDistantPowerRatio>60</iMaxWarDistantPowerRatio>
+      <iMaxWarNearbyPowerRatio>140</iMaxWarNearbyPowerRatio>
+      <iMaxWarDistantPowerRatio>80</iMaxWarDistantPowerRatio>
       <iMaxWarMinAdjacentLandPercent>2</iMaxWarMinAdjacentLandPercent>
       <iLimitedWarRand>100</iLimitedWarRand>
-      <iLimitedWarPowerRatio>100</iLimitedWarPowerRatio>
+      <iLimitedWarPowerRatio>120</iLimitedWarPowerRatio>
       <iDogpileWarRand>25</iDogpileWarRand>
       <iMakePeaceRand>20</iMakePeaceRand>
       <iDeclareWarTradeRand>40</iDeclareWarTradeRand>
@@ -54279,8 +54279,8 @@
       <iBuildUnitProb>25</iBuildUnitProb>
       <iBaseAttackOddsChange>0</iBaseAttackOddsChange>
       <iAttackOddsChangeRand>8</iAttackOddsChangeRand>
-      <iWorseRankDifferenceAttitudeChange>-1</iWorseRankDifferenceAttitudeChange>
-      <iBetterRankDifferenceAttitudeChange>0</iBetterRankDifferenceAttitudeChange>
+      <iWorseRankDifferenceAttitudeChange>1</iWorseRankDifferenceAttitudeChange>
+      <iBetterRankDifferenceAttitudeChange>-1</iBetterRankDifferenceAttitudeChange>
       <iCloseBordersAttitudeChange>-2</iCloseBordersAttitudeChange>
       <iLostWarAttitudeChange>-1</iLostWarAttitudeChange>
       <iAtWarAttitudeDivisor>-5</iAtWarAttitudeDivisor>
@@ -54289,8 +54289,8 @@
       <iAtPeaceAttitudeChangeLimit>1</iAtPeaceAttitudeChangeLimit>
       <iSameReligionAttitudeChange>1</iSameReligionAttitudeChange>
       <iSameReligionAttitudeDivisor>10</iSameReligionAttitudeDivisor>
-      <iSameReligionAttitudeChangeLimit>5</iSameReligionAttitudeChangeLimit>
-      <iDifferentReligionAttitudeChange>-2</iDifferentReligionAttitudeChange>
+      <iSameReligionAttitudeChangeLimit>4</iSameReligionAttitudeChangeLimit>
+      <iDifferentReligionAttitudeChange>-1</iDifferentReligionAttitudeChange>
       <iDifferentReligionAttitudeDivisor>-5</iDifferentReligionAttitudeDivisor>
       <iDifferentReligionAttitudeChangeLimit>-1</iDifferentReligionAttitudeChangeLimit>
       <iBonusTradeAttitudeDivisor>50</iBonusTradeAttitudeDivisor>
@@ -54304,7 +54304,7 @@
       <iShareWarAttitudeChangeLimit>3</iShareWarAttitudeChangeLimit>
       <iFavoriteCivicAttitudeChange>1</iFavoriteCivicAttitudeChange>
       <iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
-      <iFavoriteCivicAttitudeChangeLimit>3</iFavoriteCivicAttitudeChangeLimit>
+      <iFavoriteCivicAttitudeChangeLimit>4</iFavoriteCivicAttitudeChangeLimit>
       <DemandTributeAttitudeThreshold>ATTITUDE_CAUTIOUS</DemandTributeAttitudeThreshold>
       <NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
       <TechRefuseAttitudeThreshold>ATTITUDE_ANNOYED</TechRefuseAttitudeThreshold>
@@ -54357,11 +54357,11 @@
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_CIVIC_PRESSURE</ContactType>
-          <iContactRand>100</iContactRand>
+          <iContactRand>50</iContactRand>
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_JOIN_WAR</ContactType>
-          <iContactRand>20</iContactRand>
+          <iContactRand>10</iContactRand>
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_STOP_TRADING</ContactType>
@@ -54397,11 +54397,11 @@
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_TRADE_TECH</ContactType>
-          <iContactRand>5</iContactRand>
+          <iContactRand>3</iContactRand>
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_TRADE_BONUS</ContactType>
-          <iContactRand>5</iContactRand>
+          <iContactRand>3</iContactRand>
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_TRADE_MAP</ContactType>
@@ -55934,35 +55934,35 @@
       <Description>TXT_KEY_LEADER_YUMEMI</Description>
       <Civilopedia>TXT_KEY_LEADER_YUMEMI_PEDIA</Civilopedia>
       <ArtDefineTag>ART_DEF_LEADER_YUMEMI</ArtDefineTag>
-      <iWonderConstructRand>10</iWonderConstructRand>
+      <iWonderConstructRand>0</iWonderConstructRand>
       <iBaseAttitude>0</iBaseAttitude>
-      <iBasePeaceWeight>4</iBasePeaceWeight>
+      <iBasePeaceWeight>2</iBasePeaceWeight>
       <iPeaceWeightRand>3</iPeaceWeightRand>
-      <iWarmongerRespect>1</iWarmongerRespect>
+      <iWarmongerRespect>0</iWarmongerRespect>
       <iEspionageWeight>100</iEspionageWeight>
-      <iRefuseToTalkWarThreshold>8</iRefuseToTalkWarThreshold>
-      <iNoTechTradeThreshold>15</iNoTechTradeThreshold>
-      <iTechTradeKnownPercent>20</iTechTradeKnownPercent>
-      <iMaxGoldTradePercent>10</iMaxGoldTradePercent>
+      <iRefuseToTalkWarThreshold>6</iRefuseToTalkWarThreshold>
+      <iNoTechTradeThreshold>20</iNoTechTradeThreshold>
+      <iTechTradeKnownPercent>0</iTechTradeKnownPercent>
+      <iMaxGoldTradePercent>20</iMaxGoldTradePercent>
       <iMaxGoldPerTurnTradePercent>10</iMaxGoldPerTurnTradePercent>
-      <iMaxWarRand>100</iMaxWarRand>
-      <iMaxWarNearbyPowerRatio>110</iMaxWarNearbyPowerRatio>
-      <iMaxWarDistantPowerRatio>60</iMaxWarDistantPowerRatio>
-      <iMaxWarMinAdjacentLandPercent>2</iMaxWarMinAdjacentLandPercent>
-      <iLimitedWarRand>60</iLimitedWarRand>
-      <iLimitedWarPowerRatio>100</iLimitedWarPowerRatio>
+      <iMaxWarRand>80</iMaxWarRand>
+      <iMaxWarNearbyPowerRatio>100</iMaxWarNearbyPowerRatio>
+      <iMaxWarDistantPowerRatio>50</iMaxWarDistantPowerRatio>
+      <iMaxWarMinAdjacentLandPercent>1</iMaxWarMinAdjacentLandPercent>
+      <iLimitedWarRand>80</iLimitedWarRand>
+      <iLimitedWarPowerRatio>90</iLimitedWarPowerRatio>
       <iDogpileWarRand>50</iDogpileWarRand>
       <iMakePeaceRand>20</iMakePeaceRand>
       <iDeclareWarTradeRand>40</iDeclareWarTradeRand>
       <iDemandRebukedSneakProb>20</iDemandRebukedSneakProb>
-      <iDemandRebukedWarProb>0</iDemandRebukedWarProb>
+      <iDemandRebukedWarProb>5</iDemandRebukedWarProb>
       <iRazeCityProb>0</iRazeCityProb>
       <iBuildUnitProb>30</iBuildUnitProb>
-      <iBaseAttackOddsChange>4</iBaseAttackOddsChange>
+      <iBaseAttackOddsChange>0</iBaseAttackOddsChange>
       <iAttackOddsChangeRand>8</iAttackOddsChangeRand>
-      <iWorseRankDifferenceAttitudeChange>-2</iWorseRankDifferenceAttitudeChange>
+      <iWorseRankDifferenceAttitudeChange>0</iWorseRankDifferenceAttitudeChange>
       <iBetterRankDifferenceAttitudeChange>2</iBetterRankDifferenceAttitudeChange>
-      <iCloseBordersAttitudeChange>-3</iCloseBordersAttitudeChange>
+      <iCloseBordersAttitudeChange>-2</iCloseBordersAttitudeChange>
       <iLostWarAttitudeChange>-1</iLostWarAttitudeChange>
       <iAtWarAttitudeDivisor>-5</iAtWarAttitudeDivisor>
       <iAtWarAttitudeChangeLimit>5</iAtWarAttitudeChangeLimit>
@@ -55970,8 +55970,8 @@
       <iAtPeaceAttitudeChangeLimit>1</iAtPeaceAttitudeChangeLimit>
       <iSameReligionAttitudeChange>1</iSameReligionAttitudeChange>
       <iSameReligionAttitudeDivisor>10</iSameReligionAttitudeDivisor>
-      <iSameReligionAttitudeChangeLimit>4</iSameReligionAttitudeChangeLimit>
-      <iDifferentReligionAttitudeChange>-1</iDifferentReligionAttitudeChange>
+      <iSameReligionAttitudeChangeLimit>3</iSameReligionAttitudeChangeLimit>
+      <iDifferentReligionAttitudeChange>0</iDifferentReligionAttitudeChange>
       <iDifferentReligionAttitudeDivisor>-5</iDifferentReligionAttitudeDivisor>
       <iDifferentReligionAttitudeChangeLimit>-1</iDifferentReligionAttitudeChangeLimit>
       <iBonusTradeAttitudeDivisor>50</iBonusTradeAttitudeDivisor>
@@ -55985,21 +55985,21 @@
       <iShareWarAttitudeChangeLimit>4</iShareWarAttitudeChangeLimit>
       <iFavoriteCivicAttitudeChange>1</iFavoriteCivicAttitudeChange>
       <iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
-      <iFavoriteCivicAttitudeChangeLimit>4</iFavoriteCivicAttitudeChangeLimit>
+      <iFavoriteCivicAttitudeChangeLimit>5</iFavoriteCivicAttitudeChangeLimit>
       <DemandTributeAttitudeThreshold>ATTITUDE_CAUTIOUS</DemandTributeAttitudeThreshold>
       <NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
-      <TechRefuseAttitudeThreshold>NONE</TechRefuseAttitudeThreshold>
-      <StrategicBonusRefuseAttitudeThreshold>ATTITUDE_PLEASED</StrategicBonusRefuseAttitudeThreshold>
-      <HappinessBonusRefuseAttitudeThreshold>ATTITUDE_FURIOUS</HappinessBonusRefuseAttitudeThreshold>
-      <HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
+      <TechRefuseAttitudeThreshold>ATTITUDE_FURIOUS</TechRefuseAttitudeThreshold>
+      <StrategicBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StrategicBonusRefuseAttitudeThreshold>
+      <HappinessBonusRefuseAttitudeThreshold>NONE</HappinessBonusRefuseAttitudeThreshold>
+      <HealthBonusRefuseAttitudeThreshold>NONE</HealthBonusRefuseAttitudeThreshold>
       <MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
       <DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
       <DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-      <StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-      <StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
-      <AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
-      <ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
-      <OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
+      <StopTradingRefuseAttitudeThreshold>ATTITUDE_PLEASED</StopTradingRefuseAttitudeThreshold>
+      <StopTradingThemRefuseAttitudeThreshold>ATTITUDE_FURIOUS</StopTradingThemRefuseAttitudeThreshold>
+      <AdoptCivicRefuseAttitudeThreshold>ATTITUDE_ANNOYED</AdoptCivicRefuseAttitudeThreshold>
+      <ConvertReligionRefuseAttitudeThreshold>ATTITUDE_ANNOYED</ConvertReligionRefuseAttitudeThreshold>
+      <OpenBordersRefuseAttitudeThreshold>NONE</OpenBordersRefuseAttitudeThreshold>
       <DefensivePactRefuseAttitudeThreshold>ATTITUDE_PLEASED</DefensivePactRefuseAttitudeThreshold>
       <PermanentAllianceRefuseAttitudeThreshold>ATTITUDE_PLEASED</PermanentAllianceRefuseAttitudeThreshold>
       <VassalRefuseAttitudeThreshold>ATTITUDE_PLEASED</VassalRefuseAttitudeThreshold>
@@ -56027,18 +56027,18 @@
           <iFlavor>5</iFlavor>
         </Flavor>
         <Flavor>
-          <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+          <FlavorType>FLAVOR_GOLD</FlavorType>
           <iFlavor>2</iFlavor>
         </Flavor>
       </Flavors>
       <ContactRands>
         <ContactRand>
           <ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
-          <iContactRand>500</iContactRand>
+          <iContactRand>100</iContactRand>
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_CIVIC_PRESSURE</ContactType>
-          <iContactRand>500</iContactRand>
+          <iContactRand>250</iContactRand>
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_JOIN_WAR</ContactType>
@@ -56050,7 +56050,7 @@
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_GIVE_HELP</ContactType>
-          <iContactRand>100</iContactRand>
+          <iContactRand>50</iContactRand>
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_ASK_FOR_HELP</ContactType>
@@ -56078,11 +56078,11 @@
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_TRADE_TECH</ContactType>
-          <iContactRand>3</iContactRand>
+          <iContactRand>1</iContactRand>
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_TRADE_BONUS</ContactType>
-          <iContactRand>5</iContactRand>
+          <iContactRand>1</iContactRand>
         </ContactRand>
         <ContactRand>
           <ContactType>CONTACT_TRADE_MAP</ContactType>
@@ -56367,13 +56367,13 @@
       </NoWarAttitudeProbs>
       <UnitAIWeightModifiers>
         <UnitAIWeightModifier>
-          <UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+          <UnitAIType>UNITAI_ICBM</UnitAIType>
           <iWeightModifier>100</iWeightModifier>
         </UnitAIWeightModifier>
       </UnitAIWeightModifiers>
       <ImprovementWeightModifiers>
         <ImprovementWeightModifier>
-          <ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+          <ImprovementType>IMPROVEMENT_SHINREIBYOU_TOWN</ImprovementType>
           <iWeightModifier>20</iWeightModifier>
         </ImprovementWeightModifier>
         <ImprovementWeightModifier>

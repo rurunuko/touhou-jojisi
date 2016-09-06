@@ -4825,7 +4825,42 @@
 		<Spanish />
 		<Japanese>[ICON_BULLET]都市に「雷鼓の呪法」が建設されている場合、「雷鼓の呪法」を除去しもう一度建設可能にする&#13;[ICON_BULLET]二度目以降の「雷鼓の呪法」建設では無償の偉人は手に入らず、建設する毎に必要ハンマー数が50%ずつ増加する&#13;[ICON_BULLET]昇進PHANTASMが必要</Japanese>
 	</TEXT>
-	
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SPECIAL_TAMEUTI</Tag>
+		<English />
+		<French>溜め撃ち</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>溜め撃ち</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SPECIAL_TAMEUTI_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]移動力が1以上残っている状態のみ使用可能&#13;[ICON_BULLET]発動させると移動力を全て消費した上で「溜め中」の昇進を付与する&#13;[ICON_BULLET]スペル発動の次ターンに「溜め中」の昇進が「溜め完了」に変化する&#13;[ICON_BULLET]溜め完了…戦闘力+2・砲撃ダメージ+50％・砲撃射程距離+2&#13;[ICON_BULLET]「溜め完了」は1ターンで消滅する</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]移動力が1以上残っている状態のみ使用可能&#13;[ICON_BULLET]発動させると移動力を全て消費した上で「溜め中」の昇進を付与する&#13;[ICON_BULLET]スペル発動の次ターンに「溜め中」の昇進が「溜め完了」に変化する&#13;[ICON_BULLET]溜め完了…戦闘力+2・砲撃ダメージ+50％・砲撃射程距離+2&#13;[ICON_BULLET]「溜め完了」は1ターンで消滅する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SPECIAL_HIGHSPEEDMOVE</Tag>
+		<English />
+		<French>ハイスピードムーブ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ハイスピードムーブ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SPECIAL_HIGHSPEEDMOVE_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]使用すると戦闘力-2・砲撃ダメージ-30％・移動力+1・移動コスト無視の昇進が付与される&#13;[ICON_BULLET]上記昇進が付与されている状態で当スペルを発動させると任意で解除可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]使用すると戦闘力-2・砲撃ダメージ-30％・移動力+1・移動コスト無視の昇進が付与される&#13;[ICON_BULLET]上記昇進が付与されている状態で当スペルを発動させると任意で解除可能</Japanese>
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_NINGENNOSATO1</Tag>
 		<English />

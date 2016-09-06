@@ -622,19 +622,19 @@ class CvEventManager:
 		if gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_PEACE_OF_BC1000')):
 			iGameTarn = gc.getGame().getGameTurn()
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_MARATHON'):
-				if iGameTarn == 250:
+				if iGameTarn == 249:
 					cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_PEACE_OF_BC1000",()),'')
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_EPIC'):
-				if iGameTarn == 120:
+				if iGameTarn == 119:
 					cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_PEACE_OF_BC1000",()),'')
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_NORMAL'):
-				if iGameTarn == 75:
+				if iGameTarn == 74:
 					cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_PEACE_OF_BC1000",()),'')
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_QUICK'):
-				if iGameTarn == 50:
+				if iGameTarn == 49:
 					cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_PEACE_OF_BC1000",()),'')
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_TENGU'):
-				if iGameTarn == 43:
+				if iGameTarn == 42:
 					cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_PEACE_OF_BC1000",()),'')
 		
 		#統合MOD追記部分ここまで
@@ -822,6 +822,14 @@ class CvEventManager:
 			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_STAN')):
 				pUnit.setImmobileTimer(0)
 				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_STAN'),False)
+			
+			#溜め中の昇進がある場合、それを除去させつつ溜め発動を付与
+			#溜め発動の昇進がある場合、それを除去
+			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TAME_KANRYOU')):
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TAME_KANRYOU'),False)
+			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TAMETYUU')):
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TAMETYUU'),False)
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TAME_KANRYOU'),True)
 			
 			#レティスキルがあれば
 			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_LETTY_SKILL1')):
@@ -2781,22 +2789,22 @@ class CvEventManager:
 			pTeam = gc.getTeam(iTeam)
 			
 			##研究力増幅値
-                        unitResearchPercent = gc.getGameSpeedInfo(gc.getGame().getGameSpeedType()).getUnitDiscoverPercent()
+			unitResearchPercent = gc.getGameSpeedInfo(gc.getGame().getGameSpeedType()).getUnitDiscoverPercent()
 			iResearch = 4500 * unitResearchPercent / 100
                         
 			##自分の研究を判断
 			pResearch = pPlayer.getCurrentResearch ()
 
-                        ##研究を入れていない場合、いったんプールし、さっさと次の研究を選ぶように促す
-                        ##see also onTechSelected().
-                        if(pResearch == gc.getInfoTypeForString('NO_TECH')):
-                                self.ChireidenOverflow = (iPlayer, iResearch)
-                                pPlayer.chooseTech(0, "&#22320;&#38666;&#27583;&#12364;&#23436;&#25104;&#12375;&#12414;&#12375;&#12383;&#65281;&#30740;&#31350;&#12377;&#12427;&#12486;&#12463;&#12494;&#12525;&#12472;&#12540;&#12434;&#36984;&#25246;&#12375;&#12390;&#12367;&#12384;&#12373;&#12356;&#12290;", true)
+			##研究を入れていない場合、いったんプールし、さっさと次の研究を選ぶように促す
+			##see also onTechSelected().
+			if(pResearch == gc.getInfoTypeForString('NO_TECH')):
+				self.ChireidenOverflow = (iPlayer, iResearch)
+				pPlayer.chooseTech(0, "&#22320;&#38666;&#27583;&#12364;&#23436;&#25104;&#12375;&#12414;&#12375;&#12383;&#65281;&#30740;&#31350;&#12377;&#12427;&#12486;&#12463;&#12494;&#12525;&#12472;&#12540;&#12434;&#36984;&#25246;&#12375;&#12390;&#12367;&#12384;&#12373;&#12356;&#12290;", true)
 
-                        ##そうでない場合、今やってる研究を応援する
-                        else:
-			        pTeam.changeResearchProgress(pResearch,iResearch,iPlayer)
-                        
+			##そうでない場合、今やってる研究を応援する
+			else:
+				pTeam.changeResearchProgress(pResearch,iResearch,iPlayer)
+
 			CyInterface().addImmediateMessage("&#21476;&#26126;&#22320;&#12373;&#12392;&#12426;&#12364;&#22519;&#31558;&#12375;&#12383;&#26360;&#29289;&#12398;&#35299;&#35501;&#12395;&#12424;&#12426;&#12289;&#22320;&#38666;&#27583;&#25991;&#26126;&#12398;&#30740;&#31350;&#12364;&#22823;&#24133;&#12395;&#36914;&#12415;&#12414;&#12375;&#12383;&#65281;","")
 
 		## originai:CGEsスーパーコンピューター ##
@@ -3656,14 +3664,14 @@ class CvEventManager:
 		'Tech Selected'
 		iTechType, iPlayer = argsList
 
-                chiPlayer, chiProgress = self.ChireidenOverflow
+		chiPlayer, chiProgress = self.ChireidenOverflow
 
-                # プールされた研究力があって、それが自分のものであるなら、今選んだ技術につぎこむ
-                if(iPlayer == chiPlayer and chiProgress > 0):
-                        pTeam = gc.getTeam(gc.getPlayer(iPlayer).getTeam())
-                        pTeam.changeResearchProgress(iTechType,chiProgress,iPlayer)
-                        self.ChireidenOverflow = (-1, 0)
-                        
+		# プールされた研究力があって、それが自分のものであるなら、今選んだ技術につぎこむ
+		if(iPlayer == chiPlayer and chiProgress > 0):
+			pTeam = gc.getTeam(gc.getPlayer(iPlayer).getTeam())
+			pTeam.changeResearchProgress(iTechType,chiProgress,iPlayer)
+			self.ChireidenOverflow = (-1, 0)
+			
 		if (not self.__LOG_TECH):
 			return
 		CvUtil.pyPrint('%s was selected by Player %d' %(PyInfo.TechnologyInfo(iTechType).getDescription(), iPlayer))
