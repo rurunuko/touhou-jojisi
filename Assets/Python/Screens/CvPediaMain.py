@@ -26,7 +26,8 @@ import CvPediaCorporation
 
 ##### <written by F> #####
 
-import CvPediaTohoUnit
+# import CvPediaTohoUnit
+import CvPediaTohoUnitonplatypedia
 import CvGameUtils
 
 ##### </written by F> #####
