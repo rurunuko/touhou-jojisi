@@ -116,11 +116,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_TOHO_COMBAT5_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]部隊戦闘力＋４％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋５％</French>
+		<French>[ICON_BULLET]部隊戦闘力＋４％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋５％&#13;[COLOR_RED]鷹の目&#13;マルチプルショット&#13;溜め撃ち&#13;ハイスピードムーブ&#13;上記4種の昇進のうち、いずれかを既に取得していると取得不可</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]部隊戦闘力＋４％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋５％</Japanese>
+		<Japanese>[ICON_BULLET]部隊戦闘力＋４％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋５％&#13;[COLOR_RED]鷹の目&#13;マルチプルショット&#13;溜め撃ち&#13;ハイスピードムーブ&#13;上記4種の昇進のうち、いずれかを既に取得していると取得不可</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_TOHO_COMBAT6</Tag>
@@ -319,6 +319,132 @@
 		<Italian />
 		<Spanish />
 		<Japanese>高速移動</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HUKUZITEKI_SONGAI</Tag>
+		<English />
+		<French>副次的損害</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>副次的損害</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HUKUZITEKI_SONGAI_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]砲撃時敵ユニットに対し副次的損害を発生させる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]砲撃時敵ユニットに対し副次的損害を発生させる</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHOOTING_OPTION_MULTIPLESHOT</Tag>
+		<English />
+		<French>マルチプルショット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マルチプルショット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHOOTING_OPTION_MULTIPLESHOT_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]砲撃弾数＋2&#13;[COLOR_RED]鷹の目&#13;溜め撃ち&#13;ハイスピードムーブ&#13;基本操作5&#13;上記4種の昇進のうち、いずれかを既に取得していると取得不可</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]砲撃弾数＋2&#13;[COLOR_RED]鷹の目&#13;溜め撃ち&#13;ハイスピードムーブ&#13;基本操作5&#13;上記4種の昇進のうち、いずれかを既に取得していると取得不可</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHOOTING_OPTION_TAMEUTI</Tag>
+		<English />
+		<French>溜め撃ち</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>溜め撃ち</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHOOTING_OPTION_TAMEUTI_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]特殊スペル「溜め撃ち」を発動可能&#13;[ICON_BULLET]溜め撃ち：移動力が残っている状態かつ「溜め完了」昇進を持っていない場合のみ使用可能で使用ターンは行動力を全て消費する&#13;[ICON_BULLET]発動から次のターンで「溜め完了」となり戦闘力+2・砲撃威力+50％・射程距離+2&#13;[ICON_BULLET]溜め完了状態は1ターンで消滅&#13;[COLOR_RED]鷹の目&#13;マルチプルショット&#13;ハイスピードムーブ&#13;基本操作5&#13;上記4種の昇進のうち、いずれかを既に取得していると取得不可</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]特殊スペル「溜め撃ち」を発動可能&#13;[ICON_BULLET]溜め撃ち：移動力が残っている状態かつ「溜め完了」昇進を持っていない場合のみ使用可能で使用ターンは行動力を全て消費する&#13;[ICON_BULLET]発動から次のターンで「溜め完了」となり戦闘力+2・砲撃威力+50％・射程距離+2&#13;[ICON_BULLET]溜め完了状態は1ターンで消滅&#13;[COLOR_RED]鷹の目&#13;マルチプルショット&#13;ハイスピードムーブ&#13;基本操作5&#13;上記4種の昇進のうち、いずれかを既に取得していると取得不可</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHOOTING_OPTION_HIGHSPEEDMOVE</Tag>
+		<English />
+		<French>ハイスピードムーブ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ハイスピードムーブ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHOOTING_OPTION_HIGHSPEEDMOVE_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]特殊スペル「ハイスピードムーブ」を発動可能&#13;[ICON_BULLET]発動させると戦闘力-2・砲撃ダメージ-30％・移動力+1・移動コスト無視の昇進が付与される&#13;[ICON_BULLET]上記昇進はスペル再発動により任意で解除可能&#13;[COLOR_RED]鷹の目&#13;マルチプルショット&#13;溜め撃ち&#13;基本操作5&#13;上記4種の昇進のうち、いずれかを既に取得していると取得不可</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]特殊スペル「ハイスピードムーブ」を発動可能&#13;[ICON_BULLET]発動させると戦闘力-2・砲撃ダメージ-30％・移動力+1・移動コスト無視の昇進が付与される&#13;[ICON_BULLET]上記昇進はスペル再発動により任意で解除可能&#13;[COLOR_RED]鷹の目&#13;マルチプルショット&#13;溜め撃ち&#13;基本操作5&#13;上記4種の昇進のうち、いずれかを既に取得していると取得不可</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TAMETYUU</Tag>
+		<English />
+		<French>溜め中</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>溜め中</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TAMETYUU_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]1ターン後に昇進「溜め完了」に変化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]1ターン後に昇進「溜め完了」に変化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TAME_KANRYOU</Tag>
+		<English />
+		<French>溜め完了</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>溜め完了</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TAME_KANRYOU_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘力+2&#13;[ICON_BULLET]砲撃ダメージ+50％&#13;[ICON_BULLET]この昇進が付与されている間はスペル「溜め撃ち」を使用できない&#13;[ICON_BULLET]1ターン後に消滅</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘力+2&#13;[ICON_BULLET]砲撃ダメージ+50％&#13;[ICON_BULLET]この昇進が付与されている間はスペル「溜め撃ち」を使用できない&#13;[ICON_BULLET]1ターン後に消滅</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HIGHSPEEDMOVE</Tag>
+		<English />
+		<French>ハイスピードムーブ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ハイスピードムーブ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HIGHSPEEDMOVE_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]戦闘力-2&#13;[ICON_BULLET]砲撃ダメージ-30％&#13;[ICON_BULLET]スペル「ハイスピードムーブ」再使用で解除可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]戦闘力-2&#13;[ICON_BULLET]砲撃ダメージ-30％&#13;[ICON_BULLET]スペル「ハイスピードムーブ」再使用で解除可能</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_TOHO_MORALE2</Tag>

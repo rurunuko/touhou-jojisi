@@ -407,6 +407,8 @@ def init():
 			SpellInfo("SPELL_POWERUP_COMBAT",req_POWERUP_COMBAT,spell_POWERUP_COMBAT),
 			SpellInfo("SPELL_POWERUP_STG",req_POWERUP_STG,spell_POWERUP_STG),
 			SpellInfo("SPELL_POWERUP_CAL",req_POWERUP_CAL,spell_POWERUP_CAL),
+			SpellInfo("SPELL_SPECIAL_TAMEUTI",req_SPECIAL_TAMEUTI,spell_SPECIAL_TAMEUTI),
+			SpellInfo("SPELL_SPECIAL_HIGHSPEEDMOVE",req_SPECIAL_HIGHSPEEDMOVE,spell_SPECIAL_HIGHSPEEDMOVE),
 			SpellInfo("SPELL_NINGENNOSATO1",req_NINGENNOSATO1,spell_NINGENNOSATO1), #以下・世界魔法
 			SpellInfo("SPELL_HYOUSEIRENGOU1",req_HYOUSEIRENGOU1,spell_HYOUSEIRENGOU1), 
 			SpellInfo("SPELL_KISHINJOU1",req_KISHINJOU1,spell_KISHINJOU1), 
@@ -4278,6 +4280,65 @@ def spell_POWERUP_CAL(caster,cost):
 	
 	return True
 
+#シューティングオプション
+
+def req_SPECIAL_TAMEUTI(bTestVisible,caster,sCAL,eCAL,cost):
+	
+	if bTestVisible:
+		if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SHOOTING_OPTION_TAMEUTI')):
+			return True
+		else:
+			return False
+
+	else:
+		if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+			if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_TAME_KANRYOU') ) == False:
+				if caster.canMove():
+					return True
+	
+	return False
+	
+def spell_SPECIAL_TAMEUTI(caster,cost):
+	
+	caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TAMETYUU'),True)
+	caster.finishMoves()
+	
+	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+
+def req_SPECIAL_HIGHSPEEDMOVE(bTestVisible,caster,sCAL,eCAL,cost):
+
+	if bTestVisible:
+		if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SHOOTING_OPTION_HIGHSPEEDMOVE')):
+			return True
+		else:
+			return False
+
+	else:
+		if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+			return True
+	
+	return False
+
+def spell_SPECIAL_HIGHSPEEDMOVE(caster,cost):
+	
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_HIGHSPEEDMOVE')):
+		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_HIGHSPEEDMOVE'),False )
+	else:
+		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_HIGHSPEEDMOVE'),True )
+	
+	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
 
 
 

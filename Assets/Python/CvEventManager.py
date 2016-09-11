@@ -622,19 +622,19 @@ class CvEventManager:
 		if gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_PEACE_OF_BC1000')):
 			iGameTarn = gc.getGame().getGameTurn()
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_MARATHON'):
-				if iGameTarn == 250:
+				if iGameTarn == 249:
 					cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_PEACE_OF_BC1000",()),'')
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_EPIC'):
-				if iGameTarn == 120:
+				if iGameTarn == 119:
 					cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_PEACE_OF_BC1000",()),'')
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_NORMAL'):
-				if iGameTarn == 75:
+				if iGameTarn == 74:
 					cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_PEACE_OF_BC1000",()),'')
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_QUICK'):
-				if iGameTarn == 50:
+				if iGameTarn == 49:
 					cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_PEACE_OF_BC1000",()),'')
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_TENGU'):
-				if iGameTarn == 43:
+				if iGameTarn == 42:
 					cf.addPopup(CyTranslator().getText("TXT_KEY_POPUP_PEACE_OF_BC1000",()),'')
 		
 		#統合MOD追記部分ここまで
@@ -822,6 +822,14 @@ class CvEventManager:
 			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_STAN')):
 				pUnit.setImmobileTimer(0)
 				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_STAN'),False)
+			
+			#溜め中の昇進がある場合、それを除去させつつ溜め発動を付与
+			#溜め発動の昇進がある場合、それを除去
+			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TAME_KANRYOU')):
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TAME_KANRYOU'),False)
+			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TAMETYUU')):
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TAMETYUU'),False)
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TAME_KANRYOU'),True)
 			
 			#レティスキルがあれば
 			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_LETTY_SKILL1')):

@@ -5951,6 +5951,44 @@
       <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
     </AutomateInfo>
     <AutomateInfo>
+      <Type>SPELL_SPECIAL_TAMEUTI</Type>
+      <Description>TXT_KEY_SPELL_SPECIAL_TAMEUTI</Description>
+      <Help>TXT_KEY_SPELL_SPECIAL_TAMEUTI_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_SPECIAL_TAMEUTI</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_SPECIAL_HIGHSPEEDMOVE</Type>
+      <Description>TXT_KEY_SPELL_SPECIAL_HIGHSPEEDMOVE</Description>
+      <Help>TXT_KEY_SPELL_SPECIAL_HIGHSPEEDMOVE_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_SPECIAL_HIGHSPEEDMOVE</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
       <Type>SPELL_NINGENNOSATO1</Type>
       <Description>TXT_KEY_SPELL_NINGENNOSATO1</Description>
       <Help>TXT_KEY_SPELL_NINGENNOSATO1_HELP</Help>

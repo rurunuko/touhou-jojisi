@@ -1173,29 +1173,29 @@
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_PROMOTION_TEMP_STACK_BONUS_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]部隊戦闘力＋10％&#13;[ICON_BULLET]この昇進は1.125辺りでユニット固有のものに置き換わる予定です</French>
+		<French>[ICON_BULLET]部隊戦闘力＋10％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋10％</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]部隊戦闘力＋10％&#13;[ICON_BULLET]この昇進は1.125辺りでユニット固有のものに置き換わる予定です</Japanese>
+		<Japanese>[ICON_BULLET]部隊戦闘力＋10％&#13;[ICON_BULLET]同スタックのユニットへの弾幕耐性ボーナス＋10％</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_TEMP_STG_SKILL</Tag>
 		<English />
-		<French>STGスキル</French>
+		<French>鷹の目</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>STGスキル</Japanese>
+		<Japanese>鷹の目</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_PROMOTION_TEMP_STG_SKILL_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]砲撃命中率＋30％&#13;[ICON_BULLET]この昇進は1.125辺りでユニット固有のものに置き換わる予定です</French>
+		<French>[ICON_BULLET]砲撃命中率＋30％&#13;[ICON_BULLET]部隊戦闘力＋10％&#13;[COLOR_RED]マルチプルショット&#13;溜め撃ち&#13;ハイスピードムーブ&#13;基本操作5&#13;上記4種の昇進のうち、いずれかを既に取得していると取得不可</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]砲撃命中率＋30％&#13;[ICON_BULLET]この昇進は1.125辺りでユニット固有のものに置き換わる予定です</Japanese>
+		<Japanese>[ICON_BULLET]砲撃命中率＋30％&#13;[ICON_BULLET]部隊戦闘力＋10％&#13;[COLOR_RED]マルチプルショット&#13;溜め撃ち&#13;ハイスピードムーブ&#13;基本操作5&#13;上記4種の昇進のうち、いずれかを既に取得していると取得不可</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_ZIKI</Tag>
