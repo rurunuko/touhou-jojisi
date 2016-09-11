@@ -2802,6 +2802,8 @@ bool CvAutomateInfo::read(CvXMLLoadUtility* pXML)
                             "AUTOMATE_SPELL_POWERUP_COMBAT",
                             "AUTOMATE_SPELL_POWERUP_STG",
                             "AUTOMATE_SPELL_POWERUP_CAL",
+                            "AUTOMATE_SPELL_SPECIAL_TAMEUTI",
+                            "AUTOMATE_SPELL_SPECIAL_HIGHSPEEDMOVE",
                             "AUTOMATE_SPELL_NINGENNOSATO1",
                             "AUTOMATE_SPELL_HYOUSEIRENGOU1",
                             "AUTOMATE_SPELL_KISHINJOU1",

@@ -80,6 +80,7 @@ CvUnit::CvUnit()
     promCom5 = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_COMBAT5");
     promCom6 = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_COMBAT6");
     promComS = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STACK_BONUS");
+    promComSTG = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL");
 }
 
 
@@ -6753,7 +6754,140 @@ bool CvUnit::canPromote(PromotionTypes ePromotion, int iLeaderUnitId) const
 		return false;
 	}
 
+//テスト・高速移動持っていたら連続攻撃取得不可
+//基本操作5と弾幕Ⅰ持っていたら連続攻撃取得可能
+//	if (ePromotion == GC.getInfoTypeForString("PROMOTION_RENZOKUKOUGEKI"))
+//	{
+//		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_MORALE1")))
+//		{
+//			return false;
+//		}
+//		if ((this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_COMBAT5"))) && (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_BARRAGE1"))))
+//		{
+//			if (!this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_RENZOKUKOUGEKI")))
+//			{
+//				return true;
+//			}
+//		}
+//	}
+//テストここまで
 
+//東方叙事詩・統合MOD追記
+//シューティングオプション処理
+//鷹の目
+	if (ePromotion == GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL"))
+	{
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_COMBAT5")))
+		{
+			return false;
+		}
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_MULTIPLESHOT")))
+		{
+			return false;
+		}
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_TAMEUTI")))
+		{
+			return false;
+		}
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_HIGHSPEEDMOVE")))
+		{
+			return false;
+		}
+	}
+//マルチプルショット
+	if (ePromotion == GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_MULTIPLESHOT"))
+	{
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_COMBAT5")))
+		{
+			return false;
+		}
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL")))
+		{
+			return false;
+		}
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_TAMEUTI")))
+		{
+			return false;
+		}
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_HIGHSPEEDMOVE")))
+		{
+			return false;
+		}
+	}
+//溜め撃ち
+	if (ePromotion == GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_TAMEUTI"))
+	{
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_COMBAT5")))
+		{
+			return false;
+		}
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL")))
+		{
+			return false;
+		}
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_MULTIPLESHOT")))
+		{
+			return false;
+		}
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_HIGHSPEEDMOVE")))
+		{
+			return false;
+		}
+	}
+//ハイスピードムーブ
+	if (ePromotion == GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_HIGHSPEEDMOVE"))
+	{
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_COMBAT5")))
+		{
+			return false;
+		}
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL")))
+		{
+			return false;
+		}
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_MULTIPLESHOT")))
+		{
+			return false;
+		}
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_TAMEUTI")))
+		{
+			return false;
+		}
+	}
+//基本操作5
+	if (ePromotion == GC.getInfoTypeForString("PROMOTION_TOHO_COMBAT5"))
+	{
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL")))
+		{
+			return false;
+		}
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_MULTIPLESHOT")))
+		{
+			return false;
+		}
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_TAMEUTI")))
+		{
+			return false;
+		}
+		if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_HIGHSPEEDMOVE")))
+		{
+			return false;
+		}
+	}
+//副次的損害の取得条件を満たしていたら強制的に取得許可
+	if (ePromotion == GC.getInfoTypeForString("PROMOTION_HUKUZITEKI_SONGAI"))
+	{
+		if ((this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_LONGRANGE3"))) && (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_BARRAGE3"))))
+		{
+			if (!this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_HUKUZITEKI_SONGAI")))
+			{
+				return true;
+			}
+		}
+	}
+//東方叙事詩・統合MOD追記ここまで
+	
+	
 	if (!canAcquirePromotion(ePromotion))
 	{
 		return false;
@@ -11784,6 +11918,7 @@ void CvUnit::read(FDataStreamBase* pStream)
     pStream->Read(&promCom5);
     pStream->Read(&promCom6);
     pStream->Read(&promComS);
+    pStream->Read(&promComSTG);
 
 
 	pStream->Read(&m_bMadeAttack);
@@ -11922,6 +12057,7 @@ void CvUnit::write(FDataStreamBase* pStream)
     pStream->Write(promCom5);
     pStream->Write(promCom6);
     pStream->Write(promComS);
+    pStream->Write(promComSTG);
 
 
 	pStream->Write(m_bMadeAttack);
@@ -12461,96 +12597,106 @@ bool CvUnit::rangeStrike(int iX, int iY)
 
 	int STGNum = 1;
 	if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_3WAYSHOT")))
-        STGNum += 2;
-    if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_5WAYSHOT")))
-        STGNum += 2;
-    if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_7WAYSHOT")))
-        STGNum += 2;
-    if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_MIMA_SKILL1")))
-        STGNum += 1;
+		STGNum += 2;
+	if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_5WAYSHOT")))
+		STGNum += 2;
+	if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_7WAYSHOT")))
+		STGNum += 2;
+	if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_MIMA_SKILL1")))
+		STGNum += 1;
+	if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_MULTIPLESHOT")))
+		STGNum += 2;
 
-    double dDamage = 0; //与えたダメージ量の総和
+	double dDamage = 0; //与えたダメージ量の総和
 
 	for (int i=0;i<STGNum;i++){
 
-        CvUnit* tempDefender = airStrikeTarget(pPlot);
+		CvUnit* tempDefender = airStrikeTarget(pPlot);
 
 
-        if (tempDefender != NULL){
+		if (tempDefender != NULL){
 
-            pDefender = tempDefender;
+			pDefender = tempDefender;
 
-            int tempHitPercent = 0;
-            if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL")))
-                tempHitPercent += 30;
-
-
-
-            if ( GC.getGameINLINE().getSorenRandNum(100,"STG bullet") >= pDefender->countDodgeBullet() - tempHitPercent  ){
-
-                FAssert(pDefender != NULL);
-                FAssert(pDefender->canDefend());
-
-                if (GC.getDefineINT("RANGED_ATTACKS_USE_MOVES") == 0)
-                {
-                    setMadeAttack(true);
-                }
-
-
-                iDamage = rangeCombatDamage(pDefender);
-
-                double STGAttack = 100;
-                if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_MIMA_SKILL1")))
-                    STGAttack *= 1.3;
-                if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_BARRAGE1")))
-                    STGAttack *= 1.3;
-                if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_BARRAGE2")))
-                    STGAttack *= 1.5;
-                if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_BARRAGE3")))
-                    STGAttack *= 1.7;
-                //if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL")))
-                //    STGAttack += 75;
-                if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_3WAYSHOT")))
-                    STGAttack *= 0.7;
-                if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_5WAYSHOT")))
-                    STGAttack *= 0.8;
-
-                STGAttack += STGAttack * 0.07 * this->getNumPowerUp(2);
-
-                iDamage = (int)(iDamage * STGAttack / 100 / 2);
-
-                //iDamage = 70;
-
-                iUnitDamage = std::max(pDefender->getDamage(), std::min((pDefender->getDamage() + iDamage), airCombatLimit()));
-
-                szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR", pDefender->getNameKey(), getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
-                //red icon over attacking unit
-                gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), this->getX_INLINE(), this->getY_INLINE(), true, true);
-                //white icon over defending unit
-                gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, 0, L"", "AS2D_COMBAT", MESSAGE_TYPE_DISPLAY_ONLY, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), pDefender->getX_INLINE(), pDefender->getY_INLINE(), true, true);
-
-                szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ATTACK_BY_AIR", getNameKey(), pDefender->getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
-                gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
-
-                //副次的損害はカット
-                //collateralCombat(pPlot, pDefender);
-
-                //set damage but don't update entity damage visibility
-                pDefender->setDamage(iUnitDamage, getOwnerINLINE(), false);
-
-                dDamage += iDamage;//((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints();
-            }
-            else{
-
-                szBuffer = gDLL->getText("TXT_KEY_DODGE_STG_BULLET", pDefender->getNameKey());
-                gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), this->getX_INLINE(), this->getY_INLINE(), true, true);
-
-                gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+			int tempHitPercent = 0;
+			if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL")))
+				tempHitPercent += 30;
 
 
 
-            }
-        }
+			if ( GC.getGameINLINE().getSorenRandNum(100,"STG bullet") >= pDefender->countDodgeBullet() - tempHitPercent  ){
+
+				FAssert(pDefender != NULL);
+				FAssert(pDefender->canDefend());
+
+				if (GC.getDefineINT("RANGED_ATTACKS_USE_MOVES") == 0)
+				{
+					setMadeAttack(true);
+				}
+
+
+				iDamage = rangeCombatDamage(pDefender);
+
+				double STGAttack = 100;
+				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_MIMA_SKILL1")))
+					STGAttack *= 1.3;
+				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_BARRAGE1")))
+					STGAttack *= 1.3;
+				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_BARRAGE2")))
+					STGAttack *= 1.5;
+				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_BARRAGE3")))
+					STGAttack *= 1.7;
+				//if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL")))
+				//    STGAttack += 75;
+				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_3WAYSHOT")))
+					STGAttack *= 0.7;
+				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_5WAYSHOT")))
+					STGAttack *= 0.8;
+				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TAME_KANRYOU")))
+					STGAttack *= 1.5;
+				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_HIGHSPEEDMOVE")))
+					STGAttack *= 0.7;
+				
+				STGAttack += STGAttack * 0.07 * this->getNumPowerUp(2);
+
+				iDamage = (int)(iDamage * STGAttack / 100 / 2);
+
+				//iDamage = 70;
+
+				iUnitDamage = std::max(pDefender->getDamage(), std::min((pDefender->getDamage() + iDamage), airCombatLimit()));
+
+				szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR", pDefender->getNameKey(), getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
+				//red icon over attacking unit
+				gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), this->getX_INLINE(), this->getY_INLINE(), true, true);
+				//white icon over defending unit
+				gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, 0, L"", "AS2D_COMBAT", MESSAGE_TYPE_DISPLAY_ONLY, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), pDefender->getX_INLINE(), pDefender->getY_INLINE(), true, true);
+
+				szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ATTACK_BY_AIR", getNameKey(), pDefender->getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
+				gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+
+				//副次的損害はカット
+				//collateralCombat(pPlot, pDefender);
+				//東方叙事詩・統合MOD追記
+				//昇進・副次的損害を取っている場合のみ副次処理発生
+				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_HUKUZITEKI_SONGAI")))
+					collateralCombat(pPlot, pDefender);
+
+				//set damage but don't update entity damage visibility
+				pDefender->setDamage(iUnitDamage, getOwnerINLINE(), false);
+
+				dDamage += iDamage;//((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints();
+			}
+			else{
+
+				szBuffer = gDLL->getText("TXT_KEY_DODGE_STG_BULLET", pDefender->getNameKey());
+				gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), this->getX_INLINE(), this->getY_INLINE(), true, true);
+
+				gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+
+
+
+			}
+		}
 
 	}
 
@@ -12868,7 +13014,7 @@ bool CvUnit::isTargetOf(const CvUnit& attacker) const
 	{
 		return true;
 	}
-
+	
 	return false;
 }
 
@@ -13576,6 +13722,8 @@ int CvUnit::countSpellTolerance() const{
                 Tolerance += 5;
             if ( pUnit->isHasPromotion((PromotionTypes)promCom6) )
                 Tolerance += 6;
+            if ( pUnit->isHasPromotion((PromotionTypes)promComS) )
+                Tolerance += 10;
 
             //ナズスキル
             if ( pUnit->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_NAZRIN_SKILL1")) )
@@ -13854,6 +14002,10 @@ void CvUnit::countCombatBonus(){
         temp += 2;
     if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_KISHINKEN_3UP")) )
         temp += 3;
+    if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TAME_KANRYOU")) )
+        temp += 2;
+    if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_HIGHSPEEDMOVE")) )
+        temp -= 2;
 
     //ユニットの種類に応じて補正をかける
     if (this->getUnitType() == (UnitTypes)GC.getInfoTypeForString("UNIT_RED_UFO") )
@@ -13924,6 +14076,8 @@ void CvUnit::countCombatBonus(){
             if ( pUnit->isHasPromotion((PromotionTypes)promCom6) )
                 tempPercent += 5;
             if ( pUnit->isHasPromotion((PromotionTypes)promComS) )
+                tempPercent += 10;
+            if ( pUnit->isHasPromotion((PromotionTypes)promComSTG) )
                 tempPercent += 10;
 
             //ムラサマークによる船舶ボーナス
