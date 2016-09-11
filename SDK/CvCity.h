@@ -940,6 +940,9 @@ public:
 	void setFlowerGardenTurn(int iNum);
 	int getFlowerGardenTurn();
 
+	//ìùçáMOD bug fix
+	int getFreeCityCommerce(CommerceTypes eIndex) const;
+
 protected:
 
 	int m_iID;

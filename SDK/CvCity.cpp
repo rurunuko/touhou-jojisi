@@ -8156,7 +8156,7 @@ int CvCity::getBaseCommerceRateTimes100(CommerceTypes eIndex) const
 	iBaseCommerceRate = getCommerceFromPercent(eIndex, getYieldRate(YIELD_COMMERCE) * 100);
 
 	iBaseCommerceRate += 100 * ((getSpecialistPopulation() + getNumGreatPeople()) * GET_PLAYER(getOwnerINLINE()).getSpecialistExtraCommerce(eIndex));
-	iBaseCommerceRate += 100 * (getBuildingCommerce(eIndex) + getSpecialistCommerce(eIndex) + getReligionCommerce(eIndex) + getCorporationCommerce(eIndex) + GET_PLAYER(getOwnerINLINE()).getFreeCityCommerce(eIndex));
+	iBaseCommerceRate += 100 * (getBuildingCommerce(eIndex) + getSpecialistCommerce(eIndex) + getReligionCommerce(eIndex) + getCorporationCommerce(eIndex) + getFreeCityCommerce(eIndex));
 
 	return iBaseCommerceRate;
 }
@@ -14062,3 +14062,15 @@ int CvCity::getFlowerGardenTurn(){
 
 }
 
+//ìùçáMOD bug fix
+int CvCity::getFreeCityCommerce(CommerceTypes eIndex) const
+{
+    if( getPopulation() == 0 )
+    {
+        return 0;
+    }
+    else
+    {
+        return GET_PLAYER(getOwnerINLINE()).getFreeCityCommerce(eIndex);
+    }
+}
