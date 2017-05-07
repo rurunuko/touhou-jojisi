@@ -3007,9 +3007,9 @@
       <fInterfaceScale>1.0</fInterfaceScale>
       <bActAsLand>0</bActAsLand>
       <bActAsAir>0</bActAsAir>
-      <NIF>Art/Units/Celtic_Warrior/Celtic_Warrior.nif</NIF>
-      <KFM>Art/Units/Celtic_Warrior/Celtic_Warrior.kfm</KFM>
-      <SHADERNIF>Art/Units/Celtic_Warrior/Celtic_Warrior_FX.nif</SHADERNIF>
+      <NIF>Art/Units/futo/futo0.nif</NIF>
+      <KFM>Art/Units/futo/futo.kfm</KFM>
+      <SHADERNIF>Art/Units/futo/futo0.nif</SHADERNIF>
       <ShadowDef>
         <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
         <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
@@ -3031,9 +3031,9 @@
       <fInterfaceScale>1.0</fInterfaceScale>
       <bActAsLand>0</bActAsLand>
       <bActAsAir>0</bActAsAir>
-      <NIF>Art/Units/Celtic_Warrior/Celtic_Warrior.nif</NIF>
-      <KFM>Art/Units/Celtic_Warrior/Celtic_Warrior.kfm</KFM>
-      <SHADERNIF>Art/Units/Celtic_Warrior/Celtic_Warrior_FX.nif</SHADERNIF>
+      <NIF>Art/Units/futo/futo.nif</NIF>
+      <KFM>Art/Units/futo/futo.kfm</KFM>
+      <SHADERNIF>Art/Units/futo/futo.nif</SHADERNIF>
       <ShadowDef>
         <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
         <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
