@@ -20,6 +20,7 @@ def SpellCast(argsList):
 	pUnit,iNum = argsList
 	
 	Spell = SpellInfo.spells[iNum-5]
+        CvGameUtils.doprint(Spell.getName())
 	if Spell.isVisible(pUnit) and Spell.isAbled(pUnit):
 		if Spell.cast(pUnit): #castÇ…ê¨å˜Ç∑ÇÍÇŒ
 		

@@ -3137,4 +3137,58 @@
 		<Spanish />
 		<Japanese>雷鼓マーク</Japanese>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_YORIHIME</Tag>
+		<English />
+		<French>依姫マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>依姫マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_TOYOHIME</Tag>
+		<English />
+		<French>豊姫マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>豊姫マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_SEIRAN</Tag>
+		<English />
+		<French>清蘭マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>清蘭マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_RINGO</Tag>
+		<English />
+		<French>鈴瑚マーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴瑚マーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_DOREMY</Tag>
+		<English />
+		<French>ドレミーマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ドレミーマーク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARACTER_MARK_SAGUME</Tag>
+		<English />
+		<French>サグメマーク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>サグメマーク</Japanese>
+	</TEXT>
 </Civ4GameText>

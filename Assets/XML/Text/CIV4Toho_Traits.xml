@@ -1883,6 +1883,15 @@
 		<Spanish />
 		<Japanese>　&#13;　[ICON_BULLET]時代毎に異なった志向を得る&#13;　[ICON_BULLET]太古～古代：創造・呪文&#13;　[ICON_BULLET]中世～ルネサンス：哲学・呪文&#13;　[ICON_BULLET]工業化時代以降：金融・呪文</Japanese>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SUMMERCIRNOLIST</Tag>
+		<English></English>
+		<French>夏の妖精</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>夏の妖精</Japanese>
+	</TEXT>
 	
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_TRADELIST</Tag>

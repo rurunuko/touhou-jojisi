@@ -211,6 +211,12 @@ class CvPediaTohoUnit:
 							['UNIT_SEIJA1' , gc.getInfoTypeForString('PROMOTION_SEIJA')],
 							['UNIT_SHINMYOUMARU1' , gc.getInfoTypeForString('PROMOTION_SHINMYOUMARU')],
 							['UNIT_RAIKO1' , gc.getInfoTypeForString('PROMOTION_RAIKO')],
+							['UNIT_YORIHIME1' , gc.getInfoTypeForString('PROMOTION_YORIHIME')],
+							['UNIT_TOYOHIME1' , gc.getInfoTypeForString('PROMOTION_TOYOHIME')],
+							['UNIT_SEIRAN1' , gc.getInfoTypeForString('PROMOTION_SEIRAN')],
+							['UNIT_RINGO1' , gc.getInfoTypeForString('PROMOTION_RINGO')],
+							['UNIT_DOREMY1' , gc.getInfoTypeForString('PROMOTION_DOREMY')],
+							['UNIT_SAGUME1' , gc.getInfoTypeForString('PROMOTION_SAGUME')],
 						]
 						
 		self.MarkDic = {}
@@ -283,6 +289,12 @@ class CvPediaTohoUnit:
 							['UNIT_SEIJA1' , gc.getInfoTypeForString('PROMOTION_SEIJA_SKILL1')],
 							['UNIT_SHINMYOUMARU1' , gc.getInfoTypeForString('PROMOTION_SHINMYOUMARU_SKILL1')],
 							['UNIT_RAIKO1' , gc.getInfoTypeForString('PROMOTION_RAIKO_SKILL1')],
+							['UNIT_YORIHIME1' , gc.getInfoTypeForString('PROMOTION_YORIHIME_SKILL1')],
+							['UNIT_TOYOHIME1' , gc.getInfoTypeForString('PROMOTION_TOYOHIME_SKILL1')],
+							['UNIT_SEIRAN1' , gc.getInfoTypeForString('PROMOTION_SEIRAN_SKILL1')],
+							['UNIT_RINGO1' , gc.getInfoTypeForString('PROMOTION_RINGO_SKILL1')],
+							['UNIT_DOREMY1' , gc.getInfoTypeForString('PROMOTION_DOREMY_SKILL1')],
+							['UNIT_SAGUME1' , gc.getInfoTypeForString('PROMOTION_SAGUME_SKILL1')],
 						]
 		
 		self.SkillDic = {}
@@ -356,6 +368,13 @@ class CvPediaTohoUnit:
 							 [ 'UNIT_SEIJA1' , [    [   [1,11,'SEIJA1_1','SEIJA1_1'],[12,255,'SEIJA1_2','SEIJA1_1'],    ], ['TXT_KEY_SPELL_SEIJA_EXTRA1',],  ['TXT_KEY_SPELL_SEIJA_PHANTASM1',],   ],   ],
 							 [ 'UNIT_SHINMYOUMARU1' , [    [   [1,15,'SHINMYOUMARU1_1','SHINMYOUMARU1_1'],[16,255,'SHINMYOUMARU1_2','SHINMYOUMARU1_1'],    ], ['TXT_KEY_SPELL_SHINMYOUMARU_EXTRA1',],  ['TXT_KEY_SPELL_SHINMYOUMARU_PHANTASM1',],   ],   ],
 							 [ 'UNIT_RAIKO1' , [    [   [1,255,'RAIKO1_1','RAIKO1_1'],    ], ['TXT_KEY_SPELL_RAIKO_EXTRA1',],  ['TXT_KEY_SPELL_RAIKO_PHANTASM1',],  ['TXT_KEY_SPELL_RAIKO_PHANTASM2',]   ],   ],
+							 [ 'UNIT_YORIHIME1' , [    [   [1,255,'YORIHIME1_1','YORIHIME1_1'],[1,255,'YORIHIME2_1','YORIHIME2_1'],[1,255,'YORIHIME3_1','YORIHIME3_1'],    ], ['TXT_KEY_SPELL_YORIHIME_EXTRA1','TXT_KEY_SPELL_YORIHIME_EXTRA2','TXT_KEY_SPELL_YORIHIME_EXTRA3',],  ['TXT_KEY_SPELL_YORIHIME_PHANTASM1','TXT_KEY_SPELL_YORIHIME_PHANTASM2','TXT_KEY_SPELL_YORIHIME_PHANTASM3',],   ],   ],
+							 [ 'UNIT_TOYOHIME1' , [    [   [1,255,'TOYOHIME1_1','TOYOHIME1_1'],    ], ['TXT_KEY_SPELL_TOYOHIME_EXTRA1','TXT_KEY_SPELL_TOYOHIME_EXTRA2',],  ['TXT_KEY_SPELL_TOYOHIME_PHANTASM1',],   ],   ],
+							 [ 'UNIT_SEIRAN1' , [    [   [1,255,'SEIRAN1_1','SEIRAN1_1'],    ], ['TXT_KEY_SPELL_SEIRAN_EXTRA1',],  ['TXT_KEY_SPELL_SEIRAN_PHANTASM1',],   ],   ],
+							 [ 'UNIT_RINGO1' , [    [   [1,15,'RINGO1_1','RINGO1_1'],[16,255,'RINGO1_2','RINGO1_1'],    ], ['TXT_KEY_SPELL_RINGO_EXTRA1',],  ['TXT_KEY_SPELL_RINGO_PHANTASM1',],   ],   ],
+							 [ 'UNIT_DOREMY1' , [    [   [1,255,'DOREMY1_1','DOREMY1_1'],    ], ['TXT_KEY_SPELL_DOREMY_EXTRA1',],  ['TXT_KEY_SPELL_DOREMY_PHANTASM1',],   ],   ],
+							 [ 'UNIT_SAGUME1' , [    [   [1,15,'SAGUME1_1','SAGUME1_1'],[16,255,'SAGUME1_2','SAGUME1_1'],    ], ['TXT_KEY_SPELL_SAGUME_EXTRA1',],  ['TXT_KEY_SPELL_SAGUME_PHANTASM1',],   ],   ],
+
 
 						]
 		
@@ -442,8 +461,13 @@ class CvPediaTohoUnit:
 		self.SortList.append(['UNIT_SEIJA1' , tempNum,'<color=114,0,124,255>']); tempNum = tempNum + 1
 		self.SortList.append(['UNIT_SHINMYOUMARU1' , tempNum,'<color=114,0,124,255>']); tempNum = tempNum + 1
 		self.SortList.append(['UNIT_RAIKO1' , tempNum,'<color=114,0,124,255>']); tempNum = tempNum + 1
-		
-		
+		#ŒŽ‚Ì“s
+		self.SortList.append(['UNIT_YORIHIME1' , tempNum,'<color=114,0,124,255>']); tempNum = tempNum + 1
+		self.SortList.append(['UNIT_TOYOHIME1' , tempNum,'<color=114,0,124,255>']); tempNum = tempNum + 1
+		self.SortList.append(['UNIT_SEIRAN1' , tempNum,'<color=114,0,124,255>']); tempNum = tempNum + 1
+		self.SortList.append(['UNIT_RINGO1' , tempNum,'<color=114,0,124,255>']); tempNum = tempNum + 1
+		self.SortList.append(['UNIT_DOREMY1' , tempNum,'<color=114,0,124,255>']); tempNum = tempNum + 1
+		self.SortList.append(['UNIT_SAGUME1' , tempNum,'<color=114,0,124,255>']); tempNum = tempNum + 1
 		
 		
 		self.SortDic = {}

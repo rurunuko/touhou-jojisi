@@ -8,107 +8,107 @@
 	<NewConceptInfos>
 		<NewConceptInfo>
 			<Type>CONCEPT_ESPIONAGE</Type>
-			<Description>TXT_KEY_ESPIONAGE_CULTURE</Description>
+			<Description>TXT_KEY_BTS_BASIC_ESPIONAGE_CULTURE</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_ESPIONAGE_PEDIA_SR</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_COLONIES</Type>
-			<Description>TXT_KEY_CONCEPT_COLONIES</Description>
+			<Description>TXT_KEY_CONCEPT_BASIC_COLONIES</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_COLONIES_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_CORPORATIONS</Type>
-			<Description>TXT_KEY_CONCEPT_CORPORATIONS</Description>
+			<Description>TXT_KEY_CONCEPT_BASIC_CORPORATIONS</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_CORPORATIONS_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_SEA_TRADE</Type>
-			<Description>TXT_KEY_CONCEPT_SEA_TRADE</Description>
+			<Description>TXT_KEY_CONCEPT_BASIC_SEA_TRADE</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_SEA_TRADE_PEDIA_TR</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_FLANK_ATTACK</Type>
-			<Description>TXT_KEY_CONCEPT_FLANK_ATTACK</Description>
+			<Description>TXT_KEY_CONCEPT_BASIC_FLANK_ATTACK</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_FLANK_ATTACK_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_GREAT_SPY</Type>
-			<Description>TXT_KEY_CONCEPT_GREAT_SPY</Description>
+			<Description>TXT_KEY_CONCEPT_BASIC_GREAT_SPY</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_GREAT_SPY_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_LATE_START</Type>
-			<Description>TXT_KEY_CONCEPT_LATE_START</Description>
+			<Description>TXT_KEY_CONCEPT_BASIC_LATE_START</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_LATE_START_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_EVENTS</Type>
-			<Description>TXT_KEY_CONCEPT_EVENTS</Description>
+			<Description>TXT_KEY_CONCEPT_BASIC_EVENTS</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_EVENTS_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_AIR_COMBAT</Type>
-			<Description>TXT_KEY_CONCEPT_AIR_COMBAT</Description>
+			<Description>TXT_KEY_CONCEPT_BASIC_AIR_COMBAT</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_AIR_COMBAT_PEDIA_SR</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_AIR_PROMOTIONS</Type>
-			<Description>TXT_KEY_CONCEPT_AIR_PROMOTIONS</Description>
+			<Description>TXT_KEY_CONCEPT_BASIC_AIR_PROMOTIONS</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_AIR_PROMOTIONS_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_BTS_BUILDINGS</Type>
-			<Description>TXT_KEY_BTS_BUILDINGS</Description>
+			<Description>TXT_KEY_BTS_BASIC_BUILDINGS</Description>
 			<Civilopedia>TXT_KEY_BTS_BUILDINGS_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_BTS_CIVS</Type>
-			<Description>TXT_KEY_BTS_CIVS</Description>
+			<Description>TXT_KEY_BTS_BASIC_CIVS</Description>
 			<Civilopedia>TXT_KEY_BTS_CIVS_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_BTS_UNITS</Type>
-			<Description>TXT_KEY_BTS_UNITS</Description>
+			<Description>TXT_KEY_BTS_BASIC_UNITS</Description>
 			<Civilopedia>TXT_KEY_BTS_UNITS_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_BTS_LEADERS</Type>
-			<Description>TXT_KEY_BTS_LEADERS</Description>
+			<Description>TXT_KEY_BTS_BASIC_LEADERS</Description>
 			<Civilopedia>TXT_KEY_BTS_LEADERS_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_BTS_WONDERS</Type>
-			<Description>TXT_KEY_BTS_WONDERS</Description>
+			<Description>TXT_KEY_BTS_BASIC_WONDERS</Description>
 			<Civilopedia>TXT_KEY_BTS_WONDERS_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_BTS_TECHS</Type>
-			<Description>TXT_KEY_BTS_TECHS</Description>
+			<Description>TXT_KEY_BTS_BASIC_TECHS</Description>
 			<Civilopedia>TXT_KEY_BTS_TECHS_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_BTS_RULES_CHANGES</Type>
-			<Description>TXT_KEY_BTS_RULES_CHANGES</Description>
+			<Description>TXT_KEY_BTS_BASIC_RULES_CHANGES</Description>
 			<Civilopedia>TXT_KEY_BTS_RULES_CHANGES_PEDIA_SR</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_BTS_FOREST_PRESERVE</Type>
-			<Description>TXT_KEY_BTS_FOREST_PRESERVE</Description>
+			<Description>TXT_KEY_BTS_BASIC_FOREST_PRESERVE</Description>
 			<Civilopedia>TXT_KEY_BTS_FOREST_PRESERVE_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_APOSTOLIC_PALACE</Type>
-			<Description>TXT_KEY_CONCEPT_APOSTOLIC_PALACE</Description>
+			<Description>TXT_KEY_CONCEPT_BASIC_APOSTOLIC_PALACE</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_APOSTOLIC_PALACE_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_FORT</Type>
-			<Description>TXT_KEY_CONCEPT_FORT</Description>
+			<Description>TXT_KEY_CONCEPT_BASIC_FORT</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_FORT_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<NewConceptInfo>
 			<Type>CONCEPT_LIBERATION</Type>
-			<Description>TXT_KEY_CONCEPT_LIBERATION</Description>
+			<Description>TXT_KEY_CONCEPT_BASIC_LIBERATION</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_LIBERATION_PEDIA</Civilopedia>
 		</NewConceptInfo>
 		<!-- Shortcut Infos -->
@@ -136,6 +136,257 @@
 			<Type>CONCEPT_SHORTCUT_MOUSE</Type>
 			<Description>TXT_KEY_SHORTCUT_MOUSE</Description>
 			<Civilopedia>TXT_KEY_SHORTCUT_MOUSE_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<!-- Basic Infos -->
+		<NewConceptInfo>
+			<Type>CONCEPT_ANIMALS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_ANIMALS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_ANIMALS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_AIR_UNITS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_AIR_UNITS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_AIR_UNITS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_BARBARIANS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_BARBARIANS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_BARBARIANS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_BORDERS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_BORDERS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_BORDERS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_BUILDINGS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_BUILDINGS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_BUILDINGS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_CITIES</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_CITIES</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_CITIES_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_CITY_NETWORK</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_CITY_NETWORK</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_CITY_NETWORK_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_CIVICS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_CIVICS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_CIVICS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_COMBAT</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_COMBAT</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_COMBAT_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_COMMERCE</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_COMMERCE</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_COMMERCE_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_CULTURE</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_CULTURE</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_CULTURE_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_DIPLOMACY</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_DIPLOMACY</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_DIPLOMACY_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_DRAFT</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_DRAFT</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_DRAFT_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_EXPLORATION</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_EXPLORATION</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_EXPLORATION_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_FOOD</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_FOOD</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_FOOD_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_GOLDEN_AGE</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_GOLDEN_AGE</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_GOLDEN_AGE_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_GREAT_PEOPLE</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_GREAT_PEOPLE</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_GREAT_PEOPLE_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_HAPPINESS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_HAPPINESS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_HAPPINESS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_HEALTH</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_HEALTH</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_HEALTH_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_HURRY_PRODUCTION</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_HURRY_PRODUCTION</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_HURRY_PRODUCTION_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_IMPROVEMENTS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_IMPROVEMENTS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_IMPROVEMENTS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_LEADERS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_LEADERS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_LEADERS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_MAINTENANCE</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_MAINTENANCE</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_MAINTENANCE_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_MAPS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_MAPS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_MAPS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_MOVEMENT</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_MOVEMENT</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_MOVEMENT_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_NUKES</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_NUKES</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_NUKES_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_PRODUCTION</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_PRODUCTION</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_PRODUCTION_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_PROMOTIONS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_PROMOTIONS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_PROMOTIONS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_RELIGION</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_RELIGION</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_RELIGION_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_RESEARCH</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_RESEARCH</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_RESEARCH_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_RESISTANCE</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_RESISTANCE</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_RESISTANCE_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_RESOURCES</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_RESOURCES</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_RESOURCES_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_REVOLUTION</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_REVOLUTION</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_REVOLUTION_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_SPACESHIP</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_SPACESHIP</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_SPACESHIP_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_SPECIALISTS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_SPECIALISTS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_SPECIALISTS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_TECHNOLOGY</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_TECHNOLOGY</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_TECHNOLOGY_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_TERRAIN</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_TERRAIN</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_TERRAIN_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_TRADE</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_TRADE</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_TRADE_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_TRANSPORT</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_TRANSPORT</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_TRANSPORT_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_TREASURY</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_TREASURY</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_TREASURY_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_UNITS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_UNITS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_UNITS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_UNITED_NATIONS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_UNITED_NATIONS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_UNITED_NATIONS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_VICTORY</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_VICTORY</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_VICTORY_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_WAR</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_WAR</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_WAR_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_WAR_WEARINESS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_WAR_WEARINESS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_WAR_WEARINESS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_WEALTH</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_WEALTH</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_WEALTH_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_WONDERS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_WONDERS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_WONDERS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_GREAT_GENERALS</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_GREAT_GENERALS</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_GREAT_GENERALS_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_VASSAL_STATES</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_VASSAL_STATES</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_VASSAL_STATES_PEDIA</Civilopedia>
+		</NewConceptInfo>
+		<NewConceptInfo>
+			<Type>CONCEPT_IRRIGATION</Type>
+			<Description>TXT_KEY_CONCEPT_BASIC_IRRIGATION</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_IRRIGATION_PEDIA</Civilopedia>
 		</NewConceptInfo>
 	</NewConceptInfos>
 </Civ4NewConceptInfos>

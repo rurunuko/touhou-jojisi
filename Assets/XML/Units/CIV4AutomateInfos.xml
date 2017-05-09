@@ -3120,6 +3120,196 @@
       <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
     </AutomateInfo>
     <AutomateInfo>
+      <Type>SPELLCARD_YORIHIME1_1</Type>
+      <Description>TXT_KEY_SPELLCARD_YORIHIME1_1</Description>
+      <Help>TXT_KEY_SPELLCARD_YORIHIME1_1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELLCARD_YORIHIME1_1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELLCARD_YORIHIME2_1</Type>
+      <Description>TXT_KEY_SPELLCARD_YORIHIME2_1</Description>
+      <Help>TXT_KEY_SPELLCARD_YORIHIME2_1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELLCARD_YORIHIME2_1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELLCARD_YORIHIME3_1</Type>
+      <Description>TXT_KEY_SPELLCARD_YORIHIME3_1</Description>
+      <Help>TXT_KEY_SPELLCARD_YORIHIME3_1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELLCARD_YORIHIME3_1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELLCARD_TOYOHIME1_1</Type>
+      <Description>TXT_KEY_SPELLCARD_TOYOHIME1_1</Description>
+      <Help>TXT_KEY_SPELLCARD_TOYOHIME1_1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELLCARD_TOYOHIME1_1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELLCARD_SEIRAN1_1</Type>
+      <Description>TXT_KEY_SPELLCARD_SEIRAN1_1</Description>
+      <Help>TXT_KEY_SPELLCARD_SEIRAN1_1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELLCARD_SEIRAN1_1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELLCARD_RINGO1_1</Type>
+      <Description>TXT_KEY_SPELLCARD_RINGO1_1</Description>
+      <Help>TXT_KEY_SPELLCARD_RINGO1_1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELLCARD_RINGO1_1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELLCARD_RINGO1_2</Type>
+      <Description>TXT_KEY_SPELLCARD_RINGO1_2</Description>
+      <Help>TXT_KEY_SPELLCARD_RINGO1_2_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELLCARD_RINGO1_2</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELLCARD_DOREMY1_1</Type>
+      <Description>TXT_KEY_SPELLCARD_DOREMY1_1</Description>
+      <Help>TXT_KEY_SPELLCARD_DOREMY1_1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELLCARD_DOREMY1_1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELLCARD_SAGUME1_1</Type>
+      <Description>TXT_KEY_SPELLCARD_SAGUME1_1</Description>
+      <Help>TXT_KEY_SPELLCARD_SAGUME1_1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELLCARD_SAGUME1_1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELLCARD_SAGUME1_2</Type>
+      <Description>TXT_KEY_SPELLCARD_SAGUME1_2</Description>
+      <Help>TXT_KEY_SPELLCARD_SAGUME1_2_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELLCARD_SAGUME1_2</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
       <Type>SPELL_SANAE_EXTRA1</Type>
       <Description>TXT_KEY_SPELL_SANAE_EXTRA1</Description>
       <Help>TXT_KEY_SPELL_SANAE_EXTRA1_HELP</Help>
@@ -5759,6 +5949,329 @@
       <Automate>AUTOMATE_SPELL_RAIKO_PHANTASM2</Automate>
       <bVisible>1</bVisible>
       <Button>Art/Interface/Buttons/Spells/USE_PHANTASM_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_YORIHIME_EXTRA1</Type>
+      <Description>TXT_KEY_SPELL_YORIHIME_EXTRA1</Description>
+      <Help>TXT_KEY_SPELL_YORIHIME_EXTRA1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_YORIHIME_EXTRA1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_YORIHIME_EXTRA2</Type>
+      <Description>TXT_KEY_SPELL_YORIHIME_EXTRA2</Description>
+      <Help>TXT_KEY_SPELL_YORIHIME_EXTRA2_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_YORIHIME_EXTRA2</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_YORIHIME_EXTRA3</Type>
+      <Description>TXT_KEY_SPELL_YORIHIME_EXTRA3</Description>
+      <Help>TXT_KEY_SPELL_YORIHIME_EXTRA3_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_YORIHIME_EXTRA3</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_YORIHIME_PHANTASM1</Type>
+      <Description>TXT_KEY_SPELL_YORIHIME_PHANTASM1</Description>
+      <Help>TXT_KEY_SPELL_YORIHIME_PHANTASM1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_YORIHIME_PHANTASM1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_YORIHIME_PHANTASM2</Type>
+      <Description>TXT_KEY_SPELL_YORIHIME_PHANTASM2</Description>
+      <Help>TXT_KEY_SPELL_YORIHIME_PHANTASM2_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_YORIHIME_PHANTASM2</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_YORIHIME_PHANTASM3</Type>
+      <Description>TXT_KEY_SPELL_YORIHIME_PHANTASM3</Description>
+      <Help>TXT_KEY_SPELL_YORIHIME_PHANTASM3_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_YORIHIME_PHANTASM3</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TOYOHIME_EXTRA1</Type>
+      <Description>TXT_KEY_SPELL_TOYOHIME_EXTRA1</Description>
+      <Help>TXT_KEY_SPELL_TOYOHIME_EXTRA1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TOYOHIME_EXTRA1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TOYOHIME_EXTRA2</Type>
+      <Description>TXT_KEY_SPELL_TOYOHIME_EXTRA2</Description>
+      <Help>TXT_KEY_SPELL_TOYOHIME_EXTRA2_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TOYOHIME_EXTRA2</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TOYOHIME_PHANTASM1</Type>
+      <Description>TXT_KEY_SPELL_TOYOHIME_PHANTASM1</Description>
+      <Help>TXT_KEY_SPELL_TOYOHIME_PHANTASM1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TOYOHIME_PHANTASM1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_SEIRAN_EXTRA1</Type>
+      <Description>TXT_KEY_SPELL_SEIRAN_EXTRA1</Description>
+      <Help>TXT_KEY_SPELL_SEIRAN_EXTRA1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_SEIRAN_EXTRA1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_SEIRAN_PHANTASM1</Type>
+      <Description>TXT_KEY_SPELL_SEIRAN_PHANTASM1</Description>
+      <Help>TXT_KEY_SPELL_SEIRAN_PHANTASM1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_SEIRAN_PHANTASM1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_RINGO_EXTRA1</Type>
+      <Description>TXT_KEY_SPELL_RINGO_EXTRA1</Description>
+      <Help>TXT_KEY_SPELL_RINGO_EXTRA1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_RINGO_EXTRA1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_RINGO_PHANTASM1</Type>
+      <Description>TXT_KEY_SPELL_RINGO_PHANTASM1</Description>
+      <Help>TXT_KEY_SPELL_RINGO_PHANTASM1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_RINGO_PHANTASM1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_DOREMY_EXTRA1</Type>
+      <Description>TXT_KEY_SPELL_DOREMY_EXTRA1</Description>
+      <Help>TXT_KEY_SPELL_DOREMY_EXTRA1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_DOREMY_EXTRA1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_DOREMY_PHANTASM1</Type>
+      <Description>TXT_KEY_SPELL_DOREMY_PHANTASM1</Description>
+      <Help>TXT_KEY_SPELL_DOREMY_PHANTASM1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_DOREMY_PHANTASM1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_SAGUME_EXTRA1</Type>
+      <Description>TXT_KEY_SPELL_SAGUME_EXTRA1</Description>
+      <Help>TXT_KEY_SPELL_SAGUME_EXTRA1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_SAGUME_EXTRA1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_SAGUME_PHANTASM1</Type>
+      <Description>TXT_KEY_SPELL_SAGUME_PHANTASM1</Description>
+      <Help>TXT_KEY_SPELL_SAGUME_PHANTASM1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_SAGUME_PHANTASM1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
     </AutomateInfo>
     <AutomateInfo>
       <Type>SPELL_GET_HOURAINOKUSURI_EASY</Type>

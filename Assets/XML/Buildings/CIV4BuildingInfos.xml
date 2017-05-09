@@ -20876,7 +20876,7 @@
       <Type>BUILDING_SYOGYOU_MUJOU_B</Type>
       <SpecialBuildingType>NONE</SpecialBuildingType>
       <Description>TXT_KEY_BUILDING_SYOGYOU_MUJOU</Description>
-      <Civilopedia>TXT_KEY_BUILDING_SYOGYOU_MUJOU_B_PEDIA</Civilopedia>
+      <Civilopedia>TXT_KEY_BUILDING_SYOGYOU_MUJOU_A_PEDIA</Civilopedia>
       <Strategy>TXT_KEY_BUILDING_SYOGYOU_MUJOU_B_STRATEGY</Strategy>
       <Advisor>ADVISOR_GROWTH</Advisor>
       <ArtDefineTag>ART_DEF_BUILDING_PALACE_BUTTON_YATUHASHI_EXTRA</ArtDefineTag>
@@ -21209,7 +21209,7 @@
       <Type>BUILDING_GION_SYOUJA_B</Type>
       <SpecialBuildingType>NONE</SpecialBuildingType>
       <Description>TXT_KEY_BUILDING_GION_SYOUJA</Description>
-      <Civilopedia>TXT_KEY_BUILDING_GION_SYOUJA_B_PEDIA</Civilopedia>
+      <Civilopedia>TXT_KEY_BUILDING_GION_SYOUJA_A_PEDIA</Civilopedia>
       <Strategy>TXT_KEY_BUILDING_GION_SYOUJA_B_STRATEGY</Strategy>
       <Advisor>ADVISOR_GROWTH</Advisor>
       <ArtDefineTag>ART_DEF_BUILDING_PALACE_BUTTON_BENBEN_EXTRA</ArtDefineTag>

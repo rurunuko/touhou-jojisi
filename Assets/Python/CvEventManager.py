@@ -181,6 +181,10 @@ class CvEventManager:
 			'setPlayerAlive'		: self.onSetPlayerAlive,
 			'playerChangeStateReligion'		: self.onPlayerChangeStateReligion,
 			'playerGoldTrade'		: self.onPlayerGoldTrade,
+			#統合MOD追記部分
+			# BULL events
+			'playerRevolution'		: self.onPlayerRevolution,
+			#統合MOD追記部分ここまで
 			'windowActivation'		: self.onWindowActivation,
 			'gameUpdate'			: self.onGameUpdate,		# sample generic event
 		}
@@ -1626,89 +1630,14 @@ class CvEventManager:
 			
 			#統合MOD追記部分
 			
-			#神道を採用している場合、都市に鳥居自動建設
-			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_SHINTO')) == True:
-				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_TORII")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),1)
-
-			#仏教を採用している場合、都市に仏像自動建設＆八橋スペル建造物を強化版に切り替え
-			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_BUDDHISM')) == True:
-				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_BUTUZOU")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUTUZOU'),1)
-					for pPyCity in py.getCityList():
-						pCity = pPlayer.getCity(pPyCity.getID())
-						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SYOGYOU_MUJOU_A")) == True:
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_B'),1)
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_A'),0)
-
-			#道教を採用している場合、都市に仙丹自動建設＆陰陽寮＠出力無しを陰陽寮＠出力有りに切り替え
-			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_TAOISM')) == True:
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SENTAN")) == False:
-					pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SENTAN'),1)
-					for pPyCity in py.getCityList():
-						pCity = pPlayer.getCity(pPyCity.getID())
-						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_ONMYOURYOU2")) == True:
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU1'),1)
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU2'),0)
-
-			#深海の旧支配者を採用している場合、首都にネクロノミコン写本自動建設
-			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_CTHULHU')) == True:
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_CTHULHU")) == False:
-					pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CTHULHU'),1)
-
-			#弱者の楽園を採用している場合、首都に幸福1衛生-2用の建造物自動建設
-			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_ECONOMY')) == gc.getInfoTypeForString('CIVIC_JAKUSYANORAKUEN')) == True:
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_JAKUSYANORAKUEN")) == False:
-					pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_JAKUSYANORAKUEN'),1)
-				
 			#指導者正邪が中世以降に無秩序を採用していたら、建造物天邪鬼設置
+			#これは移植不可、このまま置いておく方が安定
 			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_SEIJALIST')):
 				if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_ANCIENT'):
 					if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_CLASSICAL'):
 						if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LEGAL')) == gc.getInfoTypeForString('CIVIC_BARBARISM')) == True:
 							if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_AMANOJAKU")) == False:
 								pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_AMANOJAKU'),1)
-			
-			#指導者ロリスが奴隷制を採用した場合、首都に死んでくれる？設置
-			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LOLISELIST')):
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SLAVERY')) == True:
-					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SINDEKURERU")) == False:
-						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),1)
-
-			#労働志向を持っているかどうか
-			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LABORLIST')):
-				#労働制度毎に異なる建造物を与える
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_TRIBALISM')) == True:
-					if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_TRIBALISM")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),1)
-				
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SLAVERY')) == True:
-					if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SLAVERY_1")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),1)
-					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SLAVERY_2")) == False:
-						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),1)
-				
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SERFDOM')) == True:
-					if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SERFDOM")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),1)
-				
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_CASTE_SYSTEM')) == True:
-					if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_CASTE_1")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),1)
-					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_CASTE_2")) == False:
-						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),1)
-				
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_EMANCIPATION')) == True:
-					if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_EMANCIPATION")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),1)
-				
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SISHANOOUKOKU')) == True:
-					if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SISHANOOUKOKU")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),1)
-				
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_HAKUREISIKI')) == True:
-					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_HAKUREISIKI")) == False:
-						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),1)
 			
 			#集権志向持ちで、かつ首都に集権志向ボーナス建造物が無い場合は自動設置
 			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_CENTRALIZATION')):
@@ -1887,87 +1816,6 @@ class CvEventManager:
 			pCity = pPlayer.getCity(pPyCity.getID())
 			pCapital = gc.getPlayer(pCity.getOwner()).getCapitalCity()
 			
-		#鳥居リセット
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_TORII")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_SHINTO')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),0)
-
-		#仏像リセット＆八橋スペル建造物を弱体版に切り替え
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_BUTUZOU")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_BUDDHISM')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUTUZOU'),0)
-					for pPyCity in py.getCityList():
-						pCity = pPlayer.getCity(pPyCity.getID())
-						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SYOGYOU_MUJOU_B")) == True:
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_A'),1)
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_B'),0)
-
-		#仙丹リセッ＆陰陽寮＠出力有りを陰陽寮＠出力無しに切り替え
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SENTAN")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_TAOISM')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SENTAN'),0)
-					for pPyCity in py.getCityList():
-						pCity = pPlayer.getCity(pPyCity.getID())
-						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_ONMYOURYOU1")) == True:
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU2'),1)
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU1'),0)
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SENTAN")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SENTAN'),0)
-
-		#ネクロノミコンリセット
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_CTHULHU")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_CTHULHU')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CTHULHU'),0)
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_CTHULHU")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CTHULHU'),0)
-		
-		#弱者の楽園リセット
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_JAKUSYANORAKUEN")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_ECONOMY')) == gc.getInfoTypeForString('CIVIC_JAKUSYANORAKUEN')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_JAKUSYANORAKUEN'),0)
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_JAKUSYANORAKUEN")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_JAKUSYANORAKUEN'),0)
-		
-		#労働志向系建造物リセット
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_TRIBALISM")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_TRIBALISM')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),0)
-			
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SLAVERY_1")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SLAVERY')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),0)
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),0)
-					
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SLAVERY_2")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),0)
-			
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SERFDOM")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SERFDOM')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),0)
-			
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_CASTE_1")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_CASTE_SYSTEM')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),0)
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),0)
-			
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_CASTE_2")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),0)
-			
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_EMANCIPATION")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_EMANCIPATION')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),0)
-			
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SISHANOOUKOKU")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SISHANOOUKOKU')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),0)
-			
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_HAKUREISIKI")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_HAKUREISIKI')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),0)
-				
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_HAKUREISIKI")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),0)
-		
 		#こころちゃんの志向変化で労働志向が無くなった場合の処理
 			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_KOKOROLIST')):
 				if not pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LABORLIST')):
@@ -1984,21 +1832,6 @@ class CvEventManager:
 				if not pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_CENTRALIZATION')):
 					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CENTRALIZATION'),0)
 		
-		#正邪志向建造物リセット
-			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_SEIJALIST')):
-				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_AMANOJAKU")) == True:
-					if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LEGAL')) == gc.getInfoTypeForString('CIVIC_BARBARISM')) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_AMANOJAKU'),0)
-					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_AMANOJAKU")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_AMANOJAKU'),0)
-
-		#ロリス志向建造物リセット
-			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LOLISELIST')):
-				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SINDEKURERU")) == True:
-					if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SLAVERY')) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),0)
-					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SINDEKURERU")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),0)
 		
 		#集権志向ブースト建造物リセット
 			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_CENTRALIZATION')):
@@ -3317,7 +3150,7 @@ class CvEventManager:
 				#スキルを持っていたら持ち越し＆レベル＋１
 				#統合MOD追記：基本的に引き継ぎはAI時のみ
 				#ただし「生産直後からユニットスキル所有の固有志向」持ちが自身の東方ユニットを出している場合は、限定的にプレイヤー時でも引き継ぎ可
-				iNumSkill = gc.getInfoTypeForString('PROMOTION_RAIKO_SKILL1') - gc.getInfoTypeForString('PROMOTION_SANAE_SKILL1') + 1
+				iNumSkill = gc.getInfoTypeForString('PROMOTION_SAGUME_SKILL1') - gc.getInfoTypeForString('PROMOTION_SANAE_SKILL1') + 1
 				if pPlayer.isHuman() == False:
 					for i in range(iNumSkill):
 						if unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SANAE_SKILL1') + i):
@@ -4030,6 +3863,111 @@ class CvEventManager:
 		'Player Trades gold to another player'
 		iFromPlayer, iToPlayer, iGoldAmount = argsList
 
+#統合MOD追記部分
+# BULL events
+#社会制度系の追加建造物等は以後全部こちらに移植
+	def onPlayerRevolution(self, argsList):
+		ePlayer, iAnarchyTurns, leOldCivics, leNewCivics = argsList
+		civics = []
+		py = PyPlayer(ePlayer)
+		pPlayer = gc.getPlayer(ePlayer)
+		
+		for eOldCivic, eNewCivic in zip(leOldCivics, leNewCivics):
+			if eOldCivic != eNewCivic:
+				for pPyCity in py.getCityList():
+					pCity = pPlayer.getCity(pPyCity.getID())
+					pCapital = gc.getPlayer(pCity.getOwner()).getCapitalCity()
+					#信仰関連追加
+					if eNewCivic == gc.getInfoTypeForString('CIVIC_FAITH_SHINTO'):
+						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),1)
+					if eNewCivic == gc.getInfoTypeForString('CIVIC_FAITH_BUDDHISM'):
+						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUTUZOU'),1)
+						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SYOGYOU_MUJOU_A")) == True:
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_A'),0)
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_B'),1)
+					if eNewCivic == gc.getInfoTypeForString('CIVIC_FAITH_TAOISM'):
+						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SENTAN'),1)
+						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_ONMYOURYOU2")) == True:
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU1'),1)
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU2'),0)
+					if eNewCivic == gc.getInfoTypeForString('CIVIC_FAITH_CTHULHU'):
+						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CTHULHU'),1)
+					#信仰関連リセット
+					if eOldCivic == gc.getInfoTypeForString('CIVIC_FAITH_SHINTO'):
+						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),0)
+					if eOldCivic == gc.getInfoTypeForString('CIVIC_FAITH_BUDDHISM'):
+						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUTUZOU'),0)
+						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SYOGYOU_MUJOU_B")) == True:
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_A'),1)
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_B'),0)
+					if eOldCivic == gc.getInfoTypeForString('CIVIC_FAITH_TAOISM'):
+						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SENTAN'),0)
+						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_ONMYOURYOU1")) == True:
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU1'),0)
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU2'),1)
+					if eOldCivic == gc.getInfoTypeForString('CIVIC_FAITH_CTHULHU'):
+						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CTHULHU'),0)
+					#労働志向判定
+					if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LABORLIST')):
+					#労働志向関連追加
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_TRIBALISM'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),1)
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_SLAVERY'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),1)
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),1)
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_SERFDOM'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),1)
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_CASTE_SYSTEM'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),1)
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),1)
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_EMANCIPATION'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),1)
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_SISHANOOUKOKU'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),1)
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_HAKUREISIKI'):
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),1)
+					#労働志向関連リセット
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_TRIBALISM'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),0)
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_SLAVERY'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),0)
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),0)
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_SERFDOM'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),0)
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_CASTE_SYSTEM'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),0)
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),0)
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_EMANCIPATION'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),0)
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_SISHANOOUKOKU'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),0)
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_HAKUREISIKI'):
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),0)
+					#その他
+					#弱者の楽園
+					if eNewCivic == gc.getInfoTypeForString('CIVIC_JAKUSYANORAKUEN'):
+						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_JAKUSYANORAKUEN'),1)
+					if eOldCivic == gc.getInfoTypeForString('CIVIC_JAKUSYANORAKUEN'):
+						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_JAKUSYANORAKUEN'),0)
+					#指導者正邪が中世以降に無秩序を採用した場合
+					if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_SEIJALIST')):
+						if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_ANCIENT'):
+							if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_CLASSICAL'):
+								if eNewCivic == gc.getInfoTypeForString('CIVIC_BARBARISM'):
+									pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_AMANOJAKU'),1)
+								if eOldCivic == gc.getInfoTypeForString('CIVIC_BARBARISM'):
+									pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_AMANOJAKU'),0)
+					#指導者ロリスが奴隷制を採用した場合、首都に死んでくれる？設置
+					if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LOLISELIST')):
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_SLAVERY'):
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),1)
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_SLAVERY'):
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),0)
+				civics.append(gc.getCivicInfo(eNewCivic).getDescription())
+		#BugUtil.debug("Revolution for %s, %d turns: %s", gc.getPlayer(ePlayer).getName(), iAnarchyTurns, ", ".join(civics))
+
+#統合MOD追記部分ここまで
+
 	def onCityBuilt(self, argsList):
 		'City Built'
 		city = argsList[0]
@@ -4171,6 +4109,26 @@ class CvEventManager:
 		if pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_CENTRALIZATION")):
 			if city.isCapital():
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CENTRALIZATION'),1)
+		#神道を採用している場合、都市に鳥居自動建設
+		if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_SHINTO')) == True:
+			city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),1)
+		#仏教を採用している場合、都市に仏像自動建設
+		if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_BUDDHISM')) == True:
+			city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUTUZOU'),1)
+		#労働志向を持っているかどうか
+		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LABORLIST')):
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_TRIBALISM')) == True:
+				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),1)
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SLAVERY')) == True:
+				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),1)
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SERFDOM')) == True:
+				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),1)
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_CASTE_SYSTEM')) == True:
+				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),1)
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_EMANCIPATION')) == True:
+				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),1)
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SISHANOOUKOKU')) == True:
+				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),1)
 		
 		#統合MOD追記部分ここまで
 		
@@ -4301,6 +4259,23 @@ class CvEventManager:
 				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SUPERMARKET'),1)
 				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_KISHINJOU_AMERICAN_MALL'),0)
 		
+		#社会制度系建造物を一旦リセット
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUTUZOU'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SENTAN'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_JAKUSYANORAKUEN'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_AMANOJAKU'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),0)
+		
 		#弁々がヘンジ付き都市を占領した場合は特殊ヘンジに変換
 		if gc.getPlayer(pCity.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_BENBENLIST')):
 			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_STONEHENGE")):
@@ -4311,6 +4286,36 @@ class CvEventManager:
 			if not gc.getPlayer(pCity.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_BENBENLIST')):
 				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BENBEN_STONEHENGE'),0)
 				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_STONEHENGE'),1)
+		
+		#神道を採用している場合、都市に鳥居自動建設
+		if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_SHINTO')) == True:
+			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),1)
+		#仏教を採用している場合、都市に仏像自動建設
+		if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_BUDDHISM')) == True:
+			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUTUZOU'),1)
+		#道教を採用している場合、陰陽寮を相互変換
+		if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_TAOISM')) == True:
+			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_ONMYOURYOU2")):
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU1'),1)
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU2'),0)
+		else:
+			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_ONMYOURYOU1")):
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU1'),0)
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU2'),1)
+		#労働志向を持っているかどうか
+		if gc.getPlayer(pCity.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_LABORLIST')):
+			if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_TRIBALISM')) == True:
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),1)
+			if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SLAVERY')) == True:
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),1)
+			if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SERFDOM')) == True:
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),1)
+			if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_CASTE_SYSTEM')) == True:
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),1)
+			if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_EMANCIPATION')) == True:
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),1)
+			if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SISHANOOUKOKU')) == True:
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),1)
 		
 		#統合MOD追記部分ここまで
 		

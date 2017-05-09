@@ -13,18 +13,23 @@ import SpellInfo
 import TohoUnitList
 import Functions
 ##### </written by F> #####
+import codecs
 
 # globals
 gc = CyGlobalContext()
 ##### <written by F> #####
 #デバッグ用print文
+#東方叙事詩・統合MOD追記
+#原因はよくわからないエラーへの対処。記述部分を流用先のFfH Age of Iceと同一にする
+#デバッグ用のため必要になったらコメントアウトを外す
 logInited = False
 def initLog():
 	global logInited
-	helpFile=file("debuglog.txt", "w")
-	sys.stdout=helpFile
+	#helpFile=file("debuglog.txt", "w")
+	helpFile=codecs.open('debuglog.txt', 'w', 'shift_jis')
+#	sys.stdout=helpFile
 	sys.stdout.write("loaded\n")
-	sys.stdout.flush()
+#	sys.stdout.flush()
 	logInited = True
 def doprint(str):
 	#cd sys.stderr.write(str)
@@ -32,7 +37,7 @@ def doprint(str):
 		initLog()
 	sys.stdout.write(str)
 	sys.stdout.write("\n")
-	sys.stdout.flush()
+#	sys.stdout.flush()
 ##### </written by F> #####
 
 class CvGameUtils:
@@ -100,19 +105,19 @@ class CvGameUtils:
 		if gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_PEACE_OF_BC1000')):
 			iGameTarn = gc.getGame().getGameTurn()
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_MARATHON'):
-				if iGameTarn < 251:
+				if iGameTarn < 250:
 					return False
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_EPIC'):
-				if iGameTarn < 121:
+				if iGameTarn < 120:
 					return False
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_NORMAL'):
-				if iGameTarn < 76:
+				if iGameTarn < 75:
 					return False
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_QUICK'):
-				if iGameTarn < 51:
+				if iGameTarn < 50:
 					return False
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_TENGU'):
-				if iGameTarn < 44:
+				if iGameTarn < 43:
 					return False
 		#統合MOD追記ここまで
 		
@@ -432,12 +437,19 @@ class CvGameUtils:
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_MALI'):
 			if gc.getInfoTypeForString('TECH_KOUMAKAN') <= eTech and eTech <= gc.getInfoTypeForString('TECH_HOSIHURU_SHINREIBYOU'):
 				return True
+			if gc.getInfoTypeForString('TECH_TUKI_NO_MIYAKO') <= eTech and eTech <= gc.getInfoTypeForString('TECH_KEINENOIRAI'):
+				return True
+		
+		#月の都
+		if iCiv == gc.getInfoTypeForString('CIVILIZATION_AMERICA'):
+			if gc.getInfoTypeForString('TECH_KOUMAKAN') <= eTech and eTech <= gc.getInfoTypeForString('TECH_MUGENNOTIKARA'):
+				return True
 			if gc.getInfoTypeForString('TECH_KEINENOIRAI') <= eTech and eTech <= gc.getInfoTypeForString('TECH_KEINENOIRAI'):
 				return True
-			
+		
 		#人間の里
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_INDIA'):
-			if gc.getInfoTypeForString('TECH_KOUMAKAN') <= eTech and eTech <= gc.getInfoTypeForString('TECH_MUGENNOTIKARA'):
+			if gc.getInfoTypeForString('TECH_KOUMAKAN') <= eTech and eTech <= gc.getInfoTypeForString('TECH_TUKI_NO_MIYAKO'):
 				return True
 		
 		##### </written by F> #####
@@ -1171,7 +1183,7 @@ class CvGameUtils:
 		pPlayer = gc.getPlayer(iPlayer)
 		pUnit = pPlayer.getUnit(iUnitID)
 		
-		if gc.getInfoTypeForString('UNIT_SANAE0') <=  iUnitTypeUpgrade and iUnitTypeUpgrade <= gc.getInfoTypeForString('UNIT_RAIKO6') and ( gc.getInfoTypeForString('UNITCOMBAT_BOSS') == pUnit.getUnitCombatType() or gc.getInfoTypeForString('UNITCOMBAT_STANDBY') == pUnit.getUnitCombatType()):
+		if gc.getInfoTypeForString('UNIT_SANAE0') <=  iUnitTypeUpgrade and iUnitTypeUpgrade <= gc.getInfoTypeForString('UNIT_SAGUME6') and ( gc.getInfoTypeForString('UNITCOMBAT_BOSS') == pUnit.getUnitCombatType() or gc.getInfoTypeForString('UNITCOMBAT_STANDBY') == pUnit.getUnitCombatType()):
 		
 			#アップグレードコストのリスト　ここの数字をいじればＵＧコストが変更可能
 			#以下のコストは、「そのユニットになるのに必要な金額」であり、
@@ -1248,6 +1260,12 @@ class CvGameUtils:
 						-1,  20,  20,  25,  40,  60, 90,   #正邪
 						-1,  20,  20,  25,  40,  60, 90,   #しんみょうまる
 						-1,  30,  40,  50,  60,  70, 100,   #雷鼓
+						-1,  40,  60,  80,  100,  150, 200,   #依姫※他東方ユニットよりUG費高め
+						-1,  40,  60,  80,  100,  150, 200,   #豊姫※他東方ユニットよりUG費高め
+						-1,  20,  20,  25,  40,  60, 90,   #せーらん
+						-1,  20,  20,  25,  40,  60, 90,   #おりんご
+						-1,  20,  20,  25,  40,  60, 90,   #どれみ
+						-1,  20,  20,  25,  40,  60, 90,   #サグメ
 						]
 			
 			#時代ごとのＵＧコスト補正　数字は％表記で、後半の時代ほど高額になる

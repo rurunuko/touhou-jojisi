@@ -1162,6 +1162,114 @@
 		<Japanese>[ICON_BULLET]連続戦闘が可能&#13;[ICON_BULLET]戦闘勝利時5%の確率で1ターンのみの黄金期が発生する</Japanese>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YORIHIME_SKILL1</Tag>
+		<English />
+		<French>依姫スキル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>依姫スキル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_YORIHIME_SKILL1_HELP</Tag>
+		<English />
+		<French>（仮）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>（仮）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOYOHIME_SKILL1</Tag>
+		<English />
+		<French>豊姫スキル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>豊姫スキル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOYOHIME_SKILL1_HELP</Tag>
+		<English />
+		<French>（仮）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>（仮）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SEIRAN_SKILL1</Tag>
+		<English />
+		<French>清蘭スキル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>清蘭スキル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SEIRAN_SKILL1_HELP</Tag>
+		<English />
+		<French>（仮）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>（仮）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RINGO_SKILL1</Tag>
+		<English />
+		<French>鈴瑚スキル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴瑚スキル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RINGO_SKILL1_HELP</Tag>
+		<English />
+		<French>（仮）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>（仮）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DOREMY_SKILL1</Tag>
+		<English />
+		<French>ドレミースキル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ドレミースキル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DOREMY_SKILL1_HELP</Tag>
+		<English />
+		<French>（仮）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>（仮）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SAGUME_SKILL1</Tag>
+		<English />
+		<French>サグメスキル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>サグメスキル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SAGUME_SKILL1_HELP</Tag>
+		<English />
+		<French>（仮）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>（仮）</Japanese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_TEMP_STACK_BONUS</Tag>
 		<English />
 		<French>スタックボーナス</French>

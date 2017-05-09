@@ -1044,4 +1044,60 @@
 		<Japanese>文化爆弾</Japanese>
 	</TEXT>
 <!-- KIshinjou Units End-->
+<!-- Tukinomiyako Units Start-->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_YORIHIME</Tag>
+		<English />
+		<French>綿月依姫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>綿月依姫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TOYOHIME</Tag>
+		<English />
+		<French>綿月豊姫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>綿月豊姫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SEIRAN</Tag>
+		<English />
+		<French>清蘭</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>清蘭</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RINGO</Tag>
+		<English />
+		<French>鈴瑚</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>鈴瑚</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DOREMY</Tag>
+		<English />
+		<French>ドレミー・スイート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ドレミー・スイート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SAGUME</Tag>
+		<English />
+		<French>稀神サグメ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>稀神サグメ</Japanese>
+	</TEXT>
+<!-- Tukinomiyako Units End-->
 </Civ4GameText>

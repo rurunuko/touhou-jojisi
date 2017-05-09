@@ -254,6 +254,16 @@ def init():
 			SpellInfo("SPELLCARD_SHINMYOUMARU1_1",req_SHINMYOUMARU1,spellcard_SHINMYOUMARU1,spellcard_SHINMYOUMARU1_Estimate,1.0,1,15),
 			SpellInfo("SPELLCARD_SHINMYOUMARU1_2",req_SHINMYOUMARU1,spellcard_SHINMYOUMARU1,spellcard_SHINMYOUMARU1_Estimate,1.0,16,255),
 			SpellInfo("SPELLCARD_RAIKO1_1",req_RAIKO1,spellcard_RAIKO1,spellcard_RAIKO1_Estimate,1.0,1,255),
+			SpellInfo("SPELLCARD_D1",req_RAIKO1,spellcard_RAIKO1,spellcard_RAIKO1_Estimate,1.0,1,255),
+			SpellInfo("SPELLCARD_D2",req_RAIKO1,spellcard_RAIKO1,spellcard_RAIKO1_Estimate,1.0,1,255),
+			SpellInfo("SPELLCARD_D3",req_RAIKO1,spellcard_RAIKO1,spellcard_RAIKO1_Estimate,1.0,1,255),
+			SpellInfo("SPELLCARD_D4",req_RAIKO1,spellcard_RAIKO1,spellcard_RAIKO1_Estimate,1.0,1,255),
+			SpellInfo("SPELLCARD_D5",req_RAIKO1,spellcard_RAIKO1,spellcard_RAIKO1_Estimate,1.0,1,255),
+			SpellInfo("SPELLCARD_D6",req_RAIKO1,spellcard_RAIKO1,spellcard_RAIKO1_Estimate,1.0,1,255),
+			SpellInfo("SPELLCARD_D7",req_RAIKO1,spellcard_RAIKO1,spellcard_RAIKO1_Estimate,1.0,1,255),
+			SpellInfo("SPELLCARD_D8",req_RAIKO1,spellcard_RAIKO1,spellcard_RAIKO1_Estimate,1.0,1,255),
+			SpellInfo("SPELLCARD_D9",req_RAIKO1,spellcard_RAIKO1,spellcard_RAIKO1_Estimate,1.0,1,255),
+			SpellInfo("SPELLCARD_D10",req_RAIKO1,spellcard_RAIKO1,spellcard_RAIKO1_Estimate,1.0,1,255),
 			
 			
 			SpellInfo("SPELL_SANAE_EXTRA1",req_SANAE_EXTRA1,spell_SANAE_EXTRA1),#                          ‚±‚±‚©‚çƒXƒyƒ‹
