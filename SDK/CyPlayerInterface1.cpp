@@ -457,6 +457,9 @@ void CyPlayerPythonInterface1(python::class_<CyPlayer>& x)
         .def("getNumMadeMyLove", &CyPlayer::getNumMadeMyLove, "void (int index , int iNum)")
         .def("setNumMadeMyLove", &CyPlayer::setNumMadeMyLove, "int (int index)")
         .def("resetGreatPeopleThreshold", &CyPlayer::resetGreatPeopleThreshold, "void (void)")
+		//ìåï˚èñéñéçìùçáMODóp
+		.def("setAmenouzumeFlag", &CyPlayer::setAmenouzumeFlag, "void (int iNum)")
+		.def("getAmenouzumeFlag", &CyPlayer::getAmenouzumeFlag, "int ()")
 		
 		;
 }

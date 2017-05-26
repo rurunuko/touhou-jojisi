@@ -97,6 +97,8 @@ CvPlayer::CvPlayer()
 	m_iAIPromotionRoute = 0;
 	m_iNumMyLove = 0;
 	m_iNumMadeMyLove = 0;
+	//東方叙事詩統合MOD追記
+	m_iAmenouzumeFlag = 0;
 
 /************************************************************************************************/
 /* AI_AUTO_PLAY_MOD                        09/01/07                                MRGENIE      */
@@ -7162,6 +7164,16 @@ void CvPlayer::revolution(CivicTypes* paeNewCivics, bool bForce)
 		return;
 	}
 
+//東方叙事詩・統合MOD追記
+// BUG - Revolution Event - start
+	CivicTypes* paeOldCivics = new CivicTypes[GC.getNumCivicOptionInfos()];
+
+	for (iI = 0; iI < GC.getNumCivicOptionInfos(); iI++)
+	{
+		paeOldCivics[iI] = getCivics(((CivicOptionTypes)iI));
+	}
+// BUG - Revolution Event - end
+
 	iAnarchyLength = getCivicAnarchyLength(paeNewCivics);
 
 	if (iAnarchyLength > 0)
@@ -7187,6 +7199,12 @@ void CvPlayer::revolution(CivicTypes* paeNewCivics, bool bForce)
 	{
 		gDLL->getInterfaceIFace()->setDirty(Popup_DIRTY_BIT, true); // to force an update of the civic chooser popup
 	}
+
+//東方叙事詩・統合MOD追記
+// BUG - Revolution Event - start
+	CvEventReporter::getInstance().playerRevolution(getID(), iAnarchyLength, paeOldCivics, paeNewCivics);
+	delete [] paeOldCivics;
+// BUG - Revolution Event - end
 }
 
 
@@ -15991,7 +16009,8 @@ void CvPlayer::read(FDataStreamBase* pStream)
     pStream->Read(&m_iAIPromotionRoute);
     pStream->Read(&m_iNumMyLove);
     pStream->Read(&m_iNumMadeMyLove);
-
+	//東方叙事詩統合MOD用
+	pStream->Read(&m_iAmenouzumeFlag);
 
 	pStream->Read(&m_bAlive);
 	pStream->Read(&m_bEverAlive);
@@ -16472,6 +16491,8 @@ void CvPlayer::write(FDataStreamBase* pStream)
     pStream->Write(m_iAIPromotionRoute);
     pStream->Write(m_iNumMyLove);
     pStream->Write(m_iNumMadeMyLove);
+	//東方叙事詩統合MOD用
+	pStream->Write(m_iAmenouzumeFlag);
 
 
 	pStream->Write(m_bAlive);
@@ -21953,5 +21974,19 @@ int CvPlayer::getNumMadeMyLove_const() const{
 void CvPlayer::resetGreatPeopleThreshold(){
 
     m_iGreatPeopleThresholdModifier = 0;
+
+}
+
+//東方叙事詩統合MOD用
+
+int CvPlayer::getAmenouzumeFlag(){
+
+	return m_iAmenouzumeFlag;
+
+}
+
+void CvPlayer::setAmenouzumeFlag(int iNum){
+
+	m_iAmenouzumeFlag = iNum;
 
 }

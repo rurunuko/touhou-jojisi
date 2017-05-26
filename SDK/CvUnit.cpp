@@ -72,6 +72,8 @@ CvUnit::CvUnit()
 	m_iNumPowerUpCombat=0;
 	m_iNumPowerUpSTG=0;
 	m_iNumPowerUpCAL=0;
+	//東方叙事詩・統合MOD用
+	m_iNumTurnPromo = 0;
 
 	promCom1 = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_COMBAT1");
     promCom2 = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_COMBAT2");
@@ -153,7 +155,7 @@ void CvUnit::init(int iID, UnitTypes eUnit, UnitAITypes eUnitAI, PlayerTypes eOw
 	iUnitName = GC.getGameINLINE().getUnitCreatedCount(getUnitType());
 	int iNumNames = m_pUnitInfo->getNumUnitNames();
 	if (iUnitName < iNumNames)
-    	{
+	{
 		int iOffset = GC.getGameINLINE().getSorenRandNum(iNumNames, "Unit name selection");
 
 		for (iI = 0; iI < iNumNames; iI++)
@@ -542,6 +544,8 @@ void CvUnit::convert(CvUnit* pUnit)
     m_iNumPowerUpCAL = pUnit->getNumPowerUp(3);
     //m_dOverflowPower = pUnit->m_dOverflowPower();
     //あふれ分は引継ぎなしで、とりあえずね
+	//東方叙事詩・統合MOD用
+	m_iNumTurnPromo = pUnit->getNumTurnPromo();
 
 	pUnit->kill(true);
 }
@@ -1179,6 +1183,10 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 					flankingStrikeCombat(pPlot, iAttackerStrength, iAttackerFirepower, iAttackerKillOdds, iDefenderDamage, pDefender);
 
 					changeExperience(GC.getDefineINT("EXPERIENCE_FROM_WITHDRAWL"), pDefender->maxXPValue(), true, pPlot->getOwnerINLINE() == getOwnerINLINE(), !pDefender->isBarbarian());
+//東方叙事詩・統合MOD追記
+// BUG - Combat Events - start
+					CvEventReporter::getInstance().combatRetreat(this, pDefender);
+// BUG - Combat Events - end
 					break;
 				}
 
@@ -1211,6 +1219,10 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 				{
 					changeExperience(GC.getDefineINT("EXPERIENCE_FROM_WITHDRAWL"), pDefender->maxXPValue(), true, pPlot->getOwnerINLINE() == getOwnerINLINE(), !pDefender->isBarbarian());
 					pDefender->setDamage(combatLimit(), getOwnerINLINE());
+//東方叙事詩・統合MOD追記
+// BUG - Combat Events - start
+					CvEventReporter::getInstance().combatWithdrawal(this, pDefender);
+// BUG - Combat Events - end
 					break;
 				}
 
@@ -3070,21 +3082,15 @@ bool CvUnit::canAutomate(AutomateTypes eAutomate) const
 	return true;
 }
 
-// void myprint(int i)
-// {
-//   FILE *fp = fopen("c:\\users\\li\\Documents\\log.txt" , "a");
-//   fprintf(fp, "eAutomate=%d\n", i);
-//   fclose(fp);
-// }
 
 void CvUnit::automate(AutomateTypes eAutomate)
 {
 	//東方叙事詩用
     CyArgsList argsList;
     CyUnit* pyUnit = new CyUnit(this);
-    //    myprint(eAutomate);
     if (eAutomate > 4)
 	{
+
             argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));	// pass in unit class
             argsList.add((int)eAutomate);
             gDLL->getPythonIFace()->callFunction(PYSpellModule, "SpellCast", argsList.makeFunctionArgs());
@@ -11915,6 +11921,9 @@ void CvUnit::read(FDataStreamBase* pStream)
 
     pStream->Read(&m_dPower);
     pStream->Read(&m_dOverflowPower);
+	
+	//東方叙事詩・統合MOD用
+	pStream->Read(&m_iNumTurnPromo);
 
     //控え用
     pStream->Read(&promCom1);
@@ -12054,6 +12063,9 @@ void CvUnit::write(FDataStreamBase* pStream)
 
     pStream->Write(m_dPower);
     pStream->Write(m_dOverflowPower);
+	
+	//東方叙事詩・統合MOD用
+	pStream->Write(m_iNumTurnPromo);
 
     //控え
     pStream->Write(promCom1);
@@ -12237,7 +12249,12 @@ void CvUnit::collateralCombat(const CvPlot* pPlot, CvUnit* pSkipUnit)
 
 				if (pBestUnit->getDamage() != iUnitDamage)
 				{
+//東方叙事詩・統合MOD追記
+// BUG - Combat Events - start
+					int iDamageDone = iUnitDamage - pBestUnit->getDamage();
 					pBestUnit->setDamage(iUnitDamage, getOwnerINLINE());
+					CvEventReporter::getInstance().combatLogCollateral(this, pBestUnit, iDamageDone);
+// BUG - Combat Events - end
 					iDamageCount++;
 				}
 			}
@@ -12319,6 +12336,10 @@ void CvUnit::flankingStrikeCombat(const CvPlot* pPlot, int iAttackerStrength, in
 		int iIndexHit = GC.getGameINLINE().getSorenRandNum(listFlankedUnits.size(), "Pick Flanked Unit");
 		CvUnit* pUnit = listFlankedUnits[iIndexHit].first;
 		int iDamage = listFlankedUnits[iIndexHit].second;
+//東方叙事詩・統合MOD追記
+// BUG - Combat Events - start
+		int iDamageDone = iDamage - pUnit->getDamage();
+// BUG - Combat Events - end
 		pUnit->setDamage(iDamage, getOwnerINLINE());
 		if (pUnit->isDead())
 		{
@@ -12329,6 +12350,10 @@ void CvUnit::flankingStrikeCombat(const CvPlot* pPlot, int iAttackerStrength, in
 
 			pUnit->kill(false); 
 		}
+//東方叙事詩・統合MOD追記
+// BUG - Combat Events - start
+		CvEventReporter::getInstance().combatLogFlanking(this, pUnit, iDamageDone);
+// BUG - Combat Events - end
 		
 		listFlankedUnits.erase(std::remove(listFlankedUnits.begin(), listFlankedUnits.end(), listFlankedUnits[iIndexHit]));
 	}
@@ -12612,6 +12637,12 @@ bool CvUnit::rangeStrike(int iX, int iY)
 		STGNum += 1;
 	if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SHOOTING_OPTION_MULTIPLESHOT")))
 		STGNum += 2;
+	if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_LUNATICGUN_LV3_TURN1")))
+		STGNum += 1;
+	if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_LUNATICGUN_LV3_TURN2")))
+		STGNum += 1;
+	if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_LUNATICGUN_LV3_TURN3")))
+		STGNum += 1;
 
 	double dDamage = 0; //与えたダメージ量の総和
 
@@ -12626,6 +12657,18 @@ bool CvUnit::rangeStrike(int iX, int iY)
 
 			int tempHitPercent = 0;
 			if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL")))
+				tempHitPercent += 30;
+			if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_LUNATICGUN_LV1")))
+				tempHitPercent += 10;
+			if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_LUNATICGUN_LV2_TURN1")))
+				tempHitPercent += 20;
+			if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_LUNATICGUN_LV2_TURN2")))
+				tempHitPercent += 20;
+			if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_LUNATICGUN_LV3_TURN1")))
+				tempHitPercent += 30;
+			if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_LUNATICGUN_LV3_TURN2")))
+				tempHitPercent += 30;
+			if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_LUNATICGUN_LV3_TURN3")))
 				tempHitPercent += 30;
 
 
@@ -12654,6 +12697,16 @@ bool CvUnit::rangeStrike(int iX, int iY)
 					STGAttack *= 1.7;
 				//if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL")))
 				//    STGAttack += 75;
+				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_LUNATICGUN_LV2_TURN1")))
+					STGAttack *= 1.3;
+				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_LUNATICGUN_LV2_TURN2")))
+					STGAttack *= 1.3;
+				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_LUNATICGUN_LV3_TURN1")))
+					STGAttack *= 1.5;
+				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_LUNATICGUN_LV3_TURN2")))
+					STGAttack *= 1.5;
+				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_LUNATICGUN_LV3_TURN3")))
+					STGAttack *= 1.5;
 				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_3WAYSHOT")))
 					STGAttack *= 0.7;
 				if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_5WAYSHOT")))
@@ -13700,6 +13753,12 @@ int CvUnit::countSpellTolerance() const{
         Tolerance += 25;
     if ( isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_BARRIER")) )
         Tolerance += 15;
+    if ( isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_YATANOKAGAMI_TURN1")) )
+        Tolerance += 30;
+    if ( isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_YATANOKAGAMI_TURN2")) )
+        Tolerance += 30;
+    if ( isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_YATANOKAGAMI_TURN3")) )
+        Tolerance += 30;
 
     //基本操作によるスタックへの耐性
     /*
@@ -14018,7 +14077,16 @@ void CvUnit::countCombatBonus(){
         temp += this->m_iSpecialNumber;
     if (this->getUnitType() == (UnitTypes)GC.getInfoTypeForString("UNIT_GREENEYEDMONSTER") )
         temp += this->m_iSpecialNumber;
-
+    if (this->getUnitType() == (UnitTypes)GC.getInfoTypeForString("UNIT_AURIC") )
+        temp += this->m_iSpecialNumber;
+    if (this->getUnitType() == (UnitTypes)GC.getInfoTypeForString("UNIT_SHUB-NIGGURATH") )
+        temp += this->m_iSpecialNumber;
+    if (this->getUnitType() == (UnitTypes)GC.getInfoTypeForString("UNIT_GREAT_RACE_OF_YITH") )
+        temp += this->m_iSpecialNumber;
+    if (this->getUnitType() == (UnitTypes)GC.getInfoTypeForString("UNIT_SPIRAL_KING") )
+        temp += this->m_iSpecialNumber;
+    if (this->getUnitType() == (UnitTypes)GC.getInfoTypeForString("UNIT_DEEPONE") )
+        temp += this->m_iSpecialNumber;
 
     //if (this->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_ZIKI")) )
     //    temp += 2;
@@ -14204,4 +14272,18 @@ int CvUnit::getNumPowerUp(int index){
         break;
     }
     return 0;
+}
+
+//東方叙事詩・統合MOD用
+
+void CvUnit::setNumTurnPromo(int iNum){
+
+    m_iNumTurnPromo = iNum;
+
+}
+
+int CvUnit::getNumTurnPromo(){
+
+    return m_iNumTurnPromo;
+
 }

@@ -2730,7 +2730,8 @@ int CvPlot::movementCost(const CvUnit* pUnit, const CvPlot* pFromPlot) const
 	}
 
 	//東方叙事詩用
-	//統合MOD追記：キャラクターマークでも海上移動力減少追加。その代わりスキルでの移動減少力も控えめに
+	//統合MOD追記：キャラクターマークでも海上移動コスト減少追加。その代わりスキルでの移動減少力も控えめに
+	//「旧支配者の一族」にも同等の性能を付与
 
 	if (pUnit->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_MINAMITSU"))){
         if (getPlotType() == PLOT_OCEAN){
@@ -2744,6 +2745,11 @@ int CvPlot::movementCost(const CvUnit* pUnit, const CvPlot* pFromPlot) const
         }
 	}
 
+	if (pUnit->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_CTHULHU_FAMILY"))){
+        if (getPlotType() == PLOT_OCEAN){
+            iRegularCost /= 2;
+        }
+	}
 
 	if (pFromPlot->isValidRoute(pUnit) && isValidRoute(pUnit) && ((GET_TEAM(pUnit->getTeam()).isBridgeBuilding() || !(pFromPlot->isRiverCrossing(directionXY(pFromPlot, this))))))
 	{

@@ -425,6 +425,9 @@ void CyUnitPythonInterface1(python::class_<CyUnit>& x)
         .def("getPower", &CyUnit::getPower, "double ()")
         .def("setNumPowerUp", &CyUnit::setNumPowerUp, "void (int index , int iNum)")
         .def("getNumPowerUp", &CyUnit::getNumPowerUp, "int (int index)")
+		//ìåï˚èñéñéçÅEìùçáMODóp
+		.def("setNumTurnPromo", &CyUnit::setNumTurnPromo, "void (int iNewNum)")
+		.def("getNumTurnPromo", &CyUnit::getNumTurnPromo, "int ()")
 
         .def("setNumSpellCardBreakTime", &CyUnit::setNumSpellCardBreakTime, "void (int iNum)")
         .def("getNumSpellCardBreakTime", &CyUnit::getNumSpellCardBreakTime, "int ()")

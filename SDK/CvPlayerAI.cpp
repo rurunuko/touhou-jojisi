@@ -501,13 +501,16 @@ void CvPlayerAI::AI_doTurnUnitsPost()
 										if ((pLoopUnit->getDomainType() != DOMAIN_LAND) || pLoopUnit->plot()->plotCount(PUF_isMilitaryHappiness, -1, -1, getID()) > 1)
 										{
 											//東方叙事詩用
-										    if (pLoopUnit->getUnitCombatType() != GC.getInfoTypeForString("UNITCOMBAT_BOSS") && pLoopUnit->getUnitCombatType() != GC.getInfoTypeForString("UNITCOMBAT_STANDBY") ){
-										        if ( pLoopUnit->getUnitType() < GC.getInfoTypeForString("UNIT_SHANGHAI_DOLL1") &&  GC.getInfoTypeForString("UNIT_SHANGHAI_DOLL6") < pLoopUnit->getUnitType()  ){
-                                                    pLoopUnit->kill(false);
-                                                    bKilled = true;
-                                                    pLastUpgradePlot = NULL;
-										        }
-										    }
+											//統合MOD追記・シュブ＝ニグラスから深きものどもも削除対象外に
+											if (pLoopUnit->getUnitCombatType() != GC.getInfoTypeForString("UNITCOMBAT_BOSS") && pLoopUnit->getUnitCombatType() != GC.getInfoTypeForString("UNITCOMBAT_STANDBY") ){
+												if ( pLoopUnit->getUnitType() < GC.getInfoTypeForString("UNIT_SHANGHAI_DOLL1") &&  GC.getInfoTypeForString("UNIT_SHANGHAI_DOLL6") < pLoopUnit->getUnitType()  ){
+													if ( pLoopUnit->getUnitType() < GC.getInfoTypeForString("UNIT_SHUB-NIGGURATH") &&  GC.getInfoTypeForString("UNIT_DEEPONE") < pLoopUnit->getUnitType()  ){
+														pLoopUnit->kill(false);
+														bKilled = true;
+														pLastUpgradePlot = NULL;
+													}
+												}
+											}
 										}
 									}
 								}

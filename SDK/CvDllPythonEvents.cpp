@@ -229,6 +229,89 @@ void CvDllPythonEvents::reportCombatResult(CvUnit* pWinner, CvUnit* pLoser)
 	}
 }
 
+//東方叙事詩・統合MOD追記
+// BUG - Combat Events - start
+void CvDllPythonEvents::reportCombatRetreat(CvUnit* pAttacker, CvUnit* pDefender)
+{
+	if (preEvent())
+	{
+		CyArgsList eventData;
+		eventData.add("combatRetreat");				// add key to lookup python handler fxn
+
+		CyUnit* pCyAttacker = new CyUnit(pAttacker);
+		eventData.add(gDLL->getPythonIFace()->makePythonObject(pCyAttacker));
+
+		CyUnit* pCyDefender = new CyUnit(pDefender);
+		eventData.add(gDLL->getPythonIFace()->makePythonObject(pCyDefender));
+
+		postEvent(eventData);
+		delete pCyDefender;
+		delete pCyAttacker;
+	}
+}
+
+void CvDllPythonEvents::reportCombatWithdrawal(CvUnit* pAttacker, CvUnit* pDefender)
+{
+	if (preEvent())
+	{
+		CyArgsList eventData;
+		eventData.add("combatWithdrawal");			// add key to lookup python handler fxn
+
+		CyUnit* pCyAttacker = new CyUnit(pAttacker);
+		eventData.add(gDLL->getPythonIFace()->makePythonObject(pCyAttacker));
+
+		CyUnit* pCyDefender = new CyUnit(pDefender);
+		eventData.add(gDLL->getPythonIFace()->makePythonObject(pCyDefender));
+
+		postEvent(eventData);
+		delete pCyDefender;
+		delete pCyAttacker;
+	}
+}
+
+void CvDllPythonEvents::reportCombatLogCollateral(CvUnit* pAttacker, CvUnit* pDefender, int iDamage)
+{
+	if (preEvent())
+	{
+		CyArgsList eventData;
+		eventData.add("combatLogCollateral");		// add key to lookup python handler fxn
+
+		CyUnit* pCyAttacker = new CyUnit(pAttacker);
+		eventData.add(gDLL->getPythonIFace()->makePythonObject(pCyAttacker));
+
+		CyUnit* pCyDefender = new CyUnit(pDefender);
+		eventData.add(gDLL->getPythonIFace()->makePythonObject(pCyDefender));
+
+		eventData.add(iDamage);
+
+		postEvent(eventData);
+		delete pCyDefender;
+		delete pCyAttacker;
+	}
+}
+
+void CvDllPythonEvents::reportCombatLogFlanking(CvUnit* pAttacker, CvUnit* pDefender, int iDamage)
+{
+	if (preEvent())
+	{
+		CyArgsList eventData;
+		eventData.add("combatLogFlanking");			// add key to lookup python handler fxn
+
+		CyUnit* pCyAttacker = new CyUnit(pAttacker);
+		eventData.add(gDLL->getPythonIFace()->makePythonObject(pCyAttacker));
+
+		CyUnit* pCyDefender = new CyUnit(pDefender);
+		eventData.add(gDLL->getPythonIFace()->makePythonObject(pCyDefender));
+
+		eventData.add(iDamage);
+
+		postEvent(eventData);
+		delete pCyDefender;
+		delete pCyAttacker;
+	}
+}
+// BUG - Combat Events - end
+
 void CvDllPythonEvents::reportImprovementBuilt(int iImprovementType, int iX, int iY)
 {
 	if (preEvent())
@@ -1135,6 +1218,25 @@ void CvDllPythonEvents::reportPlayerGoldTrade(PlayerTypes eFromPlayer, PlayerTyp
 		postEvent(eventData);
 	}
 }
+
+//東方叙事詩・統合MOD追記
+// BUG - Revolution Event - start
+void CvDllPythonEvents::reportPlayerRevolution(PlayerTypes ePlayerID, int iAnarchyLength, CivicTypes* paeOldCivics, CivicTypes* paeNewCivics)
+{
+	if (preEvent())
+	{
+		CyArgsList eventData;
+		eventData.add("playerRevolution");			// add key to lookup python handler fxn
+
+		eventData.add((int)ePlayerID);
+		eventData.add(iAnarchyLength);
+		eventData.add((const int*)paeOldCivics, GC.getNumCivicOptionInfos());
+		eventData.add((const int*)paeNewCivics, GC.getNumCivicOptionInfos());
+
+		postEvent(eventData);
+	}
+}
+// BUG - Revolution Event - end
 
 void CvDllPythonEvents::reportGenericEvent(const char* szEventName, void *pyArgs)
 {

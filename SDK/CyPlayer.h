@@ -523,6 +523,9 @@ public:
 	int getNumMadeMyLove();
 	void setNumMadeMyLove(int iNum);
 	void resetGreatPeopleThreshold();
+	//“Œ•û––“‡MOD—p
+	int getAmenouzumeFlag();
+	void setAmenouzumeFlag(int iNum);
 
 private:
 	CvPlayer* m_pPlayer;

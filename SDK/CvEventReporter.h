@@ -49,6 +49,13 @@ public:
 
 	void firstContact(TeamTypes eTeamID1, TeamTypes eTeamID2);						
 	void combatResult(CvUnit* pWinner, CvUnit* pLoser);					
+//東方叙事詩・統合MOD追記
+// BUG - Combat Events - start
+	void combatRetreat(CvUnit* pAttacker, CvUnit* pDefender);
+	void combatWithdrawal(CvUnit* pAttacker, CvUnit* pDefender);
+	void combatLogCollateral(CvUnit* pAttacker, CvUnit* pDefender, int iDamage);
+	void combatLogFlanking(CvUnit* pAttacker, CvUnit* pDefender, int iDamage);
+// BUG - Combat Events - end
 	void improvementBuilt(int iImprovementType, int iX, int iY);	
 	void improvementDestroyed(int iImprovementType, int iPlayer, int iX, int iY);	
 	void routeBuilt(int iRouteType, int iX, int iY);	
@@ -113,6 +120,10 @@ public:
 	void setPlayerAlive( PlayerTypes ePlayerID, bool bNewValue );
 	void playerChangeStateReligion(PlayerTypes ePlayerID, ReligionTypes eNewReligion, ReligionTypes eOldReligion);
 	void playerGoldTrade(PlayerTypes eFromPlayer, PlayerTypes eToPlayer, int iAmount);
+//東方叙事詩・統合MOD追記
+// BUG - Revolution Event - start
+	void playerRevolution(PlayerTypes ePlayerID, int iAnarchyLength, CivicTypes* paeOldCivics, CivicTypes* paeNewCivics);
+// BUG - Revolution Event - end
 
 	DllExport void chat(CvWString szString);		
 
