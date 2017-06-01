@@ -1448,7 +1448,7 @@ class CvMainInterface:
 
 		##### <written by F> #####
 		#ƒXƒyƒ‹‚Ì‰Šú‰»ˆ—
-		SpellInfo.init()
+		SpellInfo.init_force()
 		##### </written by F> #####
 
 		# This is the main interface screen, create it as such
