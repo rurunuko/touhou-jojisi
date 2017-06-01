@@ -10,6 +10,8 @@ import CvScreenEnums
 import CvGameUtils
 import re
 
+import SpellInfo
+
 # globals
 gc = CyGlobalContext()
 ArtFileMgr = CyArtFileMgr()
@@ -381,8 +383,11 @@ class CvPediaTohoUnit:
 		self.SpellDic = {}
 		for i in range(len(self.SpellList)):
 			self.SpellDic[gc.getInfoTypeForString(self.SpellList[i][0])] = self.SpellList[i][1]
-		
-		
+
+		# for 統合叙事詩 17.06
+		# 初期化されてなければここでも仮初期化
+		# ゲーム開始前にペディア開く人用
+		SpellInfo.init()
 		
 		self.SortList = []
 		tempNum = 0;
@@ -698,12 +703,14 @@ class CvPediaTohoUnit:
 		#スペカ
 		screen.addPanel(self.SpellPanel[0], localText.getText("TXT_KEY_PEDIA_CATEGORY_TOHOUNIT_SPELL_CARD", ()), "", true, true, self.X_SPELL_CARD, self.Y_SPELL_CARD, self.W_SPELL_CARD, self.H_SPELL_CARD, PanelStyles.PANEL_STYLE_BLUE50 )
 		szText = ""
+		spellName = ""
 		for Spell in self.SpellDic[self.iUnit][0]:
 			if Spell[0] <= self.CAL and self.CAL <= Spell[1]:
 				szText = szText + "\n\n<color=254,140,50,254>" + localText.getText( "TXT_KEY_SPELLCARD_" + Spell[2], ()) + "</color>\n"
 				tempText = "TXT_KEY_SPELLCARD_" + Spell[3] + "_HELP"
 				szText = szText + localText.getText(tempText, ())
-		szText = self.TextToInt(szText[2:])
+				spellName = "SPELLCARD_" + Spell[3]
+		szText = self.TextToInt(szText[2:], spellName)
 		screen.addMultilineText(self.SpellPanel[1], szText , self.X_SPELL_CARD+5, self.Y_SPELL_CARD+30, self.W_SPELL_CARD-10, self.H_SPELL_CARD-35, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)	
 
 		
@@ -715,7 +722,7 @@ class CvPediaTohoUnit:
 			szText = szText + "\n\n<color=255,140,50,255>" + localText.getText(Spell, ()) + "</color>\n"
 			tempText = Spell + "_HELP"
 			szText = szText + localText.getText(tempText, ())
-		szText = self.TextToInt(szText[2:])
+		szText = self.TextToInt(szText[2:], Spell)
 			
 		screen.addMultilineText(self.SpellPanel[3], szText , self.X_SPELL_EXTRA+5, self.Y_SPELL_EXTRA+30, self.W_SPELL_EXTRA-10, self.H_SPELL_EXTRA-35, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)	
 
@@ -728,30 +735,35 @@ class CvPediaTohoUnit:
 			szText = szText + "\n\n<color=255,140,50,255>" + localText.getText(Spell, ()) + "</color>\n"
 			tempText = Spell + "_HELP"
 			szText = szText + localText.getText(tempText, ())
-		szText = self.TextToInt(szText[2:])
+		szText = self.TextToInt(szText[2:], Spell)
 			
 		screen.addMultilineText(self.SpellPanel[5], szText , self.X_SPELL_PHANTASM+5, self.Y_SPELL_PHANTASM+30, self.W_SPELL_PHANTASM-10, self.H_SPELL_PHANTASM-35, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)	
 
 		
 		
-		
-	
+		    
 	#[***]の置換
-	def TextToInt(self,szText):
-		match = re.compile(r"\[...\]")
-		match3 = re.compile("%")
-		match4 = re.compile("@@")
-		searchList = match.findall(szText)
-		searchList2 = match3.findall(szText)
-		for str in searchList2:
-			szText = match3.sub("@@",szText,1)
-		for str in searchList:
-			match2 = re.compile(str[1:4])
-			szText = match2.sub("%d",szText,1)
-			szText = szText % gc.getTextToSpellInt(str[1:4].encode("utf-8"),self.CAL)
-		for str in searchList2:
-			szText = match4.sub("%",szText,1)
+	def TextToInt(self,szText,spellName):
+
+		# 置換関数
+		def ctoi(m):
+			s = m.group(0)
 			
+			if s[1:3] == "ps":
+				CvGameUtils.doprint("ctoi:" + s[3:-1])
+				CvGameUtils.doprint("ctoi:" + spellName)
+				Spells = filter(lambda s: s.getName()==spellName, SpellInfo.getSpells())
+				if Spells:
+					spell = Spells[0]
+					i = spell.getHelpText(s[3:-1],None)
+					return "[%d]" % i
+			else:
+				i = gc.getTextToSpellInt(s[1:-1].encode("utf-8"),self.CAL)
+				return "[%d]" % i
+
+		#本体
+		match = re.compile(r"\[.{3,10}\]")
+		szText = match.sub(ctoi, szText)
 		return szText
 	
 	

@@ -4755,7 +4755,7 @@
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]特殊地形改善「小人たちの借り暮らし」を設置する&#13;[ICON_BULLET]「小人たちの借り暮らし」は都市タイル・水タイル以外の全ての場所に張ることができて、官吏取得以降に灌漑を通す&#13;[ICON_BULLET]術者のCALが高いほど地形改善の出力も向上する&#13;[ICON_BULLET]CAレベルが1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
+		<Japanese>[ICON_BULLET]特殊地形改善「小人たちの借り暮らし」を設置する&#13;[ICON_BULLET]「小人たちの借り暮らし」は都市タイル・水タイル以外の全ての場所に張ることができて、官吏取得以降に灌漑を通す&#13;[ICON_BULLET]術者のCALが高いほど地形改善の出力も向上する&#13;[ICON_BULLET]CAレベルが1上昇&#13;[ICON_BULLET]Power1.00が必要&#13;[ICON_BULLET]かもかも:[ps001]</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SHINMYOUMARU_EXTRA1</Tag>

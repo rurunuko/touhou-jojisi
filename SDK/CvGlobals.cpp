@@ -20,6 +20,10 @@
 #include "FVariableSystem.h"
 #include "CvInitCore.h"
 
+#include "CyUnit.h"
+
+#include "CyArgsList.h"
+
 #define COPY(dst, src, typeName) \
 	{ \
 		int iNum = sizeof(src)/sizeof(typeName); \
@@ -3581,51 +3585,29 @@ void CvGlobals::setPlotGroupFinder(FAStar* pVal) { m_plotGroupFinder = pVal; }
 CvDLLUtilityIFaceBase* CvGlobals::getDLLIFaceNonInl() { return m_pDLL; }
 
 
-
 //東方叙事詩用
-int CvGlobals::getTextToSpellInt(const char* szText,const int CAL,const CvUnit* pUnit) const
+int CvGlobals::getTextToSpellInt(const char* szText,const int CAL,CvUnit* pUnit, int eAutomate) const
 {
-
-    wchar tempBuf[5] = L"";
+	char *endstr;
     int output = 0;
-    wchar* endstr;
 
-    for (int j=0;j<3;j++){
-        if (szText[j] == 's'){
-            tempBuf[j] = L's';
-        }else if (szText[j] == 'z'){
-            tempBuf[j] = L'z';
-        }else if (szText[j] == 'w'){
-            tempBuf[j] = L'w';
-        }else if (szText[j] == '1'){
-            tempBuf[j] = L'1';
-        }else if (szText[j] == '2'){
-            tempBuf[j] = L'2';
-        }else if (szText[j] == '3'){
-            tempBuf[j] = L'3';
-        }else if (szText[j] == '4'){
-            tempBuf[j] = L'4';
-        }else if (szText[j] == '5'){
-            tempBuf[j] = L'5';
-        }else if (szText[j] == '6'){
-            tempBuf[j] = L'6';
-        }else if (szText[j] == '7'){
-            tempBuf[j] = L'7';
-        }else if (szText[j] == '8'){
-            tempBuf[j] = L'8';
-        }else if (szText[j] == '9'){
-            tempBuf[j] = L'9';
-        }else if (szText[j] == '0'){
-            tempBuf[j] = L'0';
-        }else{
-            tempBuf[j] = L'0';
-        }
-    }
-    tempBuf[3] = L'\0';
+	if(szText[0] == 'p') //Pythonに向かってぶんなげる
+	{
+		CyArgsList argsList;
+		argsList.add(szText+1); //先頭のpは抜く
+		CyUnit *pyUnit = new CyUnit(pUnit);
+		argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));
+		argsList.add(eAutomate);
+		long l = 0l;
+		gDLL->getPythonIFace()->callFunction("SpellInterface", "getTextToSpellInt", argsList.makeFunctionArgs(), &l);
+		output = static_cast<int>(l);
+	}
+	
+	// そのうちこれ以降の子たちもPython側に投げてしまいたいが
+	// とりあえず維持してブラッシュアップだけする
+    else if(szText[0] == 's'){ //召還系用
 
-    if(tempBuf[0] == L's'){ //召還系用
-
-        if(tempBuf[1] == L'z'){ //
+        if(szText[1] == 'z'){ //
 
             output = CAL;
             if(output<17){
@@ -3640,7 +3622,7 @@ int CvGlobals::getTextToSpellInt(const char* szText,const int CAL,const CvUnit* 
             else{
                 output = 24;
             }
-            output *= wcstol(&tempBuf[2],&endstr,10);
+            output *= strtol(szText+2,&endstr,10);
         }
         else{
 
@@ -3657,15 +3639,15 @@ int CvGlobals::getTextToSpellInt(const char* szText,const int CAL,const CvUnit* 
             else{
                 output = 24;
             }
-            output += wcstol(&tempBuf[1],&endstr,10);
+            output += strtol(szText+1,&endstr,10);
         }
 
     }
-    else if(tempBuf[0] == L'z'){ //その他
+    else if(szText[0] == 'z'){ //その他
 
         double iZombieCount = 0;
 
-        switch( wcstol(&tempBuf[1],&endstr,10) ){
+        switch( strtol(szText+1,&endstr,10) ){
         case 1: //魔理沙スペカ
             output = (CAL - 8 ) *5;
             break;
@@ -3784,14 +3766,17 @@ int CvGlobals::getTextToSpellInt(const char* szText,const int CAL,const CvUnit* 
 		}
            
     }
-    else if(tempBuf[0] == L'w'){ //10の位で割って１の位を足す
-        output = CAL / (wcstol(&tempBuf[1],&endstr,10)/10) + wcstol(&tempBuf[2],&endstr,10);
-
+    else if(szText[0] == L'w'){ //10の位で割って１の位を足す
+		char s[4];
+		strncpy(s, szText, 3);
+		s[3] = '\0';
+        output = CAL / (strtol(s+1,&endstr,10)/10) + strtol(s+2,&endstr,10);
     }
     else{ //ダメージ系用  [abc] ab + c*CAL
-
-        output = wcstol(&tempBuf[0],&endstr,10)/10 + wcstol(&tempBuf[2],&endstr,10)*CAL;
-
+		char s[4];
+		strncpy(s, szText, 3);
+		s[3] = '\0';
+        output = strtol(s,&endstr,10)/10 + strtol(s+2,&endstr,10)*CAL;
     }
 
 
