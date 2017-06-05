@@ -4397,6 +4397,82 @@
       </AudioRunSounds>
     </UnitArtInfo>
     <UnitArtInfo>
+      <Type>ART_DEF_UNIT_LANDFILLER</Type>
+      <Button>Art/Interface/Buttons/terraforming/terraform_landfill.dds</Button>
+      <fScale>0.4</fScale>
+      <fInterfaceScale>0.9</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Tanker/landfiller.nif</NIF>
+      <KFM>Art/Units/Transport/Transport.kfm</KFM>
+      <SHADERNIF />
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop>LOOPSTEP_TRANSPORT</AudioRunTypeLoop>
+        <AudioRunTypeEnd>ENDSTEP_TRANSPORT</AudioRunTypeEnd>
+      </AudioRunSounds>
+      <SelectionSound>AS3D_UN_WRK_BOAT_MOD_FORT</SelectionSound>
+      <ActionSound>AS3D_UN_WRK_BOAT_MOD_FORT</ActionSound>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_ICEBREAKER</Type>
+      <Button>Art/Interface/Buttons/terraforming/terraform_crushice.dds</Button>
+      <fScale>0.75</fScale>
+      <fInterfaceScale>0.5</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Icebreaker/merchantship.nif</NIF>
+      <KFM>Art/Units/Transport/Transport.kfm</KFM>
+      <SHADERNIF />
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop>LOOPSTEP_TRANSPORT</AudioRunTypeLoop>
+        <AudioRunTypeEnd>ENDSTEP_TRANSPORT</AudioRunTypeEnd>
+      </AudioRunSounds>
+      <SelectionSound>AS3D_UN_WRK_BOAT_MOD_FORT</SelectionSound>
+      <ActionSound>AS3D_UN_WRK_BOAT_MOD_FORT</ActionSound>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_OCEANIWORKER</Type>
+      <Button>Art/Interface/Buttons/terraforming/terraform_oceanization.dds</Button>
+      <fScale>0.44</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/heavyworker/heavy.nif</NIF>
+      <KFM>Art/Units/AntiTankInfantry/AntiTankInfantry.kfm</KFM>
+      <SHADERNIF>Art/Units/heavyworker/heavy.nif</SHADERNIF>
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
       <Type>ART_DEF_UNIT_LION</Type>
       <Button>,Art/Interface/Buttons/Units/Lion.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,5</Button>
       <fScale>0.61</fScale>

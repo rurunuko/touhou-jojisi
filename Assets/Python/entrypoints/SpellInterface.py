@@ -19,6 +19,8 @@ def SpellCast(argsList):
 
 	pUnit,iNum = argsList
 	
+	#Spell = SpellInfo.spells[iNum-5]
+	#CvGameUtils.doprint(Spell.getName())
 	name = gc.getAutomateInfo(iNum).getType()
 	CvGameUtils.doprint(name)
 	Spell = filter(lambda s: s.getName()==name, SpellInfo.spells)[0] #Œ©‚Â‚©‚é‘O’ñ

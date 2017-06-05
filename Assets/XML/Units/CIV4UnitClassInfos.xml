@@ -6194,5 +6194,32 @@
       <iInstanceCostModifier>0</iInstanceCostModifier>
       <DefaultUnit>UNIT_TACTICAL_UTSUHO_2</DefaultUnit>
     </UnitClassInfo>
+    <UnitClassInfo>
+      <Type>UNITCLASS_LANDFILLER</Type>
+      <Description>TXT_KEY_UNIT_LANDFILLER</Description>
+      <iMaxGlobalInstances>-1</iMaxGlobalInstances>
+      <iMaxTeamInstances>-1</iMaxTeamInstances>
+      <iMaxPlayerInstances>-1</iMaxPlayerInstances>
+      <iInstanceCostModifier>0</iInstanceCostModifier>
+      <DefaultUnit>UNIT_LANDFILLER</DefaultUnit>
+    </UnitClassInfo>
+    <UnitClassInfo>
+      <Type>UNITCLASS_ICEBREAKER</Type>
+      <Description>TXT_KEY_UNIT_ICEBREAKER</Description>
+      <iMaxGlobalInstances>-1</iMaxGlobalInstances>
+      <iMaxTeamInstances>-1</iMaxTeamInstances>
+      <iMaxPlayerInstances>-1</iMaxPlayerInstances>
+      <iInstanceCostModifier>0</iInstanceCostModifier>
+      <DefaultUnit>UNIT_ICEBREAKER</DefaultUnit>
+    </UnitClassInfo>
+    <UnitClassInfo>
+      <Type>UNITCLASS_OCEANIWORKER</Type>
+      <Description>TXT_KEY_UNIT_OCEANIWORKER</Description>
+      <iMaxGlobalInstances>-1</iMaxGlobalInstances>
+      <iMaxTeamInstances>-1</iMaxTeamInstances>
+      <iMaxPlayerInstances>-1</iMaxPlayerInstances>
+      <iInstanceCostModifier>0</iInstanceCostModifier>
+      <DefaultUnit>UNIT_OCEANIWORKER</DefaultUnit>
+    </UnitClassInfo>
   </UnitClassInfos>
 </Civ4UnitClassInfos>

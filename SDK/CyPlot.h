@@ -178,9 +178,11 @@ public:
 	bool isHills();
 	bool isPeak();
 
-	void setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGraphics);
+	//東方叙事詩・統合MOD追記
+	void setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGraphics, bool bSpellReclaim);
 	int /*TerrainTypes*/ getTerrainType();
-	void setTerrainType(int /*TerrainTypes*/ eNewValue, bool bRecalculate, bool bRebuildGraphics);
+	//東方叙事詩・統合MOD追記
+	void setTerrainType(int /*TerrainTypes*/ eNewValue, bool bRecalculate, bool bRebuildGraphics, bool bSpellReclaim);
 	int /*FeatureTypes*/ getFeatureType();
 	void setFeatureType(int /*FeatureTypes*/ eNewValue, int iVariety);
 	void setFeatureDummyVisibility(std::string dummyTag, bool show); 

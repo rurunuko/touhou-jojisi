@@ -584,6 +584,11 @@ class CvEventManager:
 				#輝針城
 				if iCiv == gc.getInfoTypeForString('CIVILIZATION_MALI'):
 					pTeam.setHasTech(gc.getInfoTypeForString('TECH_JAKUSYANORAKUEN'),True,i,True,True)
+				
+				#月の都
+				if iCiv == gc.getInfoTypeForString('CIVILIZATION_AMERICA'):
+					pTeam.setHasTech(gc.getInfoTypeForString('TECH_MOON_WAR_FIRST'),True,i,True,True)
+
 			
 		##### </written by F> #####
 		
@@ -610,7 +615,7 @@ class CvEventManager:
 					pPlot.setNumCirnoFreeze( pPlot.getNumCirnoFreeze()-1 )
 					if pPlot.getNumCirnoFreeze() <= 0: #溶けきったら
 						if pPlot.getNumUnits() == 0:
-							pPlot.setTerrainType( pPlot.getOriginalTerrain(),True,True )
+							pPlot.setTerrainType( pPlot.getOriginalTerrain(),True,True,False )
 							pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_NONE'),1)
 							pPlot.setBonusType( pPlot.getOriginalBounu() )
 						else:
@@ -745,7 +750,7 @@ class CvEventManager:
 			pPlot = pUnit.plot()
 			if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_DESERT') and pPlot.getFeatureType() != gc.getInfoTypeForString('FEATURE_OASIS') and pPlot.getFeatureType() != gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
 				if pUnit.getDamage() == 0:
-					pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
+					pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
 					pUnit.changeDamage(40,pUnit.getOwner())
 			if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
 				pUnit.changeDamage(-40,pUnit.getOwner())
@@ -857,6 +862,14 @@ class CvEventManager:
 					newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DRILL4'),True)
 		
 		#統合MOD追記部分
+		
+		#おりんごのスキルがあれば同スタックを回復15％
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RINGO_SKILL1')):
+			pPlot = pUnit.plot()
+			iNumUnit = pPlot.getNumUnits()
+			for i in range(iNumUnit):
+				pPlot.getUnit(i).changeDamage(-30,iPlayer)
+		
 		#萃香とさとり（コピー時）の変身処理
 		#オリジナルから多少処理を変える
 		
@@ -2108,6 +2121,7 @@ class CvEventManager:
 			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_BYAKUREN_SKILL1')) or
 			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_YOSHIKA_SKILL1')) or
 			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RAIKO_SKILL1')) or
+			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_YORIHIME_SKILL1')) or
 			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MISSING_POWER_EASY')) or
 			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MISSING_POWER_NORMAL')) or
 			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MISSING_POWER_HARD')) or
@@ -2599,20 +2613,55 @@ class CvEventManager:
 						newUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),False )
 						newUnit.finishMoves()
 		
+		#どれみスキルを持っている場合、味方ユニットに夢オチ付与
+		if pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_DOREMY_SKILL1')):
+			pPlot = gc.getMap().plot(pWinner.getX(),pWinner.getY())
+			for i in range(pPlot.getNumUnits()):
+				if gc.getGame().getSorenRandNum(100, "Yumeoti") < 10:
+					if pPlot.getUnit(i).getUnitCombatType() != gc.getInfoTypeForString("UNITCOMBAT_STANDBY") and pPlot.getUnit(i).getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+						pPlot.getUnit(i).setHasPromotion(gc.getInfoTypeForString('PROMOTION_DOREMY_YUMEOTI'),True)
+		
+		#サグメスキルを持っている場合、サグメのUG段階に応じて探知型機雷発生
+		if pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SAGUME_SKILL1')):
+			iPlayer = pWinner.getOwner()
+			pPlayer = gc.getPlayer(iPlayer)
+			iX = pWinner.getX()
+			iY = pWinner.getY()
+			if gc.getGame().getSorenRandNum(100, "Tantigata kirai") < 15:
+				if pWinner.getUnitType() == gc.getInfoTypeForString('UNIT_SAGUME1') or \
+				pWinner.getUnitType() == gc.getInfoTypeForString('UNIT_SAGUME2'):
+					newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_TANTIGATA_KIRAI_2'), iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+				
+				if pWinner.getUnitType() == gc.getInfoTypeForString('UNIT_SAGUME3') or \
+				pWinner.getUnitType() == gc.getInfoTypeForString('UNIT_SAGUME4'):
+					newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_TANTIGATA_KIRAI_3'), iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+				
+				if pWinner.getUnitType() == gc.getInfoTypeForString('UNIT_SAGUME5') or \
+				pWinner.getUnitType() == gc.getInfoTypeForString('UNIT_SAGUME6'):
+					newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_TANTIGATA_KIRAI_4'), iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+		
+		#戦闘勝利時Power回復
+		#以後このPower回復は基本的に一部東方ユニットのキャラクタースキルもしくは特性で
+		if pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SAGUME_SKILL1')) or \
+		pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_PATCHOULI_SKILL1')) or \
+		pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MARISA_SKILL1')) or \
+		pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_BYAKUREN_SKILL1')):
+			pWinner.setPower(pWinner.getPower() + 0.03)
+		
 		
 		#統合MOD追記部分ここまで
 		
 		#それぞれのユニットによるPower回復を計算
-		WinnerTohoUnitList = Functions.searchTeamTohoUnit(pWinner.plot(),pWinner)
-		for i in range(len(WinnerTohoUnitList)):
-			WinnerTohoUnitList[i].setPower( WinnerTohoUnitList[i].getPower() + (0.01 / len(WinnerTohoUnitList)) )
-		
-		LoserTohoUnitList = Functions.searchTeamTohoUnit(pLoser.plot(),pLoser)
-		for i in range(len(LoserTohoUnitList)):
-			LoserTohoUnitList[i].setPower( LoserTohoUnitList[i].getPower() + (0.003 / len(LoserTohoUnitList)) )
-		
-		if pWinner.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
-			pWinner.setPower(pWinner.getPower() + 0.03)
+		#WinnerTohoUnitList = Functions.searchTeamTohoUnit(pWinner.plot(),pWinner)
+		#for i in range(len(WinnerTohoUnitList)):
+		#	WinnerTohoUnitList[i].setPower( WinnerTohoUnitList[i].getPower() + (0.01 / len(WinnerTohoUnitList)) )
+		#
+		#LoserTohoUnitList = Functions.searchTeamTohoUnit(pLoser.plot(),pLoser)
+		#for i in range(len(LoserTohoUnitList)):
+		#	LoserTohoUnitList[i].setPower( LoserTohoUnitList[i].getPower() + (0.003 / len(LoserTohoUnitList)) )
+		#
+		#if pWinner.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+		#	pWinner.setPower(pWinner.getPower() + 0.03)
 
 		
 		##### </written by F> #####
@@ -2702,6 +2751,43 @@ class CvEventManager:
 	def onImprovementBuilt(self, argsList):
 		'Improvement Built'
 		iImprovement, iX, iY = argsList
+		
+		#東方叙事詩・統合MOD追記
+		#月の都テラフォーミング処理
+		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN_COMPLETE')):
+			pPlot = CyMap().plot(iX, iY)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setImprovementType(-1)
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_PLAIN_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/plains.dds',ColorTypes(11),iX,iY,True,True)
+		
+		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS_COMPLETE')):
+			pPlot = CyMap().plot(iX, iY)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setImprovementType(-1)
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_GRASS_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(11),iX,iY,True,True)
+		
+		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_HILL_COMPLETE')):
+			pPlot = CyMap().plot(iX, iY)
+			pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+			pPlot.setImprovementType(-1)
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_HILL_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/hill.dds',ColorTypes(11),iX,iY,True,True)
+		
+		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FLATLAND_COMPLETE')):
+			pPlot = CyMap().plot(iX, iY)
+			pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+			pPlot.setImprovementType(-1)
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_FLATLAND_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(11),iX,iY,True,True)
+		
+		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FOREST_COMPLETE')):
+			pPlot = CyMap().plot(iX, iY)
+			pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_REGENERATION_FOREST'), 1)
+			pPlot.setImprovementType(-1)
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_FOREST_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/terrainfeatures/forest.dds',ColorTypes(11),iX,iY,True,True)
+		
+		
+		
+		#東方叙事詩・統合MOD追記ここまで
+		
 		if (not self.__LOG_IMPROVEMENT):
 			return
 		CvUtil.pyPrint('Improvement %s was built at %d, %d'
@@ -2888,6 +2974,21 @@ class CvEventManager:
 				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_STONEHENGE'),0)
 				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BENBEN_STONEHENGE'),1)
 		
+		#月読神社を建設した都市の周囲2マス圏内に農場および保安林があったら変換させる
+		if iBuildingType == gc.getInfoTypeForString('BUILDING_TSUKUYOMI_SHRINE'):
+			pTeam = gc.getTeam(pPlayer.getTeam())
+			iX = pCity.getX()
+			iY = pCity.getY()
+			for iiX in range(iX-2,iX+3):
+				for iiY in range(iY-2,iY+3):
+					if Functions.isPlot(iiX,iiY):
+						pPlot = gc.getMap().plot(iiX,iiY)
+						if pPlayer.getTeam() == pPlot.getTeam():
+							if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_FARM'):
+								pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_MARS_FARM'))
+							if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_FOREST_PRESERVE'):
+								pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_MOONBASE'))
+	
 		#統合MOD追記部分ここまで
 
 		CvAdvisorUtils.buildingBuiltFeats(pCity, iBuildingType)
@@ -3313,7 +3414,15 @@ class CvEventManager:
 				newUnit1.changeDamage(99,iPlayer)
 				newUnit1.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI1'),False)
 			
-			
+		#夢オチを持っている場合、体力50％の状態で復活
+		elif unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_DOREMY_YUMEOTI')):
+			if gc.getGame().getSorenRandNum(100, "Yumeoti Hukkatu") < 25:
+				newUnit1 = pPlayer.initUnit(iUnit, unit.getX(), unit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+				Functions.RevivalUnit(newUnit1,unit)
+				iPlayer = unit.getOwner()
+				newUnit1.changeDamage(50,iPlayer)
+				newUnit1.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DOREMY_YUMEOTI'),False)
+		
 			
 		#復活の昇進をもっていればその場で復活　さらに行動可能
 		elif unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_REVIVAL')):
@@ -3441,6 +3550,10 @@ class CvEventManager:
 					
 				#てんこスキルがあれば100%カット
 				if unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TENSHI_SKILL1')):
+					iExpHosei = iExpHosei - 100
+				
+				#どれみスキルがあれば100%カット
+				if unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_DOREMY_SKILL1')):
 					iExpHosei = iExpHosei - 100
 					
 				if iExpHosei < 0:
@@ -4462,8 +4575,8 @@ class CvEventManager:
 		#かなこの志向があれば平原丘に
 		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_KANAKOLIST')):
 			if city.isCapital():
-				city.plot().setPlotType(PlotTypes.PLOT_HILLS,True,True)
-				city.plot().setTerrainType(gc.getInfoTypeForString("TERRAIN_PLAINS"),True,True)
+				city.plot().setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+				city.plot().setTerrainType(gc.getInfoTypeForString("TERRAIN_PLAINS"),True,True,False)
 		
 		#小傘の固有志向があればさでずむが立つ　自分で建設した以外の都市では、ターンが経過するたつようになる
 		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_KOGASALIST')):

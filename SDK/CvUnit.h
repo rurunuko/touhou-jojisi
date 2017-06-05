@@ -971,6 +971,7 @@ protected:
     int promCom6;// = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_COMBAT6");
     int promComS;// = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STACK_BONUS");
     int promComSTG;// = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL");
+    int promComRNG;// = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL");
 };
 
 #endif

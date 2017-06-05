@@ -752,6 +752,10 @@
           <FeatureType>FEATURE_FOREST</FeatureType>
           <bMakesValid>1</bMakesValid>
         </FeatureMakesValid>
+        <FeatureMakesValid>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <bMakesValid>1</bMakesValid>
+        </FeatureMakesValid>
       </FeatureMakesValids>
       <ImprovementPillage />
       <ImprovementUpgrade />
@@ -2786,6 +2790,10 @@
           <FeatureType>FEATURE_FOREST</FeatureType>
           <bMakesValid>1</bMakesValid>
         </FeatureMakesValid>
+        <FeatureMakesValid>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <bMakesValid>1</bMakesValid>
+        </FeatureMakesValid>
       </FeatureMakesValids>
       <ImprovementPillage />
       <ImprovementUpgrade />
@@ -3771,6 +3779,307 @@
       <RouteYieldChanges />
       <bGraphicalOnly>0</bGraphicalOnly>
     </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_TUKI_NO_MIYAKO_COTTAGE</Type>
+      <Description>TXT_KEY_IMPROVEMENT_TUKI_NO_MIYAKO_COTTAGE</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_TUKI_NO_MIYAKO_COTTAGE_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_TUKI_NO_MIYAKO_COTTAGE</ArtDefineTag>
+      <PrereqNatureYields>
+        <iYield>1</iYield>
+        <iYield>0</iYield>
+        <iYield>0</iYield>
+      </PrereqNatureYields>
+      <YieldChanges>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>1</iYieldChange>
+      </YieldChanges>
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>1</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <iAdvancedStartCost>24</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>10</iUpgradeTime>
+      <iAirBombDefense>5</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>10</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids>
+        <TerrainMakesValid>
+          <TerrainType>TERRAIN_GRASS</TerrainType>
+          <bMakesValid>1</bMakesValid>
+        </TerrainMakesValid>
+        <TerrainMakesValid>
+          <TerrainType>TERRAIN_PLAINS</TerrainType>
+          <bMakesValid>1</bMakesValid>
+        </TerrainMakesValid>
+      </TerrainMakesValids>
+      <FeatureMakesValids>
+        <FeatureMakesValid>
+          <FeatureType>FEATURE_FOREST</FeatureType>
+          <bMakesValid>1</bMakesValid>
+        </FeatureMakesValid>
+        <FeatureMakesValid>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <bMakesValid>1</bMakesValid>
+        </FeatureMakesValid>
+      </FeatureMakesValids>
+      <ImprovementPillage />
+      <ImprovementUpgrade>IMPROVEMENT_TUKI_NO_MIYAKO_HAMLET</ImprovementUpgrade>
+      <TechYieldChanges />
+      <RouteYieldChanges />
+      <bGraphicalOnly>0</bGraphicalOnly>
+    </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_TUKI_NO_MIYAKO_HAMLET</Type>
+      <Description>TXT_KEY_IMPROVEMENT_TUKI_NO_MIYAKO_HAMLET</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_TUKI_NO_MIYAKO_HAMLET_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_TUKI_NO_MIYAKO_HAMLET</ArtDefineTag>
+      <YieldChanges>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>2</iYieldChange>
+      </YieldChanges>
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <iAdvancedStartCost>-1</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>20</iUpgradeTime>
+      <iAirBombDefense>5</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>15</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <ImprovementPillage>IMPROVEMENT_TUKI_NO_MIYAKO_COTTAGE</ImprovementPillage>
+      <ImprovementUpgrade>IMPROVEMENT_TUKI_NO_MIYAKO_VILLAGE</ImprovementUpgrade>
+      <TechYieldChanges>
+        <TechYieldChange>
+          <PrereqTech>TECH_HAKUREINODENTOU</PrereqTech>
+          <TechYields>
+            <iYield>0</iYield>
+            <iYield>0</iYield>
+            <iYield>1</iYield>
+          </TechYields>
+        </TechYieldChange>
+      </TechYieldChanges>
+      <RouteYieldChanges />
+      <bGraphicalOnly>0</bGraphicalOnly>
+    </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_TUKI_NO_MIYAKO_VILLAGE</Type>
+      <Description>TXT_KEY_IMPROVEMENT_TUKI_NO_MIYAKO_VILLAGE</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_TUKI_NO_MIYAKO_VILLAGE_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_TUKI_NO_MIYAKO_VILLAGE</ArtDefineTag>
+      <YieldChanges>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>3</iYieldChange>
+      </YieldChanges>
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <iAdvancedStartCost>-1</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>40</iUpgradeTime>
+      <iAirBombDefense>5</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>20</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <ImprovementPillage>IMPROVEMENT_TUKI_NO_MIYAKO_HAMLET</ImprovementPillage>
+      <ImprovementUpgrade>IMPROVEMENT_TUKI_NO_MIYAKO_TOWN</ImprovementUpgrade>
+      <TechYieldChanges>
+        <TechYieldChange>
+          <PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
+          <TechYields>
+            <iYield>0</iYield>
+            <iYield>0</iYield>
+            <iYield>1</iYield>
+          </TechYields>
+        </TechYieldChange>
+        <TechYieldChange>
+          <PrereqTech>TECH_HAKUREINODENTOU</PrereqTech>
+          <TechYields>
+            <iYield>0</iYield>
+            <iYield>0</iYield>
+            <iYield>1</iYield>
+          </TechYields>
+        </TechYieldChange>
+      </TechYieldChanges>
+      <RouteYieldChanges />
+      <bGraphicalOnly>0</bGraphicalOnly>
+    </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_TUKI_NO_MIYAKO_TOWN</Type>
+      <Description>TXT_KEY_IMPROVEMENT_TUKI_NO_MIYAKO_TOWN</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_TUKI_NO_MIYAKO_TOWN_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_TUKI_NO_MIYAKO_TOWN</ArtDefineTag>
+      <YieldChanges>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>4</iYieldChange>
+      </YieldChanges>
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <iAdvancedStartCost>-1</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>0</iUpgradeTime>
+      <iAirBombDefense>5</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>25</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <ImprovementPillage>IMPROVEMENT_TUKI_NO_MIYAKO_VILLAGE</ImprovementPillage>
+      <ImprovementUpgrade />
+      <TechYieldChanges>
+        <TechYieldChange>
+          <PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
+          <TechYields>
+            <iYield>0</iYield>
+            <iYield>0</iYield>
+            <iYield>1</iYield>
+          </TechYields>
+        </TechYieldChange>
+      </TechYieldChanges>
+      <RouteYieldChanges />
+      <bGraphicalOnly>0</bGraphicalOnly>
+    </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_TUKI_NO_MIYAKO_QUARRY</Type>
+      <Description>TXT_KEY_IMPROVEMENT_TUKI_NO_MIYAKO_QUARRY</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_TUKI_NO_MIYAKO_QUARRY_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_TUKI_NO_MIYAKO_QUARRY</ArtDefineTag>
+      <YieldChanges>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>2</iYieldChange>
+      </YieldChanges>
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <iAdvancedStartCost>36</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>0</iUpgradeTime>
+      <iAirBombDefense>10</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>5</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <BonusTypeStructs>
+        <BonusTypeStruct>
+          <BonusType>BONUS_MARBLE</BonusType>
+          <bBonusMakesValid>1</bBonusMakesValid>
+          <bBonusTrade>1</bBonusTrade>
+          <iDiscoverRand>0</iDiscoverRand>
+          <YieldChanges>
+            <iYieldChange>0</iYieldChange>
+            <iYieldChange>1</iYieldChange>
+            <iYieldChange>2</iYieldChange>
+          </YieldChanges>
+        </BonusTypeStruct>
+        <BonusTypeStruct>
+          <BonusType>BONUS_STONE</BonusType>
+          <bBonusMakesValid>1</bBonusMakesValid>
+          <bBonusTrade>1</bBonusTrade>
+          <iDiscoverRand>0</iDiscoverRand>
+          <YieldChanges>
+            <iYieldChange>0</iYieldChange>
+            <iYieldChange>2</iYieldChange>
+            <iYieldChange>0</iYieldChange>
+          </YieldChanges>
+        </BonusTypeStruct>
+      </BonusTypeStructs>
+      <ImprovementPillage />
+      <ImprovementUpgrade />
+      <TechYieldChanges />
+      <RouteYieldChanges>
+        <RouteYieldChange>
+          <RouteType>ROUTE_RAILROAD</RouteType>
+          <RouteYields>
+            <iYield>0</iYield>
+            <iYield>1</iYield>
+            <iYield>0</iYield>
+          </RouteYields>
+        </RouteYieldChange>
+      </RouteYieldChanges>
+      <bGraphicalOnly>0</bGraphicalOnly>
+    </ImprovementInfo>
     <!-- Special Improvement-->
     <ImprovementInfo>
       <Type>IMPROVEMENT_RYUKETU</Type>
@@ -4426,6 +4735,550 @@
           </RouteYields>
         </RouteYieldChange>
       </RouteYieldChanges>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_MARS_FARM</Type>
+      <Description>TXT_KEY_IMPROVEMENT_MARS_FARM</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_FARM_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_FARM</ArtDefineTag>
+      <PrereqNatureYields>
+        <iYield>1</iYield>
+        <iYield>0</iYield>
+        <iYield>0</iYield>
+      </PrereqNatureYields>
+      <YieldChanges>
+        <iYieldChange>1</iYieldChange>
+        <iYieldChange>1</iYieldChange>
+        <iYieldChange>1</iYieldChange>
+      </YieldChanges>
+      <IrrigatedYieldChange>
+        <iYield>1</iYield>
+        <iYield>0</iYield>
+        <iYield>0</iYield>
+      </IrrigatedYieldChange>
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>1</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>1</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>1</bRequiresIrrigation>
+      <bCarriesIrrigation>1</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <bUseLSystem>1</bUseLSystem>
+      <iAdvancedStartCost>-1</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>0</iUpgradeTime>
+      <iAirBombDefense>5</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>5</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <BonusTypeStructs>
+        <BonusTypeStruct>
+          <BonusType>BONUS_CORN</BonusType>
+          <bBonusMakesValid>1</bBonusMakesValid>
+          <bBonusTrade>1</bBonusTrade>
+          <iDiscoverRand>0</iDiscoverRand>
+          <YieldChanges>
+            <iYieldChange>2</iYieldChange>
+            <iYieldChange>0</iYieldChange>
+            <iYieldChange>0</iYieldChange>
+          </YieldChanges>
+        </BonusTypeStruct>
+        <BonusTypeStruct>
+          <BonusType>BONUS_RICE</BonusType>
+          <bBonusMakesValid>1</bBonusMakesValid>
+          <bBonusTrade>1</bBonusTrade>
+          <iDiscoverRand>0</iDiscoverRand>
+          <YieldChanges>
+            <iYieldChange>1</iYieldChange>
+            <iYieldChange>0</iYieldChange>
+            <iYieldChange>0</iYieldChange>
+          </YieldChanges>
+        </BonusTypeStruct>
+        <BonusTypeStruct>
+          <BonusType>BONUS_WHEAT</BonusType>
+          <bBonusMakesValid>1</bBonusMakesValid>
+          <bBonusTrade>1</bBonusTrade>
+          <iDiscoverRand>0</iDiscoverRand>
+          <YieldChanges>
+            <iYieldChange>2</iYieldChange>
+            <iYieldChange>0</iYieldChange>
+            <iYieldChange>0</iYieldChange>
+          </YieldChanges>
+        </BonusTypeStruct>
+      </BonusTypeStructs>
+      <ImprovementPillage />
+      <ImprovementUpgrade />
+      <TechYieldChanges>
+        <TechYieldChange>
+          <PrereqTech>TECH_BIOLOGY</PrereqTech>
+          <TechYields>
+            <iYield>1</iYield>
+            <iYield>0</iYield>
+            <iYield>0</iYield>
+          </TechYields>
+        </TechYieldChange>
+        <TechYieldChange>
+          <PrereqTech>TECH_MORIYANOOUKOKU</PrereqTech>
+          <TechYields>
+            <iYield>0</iYield>
+            <iYield>2</iYield>
+            <iYield>0</iYield>
+          </TechYields>
+        </TechYieldChange>
+      </TechYieldChanges>
+      <RouteYieldChanges />
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_MOONBASE</Type>
+      <Description>TXT_KEY_IMPROVEMENT_MOONBASE</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_FOREST_PRESERVE_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_FOREST_PRESERVE</ArtDefineTag>
+      <YieldChanges>
+        <iYieldChange>1</iYieldChange>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>0</iYieldChange>
+      </YieldChanges>
+      <RiverSideYieldChange>
+        <iYield>0</iYield>
+        <iYield>0</iYield>
+        <iYield>1</iYield>
+      </RiverSideYieldChange>
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>1</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <bUseLSystem>1</bUseLSystem>
+      <iAdvancedStartCost>-1</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>64</iFeatureGrowth>
+      <iUpgradeTime>0</iUpgradeTime>
+      <iAirBombDefense>20</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>2</iHappiness>
+      <iPillageGold>0</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <ImprovementPillage />
+      <ImprovementUpgrade />
+      <TechYieldChanges />
+      <RouteYieldChanges />
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </ImprovementInfo>
+    <!--Terraforming-->
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_TERRAFORM_PLAIN</Type>
+      <Description>TXT_KEY_IMPROVEMENT_TERRAFORM_PLAIN</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_TERRAFORM_PLAIN</ArtDefineTag>
+      <YieldChanges />
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <bUseLSystem>0</bUseLSystem>
+      <iAdvancedStartCost>-1</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>6</iUpgradeTime>
+      <iAirBombDefense>5</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>0</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <ImprovementPillage />
+      <ImprovementUpgrade>IMPROVEMENT_TERRAFORM_PLAIN_COMPLETE</ImprovementUpgrade>
+      <TechYieldChanges />
+      <RouteYieldChanges />
+      <bGraphicalOnly>0</bGraphicalOnly>
+    </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_TERRAFORM_GRASS</Type>
+      <Description>TXT_KEY_IMPROVEMENT_TERRAFORM_GRASS</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_TERRAFORM_GRASS</ArtDefineTag>
+      <YieldChanges />
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <bUseLSystem>0</bUseLSystem>
+      <iAdvancedStartCost>-1</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>6</iUpgradeTime>
+      <iAirBombDefense>5</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>0</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <ImprovementPillage />
+      <ImprovementUpgrade>IMPROVEMENT_TERRAFORM_GRASS_COMPLETE</ImprovementUpgrade>
+      <TechYieldChanges />
+      <RouteYieldChanges />
+      <bGraphicalOnly>0</bGraphicalOnly>
+    </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_TERRAFORM_HILL</Type>
+      <Description>TXT_KEY_IMPROVEMENT_TERRAFORM_HILL</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_TERRAFORM_HILL</ArtDefineTag>
+      <YieldChanges />
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <bUseLSystem>0</bUseLSystem>
+      <iAdvancedStartCost>-1</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>6</iUpgradeTime>
+      <iAirBombDefense>5</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>0</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <ImprovementPillage />
+      <ImprovementUpgrade>IMPROVEMENT_TERRAFORM_HILL_COMPLETE</ImprovementUpgrade>
+      <TechYieldChanges />
+      <RouteYieldChanges />
+      <bGraphicalOnly>0</bGraphicalOnly>
+    </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_TERRAFORM_FLATLAND</Type>
+      <Description>TXT_KEY_IMPROVEMENT_TERRAFORM_FLATLAND</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_TERRAFORM_GRASS</ArtDefineTag>
+      <YieldChanges />
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <bUseLSystem>0</bUseLSystem>
+      <iAdvancedStartCost>-1</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>6</iUpgradeTime>
+      <iAirBombDefense>5</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>0</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <ImprovementPillage />
+      <ImprovementUpgrade>IMPROVEMENT_TERRAFORM_FLATLAND_COMPLETE</ImprovementUpgrade>
+      <TechYieldChanges />
+      <RouteYieldChanges />
+      <bGraphicalOnly>0</bGraphicalOnly>
+    </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_TERRAFORM_FOREST</Type>
+      <Description>TXT_KEY_IMPROVEMENT_TERRAFORM_FOREST</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_TERRAFORM_FOREST</ArtDefineTag>
+      <YieldChanges />
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <bUseLSystem>0</bUseLSystem>
+      <iAdvancedStartCost>-1</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>6</iUpgradeTime>
+      <iAirBombDefense>5</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>0</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <ImprovementPillage />
+      <ImprovementUpgrade>IMPROVEMENT_TERRAFORM_FOREST_COMPLETE</ImprovementUpgrade>
+      <TechYieldChanges />
+      <RouteYieldChanges />
+      <bGraphicalOnly>0</bGraphicalOnly>
+    </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_TERRAFORM_PLAIN_COMPLETE</Type>
+      <Description>TXT_KEY_IMPROVEMENT_TERRAFORM_PLAIN_COMPLETE</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_TERRAFORM_PLAIN</ArtDefineTag>
+      <YieldChanges />
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <bUseLSystem>0</bUseLSystem>
+      <iAdvancedStartCost>-1</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>0</iUpgradeTime>
+      <iAirBombDefense>5</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>0</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <ImprovementPillage />
+      <ImprovementUpgrade />
+      <TechYieldChanges />
+      <RouteYieldChanges />
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_TERRAFORM_GRASS_COMPLETE</Type>
+      <Description>TXT_KEY_IMPROVEMENT_TERRAFORM_GRASS_COMPLETE</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_TERRAFORM_GRASS</ArtDefineTag>
+      <YieldChanges />
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <bUseLSystem>0</bUseLSystem>
+      <iAdvancedStartCost>-1</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>0</iUpgradeTime>
+      <iAirBombDefense>5</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>0</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <ImprovementPillage />
+      <ImprovementUpgrade />
+      <TechYieldChanges />
+      <RouteYieldChanges />
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_TERRAFORM_HILL_COMPLETE</Type>
+      <Description>TXT_KEY_IMPROVEMENT_TERRAFORM_HILL_COMPLETE</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_TERRAFORM_HILL</ArtDefineTag>
+      <YieldChanges />
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <bUseLSystem>0</bUseLSystem>
+      <iAdvancedStartCost>-1</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>0</iUpgradeTime>
+      <iAirBombDefense>5</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>0</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <ImprovementPillage />
+      <ImprovementUpgrade />
+      <TechYieldChanges />
+      <RouteYieldChanges />
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_TERRAFORM_FLATLAND_COMPLETE</Type>
+      <Description>TXT_KEY_IMPROVEMENT_TERRAFORM_FLATLAND_COMPLETE</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_TERRAFORM_GRASS</ArtDefineTag>
+      <YieldChanges />
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <bUseLSystem>0</bUseLSystem>
+      <iAdvancedStartCost>-1</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>0</iUpgradeTime>
+      <iAirBombDefense>5</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>0</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <ImprovementPillage />
+      <ImprovementUpgrade />
+      <TechYieldChanges />
+      <RouteYieldChanges />
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </ImprovementInfo>
+    <ImprovementInfo>
+      <Type>IMPROVEMENT_TERRAFORM_FOREST_COMPLETE</Type>
+      <Description>TXT_KEY_IMPROVEMENT_TERRAFORM_FOREST_COMPLETE</Description>
+      <Civilopedia>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Civilopedia>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_TERRAFORM_FOREST</ArtDefineTag>
+      <YieldChanges />
+      <bActsAsCity>0</bActsAsCity>
+      <bHillsMakesValid>0</bHillsMakesValid>
+      <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+      <bRiverSideMakesValid>0</bRiverSideMakesValid>
+      <bNoFreshWater>0</bNoFreshWater>
+      <bRequiresFlatlands>0</bRequiresFlatlands>
+      <bRequiresRiverSide>0</bRequiresRiverSide>
+      <bRequiresIrrigation>0</bRequiresIrrigation>
+      <bCarriesIrrigation>0</bCarriesIrrigation>
+      <bRequiresFeature>0</bRequiresFeature>
+      <bWater>0</bWater>
+      <bGoody>0</bGoody>
+      <bPermanent>0</bPermanent>
+      <bUseLSystem>0</bUseLSystem>
+      <iAdvancedStartCost>-1</iAdvancedStartCost>
+      <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+      <iTilesPerGoody>0</iTilesPerGoody>
+      <iGoodyRange>0</iGoodyRange>
+      <iFeatureGrowth>0</iFeatureGrowth>
+      <iUpgradeTime>0</iUpgradeTime>
+      <iAirBombDefense>5</iAirBombDefense>
+      <iDefenseModifier>0</iDefenseModifier>
+      <iHappiness>0</iHappiness>
+      <iPillageGold>0</iPillageGold>
+      <bOutsideBorders>0</bOutsideBorders>
+      <TerrainMakesValids />
+      <FeatureMakesValids />
+      <ImprovementPillage />
+      <ImprovementUpgrade />
+      <TechYieldChanges />
+      <RouteYieldChanges />
       <bGraphicalOnly>1</bGraphicalOnly>
     </ImprovementInfo>
   </ImprovementInfos>

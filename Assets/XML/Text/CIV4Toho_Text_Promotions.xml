@@ -194,11 +194,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_PATCHOULI_SKILL1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]戦闘勝利時に倒した相手のゴーレムを生成する&#13;[ICON_BULLET]東方ユニットには効果なし</French>
+		<French>[ICON_BULLET]戦闘勝利時Power回復&#13;[ICON_BULLET]戦闘勝利時に倒した相手のゴーレムを生成する&#13;[ICON_BULLET]東方ユニットには効果なし</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]戦闘勝利時に倒した相手のゴーレムを生成する&#13;[ICON_BULLET]東方ユニットには効果なし</Japanese>
+		<Japanese>[ICON_BULLET]戦闘勝利時Power回復&#13;[ICON_BULLET]戦闘勝利時に倒した相手のゴーレムを生成する&#13;[ICON_BULLET]東方ユニットには効果なし</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_MEIRIN_SKILL1</Tag>
@@ -1284,11 +1284,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_MARISA_SKILL1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]戦闘勝利時に敵の昇進を盗む&#13;[ICON_BULLET]「判定見切り」取得前までは昇進を盗む確率は半減</French>
+		<French>[ICON_BULLET]戦闘勝利時Power回復&#13;[ICON_BULLET]戦闘勝利時に敵の昇進を盗む&#13;[ICON_BULLET]「判定見切り」取得前までは昇進を盗む確率は半減</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]戦闘勝利時に敵の昇進を盗む&#13;[ICON_BULLET]「判定見切り」取得前までは昇進を盗む確率は半減</Japanese>
+		<Japanese>[ICON_BULLET]戦闘勝利時Power回復&#13;[ICON_BULLET]戦闘勝利時に敵の昇進を盗む&#13;[ICON_BULLET]「判定見切り」取得前までは昇進を盗む確率は半減</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_ALICE_SKILL1</Tag>
@@ -2109,11 +2109,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_BYAKUREN_SKILL1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]連続戦闘が可能。&#13;[ICON_BULLET]自分のHPを50%回復するスペルを使用可能</French>
+		<French>[ICON_BULLET]戦闘勝利時Power回復&#13;[ICON_BULLET]連続戦闘が可能。&#13;[ICON_BULLET]自分のHPを50%回復するスペルを使用可能</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]連続戦闘が可能。&#13;[ICON_BULLET]自分のHPを50%回復するスペルを使用可能</Japanese>
+		<Japanese>[ICON_BULLET]戦闘勝利時Power回復&#13;[ICON_BULLET]連続戦闘が可能。&#13;[ICON_BULLET]自分のHPを50%回復するスペルを使用可能</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_NUE_SKILL1</Tag>
@@ -2700,110 +2700,110 @@
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_YORIHIME_SKILL1</Tag>
 		<English />
-		<French>依姫スキル</French>
+		<French>降神『天手力雄神』</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>依姫スキル</Japanese>
+		<Japanese>降神『天手力雄神』</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_YORIHIME_SKILL1_HELP</Tag>
 		<English />
-		<French>（仮）</French>
+		<French>[ICON_BULLET]連続戦闘が可能&#13;[ICON_BULLET]スペル：降神『邇邇芸命』が発動可能&#13;[ICON_BULLET]降神『邇邇芸命』…自身の体力を50％回復</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>（仮）</Japanese>
+		<Japanese>[ICON_BULLET]連続戦闘が可能&#13;[ICON_BULLET]スペル：降神『邇邇芸命』が発動可能&#13;[ICON_BULLET]降神『邇邇芸命』…自身の体力を50％回復</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_TOYOHIME_SKILL1</Tag>
 		<English />
-		<French>豊姫スキル</French>
+		<French>フリーダムなお姫様</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>豊姫スキル</Japanese>
+		<Japanese>フリーダムなお姫様</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_TOYOHIME_SKILL1_HELP</Tag>
 		<English />
-		<French>（仮）</French>
+		<French>[ICON_BULLET]スペル：月の密偵が発動可能&#13;[ICON_BULLET]スペル：海と山の紡ぎ手EXが発動可能&#13;[ICON_BULLET]月の密偵に特別奇襲と歩哨の昇進が付く&#13;[ICON_BULLET]海と山の紡ぎ手EX…月の密偵がいるタイルに豊姫本人が単体で移動する</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>（仮）</Japanese>
+		<Japanese>[ICON_BULLET]スペル：月の密偵が発動可能&#13;[ICON_BULLET]スペル：海と山の紡ぎ手EXが発動可能&#13;[ICON_BULLET]月の密偵に特別奇襲と歩哨の昇進が付く&#13;[ICON_BULLET]海と山の紡ぎ手EX…月の密偵がいるタイルに豊姫本人が単体で移動する</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SEIRAN_SKILL1</Tag>
 		<English />
-		<French>清蘭スキル</French>
+		<French>カウンターバレット</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>清蘭スキル</Japanese>
+		<Japanese>カウンターバレット</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SEIRAN_SKILL1_HELP</Tag>
 		<English />
-		<French>（仮）</French>
+		<French>[ICON_BULLET]砲撃回避+25%</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>（仮）</Japanese>
+		<Japanese>[ICON_BULLET]砲撃回避+25%</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_RINGO_SKILL1</Tag>
 		<English />
-		<French>鈴瑚スキル</French>
+		<French>後方支援</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>鈴瑚スキル</Japanese>
+		<Japanese>後方支援</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_RINGO_SKILL1_HELP</Tag>
 		<English />
-		<French>（仮）</French>
+		<French>[ICON_BULLET]同じスクウェアのユニットを無条件に回復+15%&#13;[ICON_BULLET]部隊戦闘力+15%</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>（仮）</Japanese>
+		<Japanese>[ICON_BULLET]同じスクウェアのユニットを無条件に回復+15%&#13;[ICON_BULLET]部隊戦闘力+15%</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_DOREMY_SKILL1</Tag>
 		<English />
-		<French>ドレミースキル</French>
+		<French>夢喰い</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>ドレミースキル</Japanese>
+		<Japanese>夢喰い</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_DOREMY_SKILL1_HELP</Tag>
 		<English />
-		<French>（仮）</French>
+		<French>[ICON_BULLET]倒されたときの経験値ペナルティ-100%&#13;[ICON_BULLET]戦闘勝利時同スタック内の味方ユニット（ボスユニットは除く）に10%の確率で昇進「夢オチ」を与える&#13;[ICON_BULLET]夢オチ…敗北時25％の確率でその場で復活する</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>（仮）</Japanese>
+		<Japanese>[ICON_BULLET]倒されたときの経験値ペナルティ-100%&#13;[ICON_BULLET]戦闘勝利時同スタック内の味方ユニット（ボスユニットは除く）に10%の確率で昇進「夢オチ」を与える&#13;[ICON_BULLET]夢オチ…敗北時25％の確率でその場で復活する</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SAGUME_SKILL1</Tag>
 		<English />
-		<French>サグメスキル</French>
+		<French>ホイールオブフォーチュン</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>サグメスキル</Japanese>
+		<Japanese>ホイールオブフォーチュン</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SAGUME_SKILL1_HELP</Tag>
 		<English />
-		<French>（仮）</French>
+		<French>[ICON_BULLET]戦闘勝利時Power回復&#13;[ICON_BULLET]戦闘勝利時15%の確率で「穢身探知型機雷」を召喚する&#13;[ICON_BULLET]召喚される穢身探知型機雷はサグメ自身のUG段階に依存</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>（仮）</Japanese>
+		<Japanese>[ICON_BULLET]戦闘勝利時Power回復&#13;[ICON_BULLET]戦闘勝利時15%の確率で「穢身探知型機雷」を召喚する&#13;[ICON_BULLET]召喚される穢身探知型機雷はサグメ自身のUG段階に依存</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_YATANOKAGAMI</Tag>
@@ -2923,6 +2923,42 @@
 		<Japanese>[ICON_BULLET]1ターンに移動力分だけ遠距離攻撃が出来る&#13;[ICON_BULLET]使用してもスペル発動済み昇進がつかない&#13;[ICON_BULLET]次ターン開始時に消去</Japanese>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HALLOWEEN_FEVER</Tag>
+		<English />
+		<French>ハロウィンフィーバー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ハロウィンフィーバー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HALLOWEEN_FEVER_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]「ハロウィンフィーバー」使用後に除去される</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]「ハロウィンフィーバー」使用後に除去される</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DANGO_FEVER</Tag>
+		<English />
+		<French>ダンゴフィーバー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ダンゴフィーバー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DANGO_FEVER_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]「ダンゴフィーバー」使用後に除去される</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]「ダンゴフィーバー」使用後に除去される</Japanese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_CTHULHU_FAMILY</Tag>
 		<English />
 		<French>旧支配者の一族</French>
@@ -2957,6 +2993,42 @@
 		<Italian />
 		<Spanish />
 		<Japanese>[ICON_BULLET]敵対ユニットを撃破した時、20％の確率で「深きものども」を自軍に加える&#13;[ICON_BULLET]「深きものども」は時代に応じて戦闘力が変化する</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DOREMY_YUMEOTI</Tag>
+		<English />
+		<French>夢オチ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>夢オチ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DOREMY_YUMEOTI_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]敗北した時25％の確率で復活する&#13;[ICON_BULLET]復活時は戦闘力50％の状態で復活する&#13;[ICON_BULLET]復活後にこの昇進は消去される</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]敗北した時25％の確率で復活する&#13;[ICON_BULLET]復活時は戦闘力50％の状態で復活する&#13;[ICON_BULLET]復活後にこの昇進は消去される</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_JIBAKU</Tag>
+		<English />
+		<French>自爆</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>自爆</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_JIBAKU_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]特殊スペル「自爆」を発動出来るようになる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]特殊スペル「自爆」を発動出来るようになる</Japanese>
 	</TEXT>
 <!-- Tukinomiyako Promotions End-->
 <!-- Character Marks Start-->

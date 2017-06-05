@@ -124,6 +124,8 @@ def req_Spell(bTestVisible,caster,sPromotion,sStartUnit,sEndUnit,cost=0):
 					return True
 				if sPromotion == 'PROMOTION_BYAKUREN_SKILL1':
 					return True
+				if sPromotion == 'PROMOTION_YORIHIME_SKILL1':
+					return True
 	return False
 
 
@@ -473,9 +475,132 @@ def isWar(iPlayer):
 	
 	return False
 
+#東方叙事詩・統合MOD追記
+#地形改善のアップグレード処理
 
+def isImprovementUpgrade(caster,pPlot):
+	
+	iX = pPlot.getX()
+	iY = pPlot.getY()
+	spellFlag = False
 
+	if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ):
+		#テラフォーミング系列
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'):
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setImprovementType(-1)
+			spellFlag = True
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_PLAIN_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/plains.dds',ColorTypes(11),iX,iY,True,True)
+	
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS'):
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setImprovementType(-1)
+			spellFlag = True
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_GRASS_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(11),iX,iY,True,True)
+		
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_HILL'):
+			pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+			pPlot.setImprovementType(-1)
+			spellFlag = True
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_HILL_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/hill.dds',ColorTypes(11),iX,iY,True,True)
+			
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FLATLAND'):
+			pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+			pPlot.setImprovementType(-1)
+			spellFlag = True
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_FLATLAND_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(11),iX,iY,True,True)
+			
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FOREST'):
+			pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_REGENERATION_FOREST'), 1)
+			pPlot.setImprovementType(-1)
+			spellFlag = True
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_FOREST_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/terrainfeatures/forest.dds',ColorTypes(11),iX,iY,True,True)
 
+	if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
+		#テラフォーミング系列
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'):
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setImprovementType(-1)
+			spellFlag = True
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_PLAIN_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/plains.dds',ColorTypes(11),iX,iY,True,True)
+	
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS'):
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setImprovementType(-1)
+			spellFlag = True
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_GRASS_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(11),iX,iY,True,True)
+		
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_HILL'):
+			pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+			pPlot.setImprovementType(-1)
+			spellFlag = True
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_HILL_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/hill.dds',ColorTypes(11),iX,iY,True,True)
+			
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FLATLAND'):
+			pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+			pPlot.setImprovementType(-1)
+			spellFlag = True
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_FLATLAND_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(11),iX,iY,True,True)
+			
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FOREST'):
+			pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_REGENERATION_FOREST'), 1)
+			pPlot.setImprovementType(-1)
+			spellFlag = True
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_FOREST_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/terrainfeatures/forest.dds',ColorTypes(11),iX,iY,True,True)
 
+		#小屋系列
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_COTTAGE'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_HAMLET'))
+			spellFlag = True
+		elif pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_HAMLET'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_VILLAGE'))
+			spellFlag = True
+		elif pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_VILLAGE'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TOWN'))
+			spellFlag = True
+		
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_NINGENNOSATO_COTTAGE'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_NINGENNOSATO_VILLAGE'))
+			spellFlag = True
+		elif pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_NINGENNOSATO_VILLAGE'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_NINGENNOSATO_TOWN'))
+			spellFlag = True
+
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_SHINREIBYOU_COTTAGE'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_SHINREIBYOU_HAMLET'))
+			spellFlag = True
+		elif pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_SHINREIBYOU_HAMLET'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_SHINREIBYOU_VILLAGE'))
+			spellFlag = True
+		elif pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_SHINREIBYOU_VILLAGE'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_SHINREIBYOU_TOWN'))
+			spellFlag = True
+		
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TUKI_NO_MIYAKO_COTTAGE'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TUKI_NO_MIYAKO_HAMLET'))
+			spellFlag = True
+		elif pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TUKI_NO_MIYAKO_HAMLET'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TUKI_NO_MIYAKO_VILLAGE'))
+			spellFlag = True
+		elif pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TUKI_NO_MIYAKO_VILLAGE'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TUKI_NO_MIYAKO_TOWN'))
+			spellFlag = True
+	
+		#花壇
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_KOUMAKAN_FARM'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_KOUMAKAN_FARM_2'))
+			spellFlag = True
+		elif pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_KOUMAKAN_FARM_2'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_KOUMAKAN_FARM_3'))
+			spellFlag = True
+		
+		#龍穴
+		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_RYUKETU'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_DAIRYUKETU'))
+			spellFlag = True
+	
+	if spellFlag:
+		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False )
+		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER'),False )
 
 ##### </written by F> #####

@@ -1267,7 +1267,7 @@ def generateTerrainTypes():
 				iWorld = wholeworldY*iW + wholeworldX
 				pPlot = map.plotByIndex(iWorld)
 				if pPlot.isWater():	# Only merging new land plots over old water plots.
-					pPlot.setPlotType(plotTypes[i], true, true)
+					pPlot.setPlotType(plotTypes[i],True,True,False)
 
 		# Smooth any graphical glitches these changes may have produced.
 		map.recalculateAreas()
@@ -1404,8 +1404,8 @@ def normalizeRemovePeaks():
 					iHillsCount -= 1
 					iFeature = pPlot.getFeatureType()
 					
-					pPlot.setPlotType(PlotTypes.PLOT_LAND, True, True)
-					pPlot.setTerrainType(gc.getInfoTypeForString("TERRAIN_GRASS"), True, True)
+					pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+					pPlot.setTerrainType(gc.getInfoTypeForString("TERRAIN_GRASS"),True,True,False)
 					if iFeature != FeatureTypes.NO_FEATURE:
 						pPlot.setFeatureType(FeatureTypes.NO_FEATURE, -1)
 						if pPlot.canHaveFeature(iFeature):
@@ -1597,14 +1597,14 @@ def _getAwayWaterPlot(plots, waterPlots):
 	for pPlot in plots:
 		if pPlot.isWater():
 ##			print ("get away water plot", (pPlot.getX(), pPlot.getY()), "bonus", pPlot.getBonusType(TeamTypes.NO_TEAM))
-			pPlot.setPlotType(PlotTypes.PLOT_LAND, True, False)
+			pPlot.setPlotType(PlotTypes.PLOT_LAND,True,False,False)
 			waterPlots.append(pPlot)
 
 def _giveBackWaterPlot(waterPlots):
 	# Restore changing by _getAwayWaterPlot() after river creation.
 	# It is necessary to avoid the bug.
 	for pPlot in waterPlots:
-		pPlot.setPlotType(PlotTypes.PLOT_OCEAN, True, True)
+		pPlot.setPlotType(PlotTypes.PLOT_OCEAN,True,True,False)
 ##		print ("give back water plot, bonus:", pPlot.getBonusType(TeamTypes.NO_TEAM))
 
 def _getRiverSourcePlots(pRiverPlot, cardinalDirection):

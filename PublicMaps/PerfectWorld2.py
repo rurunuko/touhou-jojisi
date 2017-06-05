@@ -4563,7 +4563,7 @@ class StartingPlotFinder :
 				if peaksFound == mc.MaxPeaksInFC:
 					break
 				if plot.getPlotType() == PlotTypes.PLOT_PEAK:
-					plot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
+					plot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
 					if plot.getArea() == gameMap.plot(x,y).getArea():
 						hillsFound += 1
 					peaksFound -= 1
@@ -4612,7 +4612,7 @@ class StartingPlotFinder :
 				plot.getArea() == gameMap.plot(x,y).getArea() and \
 				(featureInfo == None or not featureInfo.isRequiresFlatlands()) and \
 				(bonusInfo == None or not bonusInfo.isRequiresFlatlands()):
-					plot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
+					plot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
 					hillsNeeded -= 1
 					print "adding hill"
 			if hillsNeeded > 0:
@@ -5244,7 +5244,7 @@ def addRivers():
 						newPlot = pmap.plot(xx,yy)
 						ii = GetIndex(xx,yy)
 						if newPlot.isPeak():
-							plot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
+							plot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
 							sm.plotMap[ii] = mc.HILLS
 							break
 			#possibly changed so checked again
@@ -5262,7 +5262,7 @@ def addRivers():
 						newPlot = pmap.plot(xx,yy)
 						ii = GetIndex(xx,yy)
 						if newPlot.isPeak():
-							plot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
+							plot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
 							sm.plotMap[ii] = mc.HILLS
 							break
 	
@@ -5505,7 +5505,7 @@ def makeChannel(x,y):
 	terrainCoast = gc.getInfoTypeForString("TERRAIN_COAST")
 	plot = mmap.plot(x,y)
 	cleanUpLake(x,y)
-	plot.setTerrainType(terrainCoast,True,True)
+	plot.setTerrainType(terrainCoast,True,True,False)
 	plot.setRiverID(-1)
 	plot.setNOfRiver(False,CardinalDirectionTypes.NO_CARDINALDIRECTION)
 	plot.setWOfRiver(False,CardinalDirectionTypes.NO_CARDINALDIRECTION)
@@ -5603,8 +5603,8 @@ def addLakes():
 ##					plot.setRiverID(-1)
 ##					plot.setNOfRiver(False,CardinalDirectionTypes.NO_CARDINALDIRECTION)
 ##					plot.setWOfRiver(False,CardinalDirectionTypes.NO_CARDINALDIRECTION)
-##					#plot.setPlotType(PlotTypes.PLOT_OCEAN,True,True) setTerrain handles this already
-##					plot.setTerrainType(terrainCoast,True,True)
+##					#plot.setPlotType(PlotTypes.PLOT_OCEAN,True,True,False) setTerrain handles this already
+##					plot.setTerrainType(terrainCoast,True,True,False)
 					expandLake(x,y,riversIntoLake,oceanMap)
 				else:
 					#no lake here, but in that case there should be no rivers either

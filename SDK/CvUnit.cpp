@@ -83,6 +83,7 @@ CvUnit::CvUnit()
     promCom6 = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_COMBAT6");
     promComS = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STACK_BONUS");
     promComSTG = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL");
+    promComRNG = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_RINGO_SKILL1");
 }
 
 
@@ -11934,6 +11935,7 @@ void CvUnit::read(FDataStreamBase* pStream)
     pStream->Read(&promCom6);
     pStream->Read(&promComS);
     pStream->Read(&promComSTG);
+    pStream->Read(&promComRNG);
 
 
 	pStream->Read(&m_bMadeAttack);
@@ -12076,6 +12078,7 @@ void CvUnit::write(FDataStreamBase* pStream)
     pStream->Write(promCom6);
     pStream->Write(promComS);
     pStream->Write(promComSTG);
+    pStream->Write(promComRNG);
 
 
 	pStream->Write(m_bMadeAttack);
@@ -13989,6 +13992,8 @@ int CvUnit::countDodgeBullet() const{
         DodgePercent += 20;
     if ( isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SHOOTING_TECHNIQUE3")) )
         DodgePercent += 25;
+    if ( isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_SEIRAN_SKILL1")) )
+        DodgePercent += 25;
 
     //難易度系昇進によるスタックへの耐性
 
@@ -14153,6 +14158,8 @@ void CvUnit::countCombatBonus(){
                 tempPercent += 10;
             if ( pUnit->isHasPromotion((PromotionTypes)promComSTG) )
                 tempPercent += 10;
+            if ( pUnit->isHasPromotion((PromotionTypes)promComRNG) )
+                tempPercent += 15;
 
             //ムラサマークによる船舶ボーナス
             if ( pUnit->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_MINAMITSU")) ){

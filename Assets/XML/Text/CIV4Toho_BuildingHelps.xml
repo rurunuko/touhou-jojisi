@@ -160,6 +160,15 @@
 		<Japanese>[ICON_BULLET]その場で即、大科学者3人分に相当する[ICON_RESEARCH]を得る&#13;[ICON_BULLET]ユニット「第三の眼」を作成可能になる&#13;[ICON_BULLET]「永久同盟」オプション導入時は作成不可能</Japanese>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TSUKUYOMI_SHRINE_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]建設都市の周囲2マス範囲内にある農場を「火星印のジャガイモ農場」に変化させる&#13;[ICON_BULLET]建設都市の周囲2マス範囲内にある保安林を「月面基地」に変化させる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]建設都市の周囲2マス範囲内にある農場を「火星印のジャガイモ農場」に変化させる&#13;[ICON_BULLET]建設都市の周囲2マス範囲内にある保安林を「月面基地」に変化させる</Japanese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_PROJECT_THE_INTERNET_HELP</Tag>
 		<English />
 		<French>[ICON_BULLET]既知の3文明が所有している、或いはするようになったテクノロジーを即座に入手</French>

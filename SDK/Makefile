@@ -26,7 +26,7 @@ Debug_PROJECT_LIBDIRS=
 Debug_GLOBAL_LIBS=
 Debug_PROJECT_LIBS=
 
-Final_Release_GLOBAL_CFLAGS=/wo4068 /wo4163
+Final_Release_GLOBAL_CFLAGS=
 Final_Release_PROJECT_CFLAGS=
 Final_Release_GLOBAL_LDFLAGS=
 Final_Release_PROJECT_LDFLAGS=

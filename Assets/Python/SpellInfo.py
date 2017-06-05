@@ -11,7 +11,6 @@ import TohoUnitList
 import Functions
 import math
 
-
 LevelBaseNum = [0,1,2,3,4,5,6,8,10,13,18,24,32]
 for i in range(13,256):
 	LevelBaseNum.append(32)
@@ -267,8 +266,8 @@ def init():
 			SpellInfo("SPELLCARD_YORIHIME3_1",req_YORIHIME3,spellcard_YORIHIME3,spellcard_YORIHIME3_Estimate,1.0,1,255),
 			SpellInfo("SPELLCARD_TOYOHIME1_1",req_TOYOHIME1,spellcard_TOYOHIME1,spellcard_TOYOHIME1_Estimate,1.0,1,255),
 			SpellInfo("SPELLCARD_SEIRAN1_1",req_SEIRAN1,spellcard_SEIRAN1,spellcard_SEIRAN1_Estimate,1.0,1,255),
-			SpellInfo("SPELLCARD_RINGO1_1",req_RINGO1,spellcard_RINGO1,spellcard_RINGO1_Estimate,1.0,1,15),
-			SpellInfo("SPELLCARD_RINGO1_2",req_RINGO1,spellcard_RINGO1,spellcard_RINGO1_Estimate,1.0,16,255),
+			SpellInfo("SPELLCARD_RINGO1_1",req_RINGO1,spellcard_RINGO1,tempIsAISpellCast,1.0,1,11),
+			SpellInfo("SPELLCARD_RINGO1_2",req_RINGO1,spellcard_RINGO1,tempIsAISpellCast,1.0,12,255),
 			SpellInfo("SPELLCARD_DOREMY1_1",req_DOREMY1,spellcard_DOREMY1,spellcard_DOREMY1_Estimate,1.0,1,255),
 			SpellInfo("SPELLCARD_SAGUME1_1",req_SAGUME1,spellcard_SAGUME1,spellcard_SAGUME1_Estimate,1.0,1,14),
 			SpellInfo("SPELLCARD_SAGUME1_2",req_SAGUME1,spellcard_SAGUME1,spellcard_SAGUME1_Estimate,1.0,15,255),
@@ -413,6 +412,7 @@ def init():
 			SpellInfo("SPELL_RAIKO_EXTRA1",req_RAIKO_EXTRA1,spell_RAIKO_EXTRA1,tempIsAISpellCast,0.15,1,255),
 			SpellInfo("SPELL_RAIKO_PHANTASM1",req_RAIKO_PHANTASM1,spell_RAIKO_PHANTASM1),
 			SpellInfo("SPELL_RAIKO_PHANTASM2",req_RAIKO_PHANTASM2,spell_RAIKO_PHANTASM2),
+			SpellInfo("SPELL_YORIHIME_SKILL1",req_YORIHIME_SKILL1,spell_YORIHIME_SKILL1),
 			SpellInfo("SPELL_YORIHIME_EXTRA1",req_YORIHIME_EXTRA1,spell_YORIHIME_EXTRA1,tempIsAISpellCast,0.30,1,255),
 			SpellInfo("SPELL_YORIHIME_EXTRA2",req_YORIHIME_EXTRA2,spell_YORIHIME_EXTRA2,tempIsAISpellCast,0.30,1,255),
 			SpellInfo("SPELL_YORIHIME_EXTRA3",req_YORIHIME_EXTRA3,spell_YORIHIME_EXTRA3,tempIsAISpellCast,0.30,1,255),
@@ -421,18 +421,19 @@ def init():
 			SpellInfo("SPELL_YORIHIME_PHANTASM3",req_YORIHIME_PHANTASM3,spell_YORIHIME_PHANTASM3,tempIsAISpellCast,0.50,1,255),
 			SpellInfo("SPELL_TOYOHIME_EXTRA1",req_TOYOHIME_EXTRA1,spell_TOYOHIME_EXTRA1,tempIsAISpellCast,0.30,1,255),
 			SpellInfo("SPELL_TOYOHIME_EXTRA2",req_TOYOHIME_EXTRA2,spell_TOYOHIME_EXTRA2),
+			SpellInfo("SPELL_TOYOHIME_SKILL1",req_TOYOHIME_SKILL1,spell_TOYOHIME_SKILL1),
 			SpellInfo("SPELL_TOYOHIME_PHANTASM1",req_TOYOHIME_PHANTASM1,spell_TOYOHIME_PHANTASM1),
 			SpellInfo("SPELL_SEIRAN_EXTRA1",req_SEIRAN_EXTRA1,spell_SEIRAN_EXTRA1,tempIsAISpellCast,0.10,1,255),
 			SpellInfo("SPELL_SEIRAN_PHANTASM1",req_SEIRAN_PHANTASM1,spell_SEIRAN_PHANTASM1,tempIsAISpellCast,0.30,1,255),
-			SpellInfo("SPELL_RINGO_EXTRA1",req_RINGO_EXTRA1,spell_RINGO_EXTRA1),
-			SpellInfo("SPELL_RINGO_PHANTASM1",req_RINGO_PHANTASM1,spell_RINGO_PHANTASM1),
+			SpellInfo("SPELL_RINGO_EXTRA1",req_RINGO_EXTRA1,spell_RINGO_EXTRA1,tempIsAISpellCast,0.15,1,255),
+			SpellInfo("SPELL_RINGO_PHANTASM1",req_RINGO_PHANTASM1,spell_RINGO_PHANTASM1,tempIsAISpellCast,0.30,1,255),
 			SpellInfo("SPELL_DOREMY_EXTRA1",req_DOREMY_EXTRA1,spell_DOREMY_EXTRA1),
 			SpellInfo("SPELL_DOREMY_PHANTASM1",req_DOREMY_PHANTASM1,spell_DOREMY_PHANTASM1),
 			SpellInfo("SPELL_SAGUME_EXTRA1",req_SAGUME_EXTRA1,spell_SAGUME_EXTRA1,tempIsAISpellCast,0.15,1,255),
 			SpellInfo("SPELL_SAGUME_PHANTASM1",req_SAGUME_PHANTASM1,spell_SAGUME_PHANTASM1),
 			
 			SpellInfo("SPELL_GET_HOURAINOKUSURI_EASY",req_GET_HOURAINOKUSURI_EASY,spell_GET_HOURAINOKUSURI_EASY,spell_GET_HOURAINOKUSURI_Estimate),#              以下アイテム
-			SpellInfo("SPELL_GET_HOURAINOKUSURI_NORMAL",req_GET_HOURAINOKUSURI_NORMAL,spell_GET_HOURAINOKUSURI_NORMAL,spell_GET_HOURAINOKUSURI_Estimate),
+			SpellInfo("SPELL_GET_HOURAINOKUSURI_NORMAL",req_GET_HOURAINOKUSURI_NORMAL,spell_GET_HOURAINOKUSURI_NORMAL,spell_GET_HOURAINOKUSURI_Estimate),#        統合追記：その他雑多スペルも含む
 			SpellInfo("SPELL_GET_HOURAINOKUSURI_HARD",req_GET_HOURAINOKUSURI_HARD,spell_GET_HOURAINOKUSURI_HARD,spell_GET_HOURAINOKUSURI_Estimate),
 			SpellInfo("SPELL_GET_HOURAINOKUSURI_LUNATIC",req_GET_HOURAINOKUSURI_LUNATIC,spell_GET_HOURAINOKUSURI_LUNATIC,spell_GET_HOURAINOKUSURI_Estimate),
 			SpellInfo("SPELL_GET_MYSTERYIUM",req_GET_MYSTERYIUM,spell_GET_MYSTERYIUM),
@@ -441,14 +442,30 @@ def init():
 			SpellInfo("SPELL_POWERUP_COMBAT",req_POWERUP_COMBAT,spell_POWERUP_COMBAT),
 			SpellInfo("SPELL_POWERUP_STG",req_POWERUP_STG,spell_POWERUP_STG),
 			SpellInfo("SPELL_POWERUP_CAL",req_POWERUP_CAL,spell_POWERUP_CAL),
-			SpellInfo("SPELL_SPECIAL_TAMEUTI",req_SPECIAL_TAMEUTI,spell_SPECIAL_TAMEUTI),
+			SpellInfo("SPELL_SPECIAL_TAMEUTI",req_SPECIAL_TAMEUTI,spell_SPECIAL_TAMEUTI),#以下特殊スペル系列
 			SpellInfo("SPELL_SPECIAL_HIGHSPEEDMOVE",req_SPECIAL_HIGHSPEEDMOVE,spell_SPECIAL_HIGHSPEEDMOVE),
 			SpellInfo("SPELL_SPECIAL_AURIC",req_SPECIAL_AURIC,spell_SPECIAL_AURIC),
+			SpellInfo("SPELL_SPECIAL_HALLOWEEN_FEVER",req_SPECIAL_HALLOWEEN_FEVER,spell_SPECIAL_HALLOWEEN_FEVER),
+			SpellInfo("SPELL_SPECIAL_DANGO_FEVER",req_SPECIAL_DANGO_FEVER,spell_SPECIAL_DANGO_FEVER),
 			SpellInfo("SPELL_SPECIAL_TANTIGATA_KIRAI_1_1",req_SPECIAL_TANTIGATA_KIRAI_1_1,spell_SPECIAL_TANTIGATA_KIRAI_1_1),
 			SpellInfo("SPELL_SPECIAL_TANTIGATA_KIRAI_1_2",req_SPECIAL_TANTIGATA_KIRAI_1_2,spell_SPECIAL_TANTIGATA_KIRAI_1_2),
 			SpellInfo("SPELL_SPECIAL_TANTIGATA_KIRAI_2",req_SPECIAL_TANTIGATA_KIRAI_2,spell_SPECIAL_TANTIGATA_KIRAI_2),
 			SpellInfo("SPELL_SPECIAL_TANTIGATA_KIRAI_3",req_SPECIAL_TANTIGATA_KIRAI_3,spell_SPECIAL_TANTIGATA_KIRAI_3),
 			SpellInfo("SPELL_SPECIAL_JIBAKU",req_SPECIAL_JIBAKU,spell_SPECIAL_JIBAKU),
+			SpellInfo("SPELL_TERRAFORM_PLAIN",req_TERRAFORM_PLAIN,spell_TERRAFORM_PLAIN), #以下テラフォーミング系
+			SpellInfo("SPELL_TERRAFORM_PLAIN_NO_SACRIFICE",req_TERRAFORM_PLAIN_NO_SACRIFICE,spell_TERRAFORM_PLAIN_NO_SACRIFICE),
+			SpellInfo("SPELL_TERRAFORM_GRASS",req_TERRAFORM_GRASS,spell_TERRAFORM_GRASS),
+			SpellInfo("SPELL_TERRAFORM_GRASS_NO_SACRIFICE",req_TERRAFORM_GRASS_NO_SACRIFICE,spell_TERRAFORM_GRASS_NO_SACRIFICE),
+			SpellInfo("SPELL_TERRAFORM_HILL",req_TERRAFORM_HILL,spell_TERRAFORM_HILL),
+			SpellInfo("SPELL_TERRAFORM_HILL_NO_SACRIFICE",req_TERRAFORM_HILL_NO_SACRIFICE,spell_TERRAFORM_HILL_NO_SACRIFICE),
+			SpellInfo("SPELL_TERRAFORM_FLATLAND",req_TERRAFORM_FLATLAND,spell_TERRAFORM_FLATLAND),
+			SpellInfo("SPELL_TERRAFORM_FLATLAND_NO_SACRIFICE",req_TERRAFORM_FLATLAND_NO_SACRIFICE,spell_TERRAFORM_FLATLAND_NO_SACRIFICE),
+			SpellInfo("SPELL_TERRAFORM_FOREST",req_TERRAFORM_FOREST,spell_TERRAFORM_FOREST),
+			SpellInfo("SPELL_TERRAFORM_LANDFILL",req_TERRAFORM_LANDFILL,spell_TERRAFORM_LANDFILL),
+			SpellInfo("SPELL_TERRAFORM_CRUSHICE",req_TERRAFORM_CRUSHICE,spell_TERRAFORM_CRUSHICE),
+			SpellInfo("SPELL_TERRAFORM_OCEANIZATION",req_TERRAFORM_OCEANIZATION,spell_TERRAFORM_OCEANIZATION),
+			SpellInfo("SPELL_TERRAFORM_FLOOD",req_TERRAFORM_FLOOD,spell_TERRAFORM_FLOOD),
+			
 			SpellInfo("SPELL_NINGENNOSATO1",req_NINGENNOSATO1,spell_NINGENNOSATO1), #以下・世界魔法
 			SpellInfo("SPELL_HYOUSEIRENGOU1",req_HYOUSEIRENGOU1,spell_HYOUSEIRENGOU1), 
 			SpellInfo("SPELL_KISHINJOU1",req_KISHINJOU1,spell_KISHINJOU1), 
@@ -1169,8 +1186,8 @@ def spellcard_MOKOU1(caster,cost):
 					if gc.getTeam(caster.getTeam()).isAtWar(pPlot.getPlotCity().getTeam()): #戦争相手なら
 						RangeList.append([iX,iY])
 					else:
-						pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
-						pPlot.setTerrainType(gc.getInfoTypeForString("TERRAIN_PLAINS"),True,True)
+						pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+						pPlot.setTerrainType(gc.getInfoTypeForString("TERRAIN_PLAINS"),True,True,False)
 						gc.getGame().setPlotExtraYield(caster.getX()+iX,caster.getY()+iY,1,CAL/8+1)
 
 	Functions.changeDamage(RangeList,caster,15+CAL*2,15+CAL*2,0,True,True,True,True,-1,False,True,True,True,-1,False,0)
@@ -2532,11 +2549,11 @@ def spellcard_TENSHI1(caster,cost):
 						pPlot.getPlotCity().setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUNKER'),0)
 						pPlot.getPlotCity().setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BOMB_SHELTER'),0)
 						
-						pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
+						pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
 						
 						RangeList.append([iX,iY])
 				if pPlot.getPlotType() == PlotTypes.PLOT_PEAK:
-					pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
+					pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
 	
 	Functions.changeDamage(RangeList,caster,CAL*2,CAL*4,0,True,True,True,True,-1,False,True,True,True,-1,False,0)
 	Functions.changeDamage(RangeList,caster,(CAL*2)/2,(CAL*4)/2,0,True,True,True,True,-1,True,False,True,True,-1,False,0)
@@ -3855,7 +3872,8 @@ def spellcard_YORIHIME1(caster,cost):
 								pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_YUYUKO')) or
 								pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MIMA')) or
 								pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MINAMITSU')) or
-								pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_YOSHIKA')) ):
+								pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_YOSHIKA')) or
+								pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOJIKO')) ):
 								pUnit.changeDamage(100,pUnit.getOwner())
 						else:
 							if (pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_ZOMBIEFAIRY')) or
@@ -4027,7 +4045,7 @@ def spellcard_TOYOHIME1(caster,cost):
 		Functions.changeDamage(RangeList2,caster,CAL*3/2,CAL*3/2,0,False,False,False,True,-1,True,False,True,True,-1,False,0)
 		if gc.getTeam(caster.getTeam()).isAtWar(pPlot.getTeam()):
 			if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_GRASS'):
-				pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
+				pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
 			pPlot.setFeatureType(-1, 0)
 			pPlot.resetFeatureModel()
 			pPlot.setImprovementType(-1)
@@ -4035,7 +4053,7 @@ def spellcard_TOYOHIME1(caster,cost):
 		Functions.changeDamage(RangeList3,caster,CAL*3,CAL*3,0,False,False,False,True,-1,False,True,True,True,-1,False,0)
 		Functions.changeDamage(RangeList3,caster,CAL*3/2,CAL*3/2,0,False,False,False,True,-1,True,False,True,True,-1,False,0)
 		if gc.getTeam(caster.getTeam()).isAtWar(pPlot.getTeam()):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True,False)
 			pPlot.setFeatureType(-1, 0)
 			pPlot.resetFeatureModel()
 			pPlot.setImprovementType(-1)
@@ -4043,7 +4061,7 @@ def spellcard_TOYOHIME1(caster,cost):
 		Functions.changeDamage(RangeList3,caster,CAL*3,CAL*3,0,False,False,False,True,-1,False,True,True,True,-1,False,0)
 		Functions.changeDamage(RangeList3,caster,CAL*3/2,CAL*3/2,0,False,False,False,True,-1,True,False,True,True,-1,False,0)
 		if gc.getTeam(caster.getTeam()).isAtWar(pPlot.getTeam()):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True,False)
 			pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_FALLOUT'),1)
 			pPlot.resetFeatureModel()
 			pPlot.setImprovementType(-1)
@@ -4127,8 +4145,8 @@ def spellcard_SEIRAN1_Estimate(caster):
 			if pTeam.isAtWar(i):
 				estimatePoint = +30
 	
-	for iiX in range(iX-2,iX+4):
-		for iiY in range(iY-2,iY+4):
+	for iiX in range(iX-2,iX+3):
+		for iiY in range(iY-2,iY+3):
 			pPlot = gc.getMap().plot(iiX,iiY)
 			pUnit = pPlot.getUnit(i)
 			if caster.getTeam() != pUnit.getTeam() and pTeam.isAtWar(pUnit.getTeam()) == True:
@@ -4145,8 +4163,34 @@ def req_RINGO1(bTestVisible,caster,sCAL,eCAL,cost):
 	return Functions.req_SpellCard(bTestVisible,caster,sCAL,eCAL,'UNIT_RINGO1','UNIT_RINGO6',cost)
 
 def spellcard_RINGO1(caster,cost):
-	#これはひとまず仮組み。本格的には後に
+	
 	CAL = caster.countCardAttackLevel()
+	pPlot = caster.plot()
+	
+	setFever = (CAL/6)+1
+	
+	UnitList = []
+	iNumUnit = pPlot.getNumUnits()
+	for i in range(iNumUnit):
+		pUnit = pPlot.getUnit(i)
+		if pUnit.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_WORKER'):
+			if pUnit.getTeam() == caster.getTeam():
+				if not pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER')) or \
+				not pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_DANGO_FEVER')):
+					UnitList.append(pUnit)
+	
+	if len(UnitList) != 0:
+		iLoopNum = setFever
+		if iLoopNum > len(UnitList):
+			iLoopNum = len(UnitList)
+		for i in range(iLoopNum):
+			iRandNum = gc.getGame().getSorenRandNum(len(UnitList),"Ringo Spell")
+			pUnit = UnitList.pop(iRandNum)
+			if CAL <= 11:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),True)
+			else:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANGO_FEVER'),True)
+	
 	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	caster.setPower(caster.getPower()-cost)
 
@@ -4156,22 +4200,22 @@ def spellcard_RINGO1(caster,cost):
 	
 	return True
 
-def spellcard_RINGO1_Estimate(caster):
-
-
-	#これもひとまず仮組み
-	estimatePoint = 0
-	CAL = caster.countCardAttackLevel()
-	
-	estimatePoint = estimatePoint + Functions.changeDamage(RangeList1,caster,CAL*3,CAL*3,0,True,False,True,True,-1,False,True,True,True,-1,False,0,0,True)
-	estimatePoint = estimatePoint + Functions.changeDamage(RangeList1,caster,CAL*3/2,CAL*3/2,0,True,False,True,True,-1,True,False,True,True,-1,False,0,0,True)
-	
-	estimatePoint = estimatePoint / (AISpellCastBaseNum * (CAL*3)) * 100
-	
-	if estimatePoint < 35:
-		estimatePoint = 0
-	
-	return estimatePoint
+#def spellcard_RINGO1_Estimate(caster):
+#
+#	ちょっと扱いに悩んでいるためひとまずコメントアウト
+#	
+#	estimatePoint = 0
+#	CAL = caster.countCardAttackLevel()
+#	
+#	estimatePoint = estimatePoint + Functions.changeDamage(RangeList1,caster,CAL*3,CAL*3,0,True,False,True,True,-1,False,True,True,True,-1,False,0,0,True)
+#	estimatePoint = estimatePoint + Functions.changeDamage(RangeList1,caster,CAL*3/2,CAL*3/2,0,True,False,True,True,-1,True,False,True,True,-1,False,0,0,True)
+#	
+#	estimatePoint = estimatePoint / (AISpellCastBaseNum * (CAL*3)) * 100
+#	
+#	if estimatePoint < 35:
+#		estimatePoint = 0
+#	
+#	return estimatePoint
 
 #どれみ
 
@@ -4923,17 +4967,17 @@ def spell_SANAE_PHANTASM1(caster,cost):
 			pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_OASIS'),1)
 			pPlot.resetFeatureModel()
 		else:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
 			
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
 		if gc.getGame().getSorenRandNum(100, "SANAE SKILL PHANTASM2") < 10:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
 		else:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
 	
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
 		if pPlot.isFreshWater():
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True,False)
 			
 	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	
@@ -5482,13 +5526,13 @@ def spell_CIRNO_PHANTASM1(caster,cost):
 					if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_COAST') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_OCEAN'):
 						pPlot.setOriginalTerrain(pPlot.getTerrainType())
 						pPlot.setOriginalBounu( pPlot.getBonusType(caster.getTeam()) )
-						pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True)
+						pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True,False)
 						pPlot.setFeatureType (gc.getInfoTypeForString('FEATURE_ICEDSEA'),1)
 						pPlot.setNumCirnoFreeze(3)
 						
 					#凍らせなおし
 				 	if pPlot.getNumCirnoFreeze()>0:
-				 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True)
+				 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True,False)
 						pPlot.setFeatureType (gc.getInfoTypeForString('FEATURE_ICEDSEA'),1)
 		
 	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
@@ -5668,13 +5712,13 @@ def spell_MOKOU_EXTRA1(caster,cost):
 	
 	pPlot = caster.plot()
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True,False)
 			
 	elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
 		if gc.getGame().getSorenRandNum(100, "MOKOU SKILL PHANTASM2") < 15:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
 		else:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
 	
 	for iiX in range(iX-1,iX+2):
 		for iiY in range(iY-1,iY+2):
@@ -6354,7 +6398,7 @@ def spell_YUKA_PHANTASM1(caster,cost):
 	pPlot = caster.plot()
 	if pPlot.getBonusType(caster.getTeam()) == -1:
 		if pPlot.getTerrainType() != gc.getInfoTypeForString('TERRAIN_COAST') and pPlot.getTerrainType() != gc.getInfoTypeForString('TERRAIN_OCEAN'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
 			pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_SUNFLOWER'),1)
 			pPlot.setImprovementType(-1)
 			
@@ -6651,14 +6695,14 @@ def spell_PATCHOULI_PHANTASM1(caster,cost):
 	#そして、power0.5と引き換えにオアシスに花壇強制設置
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_DESERT'):
 		#if pPlot.isFreshWater():
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
 			
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
 		#if pPlot.isFreshWater():
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
 	
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True,False)
 	
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS') and pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
 		cost = 0.5
@@ -7535,7 +7579,7 @@ def spell_KAGUYA_PHANTASM2(caster,cost):
 		iY = gc.getGame().getSorenRandNum(gc.getMap().getGridWidth(),"kaguya phantasm")
 	
 	pPlot = gc.getMap().plot(iX,iY)
-	pPlot.setPlotType(PlotTypes.PLOT_PEAK,True,True)
+	pPlot.setPlotType(PlotTypes.PLOT_PEAK,True,True,False)
 	pPlot.setBonusType(-1)
 	pPlot.setImprovementType(-1)
 	for i in range(pPlot.getNumUnits()):
@@ -7697,7 +7741,7 @@ def spell_TENSHI_PHANTASM1(caster,cost):
 	CAL = caster.countCardAttackLevel()
 	
 	if caster.plot().getTeam() == caster.getTeam() and caster.plot().getPlotType() != PlotTypes.PLOT_OCEAN:
-		caster.plot().setPlotType(PlotTypes.PLOT_HILLS,True,True)
+		caster.plot().setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
 		if caster.plot().isCity():
 			caster.plot().getPlotCity().setNumRealBuilding(gc.getInfoTypeForString('BUILDING_KANAMEISHI'),1)
 			
@@ -7823,11 +7867,11 @@ def spell_LETTY_EXTRA1(caster,cost):
 			#pPlot.setFeatureType (gc.getInfoTypeForString('FEATURE_SNOWMAN'),1)
 			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_SNOWMAN'))
 		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True,False)
 		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True,False)
 		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_GRASS') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_DESERT'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
 		
 		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 		
@@ -9120,6 +9164,23 @@ def spell_RAIKO_PHANTASM2(caster,cost):
 
 #よりひめEX/PH
 
+def req_YORIHIME_SKILL1(bTestVisible,caster,sCAL,eCAL,cost):
+	return Functions.req_Spell(bTestVisible,caster,'PROMOTION_YORIHIME_SKILL1','UNIT_YORIHIME1','UNIT_YORIHIME6',cost)
+
+def spell_YORIHIME_SKILL1(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	
+	caster.changeDamage(-50,caster.getOwner())
+		
+	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+
 def req_YORIHIME_EXTRA1(bTestVisible,caster,sCAL,eCAL,cost):
 	return Functions.req_Spell(bTestVisible,caster,'PROMOTION_MODE_EXTRA','UNIT_YORIHIME1','UNIT_YORIHIME6',cost)
 
@@ -9309,7 +9370,9 @@ def req_TOYOHIME_EXTRA1(bTestVisible,caster,sCAL,eCAL,cost):
 			return True
 	else:
 		if caster.isHasPromotion(gc.getInfoTypeForString("PROMOTION_SPELL_CASTED")) == False and caster.getPower() >= cost:
-			if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MODE_EXTRA')) and gc.getTeam(caster.getTeam()).isHasTech( gc.getInfoTypeForString('TECH_SHOOTING_TECHNIQUE2') ):
+			if (caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MODE_EXTRA')) or \
+			caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOYOHIME_SKILL1'))) and \
+			gc.getTeam(caster.getTeam()).isHasTech( gc.getInfoTypeForString('TECH_SHOOTING_TECHNIQUE2') ):
 				Flag = True
 				py = PyPlayer(caster.getOwner())
 				for pUnit in py.getUnitList():
@@ -9323,6 +9386,9 @@ def spell_TOYOHIME_EXTRA1(caster,cost):
 	CAL = caster.countCardAttackLevel()
 	
 	newUnit1 = gc.getPlayer(caster.getOwner()).initUnit(gc.getInfoTypeForString('UNIT_TUKINOMITTEI'), caster.getX(), caster.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+	if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOYOHIME_SKILL1')):
+		newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_COMMANDO'),True )
+		newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SENTRY'),True )
 	
 	caster.setPower(caster.getPower()-cost)
 	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
@@ -9396,6 +9462,56 @@ def spell_TOYOHIME_EXTRA2(caster,cost):
 	
 	return True
 
+def req_TOYOHIME_SKILL1(bTestVisible,caster,sCAL,eCAL,cost):
+	if bTestVisible:
+		if gc.getInfoTypeForString('UNIT_TOYOHIME1') <= caster.getUnitType() and caster.getUnitType() <= gc.getInfoTypeForString('UNIT_TOYOHIME6'):
+			return True
+	else:
+		if caster.isHasPromotion(gc.getInfoTypeForString("PROMOTION_SPELL_CASTED")) == False:
+			if caster.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOYOHIME_SKILL1')):
+				Flag = False
+				py = PyPlayer(caster.getOwner())
+				for pUnit in py.getUnitList():
+					if gc.getInfoTypeForString('UNIT_TUKINOMITTEI') == pUnit.getUnitType():
+						#敵対ユニットが居ないかのチェック
+						pTeam = gc.getTeam(caster.getTeam())
+						for k in range(pUnit.plot().getNumUnits()):
+							if pTeam.isAtWar(pUnit.plot().getUnit(k).getTeam()):
+								return False
+						Flag = True
+				return Flag
+	return False
+
+def spell_TOYOHIME_SKILL1(caster,cost):
+	CAL = caster.countCardAttackLevel()
+	point1 = caster.plot().getPoint()
+	
+	py = PyPlayer(caster.getOwner())
+	for pUnit in py.getUnitList():
+		if gc.getInfoTypeForString('UNIT_TUKINOMITTEI') == pUnit.getUnitType():
+			MitteiUnit = pUnit
+	
+	pPlot = caster.plot()
+	caster.setXY(MitteiUnit.getX(),MitteiUnit.getY(),False,True,True)
+	pUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	#pUnit.finishMoves()
+	
+	MitteiUnit.changeDamage(100,caster.getOwner())
+	
+	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	
+	point2 = caster.plot().getPoint()
+	
+	#移動前の場所で発生するエフェクト
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point1)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point1.x,point1.y,point1.z)
+	
+	#移動後の場所で発生するエフェクト
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point2)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point2.x,point2.y,point2.z)
+	
+	return True
+
 
 def req_TOYOHIME_PHANTASM1(bTestVisible,caster,sCAL,eCAL,cost):
 	return Functions.req_Spell(bTestVisible,caster,'PROMOTION_MODE_PHANTASM','UNIT_TOYOHIME1','UNIT_TOYOHIME6',cost)
@@ -9450,7 +9566,7 @@ def spell_SEIRAN_EXTRA1(caster,cost):
 
 
 def req_SEIRAN_PHANTASM1(bTestVisible,caster,sCAL,eCAL,cost):
-	flag = Functions.req_Spell(bTestVisible,caster,'PROMOTION_SEIRAN_PHANTASM1','UNIT_SEIRAN1','UNIT_SEIRAN6',cost)
+	flag = Functions.req_Spell(bTestVisible,caster,'PROMOTION_MODE_PHANTASM','UNIT_SEIRAN1','UNIT_SEIRAN6',cost)
 	if bTestVisible:
 		return flag
 	if caster.getSpecialNumber() > 0:
@@ -9482,7 +9598,11 @@ def req_RINGO_EXTRA1(bTestVisible,caster,sCAL,eCAL,cost):
 def spell_RINGO_EXTRA1(caster,cost):
 	
 	CAL = caster.countCardAttackLevel()
-	#※現在棚上げ仮組み
+	pPlot = caster.plot()
+	if pPlot.isCity():
+		pCity = pPlot.getPlotCity()
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_DANGOYA'),1)
+		caster.setPower(caster.getPower()-cost)
 	
 	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	
@@ -9498,8 +9618,15 @@ def req_RINGO_PHANTASM1(bTestVisible,caster,sCAL,eCAL,cost):
 def spell_RINGO_PHANTASM1(caster,cost):
 	
 	CAL = caster.countCardAttackLevel()
-	#※現在棚上げ仮組み
+	pPlot = caster.plot()
+	#pDirection = caster.GetFacingDirection()
 	
+	if pPlot.getTeam() == caster.getTeam():
+		if pPlot.getTerrainType() != gc.getInfoTypeForString('TERRAIN_COAST') and \
+		pPlot.getTerrainType() != gc.getInfoTypeForString('TERRAIN_OCEAN'):
+			pPlot.setNOfRiver(True,CardinalDirectionTypes.CARDINALDIRECTION_SOUTH)
+			caster.setPower(caster.getPower()-cost)
+
 	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	
 	point = caster.plot().getPoint()
@@ -9592,6 +9719,7 @@ def spell_SAGUME_EXTRA1(caster,cost):
 			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_JIBAKU'),True)
 	
 	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	caster.setPower(caster.getPower()-cost)
 	
 	point = caster.plot().getPoint()
 	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
@@ -9651,6 +9779,76 @@ def spell_SPECIAL_AURIC(caster,cost):
 	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
 	
 	return True
+
+
+#ハロウィンフィーバー
+def req_SPECIAL_HALLOWEEN_FEVER(bTestVisible,caster,sCAL,eCAL,cost):
+	pPlot = caster.plot()
+	if bTestVisible:
+		if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ):
+			return True
+		else:
+			return False
+
+	else:
+		if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+			return True
+	
+	return False
+	
+
+def spell_SPECIAL_HALLOWEEN_FEVER(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	pPlot = caster.plot()
+	
+	if caster.getTeam() == pPlot.getTeam():
+		if pPlot.getImprovementType() != -1:
+			Functions.isImprovementUpgrade(caster,pPlot)
+	
+	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+
+#ダンゴフィーバー
+def req_SPECIAL_DANGO_FEVER(bTestVisible,caster,sCAL,eCAL,cost):
+	pPlot = caster.plot()
+	if bTestVisible:
+		if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
+			return True
+		else:
+			return False
+
+	else:
+		if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+			return True
+	
+	return False
+	
+
+def spell_SPECIAL_DANGO_FEVER(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	pPlot = caster.plot()
+	
+	if caster.getTeam() == pPlot.getTeam():
+		if pPlot.getImprovementType() != -1:
+			Functions.isImprovementUpgrade(caster,pPlot)
+		
+	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+
+
+
 
 #穢身探知型機雷
 
@@ -9833,8 +10031,812 @@ def spell_SPECIAL_JIBAKU(caster,cost):
 	
 	return True
 
+#######################################
+#テラフォーミング・平原化系列
+def req_TERRAFORM_PLAIN(bTestVisible,caster,sCAL,eCAL,cost):
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	if bTestVisible:
+		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_TUKI_NO_MIYAKO_WORKER') and \
+		pTeam.isHasTech(gc.getInfoTypeForString('TECH_MOON_WAR_FIRST')):
+			if not pTeam.isHasTech(gc.getInfoTypeForString('TECH_APOLLO_CONSPIRACY')):
+				return True
+		else:
+			return False
+
+	else:
+		#色々試したけど、ユニットが常時動く関係上単純な構造だけど多分これでいいと思う
+		#犠牲版に限ると無駄が多い記述だけど、どうせ以後にこれらの条件付けが生きてくると思うのでテンプレ代わりに
+		if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_COAST') or \
+		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_OCEAN') or \
+		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS'):
+			return False
+		
+		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_DESERT'):
+			return False
+		
+		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA') or \
+		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
+			return False
+		
+		elif caster.plot().isCity():
+			return False
+		
+		elif not caster.canMove():
+			return False
+		
+		else:
+			if caster.plot().getTeam() == caster.getTeam():
+				if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+					return True
+	
+	return False
+	
+def spell_TERRAFORM_PLAIN(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	
+	#これを記述している現時点では使用判定こそ入れていないが、将来的なことも想定しAIが使う場合も記述する
+	#その場合AIに限り即反映されるように
+	if caster.isHuman():
+		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'))
+	
+	else:
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+		
+	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	caster.changeDamage(100,caster.getOwner())
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+#######################################
+#無犠牲版
+#こっちが本命
+def req_TERRAFORM_PLAIN_NO_SACRIFICE(bTestVisible,caster,sCAL,eCAL,cost):
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	if bTestVisible:
+		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_TUKI_NO_MIYAKO_WORKER') and \
+		pTeam.isHasTech(gc.getInfoTypeForString('TECH_MOON_WAR_FIRST')):
+			if pTeam.isHasTech(gc.getInfoTypeForString('TECH_APOLLO_CONSPIRACY')):
+				return True
+		else:
+			return False
+
+	else:
+		if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_COAST') or \
+		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_OCEAN') or \
+		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS'):
+			return False
+		
+		elif pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS') and \
+		not pTeam.isHasTech(gc.getInfoTypeForString('TECH_SAKE_OF_THE_WATATSUKI')):
+			return False
+		
+		elif (pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA') or \
+		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW')) and \
+		not pTeam.isHasTech(gc.getInfoTypeForString('TECH_LUNAR_CAPITAL_TRANSFER_PLAN')):
+			return False
+		
+		elif caster.plot().isCity():
+			return False
+		
+		elif not caster.canMove():
+			return False
+		
+		else:
+			if caster.plot().getTeam() == caster.getTeam():
+				if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+					return True
+	
+	return False
+	
+def spell_TERRAFORM_PLAIN_NO_SACRIFICE(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	SacrificeFlag = False
+	
+	if caster.isHuman() and not pTeam.isHasTech(gc.getInfoTypeForString('TECH_THE_TRUMP_CARD_IS_ALWAYS_A_BAD_MOVE')):
+		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'))
+			SacrificeFlag = True
+		
+		elif pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
+			if pTeam.isHasTech(gc.getInfoTypeForString('TECH_SAKE_OF_THE_WATATSUKI')):
+				pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'))
+				SacrificeFlag = True
+		
+		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA') or \
+		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
+			if pTeam.isHasTech(gc.getInfoTypeForString('TECH_LUNAR_CAPITAL_TRANSFER_PLAN')):
+				pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'))
+		
+		else:
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'))
+		
+	else:
+		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			SacrificeFlag = True
+		elif pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			SacrificeFlag = True
+		else:
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+	
+	if SacrificeFlag:
+		caster.changeDamage(100,caster.getOwner())
+	else:
+		caster.finishMoves()
+		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
 
 
+#######################################
+#テラフォーミング・草原化系列
+def req_TERRAFORM_GRASS(bTestVisible,caster,sCAL,eCAL,cost):
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	if bTestVisible:
+		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_TUKI_NO_MIYAKO_WORKER') and \
+		pTeam.isHasTech(gc.getInfoTypeForString('TECH_MOON_WAR_FIRST')):
+			if not pTeam.isHasTech(gc.getInfoTypeForString('TECH_APOLLO_CONSPIRACY')):
+				return True
+		else:
+			return False
+
+	else:
+		#平原であることが前提なので、これはこの一行でいいはず
+		if not pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS'):
+			return False
+		
+		elif caster.plot().isCity():
+			return False
+		
+		elif not caster.canMove():
+			return False
+		
+		else:
+			if caster.plot().getTeam() == caster.getTeam():
+				if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+					return True
+	
+	return False
+	
+def spell_TERRAFORM_GRASS(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	
+	#これを記述している現時点では使用判定こそ入れていないが、将来的なことも想定しAIが使う場合も記述する
+	#その場合AIに限り即反映されるように
+	if caster.isHuman():
+		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS'))
+	
+	else:
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+		
+	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	caster.changeDamage(100,caster.getOwner())
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+#######################################
+#無犠牲版
+def req_TERRAFORM_GRASS_NO_SACRIFICE(bTestVisible,caster,sCAL,eCAL,cost):
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	if bTestVisible:
+		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_TUKI_NO_MIYAKO_WORKER') and \
+		pTeam.isHasTech(gc.getInfoTypeForString('TECH_MOON_WAR_FIRST')):
+			if pTeam.isHasTech(gc.getInfoTypeForString('TECH_APOLLO_CONSPIRACY')):
+				return True
+		else:
+			return False
+
+	else:
+		if not pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS'):
+			return False
+		
+		elif caster.plot().isCity():
+			return False
+		
+		elif not caster.canMove():
+			return False
+		
+		else:
+			if caster.plot().getTeam() == caster.getTeam():
+				if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+					return True
+	
+	return False
+	
+def spell_TERRAFORM_GRASS_NO_SACRIFICE(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	SacrificeFlag = False
+	
+	if caster.isHuman() and not pTeam.isHasTech(gc.getInfoTypeForString('TECH_THE_TRUMP_CARD_IS_ALWAYS_A_BAD_MOVE')):
+		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS'))
+			SacrificeFlag = True
+		
+		elif pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
+			if pTeam.isHasTech(gc.getInfoTypeForString('TECH_SAKE_OF_THE_WATATSUKI')):
+				pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS'))
+				SacrificeFlag = True
+		
+		else:
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS'))
+		
+	else:
+		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			SacrificeFlag = True
+		elif pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			SacrificeFlag = True
+		else:
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+	
+	if SacrificeFlag:
+		caster.changeDamage(100,caster.getOwner())
+	else:
+		caster.finishMoves()
+		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+
+
+#######################################
+#テラフォーミング・丘陵化系列
+def req_TERRAFORM_HILL(bTestVisible,caster,sCAL,eCAL,cost):
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	if bTestVisible:
+		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_TUKI_NO_MIYAKO_WORKER') and \
+		pTeam.isHasTech(gc.getInfoTypeForString('TECH_APOLLO')):
+			if not pTeam.isHasTech(gc.getInfoTypeForString('TECH_LUNAR_CAPITAL_TRANSFER_PLAN')):
+				return True
+		else:
+			return False
+
+	else:
+		if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_COAST') or \
+		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_OCEAN') or \
+		pPlot.getPlotType() == PlotTypes.PLOT_HILLS:
+			return False
+		
+		elif caster.plot().isCity():
+			return False
+		
+		elif not caster.canMove():
+			return False
+		
+		else:
+			if caster.plot().getTeam() == caster.getTeam():
+				if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+					return True
+	
+	return False
+	
+def spell_TERRAFORM_HILL(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	
+	if caster.isHuman():
+		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_HILL'))
+	
+	else:
+		pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+		
+	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	caster.changeDamage(100,caster.getOwner())
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+#######################################
+#無犠牲版
+def req_TERRAFORM_HILL_NO_SACRIFICE(bTestVisible,caster,sCAL,eCAL,cost):
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	if bTestVisible:
+		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_TUKI_NO_MIYAKO_WORKER') and \
+		pTeam.isHasTech(gc.getInfoTypeForString('TECH_APOLLO')):
+			if pTeam.isHasTech(gc.getInfoTypeForString('TECH_LUNAR_CAPITAL_TRANSFER_PLAN')):
+				return True
+		else:
+			return False
+
+	else:
+		if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_COAST') or \
+		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_OCEAN') or \
+		pPlot.getPlotType() == PlotTypes.PLOT_HILLS:
+			return False
+		
+		elif caster.plot().isCity():
+			return False
+		
+		elif not caster.canMove():
+			return False
+		
+		else:
+			if caster.plot().getTeam() == caster.getTeam():
+				if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+					return True
+	
+	return False
+	
+def spell_TERRAFORM_HILL_NO_SACRIFICE(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	
+	if caster.isHuman() and not pTeam.isHasTech(gc.getInfoTypeForString('TECH_THE_TRUMP_CARD_IS_ALWAYS_A_BAD_MOVE')):
+		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_HILL'))
+		
+	else:
+		pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+	
+	caster.finishMoves()
+	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+
+
+#######################################
+#テラフォーミング・平地化系列
+def req_TERRAFORM_FLATLAND(bTestVisible,caster,sCAL,eCAL,cost):
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	if bTestVisible:
+		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_TUKI_NO_MIYAKO_WORKER') and \
+		pTeam.isHasTech(gc.getInfoTypeForString('TECH_APOLLO')):
+			if not pTeam.isHasTech(gc.getInfoTypeForString('TECH_LUNAR_CAPITAL_TRANSFER_PLAN')):
+				return True
+		else:
+			return False
+
+	else:
+		if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_COAST') or \
+		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_OCEAN') or \
+		pPlot.getPlotType() == PlotTypes.PLOT_LAND:
+			return False
+		
+		elif caster.plot().isCity():
+			return False
+		
+		elif not caster.canMove():
+			return False
+		
+		else:
+			if caster.plot().getTeam() == caster.getTeam():
+				if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+					return True
+	
+	return False
+	
+def spell_TERRAFORM_FLATLAND(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	
+	if caster.isHuman():
+		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FLATLAND'))
+	
+	else:
+		pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+		
+	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	caster.changeDamage(100,caster.getOwner())
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+#######################################
+#無犠牲版
+def req_TERRAFORM_FLATLAND_NO_SACRIFICE(bTestVisible,caster,sCAL,eCAL,cost):
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	if bTestVisible:
+		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_TUKI_NO_MIYAKO_WORKER') and \
+		pTeam.isHasTech(gc.getInfoTypeForString('TECH_APOLLO')):
+			if pTeam.isHasTech(gc.getInfoTypeForString('TECH_LUNAR_CAPITAL_TRANSFER_PLAN')):
+				return True
+		else:
+			return False
+
+	else:
+		if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_COAST') or \
+		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_OCEAN') or \
+		pPlot.getPlotType() == PlotTypes.PLOT_LAND:
+			return False
+		
+		elif caster.plot().isCity():
+			return False
+		
+		elif not caster.canMove():
+			return False
+		
+		else:
+			if caster.plot().getTeam() == caster.getTeam():
+				if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+					return True
+	
+	return False
+	
+def spell_TERRAFORM_FLATLAND_NO_SACRIFICE(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	
+	if caster.isHuman() and not pTeam.isHasTech(gc.getInfoTypeForString('TECH_THE_TRUMP_CARD_IS_ALWAYS_A_BAD_MOVE')):
+		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FLATLAND'))
+		
+	else:
+		pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+	
+	caster.finishMoves()
+	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+
+
+#######################################
+#テラフォーミング・植林
+def req_TERRAFORM_FOREST(bTestVisible,caster,sCAL,eCAL,cost):
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	if bTestVisible:
+		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_TUKI_NO_MIYAKO_WORKER') and \
+		pTeam.isHasTech(gc.getInfoTypeForString('TECH_APOLLO_CONSPIRACY')):
+			return True
+		else:
+			return False
+
+	else:
+		if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_COAST') or \
+		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_OCEAN') or \
+		pPlot.getFeatureType() != gc.getInfoTypeForString('FEATURE_NONE'):
+			return False
+		
+		elif caster.plot().isCity():
+			return False
+		
+		elif not caster.canMove():
+			return False
+		
+		else:
+			if caster.plot().getTeam() == caster.getTeam():
+				if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+					return True
+	
+	return False
+	
+def spell_TERRAFORM_FOREST(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	
+	if caster.isHuman():
+		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FOREST'))
+	
+	else:
+		pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_REGENERATION_FOREST'), 1)
+		
+	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	caster.changeDamage(100,caster.getOwner())
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+
+
+#######################################
+#テラフォーミング・埋め立て
+def req_TERRAFORM_LANDFILL(bTestVisible,caster,sCAL,eCAL,cost):
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	if bTestVisible:
+		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_LANDFILLER') and \
+		pTeam.isHasTech(gc.getInfoTypeForString('TECH_SAKE_OF_THE_WATATSUKI')):
+			return True
+		else:
+			return False
+
+	else:
+		if pPlot.getBonusType(caster.getTeam()) != -1:
+			return False
+		
+		elif caster.plot().isCity():
+			return False
+		
+		elif not caster.canMove():
+			return False
+		
+		else:
+			if caster.plot().getTeam() == caster.getTeam():
+				if pPlot.getNumUnits() == 1:
+					if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_COAST') or \
+					pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_OCEAN'):
+						if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+							return True
+	
+	return False
+	
+def spell_TERRAFORM_LANDFILL(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	
+	#※注意！
+	#本来この処理はそのままやろうとするとゲームが強制終了する
+	#（陸と海を埋め立てる時にユニットが存在すると例外処理になってしまいゲームが落ちる
+	#その時仮に同時にユニットを消してもゲーム上では存在する事になっているので同じ事）
+	#そのためはまき氏の力を借りてSDK側で無理矢理落ちないようにしているが
+	#それはそれで「もしも万が一、陸地に他のユニットが存在する状態」だったら何が起こるか分からない
+	#なのでもしも私以外の人がスペルの追加をするとなったら
+	#この処理だけは神経質なくらい、発動タイルに他のユニットがスタックしている状態だけは回避して
+	#その上で同時にキャスターユニットは消滅させ、とにかく「海タイルから陸に上がるヤツ」状態にならないようにすることを推奨
+	#何が起こるかわからないし、何が起きても保障はできないため
+	
+	if pPlot.getNumUnits() == 1 and pPlot.getBonusType(caster.getTeam()) == -1 :
+		if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_COAST') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_OCEAN'):
+			#この例外処理をする場合このように第四因数をTrueにすること
+			#なお上記でも触れたが、これはSDK側の変更が必要なのでその処理をしない限りこのままコピペしても動作はしない
+			#もしも他MODでこの処理を参考にしたい場合は注意
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,True)
+	
+	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	caster.changeDamage(100,caster.getOwner())
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+
+
+#######################################
+#テラフォーミング・砕氷
+def req_TERRAFORM_CRUSHICE(bTestVisible,caster,sCAL,eCAL,cost):
+	pTeam = gc.getTeam(caster.getTeam())
+	iX = caster.getX()
+	iY = caster.getY()
+	if bTestVisible:
+		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_ICEBREAKER') and \
+		pTeam.isHasTech(gc.getInfoTypeForString('TECH_SAKE_OF_THE_WATATSUKI')):
+			return True
+		else:
+			return False
+
+	else:
+		
+		if caster.plot().isCity():
+			return False
+		
+		elif not caster.canMove():
+			return False
+		
+		else:
+			if caster.plot().getTeam() == caster.getTeam():
+				if caster.plot().getTerrainType() == gc.getInfoTypeForString('TERRAIN_COAST') or \
+				caster.plot().getTerrainType() == gc.getInfoTypeForString('TERRAIN_OCEAN'):
+					for iiX in range(iX-1,iX+2):
+						for iiY in range(iY-1,iY+2):
+							if Functions.isPlot(iiX,iiY):
+								pPlot = gc.getMap().plot(iiX,iiY)
+								if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_ICE'):
+									#if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+									return True
+	
+	return False
+	
+def spell_TERRAFORM_CRUSHICE(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	pTeam = gc.getTeam(caster.getTeam())
+	iX = caster.getX()
+	iY = caster.getY()
+	
+	for iiX in range(iX-1,iX+2):
+		for iiY in range(iY-1,iY+2):
+			if Functions.isPlot(iiX,iiY):
+				pPlot = gc.getMap().plot(iiX,iiY)
+				if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_ICE'):
+					pPlot.setFeatureType (gc.getInfoTypeForString('FEATURE_NONE'),1)
+	
+	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	caster.changeDamage(100,caster.getOwner())
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+
+
+#######################################
+#テラフォーミング・海洋化
+def req_TERRAFORM_OCEANIZATION(bTestVisible,caster,sCAL,eCAL,cost):
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	if bTestVisible:
+		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_OCEANIWORKER') and \
+		pTeam.isHasTech(gc.getInfoTypeForString('TECH_SAKE_OF_THE_WATATSUKI')):
+			return True
+		else:
+			return False
+
+	else:
+		
+		if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_COAST') or \
+		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_OCEAN') or \
+		pPlot.getFeatureType() != gc.getInfoTypeForString('FEATURE_NONE'):
+			return False
+		
+		elif pPlot.getBonusType(caster.getTeam()) != -1:
+			return False
+		
+		elif caster.plot().isCity():
+			return False
+		
+		elif not caster.canMove():
+			return False
+		
+		else:
+			if caster.plot().getTeam() == caster.getTeam():
+				if pPlot.getNumUnits() == 1:
+					if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+						return True
+	
+	return False
+	
+def spell_TERRAFORM_OCEANIZATION(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	
+	#※注意！
+	#これも埋め立てと同じく本来は強制終了する処理の回避処置が取られている
+	#なので上記と同じく発動タイルにユニットが1人も残らないようにすることを推奨
+	
+	if pPlot.getNumUnits() == 1 and pPlot.getBonusType(caster.getTeam()) == -1 :
+		if pPlot.getPlotType() == PlotTypes.PLOT_LAND:
+			pPlot.setPlotType(PlotTypes.PLOT_OCEAN,True,True,True)
+	
+	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	caster.changeDamage(100,caster.getOwner())
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+
+
+#######################################
+#テラフォーミング・氾濫源
+def req_TERRAFORM_FLOOD(bTestVisible,caster,sCAL,eCAL,cost):
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	
+	if bTestVisible:
+		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_TUKI_NO_MIYAKO_WORKER') and \
+		pTeam.isHasTech(gc.getInfoTypeForString('TECH_THE_TRUMP_CARD_IS_ALWAYS_A_BAD_MOVE')):
+			return True
+		else:
+			return False
+
+	else:
+		if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_COAST') or \
+		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_OCEAN') or \
+		pPlot.getFeatureType() != gc.getInfoTypeForString('FEATURE_NONE'):
+			return False
+		
+		elif caster.plot().isCity():
+			return False
+		
+		elif not caster.canMove():
+			return False
+		
+		#可能であれば動的に月の都UWが5人いるかどうかをここで判定したいけど…
+		#リストを利用する形だとリストのリセットが上手くいかないため結果的に判定も上手くいかない
+		#なにか上手い方法があればどなたかplz
+		else:
+			if caster.plot().getTeam() == caster.getTeam():
+				if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED') ) == False:
+					return True
+	
+	return False
+	
+def spell_TERRAFORM_FLOOD(caster,cost):
+	
+	CAL = caster.countCardAttackLevel()
+	pTeam = gc.getTeam(caster.getTeam())
+	pPlot = caster.plot()
+	iNumUnit = pPlot.getNumUnits()
+	UnitList = []
+	
+	#妥協案で5人以上いる場合ならスペル成功、いないならスペル発動済みの昇進を与える
+	if caster.isHuman():
+		for i in range(iNumUnit):
+			pUnit = pPlot.getUnit(i)
+			if pUnit.getUnitType() == gc.getInfoTypeForString('UNIT_TUKI_NO_MIYAKO_WORKER'):
+				if pUnit.getTeam() == caster.getTeam():
+					UnitList.append(pUnit)
+		if len(UnitList)>4:
+			for i in range(5):
+				iRandNum = gc.getGame().getSorenRandNum(len(UnitList),"Flood Plains Sacrifice")
+				pUnit = UnitList.pop(iRandNum)
+				pUnit.changeDamage(100,caster.getOwner())
+			pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'), 1)
+			pPlot.setImprovementType(-1)
+	
+	else:
+		pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'), 1)
+		
+	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+	
+	point = caster.plot().getPoint()
+	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
+	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
+	
+	return True
+
+
+
+
+
+
+#######################################
+#以下、世界魔法系列
+#######################################
 
 def req_NINGENNOSATO1(bTestVisible,caster,sCAL,eCAL,cost):
 	pPlayer = gc.getPlayer(caster.getOwner())

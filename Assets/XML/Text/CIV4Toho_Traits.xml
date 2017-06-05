@@ -1112,11 +1112,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_WATAHIMELIST_HELP</Tag>
 		<English></English>
-		<French>　&#13;　[ICON_BULLET]月からの支援の生産に[ICON_PRODUCTION]+100%</French>
+		<French>　&#13;　[ICON_BULLET]月読神社の生産に[ICON_PRODUCTION]+100%</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>　&#13;　[ICON_BULLET]月からの支援の生産に[ICON_PRODUCTION]+100%</Japanese>
+		<Japanese>　&#13;　[ICON_BULLET]月読神社の生産に[ICON_PRODUCTION]+100%</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_MINORIKOLIST</Tag>
@@ -1859,11 +1859,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_JUNKOLIST_HELP</Tag>
 		<English></English>
-		<French>　&#13;　[ICON_BULLET]白兵ユニットの作成コスト-25%</French>
+		<French>　&#13;　[ICON_BULLET]白兵ユニットの作成コスト-15%</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>　&#13;　[ICON_BULLET]白兵ユニットの作成コスト-25%</Japanese>
+		<Japanese>　&#13;　[ICON_BULLET]白兵ユニットの作成コスト-15%</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_HECATIALIST</Tag>

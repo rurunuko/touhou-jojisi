@@ -6981,8 +6981,8 @@
       <OrPreReqs />
       <AndPreReqs />
       <Quote>TXT_KEY_TECH_MYSTICISM_QUOTE</Quote>
-      <Sound>AS2D_TECH_MYSTICISM</Sound>
-      <SoundMP>AS2D_TECH_MP_MYSTICISM</SoundMP>
+      <Sound>AS2D_TECH</Sound>
+      <SoundMP />
       <Button>,Art/Interface/Buttons/TechTree/Mysticism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,11</Button>
     </TechInfo>
     <TechInfo>
@@ -7050,8 +7050,8 @@
       </OrPreReqs>
       <AndPreReqs />
       <Quote>TXT_KEY_TECH_MEDITATION_QUOTE</Quote>
-      <Sound>AS2D_TECH_MEDITATION</Sound>
-      <SoundMP>AS2D_TECH_MP_MEDITATION</SoundMP>
+      <Sound>AS2D_TECH</Sound>
+      <SoundMP />
       <Button>,Art/Interface/Buttons/TechTree/Meditation.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,5</Button>
     </TechInfo>
     <TechInfo>
@@ -7115,8 +7115,8 @@
       </OrPreReqs>
       <AndPreReqs />
       <Quote>TXT_KEY_TECH_POLYTHEISM_QUOTE</Quote>
-      <Sound>AS2D_TECH_POLYTHEISM</Sound>
-      <SoundMP>AS2D_TECH_MP_POLYTHEISM</SoundMP>
+      <Sound>AS2D_TECH</Sound>
+      <SoundMP />
       <Button>,Art/Interface/Buttons/TechTree/Polytheism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,6</Button>
     </TechInfo>
     <TechInfo>
@@ -7189,8 +7189,8 @@
       </OrPreReqs>
       <AndPreReqs />
       <Quote>TXT_KEY_TECH_PRIESTHOOD_QUOTE</Quote>
-      <Sound>AS2D_TECH_PRIESTHOOD</Sound>
-      <SoundMP>AS2D_TECH_MP_PRIESTHOOD</SoundMP>
+      <Sound>AS2D_TECH</Sound>
+      <SoundMP />
       <Button>,Art/Interface/Buttons/TechTree/Priesthood.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,11</Button>
     </TechInfo>
     <TechInfo>
@@ -7260,8 +7260,8 @@
         <PrereqTech>TECH_MASONRY</PrereqTech>
       </AndPreReqs>
       <Quote>TXT_KEY_TECH_MONOTHEISM_QUOTE</Quote>
-      <Sound>AS2D_TECH_MONOTHEISM</Sound>
-      <SoundMP>AS2D_TECH_MP_MONOTHEISM</SoundMP>
+      <Sound>AS2D_TECH</Sound>
+      <SoundMP />
       <Button>,Art/Interface/Buttons/TechTree/Monotheism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,11</Button>
     </TechInfo>
     <TechInfo>
@@ -7708,8 +7708,8 @@
         <PrereqTech>TECH_WRITING</PrereqTech>
       </AndPreReqs>
       <Quote>TXT_KEY_TECH_THEOLOGY_QUOTE</Quote>
-      <Sound>AS2D_TECH_THEOLOGY</Sound>
-      <SoundMP>AS2D_TECH_MP_THEOLOGY</SoundMP>
+      <Sound>AS2D_TECH</Sound>
+      <SoundMP />
       <Button>,Art/Interface/Buttons/TechTree/Theology.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,12</Button>
     </TechInfo>
     <TechInfo>
@@ -8021,8 +8021,8 @@
         <PrereqTech>TECH_MONARCHY</PrereqTech>
       </AndPreReqs>
       <Quote>TXT_KEY_TECH_DIVINE_RIGHT_QUOTE</Quote>
-      <Sound>AS2D_TECH_DIVINE_RIGHT</Sound>
-      <SoundMP>AS2D_TECH_MP_DIVINE_RIGHT</SoundMP>
+      <Sound>AS2D_TECH</Sound>
+      <SoundMP />
       <Button>,Art/Interface/Buttons/TechTree/Divine Right.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,3</Button>
     </TechInfo>
     <TechInfo>
@@ -9641,8 +9641,8 @@
         <PrereqTech>TECH_MEDITATION</PrereqTech>
       </AndPreReqs>
       <Quote>TXT_KEY_TECH_PHILOSOPHY_QUOTE</Quote>
-      <Sound>AS2D_TECH_PHILOSOPHY</Sound>
-      <SoundMP>AS2D_TECH_MP_PHILOSOPHY</SoundMP>
+      <Sound>AS2D_TECH</Sound>
+      <SoundMP />
       <Button>,Art/Interface/Buttons/TechTree/Philosophy.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,6</Button>
     </TechInfo>
     <TechInfo>

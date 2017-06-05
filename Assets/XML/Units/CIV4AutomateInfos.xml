@@ -5951,6 +5951,25 @@
       <Button>Art/Interface/Buttons/Spells/USE_PHANTASM_SPELL.dds</Button>
     </AutomateInfo>
     <AutomateInfo>
+      <Type>SPELL_YORIHIME_SKILL1</Type>
+      <Description>TXT_KEY_SPELL_YORIHIME_SKILL1</Description>
+      <Help>TXT_KEY_SPELL_YORIHIME_SKILL1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_YORIHIME_SKILL1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
       <Type>SPELL_YORIHIME_EXTRA1</Type>
       <Description>TXT_KEY_SPELL_YORIHIME_EXTRA1</Description>
       <Help>TXT_KEY_SPELL_YORIHIME_EXTRA1_HELP</Help>
@@ -6099,6 +6118,25 @@
       <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
       <Command>COMMAND_AUTOMATE</Command>
       <Automate>AUTOMATE_SPELL_TOYOHIME_EXTRA2</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TOYOHIME_SKILL1</Type>
+      <Description>TXT_KEY_SPELL_TOYOHIME_SKILL1</Description>
+      <Help>TXT_KEY_SPELL_TOYOHIME_SKILL1_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TOYOHIME_SKILL1</Automate>
       <bVisible>1</bVisible>
       <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
     </AutomateInfo>
@@ -6293,6 +6331,44 @@
       <Button>Art/Interface/Buttons/Units/auric_button.dds</Button>
     </AutomateInfo>
     <AutomateInfo>
+      <Type>SPELL_SPECIAL_HALLOWEEN_FEVER</Type>
+      <Description>TXT_KEY_SPELL_SPECIAL_HALLOWEEN_FEVER</Description>
+      <Help>TXT_KEY_SPELL_SPECIAL_HALLOWEEN_FEVER_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_SPECIAL_HALLOWEEN_FEVER</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_SPECIAL_DANGO_FEVER</Type>
+      <Description>TXT_KEY_SPELL_SPECIAL_DANGO_FEVER</Description>
+      <Help>TXT_KEY_SPELL_SPECIAL_DANGO_FEVER_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_SPECIAL_DANGO_FEVER</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/USE_EXTRA_SPELL.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
       <Type>SPELL_SPECIAL_TANTIGATA_KIRAI_1_1</Type>
       <Description>TXT_KEY_SPELL_SPECIAL_TANTIGATA_KIRAI_1_1</Description>
       <Help>TXT_KEY_SPELL_SPECIAL_TANTIGATA_KIRAI_1_1_HELP</Help>
@@ -6386,6 +6462,253 @@
       <Automate>AUTOMATE_SPELL_SPECIAL_JIBAKU</Automate>
       <bVisible>1</bVisible>
       <Button>Art/Interface/Buttons/Promotions/jibaku.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TERRAFORM_PLAIN</Type>
+      <Description>TXT_KEY_SPELL_TERRAFORM_PLAIN</Description>
+      <Help>TXT_KEY_SPELL_TERRAFORM_PLAIN_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TERRAFORM_PLAIN</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/baseterrain/plains.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TERRAFORM_PLAIN_NO_SACRIFICE</Type>
+      <Description>TXT_KEY_SPELL_TERRAFORM_PLAIN_NO_SACRIFICE</Description>
+      <Help>TXT_KEY_SPELL_TERRAFORM_PLAIN_NO_SACRIFICE_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TERRAFORM_PLAIN_NO_SACRIFICE</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/baseterrain/plains.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TERRAFORM_GRASS</Type>
+      <Description>TXT_KEY_SPELL_TERRAFORM_GRASS</Description>
+      <Help>TXT_KEY_SPELL_TERRAFORM_GRASS_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TERRAFORM_GRASS</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/baseterrain/grassland.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TERRAFORM_GRASS_NO_SACRIFICE</Type>
+      <Description>TXT_KEY_SPELL_TERRAFORM_GRASS_NO_SACRIFICE</Description>
+      <Help>TXT_KEY_SPELL_TERRAFORM_GRASS_NO_SACRIFICE_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TERRAFORM_GRASS_NO_SACRIFICE</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/baseterrain/grassland.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TERRAFORM_HILL</Type>
+      <Description>TXT_KEY_SPELL_TERRAFORM_HILL</Description>
+      <Help>TXT_KEY_SPELL_TERRAFORM_HILL_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TERRAFORM_HILL</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/baseterrain/hill.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TERRAFORM_HILL_NO_SACRIFICE</Type>
+      <Description>TXT_KEY_SPELL_TERRAFORM_HILL_NO_SACRIFICE</Description>
+      <Help>TXT_KEY_SPELL_TERRAFORM_HILL_NO_SACRIFICE_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TERRAFORM_HILL_NO_SACRIFICE</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/baseterrain/hill.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TERRAFORM_FLATLAND</Type>
+      <Description>TXT_KEY_SPELL_TERRAFORM_FLATLAND</Description>
+      <Help>TXT_KEY_SPELL_TERRAFORM_FLATLAND_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TERRAFORM_FLATLAND</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/baseterrain/plains.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TERRAFORM_FLATLAND_NO_SACRIFICE</Type>
+      <Description>TXT_KEY_SPELL_TERRAFORM_FLATLAND_NO_SACRIFICE</Description>
+      <Help>TXT_KEY_SPELL_TERRAFORM_FLATLAND_NO_SACRIFICE_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TERRAFORM_FLATLAND_NO_SACRIFICE</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/baseterrain/plains.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TERRAFORM_FOREST</Type>
+      <Description>TXT_KEY_SPELL_TERRAFORM_FOREST</Description>
+      <Help>TXT_KEY_SPELL_TERRAFORM_FOREST_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TERRAFORM_FOREST</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/terrainfeatures/forest.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TERRAFORM_LANDFILL</Type>
+      <Description>TXT_KEY_SPELL_TERRAFORM_LANDFILL</Description>
+      <Help>TXT_KEY_SPELL_TERRAFORM_LANDFILL_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TERRAFORM_LANDFILL</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/terraforming/terraform_landfill.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TERRAFORM_CRUSHICE</Type>
+      <Description>TXT_KEY_SPELL_TERRAFORM_CRUSHICE</Description>
+      <Help>TXT_KEY_SPELL_TERRAFORM_CRUSHICE_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TERRAFORM_CRUSHICE</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/terraforming/terraform_crushice.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TERRAFORM_OCEANIZATION</Type>
+      <Description>TXT_KEY_SPELL_TERRAFORM_OCEANIZATION</Description>
+      <Help>TXT_KEY_SPELL_TERRAFORM_OCEANIZATION_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TERRAFORM_OCEANIZATION</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/terraforming/terraform_oceanization.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELL_TERRAFORM_FLOOD</Type>
+      <Description>TXT_KEY_SPELL_TERRAFORM_FLOOD</Description>
+      <Help>TXT_KEY_SPELL_TERRAFORM_FLOOD_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELL_TERRAFORM_FLOOD</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/terrainfeatures/floodplains.dds</Button>
     </AutomateInfo>
     <AutomateInfo>
       <Type>SPELL_GET_HOURAINOKUSURI_EASY</Type>

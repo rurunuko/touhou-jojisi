@@ -611,6 +611,35 @@
 		<Japanese>魔力嵐</Japanese>
 	</TEXT>
 <!-- Kishinjou Buildings End-->
+<!-- Tukinomiyako Buildings Start-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HEKATE_SANCTUARY</Tag>
+		<English />
+		<French>古代アテネの幻想聖域</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>古代アテネの幻想聖域</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TRUE_ARTEMIS</Tag>
+		<English />
+		<French>真実のアルテミス神殿</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>真実のアルテミス神殿</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TSUKUYOMI_SHRINE</Tag>
+		<English />
+		<French>月読神社</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月読神社</Japanese>
+	</TEXT>
+<!-- Tukinomiyako Buildings End-->
 <!-- Other Buildings Start-->
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_DANMAKUKOUZA1</Tag>
@@ -1407,6 +1436,15 @@
 		<Italian />
 		<Spanish />
 		<Japanese>高天原の知恵</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DANGOYA</Tag>
+		<English />
+		<French>月見だんご屋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月見だんご屋</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_DAGON</Tag>

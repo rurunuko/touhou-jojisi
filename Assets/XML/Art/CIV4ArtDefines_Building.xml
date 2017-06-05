@@ -1798,6 +1798,16 @@
       <Button>Art/Interface/Buttons/Civilizations/kishinjou.dds</Button>
     </BuildingArtInfo>
     <BuildingArtInfo>
+      <Type>ART_DEF_BUILDING_PALACE_BUTTON_TUKI_NO_MIYAKO</Type>
+      <LSystem>LSYSTEM_3x2</LSystem>
+      <bAnimated>0</bAnimated>
+      <fScale>1.15</fScale>
+      <fInterfaceScale>0.43</fInterfaceScale>
+      <NIF>Art/Structures/Buildings/Palace/Palace.nif</NIF>
+      <KFM />
+      <Button>Art/Interface/Buttons/Civilizations/tuki_no_miyako.dds</Button>
+    </BuildingArtInfo>
+    <BuildingArtInfo>
       <Type>ART_DEF_BUILDING_PALACE_BUTTON_REPLEY</Type>
       <LSystem>LSYSTEM_3x2</LSystem>
       <bAnimated>0</bAnimated>
@@ -2437,6 +2447,16 @@
       <NIF>Art/Structures/Buildings/Palace/Palace.nif</NIF>
       <KFM />
       <Button>Art/Interface/Buttons/spell_buildings/yorihime_ph.dds</Button>
+    </BuildingArtInfo>
+    <BuildingArtInfo>
+      <Type>ART_DEF_BUILDING_PALACE_BUTTON_RINGO_EXTRA</Type>
+      <LSystem>LSYSTEM_3x2</LSystem>
+      <bAnimated>0</bAnimated>
+      <fScale>1.15</fScale>
+      <fInterfaceScale>0.43</fInterfaceScale>
+      <NIF>Art/Structures/Buildings/Palace/Palace.nif</NIF>
+      <KFM />
+      <Button>Art/Interface/Buttons/spell_buildings/ringo_ex.dds</Button>
     </BuildingArtInfo>
     <BuildingArtInfo>
       <Type>ART_DEF_BUILDING_PALACE_BUTTON_DOREMY_PHANTASM</Type>

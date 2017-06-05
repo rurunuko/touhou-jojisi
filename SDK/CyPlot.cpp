@@ -647,10 +647,12 @@ bool CyPlot::isPeak()
 	return m_pPlot ? m_pPlot->isPeak() : false;
 }
 
-void CyPlot::setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGraphics)
+//東方叙事詩・統合MOD追記
+//以下bSpellReclaimの追記がある箇所同等
+void CyPlot::setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGraphics, bool bSpellReclaim)
 {
 	if (m_pPlot)
-		m_pPlot->setPlotType(eNewValue, bRecalculate, bRebuildGraphics);
+		m_pPlot->setPlotType(eNewValue, bRecalculate, bRebuildGraphics, bSpellReclaim);
 }
 
 int /*TerrainTypes*/ CyPlot::getTerrainType()
@@ -658,11 +660,12 @@ int /*TerrainTypes*/ CyPlot::getTerrainType()
 	return m_pPlot ? m_pPlot->getTerrainType() : -1;
 }
 
-void CyPlot::setTerrainType(int /*TerrainTypes*/ eNewValue, bool bRecalculate, bool bRebuildGraphics)
+void CyPlot::setTerrainType(int /*TerrainTypes*/ eNewValue, bool bRecalculate, bool bRebuildGraphics, bool bSpellReclaim)
 {
 	if (m_pPlot)
-		m_pPlot->setTerrainType((TerrainTypes)eNewValue, bRecalculate, bRebuildGraphics);
+		m_pPlot->setTerrainType((TerrainTypes)eNewValue, bRecalculate, bRebuildGraphics, bSpellReclaim);
 }
+//東方叙事詩・統合MOD追記ここまで
 
 int /*FeatureTypes*/ CyPlot::getFeatureType()
 {

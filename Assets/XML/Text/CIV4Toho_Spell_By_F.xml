@@ -4940,6 +4940,24 @@
 		<Japanese>[ICON_BULLET]何の資源も無い陸上タイルで発動すると牛、馬、絹資源のいずれかが発生する&#13;[ICON_BULLET]牛、馬、絹資源のいずれかがあるタイルで発動すると米資源に変化する&#13;[ICON_BULLET]海洋タイルあるいは上記3資源以外の資源があるタイルで発動しても効果無し&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_SPELL_YORIHIME_SKILL1</Tag>
+		<English />
+		<French>降神『邇邇芸命』</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>降神『邇邇芸命』</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_YORIHIME_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]自分自身の耐久力を50％回復させる&#13;[ICON_BULLET]スキルの昇進が必要</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]自分自身の耐久力を50％回復させる&#13;[ICON_BULLET]スキルの昇進が必要</Japanese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_SPELL_YORIHIME_EXTRA1</Tag>
 		<English />
 		<French>降神『金山彦命』</French>
@@ -4987,11 +5005,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_YORIHIME_EXTRA3_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]「溶鉱炉」が建設されている都市上で使用すると「愛宕様の火」を設置する&#13;[ICON_BULLET]溶鉱炉が建設されていない都市では効果無し&#13;[ICON_BULLET]愛宕様の火：[ICON_PRODUCTION]+2,[ICON_PRODUCTION]+10%　鉄・石炭所持で幸福ボーナス&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.30が必要</French>
+		<French>[ICON_BULLET]「溶鉱炉」が建設されている都市上で使用すると「愛宕様の火」を建設する&#13;[ICON_BULLET]溶鉱炉が建設されていない都市では効果無し&#13;[ICON_BULLET]愛宕様の火：[ICON_PRODUCTION]+2,[ICON_PRODUCTION]+10%　鉄・石炭所持で幸福ボーナス&#13;[ICON_BULLET]都市から術者が移動しても消滅しない&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.30が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]「溶鉱炉」が建設されている都市上で使用すると「愛宕様の火」を設置する&#13;[ICON_BULLET]溶鉱炉が建設されていない都市では効果無し&#13;[ICON_BULLET]愛宕様の火：[ICON_PRODUCTION]+2,[ICON_PRODUCTION]+10%　鉄・石炭所持で幸福ボーナス&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.30が必要</Japanese>
+		<Japanese>[ICON_BULLET]「溶鉱炉」が建設されている都市上で使用すると「愛宕様の火」を建設する&#13;[ICON_BULLET]溶鉱炉が建設されていない都市では効果無し&#13;[ICON_BULLET]愛宕様の火：[ICON_PRODUCTION]+2,[ICON_PRODUCTION]+10%　鉄・石炭所持で幸福ボーナス&#13;[ICON_BULLET]都市から術者が移動しても消滅しない&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.30が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_YORIHIME_PHANTASM1</Tag>
@@ -5077,11 +5095,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_TOYOHIME_EXTRA1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]「月の密偵」を召喚する&#13;[ICON_BULLET]月の密偵：移動力3　不可視ユニット&#13;[ICON_BULLET]同時に1体のみ召喚可能&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.30が必要</French>
+		<French>[ICON_BULLET]「月の密偵」を召喚する&#13;[ICON_BULLET]月の密偵：移動力3　不可視ユニット&#13;[ICON_BULLET]同時に1体のみ召喚可能&#13;[ICON_BULLET]昇進EXTRAあるいはスキルの昇進が必要&#13;[ICON_BULLET]Power0.30が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]「月の密偵」を召喚する&#13;[ICON_BULLET]月の密偵：移動力3　不可視ユニット&#13;[ICON_BULLET]同時に1体のみ召喚可能&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.30が必要</Japanese>
+		<Japanese>[ICON_BULLET]「月の密偵」を召喚する&#13;[ICON_BULLET]月の密偵：移動力3　不可視ユニット&#13;[ICON_BULLET]同時に1体のみ召喚可能&#13;[ICON_BULLET]昇進EXTRAあるいはスキルの昇進が必要&#13;[ICON_BULLET]Power0.30が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_TOYOHIME_EXTRA2</Tag>
@@ -5100,6 +5118,24 @@
 		<Italian />
 		<Spanish />
 		<Japanese>[ICON_BULLET]同じスタックの[001]体のユニットが月の密偵の居るタイルへ移動する&#13;[ICON_BULLET]その際に移動先にいた月の密偵は消滅する&#13;[ICON_BULLET]月の密偵が居ないか、月の密偵が敵対ユニットと重なっているときは使用不可&#13;[ICON_BULLET]移動後はスペル使用済みの昇進が与えられる&#13;[ICON_BULLET]昇進EXTRAが必要</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TOYOHIME_SKILL1</Tag>
+		<English />
+		<French>海と山の紡ぎ手EX</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>海と山の紡ぎ手EX</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_YORIHIME_SKILL1_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]豊姫本人が単体で月の密偵の居るタイルへ移動する&#13;[ICON_BULLET]その際に移動先にいた月の密偵は消滅する&#13;[ICON_BULLET]月の密偵が居ないか、月の密偵が敵対ユニットと重なっているときは使用不可&#13;[ICON_BULLET]スキルの昇進が必要</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]豊姫本人が単体で月の密偵の居るタイルへ移動する&#13;[ICON_BULLET]その際に移動先にいた月の密偵は消滅する&#13;[ICON_BULLET]月の密偵が居ないか、月の密偵が敵対ユニットと重なっているときは使用不可&#13;[ICON_BULLET]スキルの昇進が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_TOYOHIME_PHANTASM1</Tag>
@@ -5194,20 +5230,20 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_RINGO1_1_HELP</Tag>
 		<English />
-		<French>（仮）</French>
+		<French>[ICON_BULLET]同スタック内の労働者CAL/6+1体に「ハロウィンフィーバー」の昇進を与える&#13;[ICON_BULLET]ハロウィンフィーバー：この昇進を持つ労働者は特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]ハロウィンフィーバーのスペルをテラフォーミング系地形改善が設置されているタイルで使用すると即座に改善が完了する&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>（仮）</Japanese>
+		<Japanese>[ICON_BULLET]同スタック内の労働者CAL/6+1体に「ハロウィンフィーバー」の昇進を与える&#13;[ICON_BULLET]ハロウィンフィーバー：この昇進を持つ労働者は特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]ハロウィンフィーバーのスペルをテラフォーミング系地形改善が設置されているタイルで使用すると即座に改善が完了する&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_RINGO1_2_HELP</Tag>
 		<English />
-		<French>（仮）</French>
+		<French>[ICON_BULLET]同スタック内の労働者CAL/6+1体に「ダンゴフィーバー」の昇進を与える&#13;[ICON_BULLET]ダンゴフィーバー：この昇進を持つ労働者は特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]ダンゴフィーバーのスペルはテラフォーミング系地形改善を即座に終了させつつ、その他のあらゆる成長系地形改善の成長段階を強制的に1段階成長させる事が出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>（仮）</Japanese>
+		<Japanese>[ICON_BULLET]同スタック内の労働者CAL/6+1体に「ダンゴフィーバー」の昇進を与える&#13;[ICON_BULLET]ダンゴフィーバー：この昇進を持つ労働者は特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]ダンゴフィーバーのスペルはテラフォーミング系地形改善を即座に終了させつつ、その他のあらゆる成長系地形改善の成長段階を強制的に1段階成長させる事が出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_RINGO_EXTRA1</Tag>
@@ -5221,11 +5257,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_RINGO_EXTRA1_HELP</Tag>
 		<English />
-		<French>（仮）</French>
+		<French>[ICON_BULLET]都市に月見だんご屋を建設する&#13;[ICON_BULLET]都市から移動しても消滅しない&#13;[ICON_BULLET]月見だんご屋：[ICON_FOOD]+1 [ICON_HAPPY]+1 [ICON_HEALTHY]+2&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.15が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>（仮）</Japanese>
+		<Japanese>[ICON_BULLET]都市に月見だんご屋を建設する&#13;[ICON_BULLET]都市から移動しても消滅しない&#13;[ICON_BULLET]月見だんご屋：[ICON_FOOD]+1 [ICON_HAPPY]+1 [ICON_HEALTHY]+2&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.15が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_RINGO_PHANTASM1</Tag>
@@ -5239,11 +5275,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_RINGO_PHANTASM1_HELP</Tag>
 		<English />
-		<French>（仮）</French>
+		<French>[ICON_BULLET]術者が立っているタイルに川を設置する&#13;[ICON_BULLET]川が設置される方角は術者の南側で固定される&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.30が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>（仮）</Japanese>
+		<Japanese>[ICON_BULLET]術者が立っているタイルに川を設置する&#13;[ICON_BULLET]川が設置される方角は術者の南側で固定される&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.30が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_DOREMY1_1</Tag>
@@ -5390,6 +5426,42 @@
 		<Japanese>[ICON_BULLET]敵対ユニットに10％の固定ダメージ&#13;[ICON_BULLET]東方ユニットには半減</Japanese>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_SPELL_SPECIAL_HALLOWEEN_FEVER</Tag>
+		<English />
+		<French>「ハロウィンフィーバー」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「ハロウィンフィーバー」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SPECIAL_HALLOWEEN_FEVER_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]テラフォーミング系地形改善の上で使用するとテラフォーミングを即時完了させる&#13;[ICON_BULLET]使用後に「ハロウィンフィーバー」の昇進は取り除かれる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]テラフォーミング系地形改善の上で使用するとテラフォーミングを即時完了させる&#13;[ICON_BULLET]使用後に「ハロウィンフィーバー」の昇進は取り除かれる</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SPECIAL_DANGO_FEVER</Tag>
+		<English />
+		<French>「ダンゴフィーバー」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「ダンゴフィーバー」</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SPECIAL_DANGO_FEVER_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]テラフォーミング系地形改善の上で使用するとテラフォーミングを即時完了させる&#13;[ICON_BULLET]成長系改善の上で使用すると強制的に改善の段階を一段階成長させる&#13;[ICON_BULLET]使用後に「ダンゴフィーバー」の昇進は取り除かれる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]テラフォーミング系地形改善の上で使用するとテラフォーミングを即時完了させる&#13;[ICON_BULLET]成長系改善の上で使用すると強制的に改善の段階を一段階成長させる&#13;[ICON_BULLET]使用後に「ダンゴフィーバー」の昇進は取り除かれる</Japanese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_SPELL_SPECIAL_TANTIGATA_KIRAI_1_1</Tag>
 		<English />
 		<French>改善破壊工作</French>
@@ -5480,4 +5552,240 @@
 		<Japanese>[ICON_BULLET]同スタック内の敵対あるいは中立のユニットに10%～20%の変動ダメージを与える&#13;[ICON_BULLET]東方ユニットには半減&#13;[ICON_BULLET]都市の直上にいる場合は文化防御を削った上でランダムで防壁類・バンカー類・城を破壊する&#13;[ICON_BULLET]使用したユニットは消滅する</Japanese>
 	</TEXT>
 	<!-- Tukinomiyako Spells End-->
+	<!-- Tukinomiyako Terraforming Start-->
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_PLAIN</Tag>
+		<English />
+		<French>テラフォーミング：平原化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：平原化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_PLAIN_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]現在立っているタイルを「テラフォーミング中（平原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]都市タイル、文化圏外、海洋、砂漠、ツンドラ、氷土では現時点において使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「アポロ計画陰謀論」取得後は犠牲無し）[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]現在立っているタイルを「テラフォーミング中（平原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]都市タイル、文化圏外、海洋、砂漠、ツンドラ、氷土では現時点において使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「アポロ計画陰謀論」取得後は犠牲無し）[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_PLAIN_NO_SACRIFICE</Tag>
+		<English />
+		<French>テラフォーミング：平原化（無犠牲版）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：平原化（無犠牲版）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_PLAIN_NO_SACRIFICE_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]現在立っているタイルを「テラフォーミング中（平原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「アポロ計画陰謀論」取得後…労働者の犠牲が無くなる、砂漠タイルでの実行が可能になる（[COLOR_RED]ただしオアシスタイルではユニットの犠牲が残り、氾濫源タイルはまだ不可[COLOR_REVERT]）&#13;[ICON_BULLET]「月の都遷都計画」取得後…ツンドラ・氷土タイルでも使用可能になる&#13;[ICON_BULLET]「綿月の神酒」取得後…氾濫源タイルでも使用可能になる（[COLOR_RED]ただし労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]現在立っているタイルを「テラフォーミング中（平原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「アポロ計画陰謀論」取得後…労働者の犠牲が無くなる、砂漠タイルでの実行が可能になる（[COLOR_RED]ただしオアシスタイルではユニットの犠牲が残り、氾濫源タイルはまだ不可[COLOR_REVERT]）&#13;[ICON_BULLET]「月の都遷都計画」取得後…ツンドラ・氷土タイルでも使用可能になる&#13;[ICON_BULLET]「綿月の神酒」取得後…氾濫源タイルでも使用可能になる（[COLOR_RED]ただし労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_GRASS</Tag>
+		<English />
+		<French>テラフォーミング：草原化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：草原化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_GRASS_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]現在立っている平原タイルを「テラフォーミング中（草原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]文化圏外では使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「アポロ計画陰謀論」取得後は犠牲無し）[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]現在立っている平原タイルを「テラフォーミング中（草原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]文化圏外では使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「アポロ計画陰謀論」取得後は犠牲無し）[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_GRASS_NO_SACRIFICE</Tag>
+		<English />
+		<French>テラフォーミング：草原化（無犠牲版）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：草原化（無犠牲版）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_GRASS_NO_SACRIFICE_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]現在立っている平原タイルを「テラフォーミング中（草原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「アポロ計画陰謀論」取得後…労働者の犠牲が無くなる、平原・オアシスタイルの草原化が可能になる（[COLOR_RED]オアシスタイルの場合は労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「綿月の神酒」取得後…平原・氾濫源タイルでも使用可能になる（[COLOR_RED]ただし労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]現在立っている平原タイルを「テラフォーミング中（草原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「アポロ計画陰謀論」取得後…労働者の犠牲が無くなる、平原・オアシスタイルの草原化が可能になる（[COLOR_RED]オアシスタイルの場合は労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「綿月の神酒」取得後…平原・氾濫源タイルでも使用可能になる（[COLOR_RED]ただし労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_HILL</Tag>
+		<English />
+		<French>テラフォーミング：丘陵化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：丘陵化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_HILL_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]現在立っている平地タイルを「テラフォーミング中（丘陵化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]都市タイル、海洋タイル、文化圏外では使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「月の都遷都計画」取得後は犠牲無し）[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]現在立っている平地タイルを「テラフォーミング中（丘陵化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]都市タイル、海洋タイル、文化圏外では使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「月の都遷都計画」取得後は犠牲無し）[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_HILL_NO_SACRIFICE</Tag>
+		<English />
+		<French>テラフォーミング：丘陵化（無犠牲版）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：丘陵化（無犠牲版）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_HILL_NO_SACRIFICE_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]現在立っている平地タイルを「テラフォーミング中（丘陵化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「月の都遷都計画」取得後…労働者の犠牲が無くなる&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]現在立っている平地タイルを「テラフォーミング中（丘陵化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「月の都遷都計画」取得後…労働者の犠牲が無くなる&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_FLATLAND</Tag>
+		<English />
+		<French>テラフォーミング：平地化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：平地化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_FLATLAND_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]現在立っている丘陵タイルを「テラフォーミング中（平地化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]都市タイル、海洋タイル、文化圏外では使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「月の都遷都計画」取得後は犠牲無し）[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]現在立っている丘陵タイルを「テラフォーミング中（平地化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]都市タイル、海洋タイル、文化圏外では使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「月の都遷都計画」取得後は犠牲無し）[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_FLATLAND_NO_SACRIFICE</Tag>
+		<English />
+		<French>テラフォーミング：平地化（無犠牲版）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：平地化（無犠牲版）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_FLATLAND_NO_SACRIFICE_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]現在立っている丘陵タイルを「テラフォーミング中（平地化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「月の都遷都計画」取得後…労働者の犠牲が無くなる&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]現在立っている丘陵タイルを「テラフォーミング中（平地化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「月の都遷都計画」取得後…労働者の犠牲が無くなる&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_FOREST</Tag>
+		<English />
+		<French>テラフォーミング：植林</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：植林</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_FOREST_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]現在立っているタイルを「テラフォーミング中（植林）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]植林で人工的に生やした森は「再生林」タイルであり、原生林とは区別される&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]再生林タイルには保安林は設置できない&#13;[ICON_BULLET]都市タイル、海洋タイル、文化圏外、他の特徴があるタイルでは使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]現在立っているタイルを「テラフォーミング中（植林）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]植林で人工的に生やした森は「再生林」タイルであり、原生林とは区別される&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]再生林タイルには保安林は設置できない&#13;[ICON_BULLET]都市タイル、海洋タイル、文化圏外、他の特徴があるタイルでは使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_LANDFILL</Tag>
+		<English />
+		<French>テラフォーミング：埋め立て</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：埋め立て</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_LANDFILL_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]このコマンドを使用したタイルを即時平原タイルにする&#13;[ICON_BULLET]都市タイル、文化圏外、資源があるタイルでは使用不可能&#13;[COLOR_RED]このコマンドを実行した埋め立て船は消滅する[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]このコマンドを使用したタイルを即時平原タイルにする&#13;[ICON_BULLET]都市タイル、文化圏外、資源があるタイルでは使用不可能&#13;[COLOR_RED]このコマンドを実行した埋め立て船は消滅する[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_CRUSHICE</Tag>
+		<English />
+		<French>テラフォーミング：砕氷</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：砕氷</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_CRUSHICE_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]このコマンドを使用したタイルの周囲1マスにある氷河タイルを全て消去する&#13;[ICON_BULLET]文化圏外では使用不可能&#13;[COLOR_RED]このコマンドを実行した砕氷船は消滅する[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]このコマンドを使用したタイルの周囲1マスにある氷河タイルを全て消去する&#13;[ICON_BULLET]文化圏外では使用不可能&#13;[COLOR_RED]このコマンドを実行した砕氷船は消滅する[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_OCEANIZATION</Tag>
+		<English />
+		<French>テラフォーミング：海洋化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：海洋化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_OCEANIZATION_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]このコマンドを使用したタイルを即時海洋タイルにする&#13;[ICON_BULLET]都市タイル、文化圏外、資源があるタイルでは使用不可能&#13;[COLOR_RED]このコマンドを実行した海洋工作玉兎は消滅する[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]このコマンドを使用したタイルを即時海洋タイルにする&#13;[ICON_BULLET]都市タイル、文化圏外、資源があるタイルでは使用不可能&#13;[COLOR_RED]このコマンドを実行した海洋工作玉兎は消滅する[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_FLOOD</Tag>
+		<English />
+		<French>テラフォーミング：氾濫源化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：氾濫源化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TERRAFORM_FLOOD_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]このコマンドを発動したタイルはどんなタイルでも即時氾濫源にする&#13;[ICON_BULLET]発動させるためには玉兎労働者が5人必要であり、同タイルに5人いる状態でコマンドが成功する&#13;[ICON_BULLET]都市タイル、海洋タイル、文化圏外、他の特徴があるタイルでは使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は【5人犠牲】になる[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]このコマンドを発動したタイルはどんなタイルでも即時氾濫源にする&#13;[ICON_BULLET]発動させるためには玉兎労働者が5人必要であり、同タイルに5人いる状態でコマンドが成功する&#13;[ICON_BULLET]都市タイル、海洋タイル、文化圏外、他の特徴があるタイルでは使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は【5人犠牲】になる[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<!-- Tukinomiyako Terraforming End-->
 </Civ4GameText>

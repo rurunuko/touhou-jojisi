@@ -97,6 +97,15 @@
 		<Japanese>弱者の楽園</Japanese>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PURE_SAKE</Tag>
+		<English />
+		<French>穢れ無き純粋な酒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>穢れ無き純粋な酒</Japanese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CIVICOPTION_FAITH</Tag>
 		<English />
 		<French>信仰</French>
@@ -473,6 +482,15 @@
 		<Italian />
 		<Spanish />
 		<Japanese>[ICON_BULLET]偉人誕生時に追加の神霊</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PURE_SAKE_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]オアシスタイルに小屋・農場・工房のいずれかを設置可能になる&#13;[ICON_BULLET]都市直下タイルに農場・工房のいずれかを設置可能になる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]オアシスタイルに小屋・農場・工房のいずれかを設置可能になる&#13;[ICON_BULLET]都市直下タイルに農場・工房のいずれかを設置可能になる</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_JAKUSYANORAKUEN_HELP</Tag>
