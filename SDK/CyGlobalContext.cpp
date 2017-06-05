@@ -640,12 +640,3 @@ CvTurnTimerInfo* CyGlobalContext::getTurnTimerInfo(int i) const
 	return &(GC.getTurnTimerInfo((TurnTimerTypes) i));
 }
 
-//ìåï˚èñéñéçóp
-int CyGlobalContext::getTextToSpellInt(char* szInfoType,const int CAL) const
-{
-
-    const char* bbb = szInfoType;
-
-	return GC.getTextToSpellInt(bbb,CAL);
-}
-

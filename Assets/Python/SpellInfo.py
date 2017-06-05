@@ -92,9 +92,9 @@ class SpellInfo: #storage class for all the stuff describing a spell. Makes lots
 		return self.__isAISpellCastFunc(caster)
 	def getCost(self):
 		return self.__cost
-	def getHelpText(self, szText, caster):
+	def getHelpText(self, szText, caster, CAL):
 		if self.__helpTextFunc :
-			return self.__helpTextFunc(szText, caster)
+			return self.__helpTextFunc(szText, caster, CAL)
 		return 0
 
 gc = CyGlobalContext()
@@ -3678,15 +3678,19 @@ def spellcard_SHINMYOUMARU1(caster,cost):
 	
 	return True
 
-### ここにこれを書けたらうれしくないかなって個人的な欲
-### Pythonで書ける式ならなんでも出せるけど、
-### ここは魔法の数字でひとつ
+### ここにこれを書けたらうれしくないかなって
+### Pythonで書ける式ならなんでも出せる、なんならスペル本体から計算式をコピペしたっていい
 ### casterを取ってはいるが、ゲーム中でない場合(ペディア経由)は中身がNoneなのできをつける
-def help_SHINMYOUMARU1(szText, caster):
+### ゲーム外経由でもCALは渡ってくるので、計算に使える
+### SpellListの評価値関数と消費Powerの間に名前を入れて、
+### 説明に[p***]と書いておくと、***の部分がszTextに渡ってくる
+### この機能いらない場合はNoneを入れる、その場合でもデフォルトの置換・古い置換はいままでどおりはたらく
+### TODO: いっそ数字だけじゃなくて文字列も返せるようにしてしまってはどうか
+def help_SHINMYOUMARU1(szText, caster, CAL):
 
 	CvGameUtils.doprint(szText)
 	if szText == "001":
-		return 5641
+		return 5641*10 + CAL
 
 def spellcard_SHINMYOUMARU1_Estimate(caster):
 
