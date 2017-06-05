@@ -23,6 +23,7 @@
 //ìåï˚èñéñéçóp
 #include <math.h>
 #include <locale.h>
+#include "CyUnit.h"
 
 CvDLLWidgetData* CvDLLWidgetData::m_pInst = NULL;
 
@@ -1999,7 +2000,7 @@ void parseSpellActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer 
 		{
 			const wchar_t *code_begin = ++p;
 			while( iswalnum(*p) ) p++; // âpêîéöÇ≈Ç†ÇÍÇŒÇÊÇµ
-			if( p - code_begin > 10 || *p != L']') continue;
+			if( p - code_begin > 10 || *p != L']') continue; // íÜÇÃï∂éöêîÇ‡1-10ï∂éöÇ≈é©óR
 
 			wstring code(code_begin, p);
 			wstring pre(prev_code_end, code_begin);
@@ -2008,11 +2009,19 @@ void parseSpellActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer 
 			CvString mbs(code);
 			CvUnit *pHeadSelectedUnit = gDLL->getInterfaceIFace()->getHeadSelectedUnit();
 			int cal = pHeadSelectedUnit->countCardAttackLevel();
-			
-			int spint = GC.getTextToSpellInt(mbs.c_str(), cal, pHeadSelectedUnit, eAutomate);
+
+			//PythonÇ…Ç‘ÇÒÇ»Ç∞ÇÈ
+			CyArgsList argsList;
+			argsList.add(mbs.c_str());
+			CyUnit *pyUnit = new CyUnit(pHeadSelectedUnit);
+			argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));
+			argsList.add(cal);
+			argsList.add(eAutomate);
+			long splong = 0l;
+			gDLL->getPythonIFace()->callFunction("SpellInterface", "getTextToSpellInt", argsList.makeFunctionArgs(), &splong);
 
 			CvWString out;
-			out.Format(L"%d", spint);
+			out.Format(L"%ld", splong);
 			cvbuf.append(out);
 			prev_code_end = p;
 		}

@@ -775,9 +775,6 @@ public:
 	DllExport int getNUM_CITY_PLOTS();
 	DllExport int getCITY_HOME_PLOT();
 
-	//ìåï˚èñéñéçóp
-	DllExport int getTextToSpellInt(const char* szText,const int CAL,CvUnit* pUnit = NULL, int eAutomate = -1) const;
-
 	// ***** END EXPOSED TO PYTHON *****
 
 	////////////// END DEFINES //////////////////

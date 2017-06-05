@@ -11,6 +11,7 @@ import CvGameUtils
 import re
 
 import SpellInfo
+import SpellInterface
 
 # globals
 gc = CyGlobalContext()
@@ -368,7 +369,7 @@ class CvPediaTohoUnit:
 							 [ 'UNIT_YATUHASHI1' , [    [   [1,255,'YATUHASHI1_1','YATUHASHI1_1'],    ], ['TXT_KEY_SPELL_YATUHASHI_EXTRA1',],  ['TXT_KEY_SPELL_YATUHASHI_PHANTASM1',],   ],   ],
 							 [ 'UNIT_BENBEN1' , [    [   [1,255,'BENBEN1_1','BENBEN1_1'],    ], ['TXT_KEY_SPELL_BENBEN_EXTRA1',],  ['TXT_KEY_SPELL_BENBEN_PHANTASM1',],   ],   ],
 							 [ 'UNIT_SEIJA1' , [    [   [1,11,'SEIJA1_1','SEIJA1_1'],[12,255,'SEIJA1_2','SEIJA1_1'],    ], ['TXT_KEY_SPELL_SEIJA_EXTRA1',],  ['TXT_KEY_SPELL_SEIJA_PHANTASM1',],   ],   ],
-							 [ 'UNIT_SHINMYOUMARU1' , [    [   [1,7,'SHINMYOUMARU1_1','SHINMYOUMARU1_1'],[8,15,'SHINMYOUMARU1_1','SHINMYOUMARU1_2'],[16,255,'SHINMYOUMARU1_2','SHINMYOUMARU1_3'],    ], ['TXT_KEY_SPELL_SHINMYOUMARU_EXTRA1',],  ['TXT_KEY_SPELL_SHINMYOUMARU_PHANTASM1',],   ],   ],
+							 [ 'UNIT_SHINMYOUMARU1' , [    [   [1,15,'SHINMYOUMARU1_1','SHINMYOUMARU1_1'],[16,255,'SHINMYOUMARU1_2','SHINMYOUMARU1_1'],    ], ['TXT_KEY_SPELL_SHINMYOUMARU_EXTRA1',],  ['TXT_KEY_SPELL_SHINMYOUMARU_PHANTASM1',],   ],   ],
 							 [ 'UNIT_RAIKO1' , [    [   [1,255,'RAIKO1_1','RAIKO1_1'],    ], ['TXT_KEY_SPELL_RAIKO_EXTRA1',],  ['TXT_KEY_SPELL_RAIKO_PHANTASM1',],  ['TXT_KEY_SPELL_RAIKO_PHANTASM2',]   ],   ],
 							 [ 'UNIT_YORIHIME1' , [    [   [1,255,'YORIHIME1_1','YORIHIME1_1'],[1,255,'YORIHIME2_1','YORIHIME2_1'],[1,255,'YORIHIME3_1','YORIHIME3_1'],    ], ['TXT_KEY_SPELL_YORIHIME_EXTRA1','TXT_KEY_SPELL_YORIHIME_EXTRA2','TXT_KEY_SPELL_YORIHIME_EXTRA3',],  ['TXT_KEY_SPELL_YORIHIME_PHANTASM1','TXT_KEY_SPELL_YORIHIME_PHANTASM2','TXT_KEY_SPELL_YORIHIME_PHANTASM3',],   ],   ],
 							 [ 'UNIT_TOYOHIME1' , [    [   [1,255,'TOYOHIME1_1','TOYOHIME1_1'],    ], ['TXT_KEY_SPELL_TOYOHIME_EXTRA1','TXT_KEY_SPELL_TOYOHIME_EXTRA2',],  ['TXT_KEY_SPELL_TOYOHIME_PHANTASM1',],   ],   ],
@@ -749,16 +750,18 @@ class CvPediaTohoUnit:
 		def ctoi(m):
 			s = m.group(0)
 			
-			if s[1:3] == "ps":
-				CvGameUtils.doprint("ctoi:" + s[3:-1])
-				CvGameUtils.doprint("ctoi:" + spellName)
+			if s[1] == "p":
+				### ペディア経由だと実物のユニットがいなくてスペル探せないので名前から自力で引く
+				#CvGameUtils.doprint("ctoi:" + s[3:-1])
+				#CvGameUtils.doprint("ctoi:" + spellName)
 				Spells = filter(lambda s: s.getName()==spellName, SpellInfo.getSpells())
 				if Spells:
 					spell = Spells[0]
-					i = spell.getHelpText(s[3:-1],None)
+					i = spell.getHelpText(s[2:-1], None, self.CAL)
 					return "[%d]" % i
 			else:
-				i = gc.getTextToSpellInt(s[1:-1].encode("utf-8"),self.CAL)
+				### 直接ぶん投げ用関数に回す。もはやC++を呼び出さない 
+				i = SpellInterface.getTextToSpellInt([ s[1:-1].encode("utf-8"), None, self.CAL, -1])
 				return "[%d]" % i
 
 		#本体
