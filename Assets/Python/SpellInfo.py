@@ -9191,7 +9191,7 @@ def spell_YORIHIME_EXTRA1(caster,cost):
 	SigenList = ['BONUS_COPPER','BONUS_IRON']
 
 	if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_MINE'):
-		if CAL <= 16:
+		if CAL <= 15:
 			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_GREATMINE1'))
 		else:
 			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_GREATMINE2'))

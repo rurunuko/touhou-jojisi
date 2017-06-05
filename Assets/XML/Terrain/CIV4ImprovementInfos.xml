@@ -4896,7 +4896,11 @@
       <Description>TXT_KEY_IMPROVEMENT_TERRAFORM_PLAIN</Description>
       <Civilopedia>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Civilopedia>
       <ArtDefineTag>ART_DEF_IMPROVEMENT_TERRAFORM_PLAIN</ArtDefineTag>
-      <YieldChanges />
+      <YieldChanges>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>1</iYieldChange>
+      </YieldChanges>
       <bActsAsCity>0</bActsAsCity>
       <bHillsMakesValid>0</bHillsMakesValid>
       <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
@@ -4935,7 +4939,11 @@
       <Description>TXT_KEY_IMPROVEMENT_TERRAFORM_GRASS</Description>
       <Civilopedia>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Civilopedia>
       <ArtDefineTag>ART_DEF_IMPROVEMENT_TERRAFORM_GRASS</ArtDefineTag>
-      <YieldChanges />
+      <YieldChanges>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>1</iYieldChange>
+      </YieldChanges>
       <bActsAsCity>0</bActsAsCity>
       <bHillsMakesValid>0</bHillsMakesValid>
       <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
@@ -4974,7 +4982,11 @@
       <Description>TXT_KEY_IMPROVEMENT_TERRAFORM_HILL</Description>
       <Civilopedia>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Civilopedia>
       <ArtDefineTag>ART_DEF_IMPROVEMENT_TERRAFORM_HILL</ArtDefineTag>
-      <YieldChanges />
+      <YieldChanges>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>1</iYieldChange>
+      </YieldChanges>
       <bActsAsCity>0</bActsAsCity>
       <bHillsMakesValid>0</bHillsMakesValid>
       <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
@@ -5013,7 +5025,11 @@
       <Description>TXT_KEY_IMPROVEMENT_TERRAFORM_FLATLAND</Description>
       <Civilopedia>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Civilopedia>
       <ArtDefineTag>ART_DEF_IMPROVEMENT_TERRAFORM_GRASS</ArtDefineTag>
-      <YieldChanges />
+      <YieldChanges>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>1</iYieldChange>
+      </YieldChanges>
       <bActsAsCity>0</bActsAsCity>
       <bHillsMakesValid>0</bHillsMakesValid>
       <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
@@ -5052,7 +5068,11 @@
       <Description>TXT_KEY_IMPROVEMENT_TERRAFORM_FOREST</Description>
       <Civilopedia>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Civilopedia>
       <ArtDefineTag>ART_DEF_IMPROVEMENT_TERRAFORM_FOREST</ArtDefineTag>
-      <YieldChanges />
+      <YieldChanges>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>0</iYieldChange>
+        <iYieldChange>1</iYieldChange>
+      </YieldChanges>
       <bActsAsCity>0</bActsAsCity>
       <bHillsMakesValid>0</bHillsMakesValid>
       <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
