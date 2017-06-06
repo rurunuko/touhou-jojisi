@@ -418,7 +418,7 @@ def AISpellCast(caster):
 		if gc.getGame().getSorenRandNum(100,"AI Spell cast") < canSpellList[i][1]:
 			if Spells[ canSpellList[i][0] ].cast(caster):
 		
-				iNum = canSpellList[i][0]+5
+				iNum = gc.getInfoTypeForString( Spells[ canSpellList[i][0] ].getName() )
 			#	if iNum <= gc.getInfoTypeForString("SPELLCARD_MIMIMIKO1_2"): #ƒXƒyƒJ‚Å‚ ‚ê‚Î
 				caster.setNumCastSpellCard( caster.getNumCastSpellCard() + 1 )
 				if gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_MULTI')):
