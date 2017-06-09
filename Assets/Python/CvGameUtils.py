@@ -435,7 +435,7 @@ class CvGameUtils:
 				if iBuild == gc.getInfoTypeForString('BUILD_CHIREIDEN_WORKSHOP'):
 					if not pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_CHIREIDEN_WORKSHOP'):
 						return 1
-				elif iBuild == gc.getInfoTypeForString('BUILD_FARM'):
+				elif iBuild == gc.getInfoTypeForString('IMPROVEMENT_KISHINJOU_WORKSHOP'):
 					if not pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_KISHINJOU_WORKSHOP'):
 						return 1
 				elif iBuild == gc.getInfoTypeForString('BUILD_WORKSHOP'):

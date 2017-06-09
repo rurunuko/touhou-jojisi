@@ -1448,6 +1448,9 @@ class CvMainInterface:
 
 		##### <written by F> #####
 		#スペルの初期化処理
+		#SpellInfo.init()
+		#東方叙事詩・統合MOD追記
+		#ペディア処理見直しの一環
 		SpellInfo.init_force()
 		##### </written by F> #####
 

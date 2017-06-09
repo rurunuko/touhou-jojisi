@@ -270,10 +270,12 @@ def init_force():
 	SpellInfo("SPELLCARD_YORIHIME2_1",req_YORIHIME2,spellcard_YORIHIME2,spellcard_YORIHIME2_Estimate,help_YORIHIME2,1.0,1,255),
 	SpellInfo("SPELLCARD_YORIHIME3_1",req_YORIHIME3,spellcard_YORIHIME3,spellcard_YORIHIME3_Estimate,None,1.0,1,255),
 	SpellInfo("SPELLCARD_TOYOHIME1_1",req_TOYOHIME1,spellcard_TOYOHIME1,spellcard_TOYOHIME1_Estimate,None,1.0,1,255),
-	SpellInfo("SPELLCARD_SEIRAN1_1",req_SEIRAN1,spellcard_SEIRAN1,spellcard_SEIRAN1_Estimate,None,1.0,1,255),
-	SpellInfo("SPELLCARD_RINGO1_1",req_RINGO1,spellcard_RINGO1,tempIsAISpellCast,None,1.0,1,11),
-	SpellInfo("SPELLCARD_RINGO1_2",req_RINGO1,spellcard_RINGO1,tempIsAISpellCast,None,1.0,12,255),
-	SpellInfo("SPELLCARD_DOREMY1_1",req_DOREMY1,spellcard_DOREMY1,spellcard_DOREMY1_Estimate,None,1.0,1,255),
+	SpellInfo("SPELLCARD_SEIRAN1_1",req_SEIRAN1,spellcard_SEIRAN1,spellcard_SEIRAN1_Estimate,None,1.0,1,7),
+	SpellInfo("SPELLCARD_SEIRAN1_2",req_SEIRAN1,spellcard_SEIRAN1,spellcard_SEIRAN1_Estimate,None,1.0,8,15),
+	SpellInfo("SPELLCARD_SEIRAN1_3",req_SEIRAN1,spellcard_SEIRAN1,spellcard_SEIRAN1_Estimate,None,1.0,16,255),
+	SpellInfo("SPELLCARD_RINGO1_1",req_RINGO1,spellcard_RINGO1,tempIsAISpellCast,help_RINGO1,1.0,1,11),
+	SpellInfo("SPELLCARD_RINGO1_2",req_RINGO1,spellcard_RINGO1,tempIsAISpellCast,help_RINGO1,1.0,12,255),
+	SpellInfo("SPELLCARD_DOREMY1_1",req_DOREMY1,spellcard_DOREMY1,spellcard_DOREMY1_Estimate,help_DOREMY1,1.0,1,255),
 	SpellInfo("SPELLCARD_SAGUME1_1",req_SAGUME1,spellcard_SAGUME1,spellcard_SAGUME1_Estimate,None,1.0,1,14),
 	SpellInfo("SPELLCARD_SAGUME1_2",req_SAGUME1,spellcard_SAGUME1,spellcard_SAGUME1_Estimate,None,1.0,15,255),
 	
@@ -281,11 +283,11 @@ def init_force():
 	SpellInfo("SPELL_SANAE_EXTRA1",req_SANAE_EXTRA1,spell_SANAE_EXTRA1),#                          ここからスペル
 	SpellInfo("SPELL_SANAE_PHANTASM1",req_SANAE_PHANTASM1,spell_SANAE_PHANTASM1),
 	SpellInfo("SPELL_REMILIA_EXTRA1",req_REMILIA_EXTRA1,spell_REMILIA_EXTRA1),
-	SpellInfo("SPELL_REMILIA_PHANTASM1",req_REMILIA_PHANTASM1,spell_REMILIA_PHANTASM1,None,tempIsAISpellCast,0.15,1,255),
+	SpellInfo("SPELL_REMILIA_PHANTASM1",req_REMILIA_PHANTASM1,spell_REMILIA_PHANTASM1,tempIsAISpellCast,None,0.15,1,255),
 	SpellInfo("SPELL_CHEN_EXTRA1",req_CHEN_EXTRA1,spell_CHEN_EXTRA1),
 	SpellInfo("SPELL_CHEN_PHANTASM1",req_CHEN_PHANTASM1,spell_CHEN_PHANTASM1),
 	SpellInfo("SPELL_WRIGGLE_EXTRA1",req_WRIGGLE_EXTRA1,spell_WRIGGLE_EXTRA1),
-	SpellInfo("SPELL_WRIGGLE_PHANTASM1",req_WRIGGLE_PHANTASM1,spell_WRIGGLE_PHANTASM1,None,tempIsAISpellCast,0.10,1,255),
+	SpellInfo("SPELL_WRIGGLE_PHANTASM1",req_WRIGGLE_PHANTASM1,spell_WRIGGLE_PHANTASM1,tempIsAISpellCast,None,0.10,1,255),
 	SpellInfo("SPELL_TEWI_EXTRA1",req_TEWI_EXTRA1,spell_TEWI_EXTRA1),
 	SpellInfo("SPELL_TEWI_EXTRA2",req_TEWI_EXTRA2,spell_TEWI_EXTRA2),
 	SpellInfo("SPELL_TEWI_PHANTASM1",req_TEWI_PHANTASM1,spell_TEWI_PHANTASM1),
@@ -294,18 +296,18 @@ def init_force():
 	SpellInfo("SPELL_MARISA_EXTRA1",req_MARISA_EXTRA1,spell_MARISA_EXTRA1),
 	SpellInfo("SPELL_MARISA_PHANTASM1",req_MARISA_PHANTASM1,spell_MARISA_PHANTASM1),
 	SpellInfo("SPELL_FLAN_EXTRA1",req_FLAN_EXTRA1,spell_FLAN_EXTRA1),
-	SpellInfo("SPELL_FLAN_PHANTASM1",req_FLAN_PHANTASM1,spell_FLAN_PHANTASM1,None,tempIsAISpellCast,0.15,1,255),
+	SpellInfo("SPELL_FLAN_PHANTASM1",req_FLAN_PHANTASM1,spell_FLAN_PHANTASM1,tempIsAISpellCast,None,0.15,1,255),
 	SpellInfo("SPELL_FLAN_PHANTASM2",req_FLAN_PHANTASM2,spell_FLAN_PHANTASM2),
 	SpellInfo("SPELL_YOUMU_EXTRA1",req_YOUMU_EXTRA1,spell_YOUMU_EXTRA1),
-	SpellInfo("SPELL_YOUMU_PHANTASM1",req_YOUMU_PHANTASM1,spell_YOUMU_PHANTASM1,None,tempIsAISpellCast,0.10,1,255),
+	SpellInfo("SPELL_YOUMU_PHANTASM1",req_YOUMU_PHANTASM1,spell_YOUMU_PHANTASM1,tempIsAISpellCast,None,0.10,1,255),
 	SpellInfo("SPELL_CIRNO_EXTRA1",req_CIRNO_EXTRA1,spell_CIRNO_EXTRA1),
 	SpellInfo("SPELL_CIRNO_PHANTASM1",req_CIRNO_PHANTASM1,spell_CIRNO_PHANTASM1),
 	SpellInfo("SPELL_EIRIN_EXTRA1",req_EIRIN_EXTRA1,spell_EIRIN_EXTRA1),
-	SpellInfo("SPELL_EIRIN_PHANTASM1",req_EIRIN_PHANTASM1,spell_EIRIN_PHANTASM1,None,tempIsAISpellCast,0.10,1,255),
+	SpellInfo("SPELL_EIRIN_PHANTASM1",req_EIRIN_PHANTASM1,spell_EIRIN_PHANTASM1,tempIsAISpellCast,None,0.10,1,255),
 	SpellInfo("SPELL_SUWAKO_EXTRA1",req_SUWAKO_EXTRA1,spell_SUWAKO_EXTRA1),
 	SpellInfo("SPELL_SUWAKO_PHANTASM1",req_SUWAKO_PHANTASM1,spell_SUWAKO_PHANTASM1),
 	SpellInfo("SPELL_ALICE_EXTRA1",req_ALICE_EXTRA1,spell_ALICE_EXTRA1),
-	SpellInfo("SPELL_ALICE_PHANTASM1",req_ALICE_PHANTASM1,spell_ALICE_PHANTASM1,None,tempIsAISpellCast,0.10,1,255),
+	SpellInfo("SPELL_ALICE_PHANTASM1",req_ALICE_PHANTASM1,spell_ALICE_PHANTASM1,tempIsAISpellCast,None,0.10,1,255),
 	SpellInfo("SPELL_MOKOU_EXTRA1",req_MOKOU_EXTRA1,spell_MOKOU_EXTRA1),
 	SpellInfo("SPELL_MOKOU_PHANTASM1",req_MOKOU_PHANTASM1,spell_MOKOU_PHANTASM1),
 	SpellInfo("SPELL_KEINE_EXTRA1",req_KEINE_EXTRA1,spell_KEINE_EXTRA1),
@@ -315,9 +317,9 @@ def init_force():
 	SpellInfo("SPELL_PARSEE_EXTRA1",req_PARSEE_EXTRA1,spell_PARSEE_EXTRA1),
 	SpellInfo("SPELL_PARSEE_PHANTASM1",req_PARSEE_PHANTASM1,spell_PARSEE_PHANTASM1),
 	SpellInfo("SPELL_YUGI_EXTRA1",req_YUGI_EXTRA1,spell_YUGI_EXTRA1),
-	SpellInfo("SPELL_YUGI_PHANTASM1",req_YUGI_PHANTASM1,spell_YUGI_PHANTASM1,None,tempIsAISpellCast,0.10,1,255),
-	SpellInfo("SPELL_SAKUYA_EXTRA1",req_SAKUYA_EXTRA1,spell_SAKUYA_EXTRA1,None,tempIsAISpellCast,0.10,1,255),
-	SpellInfo("SPELL_SAKUYA_PHANTASM1",req_SAKUYA_PHANTASM1,spell_SAKUYA_PHANTASM1,None,tempIsAISpellCast,0.10,1,255),
+	SpellInfo("SPELL_YUGI_PHANTASM1",req_YUGI_PHANTASM1,spell_YUGI_PHANTASM1,tempIsAISpellCast,None,0.10,1,255),
+	SpellInfo("SPELL_SAKUYA_EXTRA1",req_SAKUYA_EXTRA1,spell_SAKUYA_EXTRA1,tempIsAISpellCast,None,0.10,1,255),
+	SpellInfo("SPELL_SAKUYA_PHANTASM1",req_SAKUYA_PHANTASM1,spell_SAKUYA_PHANTASM1,tempIsAISpellCast,None,0.10,1,255),
 	SpellInfo("SPELL_YUYUKO_EXTRA1",req_YUYUKO_EXTRA1,spell_YUYUKO_EXTRA1),
 	SpellInfo("SPELL_YUYUKO_PHANTASM1",req_YUYUKO_PHANTASM1,spell_YUYUKO_PHANTASM1),
 	SpellInfo("SPELL_RUMIA_EXTRA1",req_RUMIA_EXTRA1,spell_RUMIA_EXTRA1),
@@ -327,9 +329,9 @@ def init_force():
 	SpellInfo("SPELL_KANAKO_EXTRA1",req_KANAKO_EXTRA1,spell_KANAKO_EXTRA1),
 	SpellInfo("SPELL_KANAKO_PHANTASM1",req_KANAKO_PHANTASM1,spell_KANAKO_PHANTASM1),
 	SpellInfo("SPELL_REIMU_EXTRA1",req_REIMU_EXTRA1,spell_REIMU_EXTRA1),
-	SpellInfo("SPELL_REIMU_PHANTASM1",req_REIMU_PHANTASM1,spell_REIMU_PHANTASM1,None,tempIsAISpellCast,0.10,1,255),
+	SpellInfo("SPELL_REIMU_PHANTASM1",req_REIMU_PHANTASM1,spell_REIMU_PHANTASM1,tempIsAISpellCast,None,0.10,1,255),
 	SpellInfo("SPELL_YUKA_EXTRA1",req_YUKA_EXTRA1,spell_YUKA_EXTRA1),
-	SpellInfo("SPELL_YUKA_PHANTASM1",req_YUKA_PHANTASM1,spell_YUKA_PHANTASM1,None,tempIsAISpellCast,0.10,1,255),
+	SpellInfo("SPELL_YUKA_PHANTASM1",req_YUKA_PHANTASM1,spell_YUKA_PHANTASM1,tempIsAISpellCast,None,0.10,1,255),
 	SpellInfo("SPELL_KOISHI_EXTRA1",req_KOISHI_EXTRA1,spell_KOISHI_EXTRA1),
 	SpellInfo("SPELL_KOISHI_PHANTASM1",req_KOISHI_PHANTASM1,spell_KOISHI_PHANTASM1),
 	SpellInfo("SPELL_KOISHI_SKILL1",req_KOISHI_SKILL1,spell_KOISHI_SKILL1),         
@@ -346,18 +348,18 @@ def init_force():
 	SpellInfo("SPELL_IKU_EXTRA1",req_IKU_EXTRA1,spell_IKU_EXTRA1),
 	SpellInfo("SPELL_IKU_PHANTASM1",req_IKU_PHANTASM1,spell_IKU_PHANTASM1),
 	SpellInfo("SPELL_SATORI_EXTRA1",req_SATORI_EXTRA1,spell_SATORI_EXTRA1),
-	SpellInfo("SPELL_SATORI_PHANTASM1",req_SATORI_PHANTASM1,spell_SATORI_PHANTASM1,None,tempIsAISpellCast,0.10,1,255),
+	SpellInfo("SPELL_SATORI_PHANTASM1",req_SATORI_PHANTASM1,spell_SATORI_PHANTASM1,tempIsAISpellCast,None,0.10,1,255),
 	SpellInfo("SPELL_MYSTIA_EXTRA1",req_MYSTIA_EXTRA1,spell_MYSTIA_EXTRA1),
 	SpellInfo("SPELL_MYSTIA_PHANTASM1",req_MYSTIA_PHANTASM1,spell_MYSTIA_PHANTASM1),
 	SpellInfo("SPELL_SUIKA_EXTRA1",req_SUIKA_EXTRA1,spell_SUIKA_EXTRA1),
-	SpellInfo("SPELL_SUIKA_PHANTASM1",req_SUIKA_PHANTASM1,spell_SUIKA_PHANTASM1,None,tempIsAISpellCast,0.30,1,255),
+	SpellInfo("SPELL_SUIKA_PHANTASM1",req_SUIKA_PHANTASM1,spell_SUIKA_PHANTASM1,tempIsAISpellCast,None,0.30,1,255),
 	SpellInfo("SPELL_KOMACHI_EXTRA1",req_KOMACHI_EXTRA1,spell_KOMACHI_EXTRA1),
 	SpellInfo("SPELL_KOMACHI_PHANTASM1",req_KOMACHI_PHANTASM1,spell_KOMACHI_PHANTASM1),
-	SpellInfo("SPELL_MEIRIN_EXTRA1",req_MEIRIN_EXTRA1,spell_MEIRIN_EXTRA1,None,tempIsAISpellCast,0.0,1,255),
+	SpellInfo("SPELL_MEIRIN_EXTRA1",req_MEIRIN_EXTRA1,spell_MEIRIN_EXTRA1,tempIsAISpellCast,None,0.0,1,255),
 	SpellInfo("SPELL_MEIRIN_PHANTASM1",req_MEIRIN_PHANTASM1,spell_MEIRIN_PHANTASM1),
 	SpellInfo("SPELL_YUKARI_EXTRA1",req_YUKARI_EXTRA1,spell_YUKARI_EXTRA1),
 	SpellInfo("SPELL_YUKARI_PHANTASM1",req_YUKARI_PHANTASM1,spell_YUKARI_PHANTASM1),
-	SpellInfo("SPELL_YUKARI_PHANTASM2",req_YUKARI_PHANTASM2,spell_YUKARI_PHANTASM2,None,tempIsAISpellCast,0.30,1,255),
+	SpellInfo("SPELL_YUKARI_PHANTASM2",req_YUKARI_PHANTASM2,spell_YUKARI_PHANTASM2,tempIsAISpellCast,None,0.30,1,255),
 	SpellInfo("SPELL_YUKARI_PHANTASM3",req_YUKARI_PHANTASM3,spell_YUKARI_PHANTASM3),
 	SpellInfo("SPELL_KAGUYA_EXTRA1",req_KAGUYA_EXTRA1,spell_KAGUYA_EXTRA1),
 	SpellInfo("SPELL_KAGUYA_EXTRA2",req_KAGUYA_EXTRA2,spell_KAGUYA_EXTRA2),
@@ -367,7 +369,7 @@ def init_force():
 	SpellInfo("SPELL_KAGUYA_PHANTASM1",req_KAGUYA_PHANTASM1,spell_KAGUYA_PHANTASM1),
 	SpellInfo("SPELL_KAGUYA_PHANTASM2",req_KAGUYA_PHANTASM2,spell_KAGUYA_PHANTASM2),
 	SpellInfo("SPELL_KAGUYA_PHANTASM3",req_KAGUYA_PHANTASM3,spell_KAGUYA_PHANTASM3),
-	SpellInfo("SPELL_KAGUYA_PHANTASM4",req_KAGUYA_PHANTASM4,spell_KAGUYA_PHANTASM4,None,tempIsAISpellCast,0.10,1,255),
+	SpellInfo("SPELL_KAGUYA_PHANTASM4",req_KAGUYA_PHANTASM4,spell_KAGUYA_PHANTASM4,tempIsAISpellCast,None,0.10,1,255),
 	SpellInfo("SPELL_TENSHI_EXTRA1",req_TENSHI_EXTRA1,spell_TENSHI_EXTRA1),
 	SpellInfo("SPELL_TENSHI_PHANTASM1",req_TENSHI_PHANTASM1,spell_TENSHI_PHANTASM1),
 	SpellInfo("SPELL_RIN_EXTRA1",req_RIN_EXTRA1,spell_RIN_EXTRA1),
@@ -377,11 +379,11 @@ def init_force():
 	SpellInfo("SPELL_LETTY_EXTRA1",req_LETTY_EXTRA1,spell_LETTY_EXTRA1),
 	SpellInfo("SPELL_LETTY_PHANTASM1",req_LETTY_PHANTASM1,spell_LETTY_PHANTASM1),
 	SpellInfo("SPELL_MIMA_EXTRA1",req_MIMA_EXTRA1,spell_MIMA_EXTRA1),
-	SpellInfo("SPELL_MIMA_PHANTASM1",req_MIMA_PHANTASM1,spell_MIMA_PHANTASM1,None,tempIsAISpellCast,0.10,1,255),
+	SpellInfo("SPELL_MIMA_PHANTASM1",req_MIMA_PHANTASM1,spell_MIMA_PHANTASM1,tempIsAISpellCast,None,0.10,1,255),
 	SpellInfo("SPELL_EIKI_EXTRA1",req_EIKI_EXTRA1,spell_EIKI_EXTRA1),
 	SpellInfo("SPELL_EIKI_PHANTASM1",req_EIKI_PHANTASM1,spell_EIKI_PHANTASM1),
 	SpellInfo("SPELL_NAZRIN_EXTRA1",req_NAZRIN_EXTRA1,spell_NAZRIN_EXTRA1),
-	SpellInfo("SPELL_NAZRIN_PHANTASM1",req_NAZRIN_PHANTASM1,spell_NAZRIN_PHANTASM1,None,tempIsAISpellCast,0.30,1,255),
+	SpellInfo("SPELL_NAZRIN_PHANTASM1",req_NAZRIN_PHANTASM1,spell_NAZRIN_PHANTASM1,tempIsAISpellCast,None,0.30,1,255),
 	SpellInfo("SPELL_KOGASA_EXTRA1",req_KOGASA_EXTRA1,spell_KOGASA_EXTRA1),
 	SpellInfo("SPELL_KOGASA_PHANTASM1",req_KOGASA_PHANTASM1,spell_KOGASA_PHANTASM1),
 	SpellInfo("SPELL_ICHIRIN_SKILL1",req_ICHIRIN_SKILL1,spell_ICHIRIN_SKILL1),
@@ -389,15 +391,15 @@ def init_force():
 	SpellInfo("SPELL_ICHIRIN_PHANTASM1",req_ICHIRIN_PHANTASM1,spell_ICHIRIN_PHANTASM1),
 	SpellInfo("SPELL_MINAMITSU_EXTRA1",req_MINAMITSU_EXTRA1,spell_MINAMITSU_EXTRA1),
 	SpellInfo("SPELL_MINAMITSU_PHANTASM1",req_MINAMITSU_PHANTASM1,spell_MINAMITSU_PHANTASM1),
-	SpellInfo("SPELL_SYOU_EXTRA1",req_SYOU_EXTRA1,spell_SYOU_EXTRA1,None,tempIsAISpellCast,0.30,1,255),
+	SpellInfo("SPELL_SYOU_EXTRA1",req_SYOU_EXTRA1,spell_SYOU_EXTRA1,tempIsAISpellCast,None,0.30,1,255),
 	SpellInfo("SPELL_SYOU_PHANTASM1",req_SYOU_PHANTASM1,spell_SYOU_PHANTASM1),
 	SpellInfo("SPELL_BYAKUREN_SKILL1",req_BYAKUREN_SKILL1,spell_BYAKUREN_SKILL1),
 	SpellInfo("SPELL_BYAKUREN_EXTRA1",req_BYAKUREN_EXTRA1,spell_BYAKUREN_EXTRA1),
-	SpellInfo("SPELL_BYAKUREN_PHANTASM1",req_BYAKUREN_PHANTASM1,spell_BYAKUREN_PHANTASM1,None,tempIsAISpellCast,0.10,1,255),
+	SpellInfo("SPELL_BYAKUREN_PHANTASM1",req_BYAKUREN_PHANTASM1,spell_BYAKUREN_PHANTASM1,tempIsAISpellCast,None,0.10,1,255),
 	SpellInfo("SPELL_NUE_EXTRA1",req_NUE_EXTRA1,spell_NUE_EXTRA1),
-	SpellInfo("SPELL_NUE_PHANTASM1",req_NUE_PHANTASM1,spell_NUE_PHANTASM1,None,tempIsAISpellCast,0.10,1,255),
+	SpellInfo("SPELL_NUE_PHANTASM1",req_NUE_PHANTASM1,spell_NUE_PHANTASM1,tempIsAISpellCast,None,0.10,1,255),
 	SpellInfo("SPELL_YOSHIKA_EXTRA1",req_YOSHIKA_EXTRA1,spell_YOSHIKA_EXTRA1),
-	SpellInfo("SPELL_YOSHIKA_PHANTASM1",req_YOSHIKA_PHANTASM1,spell_YOSHIKA_PHANTASM1,None,tempIsAISpellCast,0.15,1,255),
+	SpellInfo("SPELL_YOSHIKA_PHANTASM1",req_YOSHIKA_PHANTASM1,spell_YOSHIKA_PHANTASM1,tempIsAISpellCast,None,0.15,1,255),
 	SpellInfo("SPELL_SEIGA_EXTRA1",req_SEIGA_EXTRA1,spell_SEIGA_EXTRA1),
 	SpellInfo("SPELL_SEIGA_PHANTASM1",req_SEIGA_PHANTASM1,spell_SEIGA_PHANTASM1),
 	SpellInfo("SPELL_TOJIKO_EXTRA1",req_TOJIKO_EXTRA1,spell_TOJIKO_EXTRA1),
@@ -410,31 +412,31 @@ def init_force():
 	SpellInfo("SPELL_YATUHASHI_PHANTASM1",req_YATUHASHI_PHANTASM1,spell_YATUHASHI_PHANTASM1),
 	SpellInfo("SPELL_BENBEN_EXTRA1",req_BENBEN_EXTRA1,spell_BENBEN_EXTRA1),
 	SpellInfo("SPELL_BENBEN_PHANTASM1",req_BENBEN_PHANTASM1,spell_BENBEN_PHANTASM1),
-	SpellInfo("SPELL_SEIJA_EXTRA1",req_SEIJA_EXTRA1,spell_SEIJA_EXTRA1,None,tempIsAISpellCast,0.10,1,255),
+	SpellInfo("SPELL_SEIJA_EXTRA1",req_SEIJA_EXTRA1,spell_SEIJA_EXTRA1,tempIsAISpellCast,None,0.10,1,255),
 	SpellInfo("SPELL_SEIJA_PHANTASM1",req_SEIJA_PHANTASM1,spell_SEIJA_PHANTASM1),
-	SpellInfo("SPELL_SHINMYOUMARU_EXTRA1",req_SHINMYOUMARU_EXTRA1,spell_SHINMYOUMARU_EXTRA1,None,tempIsAISpellCast,0.30,1,255),
-	SpellInfo("SPELL_SHINMYOUMARU_PHANTASM1",req_SHINMYOUMARU_PHANTASM1,spell_SHINMYOUMARU_PHANTASM1,None,tempIsAISpellCast,0.15,1,255),
-	SpellInfo("SPELL_RAIKO_EXTRA1",req_RAIKO_EXTRA1,spell_RAIKO_EXTRA1,None,tempIsAISpellCast,0.15,1,255),
+	SpellInfo("SPELL_SHINMYOUMARU_EXTRA1",req_SHINMYOUMARU_EXTRA1,spell_SHINMYOUMARU_EXTRA1,tempIsAISpellCast,None,0.30,1,255),
+	SpellInfo("SPELL_SHINMYOUMARU_PHANTASM1",req_SHINMYOUMARU_PHANTASM1,spell_SHINMYOUMARU_PHANTASM1,tempIsAISpellCast,None,0.15,1,255),
+	SpellInfo("SPELL_RAIKO_EXTRA1",req_RAIKO_EXTRA1,spell_RAIKO_EXTRA1,tempIsAISpellCast,None,0.15,1,255),
 	SpellInfo("SPELL_RAIKO_PHANTASM1",req_RAIKO_PHANTASM1,spell_RAIKO_PHANTASM1),
 	SpellInfo("SPELL_RAIKO_PHANTASM2",req_RAIKO_PHANTASM2,spell_RAIKO_PHANTASM2),
 	SpellInfo("SPELL_YORIHIME_SKILL1",req_YORIHIME_SKILL1,spell_YORIHIME_SKILL1),
-	SpellInfo("SPELL_YORIHIME_EXTRA1",req_YORIHIME_EXTRA1,spell_YORIHIME_EXTRA1,None,tempIsAISpellCast,0.30,1,255),
-	SpellInfo("SPELL_YORIHIME_EXTRA2",req_YORIHIME_EXTRA2,spell_YORIHIME_EXTRA2,None,tempIsAISpellCast,0.30,1,255),
-	SpellInfo("SPELL_YORIHIME_EXTRA3",req_YORIHIME_EXTRA3,spell_YORIHIME_EXTRA3,None,tempIsAISpellCast,0.30,1,255),
+	SpellInfo("SPELL_YORIHIME_EXTRA1",req_YORIHIME_EXTRA1,spell_YORIHIME_EXTRA1,tempIsAISpellCast,None,0.30,1,255),
+	SpellInfo("SPELL_YORIHIME_EXTRA2",req_YORIHIME_EXTRA2,spell_YORIHIME_EXTRA2,tempIsAISpellCast,None,0.30,1,255),
+	SpellInfo("SPELL_YORIHIME_EXTRA3",req_YORIHIME_EXTRA3,spell_YORIHIME_EXTRA3,tempIsAISpellCast,None,0.30,1,255),
 	SpellInfo("SPELL_YORIHIME_PHANTASM1",req_YORIHIME_PHANTASM1,spell_YORIHIME_PHANTASM1,tempIsAISpellCast,help_YORIHIME_PHANTASM1,0.50,1,255),
 	SpellInfo("SPELL_YORIHIME_PHANTASM2",req_YORIHIME_PHANTASM2,spell_YORIHIME_PHANTASM2),
-	SpellInfo("SPELL_YORIHIME_PHANTASM3",req_YORIHIME_PHANTASM3,spell_YORIHIME_PHANTASM3,None,tempIsAISpellCast,0.50,1,255),
-	SpellInfo("SPELL_TOYOHIME_EXTRA1",req_TOYOHIME_EXTRA1,spell_TOYOHIME_EXTRA1,None,tempIsAISpellCast,0.30,1,255),
+	SpellInfo("SPELL_YORIHIME_PHANTASM3",req_YORIHIME_PHANTASM3,spell_YORIHIME_PHANTASM3,tempIsAISpellCast,help_YORIHIME_PHANTASM3,0.50,1,255),
+	SpellInfo("SPELL_TOYOHIME_EXTRA1",req_TOYOHIME_EXTRA1,spell_TOYOHIME_EXTRA1,tempIsAISpellCast,None,0.30,1,255),
 	SpellInfo("SPELL_TOYOHIME_EXTRA2",req_TOYOHIME_EXTRA2,spell_TOYOHIME_EXTRA2),
 	SpellInfo("SPELL_TOYOHIME_SKILL1",req_TOYOHIME_SKILL1,spell_TOYOHIME_SKILL1),
 	SpellInfo("SPELL_TOYOHIME_PHANTASM1",req_TOYOHIME_PHANTASM1,spell_TOYOHIME_PHANTASM1),
-	SpellInfo("SPELL_SEIRAN_EXTRA1",req_SEIRAN_EXTRA1,spell_SEIRAN_EXTRA1,None,tempIsAISpellCast,0.10,1,255),
-	SpellInfo("SPELL_SEIRAN_PHANTASM1",req_SEIRAN_PHANTASM1,spell_SEIRAN_PHANTASM1,None,tempIsAISpellCast,0.30,1,255),
-	SpellInfo("SPELL_RINGO_EXTRA1",req_RINGO_EXTRA1,spell_RINGO_EXTRA1,None,tempIsAISpellCast,0.15,1,255),
-	SpellInfo("SPELL_RINGO_PHANTASM1",req_RINGO_PHANTASM1,spell_RINGO_PHANTASM1,None,tempIsAISpellCast,0.30,1,255),
+	SpellInfo("SPELL_SEIRAN_EXTRA1",req_SEIRAN_EXTRA1,spell_SEIRAN_EXTRA1,tempIsAISpellCast,help_SEIRAN_EXTRA1,0.10,1,255),
+	SpellInfo("SPELL_SEIRAN_PHANTASM1",req_SEIRAN_PHANTASM1,spell_SEIRAN_PHANTASM1,tempIsAISpellCast,None,0.30,1,255),
+	SpellInfo("SPELL_RINGO_EXTRA1",req_RINGO_EXTRA1,spell_RINGO_EXTRA1,tempIsAISpellCast,None,0.15,1,255),
+	SpellInfo("SPELL_RINGO_PHANTASM1",req_RINGO_PHANTASM1,spell_RINGO_PHANTASM1,tempIsAISpellCast,None,0.30,1,255),
 	SpellInfo("SPELL_DOREMY_EXTRA1",req_DOREMY_EXTRA1,spell_DOREMY_EXTRA1),
 	SpellInfo("SPELL_DOREMY_PHANTASM1",req_DOREMY_PHANTASM1,spell_DOREMY_PHANTASM1),
-	SpellInfo("SPELL_SAGUME_EXTRA1",req_SAGUME_EXTRA1,spell_SAGUME_EXTRA1,None,tempIsAISpellCast,0.15,1,255),
+	SpellInfo("SPELL_SAGUME_EXTRA1",req_SAGUME_EXTRA1,spell_SAGUME_EXTRA1,tempIsAISpellCast,help_SAGUME_EXTRA1,0.15,1,255),
 	SpellInfo("SPELL_SAGUME_PHANTASM1",req_SAGUME_PHANTASM1,spell_SAGUME_PHANTASM1),
 	
 	SpellInfo("SPELL_GET_HOURAINOKUSURI_EASY",req_GET_HOURAINOKUSURI_EASY,spell_GET_HOURAINOKUSURI_EASY,spell_GET_HOURAINOKUSURI_Estimate),#              以下アイテム
@@ -1195,8 +1197,8 @@ def spellcard_MOKOU1(caster,cost):
 					if gc.getTeam(caster.getTeam()).isAtWar(pPlot.getPlotCity().getTeam()): #戦争相手なら
 						RangeList.append([iX,iY])
 					else:
-						pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
-						pPlot.setTerrainType(gc.getInfoTypeForString("TERRAIN_PLAINS"),True,True,False)
+						pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
+						pPlot.setTerrainType(gc.getInfoTypeForString("TERRAIN_PLAINS"),True,True)
 						gc.getGame().setPlotExtraYield(caster.getX()+iX,caster.getY()+iY,1,CAL/8+1)
 
 	Functions.changeDamage(RangeList,caster,15+CAL*2,15+CAL*2,0,True,True,True,True,-1,False,True,True,True,-1,False,0)
@@ -2558,11 +2560,11 @@ def spellcard_TENSHI1(caster,cost):
 						pPlot.getPlotCity().setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUNKER'),0)
 						pPlot.getPlotCity().setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BOMB_SHELTER'),0)
 						
-						pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+						pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 						
 						RangeList.append([iX,iY])
 				if pPlot.getPlotType() == PlotTypes.PLOT_PEAK:
-					pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+					pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 	
 	Functions.changeDamage(RangeList,caster,CAL*2,CAL*4,0,True,True,True,True,-1,False,True,True,True,-1,False,0)
 	Functions.changeDamage(RangeList,caster,(CAL*2)/2,(CAL*4)/2,0,True,True,True,True,-1,True,False,True,True,-1,False,0)
@@ -4078,23 +4080,23 @@ def spellcard_TOYOHIME1(caster,cost):
 	CAL = caster.countCardAttackLevel()
 	pPlot = caster.plot()
 	
-	if CAL <= 8:
+	if CAL <= 7:
 		Functions.changeDamage(RangeList1,caster,CAL*3,CAL*3,0,False,False,False,True,-1,False,True,True,True,-1,False,0)
 		Functions.changeDamage(RangeList1,caster,CAL*3/2,CAL*3/2,0,False,False,False,True,-1,True,False,True,True,-1,False,0)
-	elif CAL <= 16:
+	elif CAL <= 15:
 		Functions.changeDamage(RangeList2,caster,CAL*3,CAL*3,0,False,False,False,True,-1,False,True,True,True,-1,False,0)
 		Functions.changeDamage(RangeList2,caster,CAL*3/2,CAL*3/2,0,False,False,False,True,-1,True,False,True,True,-1,False,0)
 		if gc.getTeam(caster.getTeam()).isAtWar(pPlot.getTeam()):
 			if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_GRASS'):
-				pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+				pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			pPlot.setFeatureType(-1, 0)
 			pPlot.resetFeatureModel()
 			pPlot.setImprovementType(-1)
-	elif CAL <= 20:
+	elif CAL <= 19:
 		Functions.changeDamage(RangeList3,caster,CAL*3,CAL*3,0,False,False,False,True,-1,False,True,True,True,-1,False,0)
 		Functions.changeDamage(RangeList3,caster,CAL*3/2,CAL*3/2,0,False,False,False,True,-1,True,False,True,True,-1,False,0)
 		if gc.getTeam(caster.getTeam()).isAtWar(pPlot.getTeam()):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True)
 			pPlot.setFeatureType(-1, 0)
 			pPlot.resetFeatureModel()
 			pPlot.setImprovementType(-1)
@@ -4102,7 +4104,7 @@ def spellcard_TOYOHIME1(caster,cost):
 		Functions.changeDamage(RangeList3,caster,CAL*3,CAL*3,0,False,False,False,True,-1,False,True,True,True,-1,False,0)
 		Functions.changeDamage(RangeList3,caster,CAL*3/2,CAL*3/2,0,False,False,False,True,-1,True,False,True,True,-1,False,0)
 		if gc.getTeam(caster.getTeam()).isAtWar(pPlot.getTeam()):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True)
 			pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_FALLOUT'),1)
 			pPlot.resetFeatureModel()
 			pPlot.setImprovementType(-1)
@@ -4258,6 +4260,12 @@ def spellcard_RINGO1(caster,cost):
 #	
 #	return estimatePoint
 
+def help_RINGO1(szText, caster, CAL):
+
+	CvGameUtils.doprint(szText)
+	if szText == "001":
+		return (CAL/3)+1
+
 #どれみ
 
 def req_DOREMY1(bTestVisible,caster,sCAL,eCAL,cost):
@@ -4348,6 +4356,40 @@ def spellcard_DOREMY1_Estimate(caster):
 	
 	return estimatePoint
 
+def help_DOREMY1(szText, caster, CAL):
+
+	CombatBase = CAL
+	CombatYith = CombatBase
+	CombatShub = CombatBase*2/3
+	CombatSpiral = CombatBase*4/5
+	Summon = CAL/4
+	
+	if Summon > 20:
+		Summon = 20
+	if Summon < 1:
+		Summon = 1
+	if CombatBase > 32:
+		CombatBase = 32
+	if CombatYith < 2:
+		CombatYith = 2
+	if CombatShub < 2:
+		CombatShub = 2
+	if CombatSpiral < 2:
+		CombatSpiral = 2
+
+	CvGameUtils.doprint(szText)
+	if szText == "001":
+		return ( CombatShub )
+	if szText == "010":
+		return (Summon -1)
+	if szText == "002":
+		return ( CombatYith )
+	if szText == "020":
+		return (Summon +1)
+	if szText == "003":
+		return ( CombatSpiral )
+	if szText == "030":
+		return (Summon -1)
 
 #さぐめ
 
@@ -5008,17 +5050,17 @@ def spell_SANAE_PHANTASM1(caster,cost):
 			pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_OASIS'),1)
 			pPlot.resetFeatureModel()
 		else:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
 		if gc.getGame().getSorenRandNum(100, "SANAE SKILL PHANTASM2") < 10:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 		else:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 	
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
 		if pPlot.isFreshWater():
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True)
 			
 	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	
@@ -5567,13 +5609,13 @@ def spell_CIRNO_PHANTASM1(caster,cost):
 					if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_COAST') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_OCEAN'):
 						pPlot.setOriginalTerrain(pPlot.getTerrainType())
 						pPlot.setOriginalBounu( pPlot.getBonusType(caster.getTeam()) )
-						pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True,False)
+						pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True)
 						pPlot.setFeatureType (gc.getInfoTypeForString('FEATURE_ICEDSEA'),1)
 						pPlot.setNumCirnoFreeze(3)
 						
 					#凍らせなおし
 				 	if pPlot.getNumCirnoFreeze()>0:
-				 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True,False)
+				 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True)
 						pPlot.setFeatureType (gc.getInfoTypeForString('FEATURE_ICEDSEA'),1)
 		
 	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
@@ -5753,13 +5795,13 @@ def spell_MOKOU_EXTRA1(caster,cost):
 	
 	pPlot = caster.plot()
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True,False)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True)
 			
 	elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
 		if gc.getGame().getSorenRandNum(100, "MOKOU SKILL PHANTASM2") < 15:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 		else:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 	
 	for iiX in range(iX-1,iX+2):
 		for iiY in range(iY-1,iY+2):
@@ -6439,7 +6481,7 @@ def spell_YUKA_PHANTASM1(caster,cost):
 	pPlot = caster.plot()
 	if pPlot.getBonusType(caster.getTeam()) == -1:
 		if pPlot.getTerrainType() != gc.getInfoTypeForString('TERRAIN_COAST') and pPlot.getTerrainType() != gc.getInfoTypeForString('TERRAIN_OCEAN'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 			pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_SUNFLOWER'),1)
 			pPlot.setImprovementType(-1)
 			
@@ -6736,14 +6778,14 @@ def spell_PATCHOULI_PHANTASM1(caster,cost):
 	#そして、power0.5と引き換えにオアシスに花壇強制設置
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_DESERT'):
 		#if pPlot.isFreshWater():
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
 		#if pPlot.isFreshWater():
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 	
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True,False)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True)
 	
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS') and pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
 		cost = 0.5
@@ -7620,7 +7662,7 @@ def spell_KAGUYA_PHANTASM2(caster,cost):
 		iY = gc.getGame().getSorenRandNum(gc.getMap().getGridWidth(),"kaguya phantasm")
 	
 	pPlot = gc.getMap().plot(iX,iY)
-	pPlot.setPlotType(PlotTypes.PLOT_PEAK,True,True,False)
+	pPlot.setPlotType(PlotTypes.PLOT_PEAK,True,True)
 	pPlot.setBonusType(-1)
 	pPlot.setImprovementType(-1)
 	for i in range(pPlot.getNumUnits()):
@@ -7782,7 +7824,7 @@ def spell_TENSHI_PHANTASM1(caster,cost):
 	CAL = caster.countCardAttackLevel()
 	
 	if caster.plot().getTeam() == caster.getTeam() and caster.plot().getPlotType() != PlotTypes.PLOT_OCEAN:
-		caster.plot().setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+		caster.plot().setPlotType(PlotTypes.PLOT_HILLS,True,True)
 		if caster.plot().isCity():
 			caster.plot().getPlotCity().setNumRealBuilding(gc.getInfoTypeForString('BUILDING_KANAMEISHI'),1)
 			
@@ -7908,11 +7950,11 @@ def spell_LETTY_EXTRA1(caster,cost):
 			#pPlot.setFeatureType (gc.getInfoTypeForString('FEATURE_SNOWMAN'),1)
 			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_SNOWMAN'))
 		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True)
 		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True)
 		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_GRASS') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_DESERT'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 		
 		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 		
@@ -9407,6 +9449,17 @@ def spell_YORIHIME_PHANTASM3(caster,cost):
 	
 	return True
 
+def help_YORIHIME_PHANTASM3(szText, caster, CAL):
+	
+	CALset = CAL
+	if CAL > 30:
+		CALset = 30
+	
+	CvGameUtils.doprint(szText)
+	if szText == "001":
+		return CAL
+	if szText == "002":
+		return (CALset*3/2)
 
 #姉の方EX/PH
 
@@ -9611,6 +9664,12 @@ def spell_SEIRAN_EXTRA1(caster,cost):
 	
 	return True
 
+def help_SEIRAN_EXTRA1(szText, caster, CAL):
+	
+	CvGameUtils.doprint(szText)
+	if szText == "001":
+		return (CAL/6+1)
+
 
 def req_SEIRAN_PHANTASM1(bTestVisible,caster,sCAL,eCAL,cost):
 	flag = Functions.req_Spell(bTestVisible,caster,'PROMOTION_MODE_PHANTASM','UNIT_SEIRAN1','UNIT_SEIRAN6',cost)
@@ -9741,11 +9800,11 @@ def spell_SAGUME_EXTRA1(caster,cost):
 	iY = caster.getY()
 	
 	if CAL<=7:
-		iGetJibaku = 1
-	elif CAL<=15:
 		iGetJibaku = 2
+	elif CAL<=15:
+		iGetJibaku = 4
 	else:
-		iGetJibaku = 3
+		iGetJibaku = 6
 	
 	UnitList = []
 	iNumUnit = pPlot.getNumUnits()
@@ -9774,6 +9833,16 @@ def spell_SAGUME_EXTRA1(caster,cost):
 	
 	return True
 
+def help_SAGUME_EXTRA1(szText, caster, CAL):
+	
+	CvGameUtils.doprint(szText)
+	if szText == "001":
+		if CAL<=7:
+			return 2
+		elif CAL<=15:
+			return 4
+		else:
+			return 6
 
 def req_SAGUME_PHANTASM1(bTestVisible,caster,sCAL,eCAL,cost):
 	return Functions.req_Spell(bTestVisible,caster,'PROMOTION_MODE_PHANTASM','UNIT_SAGUME1','UNIT_SAGUME6',cost)
@@ -10142,7 +10211,7 @@ def spell_TERRAFORM_PLAIN(caster,cost):
 			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'))
 	
 	else:
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 		
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	
@@ -10228,7 +10297,7 @@ def spell_TERRAFORM_PLAIN_NO_SACRIFICE(caster,cost):
 		
 	else:
 		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
 			caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
 				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
@@ -10236,7 +10305,7 @@ def spell_TERRAFORM_PLAIN_NO_SACRIFICE(caster,cost):
 			else:
 				SacrificeFlag = True
 		elif pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
 			caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
 				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
@@ -10244,7 +10313,7 @@ def spell_TERRAFORM_PLAIN_NO_SACRIFICE(caster,cost):
 			else:
 				SacrificeFlag = True
 		else:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 	
 	if SacrificeFlag:
 		caster.changeDamage(100,caster.getOwner())
@@ -10306,7 +10375,7 @@ def spell_TERRAFORM_GRASS(caster,cost):
 		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS'))
 	
 	else:
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 		
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	if FeverFlag:
@@ -10384,7 +10453,7 @@ def spell_TERRAFORM_GRASS_NO_SACRIFICE(caster,cost):
 		
 	else:
 		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 			if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
 			caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
 				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
@@ -10392,7 +10461,7 @@ def spell_TERRAFORM_GRASS_NO_SACRIFICE(caster,cost):
 			else:
 				SacrificeFlag = True
 		elif pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 			if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
 			caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
 				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
@@ -10400,7 +10469,7 @@ def spell_TERRAFORM_GRASS_NO_SACRIFICE(caster,cost):
 			else:
 				SacrificeFlag = True
 		else:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 	
 	if SacrificeFlag:
 		caster.changeDamage(100,caster.getOwner())
@@ -10461,7 +10530,7 @@ def spell_TERRAFORM_HILL(caster,cost):
 		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_HILL'))
 	
 	else:
-		pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+		pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
 		
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	if FeverFlag:
@@ -10519,7 +10588,7 @@ def spell_TERRAFORM_HILL_NO_SACRIFICE(caster,cost):
 		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_HILL'))
 		
 	else:
-		pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+		pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
 	
 	caster.finishMoves()
 	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
@@ -10577,7 +10646,7 @@ def spell_TERRAFORM_FLATLAND(caster,cost):
 		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FLATLAND'))
 	
 	else:
-		pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+		pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 		
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	if FeverFlag:
@@ -10635,7 +10704,7 @@ def spell_TERRAFORM_FLATLAND_NO_SACRIFICE(caster,cost):
 		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FLATLAND'))
 		
 	else:
-		pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+		pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 	
 	caster.finishMoves()
 	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
@@ -10764,7 +10833,7 @@ def spell_TERRAFORM_LANDFILL(caster,cost):
 			#この例外処理をする場合このように第四因数をTrueにすること
 			#なお上記でも触れたが、これはSDK側の変更が必要なのでその処理をしない限りこのままコピペしても動作はしない
 			#もしも他MODでこの処理を参考にしたい場合は注意
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,True)
+			pPlot.setTerrainTypeWithoutUnitErase(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 	
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	caster.changeDamage(100,caster.getOwner())
@@ -10883,7 +10952,7 @@ def spell_TERRAFORM_OCEANIZATION(caster,cost):
 	
 	if pPlot.getNumUnits() == 1 and pPlot.getBonusType(caster.getTeam()) == -1 :
 		if pPlot.getPlotType() == PlotTypes.PLOT_LAND:
-			pPlot.setPlotType(PlotTypes.PLOT_OCEAN,True,True,True)
+			pPlot.setPlotTypeWithoutUnitErase(PlotTypes.PLOT_OCEAN,True,True)
 	
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	caster.changeDamage(100,caster.getOwner())

@@ -2934,11 +2934,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_HALLOWEEN_FEVER_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]「ハロウィンフィーバー」使用後に除去される</French>
+		<French>[ICON_BULLET]特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]テラフォーミングで本来犠牲になるシチュエーションの場合、この昇進の除去と引き換えに犠牲を回避出来る（[COLOR_RED]「氾濫源化」は例外[COLOR_REVERT]）&#13;[ICON_BULLET]「ハロウィンフィーバー」使用後に除去される</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]「ハロウィンフィーバー」使用後に除去される</Japanese>
+		<Japanese>[ICON_BULLET]特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]テラフォーミングで本来犠牲になるシチュエーションの場合、この昇進の除去と引き換えに犠牲を回避出来る（[COLOR_RED]「氾濫源化」は例外[COLOR_REVERT]）&#13;[ICON_BULLET]「ハロウィンフィーバー」使用後に除去される</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_DANGO_FEVER</Tag>
@@ -2952,11 +2952,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_DANGO_FEVER_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]「ダンゴフィーバー」使用後に除去される</French>
+		<French>[ICON_BULLET]特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]テラフォーミングで本来犠牲になるシチュエーションの場合、この昇進の除去と引き換えに犠牲を回避出来る（[COLOR_RED]「氾濫源化」は例外[COLOR_REVERT]）&#13;[ICON_BULLET]「ダンゴフィーバー」使用後に除去される</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]「ダンゴフィーバー」使用後に除去される</Japanese>
+		<Japanese>[ICON_BULLET]特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]テラフォーミングで本来犠牲になるシチュエーションの場合、この昇進の除去と引き換えに犠牲を回避出来る（[COLOR_RED]「氾濫源化」は例外[COLOR_REVERT]）&#13;[ICON_BULLET]「ダンゴフィーバー」使用後に除去される</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_CTHULHU_FAMILY</Tag>

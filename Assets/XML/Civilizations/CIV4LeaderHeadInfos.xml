@@ -14250,7 +14250,7 @@
       <FavoriteReligion>NONE</FavoriteReligion>
       <Traits>
         <Trait>
-          <TraitType>TRAIT_FINANCIAL</TraitType>
+          <TraitType>TRAIT_PHILOSOPHICAL</TraitType>
           <bTrait>1</bTrait>
         </Trait>
         <Trait>
@@ -14614,7 +14614,7 @@
       </UnitAIWeightModifiers>
       <ImprovementWeightModifiers>
         <ImprovementWeightModifier>
-          <ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+          <ImprovementType>IMPROVEMENT_YOUKAINOYAMA_FARM</ImprovementType>
           <iWeightModifier>20</iWeightModifier>
         </ImprovementWeightModifier>
         <ImprovementWeightModifier>
@@ -37612,11 +37612,11 @@
       <FavoriteReligion>NONE</FavoriteReligion>
       <Traits>
         <Trait>
-          <TraitType>TRAIT_AGGRESSIVE</TraitType>
+          <TraitType>TRAIT_LABORLIST</TraitType>
           <bTrait>1</bTrait>
         </Trait>
         <Trait>
-          <TraitType>TRAIT_LABORLIST</TraitType>
+          <TraitType>TRAIT_CENTRALIZATION</TraitType>
           <bTrait>1</bTrait>
         </Trait>
         <Trait>
@@ -57634,35 +57634,35 @@
       <Description>TXT_KEY_LEADER_YORIHIME</Description>
       <Civilopedia>TXT_KEY_LEADER_YORIHIME_PEDIA</Civilopedia>
       <ArtDefineTag>ART_DEF_LEADER_YORIHIME</ArtDefineTag>
-      <iWonderConstructRand>30</iWonderConstructRand>
+      <iWonderConstructRand>20</iWonderConstructRand>
       <iBaseAttitude>0</iBaseAttitude>
-      <iBasePeaceWeight>0</iBasePeaceWeight>
+      <iBasePeaceWeight>2</iBasePeaceWeight>
       <iPeaceWeightRand>3</iPeaceWeightRand>
       <iWarmongerRespect>2</iWarmongerRespect>
-      <iEspionageWeight>30</iEspionageWeight>
+      <iEspionageWeight>100</iEspionageWeight>
       <iRefuseToTalkWarThreshold>6</iRefuseToTalkWarThreshold>
-      <iNoTechTradeThreshold>5</iNoTechTradeThreshold>
-      <iTechTradeKnownPercent>80</iTechTradeKnownPercent>
+      <iNoTechTradeThreshold>10</iNoTechTradeThreshold>
+      <iTechTradeKnownPercent>50</iTechTradeKnownPercent>
       <iMaxGoldTradePercent>10</iMaxGoldTradePercent>
       <iMaxGoldPerTurnTradePercent>10</iMaxGoldPerTurnTradePercent>
-      <iMaxWarRand>200</iMaxWarRand>
-      <iMaxWarNearbyPowerRatio>130</iMaxWarNearbyPowerRatio>
-      <iMaxWarDistantPowerRatio>20</iMaxWarDistantPowerRatio>
-      <iMaxWarMinAdjacentLandPercent>0</iMaxWarMinAdjacentLandPercent>
-      <iLimitedWarRand>40</iLimitedWarRand>
-      <iLimitedWarPowerRatio>130</iLimitedWarPowerRatio>
-      <iDogpileWarRand>80</iDogpileWarRand>
+      <iMaxWarRand>100</iMaxWarRand>
+      <iMaxWarNearbyPowerRatio>110</iMaxWarNearbyPowerRatio>
+      <iMaxWarDistantPowerRatio>50</iMaxWarDistantPowerRatio>
+      <iMaxWarMinAdjacentLandPercent>2</iMaxWarMinAdjacentLandPercent>
+      <iLimitedWarRand>150</iLimitedWarRand>
+      <iLimitedWarPowerRatio>100</iLimitedWarPowerRatio>
+      <iDogpileWarRand>100</iDogpileWarRand>
       <iMakePeaceRand>10</iMakePeaceRand>
       <iDeclareWarTradeRand>40</iDeclareWarTradeRand>
-      <iDemandRebukedSneakProb>60</iDemandRebukedSneakProb>
-      <iDemandRebukedWarProb>50</iDemandRebukedWarProb>
-      <iRazeCityProb>75</iRazeCityProb>
+      <iDemandRebukedSneakProb>50</iDemandRebukedSneakProb>
+      <iDemandRebukedWarProb>10</iDemandRebukedWarProb>
+      <iRazeCityProb>0</iRazeCityProb>
       <iBuildUnitProb>30</iBuildUnitProb>
       <iBaseAttackOddsChange>6</iBaseAttackOddsChange>
       <iAttackOddsChangeRand>8</iAttackOddsChangeRand>
-      <iWorseRankDifferenceAttitudeChange>-3</iWorseRankDifferenceAttitudeChange>
+      <iWorseRankDifferenceAttitudeChange>-2</iWorseRankDifferenceAttitudeChange>
       <iBetterRankDifferenceAttitudeChange>2</iBetterRankDifferenceAttitudeChange>
-      <iCloseBordersAttitudeChange>-4</iCloseBordersAttitudeChange>
+      <iCloseBordersAttitudeChange>-2</iCloseBordersAttitudeChange>
       <iLostWarAttitudeChange>-1</iLostWarAttitudeChange>
       <iAtWarAttitudeDivisor>-5</iAtWarAttitudeDivisor>
       <iAtWarAttitudeChangeLimit>5</iAtWarAttitudeChangeLimit>
@@ -57670,7 +57670,7 @@
       <iAtPeaceAttitudeChangeLimit>1</iAtPeaceAttitudeChangeLimit>
       <iSameReligionAttitudeChange>1</iSameReligionAttitudeChange>
       <iSameReligionAttitudeDivisor>10</iSameReligionAttitudeDivisor>
-      <iSameReligionAttitudeChangeLimit>6</iSameReligionAttitudeChangeLimit>
+      <iSameReligionAttitudeChangeLimit>5</iSameReligionAttitudeChangeLimit>
       <iDifferentReligionAttitudeChange>-1</iDifferentReligionAttitudeChange>
       <iDifferentReligionAttitudeDivisor>-5</iDifferentReligionAttitudeDivisor>
       <iDifferentReligionAttitudeChangeLimit>-1</iDifferentReligionAttitudeChangeLimit>
@@ -57682,19 +57682,19 @@
       <iDefensivePactAttitudeChangeLimit>2</iDefensivePactAttitudeChangeLimit>
       <iShareWarAttitudeChange>1</iShareWarAttitudeChange>
       <iShareWarAttitudeDivisor>8</iShareWarAttitudeDivisor>
-      <iShareWarAttitudeChangeLimit>4</iShareWarAttitudeChangeLimit>
+      <iShareWarAttitudeChangeLimit>5</iShareWarAttitudeChangeLimit>
       <iFavoriteCivicAttitudeChange>1</iFavoriteCivicAttitudeChange>
       <iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
-      <iFavoriteCivicAttitudeChangeLimit>9</iFavoriteCivicAttitudeChangeLimit>
+      <iFavoriteCivicAttitudeChangeLimit>4</iFavoriteCivicAttitudeChangeLimit>
       <DemandTributeAttitudeThreshold>ATTITUDE_CAUTIOUS</DemandTributeAttitudeThreshold>
       <NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
       <TechRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</TechRefuseAttitudeThreshold>
       <StrategicBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StrategicBonusRefuseAttitudeThreshold>
-      <HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
-      <HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
+      <HappinessBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</HappinessBonusRefuseAttitudeThreshold>
+      <HealthBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</HealthBonusRefuseAttitudeThreshold>
       <MapRefuseAttitudeThreshold>ATTITUDE_PLEASED</MapRefuseAttitudeThreshold>
-      <DeclareWarRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarRefuseAttitudeThreshold>
-      <DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
+      <DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
+      <DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
       <StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
       <StopTradingThemRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingThemRefuseAttitudeThreshold>
       <AdoptCivicRefuseAttitudeThreshold>ATTITUDE_PLEASED</AdoptCivicRefuseAttitudeThreshold>
@@ -57705,15 +57705,15 @@
       <VassalRefuseAttitudeThreshold>ATTITUDE_PLEASED</VassalRefuseAttitudeThreshold>
       <iVassalPowerModifier>50</iVassalPowerModifier>
       <iFreedomAppreciation>10</iFreedomAppreciation>
-      <FavoriteCivic>CIVIC_CHIJOUNOMISSITU</FavoriteCivic>
+      <FavoriteCivic>CIVIC_FAITH_SHINTO</FavoriteCivic>
       <FavoriteReligion>NONE</FavoriteReligion>
       <Traits>
         <Trait>
-          <TraitType>TRAIT_AGGRESSIVE</TraitType>
+          <TraitType>TRAIT_FINANCIAL</TraitType>
           <bTrait>1</bTrait>
         </Trait>
         <Trait>
-          <TraitType>TRAIT_SPIRITUAL</TraitType>
+          <TraitType>TRAIT_IMPERIALIST</TraitType>
           <bTrait>1</bTrait>
         </Trait>
         <Trait>
@@ -58049,8 +58049,16 @@
       </MemoryAttitudePercents>
       <NoWarAttitudeProbs>
         <NoWarAttitudeProb>
+          <AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
+          <iNoWarProb>20</iNoWarProb>
+        </NoWarAttitudeProb>
+        <NoWarAttitudeProb>
+          <AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
+          <iNoWarProb>60</iNoWarProb>
+        </NoWarAttitudeProb>
+        <NoWarAttitudeProb>
           <AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-          <iNoWarProb>80</iNoWarProb>
+          <iNoWarProb>100</iNoWarProb>
         </NoWarAttitudeProb>
         <NoWarAttitudeProb>
           <AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
@@ -58063,7 +58071,16 @@
           <iWeightModifier>100</iWeightModifier>
         </UnitAIWeightModifier>
       </UnitAIWeightModifiers>
-      <ImprovementWeightModifiers />
+      <ImprovementWeightModifiers>
+        <ImprovementWeightModifier>
+          <ImprovementType>IMPROVEMENT_TUKI_NO_MIYAKO_TOWN</ImprovementType>
+          <iWeightModifier>20</iWeightModifier>
+        </ImprovementWeightModifier>
+        <ImprovementWeightModifier>
+          <ImprovementType>IMPROVEMENT_WINDMILL</ImprovementType>
+          <iWeightModifier>20</iWeightModifier>
+        </ImprovementWeightModifier>
+      </ImprovementWeightModifiers>
       <DiplomacyIntroMusicPeace>
         <DiploMusicPeaceEra>
           <EraType>ERA_ANCIENT</EraType>
@@ -58227,7 +58244,7 @@
       <iShareWarAttitudeChangeLimit>5</iShareWarAttitudeChangeLimit>
       <iFavoriteCivicAttitudeChange>1</iFavoriteCivicAttitudeChange>
       <iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
-      <iFavoriteCivicAttitudeChangeLimit>9</iFavoriteCivicAttitudeChangeLimit>
+      <iFavoriteCivicAttitudeChangeLimit>5</iFavoriteCivicAttitudeChangeLimit>
       <DemandTributeAttitudeThreshold>ATTITUDE_CAUTIOUS</DemandTributeAttitudeThreshold>
       <NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
       <TechRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</TechRefuseAttitudeThreshold>
@@ -58247,7 +58264,7 @@
       <VassalRefuseAttitudeThreshold>ATTITUDE_PLEASED</VassalRefuseAttitudeThreshold>
       <iVassalPowerModifier>50</iVassalPowerModifier>
       <iFreedomAppreciation>10</iFreedomAppreciation>
-      <FavoriteCivic>CIVIC_CHIJOUNOMISSITU</FavoriteCivic>
+      <FavoriteCivic>CIVIC_UNIVERSAL_SUFFRAGE</FavoriteCivic>
       <FavoriteReligion>NONE</FavoriteReligion>
       <Traits>
         <Trait>
@@ -58255,7 +58272,7 @@
           <bTrait>1</bTrait>
         </Trait>
         <Trait>
-          <TraitType>TRAIT_IMPERIALIST</TraitType>
+          <TraitType>TRAIT_EXPANSIVE</TraitType>
           <bTrait>1</bTrait>
         </Trait>
         <Trait>
@@ -58609,7 +58626,16 @@
           <iWeightModifier>100</iWeightModifier>
         </UnitAIWeightModifier>
       </UnitAIWeightModifiers>
-      <ImprovementWeightModifiers />
+      <ImprovementWeightModifiers>
+        <ImprovementWeightModifier>
+          <ImprovementType>IMPROVEMENT_TUKI_NO_MIYAKO_TOWN</ImprovementType>
+          <iWeightModifier>20</iWeightModifier>
+        </ImprovementWeightModifier>
+        <ImprovementWeightModifier>
+          <ImprovementType>IMPROVEMENT_WINDMILL</ImprovementType>
+          <iWeightModifier>20</iWeightModifier>
+        </ImprovementWeightModifier>
+      </ImprovementWeightModifiers>
       <DiplomacyIntroMusicPeace>
         <DiploMusicPeaceEra>
           <EraType>ERA_ANCIENT</EraType>
@@ -59347,11 +59373,11 @@
       <FavoriteReligion>RELIGION_ISLAM</FavoriteReligion>
       <Traits>
         <Trait>
-          <TraitType>TRAIT_SPIRITUAL</TraitType>
+          <TraitType>TRAIT_AGGRESSIVE</TraitType>
           <bTrait>1</bTrait>
         </Trait>
         <Trait>
-          <TraitType>TRAIT_EXPANSIVE</TraitType>
+          <TraitType>TRAIT_LABORLIST</TraitType>
           <bTrait>1</bTrait>
         </Trait>
         <Trait>
@@ -61025,11 +61051,11 @@
       <FavoriteReligion>RELIGION_ISLAM</FavoriteReligion>
       <Traits>
         <Trait>
-          <TraitType>TRAIT_IMPERIALIST</TraitType>
+          <TraitType>TRAIT_PHILOSOPHICAL</TraitType>
           <bTrait>1</bTrait>
         </Trait>
         <Trait>
-          <TraitType>TRAIT_PHILOSOPHICAL</TraitType>
+          <TraitType>TRAIT_CENTRALIZATION</TraitType>
           <bTrait>1</bTrait>
         </Trait>
         <Trait>

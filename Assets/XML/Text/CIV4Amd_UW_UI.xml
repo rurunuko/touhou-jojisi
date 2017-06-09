@@ -1177,13 +1177,22 @@
 		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_FOREST]テラフォーミング：植林[\LINK]の実行</Japanese>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUILD_TERRAFORM_PLAIN_TO_ICE</Tag>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_PLAIN_TO_TUNDRA</Tag>
 		<English />
-		<French>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]のツンドラ・氷土タイル上での実行</French>
+		<French>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]のツンドラタイル上での実行</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]のツンドラ・氷土タイル上での実行</Japanese>
+		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]のツンドラタイル上での実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_PLAIN_TO_ICE</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]の氷土タイル上での実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]の氷土タイル上での実行</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_TERRAFORM_HILL_NO_SACRIFICE</Tag>

@@ -649,10 +649,15 @@ bool CyPlot::isPeak()
 
 //東方叙事詩・統合MOD追記
 //以下bSpellReclaimの追記がある箇所同等
-void CyPlot::setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGraphics, bool bSpellReclaim)
+void CyPlot::setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGraphics)
 {
 	if (m_pPlot)
-		m_pPlot->setPlotType(eNewValue, bRecalculate, bRebuildGraphics, bSpellReclaim);
+		m_pPlot->setPlotType(eNewValue, bRecalculate, bRebuildGraphics);
+}
+void CyPlot::setPlotTypeWithoutUnitErase(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGraphics)
+{
+	if (m_pPlot)
+		m_pPlot->setPlotType(eNewValue, bRecalculate, bRebuildGraphics, true);
 }
 
 int /*TerrainTypes*/ CyPlot::getTerrainType()
@@ -660,10 +665,16 @@ int /*TerrainTypes*/ CyPlot::getTerrainType()
 	return m_pPlot ? m_pPlot->getTerrainType() : -1;
 }
 
-void CyPlot::setTerrainType(int /*TerrainTypes*/ eNewValue, bool bRecalculate, bool bRebuildGraphics, bool bSpellReclaim)
+void CyPlot::setTerrainType(int /*TerrainTypes*/ eNewValue, bool bRecalculate, bool bRebuildGraphics)
 {
 	if (m_pPlot)
-		m_pPlot->setTerrainType((TerrainTypes)eNewValue, bRecalculate, bRebuildGraphics, bSpellReclaim);
+		m_pPlot->setTerrainType((TerrainTypes)eNewValue, bRecalculate, bRebuildGraphics);
+}
+
+void CyPlot::setTerrainTypeWithoutUnitErase(int /*TerrainTypes*/ eNewValue, bool bRecalculate, bool bRebuildGraphics)
+{
+	if (m_pPlot)
+		m_pPlot->setTerrainType((TerrainTypes)eNewValue, bRecalculate, bRebuildGraphics, true);
 }
 //東方叙事詩・統合MOD追記ここまで
 

@@ -615,7 +615,7 @@ class CvEventManager:
 					pPlot.setNumCirnoFreeze( pPlot.getNumCirnoFreeze()-1 )
 					if pPlot.getNumCirnoFreeze() <= 0: #—n‚¯‚«‚Á‚½‚ç
 						if pPlot.getNumUnits() == 0:
-							pPlot.setTerrainType( pPlot.getOriginalTerrain(),True,True,False )
+							pPlot.setTerrainType( pPlot.getOriginalTerrain(),True,True )
 							pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_NONE'),1)
 							pPlot.setBonusType( pPlot.getOriginalBounu() )
 						else:
@@ -750,7 +750,7 @@ class CvEventManager:
 			pPlot = pUnit.plot()
 			if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_DESERT') and pPlot.getFeatureType() != gc.getInfoTypeForString('FEATURE_OASIS') and pPlot.getFeatureType() != gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
 				if pUnit.getDamage() == 0:
-					pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+					pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 					pUnit.changeDamage(40,pUnit.getOwner())
 			if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
 				pUnit.changeDamage(-40,pUnit.getOwner())
@@ -2756,25 +2756,25 @@ class CvEventManager:
 		#ŒŽ‚Ì“sƒeƒ‰ƒtƒH[ƒ~ƒ“ƒOˆ—
 		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN_COMPLETE')):
 			pPlot = CyMap().plot(iX, iY)
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			pPlot.setImprovementType(-1)
 			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_PLAIN_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/plains.dds',ColorTypes(11),iX,iY,True,True)
 		
 		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS_COMPLETE')):
 			pPlot = CyMap().plot(iX, iY)
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 			pPlot.setImprovementType(-1)
 			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_GRASS_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(11),iX,iY,True,True)
 		
 		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_HILL_COMPLETE')):
 			pPlot = CyMap().plot(iX, iY)
-			pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+			pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
 			pPlot.setImprovementType(-1)
 			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_HILL_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/hill.dds',ColorTypes(11),iX,iY,True,True)
 		
 		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FLATLAND_COMPLETE')):
 			pPlot = CyMap().plot(iX, iY)
-			pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+			pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 			pPlot.setImprovementType(-1)
 			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_FLATLAND_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(11),iX,iY,True,True)
 		
@@ -2977,17 +2977,34 @@ class CvEventManager:
 		#ŒŽ“Ç_ŽÐ‚ðŒšÝ‚µ‚½“sŽs‚ÌŽüˆÍ2ƒ}ƒXŒ—“à‚É”_ê‚¨‚æ‚Ñ•ÛˆÀ—Ñ‚ª‚ ‚Á‚½‚ç•ÏŠ·‚³‚¹‚é
 		if iBuildingType == gc.getInfoTypeForString('BUILDING_TSUKUYOMI_SHRINE'):
 			pTeam = gc.getTeam(pPlayer.getTeam())
-			iX = pCity.getX()
-			iY = pCity.getY()
-			for iiX in range(iX-2,iX+3):
-				for iiY in range(iY-2,iY+3):
-					if Functions.isPlot(iiX,iiY):
-						pPlot = gc.getMap().plot(iiX,iiY)
-						if pPlayer.getTeam() == pPlot.getTeam():
-							if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_FARM'):
-								pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_MARS_FARM'))
-							if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_FOREST_PRESERVE'):
-								pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_MOONBASE'))
+			# ”ÍˆÍ‚Ì’è‹`
+			RangeListCity2 = [        [-1,-2],[ 0,-2],[ 1,-2],
+							  [-2,-1],[-1,-1],[ 0,-1],[ 1,-1],[ 2,-1],
+							  [-2, 0],[-1, 0],        [ 1, 0],[ 2, 0],
+							  [-2, 1],[-1, 1],[ 0, 1],[ 1, 1],[ 2, 1],
+							          [-1, 2],[ 0, 2],[ 1, 2],        ]
+			# “sŽs(pCity)‚ð’†S‚Æ‚µ‚ÄRangeListCity2‚Ì‚Í‚ñ‚¢‚É‚È‚ñ‚©‚·‚é
+			for sq in RangeListCity2:
+				iX = pCity.getX() + sq[0]
+				iY = pCity.getY() + sq[1]
+				if Functions.isPlot(iX,iY):
+					pPlot = gc.getMap().plot(iX,iY)
+					if pPlayer.getTeam() == pPlot.getTeam():
+						if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_FARM'):
+							pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_MARS_FARM'))
+						if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_FOREST_PRESERVE'):
+							pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_MOONBASE'))
+			#iX = pCity.getX()
+			#iY = pCity.getY()
+			#for iiX in range(iX-2,iX+3):
+			#	for iiY in range(iY-2,iY+3):
+			#		if Functions.isPlot(iiX,iiY):
+			#			pPlot = gc.getMap().plot(iiX,iiY)
+			#			if pPlayer.getTeam() == pPlot.getTeam():
+			#				if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_FARM'):
+			#					pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_MARS_FARM'))
+			#				if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_FOREST_PRESERVE'):
+			#					pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_MOONBASE'))
 	
 		#“‡MOD’Ç‹L•”•ª‚±‚±‚Ü‚Å
 
@@ -4575,8 +4592,8 @@ class CvEventManager:
 		#‚©‚È‚±‚ÌŽuŒü‚ª‚ ‚ê‚Î•½Œ´‹u‚É
 		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_KANAKOLIST')):
 			if city.isCapital():
-				city.plot().setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
-				city.plot().setTerrainType(gc.getInfoTypeForString("TERRAIN_PLAINS"),True,True,False)
+				city.plot().setPlotType(PlotTypes.PLOT_HILLS,True,True)
+				city.plot().setTerrainType(gc.getInfoTypeForString("TERRAIN_PLAINS"),True,True)
 		
 		#¬ŽP‚ÌŒÅ—LŽuŒü‚ª‚ ‚ê‚Î‚³‚Å‚¸‚Þ‚ª—§‚Â@Ž©•ª‚ÅŒšÝ‚µ‚½ˆÈŠO‚Ì“sŽs‚Å‚ÍAƒ^[ƒ“‚ªŒo‰ß‚·‚é‚½‚Â‚æ‚¤‚É‚È‚é
 		if gc.getPlayer(city.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_KOGASALIST')):

@@ -34462,20 +34462,20 @@
 	<TEXT>
 		<Tag>AI_DIPLO_CIVIC_PRESSURE_LEADER_WATAHIME_1</Tag>
 		<English />
-		<French>どうせカスタムゲームか何かなのでしょう？あなたも%s1にしては如何ですか？</French>
+		<French>我々月の民は国民一人一人が選挙権を持ち国政に関与する民主的な制度を採用しています。あなたも我々と同じ%s1を採用しては如何ですか？</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>どうせカスタムゲームか何かなのでしょう？あなたも%s1にしては如何ですか？</Japanese>
+		<Japanese>我々月の民は国民一人一人が選挙権を持ち国政に関与する民主的な制度を採用しています。あなたも我々と同じ%s1を採用しては如何ですか？</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_CIVIC_DENIED_LEADER_WATAHIME_1</Tag>
 		<English />
-		<French>貴方は一体何のために永遠亭を選択したのですか？</French>
+		<French>それはそれは。いつまで旧時代の社会制度を維持し続けるか見ものですね</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>貴方は一体何のために永遠亭を選択したのですか？</Japanese>
+		<Japanese>それはそれは。いつまで旧時代の社会制度を維持し続けるか見ものですね</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_JOIN_WAR_LEADER_WATAHIME_1</Tag>
@@ -35452,20 +35452,20 @@
 	<TEXT>
 		<Tag>AI_DIPLO_CIVIC_PRESSURE_LEADER_YORIHIME_1</Tag>
 		<English/>
-		<French>%s1は月の最先端の制度です。</French>
+		<French>あなたも%s1を信仰し、八百万の神々の祝福を受けては如何ですか？</French>
 		<German/>
 		<Italian/>
 		<Spanish/>
-		<Japanese>%s1は月の最先端の制度です。</Japanese>
+		<Japanese>あなたも%s1を信仰し、八百万の神々の祝福を受けては如何ですか？</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_CIVIC_DENIED_LEADER_YORIHIME_1</Tag>
 		<English/>
-		<French>あなたにはまだ早い制度でしたか。</French>
+		<French>よろしい。あなたには理解できない信仰でしたか</French>
 		<German/>
 		<Italian/>
 		<Spanish/>
-		<Japanese>あなたにはまだ早い制度でしたか。</Japanese>
+		<Japanese>よろしい。あなたには理解できない信仰でしたか</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_JOIN_WAR_LEADER_YORIHIME_1</Tag>

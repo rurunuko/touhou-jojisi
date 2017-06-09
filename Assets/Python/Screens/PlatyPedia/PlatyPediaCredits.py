@@ -7,7 +7,7 @@ gc = CyGlobalContext()
 class CvPediaCredits:
 	def __init__(self, main):
 		self.top = main
-		self.Credits = ["CODERS", "MOD_COMP", "GRAPHICS", "LANGUAGE_SUPPORT", "TESTORS"]
+		self.Credits = ["CODERS", "MOD_COMP", "GRAPHICS", "LANGUAGE_SUPPORT", "TESTORS", "PEDIA_TEXT"]
 
 	def interfaceScreen(self):
 		self.top.deleteAllWidgets()		

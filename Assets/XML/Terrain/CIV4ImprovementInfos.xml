@@ -4741,7 +4741,7 @@
       <Type>IMPROVEMENT_MARS_FARM</Type>
       <Description>TXT_KEY_IMPROVEMENT_MARS_FARM</Description>
       <Civilopedia>TXT_KEY_IMPROVEMENT_FARM_PEDIA</Civilopedia>
-      <ArtDefineTag>ART_DEF_IMPROVEMENT_FARM</ArtDefineTag>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_MARS_FARM</ArtDefineTag>
       <PrereqNatureYields>
         <iYield>1</iYield>
         <iYield>0</iYield>

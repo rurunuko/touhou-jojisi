@@ -6101,7 +6101,7 @@ def makeChannel(x,y):
     terrainCoast = gc.getInfoTypeForString("TERRAIN_COAST")
     plot = mmap.plot(x,y)
     cleanUpLake(x,y)
-    plot.setTerrainType(terrainCoast,True,True,False)
+    plot.setTerrainType(terrainCoast,True,True)
     plot.setRiverID(-1)
     plot.setNOfRiver(False,CardinalDirectionTypes.NO_CARDINALDIRECTION)
     plot.setWOfRiver(False,CardinalDirectionTypes.NO_CARDINALDIRECTION)
@@ -6200,7 +6200,7 @@ def addLakes():
 ##                    plot.setNOfRiver(False,CardinalDirectionTypes.NO_CARDINALDIRECTION)
 ##                    plot.setWOfRiver(False,CardinalDirectionTypes.NO_CARDINALDIRECTION)
 ##                    #plot.setPlotType(PlotTypes.PLOT_OCEAN,True,True) setTerrain handles this already
-##                    plot.setTerrainType(terrainCoast,True,True,False)
+##                    plot.setTerrainType(terrainCoast,True,True)
                     expandLake(x,y,riversIntoLake,oceanMap)
                 else:
                     #no lake here, but in that case there should be no rivers either

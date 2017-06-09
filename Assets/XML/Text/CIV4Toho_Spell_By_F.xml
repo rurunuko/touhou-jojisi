@@ -5077,11 +5077,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_YORIHIME_PHANTASM3_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]「冬の化身オーリック」を1体召喚する&#13;[ICON_BULLET]冬の化身オーリック：同時に1体のみ召喚可能な特殊ユニット　特殊スペル「吹雪」を使用可能&#13;[ICON_BULLET]戦闘力は依姫の「CAL*3/2」と同値になる（最大戦闘力45）&#13;[ICON_BULLET]既に冬の化身オーリックを召喚している場合は戦闘力の再計算が行われる&#13;[ICON_BULLET]撃破された場合は再召喚可能&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.50が必要</French>
+		<French>[ICON_BULLET]「冬の化身オーリック」を1体召喚する&#13;[ICON_BULLET]冬の化身オーリック：同時に1体のみ召喚可能な特殊ユニット　特殊スペル「吹雪」を使用可能&#13;[ICON_BULLET]戦闘力は依姫のCAL値により変動する（CAL[p001]時…戦闘力[p002]・最大戦闘力45）&#13;[ICON_BULLET]既に冬の化身オーリックを召喚している場合は戦闘力の再計算が行われる&#13;[ICON_BULLET]撃破された場合は再召喚可能&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.50が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]「冬の化身オーリック」を1体召喚する&#13;[ICON_BULLET]冬の化身オーリック：同時に1体のみ召喚可能な特殊ユニット　特殊スペル「吹雪」を使用可能&#13;[ICON_BULLET]戦闘力は依姫の「CAL*3/2」と同値になる（最大戦闘力45）&#13;[ICON_BULLET]既に冬の化身オーリックを召喚している場合は戦闘力の再計算が行われる&#13;[ICON_BULLET]撃破された場合は再召喚可能&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.50が必要</Japanese>
+		<Japanese>[ICON_BULLET]「冬の化身オーリック」を1体召喚する&#13;[ICON_BULLET]冬の化身オーリック：同時に1体のみ召喚可能な特殊ユニット　特殊スペル「吹雪」を使用可能&#13;[ICON_BULLET]戦闘力は依姫のCAL値により変動する（CAL[p001]時…戦闘力[p002]・最大戦闘力45）&#13;[ICON_BULLET]既に冬の化身オーリックを召喚している場合は戦闘力の再計算が行われる&#13;[ICON_BULLET]撃破された場合は再召喚可能&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.50が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_TOYOHIME1_1</Tag>
@@ -5095,11 +5095,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_TOYOHIME1_1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]CAL1～7：周囲1マスの敵対ユニットにCAL*3のダメージを与える　東方ユニットには半減&#13;[ICON_BULLET]CAL8～15：上記効力に加えダメージ範囲が周囲2マス化・使用したマス直下のタイルにある森・氾濫源を取り除き改善を破壊し草原タイルの場合は平原タイルにする&#13;[ICON_BULLET]CAL16～19：上記効力に加えダメージ範囲が周囲3マス化・使用したマス直下のタイルを砂漠タイルにする&#13;[ICON_BULLET]CAL20～　：上記効力に加え使用したマス直下のタイルを放射能汚染状態にする&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
+		<French>[ICON_BULLET]CAL1～7：周囲1マスの敵対ユニットに[003]％のダメージを与える　東方ユニットには半減&#13;[ICON_BULLET]CAL8～15：上記効力に加えダメージ範囲が周囲2マス化・使用したマス直下のタイルにある森・氾濫源を取り除き改善を破壊し草原タイルの場合は平原タイルにする&#13;[ICON_BULLET]CAL16～19：上記効力に加えダメージ範囲が周囲3マス化・使用したマス直下のタイルを砂漠タイルにする&#13;[ICON_BULLET]CAL20～　：上記効力に加え使用したマス直下のタイルを放射能汚染状態にする&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]CAL1～7：周囲1マスの敵対ユニットにCAL*3のダメージを与える　東方ユニットには半減&#13;[ICON_BULLET]CAL8～15：上記効力に加えダメージ範囲が周囲2マス化・使用したマス直下のタイルにある森・氾濫源を取り除き改善を破壊し草原タイルの場合は平原タイルにする&#13;[ICON_BULLET]CAL16～19：上記効力に加えダメージ範囲が周囲3マス化・使用したマス直下のタイルを砂漠タイルにする&#13;[ICON_BULLET]CAL20～　：上記効力に加え使用したマス直下のタイルを放射能汚染状態にする&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
+		<Japanese>[ICON_BULLET]CAL1～7：周囲1マスの敵対ユニットに[003]％のダメージを与える　東方ユニットには半減&#13;[ICON_BULLET]CAL8～15：上記効力に加えダメージ範囲が周囲2マス化・使用したマス直下のタイルにある森・氾濫源を取り除き改善を破壊し草原タイルの場合は平原タイルにする&#13;[ICON_BULLET]CAL16～19：上記効力に加えダメージ範囲が周囲3マス化・使用したマス直下のタイルを砂漠タイルにする&#13;[ICON_BULLET]CAL20～　：上記効力に加え使用したマス直下のタイルを放射能汚染状態にする&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_TOYOHIME_EXTRA1</Tag>
@@ -5185,11 +5185,29 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_SEIRAN1_1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]同スタック内の東方ユニット（自身も含む）に「ルナティックガン」の昇進を与える&#13;[ICON_BULLET]CAL1～7：STG命中率10%向上　射程+1　1ターン経過で消滅&#13;[ICON_BULLET]CAL8～15：STG命中率20%向上　威力30%向上　射程+2　2ターン経過で消滅&#13;[ICON_BULLET]CAL16～：STG命中率30%向上　威力50%向上　弾数+1　射程+3　3ターン経過で消滅&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
+		<French>[ICON_BULLET]同スタック内の東方ユニット（自身も含む）に「ルナティックガン」の昇進を与える&#13;[ICON_BULLET]ルナティックガン(LV1)：STG命中率10%向上　射程+1　1ターン経過で消滅&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]同スタック内の東方ユニット（自身も含む）に「ルナティックガン」の昇進を与える&#13;[ICON_BULLET]CAL1～7：STG命中率10%向上　射程+1　1ターン経過で消滅&#13;[ICON_BULLET]CAL8～15：STG命中率20%向上　威力30%向上　射程+2　2ターン経過で消滅&#13;[ICON_BULLET]CAL16～：STG命中率30%向上　威力50%向上　弾数+1　射程+3　3ターン経過で消滅&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
+		<Japanese>[ICON_BULLET]同スタック内の東方ユニット（自身も含む）に「ルナティックガン」の昇進を与える&#13;[ICON_BULLET]ルナティックガン(LV1)：STG命中率10%向上　射程+1　1ターン経過で消滅&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELLCARD_SEIRAN1_2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]同スタック内の東方ユニット（自身も含む）に「ルナティックガン」の昇進を与える&#13;[ICON_BULLET]ルナティックガン(LV2)：STG命中率20%向上　威力30%向上　射程+2　2ターン経過で消滅&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]同スタック内の東方ユニット（自身も含む）に「ルナティックガン」の昇進を与える&#13;[ICON_BULLET]ルナティックガン(LV2)：STG命中率20%向上　威力30%向上　射程+2　2ターン経過で消滅&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELLCARD_SEIRAN1_3_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]同スタック内の東方ユニット（自身も含む）に「ルナティックガン」の昇進を与える&#13;[ICON_BULLET]ルナティックガン(LV3)：STG命中率30%向上　威力50%向上　弾数+1　射程+3　3ターン経過で消滅&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]同スタック内の東方ユニット（自身も含む）に「ルナティックガン」の昇進を与える&#13;[ICON_BULLET]ルナティックガン(LV3)：STG命中率30%向上　威力50%向上　弾数+1　射程+3　3ターン経過で消滅&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SEIRAN_EXTRA1</Tag>
@@ -5203,11 +5221,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SEIRAN_EXTRA1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]「鷲」をCAL/6体召喚する&#13;[ICON_BULLET]鷲：空軍ユニット　射程5　空爆可能&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.15が必要</French>
+		<French>[ICON_BULLET]「鷲」を[p001]体召喚する&#13;[ICON_BULLET]鷲：空軍ユニット　射程5　空爆可能&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.15が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]「鷲」をCAL/6体召喚する&#13;[ICON_BULLET]鷲：空軍ユニット　射程5　空爆可能&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.15が必要</Japanese>
+		<Japanese>[ICON_BULLET]「鷲」を[p001]体召喚する&#13;[ICON_BULLET]鷲：空軍ユニット　射程5　空爆可能&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.15が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SEIRAN_PHANTASM1</Tag>
@@ -5248,20 +5266,20 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_RINGO1_1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]同スタック内の労働者CAL/3+1体に「ハロウィンフィーバー」の昇進を与える&#13;[ICON_BULLET]ハロウィンフィーバー：この昇進を持つ労働者は特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]ハロウィンフィーバーのスペルをテラフォーミング系地形改善が設置されているタイルで使用すると即座に改善が完了する&#13;[ICON_BULLET]ハロウィンフィーバーの昇進を持つ労働者が本来犠牲になるシチュエーションでテラフォーミングを実行した場合、昇進の除去と引き換えに犠牲を回避出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
+		<French>[ICON_BULLET]同スタック内の労働者[p001]体に「ハロウィンフィーバー」の昇進を与える&#13;[ICON_BULLET]ハロウィンフィーバー：この昇進を持つ労働者は特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]ハロウィンフィーバーのスペルをテラフォーミング系地形改善が設置されているタイルで使用すると即座に改善が完了する&#13;[ICON_BULLET]ハロウィンフィーバーの昇進を持つ労働者が本来犠牲になるシチュエーションでテラフォーミングを実行した場合、昇進の除去と引き換えに犠牲を回避出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]同スタック内の労働者CAL/3+1体に「ハロウィンフィーバー」の昇進を与える&#13;[ICON_BULLET]ハロウィンフィーバー：この昇進を持つ労働者は特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]ハロウィンフィーバーのスペルをテラフォーミング系地形改善が設置されているタイルで使用すると即座に改善が完了する&#13;[ICON_BULLET]ハロウィンフィーバーの昇進を持つ労働者が本来犠牲になるシチュエーションでテラフォーミングを実行した場合、昇進の除去と引き換えに犠牲を回避出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
+		<Japanese>[ICON_BULLET]同スタック内の労働者[p001]体に「ハロウィンフィーバー」の昇進を与える&#13;[ICON_BULLET]ハロウィンフィーバー：この昇進を持つ労働者は特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]ハロウィンフィーバーのスペルをテラフォーミング系地形改善が設置されているタイルで使用すると即座に改善が完了する&#13;[ICON_BULLET]ハロウィンフィーバーの昇進を持つ労働者が本来犠牲になるシチュエーションでテラフォーミングを実行した場合、昇進の除去と引き換えに犠牲を回避出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_RINGO1_2_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]同スタック内の労働者CAL/3+1体に「ダンゴフィーバー」の昇進を与える&#13;[ICON_BULLET]ダンゴフィーバー：この昇進を持つ労働者は特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]ダンゴフィーバーのスペルはテラフォーミング系地形改善を即座に終了させつつ、その他のあらゆる成長系地形改善の成長段階を強制的に1段階成長させる事が出来る&#13;[ICON_BULLET]ダンゴフィーバーの昇進を持つ労働者が本来犠牲になるシチュエーションでテラフォーミングを実行した場合、昇進の除去と引き換えに犠牲を回避出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
+		<French>[ICON_BULLET]同スタック内の労働者[p001]体に「ダンゴフィーバー」の昇進を与える&#13;[ICON_BULLET]ダンゴフィーバー：この昇進を持つ労働者は特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]ダンゴフィーバーのスペルはテラフォーミング系地形改善を即座に終了させつつ、その他のあらゆる成長系地形改善の成長段階を強制的に1段階成長させる事が出来る&#13;[ICON_BULLET]ダンゴフィーバーの昇進を持つ労働者が本来犠牲になるシチュエーションでテラフォーミングを実行した場合、昇進の除去と引き換えに犠牲を回避出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]同スタック内の労働者CAL/3+1体に「ダンゴフィーバー」の昇進を与える&#13;[ICON_BULLET]ダンゴフィーバー：この昇進を持つ労働者は特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]ダンゴフィーバーのスペルはテラフォーミング系地形改善を即座に終了させつつ、その他のあらゆる成長系地形改善の成長段階を強制的に1段階成長させる事が出来る&#13;[ICON_BULLET]ダンゴフィーバーの昇進を持つ労働者が本来犠牲になるシチュエーションでテラフォーミングを実行した場合、昇進の除去と引き換えに犠牲を回避出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
+		<Japanese>[ICON_BULLET]同スタック内の労働者[p001]体に「ダンゴフィーバー」の昇進を与える&#13;[ICON_BULLET]ダンゴフィーバー：この昇進を持つ労働者は特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]ダンゴフィーバーのスペルはテラフォーミング系地形改善を即座に終了させつつ、その他のあらゆる成長系地形改善の成長段階を強制的に1段階成長させる事が出来る&#13;[ICON_BULLET]ダンゴフィーバーの昇進を持つ労働者が本来犠牲になるシチュエーションでテラフォーミングを実行した場合、昇進の除去と引き換えに犠牲を回避出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_RINGO_EXTRA1</Tag>
@@ -5311,11 +5329,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_DOREMY1_1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]「シュブ＝ニグラス」「イスの偉大なる種族」「螺旋の王」を召喚する。召喚数や戦闘力はCAL値に比例&#13;[ICON_BULLET]発動時にこれら3体のユニットが既に存在している場合、既存ユニットの戦闘力再計算を行いつつ新規召喚も行う&#13;[ICON_BULLET]シュブ＝ニグラス：戦闘力は低いが、代わりに敵対ユニット撃破時に「深きものども」を自軍に加える事がある。CAL値が低い場合は召喚されない場合あり&#13;[ICON_BULLET]イスの偉大なる種族：この3体の中では最も戦闘力が高めになるが、他の特色は無い&#13;[ICON_BULLET]螺旋の王：攻城兵器と同様の特性を持つ。CAL値が低い場合は召喚されない場合あり&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
+		<French>[ICON_BULLET]「シュブ＝ニグラス」「イスの偉大なる種族」「螺旋の王」を召喚する。召喚数や戦闘力はCAL値により上昇&#13;[ICON_BULLET]発動時にこれら3体のユニットが既に存在している場合、既存ユニットの戦闘力再計算を行いつつ新規召喚も行う&#13;[ICON_BULLET]シュブ＝ニグラス：召喚数[p010],戦闘力[p001].敵対ユニット撃破時に「深きものども」を自軍に加える事がある。CAL値が低い場合は召喚されない場合あり&#13;[ICON_BULLET]イスの偉大なる種族：召喚数[p020],戦闘力[p002].この3体の中では最も戦闘力が高めになるが、他の特色は無い&#13;[ICON_BULLET]螺旋の王：召喚数[p030],戦闘力[p003].攻城兵器と同様の特性を持つ。CAL値が低い場合は召喚されない場合あり&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]「シュブ＝ニグラス」「イスの偉大なる種族」「螺旋の王」を召喚する。召喚数や戦闘力はCAL値に比例&#13;[ICON_BULLET]発動時にこれら3体のユニットが既に存在している場合、既存ユニットの戦闘力再計算を行いつつ新規召喚も行う&#13;[ICON_BULLET]シュブ＝ニグラス：戦闘力は低いが、代わりに敵対ユニット撃破時に「深きものども」を自軍に加える事がある。CAL値が低い場合は召喚されない場合あり&#13;[ICON_BULLET]イスの偉大なる種族：この3体の中では最も戦闘力が高めになるが、他の特色は無い&#13;[ICON_BULLET]螺旋の王：攻城兵器と同様の特性を持つ。CAL値が低い場合は召喚されない場合あり&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
+		<Japanese>[ICON_BULLET]「シュブ＝ニグラス」「イスの偉大なる種族」「螺旋の王」を召喚する。召喚数や戦闘力はCAL値により上昇&#13;[ICON_BULLET]発動時にこれら3体のユニットが既に存在している場合、既存ユニットの戦闘力再計算を行いつつ新規召喚も行う&#13;[ICON_BULLET]シュブ＝ニグラス：召喚数[p010],戦闘力[p001].敵対ユニット撃破時に「深きものども」を自軍に加える事がある。CAL値が低い場合は召喚されない場合あり&#13;[ICON_BULLET]イスの偉大なる種族：召喚数[p020],戦闘力[p002].この3体の中では最も戦闘力が高めになるが、他の特色は無い&#13;[ICON_BULLET]螺旋の王：召喚数[p030],戦闘力[p003].攻城兵器と同様の特性を持つ。CAL値が低い場合は召喚されない場合あり&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_DOREMY_EXTRA1</Tag>
@@ -5374,20 +5392,20 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_SAGUME1_1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]「穢身探知型機雷」をCALに比例した数で召喚する&#13;[ICON_BULLET]穢身探知型機雷：不可視の副次損害系ユニット　大スパイのように都市潜入ミッションを行う事が出来る&#13;[ICON_BULLET]穢身探知型機雷の戦闘力は低く、戦闘を行った場合勝率に関係無く確実に全滅する&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
+		<French>[ICON_BULLET]「穢身探知型機雷」を[s01]体召喚する&#13;[ICON_BULLET]穢身探知型機雷：不可視の副次損害系ユニット　大スパイのように都市潜入ミッションを行う事が出来る&#13;[ICON_BULLET]穢身探知型機雷の戦闘力は低く、戦闘を行った場合勝率に関係無く確実に全滅する&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]「穢身探知型機雷」をCALに比例した数で召喚する&#13;[ICON_BULLET]穢身探知型機雷：不可視の副次損害系ユニット　大スパイのように都市潜入ミッションを行う事が出来る&#13;[ICON_BULLET]穢身探知型機雷の戦闘力は低く、戦闘を行った場合勝率に関係無く確実に全滅する&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
+		<Japanese>[ICON_BULLET]「穢身探知型機雷」を[s01]体召喚する&#13;[ICON_BULLET]穢身探知型機雷：不可視の副次損害系ユニット　大スパイのように都市潜入ミッションを行う事が出来る&#13;[ICON_BULLET]穢身探知型機雷の戦闘力は低く、戦闘を行った場合勝率に関係無く確実に全滅する&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_SAGUME1_2_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]「穢身探知型機雷 改」をCALに比例した数で召喚する&#13;[ICON_BULLET]穢身探知型機雷 改：不可視の副次損害系ユニット　大スパイのように都市潜入ミッションを行う事が出来る&#13;[ICON_BULLET]穢身探知型機雷の戦闘力は低く、戦闘を行った場合勝率に関係無く確実に全滅する&#13;[ICON_BULLET]CAL15～20：「改善破壊工作」「回復支援工作」の特殊スペルを使用可能&#13;[ICON_BULLET]CAL21～：改善破壊工作の代わりに「改善破壊工作 改」を使用可能になり、更に「神経毒散布工作」の特殊スペルも使用可能になる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
+		<French>[ICON_BULLET]「穢身探知型機雷 改」を[s01]体召喚する&#13;[ICON_BULLET]穢身探知型機雷 改：不可視の副次損害系ユニット　大スパイのように都市潜入ミッションを行う事が出来る&#13;[ICON_BULLET]穢身探知型機雷の戦闘力は低く、戦闘を行った場合勝率に関係無く確実に全滅する&#13;[ICON_BULLET]CAL15～20：「改善破壊工作」「回復支援工作」の特殊スペルを使用可能&#13;[ICON_BULLET]CAL21～：改善破壊工作の代わりに「改善破壊工作 改」を使用可能になり、更に「神経毒散布工作」の特殊スペルも使用可能になる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]「穢身探知型機雷 改」をCALに比例した数で召喚する&#13;[ICON_BULLET]穢身探知型機雷 改：不可視の副次損害系ユニット　大スパイのように都市潜入ミッションを行う事が出来る&#13;[ICON_BULLET]穢身探知型機雷の戦闘力は低く、戦闘を行った場合勝率に関係無く確実に全滅する&#13;[ICON_BULLET]CAL15～20：「改善破壊工作」「回復支援工作」の特殊スペルを使用可能&#13;[ICON_BULLET]CAL21～：改善破壊工作の代わりに「改善破壊工作 改」を使用可能になり、更に「神経毒散布工作」の特殊スペルも使用可能になる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
+		<Japanese>[ICON_BULLET]「穢身探知型機雷 改」を[s01]体召喚する&#13;[ICON_BULLET]穢身探知型機雷 改：不可視の副次損害系ユニット　大スパイのように都市潜入ミッションを行う事が出来る&#13;[ICON_BULLET]穢身探知型機雷の戦闘力は低く、戦闘を行った場合勝率に関係無く確実に全滅する&#13;[ICON_BULLET]CAL15～20：「改善破壊工作」「回復支援工作」の特殊スペルを使用可能&#13;[ICON_BULLET]CAL21～：改善破壊工作の代わりに「改善破壊工作 改」を使用可能になり、更に「神経毒散布工作」の特殊スペルも使用可能になる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SAGUME_EXTRA1</Tag>
@@ -5401,11 +5419,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SAGUME_EXTRA1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]同スタック内にいる自文明のスパイユニットに「自爆」の昇進を与える&#13;[ICON_BULLET]CAL1～8：同タイルのスパイユニット最大1人に自爆を付与&#13;[ICON_BULLET]CAL9～15：更に最大2人のスパイユニットに自爆を付与&#13;[ICON_BULLET]CAL16～：更に最大3人のスパイユニットに自爆を付与&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.15が必要</French>
+		<French>[ICON_BULLET]同スタック内にいる自文明のスパイユニット最大[p001]体に「自爆」の昇進を与える&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.15が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]同スタック内にいる自文明のスパイユニットに「自爆」の昇進を与える&#13;[ICON_BULLET]CAL1～8：同タイルのスパイユニット最大1人に自爆を付与&#13;[ICON_BULLET]CAL9～15：更に最大2人のスパイユニットに自爆を付与&#13;[ICON_BULLET]CAL16～：更に最大3人のスパイユニットに自爆を付与&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.15が必要</Japanese>
+		<Japanese>[ICON_BULLET]同スタック内にいる自文明のスパイユニット最大[p001]体に「自爆」の昇進を与える&#13;[ICON_BULLET]昇進EXTRAが必要&#13;[ICON_BULLET]Power0.15が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SAGUME_PHANTASM1</Tag>

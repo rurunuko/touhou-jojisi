@@ -3083,8 +3083,8 @@
     </AutomateInfo>
     <AutomateInfo>
       <Type>SPELLCARD_SHINMYOUMARU1_2</Type>
-      <Description>TXT_KEY_SPELLCARD_SHINMYOUMARU1_2</Description>
-      <Help>TXT_KEY_SPELLCARD_SHINMYOUMARU1_1_HELP</Help>
+      <Description>TXT_KEY_SPELLCARD_SHINMYOUMARU1_1</Description>
+      <Help>TXT_KEY_SPELLCARD_SHINMYOUMARU1_2_HELP</Help>
       <HotKey />
       <bAltDown>0</bAltDown>
       <bShiftDown>0</bShiftDown>
@@ -3097,6 +3097,25 @@
       <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
       <Command>COMMAND_AUTOMATE</Command>
       <Automate>AUTOMATE_SPELLCARD_SHINMYOUMARU1_2</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELLCARD_SHINMYOUMARU1_3</Type>
+      <Description>TXT_KEY_SPELLCARD_SHINMYOUMARU1_2</Description>
+      <Help>TXT_KEY_SPELLCARD_SHINMYOUMARU1_3_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELLCARD_SHINMYOUMARU1_3</Automate>
       <bVisible>1</bVisible>
       <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
     </AutomateInfo>
@@ -3211,6 +3230,44 @@
       <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
       <Command>COMMAND_AUTOMATE</Command>
       <Automate>AUTOMATE_SPELLCARD_SEIRAN1_1</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELLCARD_SEIRAN1_2</Type>
+      <Description>TXT_KEY_SPELLCARD_SEIRAN1_1</Description>
+      <Help>TXT_KEY_SPELLCARD_SEIRAN1_2_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELLCARD_SEIRAN1_2</Automate>
+      <bVisible>1</bVisible>
+      <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
+    </AutomateInfo>
+    <AutomateInfo>
+      <Type>SPELLCARD_SEIRAN1_3</Type>
+      <Description>TXT_KEY_SPELLCARD_SEIRAN1_1</Description>
+      <Help>TXT_KEY_SPELLCARD_SEIRAN1_3_HELP</Help>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <HotKeyAlt />
+      <bAltDownAlt>0</bAltDownAlt>
+      <bShiftDownAlt>0</bShiftDownAlt>
+      <bCtrlDownAlt>0</bCtrlDownAlt>
+      <iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+      <Command>COMMAND_AUTOMATE</Command>
+      <Automate>AUTOMATE_SPELLCARD_SEIRAN1_3</Automate>
       <bVisible>1</bVisible>
       <Button>Art/Interface/Buttons/Spells/Use_Spell_Card.dds</Button>
     </AutomateInfo>
