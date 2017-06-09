@@ -4751,11 +4751,29 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_SHINMYOUMARU1_1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]特殊地形改善「小人たちの借り暮らし」を設置する&#13;[ICON_BULLET]「小人たちの借り暮らし」は都市タイル・水タイル以外の全ての場所に張ることができて、官吏取得以降に灌漑を通す&#13;[ICON_BULLET]術者のCALが高いほど地形改善の出力も向上する&#13;[ICON_BULLET]CAレベルが1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
+		<French>[ICON_BULLET]特殊地形改善「小人たちの借り暮らし」を設置する&#13;[ICON_BULLET]「小人たちの借り暮らし」は都市タイル・水タイル以外の全ての場所に張ることができて、官吏取得以降に灌漑を通す&#13;[ICON_BULLET]小人たちの借り暮らし…[ICON_FOOD]+0,[ICON_PRODUCTION]+1,[ICON_COMMERCE]+2&#13;[ICON_BULLET]同時に、タイルの出力そのものを[ICON_FOOD]+[p001],[ICON_PRODUCTION]+[p002],[ICON_COMMERCE]+[p003]強化する&#13;[ICON_BULLET]CAレベルが1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]特殊地形改善「小人たちの借り暮らし」を設置する&#13;[ICON_BULLET]「小人たちの借り暮らし」は都市タイル・水タイル以外の全ての場所に張ることができて、官吏取得以降に灌漑を通す&#13;[ICON_BULLET]術者のCALが高いほど地形改善の出力も向上する&#13;[ICON_BULLET]CAレベルが1上昇&#13;[ICON_BULLET]Power1.00が必要&#13;[ICON_BULLET]かもかも:[p001]</Japanese>
+		<Japanese>[ICON_BULLET]特殊地形改善「小人たちの借り暮らし」を設置する&#13;[ICON_BULLET]「小人たちの借り暮らし」は都市タイル・水タイル以外の全ての場所に張ることができて、官吏取得以降に灌漑を通す&#13;[ICON_BULLET]小人たちの借り暮らし…[ICON_FOOD]+0,[ICON_PRODUCTION]+1,[ICON_COMMERCE]+2&#13;[ICON_BULLET]同時に、タイルの出力そのものを[ICON_FOOD]+[p001],[ICON_PRODUCTION]+[p002],[ICON_COMMERCE]+[p003]強化する&#13;[ICON_BULLET]CAレベルが1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELLCARD_SHINMYOUMARU1_2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]特殊地形改善「小人たちの借り暮らし」を設置する&#13;[ICON_BULLET]「小人たちの借り暮らし」は都市タイル・水タイル以外の全ての場所に張ることができて、官吏取得以降に灌漑を通す&#13;[ICON_BULLET]小人たちの借り暮らし…[ICON_FOOD]+1,[ICON_PRODUCTION]+2,[ICON_COMMERCE]+4&#13;[ICON_BULLET]同時に、タイルの出力そのものを[ICON_FOOD]+[p001],[ICON_PRODUCTION]+[p002],[ICON_COMMERCE]+[p003]強化する&#13;[ICON_BULLET]CAレベルが1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]特殊地形改善「小人たちの借り暮らし」を設置する&#13;[ICON_BULLET]「小人たちの借り暮らし」は都市タイル・水タイル以外の全ての場所に張ることができて、官吏取得以降に灌漑を通す&#13;[ICON_BULLET]小人たちの借り暮らし…[ICON_FOOD]+1,[ICON_PRODUCTION]+2,[ICON_COMMERCE]+4&#13;[ICON_BULLET]同時に、タイルの出力そのものを[ICON_FOOD]+[p001],[ICON_PRODUCTION]+[p002],[ICON_COMMERCE]+[p003]強化する&#13;[ICON_BULLET]CAレベルが1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELLCARD_SHINMYOUMARU1_3_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]特殊地形改善「小人たちの借り暮らし」を設置する&#13;[ICON_BULLET]「小人たちの借り暮らし」は都市タイル・水タイル以外の全ての場所に張ることができて、官吏取得以降に灌漑を通す&#13;[ICON_BULLET]小人たちの借り暮らし…[ICON_FOOD]+1,[ICON_PRODUCTION]+2,[ICON_COMMERCE]+6&#13;[ICON_BULLET]同時に、タイルの出力そのものを[ICON_FOOD]+[p001],[ICON_PRODUCTION]+[p002],[ICON_COMMERCE]+[p003]強化する&#13;[ICON_BULLET]CAレベルが1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]特殊地形改善「小人たちの借り暮らし」を設置する&#13;[ICON_BULLET]「小人たちの借り暮らし」は都市タイル・水タイル以外の全ての場所に張ることができて、官吏取得以降に灌漑を通す&#13;[ICON_BULLET]小人たちの借り暮らし…[ICON_FOOD]+1,[ICON_PRODUCTION]+2,[ICON_COMMERCE]+6&#13;[ICON_BULLET]同時に、タイルの出力そのものを[ICON_FOOD]+[p001],[ICON_PRODUCTION]+[p002],[ICON_COMMERCE]+[p003]強化する&#13;[ICON_BULLET]CAレベルが1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SHINMYOUMARU_EXTRA1</Tag>
@@ -4897,11 +4915,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_YORIHIME1_1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]敵対中の全ユニットにCAL*2～CAL*5のダメージ（東方ユニットには効果半減）&#13;[ICON_BULLET]敵対中の文明にある全ての都市の文化防御を吹き飛ばす&#13;[ICON_BULLET]自文明のユニット全員を完全に回復させる&#13;[ICON_BULLET]この際特定のユニットはCALに関係無く無条件で即死する&#13;[ICON_BULLET]発動には事前に降神『天宇受賣命』を使用しておく必要がある&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power3.00が必要</French>
+		<French>[ICON_BULLET]敵対中の全ユニットに[p001]％～[p002]％のダメージ（東方ユニットには効果半減）&#13;[ICON_BULLET]敵対中の文明にある全ての都市の文化防御を吹き飛ばす&#13;[ICON_BULLET]自文明のユニット全員を完全に回復させる&#13;[ICON_BULLET]この際特定のユニットはCALに関係無く無条件で即死する&#13;[ICON_BULLET]発動には事前に降神『天宇受賣命』を使用しておく必要がある&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power3.00が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]敵対中の全ユニットにCAL*2～CAL*5のダメージ（東方ユニットには効果半減）&#13;[ICON_BULLET]敵対中の文明にある全ての都市の文化防御を吹き飛ばす&#13;[ICON_BULLET]自文明のユニット全員を完全に回復させる&#13;[ICON_BULLET]この際特定のユニットはCALに関係無く無条件で即死する&#13;[ICON_BULLET]発動には事前に降神『天宇受賣命』を使用しておく必要がある&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power3.00が必要</Japanese>
+		<Japanese>[ICON_BULLET]敵対中の全ユニットに[p001]％～[p002]％のダメージ（東方ユニットには効果半減）&#13;[ICON_BULLET]敵対中の文明にある全ての都市の文化防御を吹き飛ばす&#13;[ICON_BULLET]自文明のユニット全員を完全に回復させる&#13;[ICON_BULLET]この際特定のユニットはCALに関係無く無条件で即死する&#13;[ICON_BULLET]発動には事前に降神『天宇受賣命』を使用しておく必要がある&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power3.00が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_YORIHIME2_1</Tag>
@@ -4915,11 +4933,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_YORIHIME2_1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]周囲3マスに居る敵対ユニットにダメージを与える&#13;[ICON_BULLET]東方ユニットには効果半減&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
+		<French>[ICON_BULLET]周囲3マスに居る敵対ユニットに[p001]％～[p002]％のダメージを与える&#13;[ICON_BULLET]東方ユニットには効果半減&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]周囲3マスに居る敵対ユニットにダメージを与える&#13;[ICON_BULLET]東方ユニットには効果半減&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
+		<Japanese>[ICON_BULLET]周囲3マスに居る敵対ユニットに[p001]％～[p002]％のダメージを与える&#13;[ICON_BULLET]東方ユニットには効果半減&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_YORIHIME3_1</Tag>
@@ -5023,11 +5041,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_YORIHIME_PHANTASM1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]周囲1マスにいる敵対ユニットにCAL*2の確率で「魅了」を与える&#13;[ICON_BULLET]東方ユニットには無効&#13;[ICON_BULLET]降神『天照大神』を使用可能になる&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.50が必要</French>
+		<French>[ICON_BULLET]周囲1マスにいる敵対ユニットに[p001]％の確率で「魅了」を与える&#13;[ICON_BULLET]東方ユニットには無効&#13;[ICON_BULLET]降神『天照大神』を使用可能になる&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.50が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]周囲1マスにいる敵対ユニットにCAL*2の確率で「魅了」を与える&#13;[ICON_BULLET]東方ユニットには無効&#13;[ICON_BULLET]降神『天照大神』を使用可能になる&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.50が必要</Japanese>
+		<Japanese>[ICON_BULLET]周囲1マスにいる敵対ユニットに[p001]％の確率で「魅了」を与える&#13;[ICON_BULLET]東方ユニットには無効&#13;[ICON_BULLET]降神『天照大神』を使用可能になる&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.50が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_YORIHIME_PHANTASM2</Tag>
@@ -5230,20 +5248,20 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_RINGO1_1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]同スタック内の労働者CAL/6+1体に「ハロウィンフィーバー」の昇進を与える&#13;[ICON_BULLET]ハロウィンフィーバー：この昇進を持つ労働者は特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]ハロウィンフィーバーのスペルをテラフォーミング系地形改善が設置されているタイルで使用すると即座に改善が完了する&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
+		<French>[ICON_BULLET]同スタック内の労働者CAL/3+1体に「ハロウィンフィーバー」の昇進を与える&#13;[ICON_BULLET]ハロウィンフィーバー：この昇進を持つ労働者は特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]ハロウィンフィーバーのスペルをテラフォーミング系地形改善が設置されているタイルで使用すると即座に改善が完了する&#13;[ICON_BULLET]ハロウィンフィーバーの昇進を持つ労働者が本来犠牲になるシチュエーションでテラフォーミングを実行した場合、昇進の除去と引き換えに犠牲を回避出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]同スタック内の労働者CAL/6+1体に「ハロウィンフィーバー」の昇進を与える&#13;[ICON_BULLET]ハロウィンフィーバー：この昇進を持つ労働者は特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]ハロウィンフィーバーのスペルをテラフォーミング系地形改善が設置されているタイルで使用すると即座に改善が完了する&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
+		<Japanese>[ICON_BULLET]同スタック内の労働者CAL/3+1体に「ハロウィンフィーバー」の昇進を与える&#13;[ICON_BULLET]ハロウィンフィーバー：この昇進を持つ労働者は特殊スペル「ハロウィンフィーバー」を使用可能になる&#13;[ICON_BULLET]ハロウィンフィーバーのスペルをテラフォーミング系地形改善が設置されているタイルで使用すると即座に改善が完了する&#13;[ICON_BULLET]ハロウィンフィーバーの昇進を持つ労働者が本来犠牲になるシチュエーションでテラフォーミングを実行した場合、昇進の除去と引き換えに犠牲を回避出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_RINGO1_2_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]同スタック内の労働者CAL/6+1体に「ダンゴフィーバー」の昇進を与える&#13;[ICON_BULLET]ダンゴフィーバー：この昇進を持つ労働者は特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]ダンゴフィーバーのスペルはテラフォーミング系地形改善を即座に終了させつつ、その他のあらゆる成長系地形改善の成長段階を強制的に1段階成長させる事が出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
+		<French>[ICON_BULLET]同スタック内の労働者CAL/3+1体に「ダンゴフィーバー」の昇進を与える&#13;[ICON_BULLET]ダンゴフィーバー：この昇進を持つ労働者は特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]ダンゴフィーバーのスペルはテラフォーミング系地形改善を即座に終了させつつ、その他のあらゆる成長系地形改善の成長段階を強制的に1段階成長させる事が出来る&#13;[ICON_BULLET]ダンゴフィーバーの昇進を持つ労働者が本来犠牲になるシチュエーションでテラフォーミングを実行した場合、昇進の除去と引き換えに犠牲を回避出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]同スタック内の労働者CAL/6+1体に「ダンゴフィーバー」の昇進を与える&#13;[ICON_BULLET]ダンゴフィーバー：この昇進を持つ労働者は特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]ダンゴフィーバーのスペルはテラフォーミング系地形改善を即座に終了させつつ、その他のあらゆる成長系地形改善の成長段階を強制的に1段階成長させる事が出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
+		<Japanese>[ICON_BULLET]同スタック内の労働者CAL/3+1体に「ダンゴフィーバー」の昇進を与える&#13;[ICON_BULLET]ダンゴフィーバー：この昇進を持つ労働者は特殊スペル「ダンゴフィーバー」を使用可能になる&#13;[ICON_BULLET]ダンゴフィーバーのスペルはテラフォーミング系地形改善を即座に終了させつつ、その他のあらゆる成長系地形改善の成長段階を強制的に1段階成長させる事が出来る&#13;[ICON_BULLET]ダンゴフィーバーの昇進を持つ労働者が本来犠牲になるシチュエーションでテラフォーミングを実行した場合、昇進の除去と引き換えに犠牲を回避出来る&#13;[ICON_BULLET]使用後この昇進は取り除かれる&#13;[ICON_BULLET]CAレベル1上昇&#13;[ICON_BULLET]Power1.00が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_RINGO_EXTRA1</Tag>
@@ -5329,11 +5347,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_DOREMY_PHANTASM1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]都市に「ダゴン秘密教団月面支部」を建設する&#13;[ICON_BULLET]都市から移動すると消滅&#13;[ICON_BULLET]ダゴン秘密教団月面支部：[ICON_UNHEALTH]+5　その都市での[ICON_UNHAPPY]なし&#13;[ICON_BULLET]昇進PHANTASMが必要</French>
+		<French>[ICON_BULLET]都市に「ダゴン秘密教団月面支部」を建設する&#13;[ICON_BULLET]都市から移動すると消滅&#13;[ICON_BULLET]ダゴン秘密教団月面支部：[ICON_UNHEALTHY]+5　その都市での[ICON_UNHAPPY]なし&#13;[ICON_BULLET]昇進PHANTASMが必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]都市に「ダゴン秘密教団月面支部」を建設する&#13;[ICON_BULLET]都市から移動すると消滅&#13;[ICON_BULLET]ダゴン秘密教団月面支部：[ICON_UNHEALTH]+5　その都市での[ICON_UNHAPPY]なし&#13;[ICON_BULLET]昇進PHANTASMが必要</Japanese>
+		<Japanese>[ICON_BULLET]都市に「ダゴン秘密教団月面支部」を建設する&#13;[ICON_BULLET]都市から移動すると消滅&#13;[ICON_BULLET]ダゴン秘密教団月面支部：[ICON_UNHEALTHY]+5　その都市での[ICON_UNHAPPY]なし&#13;[ICON_BULLET]昇進PHANTASMが必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_SAGUME1_1</Tag>
@@ -5565,11 +5583,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_TERRAFORM_PLAIN_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]現在立っているタイルを「テラフォーミング中（平原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]都市タイル、文化圏外、海洋、砂漠、ツンドラ、氷土では現時点において使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「アポロ計画陰謀論」取得後は犠牲無し）[COLOR_REVERT]</French>
+		<French>[ICON_BULLET]現在立っているタイルを「テラフォーミング中（平原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「アポロ計画陰謀論」取得後…ツンドラタイルでの実行が可能になる&#13;[ICON_BULLET]都市タイル、文化圏外、海洋、砂漠、氷土では現時点において使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「月の都遷都計画」取得後は犠牲無し）[COLOR_REVERT]</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]現在立っているタイルを「テラフォーミング中（平原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]都市タイル、文化圏外、海洋、砂漠、ツンドラ、氷土では現時点において使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「アポロ計画陰謀論」取得後は犠牲無し）[COLOR_REVERT]</Japanese>
+		<Japanese>[ICON_BULLET]現在立っているタイルを「テラフォーミング中（平原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「アポロ計画陰謀論」取得後…ツンドラタイルでの実行が可能になる&#13;[ICON_BULLET]都市タイル、文化圏外、海洋、砂漠、氷土では現時点において使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「月の都遷都計画」取得後は犠牲無し）[COLOR_REVERT]</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_TERRAFORM_PLAIN_NO_SACRIFICE</Tag>
@@ -5583,11 +5601,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_TERRAFORM_PLAIN_NO_SACRIFICE_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]現在立っているタイルを「テラフォーミング中（平原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「アポロ計画陰謀論」取得後…労働者の犠牲が無くなる、砂漠タイルでの実行が可能になる（[COLOR_RED]ただしオアシスタイルではユニットの犠牲が残り、氾濫源タイルはまだ不可[COLOR_REVERT]）&#13;[ICON_BULLET]「月の都遷都計画」取得後…ツンドラ・氷土タイルでも使用可能になる&#13;[ICON_BULLET]「綿月の神酒」取得後…氾濫源タイルでも使用可能になる（[COLOR_RED]ただし労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</French>
+		<French>[ICON_BULLET]現在立っているタイルを「テラフォーミング中（平原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「月の都遷都計画」取得後…労働者の犠牲が無くなる、砂漠・氷土タイルでの実行が可能になる（[COLOR_RED]ただしオアシスタイルではユニットの犠牲が残り、氾濫源タイルはまだ不可[COLOR_REVERT]）&#13;[ICON_BULLET]「綿月の神酒」取得後…氾濫源タイルでも使用可能になる（[COLOR_RED]ただし労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]現在立っているタイルを「テラフォーミング中（平原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「アポロ計画陰謀論」取得後…労働者の犠牲が無くなる、砂漠タイルでの実行が可能になる（[COLOR_RED]ただしオアシスタイルではユニットの犠牲が残り、氾濫源タイルはまだ不可[COLOR_REVERT]）&#13;[ICON_BULLET]「月の都遷都計画」取得後…ツンドラ・氷土タイルでも使用可能になる&#13;[ICON_BULLET]「綿月の神酒」取得後…氾濫源タイルでも使用可能になる（[COLOR_RED]ただし労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</Japanese>
+		<Japanese>[ICON_BULLET]現在立っているタイルを「テラフォーミング中（平原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「月の都遷都計画」取得後…労働者の犠牲が無くなる、砂漠・氷土タイルでの実行が可能になる（[COLOR_RED]ただしオアシスタイルではユニットの犠牲が残り、氾濫源タイルはまだ不可[COLOR_REVERT]）&#13;[ICON_BULLET]「綿月の神酒」取得後…氾濫源タイルでも使用可能になる（[COLOR_RED]ただし労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_TERRAFORM_GRASS</Tag>
@@ -5601,11 +5619,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_TERRAFORM_GRASS_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]現在立っている平原タイルを「テラフォーミング中（草原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]文化圏外では使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「アポロ計画陰謀論」取得後は犠牲無し）[COLOR_REVERT]</French>
+		<French>[ICON_BULLET]現在立っている平原タイルを「テラフォーミング中（草原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]文化圏外では使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「月の都遷都計画」取得後は犠牲無し）[COLOR_REVERT]</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]現在立っている平原タイルを「テラフォーミング中（草原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]文化圏外では使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「アポロ計画陰謀論」取得後は犠牲無し）[COLOR_REVERT]</Japanese>
+		<Japanese>[ICON_BULLET]現在立っている平原タイルを「テラフォーミング中（草原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]文化圏外では使用不可能&#13;[COLOR_RED]このコマンドを実行した労働者は犠牲になる（「月の都遷都計画」取得後は犠牲無し）[COLOR_REVERT]</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_TERRAFORM_GRASS_NO_SACRIFICE</Tag>
@@ -5619,11 +5637,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_TERRAFORM_GRASS_NO_SACRIFICE_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]現在立っている平原タイルを「テラフォーミング中（草原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「アポロ計画陰謀論」取得後…労働者の犠牲が無くなる、平原・オアシスタイルの草原化が可能になる（[COLOR_RED]オアシスタイルの場合は労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「綿月の神酒」取得後…平原・氾濫源タイルでも使用可能になる（[COLOR_RED]ただし労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</French>
+		<French>[ICON_BULLET]現在立っている平原タイルを「テラフォーミング中（草原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「月の都遷都計画」取得後…労働者の犠牲が無くなる、平原・オアシスタイルの草原化が可能になる（[COLOR_RED]オアシスタイルの場合は労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「綿月の神酒」取得後…平原・氾濫源タイルでも使用可能になる（[COLOR_RED]ただし労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]現在立っている平原タイルを「テラフォーミング中（草原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「アポロ計画陰謀論」取得後…労働者の犠牲が無くなる、平原・オアシスタイルの草原化が可能になる（[COLOR_RED]オアシスタイルの場合は労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「綿月の神酒」取得後…平原・氾濫源タイルでも使用可能になる（[COLOR_RED]ただし労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</Japanese>
+		<Japanese>[ICON_BULLET]現在立っている平原タイルを「テラフォーミング中（草原化）」状態にする&#13;[ICON_BULLET]テラフォーミング中状態は都市の維持によりテラフォーミング完了状態に移行する&#13;[ICON_BULLET]「月の都遷都計画」取得後…労働者の犠牲が無くなる、平原・オアシスタイルの草原化が可能になる（[COLOR_RED]オアシスタイルの場合は労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「綿月の神酒」取得後…平原・氾濫源タイルでも使用可能になる（[COLOR_RED]ただし労働者は犠牲になる[COLOR_REVERT]）&#13;[ICON_BULLET]「切り札はいつだって悪手」取得後…テラフォーミング中状態を経由せずに即時完了するようになる</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_TERRAFORM_HILL</Tag>
