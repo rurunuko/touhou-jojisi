@@ -709,9 +709,11 @@ class CvPediaTohoUnit:
 			if Spell[0] <= self.CAL and self.CAL <= Spell[1]:
 				szText = szText + "\n\n<color=254,140,50,254>" + localText.getText( "TXT_KEY_SPELLCARD_" + Spell[2], ()) + "</color>\n"
 				tempText = "TXT_KEY_SPELLCARD_" + Spell[3] + "_HELP"
-				szText = szText + localText.getText(tempText, ())
 				spellName = "SPELLCARD_" + Spell[3]
-		szText = self.TextToInt(szText[2:], spellName)
+				szHelpText = self.TextToInt(localText.getText(tempText, ()), spellName)
+				szText = szText + szHelpText
+
+		szText = szText[2:]
 		screen.addMultilineText(self.SpellPanel[1], szText , self.X_SPELL_CARD+5, self.Y_SPELL_CARD+30, self.W_SPELL_CARD-10, self.H_SPELL_CARD-35, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)	
 
 		
@@ -722,9 +724,11 @@ class CvPediaTohoUnit:
 		
 			szText = szText + "\n\n<color=255,140,50,255>" + localText.getText(Spell, ()) + "</color>\n"
 			tempText = Spell + "_HELP"
-			szText = szText + localText.getText(tempText, ())
-		szText = self.TextToInt(szText[2:], Spell)
-			
+			spellName = Spell.replace("TXT_KEY_", "")
+			szHelpText = self.TextToInt(localText.getText(tempText, ()), spellName)
+			szText = szText + szHelpText
+
+		szText = szText[2:]
 		screen.addMultilineText(self.SpellPanel[3], szText , self.X_SPELL_EXTRA+5, self.Y_SPELL_EXTRA+30, self.W_SPELL_EXTRA-10, self.H_SPELL_EXTRA-35, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)	
 
 		
@@ -735,9 +739,11 @@ class CvPediaTohoUnit:
 		
 			szText = szText + "\n\n<color=255,140,50,255>" + localText.getText(Spell, ()) + "</color>\n"
 			tempText = Spell + "_HELP"
-			szText = szText + localText.getText(tempText, ())
-		szText = self.TextToInt(szText[2:], Spell)
-			
+			spellName = Spell.replace("TXT_KEY_", "")
+			szHelpText = self.TextToInt(localText.getText(tempText, ()), spellName)
+			szText = szText + szHelpText
+
+		szText = szText[2:]
 		screen.addMultilineText(self.SpellPanel[5], szText , self.X_SPELL_PHANTASM+5, self.Y_SPELL_PHANTASM+30, self.W_SPELL_PHANTASM-10, self.H_SPELL_PHANTASM-35, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)	
 
 		
@@ -765,7 +771,7 @@ class CvPediaTohoUnit:
 				return "[%d]" % i
 
 		#–{‘Ì
-		match = re.compile(r"\[.{3,10}\]")
+		match = re.compile(r"\[[a-zA-Z0-9]{3,10}\]")
 		szText = match.sub(ctoi, szText)
 		return szText
 	

@@ -262,11 +262,12 @@ def init_force():
 	SpellInfo("SPELLCARD_BENBEN1_1",req_BENBEN1,spellcard_BENBEN1,spellcard_BENBEN1_Estimate,None,1.0,1,255),
 	SpellInfo("SPELLCARD_SEIJA1_1",req_SEIJA1,spellcard_SEIJA1,spellcard_SEIJA1_Estimate,None,1.0,1,11),
 	SpellInfo("SPELLCARD_SEIJA1_2",req_SEIJA1,spellcard_SEIJA1,spellcard_SEIJA1_Estimate,None,1.0,12,255),
-	SpellInfo("SPELLCARD_SHINMYOUMARU1_1",req_SHINMYOUMARU1,spellcard_SHINMYOUMARU1,spellcard_SHINMYOUMARU1_Estimate,help_SHINMYOUMARU1,1.0,1,15),
-	SpellInfo("SPELLCARD_SHINMYOUMARU1_2",req_SHINMYOUMARU1,spellcard_SHINMYOUMARU1,spellcard_SHINMYOUMARU1_Estimate,help_SHINMYOUMARU1,1.0,16,255),
+	SpellInfo("SPELLCARD_SHINMYOUMARU1_1",req_SHINMYOUMARU1,spellcard_SHINMYOUMARU1,spellcard_SHINMYOUMARU1_Estimate,help_SHINMYOUMARU1,1.0,1,7),
+	SpellInfo("SPELLCARD_SHINMYOUMARU1_2",req_SHINMYOUMARU1,spellcard_SHINMYOUMARU1,spellcard_SHINMYOUMARU1_Estimate,help_SHINMYOUMARU1,1.0,8,15),
+	SpellInfo("SPELLCARD_SHINMYOUMARU1_3",req_SHINMYOUMARU1,spellcard_SHINMYOUMARU1,spellcard_SHINMYOUMARU1_Estimate,help_SHINMYOUMARU1,1.0,16,255),
 	SpellInfo("SPELLCARD_RAIKO1_1",req_RAIKO1,spellcard_RAIKO1,spellcard_RAIKO1_Estimate,None,1.0,1,255),
-	SpellInfo("SPELLCARD_YORIHIME1_1",req_YORIHIME1,spellcard_YORIHIME1,spellcard_YORIHIME1_Estimate,3.0,1,255),
-	SpellInfo("SPELLCARD_YORIHIME2_1",req_YORIHIME2,spellcard_YORIHIME2,spellcard_YORIHIME2_Estimate,None,1.0,1,255),
+	SpellInfo("SPELLCARD_YORIHIME1_1",req_YORIHIME1,spellcard_YORIHIME1,spellcard_YORIHIME1_Estimate,help_YORIHIME1,3.0,1,255),
+	SpellInfo("SPELLCARD_YORIHIME2_1",req_YORIHIME2,spellcard_YORIHIME2,spellcard_YORIHIME2_Estimate,help_YORIHIME2,1.0,1,255),
 	SpellInfo("SPELLCARD_YORIHIME3_1",req_YORIHIME3,spellcard_YORIHIME3,spellcard_YORIHIME3_Estimate,None,1.0,1,255),
 	SpellInfo("SPELLCARD_TOYOHIME1_1",req_TOYOHIME1,spellcard_TOYOHIME1,spellcard_TOYOHIME1_Estimate,None,1.0,1,255),
 	SpellInfo("SPELLCARD_SEIRAN1_1",req_SEIRAN1,spellcard_SEIRAN1,spellcard_SEIRAN1_Estimate,None,1.0,1,255),
@@ -420,7 +421,7 @@ def init_force():
 	SpellInfo("SPELL_YORIHIME_EXTRA1",req_YORIHIME_EXTRA1,spell_YORIHIME_EXTRA1,None,tempIsAISpellCast,0.30,1,255),
 	SpellInfo("SPELL_YORIHIME_EXTRA2",req_YORIHIME_EXTRA2,spell_YORIHIME_EXTRA2,None,tempIsAISpellCast,0.30,1,255),
 	SpellInfo("SPELL_YORIHIME_EXTRA3",req_YORIHIME_EXTRA3,spell_YORIHIME_EXTRA3,None,tempIsAISpellCast,0.30,1,255),
-	SpellInfo("SPELL_YORIHIME_PHANTASM1",req_YORIHIME_PHANTASM1,spell_YORIHIME_PHANTASM1,None,tempIsAISpellCast,0.50,1,255),
+	SpellInfo("SPELL_YORIHIME_PHANTASM1",req_YORIHIME_PHANTASM1,spell_YORIHIME_PHANTASM1,tempIsAISpellCast,help_YORIHIME_PHANTASM1,0.50,1,255),
 	SpellInfo("SPELL_YORIHIME_PHANTASM2",req_YORIHIME_PHANTASM2,spell_YORIHIME_PHANTASM2),
 	SpellInfo("SPELL_YORIHIME_PHANTASM3",req_YORIHIME_PHANTASM3,spell_YORIHIME_PHANTASM3,None,tempIsAISpellCast,0.50,1,255),
 	SpellInfo("SPELL_TOYOHIME_EXTRA1",req_TOYOHIME_EXTRA1,spell_TOYOHIME_EXTRA1,None,tempIsAISpellCast,0.30,1,255),
@@ -3690,7 +3691,11 @@ def help_SHINMYOUMARU1(szText, caster, CAL):
 
 	CvGameUtils.doprint(szText)
 	if szText == "001":
-		return 5641*10 + CAL
+		return CAL/16
+	if szText == "002":
+		return CAL/12
+	if szText == "003":
+		return CAL/8
 
 def spellcard_SHINMYOUMARU1_Estimate(caster):
 
@@ -3908,8 +3913,8 @@ def spellcard_YORIHIME1(caster,cost):
 		
 		pPlayer.setAmenouzumeFlag(0)
 		Functions.changeDamage(RangeList,caster,-100,-100,100,False,True,False,False,-1,True,True,True,True,-1,True,1)
-		Functions.changeDamage(RangeList,caster,CAL*2,CAL*5,0,False,False,False,True,-1,False,True,True,True,-1,False,0)
-		Functions.changeDamage(RangeList,caster,(CAL*2)/2,(CAL*5)/2,0,False,False,False,True,-1,True,False,True,True,-1,False,0)
+		Functions.changeDamage(RangeList,caster,CAL*3,CAL*6,0,False,False,False,True,-1,False,True,True,True,-1,False,0)
+		Functions.changeDamage(RangeList,caster,(CAL*3)/2,(CAL*6)/2,0,False,False,False,True,-1,True,False,True,True,-1,False,0)
 
 		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 		caster.setPower(caster.getPower()-cost)
@@ -3948,6 +3953,13 @@ def spellcard_YORIHIME1_Estimate(caster):
 	
 	return estimatePoint
 
+def help_YORIHIME1(szText, caster, CAL):
+
+	CvGameUtils.doprint(szText)
+	if szText == "001":
+		return CAL*3
+	if szText == "002":
+		return CAL*6
 
 def req_YORIHIME2(bTestVisible,caster,sCAL,eCAL,cost):
 	return Functions.req_SpellCard(bTestVisible,caster,sCAL,eCAL,'UNIT_YORIHIME1','UNIT_YORIHIME6',cost)
@@ -3984,6 +3996,13 @@ def spellcard_YORIHIME2_Estimate(caster):
 	
 	return estimatePoint
 
+def help_YORIHIME2(szText, caster, CAL):
+
+	CvGameUtils.doprint(szText)
+	if szText == "001":
+		return 3+CAL
+	if szText == "002":
+		return 10+CAL*5/2
 
 def req_YORIHIME3(bTestVisible,caster,sCAL,eCAL,cost):
 	return Functions.req_SpellCard(bTestVisible,caster,sCAL,eCAL,'UNIT_YORIHIME1','UNIT_YORIHIME6',cost)
@@ -4189,7 +4208,7 @@ def spellcard_RINGO1(caster,cost):
 	CAL = caster.countCardAttackLevel()
 	pPlot = caster.plot()
 	
-	setFever = (CAL/6)+1
+	setFever = (CAL/3)+1
 	
 	UnitList = []
 	iNumUnit = pPlot.getNumUnits()
@@ -9323,6 +9342,12 @@ def spell_YORIHIME_PHANTASM1(caster,cost):
 	
 	return True
 
+def help_YORIHIME_PHANTASM1(szText, caster, CAL):
+
+	CvGameUtils.doprint(szText)
+	if szText == "001":
+		return CAL*2
+
 
 def req_YORIHIME_PHANTASM2(bTestVisible,caster,sCAL,eCAL,cost):
 	return Functions.req_Spell(bTestVisible,caster,'PROMOTION_MODE_PHANTASM','UNIT_YORIHIME1','UNIT_YORIHIME6',cost)
@@ -10061,7 +10086,7 @@ def req_TERRAFORM_PLAIN(bTestVisible,caster,sCAL,eCAL,cost):
 	if bTestVisible:
 		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_TUKI_NO_MIYAKO_WORKER') and \
 		pTeam.isHasTech(gc.getInfoTypeForString('TECH_MOON_WAR_FIRST')):
-			if not pTeam.isHasTech(gc.getInfoTypeForString('TECH_APOLLO_CONSPIRACY')):
+			if not pTeam.isHasTech(gc.getInfoTypeForString('TECH_LUNAR_CAPITAL_TRANSFER_PLAN')):
 				return True
 		else:
 			return False
@@ -10074,11 +10099,12 @@ def req_TERRAFORM_PLAIN(bTestVisible,caster,sCAL,eCAL,cost):
 		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS'):
 			return False
 		
-		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_DESERT'):
+		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_DESERT') or \
+		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
 			return False
 		
-		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA') or \
-		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
+		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA') and \
+		not pTeam.isHasTech(gc.getInfoTypeForString('TECH_APOLLO_CONSPIRACY')):
 			return False
 		
 		elif caster.plot().isCity():
@@ -10099,17 +10125,34 @@ def spell_TERRAFORM_PLAIN(caster,cost):
 	CAL = caster.countCardAttackLevel()
 	pTeam = gc.getTeam(caster.getTeam())
 	pPlot = caster.plot()
+	FeverFlag = False
 	
 	#これを記述している現時点では使用判定こそ入れていないが、将来的なことも想定しAIが使う場合も記述する
 	#その場合AIに限り即反映されるように
 	if caster.isHuman():
-		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'))
+		if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
+		caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
+			FeverFlag = True
+		
+		if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
+			if pTeam.isHasTech(gc.getInfoTypeForString('TECH_APOLLO_CONSPIRACY')):
+				pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'))
+		
+		else:
+			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'))
 	
 	else:
 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
 		
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
-	caster.changeDamage(100,caster.getOwner())
+	
+	if FeverFlag:
+		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+		caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
+		caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANGO_FEVER'),False)
+		caster.finishMoves()
+	else:
+		caster.changeDamage(100,caster.getOwner())
 	
 	point = caster.plot().getPoint()
 	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
@@ -10125,7 +10168,7 @@ def req_TERRAFORM_PLAIN_NO_SACRIFICE(bTestVisible,caster,sCAL,eCAL,cost):
 	if bTestVisible:
 		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_TUKI_NO_MIYAKO_WORKER') and \
 		pTeam.isHasTech(gc.getInfoTypeForString('TECH_MOON_WAR_FIRST')):
-			if pTeam.isHasTech(gc.getInfoTypeForString('TECH_APOLLO_CONSPIRACY')):
+			if pTeam.isHasTech(gc.getInfoTypeForString('TECH_LUNAR_CAPITAL_TRANSFER_PLAN')):
 				return True
 		else:
 			return False
@@ -10138,11 +10181,6 @@ def req_TERRAFORM_PLAIN_NO_SACRIFICE(bTestVisible,caster,sCAL,eCAL,cost):
 		
 		elif pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS') and \
 		not pTeam.isHasTech(gc.getInfoTypeForString('TECH_SAKE_OF_THE_WATATSUKI')):
-			return False
-		
-		elif (pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA') or \
-		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW')) and \
-		not pTeam.isHasTech(gc.getInfoTypeForString('TECH_LUNAR_CAPITAL_TRANSFER_PLAN')):
 			return False
 		
 		elif caster.plot().isCity():
@@ -10168,17 +10206,22 @@ def spell_TERRAFORM_PLAIN_NO_SACRIFICE(caster,cost):
 	if caster.isHuman() and not pTeam.isHasTech(gc.getInfoTypeForString('TECH_THE_TRUMP_CARD_IS_ALWAYS_A_BAD_MOVE')):
 		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
 			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'))
-			SacrificeFlag = True
+			if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
+			caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
+				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
+				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANGO_FEVER'),False)
+			else:
+				SacrificeFlag = True
 		
 		elif pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
 			if pTeam.isHasTech(gc.getInfoTypeForString('TECH_SAKE_OF_THE_WATATSUKI')):
 				pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'))
-				SacrificeFlag = True
-		
-		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA') or \
-		pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
-			if pTeam.isHasTech(gc.getInfoTypeForString('TECH_LUNAR_CAPITAL_TRANSFER_PLAN')):
-				pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'))
+				if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
+				caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
+					caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
+					caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANGO_FEVER'),False)
+				else:
+					SacrificeFlag = True
 		
 		else:
 			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'))
@@ -10186,10 +10229,20 @@ def spell_TERRAFORM_PLAIN_NO_SACRIFICE(caster,cost):
 	else:
 		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
 			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
-			SacrificeFlag = True
+			if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
+			caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
+				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
+				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANGO_FEVER'),False)
+			else:
+				SacrificeFlag = True
 		elif pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
 			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
-			SacrificeFlag = True
+			if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
+			caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
+				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
+				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANGO_FEVER'),False)
+			else:
+				SacrificeFlag = True
 		else:
 			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
 	
@@ -10214,7 +10267,7 @@ def req_TERRAFORM_GRASS(bTestVisible,caster,sCAL,eCAL,cost):
 	if bTestVisible:
 		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_TUKI_NO_MIYAKO_WORKER') and \
 		pTeam.isHasTech(gc.getInfoTypeForString('TECH_MOON_WAR_FIRST')):
-			if not pTeam.isHasTech(gc.getInfoTypeForString('TECH_APOLLO_CONSPIRACY')):
+			if not pTeam.isHasTech(gc.getInfoTypeForString('TECH_LUNAR_CAPITAL_TRANSFER_PLAN')):
 				return True
 		else:
 			return False
@@ -10242,17 +10295,27 @@ def spell_TERRAFORM_GRASS(caster,cost):
 	CAL = caster.countCardAttackLevel()
 	pTeam = gc.getTeam(caster.getTeam())
 	pPlot = caster.plot()
+	FeverFlag = False
 	
 	#これを記述している現時点では使用判定こそ入れていないが、将来的なことも想定しAIが使う場合も記述する
 	#その場合AIに限り即反映されるように
 	if caster.isHuman():
+		if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
+		caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
+			FeverFlag = True
 		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS'))
 	
 	else:
 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
 		
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
-	caster.changeDamage(100,caster.getOwner())
+	if FeverFlag:
+		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+		caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
+		caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANGO_FEVER'),False)
+		caster.finishMoves()
+	else:
+		caster.changeDamage(100,caster.getOwner())
 	
 	point = caster.plot().getPoint()
 	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
@@ -10267,7 +10330,7 @@ def req_TERRAFORM_GRASS_NO_SACRIFICE(bTestVisible,caster,sCAL,eCAL,cost):
 	if bTestVisible:
 		if caster.getUnitType() == gc.getInfoTypeForString('UNIT_TUKI_NO_MIYAKO_WORKER') and \
 		pTeam.isHasTech(gc.getInfoTypeForString('TECH_MOON_WAR_FIRST')):
-			if pTeam.isHasTech(gc.getInfoTypeForString('TECH_APOLLO_CONSPIRACY')):
+			if pTeam.isHasTech(gc.getInfoTypeForString('TECH_LUNAR_CAPITAL_TRANSFER_PLAN')):
 				return True
 		else:
 			return False
@@ -10299,12 +10362,22 @@ def spell_TERRAFORM_GRASS_NO_SACRIFICE(caster,cost):
 	if caster.isHuman() and not pTeam.isHasTech(gc.getInfoTypeForString('TECH_THE_TRUMP_CARD_IS_ALWAYS_A_BAD_MOVE')):
 		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
 			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS'))
-			SacrificeFlag = True
+			if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
+			caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
+				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
+				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANGO_FEVER'),False)
+			else:
+				SacrificeFlag = True
 		
 		elif pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
 			if pTeam.isHasTech(gc.getInfoTypeForString('TECH_SAKE_OF_THE_WATATSUKI')):
 				pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS'))
-				SacrificeFlag = True
+				if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
+				caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
+					caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
+					caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANGO_FEVER'),False)
+				else:
+					SacrificeFlag = True
 		
 		else:
 			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS'))
@@ -10312,10 +10385,20 @@ def spell_TERRAFORM_GRASS_NO_SACRIFICE(caster,cost):
 	else:
 		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
 			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
-			SacrificeFlag = True
+			if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
+			caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
+				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
+				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANGO_FEVER'),False)
+			else:
+				SacrificeFlag = True
 		elif pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
 			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
-			SacrificeFlag = True
+			if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
+			caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
+				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
+				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANGO_FEVER'),False)
+			else:
+				SacrificeFlag = True
 		else:
 			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
 	
@@ -10369,15 +10452,25 @@ def spell_TERRAFORM_HILL(caster,cost):
 	CAL = caster.countCardAttackLevel()
 	pTeam = gc.getTeam(caster.getTeam())
 	pPlot = caster.plot()
+	FeverFlag = False
 	
 	if caster.isHuman():
+		if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
+		caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
+			FeverFlag = True
 		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_HILL'))
 	
 	else:
 		pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
 		
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
-	caster.changeDamage(100,caster.getOwner())
+	if FeverFlag:
+		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+		caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
+		caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANGO_FEVER'),False)
+		caster.finishMoves()
+	else:
+		caster.changeDamage(100,caster.getOwner())
 	
 	point = caster.plot().getPoint()
 	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
@@ -10475,15 +10568,25 @@ def spell_TERRAFORM_FLATLAND(caster,cost):
 	CAL = caster.countCardAttackLevel()
 	pTeam = gc.getTeam(caster.getTeam())
 	pPlot = caster.plot()
+	FeverFlag = False
 	
 	if caster.isHuman():
+		if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
+		caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
+			FeverFlag = True
 		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FLATLAND'))
 	
 	else:
 		pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
 		
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
-	caster.changeDamage(100,caster.getOwner())
+	if FeverFlag:
+		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+		caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
+		caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANGO_FEVER'),False)
+		caster.finishMoves()
+	else:
+		caster.changeDamage(100,caster.getOwner())
 	
 	point = caster.plot().getPoint()
 	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
@@ -10580,15 +10683,25 @@ def spell_TERRAFORM_FOREST(caster,cost):
 	CAL = caster.countCardAttackLevel()
 	pTeam = gc.getTeam(caster.getTeam())
 	pPlot = caster.plot()
+	FeverFlag = False
 	
 	if caster.isHuman():
+		if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
+		caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
+			FeverFlag = True
 		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FOREST'))
 	
 	else:
 		pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_REGENERATION_FOREST'), 1)
 		
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
-	caster.changeDamage(100,caster.getOwner())
+	if FeverFlag:
+		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+		caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
+		caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANGO_FEVER'),False)
+		caster.finishMoves()
+	else:
+		caster.changeDamage(100,caster.getOwner())
 	
 	point = caster.plot().getPoint()
 	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
