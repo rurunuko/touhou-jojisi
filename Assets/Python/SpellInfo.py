@@ -1195,8 +1195,8 @@ def spellcard_MOKOU1(caster,cost):
 					if gc.getTeam(caster.getTeam()).isAtWar(pPlot.getPlotCity().getTeam()): #戦争相手なら
 						RangeList.append([iX,iY])
 					else:
-						pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
-						pPlot.setTerrainType(gc.getInfoTypeForString("TERRAIN_PLAINS"),True,True,False)
+						pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
+						pPlot.setTerrainType(gc.getInfoTypeForString("TERRAIN_PLAINS"),True,True)
 						gc.getGame().setPlotExtraYield(caster.getX()+iX,caster.getY()+iY,1,CAL/8+1)
 
 	Functions.changeDamage(RangeList,caster,15+CAL*2,15+CAL*2,0,True,True,True,True,-1,False,True,True,True,-1,False,0)
@@ -2558,11 +2558,11 @@ def spellcard_TENSHI1(caster,cost):
 						pPlot.getPlotCity().setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUNKER'),0)
 						pPlot.getPlotCity().setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BOMB_SHELTER'),0)
 						
-						pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+						pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 						
 						RangeList.append([iX,iY])
 				if pPlot.getPlotType() == PlotTypes.PLOT_PEAK:
-					pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+					pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 	
 	Functions.changeDamage(RangeList,caster,CAL*2,CAL*4,0,True,True,True,True,-1,False,True,True,True,-1,False,0)
 	Functions.changeDamage(RangeList,caster,(CAL*2)/2,(CAL*4)/2,0,True,True,True,True,-1,True,False,True,True,-1,False,0)
@@ -4086,7 +4086,7 @@ def spellcard_TOYOHIME1(caster,cost):
 		Functions.changeDamage(RangeList2,caster,CAL*3/2,CAL*3/2,0,False,False,False,True,-1,True,False,True,True,-1,False,0)
 		if gc.getTeam(caster.getTeam()).isAtWar(pPlot.getTeam()):
 			if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_GRASS'):
-				pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+				pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			pPlot.setFeatureType(-1, 0)
 			pPlot.resetFeatureModel()
 			pPlot.setImprovementType(-1)
@@ -4094,7 +4094,7 @@ def spellcard_TOYOHIME1(caster,cost):
 		Functions.changeDamage(RangeList3,caster,CAL*3,CAL*3,0,False,False,False,True,-1,False,True,True,True,-1,False,0)
 		Functions.changeDamage(RangeList3,caster,CAL*3/2,CAL*3/2,0,False,False,False,True,-1,True,False,True,True,-1,False,0)
 		if gc.getTeam(caster.getTeam()).isAtWar(pPlot.getTeam()):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True)
 			pPlot.setFeatureType(-1, 0)
 			pPlot.resetFeatureModel()
 			pPlot.setImprovementType(-1)
@@ -4102,7 +4102,7 @@ def spellcard_TOYOHIME1(caster,cost):
 		Functions.changeDamage(RangeList3,caster,CAL*3,CAL*3,0,False,False,False,True,-1,False,True,True,True,-1,False,0)
 		Functions.changeDamage(RangeList3,caster,CAL*3/2,CAL*3/2,0,False,False,False,True,-1,True,False,True,True,-1,False,0)
 		if gc.getTeam(caster.getTeam()).isAtWar(pPlot.getTeam()):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_DESERT'),True,True)
 			pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_FALLOUT'),1)
 			pPlot.resetFeatureModel()
 			pPlot.setImprovementType(-1)
@@ -5008,17 +5008,17 @@ def spell_SANAE_PHANTASM1(caster,cost):
 			pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_OASIS'),1)
 			pPlot.resetFeatureModel()
 		else:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
 		if gc.getGame().getSorenRandNum(100, "SANAE SKILL PHANTASM2") < 10:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 		else:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 	
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
 		if pPlot.isFreshWater():
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True)
 			
 	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	
@@ -5567,13 +5567,13 @@ def spell_CIRNO_PHANTASM1(caster,cost):
 					if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_COAST') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_OCEAN'):
 						pPlot.setOriginalTerrain(pPlot.getTerrainType())
 						pPlot.setOriginalBounu( pPlot.getBonusType(caster.getTeam()) )
-						pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True,False)
+						pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True)
 						pPlot.setFeatureType (gc.getInfoTypeForString('FEATURE_ICEDSEA'),1)
 						pPlot.setNumCirnoFreeze(3)
 						
 					#凍らせなおし
 				 	if pPlot.getNumCirnoFreeze()>0:
-				 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True,False)
+				 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True)
 						pPlot.setFeatureType (gc.getInfoTypeForString('FEATURE_ICEDSEA'),1)
 		
 	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
@@ -5753,13 +5753,13 @@ def spell_MOKOU_EXTRA1(caster,cost):
 	
 	pPlot = caster.plot()
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True,False)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True)
 			
 	elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
 		if gc.getGame().getSorenRandNum(100, "MOKOU SKILL PHANTASM2") < 15:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 		else:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 	
 	for iiX in range(iX-1,iX+2):
 		for iiY in range(iY-1,iY+2):
@@ -6439,7 +6439,7 @@ def spell_YUKA_PHANTASM1(caster,cost):
 	pPlot = caster.plot()
 	if pPlot.getBonusType(caster.getTeam()) == -1:
 		if pPlot.getTerrainType() != gc.getInfoTypeForString('TERRAIN_COAST') and pPlot.getTerrainType() != gc.getInfoTypeForString('TERRAIN_OCEAN'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 			pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_SUNFLOWER'),1)
 			pPlot.setImprovementType(-1)
 			
@@ -6736,14 +6736,14 @@ def spell_PATCHOULI_PHANTASM1(caster,cost):
 	#そして、power0.5と引き換えにオアシスに花壇強制設置
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_DESERT'):
 		#if pPlot.isFreshWater():
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
 		#if pPlot.isFreshWater():
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 	
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True,False)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True)
 	
 	if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS') and pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
 		cost = 0.5
@@ -7620,7 +7620,7 @@ def spell_KAGUYA_PHANTASM2(caster,cost):
 		iY = gc.getGame().getSorenRandNum(gc.getMap().getGridWidth(),"kaguya phantasm")
 	
 	pPlot = gc.getMap().plot(iX,iY)
-	pPlot.setPlotType(PlotTypes.PLOT_PEAK,True,True,False)
+	pPlot.setPlotType(PlotTypes.PLOT_PEAK,True,True)
 	pPlot.setBonusType(-1)
 	pPlot.setImprovementType(-1)
 	for i in range(pPlot.getNumUnits()):
@@ -7782,7 +7782,7 @@ def spell_TENSHI_PHANTASM1(caster,cost):
 	CAL = caster.countCardAttackLevel()
 	
 	if caster.plot().getTeam() == caster.getTeam() and caster.plot().getPlotType() != PlotTypes.PLOT_OCEAN:
-		caster.plot().setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+		caster.plot().setPlotType(PlotTypes.PLOT_HILLS,True,True)
 		if caster.plot().isCity():
 			caster.plot().getPlotCity().setNumRealBuilding(gc.getInfoTypeForString('BUILDING_KANAMEISHI'),1)
 			
@@ -7908,11 +7908,11 @@ def spell_LETTY_EXTRA1(caster,cost):
 			#pPlot.setFeatureType (gc.getInfoTypeForString('FEATURE_SNOWMAN'),1)
 			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_SNOWMAN'))
 		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_SNOW'),True,True)
 		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_PLAINS'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_TUNDRA'),True,True)
 		elif pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_GRASS') or pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_DESERT'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 		
 		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 		
@@ -10142,7 +10142,7 @@ def spell_TERRAFORM_PLAIN(caster,cost):
 			pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'))
 	
 	else:
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 		
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	
@@ -10228,7 +10228,7 @@ def spell_TERRAFORM_PLAIN_NO_SACRIFICE(caster,cost):
 		
 	else:
 		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
 			caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
 				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
@@ -10236,7 +10236,7 @@ def spell_TERRAFORM_PLAIN_NO_SACRIFICE(caster,cost):
 			else:
 				SacrificeFlag = True
 		elif pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
 			caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
 				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
@@ -10244,7 +10244,7 @@ def spell_TERRAFORM_PLAIN_NO_SACRIFICE(caster,cost):
 			else:
 				SacrificeFlag = True
 		else:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 	
 	if SacrificeFlag:
 		caster.changeDamage(100,caster.getOwner())
@@ -10306,7 +10306,7 @@ def spell_TERRAFORM_GRASS(caster,cost):
 		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS'))
 	
 	else:
-		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 		
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	if FeverFlag:
@@ -10384,7 +10384,7 @@ def spell_TERRAFORM_GRASS_NO_SACRIFICE(caster,cost):
 		
 	else:
 		if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 			if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
 			caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
 				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
@@ -10392,7 +10392,7 @@ def spell_TERRAFORM_GRASS_NO_SACRIFICE(caster,cost):
 			else:
 				SacrificeFlag = True
 		elif pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 			if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ) or \
 			caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
 				caster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER'),False)
@@ -10400,7 +10400,7 @@ def spell_TERRAFORM_GRASS_NO_SACRIFICE(caster,cost):
 			else:
 				SacrificeFlag = True
 		else:
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 	
 	if SacrificeFlag:
 		caster.changeDamage(100,caster.getOwner())
@@ -10461,7 +10461,7 @@ def spell_TERRAFORM_HILL(caster,cost):
 		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_HILL'))
 	
 	else:
-		pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+		pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
 		
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	if FeverFlag:
@@ -10519,7 +10519,7 @@ def spell_TERRAFORM_HILL_NO_SACRIFICE(caster,cost):
 		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_HILL'))
 		
 	else:
-		pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+		pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
 	
 	caster.finishMoves()
 	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
@@ -10577,7 +10577,7 @@ def spell_TERRAFORM_FLATLAND(caster,cost):
 		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FLATLAND'))
 	
 	else:
-		pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+		pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 		
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	if FeverFlag:
@@ -10635,7 +10635,7 @@ def spell_TERRAFORM_FLATLAND_NO_SACRIFICE(caster,cost):
 		pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FLATLAND'))
 		
 	else:
-		pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+		pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 	
 	caster.finishMoves()
 	caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
@@ -10764,7 +10764,7 @@ def spell_TERRAFORM_LANDFILL(caster,cost):
 			#この例外処理をする場合このように第四因数をTrueにすること
 			#なお上記でも触れたが、これはSDK側の変更が必要なのでその処理をしない限りこのままコピペしても動作はしない
 			#もしも他MODでこの処理を参考にしたい場合は注意
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,True)
+			pPlot.setTerrainTypeWithoutUnitErase(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 	
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	caster.changeDamage(100,caster.getOwner())
@@ -10883,7 +10883,7 @@ def spell_TERRAFORM_OCEANIZATION(caster,cost):
 	
 	if pPlot.getNumUnits() == 1 and pPlot.getBonusType(caster.getTeam()) == -1 :
 		if pPlot.getPlotType() == PlotTypes.PLOT_LAND:
-			pPlot.setPlotType(PlotTypes.PLOT_OCEAN,True,True,True)
+			pPlot.setPlotTypeWithoutUnitErase(PlotTypes.PLOT_OCEAN,True,True)
 	
 	#caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 	caster.changeDamage(100,caster.getOwner())

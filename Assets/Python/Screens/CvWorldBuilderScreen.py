@@ -480,9 +480,9 @@ class CvWorldBuilderScreen:
 					pPlot = CyMap().plot(i,j)
 					if (not pPlot.isNone()):
 						if bWater and pPlot.isWater():
-							pPlot.setTerrainType(lTerrain[iTerrainType],True,True,False)
+							pPlot.setTerrainType(lTerrain[iTerrainType],True,True)
 						elif (not bWater) and (not pPlot.isWater()):
-							pPlot.setTerrainType(lTerrain[iTerrainType],True,True,False)	
+							pPlot.setTerrainType(lTerrain[iTerrainType],True,True)	
 		return 1
 ## Platy Change All Plots End ##
 
@@ -641,13 +641,13 @@ class CvWorldBuilderScreen:
 					pPlot = CyMap().plot(i,j)
 					if (not pPlot.isNone()) and pPlot.getArea() == self.m_iArea:
 						if iIndex == 0:
-							pPlot.setPlotType(PlotTypes.PLOT_PEAK,True,True,False)
+							pPlot.setPlotType(PlotTypes.PLOT_PEAK,True,True)
 						elif iIndex == 1:
-							pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+							pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
 						elif iIndex == 2:
-							pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+							pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 						elif iIndex == 3:
-							pPlot.setPlotType(PlotTypes.PLOT_OCEAN,True,True,False)
+							pPlot.setPlotType(PlotTypes.PLOT_OCEAN,True,True)
 		self.refreshSideMenu()
 		return 1
 
@@ -668,12 +668,12 @@ class CvWorldBuilderScreen:
 				if pPlot.isNone(): continue
 				if self.m_bChangeAllPlots:
 					if gc.getTerrainInfo(iIndex).isWater() and pPlot.isWater():
-						pPlot.setTerrainType(lTerrain[iIndex],True,True,False)
+						pPlot.setTerrainType(lTerrain[iIndex],True,True)
 					elif (not gc.getTerrainInfo(iIndex).isWater()) and (not pPlot.isWater()):
-						pPlot.setTerrainType(lTerrain[iIndex],True,True,False)	
+						pPlot.setTerrainType(lTerrain[iIndex],True,True)	
 				elif pPlot.getArea() == self.m_iArea:
 					if iIndex < len(lTerrain):
-						pPlot.setTerrainType(lTerrain[iIndex],True,True,False)
+						pPlot.setTerrainType(lTerrain[iIndex],True,True)
 		self.refreshSideMenu()
 		return 1
 
@@ -1578,13 +1578,13 @@ class CvWorldBuilderScreen:
 	def handlePlotEditPlotTypeCB ( self, argsList ) :
 		iIndex = int(argsList[0])
 		if iIndex == 0:
-			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_PEAK,True,True,False)
+			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_PEAK,True,True)
 		elif iIndex == 1:
-			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
 		elif iIndex == 1:
-			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 		else:
-			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_OCEAN,True,True,False)
+			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_OCEAN,True,True)
 
 	def handlePlotEditTerrainCB ( self, argsList ) :
 		iIndex = int(argsList[0])
@@ -1592,7 +1592,7 @@ class CvWorldBuilderScreen:
 		for i in xrange(gc.getNumTerrainInfos()):
 			if gc.getTerrainInfo(i).isGraphicalOnly(): continue
 			if iCount == iIndex:
-				self.m_pActivePlot.setTerrainType(i,True,True,False)
+				self.m_pActivePlot.setTerrainType(i,True,True)
 				self.setPlotEditInfo(False)
 				return 1
 			iCount += 1
@@ -2034,7 +2034,7 @@ class CvWorldBuilderScreen:
 		elif ((self.m_bNormalMap) and (self.m_normalMapTabCtrl.getActiveTab() == self.m_iTerrainTabID)):
 			if (self.m_iNormalMapCurrentList[self.m_normalMapTabCtrl.getActiveTab()] == self.m_iTerrainListID):
 				iTerrainType = self.m_iNormalMapCurrentIndexes[self.m_normalMapTabCtrl.getActiveTab()]
-				self.m_pCurrentPlot.setTerrainType(iTerrainType,True,True,False)
+				self.m_pCurrentPlot.setTerrainType(iTerrainType,True,True)
 			elif (self.m_iNormalMapCurrentList[self.m_normalMapTabCtrl.getActiveTab()] == self.m_iFeatureListID):
 				iButtonIndex = self.m_iNormalMapCurrentIndexes[self.m_normalMapTabCtrl.getActiveTab()]
 				iCount = -1
@@ -2046,7 +2046,7 @@ class CvWorldBuilderScreen:
 			elif (self.m_iNormalMapCurrentList[self.m_normalMapTabCtrl.getActiveTab()] == self.m_iPlotTypeListID):
 				iPlotType = self.m_iNormalMapCurrentIndexes[self.m_normalMapTabCtrl.getActiveTab()]
 				if (iPlotType >= 0) and (iPlotType < PlotTypes.NUM_PLOT_TYPES):
-					self.m_pCurrentPlot.setPlotType(PlotTypes(iPlotType),True,True,False)
+					self.m_pCurrentPlot.setPlotType(PlotTypes(iPlotType),True,True)
 			elif (self.m_iNormalMapCurrentList[self.m_normalMapTabCtrl.getActiveTab()] == self.m_iRouteListID):
 				iRouteType = self.m_iNormalMapCurrentIndexes[self.m_normalMapTabCtrl.getActiveTab()]
 				if (iRouteType == gc.getNumRouteInfos()):

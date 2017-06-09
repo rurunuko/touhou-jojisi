@@ -487,25 +487,25 @@ def isImprovementUpgrade(caster,pPlot):
 	if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_HALLOWEEN_FEVER') ):
 		#テラフォーミング系列
 		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			pPlot.setImprovementType(-1)
 			spellFlag = True
 			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_PLAIN_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/plains.dds',ColorTypes(11),iX,iY,True,True)
 	
 		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 			pPlot.setImprovementType(-1)
 			spellFlag = True
 			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_GRASS_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(11),iX,iY,True,True)
 		
 		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_HILL'):
-			pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+			pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
 			pPlot.setImprovementType(-1)
 			spellFlag = True
 			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_HILL_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/hill.dds',ColorTypes(11),iX,iY,True,True)
 			
 		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FLATLAND'):
-			pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+			pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 			pPlot.setImprovementType(-1)
 			spellFlag = True
 			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_FLATLAND_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(11),iX,iY,True,True)
@@ -519,25 +519,25 @@ def isImprovementUpgrade(caster,pPlot):
 	if caster.isHasPromotion( gc.getInfoTypeForString('PROMOTION_DANGO_FEVER') ):
 		#テラフォーミング系列
 		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			pPlot.setImprovementType(-1)
 			spellFlag = True
 			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_PLAIN_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/plains.dds',ColorTypes(11),iX,iY,True,True)
 	
 		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS'):
-			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True,False)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 			pPlot.setImprovementType(-1)
 			spellFlag = True
 			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_GRASS_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(11),iX,iY,True,True)
 		
 		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_HILL'):
-			pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True,False)
+			pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
 			pPlot.setImprovementType(-1)
 			spellFlag = True
 			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_HILL_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/hill.dds',ColorTypes(11),iX,iY,True,True)
 			
 		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FLATLAND'):
-			pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True,False)
+			pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 			pPlot.setImprovementType(-1)
 			spellFlag = True
 			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_FLATLAND_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(11),iX,iY,True,True)

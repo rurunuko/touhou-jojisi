@@ -179,10 +179,12 @@ public:
 	bool isPeak();
 
 	//東方叙事詩・統合MOD追記
-	void setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGraphics, bool bSpellReclaim);
+	void setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGraphics);
+	void setPlotTypeWithoutUnitErase(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGraphics);
 	int /*TerrainTypes*/ getTerrainType();
 	//東方叙事詩・統合MOD追記
-	void setTerrainType(int /*TerrainTypes*/ eNewValue, bool bRecalculate, bool bRebuildGraphics, bool bSpellReclaim);
+	void setTerrainType(int /*TerrainTypes*/ eNewValue, bool bRecalculate, bool bRebuildGraphics);
+	void setTerrainTypeWithoutUnitErase(int /*TerrainTypes*/ eNewValue, bool bRecalculate, bool bRebuildGraphics);
 	int /*FeatureTypes*/ getFeatureType();
 	void setFeatureType(int /*FeatureTypes*/ eNewValue, int iVariety);
 	void setFeatureDummyVisibility(std::string dummyTag, bool show); 
