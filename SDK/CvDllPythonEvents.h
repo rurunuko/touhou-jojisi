@@ -105,6 +105,7 @@ public:
 // BUG - Revolution Event - start
 	void reportPlayerRevolution(PlayerTypes ePlayerID, int iAnarchyLength, CivicTypes* paeOldCivics, CivicTypes* paeNewCivics);
 // BUG - Revolution Event - end
+	void reportOnDelayedDeath(int x, int y);
 
 	void preSave();
 

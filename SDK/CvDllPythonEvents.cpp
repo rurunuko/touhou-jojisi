@@ -1238,6 +1238,20 @@ void CvDllPythonEvents::reportPlayerRevolution(PlayerTypes ePlayerID, int iAnarc
 }
 // BUG - Revolution Event - end
 
+void CvDllPythonEvents::reportOnDelayedDeath(int x, int y)
+{
+	if (preEvent())
+	{
+		CyArgsList eventData;
+		eventData.add("delayedDeath");			// add key to lookup python handler fxn
+
+		eventData.add(x);
+		eventData.add(y);
+
+		postEvent(eventData);
+	}
+}
+
 void CvDllPythonEvents::reportGenericEvent(const char* szEventName, void *pyArgs)
 {
 	if (preEvent())

@@ -2031,11 +2031,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_CENTRALIZATION_HELP</Tag>
 		<English></English>
-		<French>　&#13;　[ICON_BULLET]首都の[ICON_PRODUCTION]+1,[ICON_COMMERCE]+4,[ICON_HAPPY]+1&#13;　[ICON_BULLET]時代が「中世」以降に入ると社会制度「官僚制」を無条件で採用可能&#13;　[ICON_BULLET]首都の建造物作成コスト-25%（世界遺産は除く）[NEWLINE]</French>
+		<French>　&#13;　[ICON_BULLET]首都の[ICON_PRODUCTION]+1,[ICON_COMMERCE]+2,[ICON_HAPPY]+1&#13;　[ICON_BULLET]時代が「中世」以降に入ると社会制度「官僚制」を無条件で採用可能&#13;　[ICON_BULLET]首都の建造物作成コスト-25%（世界遺産は除く）[NEWLINE]</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>　&#13;　[ICON_BULLET]首都の[ICON_PRODUCTION]+1,[ICON_COMMERCE]+4,[ICON_HAPPY]+1&#13;　[ICON_BULLET]時代が「中世」以降に入ると社会制度「官僚制」を無条件で採用可能&#13;　[ICON_BULLET]首都の建造物作成コスト-25%（世界遺産は除く）[NEWLINE]</Japanese>
+		<Japanese>　&#13;　[ICON_BULLET]首都の[ICON_PRODUCTION]+1,[ICON_COMMERCE]+2,[ICON_HAPPY]+1&#13;　[ICON_BULLET]時代が「中世」以降に入ると社会制度「官僚制」を無条件で採用可能&#13;　[ICON_BULLET]首都の建造物作成コスト-25%（世界遺産は除く）[NEWLINE]</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_RAIDERS</Tag>
@@ -2103,11 +2103,20 @@
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_PROTECTIVE_HELP</Tag>
 		<English />
-		<French>　&#13;　[ICON_BULLET]スタンドバイユニットに都市駐留1と教練1</French>
+		<French>　&#13;　[ICON_BULLET]スタンドバイユニットに都市駐留1と教練1&#13;　[ICON_BULLET]機関銃兵に都市駐留1と教練1　&#13;　[ICON_BULLET][LINK=BUILDING_GREAT_WALL]万里の長城[\LINK]の建設速度+100%[NEWLINE]</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>　&#13;　[ICON_BULLET]スタンドバイユニットに都市駐留1と教練1</Japanese>
+		<Japanese>　&#13;　[ICON_BULLET]スタンドバイユニットに都市駐留1と教練1&#13;　[ICON_BULLET]機関銃兵に都市駐留1と教練1　&#13;　[ICON_BULLET][LINK=BUILDING_GREAT_WALL]万里の長城[\LINK]の建設速度+100%[NEWLINE]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXPANSIVE_HELP</Tag>
+		<English />
+		<French>　&#13;　[ICON_BULLET]「古典」以降の時代で建設した都市は人口2からスタート[NEWLINE]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>　&#13;　[ICON_BULLET]「古典」以降の時代で建設した都市は人口2からスタート[NEWLINE]</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_KOYUUSHIKOU_SHORT</Tag>

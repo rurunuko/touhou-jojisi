@@ -417,6 +417,11 @@ void CvEventReporter::playerRevolution(PlayerTypes ePlayerID, int iAnarchyLength
 }
 // BUG - Revolution Event - end
 
+void CvEventReporter::onDelayedDeath(int x, int y)
+{
+  m_kPythonEventMgr.reportOnDelayedDeath(x, y);
+}
+
 void CvEventReporter::chat(CvWString szString)
 {
 	m_kPythonEventMgr.reportChat(szString);

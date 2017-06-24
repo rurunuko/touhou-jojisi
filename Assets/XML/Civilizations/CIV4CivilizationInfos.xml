@@ -368,10 +368,6 @@
           <bLeaderAvailability>1</bLeaderAvailability>
         </Leader>
         <Leader>
-          <LeaderName>LEADER_LILYB</LeaderName>
-          <bLeaderAvailability>1</bLeaderAvailability>
-        </Leader>
-        <Leader>
           <LeaderName>LEADER_LUNASA</LeaderName>
           <bLeaderAvailability>1</bLeaderAvailability>
         </Leader>
@@ -542,10 +538,6 @@
         </Leader>
         <Leader>
           <LeaderName>LEADER_KEINE</LeaderName>
-          <bLeaderAvailability>1</bLeaderAvailability>
-        </Leader>
-        <Leader>
-          <LeaderName>LEADER_HAKUTAKU</LeaderName>
           <bLeaderAvailability>1</bLeaderAvailability>
         </Leader>
         <Leader>

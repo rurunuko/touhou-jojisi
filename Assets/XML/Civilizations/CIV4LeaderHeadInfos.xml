@@ -49336,11 +49336,11 @@
       <FavoriteReligion>NONE</FavoriteReligion>
       <Traits>
         <Trait>
-          <TraitType>TRAIT_INDUSTRIOUS</TraitType>
+          <TraitType>TRAIT_PROTECTIVE</TraitType>
           <bTrait>1</bTrait>
         </Trait>
         <Trait>
-          <TraitType>TRAIT_PROTECTIVE</TraitType>
+          <TraitType>TRAIT_IMPERIALIST</TraitType>
           <bTrait>1</bTrait>
         </Trait>
         <Trait>
@@ -58827,7 +58827,7 @@
           <bTrait>1</bTrait>
         </Trait>
         <Trait>
-          <TraitType>TRAIT_IMPERIALIST</TraitType>
+          <TraitType>TRAIT_INDUSTRIOUS</TraitType>
           <bTrait>1</bTrait>
         </Trait>
         <Trait>

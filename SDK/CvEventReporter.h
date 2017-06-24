@@ -125,6 +125,8 @@ public:
 	void playerRevolution(PlayerTypes ePlayerID, int iAnarchyLength, CivicTypes* paeOldCivics, CivicTypes* paeNewCivics);
 // BUG - Revolution Event - end
 
+	void onDelayedDeath(int x, int y);
+	
 	DllExport void chat(CvWString szString);		
 
 	void victory(TeamTypes eWinner, VictoryTypes eVictory);

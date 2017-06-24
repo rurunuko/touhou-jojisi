@@ -182,6 +182,7 @@ class CvEventManager:
 			'playerChangeStateReligion'		: self.onPlayerChangeStateReligion,
 			'playerGoldTrade'		: self.onPlayerGoldTrade,
 			#統合MOD追記部分
+			'delayedDeath' 			: self.onDelayedDeath,
 			# BULL events
 			'playerRevolution'		: self.onPlayerRevolution,
 			'combatWithdrawal'		: self.onCombatWithdrawal,
@@ -2758,31 +2759,31 @@ class CvEventManager:
 			pPlot = CyMap().plot(iX, iY)
 			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
 			pPlot.setImprovementType(-1)
-			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_PLAIN_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/plains.dds',ColorTypes(11),iX,iY,True,True)
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_PLAIN_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/plains.dds',ColorTypes(8),iX,iY,True,True)
 		
 		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS_COMPLETE')):
 			pPlot = CyMap().plot(iX, iY)
 			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
 			pPlot.setImprovementType(-1)
-			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_GRASS_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(11),iX,iY,True,True)
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_GRASS_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(8),iX,iY,True,True)
 		
 		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_HILL_COMPLETE')):
 			pPlot = CyMap().plot(iX, iY)
 			pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
 			pPlot.setImprovementType(-1)
-			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_HILL_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/hill.dds',ColorTypes(11),iX,iY,True,True)
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_HILL_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/hill.dds',ColorTypes(8),iX,iY,True,True)
 		
 		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FLATLAND_COMPLETE')):
 			pPlot = CyMap().plot(iX, iY)
 			pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 			pPlot.setImprovementType(-1)
-			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_FLATLAND_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(11),iX,iY,True,True)
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_FLATLAND_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(8),iX,iY,True,True)
 		
 		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FOREST_COMPLETE')):
 			pPlot = CyMap().plot(iX, iY)
 			pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_REGENERATION_FOREST'), 1)
 			pPlot.setImprovementType(-1)
-			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_FOREST_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/terrainfeatures/forest.dds',ColorTypes(11),iX,iY,True,True)
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_FOREST_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/terrainfeatures/forest.dds',ColorTypes(8),iX,iY,True,True)
 		
 		
 		
@@ -3340,6 +3341,12 @@ class CvEventManager:
 				newUnit = pPlayer.initUnit(unit.getUnitType(), city.getX(), city.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 				newUnit.changeExperience(unit.getExperience(),-1,False,False,False)
 		
+		#防衛志向で機関銃兵を作ると都市駐留1・教練1がつく
+		if pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_PROTECTIVE")):
+			if unit.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_MACHINE_GUN'):
+				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_CITY_GARRISON1'),True)
+				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DRILL1'),True)
+		
 		CvAdvisorUtils.unitBuiltFeats(city, unit)
 
 		if (not self.__LOG_UNITBUILD):
@@ -3695,6 +3702,19 @@ class CvEventManager:
 		CvUtil.pyPrint('%s was lost by Player %d Civilization %s'
 			%(PyInfo.UnitInfo(unit.getUnitType()).getDescription(), player.getID(), player.getCivilizationName()))
 
+	#東方叙事詩・統合MOD追記
+	#onDelayedDeathの処理
+	#埋め立て・海洋化の処理をspellinfo.pyのみでやるのは色々と不安定化する可能性があるため、地形処理のみこちらに投げる
+	def onDelayedDeath(self, argsList):
+		x, y = argsList
+		CvGameUtils.doprint("onDelayedDeath: (%d, %d)" %(x,y))
+		if Functions.isPlot(x,y):
+			pPlot = CyMap().plot(x, y)
+			if pPlot.getOriginalTerrain() == 512:
+				pPlot.setTerrainType(gc.getInfoTypeForString("TERRAIN_PLAINS"),True,True)
+			if pPlot.getOriginalTerrain() == 513:
+				pPlot.setPlotType(PlotTypes.PLOT_OCEAN,True,True)
+		
 	def onUnitPromoted(self, argsList):
 		'Unit Promoted'
 		pUnit, iPromotion = argsList
@@ -4542,11 +4562,15 @@ class CvEventManager:
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_THISWOMAN'),1)
 		
 		#うわばみ志向の国酒無償ボーナス
-		pPlayer = gc.getPlayer(city.getOwner())
 		if pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_ALCHOL")):
 			iStateReligion = pPlayer.getStateReligion()
 			if iStateReligion > -1:
 				city.setHasReligion(iStateReligion,True,True,True)
+		
+		#拡張志向は古典時代以降で人口2スタート
+		if pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_EXPANSIVE")):
+			if not pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_ANCIENT'):
+				city.changePopulation(1)
 		
 		#集権志向の処理
 		if pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_CENTRALIZATION")):

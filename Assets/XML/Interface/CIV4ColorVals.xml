@@ -14,27 +14,6 @@
       <fAlpha>0.00</fAlpha>
     </ColorVal>
     <ColorVal>
-      <Type>COLOR_PLAYER_CHERRY</Type>
-      <fRed>1.00</fRed>
-      <fGreen>0.66</fGreen>
-      <fBlue>0.87</fBlue>
-      <fAlpha>1.00</fAlpha>
-    </ColorVal>
-    <ColorVal>
-      <Type>COLOR_PLAYER_MOON</Type>
-      <fRed>0.152</fRed>
-      <fGreen>0.290</fGreen>
-      <fBlue>0.470</fBlue>
-      <fAlpha>1.00</fAlpha>
-    </ColorVal>
-    <ColorVal>
-      <Type>COLOR_PLAYER_MOONYELLOW</Type>
-      <fRed>0.960</fRed>
-      <fGreen>0.898</fGreen>
-      <fBlue>0.419</fBlue>
-      <fAlpha>1.00</fAlpha>
-    </ColorVal>
-    <ColorVal>
       <Type>COLOR_ALPHA_GREY</Type>
       <fRed>0.1</fRed>
       <fGreen>0.1</fGreen>
@@ -928,6 +907,27 @@
       <fRed>0.392</fRed>
       <fGreen>0.392</fGreen>
       <fBlue>0.392</fBlue>
+      <fAlpha>1.00</fAlpha>
+    </ColorVal>
+    <ColorVal>
+      <Type>COLOR_PLAYER_CHERRY</Type>
+      <fRed>1.00</fRed>
+      <fGreen>0.66</fGreen>
+      <fBlue>0.87</fBlue>
+      <fAlpha>1.00</fAlpha>
+    </ColorVal>
+    <ColorVal>
+      <Type>COLOR_PLAYER_MOON</Type>
+      <fRed>0.152</fRed>
+      <fGreen>0.290</fGreen>
+      <fBlue>0.470</fBlue>
+      <fAlpha>1.00</fAlpha>
+    </ColorVal>
+    <ColorVal>
+      <Type>COLOR_PLAYER_MOONYELLOW</Type>
+      <fRed>0.960</fRed>
+      <fGreen>0.898</fGreen>
+      <fBlue>0.419</fBlue>
       <fAlpha>1.00</fAlpha>
     </ColorVal>
   </ColorVals>

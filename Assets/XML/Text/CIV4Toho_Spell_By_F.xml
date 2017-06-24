@@ -1467,24 +1467,6 @@
 		<Japanese>[ICON_BULLET]都市に儲け話を建設&#13;[ICON_BULLET]てゐが都市から離れると消滅&#13;[ICON_BULLET]儲け話：全ての専門家枠+3&#13;[ICON_BULLET]昇進EXTRAが必要</Japanese>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_SPELL_TEWI_EXTRA2</Tag>
-		<English />
-		<French>竹林発生</French>
-		<German />
-		<Italian />
-		<Spanish />
-		<Japanese>竹林発生</Japanese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_TEWI_EXTRA2_HELP</Tag>
-		<English />
-		<French>[ICON_BULLET]自国文化圏内で発動したタイルの上に竹林を発生させる&#13;[ICON_BULLET]見えている資源、氾濫源、オアシス、都市タイルでは使用不可&#13;[ICON_BULLET]昇進EXTRAが必要</French>
-		<German />
-		<Italian />
-		<Spanish />
-		<Japanese>[ICON_BULLET]自国文化圏内で発動したタイルの上に竹林を発生させる&#13;[ICON_BULLET]見えている資源、氾濫源、オアシス、都市タイルでは使用不可&#13;[ICON_BULLET]昇進EXTRAが必要</Japanese>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_SPELL_TEWI_PHANTASM1</Tag>
 		<English />
 		<French>エンシェントデューパー</French>
@@ -1501,6 +1483,24 @@
 		<Italian />
 		<Spanish />
 		<Japanese>[ICON_BULLET]トラップユニットを仕掛ける&#13;[ICON_BULLET]仕掛けられる数は保有する都市数と同じで、自チームの領土のみ&#13;[ICON_BULLET]トラップの周囲１マスに敵対ユニットが駐留すると発動し、50％の確率で0～20％の割合ダメージを与える&#13;[ICON_BULLET]ただし、スパイが居た場合はスパイと引き換えにトラップが除去される&#13;[ICON_BULLET]昇進PHANTASMが必要</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TEWI_PHANTASM2</Tag>
+		<English />
+		<French>竹林発生</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>竹林発生</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TEWI_PHANTASM2_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]自国文化圏内で発動したタイルの上に竹林を発生させる&#13;[ICON_BULLET]見えている資源、氾濫源、オアシス、都市タイルでは使用不可&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.30が必要</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]自国文化圏内で発動したタイルの上に竹林を発生させる&#13;[ICON_BULLET]見えている資源、氾濫源、オアシス、都市タイルでは使用不可&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.30が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_EIRIN1_1</Tag>
@@ -5311,11 +5311,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_RINGO_PHANTASM1_HELP</Tag>
 		<English />
-		<French>[ICON_BULLET]術者が立っているタイルに川を設置する&#13;[ICON_BULLET]川が設置される方角は術者の南側で固定される&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.30が必要</French>
+		<French>[ICON_BULLET]術者が立っているタイルに川を設置する&#13;[ICON_BULLET]川が設置される方角は術者の南側で固定される&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.50が必要</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[ICON_BULLET]術者が立っているタイルに川を設置する&#13;[ICON_BULLET]川が設置される方角は術者の南側で固定される&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.30が必要</Japanese>
+		<Japanese>[ICON_BULLET]術者が立っているタイルに川を設置する&#13;[ICON_BULLET]川が設置される方角は術者の南側で固定される&#13;[ICON_BULLET]昇進PHANTASMが必要&#13;[ICON_BULLET]Power0.50が必要</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELLCARD_DOREMY1_1</Tag>

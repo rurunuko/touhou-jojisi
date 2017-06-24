@@ -11039,7 +11039,10 @@ bool CvUnit::doDelayedDeath()
 {
 	if (m_bDeathDelay && !isFighting())
 	{
+	  int x = getX_INLINE(), y = getY_INLINE();
 		kill(false);
+		
+		CvEventReporter::getInstance().onDelayedDeath(x, y);
 		return true;
 	}
 

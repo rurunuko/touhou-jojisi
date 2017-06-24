@@ -9498,7 +9498,7 @@
       <FreeStartEra>NONE</FreeStartEra>
       <MaxStartEra>NONE</MaxStartEra>
       <ObsoleteTech>NONE</ObsoleteTech>
-      <PrereqTech>NONE</PrereqTech>
+      <PrereqTech>TECH_ZYASENNOHUKYOU</PrereqTech>
       <TechTypes />
       <Bonus>NONE</Bonus>
       <PrereqBonuses />
@@ -9663,7 +9663,7 @@
       <FreeStartEra>NONE</FreeStartEra>
       <MaxStartEra>NONE</MaxStartEra>
       <ObsoleteTech>NONE</ObsoleteTech>
-      <PrereqTech>NONE</PrereqTech>
+      <PrereqTech>TECH_ZYASENNOHUKYOU</PrereqTech>
       <TechTypes />
       <Bonus>NONE</Bonus>
       <PrereqBonuses />
@@ -9827,7 +9827,7 @@
       <FreeStartEra>NONE</FreeStartEra>
       <MaxStartEra>NONE</MaxStartEra>
       <ObsoleteTech>NONE</ObsoleteTech>
-      <PrereqTech>NONE</PrereqTech>
+      <PrereqTech>TECH_ZYASENNOHUKYOU</PrereqTech>
       <TechTypes />
       <Bonus>NONE</Bonus>
       <PrereqBonuses />
@@ -10006,7 +10006,7 @@
       <FreeStartEra>NONE</FreeStartEra>
       <MaxStartEra>NONE</MaxStartEra>
       <ObsoleteTech>NONE</ObsoleteTech>
-      <PrereqTech>NONE</PrereqTech>
+      <PrereqTech>TECH_ZYASENNOHUKYOU</PrereqTech>
       <TechTypes />
       <Bonus>NONE</Bonus>
       <PrereqBonuses />
@@ -11085,7 +11085,7 @@
       <VictoryPrereq>NONE</VictoryPrereq>
       <FreeStartEra>NONE</FreeStartEra>
       <MaxStartEra>NONE</MaxStartEra>
-      <ObsoleteTech>TECH_STEAM_POWER</ObsoleteTech>
+      <ObsoleteTech>TECH_RIFLING</ObsoleteTech>
       <PrereqTech>TECH_USINAWARETA_SEISIN</PrereqTech>
       <TechTypes />
       <Bonus>NONE</Bonus>
@@ -27749,7 +27749,7 @@
       <YieldChanges>
         <iYield>0</iYield>
         <iYield>1</iYield>
-        <iYield>4</iYield>
+        <iYield>2</iYield>
       </YieldChanges>
       <YieldModifiers />
       <CommerceChanges />
@@ -59371,7 +59371,12 @@
       <TechTypes />
       <Bonus>NONE</Bonus>
       <PrereqBonuses />
-      <ProductionTraits />
+      <ProductionTraits>
+        <ProductionTrait>
+          <ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
+          <iProductionTrait>100</iProductionTrait>
+        </ProductionTrait>
+      </ProductionTraits>
       <HappinessTraits />
       <NoBonus>NONE</NoBonus>
       <PowerBonus>NONE</PowerBonus>
