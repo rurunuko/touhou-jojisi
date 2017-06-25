@@ -4978,7 +4978,7 @@ def spellcard_YORIHIME1(caster,cost):
 	pPlayer = gc.getPlayer(iPlayer)
 	pPlot = caster.plot()
 	RangeList = []
-	
+	sokushiUnits = []
 	
 	if pPlayer.getAmenouzumeFlag() == 1:
 		iWidth = gc.getMap().getGridWidth()
@@ -4986,6 +4986,17 @@ def spellcard_YORIHIME1(caster,cost):
 		for iX in range(iWidth):
 			for iY in range(iHeight):
 				RangeList.append([iX - caster.getX(),iY - caster.getY()])
+				if pPlot.isCity():
+					pCity = pPlot.getPlotCity()
+					if caster.getTeam() != pCity.getTeam() and pTeam.isAtWar(pCity.getTeam()) == True:
+						pCity.changeDefenseDamage(500)
+		
+		Functions.changeDamage(RangeList,caster,-100,-100,100,False,True,False,False,-1,True,True,True,True,-1,True,1)
+		Functions.changeDamage(RangeList,caster,CAL*3,CAL*6,0,False,False,False,True,-1,False,True,True,True,-1,False,0)
+		Functions.changeDamage(RangeList,caster,(CAL*3)/2,(CAL*6)/2,0,False,False,False,True,-1,True,False,True,True,-1,False,0)
+
+		for iX in range(iWidth):
+			for iY in range(iHeight):
 				pPlot = gc.getMap().plot(iX,iY)
 				for i in range(pPlot.getNumUnits()):
 					pTeam = gc.getTeam(caster.getTeam())
@@ -5000,26 +5011,19 @@ def spellcard_YORIHIME1(caster,cost):
 								pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MINAMITSU')) or
 								pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_YOSHIKA')) or
 								pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOJIKO')) ):
-								pUnit.changeDamage(100,pUnit.getOwner())
+								sokushiUnits.append(pUnit)
 						else:
 							if (pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_ZOMBIEFAIRY')) or
 								pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KYONSHII')) ):
-								pUnit.changeDamage(100,pUnit.getOwner())
-				if pPlot.isCity():
-					pCity = pPlot.getPlotCity()
-					if caster.getTeam() != pCity.getTeam() and pTeam.isAtWar(pCity.getTeam()) == True:
-						pCity.changeDefenseDamage(500)
-		
-		pPlayer.setAmenouzumeFlag(0)
-		Functions.changeDamage(RangeList,caster,-100,-100,100,False,True,False,False,-1,True,True,True,True,-1,True,1)
-		Functions.changeDamage(RangeList,caster,CAL*3,CAL*6,0,False,False,False,True,-1,False,True,True,True,-1,False,0)
-		Functions.changeDamage(RangeList,caster,(CAL*3)/2,(CAL*6)/2,0,False,False,False,True,-1,True,False,True,True,-1,False,0)
+								sokushiUnits.append(pUnit)
+		for pUnit in sokushiUnits:
+			pUnit.changeDamage(100, pUnit.getOwner())
 
 		caster.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
 		caster.setPower(caster.getPower()-cost)
+		pPlayer.setAmenouzumeFlag(0)
 	
-		point = caster.plot().getPoint()
-	
+	point = caster.plot().getPoint()
 	CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
 	CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
 	
