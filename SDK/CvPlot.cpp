@@ -6118,7 +6118,7 @@ int CvPlot::calculateYield(YieldTypes eYield, bool bDisplay) const
 		if (GET_PLAYER(ePlayer).hasTrait((TraitTypes)(GC.getInfoTypeForString("TRAIT_FUTOLIST")))){
 			if (eYield == YIELD_FOOD){
 				if (this->getImprovementType() == GC.getInfoTypeForString("IMPROVEMENT_RYUMYAKU")){
-					iYield += 2;
+					iYield += 1;
 				}
 			}
 		}
