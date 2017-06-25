@@ -221,8 +221,10 @@ class CvEventManager:
 		if (config != None):
 			CFG_EnabledCitizensAutomated = config.getboolean( "Citizens Automated", "Enabled", True)
 
-                # 地霊殿持ち越し用
-                self.ChireidenOverflow = (-1, 0)
+		# 地霊殿持ち越し用
+		self.ChireidenOverflow = (-1, 0)
+		# UB変更履歴
+		self.oldCivBuildings = []
 
 #################### EVENT STARTERS ######################
 	def handleEvent(self, argsList):
@@ -472,11 +474,45 @@ class CvEventManager:
 		"return the string to be saved - Must be a string"
 		return ""
 
+	def setTraitUB(self):
+		iNumPlayer = 19     # 19でいいのかほんとに
+
+		TraitBuildingclassBuildingList = [
+			['TRAIT_BENBENLIST', 'BUILDINGCLASS_OBELISK', 'BUILDING_KISHINJOU_ETHIOPIAN_STELE'],
+		]
+
+		# もどす
+		for it in self.oldCivBuildings:
+			iCiv, ibC, idB = it
+			pCiv = gc.getCivilizationInfo(iCiv)
+			pCiv.setCivilizationBuildings(ibC, idB)
+
+		for it in TraitBuildingclassBuildingList:
+			trait, bclass, build = it
+			found = False
+			for i in range(iNumPlayer):
+				pPlayer = gc.getPlayer(i)
+				pCiv = gc.getCivilizationInfo( pPlayer.getCivilizationType() )
+				ibC = gc.getInfoTypeForString(bclass)
+				#その志向があれば
+				if pPlayer.hasTrait(gc.getInfoTypeForString(trait)):
+					iB = gc.getInfoTypeForString(build)
+					# おぼえる
+					self.oldCivBuildings.append( [pPlayer.getCivilizationType(), ibC, pCiv.getCivilizationBuildings(ibC)] )
+					# かえる
+					pCiv.setCivilizationBuildings(ibC, iB)
+				
+		
 	def onLoadGame(self, argsList):
+		self.setTraitUB()
 		return 0
 
 	def onGameStart(self, argsList):
 		'Called at the start of the game'
+
+		# before Starting Popup Widget
+		self.setTraitUB()
+		
 		if (gc.getGame().getGameTurnYear() == gc.getDefineINT("START_YEAR") and not gc.getGame().isOption(GameOptionTypes.GAMEOPTION_ADVANCED_START)):
 			for iPlayer in range(gc.getMAX_PLAYERS()):
 				player = gc.getPlayer(iPlayer)
@@ -589,9 +625,9 @@ class CvEventManager:
 				#月の都
 				if iCiv == gc.getInfoTypeForString('CIVILIZATION_AMERICA'):
 					pTeam.setHasTech(gc.getInfoTypeForString('TECH_MOON_WAR_FIRST'),True,i,True,True)
-
 			
-		##### </written by F> #####
+			##### </written by F> #####
+			
 		
 		
 	def onGameEnd(self, argsList):
@@ -2970,10 +3006,10 @@ class CvEventManager:
 					ppCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SUPERMARKET'),0)
 		
 		#もしも弁々がストーンヘンジを建設した場合、特殊ストーンヘンジに自動変換
-		if pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_BENBENLIST")):
-			if iBuildingType == gc.getInfoTypeForString('BUILDING_STONEHENGE'):
-				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_STONEHENGE'),0)
-				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BENBEN_STONEHENGE'),1)
+		#if pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_BENBENLIST")):
+		#	if iBuildingType == gc.getInfoTypeForString('BUILDING_STONEHENGE'):
+		#		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_STONEHENGE'),0)
+		#		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BENBEN_STONEHENGE'),1)
 		
 		#月読神社を建設した都市の周囲2マス圏内に農場および保安林があったら変換させる
 		if iBuildingType == gc.getInfoTypeForString('BUILDING_TSUKUYOMI_SHRINE'):
@@ -4744,15 +4780,15 @@ class CvEventManager:
 		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),0)
 		
 		#弁々がヘンジ付き都市を占領した場合は特殊ヘンジに変換
-		if gc.getPlayer(pCity.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_BENBENLIST')):
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_STONEHENGE")):
-				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_STONEHENGE'),0)
-				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BENBEN_STONEHENGE'),1)
+		#if gc.getPlayer(pCity.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_BENBENLIST')):
+		#	if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_STONEHENGE")):
+		#		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_STONEHENGE'),0)
+		#		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BENBEN_STONEHENGE'),1)
 		#逆に弁々以外が特殊ヘンジ都市を占領した場合はノーマルヘンジに変換
-		if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_BENBEN_STONEHENGE")):
-			if not gc.getPlayer(pCity.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_BENBENLIST')):
-				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BENBEN_STONEHENGE'),0)
-				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_STONEHENGE'),1)
+		#if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_BENBEN_STONEHENGE")):
+		#	if not gc.getPlayer(pCity.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_BENBENLIST')):
+		#		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BENBEN_STONEHENGE'),0)
+		#		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_STONEHENGE'),1)
 		
 		#神道を採用している場合、都市に鳥居自動建設
 		if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_SHINTO')) == True:

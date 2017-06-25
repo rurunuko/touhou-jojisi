@@ -30436,7 +30436,7 @@
       <iHotKeyPriority>0</iHotKeyPriority>
     </BuildingInfo>
     <BuildingInfo>
-      <BuildingClass>BUILDINGCLASS_KISHINJOU_ETHIOPIAN_STELE</BuildingClass>
+      <BuildingClass>BUILDINGCLASS_OBELISK</BuildingClass>
       <Type>BUILDING_KISHINJOU_ETHIOPIAN_STELE</Type>
       <SpecialBuildingType>NONE</SpecialBuildingType>
       <Description>TXT_KEY_BUILDING_ETHIOPIAN_STELE</Description>
@@ -30458,7 +30458,7 @@
       <FreeStartEra>NONE</FreeStartEra>
       <MaxStartEra>NONE</MaxStartEra>
       <ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
-      <PrereqTech>TECH_DUMMY</PrereqTech>
+      <PrereqTech>TECH_MYSTICISM</PrereqTech>
       <TechTypes />
       <Bonus>NONE</Bonus>
       <PrereqBonuses />
