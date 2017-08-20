@@ -70,6 +70,13 @@
       <bInGeneric>1</bInGeneric>
     </SoundData>
     <SoundData>
+      <SoundID>SND_TECH_XFILE</SoundID>
+      <Filename>Sounds/Tech/xfile</Filename>
+      <LoadType>STREAMED</LoadType>
+      <bIsCompressed>1</bIsCompressed>
+      <bInGeneric>1</bInGeneric>
+    </SoundData>
+    <SoundData>
       <SoundID>DIPLO_ALICE</SoundID>
       <Filename>Sounds/Diplomacy/ALICE</Filename>
       <LoadType>STREAMED</LoadType>

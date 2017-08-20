@@ -2332,3 +2332,15 @@ void CyPlayer::resetGreatPeopleThreshold(){
     m_pPlayer->resetGreatPeopleThreshold();
 
 }
+//“Œ•û–Ž–Ž“‡MOD—p
+int CyPlayer::getAmenouzumeFlag(){
+
+    return m_pPlayer->getAmenouzumeFlag();
+
+}
+
+void CyPlayer::setAmenouzumeFlag(int iNum){
+
+    m_pPlayer->setAmenouzumeFlag(iNum);
+
+}

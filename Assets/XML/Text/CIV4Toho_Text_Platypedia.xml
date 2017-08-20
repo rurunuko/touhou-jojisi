@@ -376,11 +376,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_EXPANSIVE_PEDIA</Tag>
 		<English />
-		<French>[TAB]拡張志向は比較的シンプルな志向です。都市に衛生ボーナスを与えつつ労働者・穀物庫・港の生産速度を向上させます。特に労働者と穀物庫の生産速度向上は指導者にとって有難い存在となるでしょう。何故ならこの2つはどんなプレイスタイルだろうがほぼ十中八九ハンマーを投入する対象であるためです。[PARAGRAPH:1][H1]バニラBtSとの違い[\H1][PARAGRAPH:1][ICON_BULLET]特に無し[PARAGRAPH:1][H1]特に相性の良い文明[\H1][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_ENGLAND]紅魔館[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_FRANCE]白玉楼[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_EGYPT]永遠亭[\LINK][PARAGRAPH:1][H1]ワンポイントアドバイス[\H1][PARAGRAPH:1][LINK=TRAIT_CHARISMATIC]カリスマ志向[\LINK]の幸福ボーナスは序盤ほど恩恵が大きいのに対し、こちらの衛生ボーナスはゲーム中盤～後半になるにつれて恩恵を感じるようになるでしょう。何故なら序盤は衛生ボーナスをもたらす[LINK=FEATURE_FOREST]森林[\LINK]タイルが多く、また人口が伸びたところですぐに幸福限界がきて頭打ちになるため、衛生ボーナスがあったところで持て余しがちになるためです。では拡張志向は序盤はあまり役に立たないか？といえば決してそうではありません。穀物庫は拡張が落ち着いたところでまず真っ先に建てるべき建造物の筆頭ですし、衛生に余分なボーナスがあるということは衛生をもたらす資源を放出してもまだ余裕がある場合がある、ということでもあります。そのため衛生ボーナスとの相談次第でAI文明に資源を売却してしまうのも一つの手です。勿論、衛生が欲しくなってくる後半にその取引を見直すことを忘れずに。</French>
+		<French>[TAB]拡張志向は比較的シンプルな志向です。都市に衛生ボーナスを与えつつ労働者・穀物庫・港の生産速度を向上させます。特に労働者と穀物庫の生産速度向上は指導者にとって有難い存在となるでしょう。何故ならこの2つはどんなプレイスタイルだろうがほぼ十中八九ハンマーを投入する対象であるためです。[PARAGRAPH:1][H1]バニラBtSとの違い[\H1][PARAGRAPH:1][ICON_BULLET]古典時代以降で建設した都市は人口2からスタート[PARAGRAPH:1][H1]特に相性の良い文明[\H1][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_ENGLAND]紅魔館[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_FRANCE]白玉楼[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_EGYPT]永遠亭[\LINK][PARAGRAPH:1][H1]ワンポイントアドバイス[\H1][PARAGRAPH:1][LINK=TRAIT_CHARISMATIC]カリスマ志向[\LINK]の幸福ボーナスは序盤ほど恩恵が大きいのに対し、こちらの衛生ボーナスはゲーム中盤～後半になるにつれて恩恵を感じるようになるでしょう。何故なら序盤は衛生ボーナスをもたらす[LINK=FEATURE_FOREST]森林[\LINK]タイルが多く、また人口が伸びたところですぐに幸福限界がきて頭打ちになるため、衛生ボーナスがあったところで持て余しがちになるためです。では拡張志向は序盤はあまり役に立たないか？といえば決してそうではありません。穀物庫は拡張が落ち着いたところでまず真っ先に建てるべき建造物の筆頭ですし、衛生に余分なボーナスがあるということは衛生をもたらす資源を放出してもまだ余裕がある場合がある、ということでもあります。そのため衛生ボーナスとの相談次第でAI文明に資源を売却してしまうのも一つの手です。勿論、衛生が欲しくなってくる後半にその取引を見直すことを忘れずに。</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[TAB]拡張志向は比較的シンプルな志向です。都市に衛生ボーナスを与えつつ労働者・穀物庫・港の生産速度を向上させます。特に労働者と穀物庫の生産速度向上は指導者にとって有難い存在となるでしょう。何故ならこの2つはどんなプレイスタイルだろうがほぼ十中八九ハンマーを投入する対象であるためです。[PARAGRAPH:1][H1]バニラBtSとの違い[\H1][PARAGRAPH:1][ICON_BULLET]特に無し[PARAGRAPH:1][H1]特に相性の良い文明[\H1][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_ENGLAND]紅魔館[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_FRANCE]白玉楼[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_EGYPT]永遠亭[\LINK][PARAGRAPH:1][H1]ワンポイントアドバイス[\H1][PARAGRAPH:1][LINK=TRAIT_CHARISMATIC]カリスマ志向[\LINK]の幸福ボーナスは序盤ほど恩恵が大きいのに対し、こちらの衛生ボーナスはゲーム中盤～後半になるにつれて恩恵を感じるようになるでしょう。何故なら序盤は衛生ボーナスをもたらす[LINK=FEATURE_FOREST]森林[\LINK]タイルが多く、また人口が伸びたところですぐに幸福限界がきて頭打ちになるため、衛生ボーナスがあったところで持て余しがちになるためです。では拡張志向は序盤はあまり役に立たないか？といえば決してそうではありません。穀物庫は拡張が落ち着いたところでまず真っ先に建てるべき建造物の筆頭ですし、衛生に余分なボーナスがあるということは衛生をもたらす資源を放出してもまだ余裕がある場合がある、ということでもあります。そのため衛生ボーナスとの相談次第でAI文明に資源を売却してしまうのも一つの手です。勿論、衛生が欲しくなってくる後半にその取引を見直すことを忘れずに。</Japanese>
+		<Japanese>[TAB]拡張志向は比較的シンプルな志向です。都市に衛生ボーナスを与えつつ労働者・穀物庫・港の生産速度を向上させます。特に労働者と穀物庫の生産速度向上は指導者にとって有難い存在となるでしょう。何故ならこの2つはどんなプレイスタイルだろうがほぼ十中八九ハンマーを投入する対象であるためです。[PARAGRAPH:1][H1]バニラBtSとの違い[\H1][PARAGRAPH:1][ICON_BULLET]古典時代以降で建設した都市は人口2からスタート[PARAGRAPH:1][H1]特に相性の良い文明[\H1][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_ENGLAND]紅魔館[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_FRANCE]白玉楼[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_EGYPT]永遠亭[\LINK][PARAGRAPH:1][H1]ワンポイントアドバイス[\H1][PARAGRAPH:1][LINK=TRAIT_CHARISMATIC]カリスマ志向[\LINK]の幸福ボーナスは序盤ほど恩恵が大きいのに対し、こちらの衛生ボーナスはゲーム中盤～後半になるにつれて恩恵を感じるようになるでしょう。何故なら序盤は衛生ボーナスをもたらす[LINK=FEATURE_FOREST]森林[\LINK]タイルが多く、また人口が伸びたところですぐに幸福限界がきて頭打ちになるため、衛生ボーナスがあったところで持て余しがちになるためです。では拡張志向は序盤はあまり役に立たないか？といえば決してそうではありません。穀物庫は拡張が落ち着いたところでまず真っ先に建てるべき建造物の筆頭ですし、衛生に余分なボーナスがあるということは衛生をもたらす資源を放出してもまだ余裕がある場合がある、ということでもあります。そのため衛生ボーナスとの相談次第でAI文明に資源を売却してしまうのも一つの手です。勿論、衛生が欲しくなってくる後半にその取引を見直すことを忘れずに。</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_FINANCIAL_PEDIA</Tag>
@@ -430,11 +430,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_PROTECTIVE_PEDIA</Tag>
 		<English />
-		<French>[TAB]防衛志向はバニラBtSだと活躍する状況が極めて限定的な扱いづらい志向ですが、MODの世界だと大体バニラより強化されています。勿論、東方叙事詩でもそれは例外ではありません！[PARAGRAPH:1][H1]バニラBtSとの違い[\H1][PARAGRAPH:1][ICON_BULLET][LINK=UNITCOMBAT_BOSS]東方ユニット[\LINK]にも無償の[LINK=PROMOTION_CITY_GARRISON1]都市駐留Ⅰ[\LINK]、[LINK=PROMOTION_DRILL1]教練Ⅰ[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=BUILDING_WALLS]防壁[\LINK]から[ICON_HAPPY]+1[PARAGRAPH:1][H1]特に相性の良い文明[\H1][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_ENGLAND]紅魔館[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_MALI]輝針城[\LINK][PARAGRAPH:1][H1]ワンポイントアドバイス[\H1][PARAGRAPH:1]東方叙事詩独自の仕様として、防衛志向を持つ場合[LINK=UNITCOMBAT_BOSS]東方ユニット[\LINK]にも無償の[LINK=PROMOTION_CITY_GARRISON1]都市駐留Ⅰ[\LINK]、[LINK=PROMOTION_DRILL1]教練Ⅰ[\LINK]が付きます。東方ユニットにとっては特に後者の教練Ⅰの存在が大きく、教練系昇進を取る事により東方ユニットの消耗を減らす事は勿論ですが、[LINK=PROMOTION_DRILL4]教練Ⅳ[\LINK]を取得することで強力な昇進である[LINK=PROMOTION_RENZOKUKOUGEKI]連続攻撃[\LINK]への道が開けます。この連続攻撃があると1ターンに何度も敵対ユニットを攻撃することが出来るため、東方ユニット1体で一般ユニット複数体以上の大活躍が出来るようになります。そして東方ユニットがより多くの経験値を稼げるようになり、更に[LINK=PROMOTION_TOHO_COMBAT1]基本操作[\LINK]系昇進（戦闘術系列と似たようなもの）を取り戦闘力の向上に繋げたり…と言ったこともできます。防衛志向を持つなら東方ユニットのうち1枠はコンバットルートを取って戦争し積極的に攻撃していきましょう。言葉的に矛盾しているような気がしますが、それは気のせいでしょう。</French>
+		<French>[TAB]防衛志向はバニラBtSだと活躍する状況が極めて限定的な扱いづらい志向ですが、MODの世界だと大体バニラより強化されています。勿論、東方叙事詩でもそれは例外ではありません！[PARAGRAPH:1][H1]バニラBtSとの違い[\H1][PARAGRAPH:1][ICON_BULLET][LINK=UNITCOMBAT_BOSS]東方ユニット[\LINK]と[LINK=UNIT_MACHINE_GUN]機関銃兵[\LINK]に無償の[LINK=PROMOTION_CITY_GARRISON1]都市駐留Ⅰ[\LINK]、[LINK=PROMOTION_DRILL1]教練Ⅰ[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=BUILDING_WALLS]防壁[\LINK]から[ICON_HAPPY]+1[PARAGRAPH:1][ICON_BULLET][LINK=BUILDING_GREAT_WALL]万里の長城[\LINK]の建設速度+100%[PARAGRAPH:1][H1]特に相性の良い文明[\H1][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_ENGLAND]紅魔館[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_MALI]輝針城[\LINK][PARAGRAPH:1][H1]ワンポイントアドバイス[\H1][PARAGRAPH:1]東方叙事詩独自の仕様として、防衛志向を持つ場合[LINK=UNITCOMBAT_BOSS]東方ユニット[\LINK]にも無償の[LINK=PROMOTION_CITY_GARRISON1]都市駐留Ⅰ[\LINK]、[LINK=PROMOTION_DRILL1]教練Ⅰ[\LINK]が付きます。東方ユニットにとっては特に後者の教練Ⅰの存在が大きく、教練系昇進を取る事により東方ユニットの消耗を減らす事は勿論ですが、[LINK=PROMOTION_DRILL4]教練Ⅳ[\LINK]を取得することで強力な昇進である[LINK=PROMOTION_RENZOKUKOUGEKI]連続攻撃[\LINK]への道が開けます。この連続攻撃があると1ターンに何度も敵対ユニットを攻撃することが出来るため、東方ユニット1体で一般ユニット複数体以上の大活躍が出来るようになります。そして東方ユニットがより多くの経験値を稼げるようになり、更に[LINK=PROMOTION_TOHO_COMBAT1]基本操作[\LINK]系昇進（戦闘術系列と似たようなもの）を取り戦闘力の向上に繋げたり…と言ったこともできます。防衛志向を持つなら東方ユニットのうち1枠はコンバットルートを取って戦争し積極的に攻撃していきましょう。言葉的に矛盾しているような気がしますが、それは気のせいでしょう。</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[TAB]防衛志向はバニラBtSだと活躍する状況が極めて限定的な扱いづらい志向ですが、MODの世界だと大体バニラより強化されています。勿論、東方叙事詩でもそれは例外ではありません！[PARAGRAPH:1][H1]バニラBtSとの違い[\H1][PARAGRAPH:1][ICON_BULLET][LINK=UNITCOMBAT_BOSS]東方ユニット[\LINK]にも無償の[LINK=PROMOTION_CITY_GARRISON1]都市駐留Ⅰ[\LINK]、[LINK=PROMOTION_DRILL1]教練Ⅰ[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=BUILDING_WALLS]防壁[\LINK]から[ICON_HAPPY]+1[PARAGRAPH:1][H1]特に相性の良い文明[\H1][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_ENGLAND]紅魔館[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_MALI]輝針城[\LINK][PARAGRAPH:1][H1]ワンポイントアドバイス[\H1][PARAGRAPH:1]東方叙事詩独自の仕様として、防衛志向を持つ場合[LINK=UNITCOMBAT_BOSS]東方ユニット[\LINK]にも無償の[LINK=PROMOTION_CITY_GARRISON1]都市駐留Ⅰ[\LINK]、[LINK=PROMOTION_DRILL1]教練Ⅰ[\LINK]が付きます。東方ユニットにとっては特に後者の教練Ⅰの存在が大きく、教練系昇進を取る事により東方ユニットの消耗を減らす事は勿論ですが、[LINK=PROMOTION_DRILL4]教練Ⅳ[\LINK]を取得することで強力な昇進である[LINK=PROMOTION_RENZOKUKOUGEKI]連続攻撃[\LINK]への道が開けます。この連続攻撃があると1ターンに何度も敵対ユニットを攻撃することが出来るため、東方ユニット1体で一般ユニット複数体以上の大活躍が出来るようになります。そして東方ユニットがより多くの経験値を稼げるようになり、更に[LINK=PROMOTION_TOHO_COMBAT1]基本操作[\LINK]系昇進（戦闘術系列と似たようなもの）を取り戦闘力の向上に繋げたり…と言ったこともできます。防衛志向を持つなら東方ユニットのうち1枠はコンバットルートを取って戦争し積極的に攻撃していきましょう。言葉的に矛盾しているような気がしますが、それは気のせいでしょう。</Japanese>
+		<Japanese>[TAB]防衛志向はバニラBtSだと活躍する状況が極めて限定的な扱いづらい志向ですが、MODの世界だと大体バニラより強化されています。勿論、東方叙事詩でもそれは例外ではありません！[PARAGRAPH:1][H1]バニラBtSとの違い[\H1][PARAGRAPH:1][ICON_BULLET][LINK=UNITCOMBAT_BOSS]東方ユニット[\LINK]と[LINK=UNIT_MACHINE_GUN]機関銃兵[\LINK]に無償の[LINK=PROMOTION_CITY_GARRISON1]都市駐留Ⅰ[\LINK]、[LINK=PROMOTION_DRILL1]教練Ⅰ[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=BUILDING_WALLS]防壁[\LINK]から[ICON_HAPPY]+1[PARAGRAPH:1][ICON_BULLET][LINK=BUILDING_GREAT_WALL]万里の長城[\LINK]の建設速度+100%[PARAGRAPH:1][H1]特に相性の良い文明[\H1][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_ENGLAND]紅魔館[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_MALI]輝針城[\LINK][PARAGRAPH:1][H1]ワンポイントアドバイス[\H1][PARAGRAPH:1]東方叙事詩独自の仕様として、防衛志向を持つ場合[LINK=UNITCOMBAT_BOSS]東方ユニット[\LINK]にも無償の[LINK=PROMOTION_CITY_GARRISON1]都市駐留Ⅰ[\LINK]、[LINK=PROMOTION_DRILL1]教練Ⅰ[\LINK]が付きます。東方ユニットにとっては特に後者の教練Ⅰの存在が大きく、教練系昇進を取る事により東方ユニットの消耗を減らす事は勿論ですが、[LINK=PROMOTION_DRILL4]教練Ⅳ[\LINK]を取得することで強力な昇進である[LINK=PROMOTION_RENZOKUKOUGEKI]連続攻撃[\LINK]への道が開けます。この連続攻撃があると1ターンに何度も敵対ユニットを攻撃することが出来るため、東方ユニット1体で一般ユニット複数体以上の大活躍が出来るようになります。そして東方ユニットがより多くの経験値を稼げるようになり、更に[LINK=PROMOTION_TOHO_COMBAT1]基本操作[\LINK]系昇進（戦闘術系列と似たようなもの）を取り戦闘力の向上に繋げたり…と言ったこともできます。防衛志向を持つなら東方ユニットのうち1枠はコンバットルートを取って戦争し積極的に攻撃していきましょう。言葉的に矛盾しているような気がしますが、それは気のせいでしょう。</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_SPIRITUAL_PEDIA</Tag>
@@ -1663,47 +1663,953 @@
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_CENTRALIZATION_PEDIA</Tag>
 		<English />
-		<French>[TAB]集権志向は東方叙事詩オリジナルの志向です。バニラBtSには存在しません。特に太古～中世にかけてのスタートダッシュに定評がある志向です。[PARAGRAPH:1][H1]特に相性の良い文明[\H1][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_SPAIN]妖怪の山[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_MALI]輝針城[\LINK][PARAGRAPH:1][H1]ワンポイントアドバイス[\H1][PARAGRAPH:1]集権志向は効力的には比較的シンプルな志向ですが、しかしその効力で明確に序盤の滑り出しが早くなります。首都を建設したその瞬間から、[LINK=IMPROVEMENT_TOWN]町[\LINK]タイル（無強化）に匹敵するコイン、そして「どこでも[LINK=TERRAIN_PLAINS]平原[\LINK][LINK=TERRAIN_HILL]丘[\LINK]」的な効力を発揮するハンマー+1追加のおかげで最序盤の技術開発が明確に早く、また[LINK=UNIT_WORKER]労働者[\LINK]や[LINK=UNIT_SETTLER]開拓者[\LINK]の生産スピードも早いため序盤の拡張も素早く行えます。[PARAGRAPH:1]集権志向のもう一つの目玉は「中世に入った時点で無条件で[LINK=CIVIC_BUREAUCRACY]官僚制[\LINK]を採用可能」という効力です。とにかく何でもいいのでどうにかして中世に入れば強力な官僚制を採用出来るのです。特にプレイヤーの間では有名な[LINK=UNIT_SCIENTIST]大科学者[\LINK]を利用した技術キャッチアップ法・[LINK=TECH_PHILOSOPHY]哲学[\LINK]ジャンプ（詳細は長くなるので各自自分で調べてください）を行った際にこの恩恵に授かる事が多いでしょう。しかし哲学ジャンプ以外でも例えば海洋マップで光学を優先したいとか、あるいは[LINK=BUILDING_GREAT_LIBRARY]アレクサンドリア図書館[\LINK]を建てる為に[LINK=TECH_LITERATURE]文学[\LINK]ルートに進んだ際、そのまま[LINK=TECH_MUSIC]音楽[\LINK]の取得を行い中世入り…などなど、[LINK=TECH_CIVIL_SERVICE]官吏[\LINK]の取得が遅れる技術ルートを通っても問題なく官僚制を入れることが出来る、という大きな利点があります。[PARAGRAPH:1]ただし気をつけなければならないことが一つあります。それは、いくら中世入りで官僚制は無条件で採用出来るようになったとしても、官吏のもう一つのメイン効力である「農場が灌漑を通すようになる」効力は付いてこないということです。官吏取得を遅らせることは出来ますが、かといっていつまでも取らないのもそれはそれで問題があります。適切なタイミングで官吏もしっかり取るようにしましょう。</French>
+		<French>[TAB]集権志向は東方叙事詩オリジナルの志向です。バニラBtSには存在しません。特に太古～中世にかけてのスタートダッシュに定評がある志向です。[PARAGRAPH:1][H1]特に相性の良い文明[\H1][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_SPAIN]妖怪の山[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_MALI]輝針城[\LINK][PARAGRAPH:1][H1]ワンポイントアドバイス[\H1][PARAGRAPH:1]集権志向は効力的には比較的シンプルな志向ですが、しかしその効力で明確に序盤の滑り出しが早くなります。首都を建設したその瞬間から、[LINK=IMPROVEMENT_HAMLET]村落[\LINK]タイル（無強化）に匹敵するコイン、そして「どこでも[LINK=TERRAIN_PLAINS]平原[\LINK][LINK=TERRAIN_HILL]丘[\LINK]」的な効力を発揮するハンマー+1追加のおかげで最序盤の技術開発が明確に早く、また[LINK=UNIT_WORKER]労働者[\LINK]や[LINK=UNIT_SETTLER]開拓者[\LINK]の生産スピードも早いため序盤の拡張も素早く行えます。[PARAGRAPH:1]集権志向のもう一つの目玉は「中世に入った時点で無条件で[LINK=CIVIC_BUREAUCRACY]官僚制[\LINK]を採用可能」という効力です。とにかく何でもいいのでどうにかして中世に入れば強力な官僚制を採用出来るのです。特にプレイヤーの間では有名な[LINK=UNIT_SCIENTIST]大科学者[\LINK]を利用した技術キャッチアップ法・[LINK=TECH_PHILOSOPHY]哲学[\LINK]ジャンプ（詳細は長くなるので各自自分で調べてください）を行った際にこの恩恵に授かる事が多いでしょう。しかし哲学ジャンプ以外でも例えば海洋マップで光学を優先したいとか、あるいは[LINK=BUILDING_GREAT_LIBRARY]アレクサンドリア図書館[\LINK]を建てる為に[LINK=TECH_LITERATURE]文学[\LINK]ルートに進んだ際、そのまま[LINK=TECH_MUSIC]音楽[\LINK]の取得を行い中世入り…などなど、[LINK=TECH_CIVIL_SERVICE]官吏[\LINK]の取得が遅れる技術ルートを通っても問題なく官僚制を入れることが出来る、という大きな利点があります。[PARAGRAPH:1]ただし気をつけなければならないことが一つあります。それは、いくら中世入りで官僚制は無条件で採用出来るようになったとしても、官吏のもう一つのメイン効力である「農場が灌漑を通すようになる」効力は付いてこないということです。官吏取得を遅らせることは出来ますが、かといっていつまでも取らないのもそれはそれで問題があります。適切なタイミングで官吏もしっかり取るようにしましょう。</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>[TAB]集権志向は東方叙事詩オリジナルの志向です。バニラBtSには存在しません。特に太古～中世にかけてのスタートダッシュに定評がある志向です。[PARAGRAPH:1][H1]特に相性の良い文明[\H1][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_SPAIN]妖怪の山[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_MALI]輝針城[\LINK][PARAGRAPH:1][H1]ワンポイントアドバイス[\H1][PARAGRAPH:1]集権志向は効力的には比較的シンプルな志向ですが、しかしその効力で明確に序盤の滑り出しが早くなります。首都を建設したその瞬間から、[LINK=IMPROVEMENT_TOWN]町[\LINK]タイル（無強化）に匹敵するコイン、そして「どこでも[LINK=TERRAIN_PLAINS]平原[\LINK][LINK=TERRAIN_HILL]丘[\LINK]」的な効力を発揮するハンマー+1追加のおかげで最序盤の技術開発が明確に早く、また[LINK=UNIT_WORKER]労働者[\LINK]や[LINK=UNIT_SETTLER]開拓者[\LINK]の生産スピードも早いため序盤の拡張も素早く行えます。[PARAGRAPH:1]集権志向のもう一つの目玉は「中世に入った時点で無条件で[LINK=CIVIC_BUREAUCRACY]官僚制[\LINK]を採用可能」という効力です。とにかく何でもいいのでどうにかして中世に入れば強力な官僚制を採用出来るのです。特にプレイヤーの間では有名な[LINK=UNIT_SCIENTIST]大科学者[\LINK]を利用した技術キャッチアップ法・[LINK=TECH_PHILOSOPHY]哲学[\LINK]ジャンプ（詳細は長くなるので各自自分で調べてください）を行った際にこの恩恵に授かる事が多いでしょう。しかし哲学ジャンプ以外でも例えば海洋マップで光学を優先したいとか、あるいは[LINK=BUILDING_GREAT_LIBRARY]アレクサンドリア図書館[\LINK]を建てる為に[LINK=TECH_LITERATURE]文学[\LINK]ルートに進んだ際、そのまま[LINK=TECH_MUSIC]音楽[\LINK]の取得を行い中世入り…などなど、[LINK=TECH_CIVIL_SERVICE]官吏[\LINK]の取得が遅れる技術ルートを通っても問題なく官僚制を入れることが出来る、という大きな利点があります。[PARAGRAPH:1]ただし気をつけなければならないことが一つあります。それは、いくら中世入りで官僚制は無条件で採用出来るようになったとしても、官吏のもう一つのメイン効力である「農場が灌漑を通すようになる」効力は付いてこないということです。官吏取得を遅らせることは出来ますが、かといっていつまでも取らないのもそれはそれで問題があります。適切なタイミングで官吏もしっかり取るようにしましょう。</Japanese>
+		<Japanese>[TAB]集権志向は東方叙事詩オリジナルの志向です。バニラBtSには存在しません。特に太古～中世にかけてのスタートダッシュに定評がある志向です。[PARAGRAPH:1][H1]特に相性の良い文明[\H1][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_SPAIN]妖怪の山[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=CIVILIZATION_MALI]輝針城[\LINK][PARAGRAPH:1][H1]ワンポイントアドバイス[\H1][PARAGRAPH:1]集権志向は効力的には比較的シンプルな志向ですが、しかしその効力で明確に序盤の滑り出しが早くなります。首都を建設したその瞬間から、[LINK=IMPROVEMENT_HAMLET]村落[\LINK]タイル（無強化）に匹敵するコイン、そして「どこでも[LINK=TERRAIN_PLAINS]平原[\LINK][LINK=TERRAIN_HILL]丘[\LINK]」的な効力を発揮するハンマー+1追加のおかげで最序盤の技術開発が明確に早く、また[LINK=UNIT_WORKER]労働者[\LINK]や[LINK=UNIT_SETTLER]開拓者[\LINK]の生産スピードも早いため序盤の拡張も素早く行えます。[PARAGRAPH:1]集権志向のもう一つの目玉は「中世に入った時点で無条件で[LINK=CIVIC_BUREAUCRACY]官僚制[\LINK]を採用可能」という効力です。とにかく何でもいいのでどうにかして中世に入れば強力な官僚制を採用出来るのです。特にプレイヤーの間では有名な[LINK=UNIT_SCIENTIST]大科学者[\LINK]を利用した技術キャッチアップ法・[LINK=TECH_PHILOSOPHY]哲学[\LINK]ジャンプ（詳細は長くなるので各自自分で調べてください）を行った際にこの恩恵に授かる事が多いでしょう。しかし哲学ジャンプ以外でも例えば海洋マップで光学を優先したいとか、あるいは[LINK=BUILDING_GREAT_LIBRARY]アレクサンドリア図書館[\LINK]を建てる為に[LINK=TECH_LITERATURE]文学[\LINK]ルートに進んだ際、そのまま[LINK=TECH_MUSIC]音楽[\LINK]の取得を行い中世入り…などなど、[LINK=TECH_CIVIL_SERVICE]官吏[\LINK]の取得が遅れる技術ルートを通っても問題なく官僚制を入れることが出来る、という大きな利点があります。[PARAGRAPH:1]ただし気をつけなければならないことが一つあります。それは、いくら中世入りで官僚制は無条件で採用出来るようになったとしても、官吏のもう一つのメイン効力である「農場が灌漑を通すようになる」効力は付いてこないということです。官吏取得を遅らせることは出来ますが、かといっていつまでも取らないのもそれはそれで問題があります。適切なタイミングで官吏もしっかり取るようにしましょう。</Japanese>
+	</TEXT>
+	<!-- TohoTrait End -->
+	<!-- Credits Start -->
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CREDITS</Tag>
+		<English />
+		<French>クレジット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>クレジット</Japanese>
 	</TEXT>
 	<TEXT>
-		<Tag></Tag>
+		<Tag>TXT_KEY_CREDIT_TESTORS</Tag>
 		<English />
-		<French></French>
+		<French>[H1]Testors[\H1][NEWLINE][COLOR_SELECTED_TEXT]Archid, Chinese American, Dancing Hoskuld, isenchine, keldath, Lib.Spi't, Roamty, stolenrays, vincentz[COLOR_REVERT]</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese></Japanese>
+		<Japanese>[H1]Testors[\H1][NEWLINE][COLOR_SELECTED_TEXT]Archid, Chinese American, Dancing Hoskuld, isenchine, keldath, Lib.Spi't, Roamty, stolenrays, vincentz[COLOR_REVERT]</Japanese>
 	</TEXT>
 	<TEXT>
-		<Tag></Tag>
+		<Tag>TXT_KEY_CREDIT_LANGUAGE_SUPPORT</Tag>
 		<English />
-		<French></French>
+		<French>[H1]Language Support[\H1][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]English[COLOR_REVERT] by [COLOR_SELECTED_TEXT]Platyping[COLOR_REVERT][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Japanese[COLOR_REVERT] by [COLOR_SELECTED_TEXT]rurunuko[COLOR_REVERT]</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese></Japanese>
+		<Japanese>[H1]Language Support[\H1][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]English[COLOR_REVERT] by [COLOR_SELECTED_TEXT]Platyping[COLOR_REVERT][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Japanese[COLOR_REVERT] by [COLOR_SELECTED_TEXT]rurunuko[COLOR_REVERT]</Japanese>
 	</TEXT>
 	<TEXT>
-		<Tag></Tag>
+		<Tag>TXT_KEY_CREDIT_CODERS</Tag>
 		<English />
-		<French></French>
+		<French>[H1]Coders[\H1][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Python[COLOR_REVERT] by [COLOR_SELECTED_TEXT]Platyping[COLOR_REVERT][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]CvPediaTohoUnit[COLOR_REVERT] by [COLOR_SELECTED_TEXT]F[COLOR_REVERT][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]上記2コードの微調整[COLOR_REVERT] by [COLOR_SELECTED_TEXT]rurunuko[COLOR_REVERT][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]全般的なpython及びSDKのブラッシュアップ[COLOR_REVERT] by [COLOR_SELECTED_TEXT]@gforest_shade[COLOR_REVERT]</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese></Japanese>
+		<Japanese>[H1]Coders[\H1][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Python[COLOR_REVERT] by [COLOR_SELECTED_TEXT]Platyping[COLOR_REVERT][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]CvPediaTohoUnit[COLOR_REVERT] by [COLOR_SELECTED_TEXT]F[COLOR_REVERT][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]上記2コードの微調整[COLOR_REVERT] by [COLOR_SELECTED_TEXT]rurunuko[COLOR_REVERT][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]全般的なpython及びSDKのブラッシュアップ[COLOR_REVERT] by [COLOR_SELECTED_TEXT]@gforest_shade[COLOR_REVERT]</Japanese>
 	</TEXT>
 	<TEXT>
-		<Tag></Tag>
+		<Tag>TXT_KEY_CREDIT_GRAPHICS</Tag>
 		<English />
-		<French></French>
+		<French>[H1]Graphics[\H1][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]All[COLOR_REVERT] from [COLOR_SELECTED_TEXT]Firaxis[COLOR_REVERT]</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese></Japanese>
+		<Japanese>[H1]Graphics[\H1][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]All[COLOR_REVERT] from [COLOR_SELECTED_TEXT]Firaxis[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CREDIT_MOD_COMP</Tag>
+		<English />
+		<French>[H1]Mod Components[\H1][H2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Platy Pedia[COLOR_REVERT][\H2]Advanced Pedia with more information and sorting functions. Coded by [COLOR_SELECTED_TEXT]Platyping[COLOR_REVERT]. Modified Upgrade Tree from Sevopedia originally by [COLOR_SELECTED_TEXT]Vovan[COLOR_REVERT].</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]Mod Components[\H1][H2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Platy Pedia[COLOR_REVERT][\H2]Advanced Pedia with more information and sorting functions. Coded by [COLOR_SELECTED_TEXT]Platyping[COLOR_REVERT]. Modified Upgrade Tree from Sevopedia originally by [COLOR_SELECTED_TEXT]Vovan[COLOR_REVERT].</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CREDIT_PEDIA_TEXT</Tag>
+		<English />
+		<French>[H1]Pedia Text[\H1][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Vanilla Civ4 Text[COLOR_REVERT] from [COLOR_SELECTED_TEXT]Firaxis[COLOR_REVERT][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]東方叙事詩独自設定テキスト等[COLOR_REVERT] by [COLOR_SELECTED_TEXT][ICON_BULLET]蒼破,F,@Shiden61,rurunuko,その他、数々の協力者様たち[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[H1]Pedia Text[\H1][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Vanilla Civ4 Text[COLOR_REVERT] from [COLOR_SELECTED_TEXT]Firaxis[COLOR_REVERT][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]東方叙事詩独自設定テキスト等[COLOR_REVERT] by [COLOR_SELECTED_TEXT][ICON_BULLET]蒼破,F,@Shiden61,rurunuko,その他、数々の協力者様たち[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<!-- Credits End -->
+	<!-- ConceptsPlus Start -->
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_ANIMALS</Tag>
+		<English />
+		<French>(無印)動物</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)動物</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_AIR_UNITS</Tag>
+		<English />
+		<French>(無印)航空ユニット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)航空ユニット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_BARBARIANS</Tag>
+		<English />
+		<French>(無印)蛮族</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)蛮族</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_BORDERS</Tag>
+		<English />
+		<French>(無印)勢力圏</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)勢力圏</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_BUILDINGS</Tag>
+		<English />
+		<French>(無印)建造物</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)建造物</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_CITIES</Tag>
+		<English />
+		<French>(無印)都市</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)都市</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_CITY_NETWORK</Tag>
+		<English />
+		<French>(無印)都市網</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)都市網</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_CIVICS</Tag>
+		<English />
+		<French>(無印)社会制度</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)社会制度</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_COMBAT</Tag>
+		<English />
+		<French>(無印)戦闘</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)戦闘</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_COMMERCE</Tag>
+		<English />
+		<French>(無印)商業</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)商業</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_CULTURE</Tag>
+		<English />
+		<French>(無印)文化力</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)文化力</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_DIPLOMACY</Tag>
+		<English />
+		<French>(無印)外交</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)外交</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_DRAFT</Tag>
+		<English />
+		<French>(無印)徴兵</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)徴兵</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_EXPLORATION</Tag>
+		<English />
+		<French>(無印)探検</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)探検</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_FOOD</Tag>
+		<English />
+		<French>(無印)食料</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)食料</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_GOLDEN_AGE</Tag>
+		<English />
+		<French>(無印)黄金時代</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)黄金時代</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_GREAT_PEOPLE</Tag>
+		<English />
+		<French>(無印)偉人</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)偉人</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_HAPPINESS</Tag>
+		<English />
+		<French>(無印)満足</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)満足</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_HEALTH</Tag>
+		<English />
+		<French>(無印)衛生</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)衛生</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_HURRY_PRODUCTION</Tag>
+		<English />
+		<French>(無印)生産速度の向上</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)生産速度の向上</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_IMPROVEMENTS</Tag>
+		<English />
+		<French>(無印)資源活用</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)資源活用</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_LEADERS</Tag>
+		<English />
+		<French>(無印)指導者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)指導者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_MAINTENANCE</Tag>
+		<English />
+		<French>(無印)維持管理</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)維持管理</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_MAPS</Tag>
+		<English />
+		<French>(無印)地図</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)地図</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_MOVEMENT</Tag>
+		<English />
+		<French>(無印)移動</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)移動</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_NUKES</Tag>
+		<English />
+		<French>(無印)核兵器</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)核兵器</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_PRODUCTION</Tag>
+		<English />
+		<French>(無印)生産</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)生産</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_PROMOTIONS</Tag>
+		<English />
+		<French>(無印)戦闘スキル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)戦闘スキル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_RELIGION</Tag>
+		<English />
+		<French>(無印)宗教</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)宗教</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_RESEARCH</Tag>
+		<English />
+		<French>(無印)研究</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)研究</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_RESISTANCE</Tag>
+		<English />
+		<French>(無印)抵抗</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)抵抗</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_RESOURCES</Tag>
+		<English />
+		<French>(無印)資源</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)資源</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_REVOLUTION</Tag>
+		<English />
+		<French>(無印)革命</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)革命</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_SPACESHIP</Tag>
+		<English />
+		<French>(無印)宇宙船</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)宇宙船</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_SPECIALISTS</Tag>
+		<English />
+		<French>(無印)専門家</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)専門家</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_SPIES</Tag>
+		<English />
+		<French>(無印)スパイ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)スパイ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_TECHNOLOGY</Tag>
+		<English />
+		<French>(無印)テクノロジー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)テクノロジー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_TERRAIN</Tag>
+		<English />
+		<French>(無印)地形</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)地形</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_TRADE</Tag>
+		<English />
+		<French>(無印)交易</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)交易</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_TRANSPORT</Tag>
+		<English />
+		<French>(無印)輸送艦</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)輸送艦</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_TREASURY</Tag>
+		<English />
+		<French>(無印)国庫</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)国庫</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_UNITS</Tag>
+		<English />
+		<French>(無印)ユニット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)ユニット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_UNITED_NATIONS</Tag>
+		<English />
+		<French>(無印)国際連合</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)国際連合</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_VICTORY</Tag>
+		<English />
+		<French>(無印)勝利</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)勝利</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_WAR</Tag>
+		<English />
+		<French>(無印)戦争</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)戦争</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_WAR_WEARINESS</Tag>
+		<English />
+		<French>(無印)厭戦感情</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)厭戦感情</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_WEALTH</Tag>
+		<English />
+		<French>(無印)富</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)富</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_WONDERS</Tag>
+		<English />
+		<French>(無印)文化遺産</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(無印)文化遺産</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_GREAT_GENERALS</Tag>
+		<English />
+		<French>(WL)大将軍</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(WL)大将軍</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_VASSAL_STATES</Tag>
+		<English />
+		<French>(WL)属国</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(WL)属国</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_IRRIGATION</Tag>
+		<English />
+		<French>(WL)灌漑</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(WL)灌漑</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_FLANK_ATTACK</Tag>
+		<English />
+		<French>(BtS)改善された攻城戦</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)改善された攻城戦</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_SEA_TRADE</Tag>
+		<English />
+		<French>(BtS)海上交易路</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)海上交易路</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_CORPORATIONS</Tag>
+		<English />
+		<French>(BtS)企業</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)企業</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_COLONIES</Tag>
+		<English />
+		<French>(BtS)植民地</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)植民地</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_LATE_START</Tag>
+		<English />
+		<French>(BtS)成長済みスタート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)成長済みスタート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_EVENTS</Tag>
+		<English />
+		<French>(BtS)イベント</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)イベント</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_AIR_COMBAT</Tag>
+		<English />
+		<French>(BtS)空戦</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)空戦</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_AIR_PROMOTIONS</Tag>
+		<English />
+		<French>(BtS)航空ユニットのレベルアップ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)航空ユニットのレベルアップ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_GREAT_SPY</Tag>
+		<English />
+		<French>(BtS)大スパイ/スパイマスター</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)大スパイ/スパイマスター</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_FORT</Tag>
+		<English />
+		<French>(BtS)強化された要塞</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)強化された要塞</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_LIBERATION</Tag>
+		<English />
+		<French>(BtS)都市を解放</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)都市を解放</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BASIC_APOSTOLIC_PALACE</Tag>
+		<English />
+		<French>(BtS)宴会幹事役と博麗会議</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)宴会幹事役と博麗会議</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BTS_BASIC_FOREST_PRESERVE</Tag>
+		<English />
+		<French>(BtS)森林保護区</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)森林保護区</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BTS_BASIC_ESPIONAGE_CULTURE</Tag>
+		<English />
+		<French>(BtS)諜報</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)諜報</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BTS_BASIC_CIVS</Tag>
+		<English />
+		<French>(BtS)ビヨンド・ザ・ソードの文明</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)ビヨンド・ザ・ソードの文明</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BTS_BASIC_BUILDINGS</Tag>
+		<English />
+		<French>(BtS)ビヨンド・ザ・ソードの建造物</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)ビヨンド・ザ・ソードの建造物</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BTS_BASIC_UNITS</Tag>
+		<English />
+		<French>(BtS)ビヨンド・ザ・ソードのユニット</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)ビヨンド・ザ・ソードのユニット</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BTS_BASIC_LEADERS</Tag>
+		<English />
+		<French>(BtS)ビヨンド・ザ・ソードの指導者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)ビヨンド・ザ・ソードの指導者</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BTS_BASIC_WONDERS</Tag>
+		<English />
+		<French>(BtS)ビヨンド・ザ・ソードの遺産</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)ビヨンド・ザ・ソードの遺産</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BTS_BASIC_TECHS</Tag>
+		<English />
+		<French>(BtS)ビヨンド・ザ・ソードのテクノロジー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)ビヨンド・ザ・ソードのテクノロジー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BTS_BASIC_RULES_CHANGES</Tag>
+		<English />
+		<French>(BtS)ビヨンド・ザ・ソードのルール変更点</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>(BtS)ビヨンド・ザ・ソードのルール変更点</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_JOJISI_CONCEPT</Tag>
+		<English />
+		<French>攻略情報/システム</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>攻略情報/システム</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_JOJISI_STRATEGY</Tag>
+		<English />
+		<French>攻略情報</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>攻略情報</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_JOJISI_CONCEPT_2</Tag>
+		<English />
+		<French>ゲームシステム</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ゲームシステム</Japanese>
+	</TEXT>
+	<!-- ConceptsPlus End -->
+	<!-- JojisiStrategy Start -->
+	<TEXT>
+		<Tag>TXT_KEY_TOHOUNIT</Tag>
+		<English />
+		<French>東方ユニットとは</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>東方ユニットとは</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOHOUNIT_PEDIA</Tag>
+		<English />
+		<French>[TAB][H1]東方ユニットとは[\H1][PARAGRAPH:1]東方ユニットとは当MOD、東方叙事詩における最大の特色とも言える特殊なユニットです。各プレイヤー基本的に1ゲームにつき最大で3体まで（オプションによってはそれ以上の生産も可能です）生産する事が可能なユニットであり、通常のユニットと違い1体1体の使い方がゲームそのものの趨勢を決するほどの強力なユニットです。それだけに、通常のユニット以上に大事に運用していく事も求められます。このMODは[COLOR_HIGHLIGHT_TEXT]東方ユニットの使い方が全て[COLOR_REVERT]と言っても過言ではありません。[PARAGRAPH:1][H1]昇進について[\H1][PARAGRAPH:1]東方ユニットの昇進は通常のユニットとは全く異なっており、主に東方ユニットにとっての[LINK=PROMOTION_COMBAT1]戦闘術[\LINK]とも言える昇進である[LINK=PROMOTION_TOHO_COMBAT1]基本操作[\LINK]系列の昇進を取得していく[LINK=CONCEPT_TOHOUNIT_COMBAT]コンバットルート[\LINK]、爆撃機のように遠距離からの攻撃が可能になる[LINK=PROMOTION_LONGRANGE]遠距離攻撃[\LINK]系列の昇進を取っていく[LINK=CONCEPT_TOHOUNIT_SHOOTING]シューティングルート[\LINK]、各東方ユニットがそれぞれ個別に持っている切り札であるスペルカードの威力を高める[LINK=PROMOTION_MODE_EASY]難易度EASY[\LINK]系列の昇進を取っていく[LINK=CONCEPT_TOHOUNIT_SPELL]スペルカードルート[\LINK]の3種類に分かれています。[NEWLINE]これらの昇進ルートは両立するのは（不可能ではありませんが）非常に厳しいため基本的にはそのゲームにおいてそれぞれの東方ユニットは1つのルートに特化した昇進ルートを取っていくことになります。詳細は東方叙事詩・統合MODフルパックバージョンのフォルダ内部に付属している[COLOR_HIGHLIGHT_TEXT]叙事詩統合版_昇進チャート_v1.1.png[COLOR_REVERT]をご覧下さい[PARAGRAPH:1][H1]通常ユニットとの違い[\H1][PARAGRAPH:1][ICON_BULLET]各文明が持つ独自テクノロジーを取得することでアップグレードが可能になり、より強力になる。[PARAGRAPH:1][LINK=CIVILIZATION_INDIA]人間の里[\LINK]文明は通常のテクノロジーの中に各東方ユニットのアップグレード解禁技術が混ざっている[PARAGRAPH:2][ICON_BULLET]上述の通り、昇進ルートが特殊[PARAGRAPH:2][ICON_BULLET]生産直後は[LINK=UNITCOMBAT_STANDBY]スタンドバイユニット[\LINK]という待機状態モードで生産され、そのままでは何も出来ない。[PARAGRAPH:1]独自テクノロジー及びアップグレード解禁1段階目技術を取得する事で、初めてボスユニット（東方ユニット）として活躍出来る[PARAGRAPH:2][ICON_BULLET]ユニット経験値が自動的に溜まっていく仕様であり、黙っていても昇進は取れる[PARAGRAPH:2][ICON_BULLET]東方ユニットが撃破されても首都で[LINK=UNITCOMBAT_STANDBY]スタンドバイユニット[\LINK]として自動的に再生産される。[PARAGRAPH:1]ただし再び東方ユニットにアップグレードできるまで数ターンほどのタイムラグがある、取得していた経験値は減少した上で取り直し、アップグレード費も高くなるなど、相応のペナルティもある[PARAGRAPH:2][ICON_BULLET]Power,CAL（[COLOR_HIGHLIGHT_TEXT]C[COLOR_REVERT]ard[COLOR_HIGHLIGHT_TEXT]A[COLOR_REVERT]ttack[COLOR_HIGHLIGHT_TEXT]L[COLOR_REVERT]evel）という独自の値を持つ[PARAGRAPH:2][ICON_BULLET]Power値はスペルカードの発動に用いる。基本的にスペルカード1つにつき1.00を消費し、4.00まで保持することが出来る[PARAGRAPH:1]Power値の回復させるには戦闘で勝利する、特殊昇進を取得（何度でも取得可能、Power回復用）、自動回復などがある[PARAGRAPH:2][ICON_BULLET]CAL値は高ければ高いほどスペルカードの威力が高くなる[PARAGRAPH:1]CAL値を上げるにはスペルカードを発動する、スペルカードルート系昇進を取得する、CAL上昇用特殊昇進を取得する等がある</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB][H1]東方ユニットとは[\H1][PARAGRAPH:1]東方ユニットとは当MOD、東方叙事詩における最大の特色とも言える特殊なユニットです。各プレイヤー基本的に1ゲームにつき最大で3体まで（オプションによってはそれ以上の生産も可能です）生産する事が可能なユニットであり、通常のユニットと違い1体1体の使い方がゲームそのものの趨勢を決するほどの強力なユニットです。それだけに、通常のユニット以上に大事に運用していく事も求められます。このMODは[COLOR_HIGHLIGHT_TEXT]東方ユニットの使い方が全て[COLOR_REVERT]と言っても過言ではありません。[PARAGRAPH:1][H1]昇進について[\H1][PARAGRAPH:1]東方ユニットの昇進は通常のユニットとは全く異なっており、主に東方ユニットにとっての[LINK=PROMOTION_COMBAT1]戦闘術[\LINK]とも言える昇進である[LINK=PROMOTION_TOHO_COMBAT1]基本操作[\LINK]系列の昇進を取得していく[LINK=CONCEPT_TOHOUNIT_COMBAT]コンバットルート[\LINK]、爆撃機のように遠距離からの攻撃が可能になる[LINK=PROMOTION_LONGRANGE]遠距離攻撃[\LINK]系列の昇進を取っていく[LINK=CONCEPT_TOHOUNIT_SHOOTING]シューティングルート[\LINK]、各東方ユニットがそれぞれ個別に持っている切り札であるスペルカードの威力を高める[LINK=PROMOTION_MODE_EASY]難易度EASY[\LINK]系列の昇進を取っていく[LINK=CONCEPT_TOHOUNIT_SPELL]スペルカードルート[\LINK]の3種類に分かれています。[NEWLINE]これらの昇進ルートは両立するのは（不可能ではありませんが）非常に厳しいため基本的にはそのゲームにおいてそれぞれの東方ユニットは1つのルートに特化した昇進ルートを取っていくことになります。詳細は東方叙事詩・統合MODフルパックバージョンのフォルダ内部に付属している[COLOR_HIGHLIGHT_TEXT]叙事詩統合版_昇進チャート_v1.1.png[COLOR_REVERT]をご覧下さい[PARAGRAPH:1][H1]通常ユニットとの違い[\H1][PARAGRAPH:1][ICON_BULLET]各文明が持つ独自テクノロジーを取得することでアップグレードが可能になり、より強力になる。[PARAGRAPH:1][LINK=CIVILIZATION_INDIA]人間の里[\LINK]文明は通常のテクノロジーの中に各東方ユニットのアップグレード解禁技術が混ざっている[PARAGRAPH:2][ICON_BULLET]上述の通り、昇進ルートが特殊[PARAGRAPH:2][ICON_BULLET]生産直後は[LINK=UNITCOMBAT_STANDBY]スタンドバイユニット[\LINK]という待機状態モードで生産され、そのままでは何も出来ない。[PARAGRAPH:1]独自テクノロジー及びアップグレード解禁1段階目技術を取得する事で、初めてボスユニット（東方ユニット）として活躍出来る[PARAGRAPH:2][ICON_BULLET]ユニット経験値が自動的に溜まっていく仕様であり、黙っていても昇進は取れる[PARAGRAPH:2][ICON_BULLET]東方ユニットが撃破されても首都で[LINK=UNITCOMBAT_STANDBY]スタンドバイユニット[\LINK]として自動的に再生産される。[PARAGRAPH:1]ただし再び東方ユニットにアップグレードできるまで数ターンほどのタイムラグがある、取得していた経験値は減少した上で取り直し、アップグレード費も高くなるなど、相応のペナルティもある[PARAGRAPH:2][ICON_BULLET]Power,CAL（[COLOR_HIGHLIGHT_TEXT]C[COLOR_REVERT]ard[COLOR_HIGHLIGHT_TEXT]A[COLOR_REVERT]ttack[COLOR_HIGHLIGHT_TEXT]L[COLOR_REVERT]evel）という独自の値を持つ[PARAGRAPH:2][ICON_BULLET]Power値はスペルカードの発動に用いる。基本的にスペルカード1つにつき1.00を消費し、4.00まで保持することが出来る[PARAGRAPH:1]Power値の回復させるには戦闘で勝利する、特殊昇進を取得（何度でも取得可能、Power回復用）、自動回復などがある[PARAGRAPH:2][ICON_BULLET]CAL値は高ければ高いほどスペルカードの威力が高くなる[PARAGRAPH:1]CAL値を上げるにはスペルカードを発動する、スペルカードルート系昇進を取得する、CAL上昇用特殊昇進を取得する等がある</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOHOUNIT_SANSUKUMI</Tag>
+		<English />
+		<French>東方ユニットの3すくみ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>東方ユニットの3すくみ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOHOUNIT_SANSUKUMI_PEDIA</Tag>
+		<English />
+		<French>[TAB][H1]東方ユニットの3すくみ[\H1][PARAGRAPH:1]東方ユニットの取る3種の昇進ルートには、それぞれ3すくみとなるような大まかな相性関係が存在します。具体的な相性関係に関しては以下の通りです。[NEWLINE]（あくまで大まかな相性というだけであり、相性が悪くても倒す事は不可能ではありません。なあに、要はありとあらゆる手段で倒してしまえばそれでいいのです）[PARAGRAPH:1][NEWLINE][ICON_BULLET][LINK=CONCEPT_TOHOUNIT_COMBAT]コンバットルート[\LINK]は[COLOR_HIGHLIGHT_TEXT]スペルカードルートに強く[COLOR_REVERT]、[COLOR_SELECTED_TEXT]シューティングルートに弱い[COLOR_REVERT][PARAGRAPH:1][NEWLINE][ICON_BULLET][LINK=CONCEPT_TOHOUNIT_SHOOTING]シューティングルート[\LINK]は[COLOR_HIGHLIGHT_TEXT]コンバットルートに強く[COLOR_REVERT]、[COLOR_SELECTED_TEXT]スペルカードルートに弱い[COLOR_REVERT][PARAGRAPH:1][NEWLINE][ICON_BULLET][LINK=CONCEPT_TOHOUNIT_SPELL]スペルカードルート[\LINK]は[COLOR_HIGHLIGHT_TEXT]シューティングルートに強く[COLOR_REVERT]、[COLOR_SELECTED_TEXT]コンバットルートに弱い[COLOR_REVERT]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB][H1]東方ユニットの3すくみ[\H1][PARAGRAPH:1]東方ユニットの取る3種の昇進ルートには、それぞれ3すくみとなるような大まかな相性関係が存在します。具体的な相性関係に関しては以下の通りです。[NEWLINE]（あくまで大まかな相性というだけであり、相性が悪くても倒す事は不可能ではありません。なあに、要はありとあらゆる手段で倒してしまえばそれでいいのです）[PARAGRAPH:1][NEWLINE][ICON_BULLET][LINK=CONCEPT_TOHOUNIT_COMBAT]コンバットルート[\LINK]は[COLOR_HIGHLIGHT_TEXT]スペルカードルートに強く[COLOR_REVERT]、[COLOR_SELECTED_TEXT]シューティングルートに弱い[COLOR_REVERT][PARAGRAPH:1][NEWLINE][ICON_BULLET][LINK=CONCEPT_TOHOUNIT_SHOOTING]シューティングルート[\LINK]は[COLOR_HIGHLIGHT_TEXT]コンバットルートに強く[COLOR_REVERT]、[COLOR_SELECTED_TEXT]スペルカードルートに弱い[COLOR_REVERT][PARAGRAPH:1][NEWLINE][ICON_BULLET][LINK=CONCEPT_TOHOUNIT_SPELL]スペルカードルート[\LINK]は[COLOR_HIGHLIGHT_TEXT]シューティングルートに強く[COLOR_REVERT]、[COLOR_SELECTED_TEXT]コンバットルートに弱い[COLOR_REVERT]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOHOUNIT_COMBAT</Tag>
+		<English />
+		<French>東方ユニット - コンバットルート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>東方ユニット - コンバットルート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOHOUNIT_COMBAT_PEDIA</Tag>
+		<English />
+		<French>[TAB][H1]東方ユニット - コンバットルート[\H1][PARAGRAPH:1]コンバットルートとは東方ユニットを通常の戦闘ユニットと同じような活躍をさせたい時に用いるルートです。東方ユニットはただでさえ同時代の一般ユニットよりも戦闘力が高めに設定されていますが、その上で更に昇進は東方ユニットにとっての[LINK=PROMOTION_COMBAT1]戦闘術[\LINK]系列の昇進とも言える[LINK=PROMOTION_TOHO_COMBAT1]基本操作[\LINK]系列の昇進を中心に取得しているため、通常戦闘においてますます強力な存在となっています。[NEWLINE][NEWLINE]東方ユニットの3すくみ上での立場は、コンバットルートは[COLOR_HIGHLIGHT_TEXT]スペルカードルートに強く[COLOR_REVERT]、[COLOR_SELECTED_TEXT]シューティングルートに弱い[COLOR_REVERT]という立ち位置になります[PARAGRAPH:1][H1]コンバットルートの使い方[\H1][PARAGRAPH:1]コンバットルートの東方ユニットは主に2つの使い道があります。1つは一般兵のスタックに混ぜて敵から一般兵を守る[COLOR_HIGHLIGHT_TEXT]スタックガード[COLOR_REVERT]としての役割。もう一つはスタックでは混ぜず単機で動かして敵を蹂躙する[COLOR_HIGHLIGHT_TEXT]無双ユニット[COLOR_REVERT]としての役割。それぞれどういう方向・考え方でユニットを運用するかは以下を参照してください。[PARAGRAPH:1][H1]スタックガード運用[\H1][PARAGRAPH:1]スタックガードとしての東方ユニットは、要するに決戦兵器です。進軍中は敵対する東方ユニットから、あるいは[LINK=UNIT_CANNON]カノン砲[\LINK]を始めとした攻城兵器ユニットを厄介な側面攻撃から守りつつ、都市攻略時にはなるべく先陣を切らせて少しでも一般ユニットの消耗を抑える事を目的とした運用です。[NEWLINE]この運用法の最大のメリットは[COLOR_HIGHLIGHT_TEXT]安定性の高さ[COLOR_REVERT]にあり、コンバットルートの東方ユニットならば基本操作系昇進さえ取っておけば（そして、同世代でさえあれば）基本的にはまず負けない事、そして基本操作系は同スタック内ユニットにスペル耐性ボーナスを授けるため厄介な敵スペルカードからも味方ユニットをある程度守る事が出来ます。また、昇進ルートの関係上各東方ユニットが固有で持っているキャラクタースキル系昇進も近い事もメリットの一つです。[PARAGRAPH:2][BOLD]優先すべき昇進…スタックガード運用編[\BOLD][PARAGRAPH:1][ICON_BULLET][LINK=PROMOTION_TOHO_COMBAT1]基本操作[\LINK]系列[PARAGRAPH:1][ICON_BULLET][LINK=PROMOTION_TEMP_STACK_BONUS]スタックボーナス[\LINK][PARAGRAPH:1][ICON_BULLET]キャラクタースキル系列[PARAGRAPH:1][ICON_BULLET][LINK=PROMOTION_TOHO_MORALE1]高速移動[\LINK][PARAGRAPH:1][H1]無双ユニット運用[\H1][PARAGRAPH:1]対して無双ユニットとして運用する場合は東方ユニットをどれだけ連戦に耐える事が出来るか、どれだけ消耗を抑える事が出来るかが鍵となります。そのため無双ユニット運用の場合は基本操作系昇進はひとまず基本操作2の取得だけに留めておき、そこから[LINK=PROMOTION_TOHO_DRILL1]教練[\LINK]系昇進を取得してその最後にある[LINK=PROMOTION_RENZOKUKOUGEKI]連続攻撃[\LINK]の取得を目標とします。[PARAGRAPH:1]教練系昇進を取る事でまず東方ユニットの戦闘時における消耗を最低限にすることが出来ます。教練系昇進、更に言うならその教練系昇進から得られる先制攻撃の強さはイメージしづらいかもしれませんが、丘都市に篭っている長弓兵を斧兵で叩いても傷一つ付けられなかった経験は無いでしょうか？アレと似たような状況を作り出す、と考えてください。この昇進を優先することで多数の敵と戦闘しても体力を減らす事なく、延々と連戦する事が可能となります。その上で1ターンにつき複数回戦闘することが可能になる[COLOR_HIGHLIGHT_TEXT]連続攻撃の昇進を取ってからがこの運用法の本番[COLOR_REVERT]です。[PARAGRAPH:1]東方ユニット1体で一般兵ユニット複数分の働きをする事が可能になるため、1体だけで何十体の敵を撃破する事になるでしょう。撃破数が多くなるということは即ち、取得経験値も多くなるのでこの後の基本操作系昇進は勿論、極まっていくとコンバットルートを極めた後にシューティングルートやスペルルートへ向かいルートの両立すら可能になってきます。[PARAGRAPH:1]と、聞くと一見するとスタックガード運用よりはるかにこちらの方が強いように思えるかもしれませんが、欠点もあります。それは、[COLOR_HIGHLIGHT_TEXT]何者も寄せ付けず文字通りの「無双」状態になるまでが遠い事[COLOR_REVERT]です。この昇進の取り方では基本操作系は連続攻撃の取得まで基本操作2までになります。いくら東方ユニットが同時代のユニットと比較すると強力な存在とはいえ、それでも落ちる時はあっさり落ちるものです。基本的な戦闘力が向上する基本操作の昇進を暫くの間抑える事になるのは、即ち（コンバットルートの東方ユニットとしては）暫くの間戦闘力的にはやや劣る状態になるということです。その際にもし基本操作を優先して取得した敵の東方ユニットと遭遇した場合、支援無しで撃破するのは厳しい状態になってしまうでしょう。無双ユニット運用は完成さえしてしまえば東方ユニット単独でも都市を占領したりすることも出来ますが、その状態にまで持っていくには他東方ユニットや一般兵の支援が必要になります。[PARAGRAPH:2][BOLD]優先すべき昇進…無双ユニット運用編[\BOLD][PARAGRAPH:1][ICON_BULLET][LINK=PROMOTION_TOHO_DRILL1]教練[\LINK]系昇進[PARAGRAPH:1][ICON_BULLET][LINK=PROMOTION_RENZOKUKOUGEKI]連続攻撃[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=PROMOTION_TOHO_MARCH]行軍[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=PROMOTION_TOHO_MORALE1]高速移動[\LINK]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB][H1]東方ユニット - コンバットルート[\H1][PARAGRAPH:1]コンバットルートとは東方ユニットを通常の戦闘ユニットと同じような活躍をさせたい時に用いるルートです。東方ユニットはただでさえ同時代の一般ユニットよりも戦闘力が高めに設定されていますが、その上で更に昇進は東方ユニットにとっての[LINK=PROMOTION_COMBAT1]戦闘術[\LINK]系列の昇進とも言える[LINK=PROMOTION_TOHO_COMBAT1]基本操作[\LINK]系列の昇進を中心に取得しているため、通常戦闘においてますます強力な存在となっています。[NEWLINE][NEWLINE]東方ユニットの3すくみ上での立場は、コンバットルートは[COLOR_HIGHLIGHT_TEXT]スペルカードルートに強く[COLOR_REVERT]、[COLOR_SELECTED_TEXT]シューティングルートに弱い[COLOR_REVERT]という立ち位置になります[PARAGRAPH:1][H1]コンバットルートの使い方[\H1][PARAGRAPH:1]コンバットルートの東方ユニットは主に2つの使い道があります。1つは一般兵のスタックに混ぜて敵から一般兵を守る[COLOR_HIGHLIGHT_TEXT]スタックガード[COLOR_REVERT]としての役割。もう一つはスタックでは混ぜず単機で動かして敵を蹂躙する[COLOR_HIGHLIGHT_TEXT]無双ユニット[COLOR_REVERT]としての役割。それぞれどういう方向・考え方でユニットを運用するかは以下を参照してください。[PARAGRAPH:1][H1]スタックガード運用[\H1][PARAGRAPH:1]スタックガードとしての東方ユニットは、要するに決戦兵器です。進軍中は敵対する東方ユニットから、あるいは[LINK=UNIT_CANNON]カノン砲[\LINK]を始めとした攻城兵器ユニットを厄介な側面攻撃から守りつつ、都市攻略時にはなるべく先陣を切らせて少しでも一般ユニットの消耗を抑える事を目的とした運用です。[NEWLINE]この運用法の最大のメリットは[COLOR_HIGHLIGHT_TEXT]安定性の高さ[COLOR_REVERT]にあり、コンバットルートの東方ユニットならば基本操作系昇進さえ取っておけば（そして、同世代でさえあれば）基本的にはまず負けない事、そして基本操作系は同スタック内ユニットにスペル耐性ボーナスを授けるため厄介な敵スペルカードからも味方ユニットをある程度守る事が出来ます。また、昇進ルートの関係上各東方ユニットが固有で持っているキャラクタースキル系昇進も近い事もメリットの一つです。[PARAGRAPH:2][BOLD]優先すべき昇進…スタックガード運用編[\BOLD][PARAGRAPH:1][ICON_BULLET][LINK=PROMOTION_TOHO_COMBAT1]基本操作[\LINK]系列[PARAGRAPH:1][ICON_BULLET][LINK=PROMOTION_TEMP_STACK_BONUS]スタックボーナス[\LINK][PARAGRAPH:1][ICON_BULLET]キャラクタースキル系列[PARAGRAPH:1][ICON_BULLET][LINK=PROMOTION_TOHO_MORALE1]高速移動[\LINK][PARAGRAPH:1][H1]無双ユニット運用[\H1][PARAGRAPH:1]対して無双ユニットとして運用する場合は東方ユニットをどれだけ連戦に耐える事が出来るか、どれだけ消耗を抑える事が出来るかが鍵となります。そのため無双ユニット運用の場合は基本操作系昇進はひとまず基本操作2の取得だけに留めておき、そこから[LINK=PROMOTION_TOHO_DRILL1]教練[\LINK]系昇進を取得してその最後にある[LINK=PROMOTION_RENZOKUKOUGEKI]連続攻撃[\LINK]の取得を目標とします。[PARAGRAPH:1]教練系昇進を取る事でまず東方ユニットの戦闘時における消耗を最低限にすることが出来ます。教練系昇進、更に言うならその教練系昇進から得られる先制攻撃の強さはイメージしづらいかもしれませんが、丘都市に篭っている長弓兵を斧兵で叩いても傷一つ付けられなかった経験は無いでしょうか？アレと似たような状況を作り出す、と考えてください。この昇進を優先することで多数の敵と戦闘しても体力を減らす事なく、延々と連戦する事が可能となります。その上で1ターンにつき複数回戦闘することが可能になる[COLOR_HIGHLIGHT_TEXT]連続攻撃の昇進を取ってからがこの運用法の本番[COLOR_REVERT]です。[PARAGRAPH:1]東方ユニット1体で一般兵ユニット複数分の働きをする事が可能になるため、1体だけで何十体の敵を撃破する事になるでしょう。撃破数が多くなるということは即ち、取得経験値も多くなるのでこの後の基本操作系昇進は勿論、極まっていくとコンバットルートを極めた後にシューティングルートやスペルルートへ向かいルートの両立すら可能になってきます。[PARAGRAPH:1]と、聞くと一見するとスタックガード運用よりはるかにこちらの方が強いように思えるかもしれませんが、欠点もあります。それは、[COLOR_HIGHLIGHT_TEXT]何者も寄せ付けず文字通りの「無双」状態になるまでが遠い事[COLOR_REVERT]です。この昇進の取り方では基本操作系は連続攻撃の取得まで基本操作2までになります。いくら東方ユニットが同時代のユニットと比較すると強力な存在とはいえ、それでも落ちる時はあっさり落ちるものです。基本的な戦闘力が向上する基本操作の昇進を暫くの間抑える事になるのは、即ち（コンバットルートの東方ユニットとしては）暫くの間戦闘力的にはやや劣る状態になるということです。その際にもし基本操作を優先して取得した敵の東方ユニットと遭遇した場合、支援無しで撃破するのは厳しい状態になってしまうでしょう。無双ユニット運用は完成さえしてしまえば東方ユニット単独でも都市を占領したりすることも出来ますが、その状態にまで持っていくには他東方ユニットや一般兵の支援が必要になります。[PARAGRAPH:2][BOLD]優先すべき昇進…無双ユニット運用編[\BOLD][PARAGRAPH:1][ICON_BULLET][LINK=PROMOTION_TOHO_DRILL1]教練[\LINK]系昇進[PARAGRAPH:1][ICON_BULLET][LINK=PROMOTION_RENZOKUKOUGEKI]連続攻撃[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=PROMOTION_TOHO_MARCH]行軍[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=PROMOTION_TOHO_MORALE1]高速移動[\LINK]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOHOUNIT_SHOOTING</Tag>
+		<English />
+		<French>東方ユニット - シューティングルート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>東方ユニット - シューティングルート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOHOUNIT_SHOOTING_PEDIA</Tag>
+		<English />
+		<French>[TAB][H1]東方ユニット - シューティングルート[\H1][PARAGRAPH:1]シューティングルートとは[LINK=UNITCOMBAT_BOSS]東方ユニット[\LINK]（ボスユニット）のみが取得できる昇進「[LINK=PROMOTION_LONGRANGE1]遠距離攻撃[\LINK]」及びそこから派生する昇進を取得していく昇進ルートの通称です。[LINK=UNITCOMBAT_AIR]航空ユニット[\LINK]と同じように遠距離から一方的に攻撃する事が可能になり、かつ航空ユニットと違って迎撃される心配もありません。その為[COLOR_HIGHLIGHT_TEXT]戦争時の支援砲火という点においては特に優れた昇進ルート[COLOR_REVERT]と言っても過言では無いでしょう。[NEWLINE][NEWLINE]東方ユニットの3すくみ上での立場は、シューティングルートは[COLOR_HIGHLIGHT_TEXT]コンバットルートに強く[COLOR_REVERT]、[COLOR_SELECTED_TEXT]スペルカードルートに弱い[COLOR_REVERT]という立ち位置です。[PARAGRAPH:1][H1]シューティングルートの昇進[\H1][PARAGRAPH:1]シューティングルートの昇進パターンは比較的シンプルな組み合わせです。まずは大前提となる[LINK=PROMOTION_LONGRANGE1]遠距離攻撃1[\LINK]を取得すると東方ユニットの遠距離攻撃が解禁され、同時に遠距離攻撃のダメージを上昇させる[LINK=PROMOTION_TOHO_BARRAGE1]弾幕1[\LINK]、1発辺りのダメージは減少させる代わりにダメージ判定を複数回発生させるようになる[LINK=PROMOTION_3WAYSHOT]3Wayショット[\LINK]の昇進を取得できるようになります。以後は、[LINK=TECH_SHOOTING_TECHNIQUE2]パターン化[\LINK]や[LINK=TECH_SHOOTING_TECHNIQUE3]判定見切り[\LINK]の技術を取得することで[LINK=PROMOTION_TOHO_BARRAGE2]弾幕2[\LINK]、[LINK=PROMOTION_TOHO_BARRAGE3]弾幕3[\LINK]/[LINK=PROMOTION_5WAYSHOT]5Wayショット[\LINK]、[LINK=PROMOTION_7WAYSHOT]7Wayショット[\LINK]といったそれぞれの元となる昇進を更に強化させた昇進が解禁されるようになり、最終的に[LINK=PROMOTION_LONGRANGE3]遠距離攻撃3[\LINK]と[LINK=PROMOTION_TOHO_BARRAGE3]弾幕3[\LINK]か[LINK=PROMOTION_7WAYSHOT]7Wayショット[\LINK]のどちらかを取得していることで解禁される「[LINK=PROMOTION_RUNNINGFIRE]連射[\LINK]」の取得を目指すのがシューティングルート昇進の一連の流れとなります[PARAGRAPH:1][H1]昇進の取り方[\H1][PARAGRAPH:1]さて、シューティングルートにおける昇進の取り方ですが、上述の「一連の流れ」は要するに「[LINK=PROMOTION_TOHO_BARRAGE1]弾幕[\LINK]系列か[LINK=PROMOTION_3WAYSHOT]3Wayショット[\LINK]系列のどちらかを選んで取りつつ、同時に[LINK=PROMOTION_LONGRANGE1]遠距離攻撃[\LINK]系列も進めて最後の[LINK=PROMOTION_RUNNINGFIRE]連射[\LINK]を取る」というだけです。つまり、シューティングルートの場合の取捨選択は[COLOR_HIGHLIGHT_TEXT]弾幕系列か3Wayショット系列のどっちを選ぶか[COLOR_REVERT]、というだけです。[PARAGRAPH:1]では弾幕系列か3Wayショット系列か、どちらがいいのかという問題ですが。（以下はあくまで筆者の主観です）どちらかというと[COLOR_HIGHLIGHT_TEXT]3Wayショット系列を優先する[COLOR_REVERT]方が大体有利ではないか、と考えています。Civilization4というゲームにおける戦争は（いくら東方ユニットがいようが）所詮は[COLOR_HIGHLIGHT_TEXT]数が全て[COLOR_REVERT]のゲームです。そしてこのゲームにおける戦闘時の計算式は、たとえ[COLOR_HIGHLIGHT_TEXT]ダメージが少なかろうが、全快状態より戦闘力が削れていたら勝率がガタ落ちする[COLOR_REVERT]という点にあります。その為、ダメージが大きかろうが基本的に1体のみしかダメージを与えられない[LINK=PROMOTION_TOHO_BARRAGE1]弾幕[\LINK]系列よりも、対象スタック内の多数の敵にダメージを与える[LINK=PROMOTION_3WAYSHOT]3Wayショット[\LINK]系列の方が有利ではないか、という考え方です。[PARAGRAPH:1]勿論、絶対に3wayショット系列の方が良いというわけではありません。例えば、スタック内に混ざっている敵対東方ユニットを狙い撃ちにする時などは3wayショット系列よりも弾幕系列のほうが有利です。最終的にどちらを取るかはあくまでこの記事を見ているプレイヤーの皆様方ご自身の判断が全てです。[PARAGRAPH:1][H1]移動力2にシューティングルートのススメ[\H1][PARAGRAPH:1]東方ユニットの中には最初から移動力が2のものが幾つか存在します。そして、[COLOR_HIGHLIGHT_TEXT]移動力2の東方ユニットはシューティングルートとの相性が良い[COLOR_REVERT]という点は特筆しておくべきでしょう。シューティングルートの東方ユニットは時にはメインスタックに混ざりつつ、あるいは時にはスタック外からの遠距離から支援する事を求められるなど、[COLOR_HIGHLIGHT_TEXT]他ルートよりも柔軟な対応[COLOR_REVERT]が求められます。その時に移動力が2あるだけでこの対応が大分やりやすくなります。また、[LINK=PROMOTION_RUNNINGFIRE]連射[\LINK]の昇進を取得すると単純に砲撃回数が移動力1の東方ユニットよりも多くなります。以下に、移動力が2ある「シューティングルートとの相性良」の東方ユニットの一例を紹介します[PARAGRAPH:2][ICON_BULLET][LINK=UNIT_REMILIA1]レミリア・スカーレット[\LINK][PARAGRAPH:2][ICON_BULLET][LINK=UNIT_CHEN1]橙[\LINK][PARAGRAPH:2][ICON_BULLET][LINK=UNIT_SUWAKO1]洩矢諏訪子[\LINK][PARAGRAPH:2][ICON_BULLET][LINK=UNIT_MARISA1]霧雨魔理沙[\LINK][PARAGRAPH:2][ICON_BULLET][LINK=UNIT_SEIGA1]霍青娥[\LINK][PARAGRAPH:2][ICON_BULLET][LINK=UNIT_RIN1]火焔猫燐[\LINK][PARAGRAPH:1]※厳密に言うと移動力2ユニットではないが、EXTRAスペルを使って[LINK=UNIT_RIN_CATMODE1]猫形態化[\LINK]した場合、[COLOR_HIGHLIGHT_TEXT]全ユニット中でも最高峰のシューティング適正を誇る[COLOR_REVERT]ため特別に記載</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB][H1]東方ユニット - シューティングルート[\H1][PARAGRAPH:1]シューティングルートとは[LINK=UNITCOMBAT_BOSS]東方ユニット[\LINK]（ボスユニット）のみが取得できる昇進「[LINK=PROMOTION_LONGRANGE1]遠距離攻撃[\LINK]」及びそこから派生する昇進を取得していく昇進ルートの通称です。[LINK=UNITCOMBAT_AIR]航空ユニット[\LINK]と同じように遠距離から一方的に攻撃する事が可能になり、かつ航空ユニットと違って迎撃される心配もありません。その為[COLOR_HIGHLIGHT_TEXT]戦争時の支援砲火という点においては特に優れた昇進ルート[COLOR_REVERT]と言っても過言では無いでしょう。[NEWLINE][NEWLINE]東方ユニットの3すくみ上での立場は、シューティングルートは[COLOR_HIGHLIGHT_TEXT]コンバットルートに強く[COLOR_REVERT]、[COLOR_SELECTED_TEXT]スペルカードルートに弱い[COLOR_REVERT]という立ち位置です。[PARAGRAPH:1][H1]シューティングルートの昇進[\H1][PARAGRAPH:1]シューティングルートの昇進パターンは比較的シンプルな組み合わせです。まずは大前提となる[LINK=PROMOTION_LONGRANGE1]遠距離攻撃1[\LINK]を取得すると東方ユニットの遠距離攻撃が解禁され、同時に遠距離攻撃のダメージを上昇させる[LINK=PROMOTION_TOHO_BARRAGE1]弾幕1[\LINK]、1発辺りのダメージは減少させる代わりにダメージ判定を複数回発生させるようになる[LINK=PROMOTION_3WAYSHOT]3Wayショット[\LINK]の昇進を取得できるようになります。以後は、[LINK=TECH_SHOOTING_TECHNIQUE2]パターン化[\LINK]や[LINK=TECH_SHOOTING_TECHNIQUE3]判定見切り[\LINK]の技術を取得することで[LINK=PROMOTION_TOHO_BARRAGE2]弾幕2[\LINK]、[LINK=PROMOTION_TOHO_BARRAGE3]弾幕3[\LINK]/[LINK=PROMOTION_5WAYSHOT]5Wayショット[\LINK]、[LINK=PROMOTION_7WAYSHOT]7Wayショット[\LINK]といったそれぞれの元となる昇進を更に強化させた昇進が解禁されるようになり、最終的に[LINK=PROMOTION_LONGRANGE3]遠距離攻撃3[\LINK]と[LINK=PROMOTION_TOHO_BARRAGE3]弾幕3[\LINK]か[LINK=PROMOTION_7WAYSHOT]7Wayショット[\LINK]のどちらかを取得していることで解禁される「[LINK=PROMOTION_RUNNINGFIRE]連射[\LINK]」の取得を目指すのがシューティングルート昇進の一連の流れとなります[PARAGRAPH:1][H1]昇進の取り方[\H1][PARAGRAPH:1]さて、シューティングルートにおける昇進の取り方ですが、上述の「一連の流れ」は要するに「[LINK=PROMOTION_TOHO_BARRAGE1]弾幕[\LINK]系列か[LINK=PROMOTION_3WAYSHOT]3Wayショット[\LINK]系列のどちらかを選んで取りつつ、同時に[LINK=PROMOTION_LONGRANGE1]遠距離攻撃[\LINK]系列も進めて最後の[LINK=PROMOTION_RUNNINGFIRE]連射[\LINK]を取る」というだけです。つまり、シューティングルートの場合の取捨選択は[COLOR_HIGHLIGHT_TEXT]弾幕系列か3Wayショット系列のどっちを選ぶか[COLOR_REVERT]、というだけです。[PARAGRAPH:1]では弾幕系列か3Wayショット系列か、どちらがいいのかという問題ですが。（以下はあくまで筆者の主観です）どちらかというと[COLOR_HIGHLIGHT_TEXT]3Wayショット系列を優先する[COLOR_REVERT]方が大体有利ではないか、と考えています。Civilization4というゲームにおける戦争は（いくら東方ユニットがいようが）所詮は[COLOR_HIGHLIGHT_TEXT]数が全て[COLOR_REVERT]のゲームです。そしてこのゲームにおける戦闘時の計算式は、たとえ[COLOR_HIGHLIGHT_TEXT]ダメージが少なかろうが、全快状態より戦闘力が削れていたら勝率がガタ落ちする[COLOR_REVERT]という点にあります。その為、ダメージが大きかろうが基本的に1体のみしかダメージを与えられない[LINK=PROMOTION_TOHO_BARRAGE1]弾幕[\LINK]系列よりも、対象スタック内の多数の敵にダメージを与える[LINK=PROMOTION_3WAYSHOT]3Wayショット[\LINK]系列の方が有利ではないか、という考え方です。[PARAGRAPH:1]勿論、絶対に3wayショット系列の方が良いというわけではありません。例えば、スタック内に混ざっている敵対東方ユニットを狙い撃ちにする時などは3wayショット系列よりも弾幕系列のほうが有利です。最終的にどちらを取るかはあくまでこの記事を見ているプレイヤーの皆様方ご自身の判断が全てです。[PARAGRAPH:1][H1]移動力2にシューティングルートのススメ[\H1][PARAGRAPH:1]東方ユニットの中には最初から移動力が2のものが幾つか存在します。そして、[COLOR_HIGHLIGHT_TEXT]移動力2の東方ユニットはシューティングルートとの相性が良い[COLOR_REVERT]という点は特筆しておくべきでしょう。シューティングルートの東方ユニットは時にはメインスタックに混ざりつつ、あるいは時にはスタック外からの遠距離から支援する事を求められるなど、[COLOR_HIGHLIGHT_TEXT]他ルートよりも柔軟な対応[COLOR_REVERT]が求められます。その時に移動力が2あるだけでこの対応が大分やりやすくなります。また、[LINK=PROMOTION_RUNNINGFIRE]連射[\LINK]の昇進を取得すると単純に砲撃回数が移動力1の東方ユニットよりも多くなります。以下に、移動力が2ある「シューティングルートとの相性良」の東方ユニットの一例を紹介します[PARAGRAPH:2][ICON_BULLET][LINK=UNIT_REMILIA1]レミリア・スカーレット[\LINK][PARAGRAPH:2][ICON_BULLET][LINK=UNIT_CHEN1]橙[\LINK][PARAGRAPH:2][ICON_BULLET][LINK=UNIT_SUWAKO1]洩矢諏訪子[\LINK][PARAGRAPH:2][ICON_BULLET][LINK=UNIT_MARISA1]霧雨魔理沙[\LINK][PARAGRAPH:2][ICON_BULLET][LINK=UNIT_SEIGA1]霍青娥[\LINK][PARAGRAPH:2][ICON_BULLET][LINK=UNIT_RIN1]火焔猫燐[\LINK][PARAGRAPH:1]※厳密に言うと移動力2ユニットではないが、EXTRAスペルを使って[LINK=UNIT_RIN_CATMODE1]猫形態化[\LINK]した場合、[COLOR_HIGHLIGHT_TEXT]全ユニット中でも最高峰のシューティング適正を誇る[COLOR_REVERT]ため特別に記載</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOHOUNIT_SPELL</Tag>
+		<English />
+		<French>東方ユニット - スペルカードルート</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>東方ユニット - スペルカードルート</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOHOUNIT_SPELL_PEDIA</Tag>
+		<English />
+		<French>[TAB][H1]東方ユニット - スペルカードルート[\H1][PARAGRAPH:1]スペルカードルートとは[LINK=PROMOTION_MODE_EASY]難易度EASY[\LINK]から派生する各自スペルカードルート昇進を取得する事により、各東方ユニットが独自に扱える切り札「スペルカード」の使用に特化した昇進ルートです。スペルカードの効力は各種東方ユニットによって千差万別なので「これ！」という言い方は出来ませんが、しかしその分最もバリエーションに富んだルートであるとも言えます。[NEWLINE][NEWLINE]東方ユニットの3すくみ上での立場は、スペルカードルートは[COLOR_HIGHLIGHT_TEXT]シューティングルートに強く[COLOR_REVERT]、[COLOR_SELECTED_TEXT]コンバットルートに弱い[COLOR_REVERT]という立ち位置です。[PARAGRAPH:1][H1]東方ユニットのスペルカードとは[\H1][PARAGRAPH:1]このスペルカードルートの肝とも言える東方ユニットが使用可能な独自システム「スペルカードシステム」は、要するに「切り札的な効力の魔法」のようなもので、各東方ユニットはそれぞれ固有のスペルカードを使用する事が可能です。そして、このスペルカードを発動する際は東方ユニット独自の数字である[PARAGRAPH:2][ICON_BULLET]CAL = [COLOR_HIGHLIGHT_TEXT]C[COLOR_REVERT]ard[COLOR_HIGHLIGHT_TEXT]A[COLOR_REVERT]ttack[COLOR_HIGHLIGHT_TEXT]L[COLOR_REVERT]evel.スペルカードの威力を現す[PARAGRAPH:1][ICON_BULLET]Power = スペルカードの発動に必要な値。不足していると発動不可[PARAGRAPH:2]という2つの数値が重要になってきます。[PARAGRAPH:2][BOLD]CALについて[\BOLD][PARAGRAPH:1]まず、東方ユニットであれば基本的にどのルートだろうが（それこそコンバットルートだろうが、シューティングルートだろうが）スペルカードを発動する事自体は出来ます。しかし、本家スペルカードルートの昇進を取っている東方ユニットのそれと比べると、他ルートの昇進を通っている東方ユニットのスペルカードは基本的にそれほど高い効力を発揮しません。それは何故か？それは、このCAL値の値が影響しているためです。[PARAGRAPH:1]というのも、[LINK=PROMOTION_MODE_EASY]難易度EASY[\LINK]系列のスペルカード系昇進を取得すると[COLOR_HIGHLIGHT_TEXT]CALを上昇させるという効力がついてきます[COLOR_REVERT]。このおかげで、スペルカード系昇進を取得するだけで他ルート時のCAL値に大分差を付ける事が出来ます。スペルカードを発動させる際はこの[COLOR_HIGHLIGHT_TEXT]CAL値が高ければ高いほど良い[COLOR_REVERT]と言っても過言ではないため、スペルカードを活用する際はまず難易度EASY系昇進から連なる昇進を取得してCALを上昇させてからにしましょう。ちなみに、スペルカードを発動させた際にもCALは1上昇する仕組みのため、スペルカードを何度も何度も使用していればいつかはコンバットルートやシューティングルートの東方ユニットでもスペルカードルートのCAL値に迫る値になるかもしれません。（もっとも、そうなる頃にはとっくの昔に誰かが宇宙船を打ち上げている頃合でしょうがね）[PARAGRAPH:2][BOLD]Powerについて[\BOLD][PARAGRAPH:1]Power値はスペルカードの発動に求められる値です。要するに、[COLOR_HIGHLIGHT_TEXT]MPみたいなもの[COLOR_REVERT]です。基本的にスペルカードを一回発動するのにPower値1.00を消費します。消費したPower値はターン毎に自動回復するので待っていればいつかはまた再発動が可能です。あるいは戦闘で勝利したり東方ユニットのみが取得出来る、何度でも取得可能な[LINK=PROMOTION_SPELLCARD]特殊昇進[\LINK]を取得したりすることで回復できます。Power値の[COLOR_HIGHLIGHT_TEXT]最大値は4.00まで[COLOR_REVERT]であり、それ以上の溢れた数字はPower0.1毎に経験値1に変換されます。[PARAGRAPH:1][H1]Extra/Phantasmスペルについて[\H1][PARAGRAPH:1]スペルカードルートの昇進は[LINK=PROMOTION_MODE_NORMAL]難易度NORMAL[\LINK]を分岐点として2つのルートに分岐します。1つは[LINK=PROMOTION_MODE_HARD]難易度HARD[\LINK]・[LINK=PROMOTION_MODE_LUNATIC]難易度LUNATIC[\LINK]を取得しCALを更に上昇させ、通常のスペルカードの使用に特化するルート。そしてもう一つは、先の難易度HARD/LUNATICルートと比較すると上昇CAL値は少ないですが、その代わり通常のスペルカードとは異なる別のスペルカードとも言える「Extraスペル」「Phantasmスペル」を使用可能になる[LINK=PROMOTION_MODE_EXTRA]難易度EXTRA[\LINK]・[LINK=PROMOTION_MODE_PHANTASM]難易度PHANTASM[\LINK]の昇進を取得しにいくルートです。[NEWLINE][NEWLINE]Extraスペル/Phantasmスペルもまた東方ユニットによって固有のスペルを持っていますが、傾向としてPhantasmスペルは取得条件が厳しい分、より劇的な効力を持つものが多いです。また、[LINK=CONCEPT_TOHOUNIT_SPELL_TYPE]スペルの効力5大別[\LINK]の中では支援系や内政系のスペルが多い傾向があります。ちなみに、[LINK=PROMOTION_MODE_HARD]難易度HARD[\LINK]及び[LINK=PROMOTION_MODE_EXTRA]難易度EXTRA[\LINK]の昇進を取得するには[LINK=TECH_SHOOTING_TECHNIQUE2]パターン化[\LINK]の技術を、[LINK=PROMOTION_MODE_LUNATIC]難易度LUNATIC[\LINK]及び[LINK=PROMOTION_MODE_PHANTASM]難易度PHANTASM[\LINK]の昇進を取得するには[LINK=TECH_SHOOTING_TECHNIQUE3]判定見切り[\LINK]の技術を取得していることがそれぞれ条件となります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB][H1]東方ユニット - スペルカードルート[\H1][PARAGRAPH:1]スペルカードルートとは[LINK=PROMOTION_MODE_EASY]難易度EASY[\LINK]から派生する各自スペルカードルート昇進を取得する事により、各東方ユニットが独自に扱える切り札「スペルカード」の使用に特化した昇進ルートです。スペルカードの効力は各種東方ユニットによって千差万別なので「これ！」という言い方は出来ませんが、しかしその分最もバリエーションに富んだルートであるとも言えます。[NEWLINE][NEWLINE]東方ユニットの3すくみ上での立場は、スペルカードルートは[COLOR_HIGHLIGHT_TEXT]シューティングルートに強く[COLOR_REVERT]、[COLOR_SELECTED_TEXT]コンバットルートに弱い[COLOR_REVERT]という立ち位置です。[PARAGRAPH:1][H1]東方ユニットのスペルカードとは[\H1][PARAGRAPH:1]このスペルカードルートの肝とも言える東方ユニットが使用可能な独自システム「スペルカードシステム」は、要するに「切り札的な効力の魔法」のようなもので、各東方ユニットはそれぞれ固有のスペルカードを使用する事が可能です。そして、このスペルカードを発動する際は東方ユニット独自の数字である[PARAGRAPH:2][ICON_BULLET]CAL = [COLOR_HIGHLIGHT_TEXT]C[COLOR_REVERT]ard[COLOR_HIGHLIGHT_TEXT]A[COLOR_REVERT]ttack[COLOR_HIGHLIGHT_TEXT]L[COLOR_REVERT]evel.スペルカードの威力を現す[PARAGRAPH:1][ICON_BULLET]Power = スペルカードの発動に必要な値。不足していると発動不可[PARAGRAPH:2]という2つの数値が重要になってきます。[PARAGRAPH:2][BOLD]CALについて[\BOLD][PARAGRAPH:1]まず、東方ユニットであれば基本的にどのルートだろうが（それこそコンバットルートだろうが、シューティングルートだろうが）スペルカードを発動する事自体は出来ます。しかし、本家スペルカードルートの昇進を取っている東方ユニットのそれと比べると、他ルートの昇進を通っている東方ユニットのスペルカードは基本的にそれほど高い効力を発揮しません。それは何故か？それは、このCAL値の値が影響しているためです。[PARAGRAPH:1]というのも、[LINK=PROMOTION_MODE_EASY]難易度EASY[\LINK]系列のスペルカード系昇進を取得すると[COLOR_HIGHLIGHT_TEXT]CALを上昇させるという効力がついてきます[COLOR_REVERT]。このおかげで、スペルカード系昇進を取得するだけで他ルート時のCAL値に大分差を付ける事が出来ます。スペルカードを発動させる際はこの[COLOR_HIGHLIGHT_TEXT]CAL値が高ければ高いほど良い[COLOR_REVERT]と言っても過言ではないため、スペルカードを活用する際はまず難易度EASY系昇進から連なる昇進を取得してCALを上昇させてからにしましょう。ちなみに、スペルカードを発動させた際にもCALは1上昇する仕組みのため、スペルカードを何度も何度も使用していればいつかはコンバットルートやシューティングルートの東方ユニットでもスペルカードルートのCAL値に迫る値になるかもしれません。（もっとも、そうなる頃にはとっくの昔に誰かが宇宙船を打ち上げている頃合でしょうがね）[PARAGRAPH:2][BOLD]Powerについて[\BOLD][PARAGRAPH:1]Power値はスペルカードの発動に求められる値です。要するに、[COLOR_HIGHLIGHT_TEXT]MPみたいなもの[COLOR_REVERT]です。基本的にスペルカードを一回発動するのにPower値1.00を消費します。消費したPower値はターン毎に自動回復するので待っていればいつかはまた再発動が可能です。あるいは戦闘で勝利したり東方ユニットのみが取得出来る、何度でも取得可能な[LINK=PROMOTION_SPELLCARD]特殊昇進[\LINK]を取得したりすることで回復できます。Power値の[COLOR_HIGHLIGHT_TEXT]最大値は4.00まで[COLOR_REVERT]であり、それ以上の溢れた数字はPower0.1毎に経験値1に変換されます。[PARAGRAPH:1][H1]Extra/Phantasmスペルについて[\H1][PARAGRAPH:1]スペルカードルートの昇進は[LINK=PROMOTION_MODE_NORMAL]難易度NORMAL[\LINK]を分岐点として2つのルートに分岐します。1つは[LINK=PROMOTION_MODE_HARD]難易度HARD[\LINK]・[LINK=PROMOTION_MODE_LUNATIC]難易度LUNATIC[\LINK]を取得しCALを更に上昇させ、通常のスペルカードの使用に特化するルート。そしてもう一つは、先の難易度HARD/LUNATICルートと比較すると上昇CAL値は少ないですが、その代わり通常のスペルカードとは異なる別のスペルカードとも言える「Extraスペル」「Phantasmスペル」を使用可能になる[LINK=PROMOTION_MODE_EXTRA]難易度EXTRA[\LINK]・[LINK=PROMOTION_MODE_PHANTASM]難易度PHANTASM[\LINK]の昇進を取得しにいくルートです。[NEWLINE][NEWLINE]Extraスペル/Phantasmスペルもまた東方ユニットによって固有のスペルを持っていますが、傾向としてPhantasmスペルは取得条件が厳しい分、より劇的な効力を持つものが多いです。また、[LINK=CONCEPT_TOHOUNIT_SPELL_TYPE]スペルの効力5大別[\LINK]の中では支援系や内政系のスペルが多い傾向があります。ちなみに、[LINK=PROMOTION_MODE_HARD]難易度HARD[\LINK]及び[LINK=PROMOTION_MODE_EXTRA]難易度EXTRA[\LINK]の昇進を取得するには[LINK=TECH_SHOOTING_TECHNIQUE2]パターン化[\LINK]の技術を、[LINK=PROMOTION_MODE_LUNATIC]難易度LUNATIC[\LINK]及び[LINK=PROMOTION_MODE_PHANTASM]難易度PHANTASM[\LINK]の昇進を取得するには[LINK=TECH_SHOOTING_TECHNIQUE3]判定見切り[\LINK]の技術を取得していることがそれぞれ条件となります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOHOUNIT_SPELL_TYPE</Tag>
+		<English />
+		<French>スペルカードの種類</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スペルカードの種類</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOHOUNIT_SPELL_TYPE_PEDIA</Tag>
+		<English />
+		<French>[TAB][H1]スペルカードの種類[\H1][PARAGRAPH:1]東方ユニットのスペルカードは各東方ユニットによって千差万別の効力ではありますが、その効力は大別すると以下の5つに区別できます[PARAGRAPH:2][COLOR_HIGHLIGHT_TEXT][BOLD]直接ダメージ系[\BOLD][COLOR_REVERT][NEWLINE]そのユニットが隣接している（場合によってはもっと遠距離を攻撃できるものもあります）敵対スタックに対して一斉にダメージを与える事が出来る効力です。スペルカードの中では比較的シンプルな効力であり、そのダメージ量は高いCAL値で発動すればまさしく切り札と呼ぶに相応しい威力になることでしょう。[PARAGRAPH:1][BOLD]代表的なユニット[\BOLD][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_REMILIA1]レミリア・スカーレット[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_MIMA1]魅魔[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_YUGI1]星熊勇儀[\LINK][PARAGRAPH:3][COLOR_HIGHLIGHT_TEXT][BOLD]間接攻撃系[\BOLD][COLOR_REVERT][NEWLINE]ユニットに直接ダメージを与えるよりもよりもデバフスキルの付与や都市防御値へのダメージなど、間接的な支援攻撃に重きを置いたスペルカードです。その性質上、他の東方ユニットや一般兵と合わせて使用することで真価を発揮します[PARAGRAPH:1][BOLD]代表的なユニット[\BOLD][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_REISEN1]鈴仙・優曇華院・イナバ[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_MARISA1]霧雨魔理沙[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_SEIJA1]鬼人正邪[\LINK][PARAGRAPH:3][COLOR_HIGHLIGHT_TEXT][BOLD]支援系[\BOLD][COLOR_REVERT][NEWLINE]間接攻撃系とは逆に、味方ユニットに対するバフスキルを撒いて戦闘を有利に運ぶタイプです。この場合基本的に他東方ユニットにはバフスキルは付与出来ない仕様のものが多いため、一般ユニットと合わせることが前提となる場合が多いです。[PARAGRAPH:1][BOLD]代表的なユニット[\BOLD][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_TEWI1]因幡てゐ[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_SANAE1]東風谷早苗[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_BYAKUREN1]聖白蓮[\LINK][PARAGRAPH:3][COLOR_HIGHLIGHT_TEXT][BOLD]召喚系[\BOLD][COLOR_REVERT][NEWLINE]スペルカード発動と共にユニットを多数召喚するタイプです。CAL値が高いほど召喚ユニット数が多くなる傾向があります。また、召喚したユニットがそのまま撃破されるまで残るタイプと1ターンで消滅するタイプの2つが存在します。[PARAGRAPH:1][BOLD]代表的なユニット[\BOLD][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_YOUMU1]魂魄妖夢[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_WRIGGLE1]リグル・ナイトバグ[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_ALICE1]アリス・マーガトロイド[\LINK][PARAGRAPH:3][COLOR_HIGHLIGHT_TEXT][BOLD]内政系[\BOLD][COLOR_REVERT][NEWLINE]上述するスペルカードは4つとも全て戦争において真価を発揮する性能でしたが、中には戦争ではなく内政で真価を発揮するものも存在します。性質上戦争時ではあまり役に立ちませんが、戦争以外の場面においては非常に重宝する事になるでしょう。[PARAGRAPH:1][BOLD]代表的なユニット[\BOLD][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_RAN1]八雲藍[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_SUWAKO1]洩矢諏訪子[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_SHINMYOUMARU1]少名針妙丸[\LINK]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB][H1]スペルカードの種類[\H1][PARAGRAPH:1]東方ユニットのスペルカードは各東方ユニットによって千差万別の効力ではありますが、その効力は大別すると以下の5つに区別できます[PARAGRAPH:2][COLOR_HIGHLIGHT_TEXT][BOLD]直接ダメージ系[\BOLD][COLOR_REVERT][NEWLINE]そのユニットが隣接している（場合によってはもっと遠距離を攻撃できるものもあります）敵対スタックに対して一斉にダメージを与える事が出来る効力です。スペルカードの中では比較的シンプルな効力であり、そのダメージ量は高いCAL値で発動すればまさしく切り札と呼ぶに相応しい威力になることでしょう。[PARAGRAPH:1][BOLD]代表的なユニット[\BOLD][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_REMILIA1]レミリア・スカーレット[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_MIMA1]魅魔[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_YUGI1]星熊勇儀[\LINK][PARAGRAPH:3][COLOR_HIGHLIGHT_TEXT][BOLD]間接攻撃系[\BOLD][COLOR_REVERT][NEWLINE]ユニットに直接ダメージを与えるよりもよりもデバフスキルの付与や都市防御値へのダメージなど、間接的な支援攻撃に重きを置いたスペルカードです。その性質上、他の東方ユニットや一般兵と合わせて使用することで真価を発揮します[PARAGRAPH:1][BOLD]代表的なユニット[\BOLD][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_REISEN1]鈴仙・優曇華院・イナバ[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_MARISA1]霧雨魔理沙[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_SEIJA1]鬼人正邪[\LINK][PARAGRAPH:3][COLOR_HIGHLIGHT_TEXT][BOLD]支援系[\BOLD][COLOR_REVERT][NEWLINE]間接攻撃系とは逆に、味方ユニットに対するバフスキルを撒いて戦闘を有利に運ぶタイプです。この場合基本的に他東方ユニットにはバフスキルは付与出来ない仕様のものが多いため、一般ユニットと合わせることが前提となる場合が多いです。[PARAGRAPH:1][BOLD]代表的なユニット[\BOLD][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_TEWI1]因幡てゐ[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_SANAE1]東風谷早苗[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_BYAKUREN1]聖白蓮[\LINK][PARAGRAPH:3][COLOR_HIGHLIGHT_TEXT][BOLD]召喚系[\BOLD][COLOR_REVERT][NEWLINE]スペルカード発動と共にユニットを多数召喚するタイプです。CAL値が高いほど召喚ユニット数が多くなる傾向があります。また、召喚したユニットがそのまま撃破されるまで残るタイプと1ターンで消滅するタイプの2つが存在します。[PARAGRAPH:1][BOLD]代表的なユニット[\BOLD][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_YOUMU1]魂魄妖夢[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_WRIGGLE1]リグル・ナイトバグ[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_ALICE1]アリス・マーガトロイド[\LINK][PARAGRAPH:3][COLOR_HIGHLIGHT_TEXT][BOLD]内政系[\BOLD][COLOR_REVERT][NEWLINE]上述するスペルカードは4つとも全て戦争において真価を発揮する性能でしたが、中には戦争ではなく内政で真価を発揮するものも存在します。性質上戦争時ではあまり役に立ちませんが、戦争以外の場面においては非常に重宝する事になるでしょう。[PARAGRAPH:1][BOLD]代表的なユニット[\BOLD][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_RAN1]八雲藍[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_SUWAKO1]洩矢諏訪子[\LINK][PARAGRAPH:1][ICON_BULLET][LINK=UNIT_SHINMYOUMARU1]少名針妙丸[\LINK]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_KEIZAI</Tag>
+		<English />
+		<French>「○○経済」ってそもそも何？</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「○○経済」ってそもそも何？</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_KEIZAI_PEDIA</Tag>
+		<English />
+		<French>[TAB][H1]「○○経済」ってそもそも何？[\H1][PARAGRAPH:1]このCivilization4というゲームは歴史が長い分、ユーザーの間では新規の方には分かりづらい用語も数多く作られています。この「○○経済」という単語はその中でも特にイメージしづらい言葉の一つではないかと思います。これはつまるところ「[COLOR_HIGHLIGHT_TEXT]どういう方法で研究を進めるか[COLOR_REVERT]」を指し示す言葉だ、と思って差し支えありません。バニラBtSにおいては（及び、東方叙事詩においては）大別すると以下の3種類に区別できます。[PARAGRAPH:2][BOLD]小屋経済[\BOLD][PARAGRAPH:1]主に地形改善の一つである[LINK=IMPROVEMENT_COTTAGE]小屋[\LINK]を首都を含んだ各都市に設置し、そこから産出されるコインを中心に研究を進めるプレイ法です。Civ4において研究力を進める手法としては基本中の基本であり、他の「経済」（専門家経済など）も元はといえば小屋経済における欠点を埋めるために編み出された、と思っても差し支えありません。[PARAGRAPH:1]初期拡張時に広い土地を獲得した場合（8～10都市以上見込める、など）は維持費問題との兼ね合いもあるためこの場合は専門家経済よりも小屋経済の方が適している、と言われています。また、いくら小屋を中心に設置しろとは言っても全ての都市で小屋だけだといくら何でもハンマー量が不足してしまうため、幾つか（たとえば2都市ほど）はハンマー特化の生産都市も用意しておいた方がプレイしやすいでしょう。[PARAGRAPH:3][BOLD]専門家経済[\BOLD][NEWLINE][NEWLINE]こちらは一言で専門家経済といっても、更にそこから幾つかの種類に分別されるため非常に長くなります。そのため詳細は[LINK=CONCEPT_SENMONKA_KEIZAI]別ページ[\LINK]に記載しています。[PARAGRAPH:3][BOLD]スパイ経済[\BOLD][NEWLINE][NEWLINE]上記の2点とも違い、スパイによる技術窃盗をメインに研究を進めるプレイ法です。某有名動画を見てこのゲームを購入された方も多いのではないでしょうか？[PARAGRAPH:1]このプレイ法は過去に動画がアップされた時点ではまだ戦略が煮詰まっていない、いわばプロトタイプの段階だったため動画のプレイ法は事実上陳腐化しています（当の動画をアップしていた本人自身も言っている程です）現在では「スパイ経済」といえば序盤に[LINK=UNIT_GREAT_SPY]偉大なスパイ[\LINK]を何とかして輩出し、そのミッションで得られたスパイポイントから他国のテクノロジーを盗み、そこから何とか食い繋いでいく手法、通称「大スパイ経済」が中心となっています。[PARAGRAPH:1]また、同時にスパイに頼らない研究法も現在では洗練されており、今では難易度天帝でもスパイに頼らないプレイの方がどちらかというと主流です。ですが、スパイ経済が完全に陳腐化したというわけでもありません。まだまだスパイは健在、というわけです。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB][H1]「○○経済」ってそもそも何？[\H1][PARAGRAPH:1]このCivilization4というゲームは歴史が長い分、ユーザーの間では新規の方には分かりづらい用語も数多く作られています。この「○○経済」という単語はその中でも特にイメージしづらい言葉の一つではないかと思います。これはつまるところ「[COLOR_HIGHLIGHT_TEXT]どういう方法で研究を進めるか[COLOR_REVERT]」を指し示す言葉だ、と思って差し支えありません。バニラBtSにおいては（及び、東方叙事詩においては）大別すると以下の3種類に区別できます。[PARAGRAPH:2][BOLD]小屋経済[\BOLD][PARAGRAPH:1]主に地形改善の一つである[LINK=IMPROVEMENT_COTTAGE]小屋[\LINK]を首都を含んだ各都市に設置し、そこから産出されるコインを中心に研究を進めるプレイ法です。Civ4において研究力を進める手法としては基本中の基本であり、他の「経済」（専門家経済など）も元はといえば小屋経済における欠点を埋めるために編み出された、と思っても差し支えありません。[PARAGRAPH:1]初期拡張時に広い土地を獲得した場合（8～10都市以上見込める、など）は維持費問題との兼ね合いもあるためこの場合は専門家経済よりも小屋経済の方が適している、と言われています。また、いくら小屋を中心に設置しろとは言っても全ての都市で小屋だけだといくら何でもハンマー量が不足してしまうため、幾つか（たとえば2都市ほど）はハンマー特化の生産都市も用意しておいた方がプレイしやすいでしょう。[PARAGRAPH:3][BOLD]専門家経済[\BOLD][NEWLINE][NEWLINE]こちらは一言で専門家経済といっても、更にそこから幾つかの種類に分別されるため非常に長くなります。そのため詳細は[LINK=CONCEPT_SENMONKA_KEIZAI]別ページ[\LINK]に記載しています。[PARAGRAPH:3][BOLD]スパイ経済[\BOLD][NEWLINE][NEWLINE]上記の2点とも違い、スパイによる技術窃盗をメインに研究を進めるプレイ法です。某有名動画を見てこのゲームを購入された方も多いのではないでしょうか？[PARAGRAPH:1]このプレイ法は過去に動画がアップされた時点ではまだ戦略が煮詰まっていない、いわばプロトタイプの段階だったため動画のプレイ法は事実上陳腐化しています（当の動画をアップしていた本人自身も言っている程です）現在では「スパイ経済」といえば序盤に[LINK=UNIT_GREAT_SPY]偉大なスパイ[\LINK]を何とかして輩出し、そのミッションで得られたスパイポイントから他国のテクノロジーを盗み、そこから何とか食い繋いでいく手法、通称「大スパイ経済」が中心となっています。[PARAGRAPH:1]また、同時にスパイに頼らない研究法も現在では洗練されており、今では難易度天帝でもスパイに頼らないプレイの方がどちらかというと主流です。ですが、スパイ経済が完全に陳腐化したというわけでもありません。まだまだスパイは健在、というわけです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SENMONKA_KEIZAI</Tag>
+		<English />
+		<French>専門家経済ガイド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>専門家経済ガイド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SENMONKA_KEIZAI_PEDIA</Tag>
+		<English />
+		<French>[TAB][H1]専門家経済ガイド[\H1][PARAGRAPH:1]専門家経済とは主に新規プレイヤーの方々にとって特に分かりづらい専門用語の一つだと思います。このプレイ法は一言で言うと「専門家の雇用を利用して研究を進めるプレイスタイル」のことですが、更にここから「[COLOR_HIGHLIGHT_TEXT]専門家/定住偉人自体の産出を中心として進めるか[COLOR_REVERT]」と「[COLOR_HIGHLIGHT_TEXT]偉人の電球消費を中心として進めるか[COLOR_REVERT]」の2つに分岐していきます。[PARAGRAPH:1][H1]まず最初に - 専門家および偉人の特性[\H1][NEWLINE][NEWLINE][ICON_BULLET]専門家の出力そのものは、[LINK=CIVIC_REPRESENTATION]代議制[\LINK]が無いと微妙[NEWLINE][NEWLINE][ICON_BULLET]ただし代議制があっても、それぞれ最大出力化した[LINK=IMPROVEMENT_COTTAGE]小屋[\LINK]・[LINK=IMPROVEMENT_WORKSHOP]工房[\LINK]・[LINK=IMPROVEMENT_WATERMILL]水車[\LINK]・[LINK=IMPROVEMENT_WINDMILL]風車[\LINK]には劣る[NEWLINE][NEWLINE][ICON_BULLET]出力の強さは[COLOR_HIGHLIGHT_TEXT]改善済みタイル＞専門家＞改善無しタイル[COLOR_REVERT]。ただし、序盤は話も変わってくる[NEWLINE][NEWLINE][ICON_BULLET]偉人は出せば出すほど次の偉人発生に必要な偉人ポイントが増えていく[NEWLINE][NEWLINE][ICON_BULLET]偉人自体はルネサンス期までがピーク。工業化以後は基本的に黄金期要因[NEWLINE][NEWLINE][ICON_BULLET]偉人の定住は電球消費と比較すると電球消費を上回るリターンを得るのが大分遅くなる。が、最終的にはこちらが上なのも事実[NEWLINE][NEWLINE][ICON_BULLET][LINK=BUILDING_PYRAMID]ピラミッド[\LINK]建設からの早期[LINK=CIVIC_REPRESENTATION]代議制[\LINK]、通称ピラ代議は別に必須ではない[NEWLINE]※ただし、無いよりはある方が間違いなく良い。ピラミッド建設による開拓の遅れ等のリスクを考えてメリットが上回るのならば、といったところ[NEWLINE][NEWLINE]纏めると[NEWLINE][BOLD]簡単に偉人を出せて、かつ地形改善の出力がまだ弱い序盤～中盤は専門家と偉人が強い[\BOLD][NEWLINE][BOLD]地形改善の出力が高くなってくるルネサンス期後半～工業化以降では市民をタイルに配置させた方が大概強い[\BOLD][NEWLINE][BOLD]電球消費は一時的に大量の研究力を得れるが、継続出力ではないため戦争などで国力を増大させる方向に繋げないと後が続かない[\BOLD][NEWLINE][BOLD]定住させるなら内政・非戦上等ぐらいの気持ちで[\BOLD][PARAGRAPH:3][H1]専門家経済の種類[\H1][NEWLINE]専門家経済とは[COLOR_HIGHLIGHT_TEXT]とにかく都市で専門家の雇用を優先して偉人を出す事を目的とするプレイスタイル[COLOR_REVERT]のことですが、現在の「専門家経済」といえば大別して2種類に分別されます。[PARAGRAPH:3][BOLD]官僚制専門家経済[\BOLD][NEWLINE][NEWLINE]最近の専門家経済といえば[COLOR_HIGHLIGHT_TEXT]基本的にこの手法を取られる事が多い[COLOR_REVERT]です。その名の通りに社会制度[LINK=CIVIC_BUREAUCRACY]官僚制[\LINK]を最大限生かすプレイ法であり、首都20タイル圏には[LINK=IMPROVEMENT_COTTAGE]小屋[\LINK]を張りつつ首都では出来る限り市民を置く、他の都市は専門家を雇用して偉人を出す、というスタイルです。この際に、社会制度の官僚制を採用する前に首都とタイルが被っている衛星都市では首都の小屋タイルを明け渡してもらい、事前に育てておいて官僚制採用後に首都にタイルを明け渡すのがコツです。[PARAGRAPH:1]小屋経済の利点を取り入れつつ専門家経済（からの偉人発生・電球消費）による短期爆発力を得ることも出来るため極めてバランスが良く、クセが少ないプレイ法です。主に[COLOR_HIGHLIGHT_TEXT]首都含め6都市前後（首都とのタイル被り含む）の場合に向いている[COLOR_REVERT]と言われています。[PARAGRAPH:3][BOLD]純粋専門家経済[\BOLD][NEWLINE][NEWLINE]官僚制専門家経済が一言で言うと「首都だけは小屋を張る」というスタイルなのに対し、こちらは[COLOR_HIGHLIGHT_TEXT]首都も含めた全ての都市で専門家の雇用をする[COLOR_REVERT]というスタイルを指します。必然的に[COLOR_HIGHLIGHT_TEXT]小屋を殆ど配置しないスタイル[COLOR_REVERT]とも言えるため、プレイ中においての性能はピーキーであり、官僚制専門家経済のそれとは比べ物にならないほどクセが強い専門家経済のスタイルです。[NEWLINE][NEWLINE]基本的には最近では上述の官僚制専門家経済の方が使いやすく、かつ色んな状況に対応出来るため[COLOR_HIGHLIGHT_TEXT]専門家経済といえば基本的に官僚制経済のことを指します[COLOR_REVERT]（純粋式の場合の方が注釈を付けられる程度には）が、首都立地補正により他都市より恵まれた立地の首都をそのまま専門家雇用に当てることができるため[COLOR_HIGHLIGHT_TEXT]型にハマった場合の偉人発生力はこちらの方が上[COLOR_REVERT]です。官僚制経済が完全な上位互換というわけではありません。[COLOR_HIGHLIGHT_TEXT]首都立地すらも微妙な場合は官僚制専門家より純粋専門家の方が適している[COLOR_REVERT]、と言われています。[PARAGRAPH:3][H1]偉人の使い方[\H1][PARAGRAPH:1]さて、専門家経済とは即ち都市で専門家の雇用を重視するスタイルです。そしてその専門家雇用の集大成こそが偉人の発生であり、この[COLOR_HIGHLIGHT_TEXT]偉人の使い方こそが専門家経済の肝[COLOR_REVERT]と言っても過言ではありません。では、どのような使い方があるか？大別すると以下の3種類に分けられます。[PARAGRAPH:3][BOLD]消費型[\BOLD][NEWLINE][NEWLINE][LINK=UNIT_SCIENTIST]大科学者[\LINK]の電球消費では研究力が、[LINK=UNIT_MERCHANT]大商人[\LINK]の交易ミッションでは大量の金銭がすぐに入手出来ます。この[COLOR_HIGHLIGHT_TEXT]すぐに入手出来る一時的な加速を中心に研究を進めていくスタイル[COLOR_REVERT]です。この一時的な収入は特にゲーム序盤～中盤にかけては正攻法で得られる研究や金銭よりも圧倒的に高効率の数字を得る事が出来るため、これにより中盤で他文明に差を付ける事が出来ます。ただし、これらで得られる研究力や金銭はあくまで一時的なものでしかないため、後に続きません。そのためこのリードを生かして何らかの拡大政策を取らないといずれ他文明に追い越される運命が待っています。[NEWLINE][NEWLINE]つまるところ、この消費型の偉人使用法を用いて[COLOR_HIGHLIGHT_TEXT]何らかの拡大政策（それこそ戦争とか）に繋げるプレイスタイルに最も向いています[COLOR_REVERT]。特に、[LINK=UNIT_SCIENTIST]大科学者[\LINK]の電球消費を中心に電球消費先の技術ルートとの相性が良い鋼鉄を取得し、強力な攻城兵器「[LINK=UNIT_CANNON]カノン砲[\LINK]」を用いて戦争を仕掛ける、通称カノンRが一つの王道戦略となっています。[NEWLINE]このカノンRルートのもう一つの利点は、強力な社会制度である[LINK=CIVIC_STATE_PROPERTY]国有化[\LINK]を採用出来る[LINK=TECH_UTOPIA]共産主義[\LINK]とテクノロジーツリー的な相性が良く、頑張ればすぐに取れる位置にあるという事です。国有化さえ採用してしまえば偉人を出し切って搾りカス状態になった国家でも国有化工房を撒いてハンマー重点のタイル出力型国家に早代わり出来るため、カノンRルートでは戦争一辺倒ではなくその後の内政もしっかりカバーすることが出来ます。[NEWLINE][NEWLINE][COLOR_SELECTED_TEXT]※補足…大科学者は電球消費、と記載していますが電球消費自体は他の偉人でも可能です。しかし大科学者だけとりわけ電球消費のことを言及されるのには理由があり、他の偉人よりも電球消費一回分辺りの取得研究力が明確に多いためです。[COLOR_REVERT][PARAGRAPH:3][BOLD]定住型（OCC/擬似OCC型）[\BOLD][NEWLINE][NEWLINE]上述の「消費型」では発生した偉人は電球消費ボタン等を用いてその場で消費してしまうスタイルですが、それとは異なり[COLOR_HIGHLIGHT_TEXT]どこか一つの都市（たいていは首都）に発生した偉人をひたすら定住させまくる手法[COLOR_REVERT]です。[NEWLINE]偉人の定住は電球消費の場合と異なり、1ターンごとに継続した出力を得る事が出来ますが、電球消費のそれを上回る出力を得るには相当なターン数が必要になります。例えば大科学者の電球消費で得られる研究力での比較だと電球消費は1回分約1500ビーカー（マップ標準・速度標準時）に対し、定住大科学者は1ターンにつきハンマー1/ビーカー6です。実際はこれに[LINK=CIVIC_REPRESENTATION]代議制[\LINK]の出力増加や[LINK=BUILDING_LIBRARY]図書館[\LINK]、[LINK=BUILDING_UNIVERSITY]大学[\LINK]などの加速建造物の補正が加わるので単純計算は出来ませんが、それでも[COLOR_HIGHLIGHT_TEXT]最大限の補正を加えたとしても、定住の出力が電球消費を上回るには時間がかかる[COLOR_REVERT]ということはイメージしやすいと思います。ただし、早期に定住させた偉人は最終的には消費以上の恩恵をもたらしてくれるのも事実です。そのため[COLOR_HIGHLIGHT_TEXT]非常に長い目線で戦略を組む場合は選択肢に入る手法[COLOR_REVERT]です。[NEWLINE][NEWLINE]つまるところ[COLOR_HIGHLIGHT_TEXT]「ピークが遅い」と言われる小屋経済以上に出力ピークが遅くなるプレイスタイル[COLOR_REVERT]と思って差し支えありません。小屋経済の場合は[LINK=UNIT_ARTILLERY]長距離砲[\LINK]や[LINK=UNIT_INFANTRY]歩兵[\LINK]/[LINK=UNIT_TANK]戦車[\LINK]のあたりで戦争をする余裕が産まれてきますが定住型偉人経済の場合は戦争する余裕すら無く非戦宇宙一択、と思ってもいいくらいに。偉人定住戦略を取る場合は最後の最後、[LINK=TECH_FUSION]核融合（叙事詩の場合は住吉さんのお力）[\LINK]をAI文明より先んじて取得するその時まではひたすら雌伏の時が続く、と考えていきましょう。[PARAGRAPH:3][BOLD]黄金期/企業[\BOLD][NEWLINE][NEWLINE]さて、先に記述した偉人の使用法のうち、先述の「消費型」の方はゲーム後半、大体工業化時代辺りに入るとルネサンス期以前ほどの優位性は失われていきます。というのも、偉人の消費で得られる出力はあくまで決められた数字であり、必要な研究力が多くなってくる工業化時代以降の技術では焼け石に水となるためです。この頃になると地形改善も技術進捗により序盤よりもはるかに強力になっています。ゲーム後半戦は[COLOR_HIGHLIGHT_TEXT]最早偉人一人でどうにかなる時代ではなく、国力の時代[COLOR_REVERT]です。[NEWLINE]では定住はどうか？と聞かれるとこれも微妙な選択肢となります。この頃になると[LINK=CIVIC_REPRESENTATION]代議制[\LINK]や各種ブースト建造物も大体揃っているでしょうが、それでも[COLOR_HIGHLIGHT_TEXT]消費を上回るにはそれなりのターン数がかかる[COLOR_REVERT]事になります。ゲーム後半に定住させたとしても、「回収」を見込める頃にはもうプレイヤー文明含めて誰かがゲームの勝者になっていてもおかしくはありません。[NEWLINE][NEWLINE]ゲーム後半は消費も微妙、定住も微妙。じゃあどうすればいいかって？答えは簡単です。[COLOR_HIGHLIGHT_TEXT]黄金期の発動に使うのがベスト[COLOR_REVERT]です。ゲーム後半は国土の大半に地形改善が行き届いているでしょうし、都市数もそれなりの数を確保しているものと思います。そういった状態で発動する黄金期からの出力増大は強力無比です。ゲームの趨勢を決めにかかる時の切り札として使っていきましょう。[NEWLINE]また、ゲーム後半で解禁される企業を創始するには各種偉人が必要になります。この企業を創始したい場合は滞りなく企業を創始出来るように、予め欲しい偉人をキープしていたり雇用専門家を調整するなどの事前準備を行うようにしましょう。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB][H1]専門家経済ガイド[\H1][PARAGRAPH:1]専門家経済とは主に新規プレイヤーの方々にとって特に分かりづらい専門用語の一つだと思います。このプレイ法は一言で言うと「専門家の雇用を利用して研究を進めるプレイスタイル」のことですが、更にここから「[COLOR_HIGHLIGHT_TEXT]専門家/定住偉人自体の産出を中心として進めるか[COLOR_REVERT]」と「[COLOR_HIGHLIGHT_TEXT]偉人の電球消費を中心として進めるか[COLOR_REVERT]」の2つに分岐していきます。[PARAGRAPH:1][H1]まず最初に - 専門家および偉人の特性[\H1][NEWLINE][NEWLINE][ICON_BULLET]専門家の出力そのものは、[LINK=CIVIC_REPRESENTATION]代議制[\LINK]が無いと微妙[NEWLINE][NEWLINE][ICON_BULLET]ただし代議制があっても、それぞれ最大出力化した[LINK=IMPROVEMENT_COTTAGE]小屋[\LINK]・[LINK=IMPROVEMENT_WORKSHOP]工房[\LINK]・[LINK=IMPROVEMENT_WATERMILL]水車[\LINK]・[LINK=IMPROVEMENT_WINDMILL]風車[\LINK]には劣る[NEWLINE][NEWLINE][ICON_BULLET]出力の強さは[COLOR_HIGHLIGHT_TEXT]改善済みタイル＞専門家＞改善無しタイル[COLOR_REVERT]。ただし、序盤は話も変わってくる[NEWLINE][NEWLINE][ICON_BULLET]偉人は出せば出すほど次の偉人発生に必要な偉人ポイントが増えていく[NEWLINE][NEWLINE][ICON_BULLET]偉人自体はルネサンス期までがピーク。工業化以後は基本的に黄金期要因[NEWLINE][NEWLINE][ICON_BULLET]偉人の定住は電球消費と比較すると電球消費を上回るリターンを得るのが大分遅くなる。が、最終的にはこちらが上なのも事実[NEWLINE][NEWLINE][ICON_BULLET][LINK=BUILDING_PYRAMID]ピラミッド[\LINK]建設からの早期[LINK=CIVIC_REPRESENTATION]代議制[\LINK]、通称ピラ代議は別に必須ではない[NEWLINE]※ただし、無いよりはある方が間違いなく良い。ピラミッド建設による開拓の遅れ等のリスクを考えてメリットが上回るのならば、といったところ[NEWLINE][NEWLINE]纏めると[NEWLINE][BOLD]簡単に偉人を出せて、かつ地形改善の出力がまだ弱い序盤～中盤は専門家と偉人が強い[\BOLD][NEWLINE][BOLD]地形改善の出力が高くなってくるルネサンス期後半～工業化以降では市民をタイルに配置させた方が大概強い[\BOLD][NEWLINE][BOLD]電球消費は一時的に大量の研究力を得れるが、継続出力ではないため戦争などで国力を増大させる方向に繋げないと後が続かない[\BOLD][NEWLINE][BOLD]定住させるなら内政・非戦上等ぐらいの気持ちで[\BOLD][PARAGRAPH:3][H1]専門家経済の種類[\H1][NEWLINE]専門家経済とは[COLOR_HIGHLIGHT_TEXT]とにかく都市で専門家の雇用を優先して偉人を出す事を目的とするプレイスタイル[COLOR_REVERT]のことですが、現在の「専門家経済」といえば大別して2種類に分別されます。[PARAGRAPH:3][BOLD]官僚制専門家経済[\BOLD][NEWLINE][NEWLINE]最近の専門家経済といえば[COLOR_HIGHLIGHT_TEXT]基本的にこの手法を取られる事が多い[COLOR_REVERT]です。その名の通りに社会制度[LINK=CIVIC_BUREAUCRACY]官僚制[\LINK]を最大限生かすプレイ法であり、首都20タイル圏には[LINK=IMPROVEMENT_COTTAGE]小屋[\LINK]を張りつつ首都では出来る限り市民を置く、他の都市は専門家を雇用して偉人を出す、というスタイルです。この際に、社会制度の官僚制を採用する前に首都とタイルが被っている衛星都市では首都の小屋タイルを明け渡してもらい、事前に育てておいて官僚制採用後に首都にタイルを明け渡すのがコツです。[PARAGRAPH:1]小屋経済の利点を取り入れつつ専門家経済（からの偉人発生・電球消費）による短期爆発力を得ることも出来るため極めてバランスが良く、クセが少ないプレイ法です。主に[COLOR_HIGHLIGHT_TEXT]首都含め6都市前後（首都とのタイル被り含む）の場合に向いている[COLOR_REVERT]と言われています。[PARAGRAPH:3][BOLD]純粋専門家経済[\BOLD][NEWLINE][NEWLINE]官僚制専門家経済が一言で言うと「首都だけは小屋を張る」というスタイルなのに対し、こちらは[COLOR_HIGHLIGHT_TEXT]首都も含めた全ての都市で専門家の雇用をする[COLOR_REVERT]というスタイルを指します。必然的に[COLOR_HIGHLIGHT_TEXT]小屋を殆ど配置しないスタイル[COLOR_REVERT]とも言えるため、プレイ中においての性能はピーキーであり、官僚制専門家経済のそれとは比べ物にならないほどクセが強い専門家経済のスタイルです。[NEWLINE][NEWLINE]基本的には最近では上述の官僚制専門家経済の方が使いやすく、かつ色んな状況に対応出来るため[COLOR_HIGHLIGHT_TEXT]専門家経済といえば基本的に官僚制経済のことを指します[COLOR_REVERT]（純粋式の場合の方が注釈を付けられる程度には）が、首都立地補正により他都市より恵まれた立地の首都をそのまま専門家雇用に当てることができるため[COLOR_HIGHLIGHT_TEXT]型にハマった場合の偉人発生力はこちらの方が上[COLOR_REVERT]です。官僚制経済が完全な上位互換というわけではありません。[COLOR_HIGHLIGHT_TEXT]首都立地すらも微妙な場合は官僚制専門家より純粋専門家の方が適している[COLOR_REVERT]、と言われています。[PARAGRAPH:3][H1]偉人の使い方[\H1][PARAGRAPH:1]さて、専門家経済とは即ち都市で専門家の雇用を重視するスタイルです。そしてその専門家雇用の集大成こそが偉人の発生であり、この[COLOR_HIGHLIGHT_TEXT]偉人の使い方こそが専門家経済の肝[COLOR_REVERT]と言っても過言ではありません。では、どのような使い方があるか？大別すると以下の3種類に分けられます。[PARAGRAPH:3][BOLD]消費型[\BOLD][NEWLINE][NEWLINE][LINK=UNIT_SCIENTIST]大科学者[\LINK]の電球消費では研究力が、[LINK=UNIT_MERCHANT]大商人[\LINK]の交易ミッションでは大量の金銭がすぐに入手出来ます。この[COLOR_HIGHLIGHT_TEXT]すぐに入手出来る一時的な加速を中心に研究を進めていくスタイル[COLOR_REVERT]です。この一時的な収入は特にゲーム序盤～中盤にかけては正攻法で得られる研究や金銭よりも圧倒的に高効率の数字を得る事が出来るため、これにより中盤で他文明に差を付ける事が出来ます。ただし、これらで得られる研究力や金銭はあくまで一時的なものでしかないため、後に続きません。そのためこのリードを生かして何らかの拡大政策を取らないといずれ他文明に追い越される運命が待っています。[NEWLINE][NEWLINE]つまるところ、この消費型の偉人使用法を用いて[COLOR_HIGHLIGHT_TEXT]何らかの拡大政策（それこそ戦争とか）に繋げるプレイスタイルに最も向いています[COLOR_REVERT]。特に、[LINK=UNIT_SCIENTIST]大科学者[\LINK]の電球消費を中心に電球消費先の技術ルートとの相性が良い鋼鉄を取得し、強力な攻城兵器「[LINK=UNIT_CANNON]カノン砲[\LINK]」を用いて戦争を仕掛ける、通称カノンRが一つの王道戦略となっています。[NEWLINE]このカノンRルートのもう一つの利点は、強力な社会制度である[LINK=CIVIC_STATE_PROPERTY]国有化[\LINK]を採用出来る[LINK=TECH_UTOPIA]共産主義[\LINK]とテクノロジーツリー的な相性が良く、頑張ればすぐに取れる位置にあるという事です。国有化さえ採用してしまえば偉人を出し切って搾りカス状態になった国家でも国有化工房を撒いてハンマー重点のタイル出力型国家に早代わり出来るため、カノンRルートでは戦争一辺倒ではなくその後の内政もしっかりカバーすることが出来ます。[NEWLINE][NEWLINE][COLOR_SELECTED_TEXT]※補足…大科学者は電球消費、と記載していますが電球消費自体は他の偉人でも可能です。しかし大科学者だけとりわけ電球消費のことを言及されるのには理由があり、他の偉人よりも電球消費一回分辺りの取得研究力が明確に多いためです。[COLOR_REVERT][PARAGRAPH:3][BOLD]定住型（OCC/擬似OCC型）[\BOLD][NEWLINE][NEWLINE]上述の「消費型」では発生した偉人は電球消費ボタン等を用いてその場で消費してしまうスタイルですが、それとは異なり[COLOR_HIGHLIGHT_TEXT]どこか一つの都市（たいていは首都）に発生した偉人をひたすら定住させまくる手法[COLOR_REVERT]です。[NEWLINE]偉人の定住は電球消費の場合と異なり、1ターンごとに継続した出力を得る事が出来ますが、電球消費のそれを上回る出力を得るには相当なターン数が必要になります。例えば大科学者の電球消費で得られる研究力での比較だと電球消費は1回分約1500ビーカー（マップ標準・速度標準時）に対し、定住大科学者は1ターンにつきハンマー1/ビーカー6です。実際はこれに[LINK=CIVIC_REPRESENTATION]代議制[\LINK]の出力増加や[LINK=BUILDING_LIBRARY]図書館[\LINK]、[LINK=BUILDING_UNIVERSITY]大学[\LINK]などの加速建造物の補正が加わるので単純計算は出来ませんが、それでも[COLOR_HIGHLIGHT_TEXT]最大限の補正を加えたとしても、定住の出力が電球消費を上回るには時間がかかる[COLOR_REVERT]ということはイメージしやすいと思います。ただし、早期に定住させた偉人は最終的には消費以上の恩恵をもたらしてくれるのも事実です。そのため[COLOR_HIGHLIGHT_TEXT]非常に長い目線で戦略を組む場合は選択肢に入る手法[COLOR_REVERT]です。[NEWLINE][NEWLINE]つまるところ[COLOR_HIGHLIGHT_TEXT]「ピークが遅い」と言われる小屋経済以上に出力ピークが遅くなるプレイスタイル[COLOR_REVERT]と思って差し支えありません。小屋経済の場合は[LINK=UNIT_ARTILLERY]長距離砲[\LINK]や[LINK=UNIT_INFANTRY]歩兵[\LINK]/[LINK=UNIT_TANK]戦車[\LINK]のあたりで戦争をする余裕が産まれてきますが定住型偉人経済の場合は戦争する余裕すら無く非戦宇宙一択、と思ってもいいくらいに。偉人定住戦略を取る場合は最後の最後、[LINK=TECH_FUSION]核融合（叙事詩の場合は住吉さんのお力）[\LINK]をAI文明より先んじて取得するその時まではひたすら雌伏の時が続く、と考えていきましょう。[PARAGRAPH:3][BOLD]黄金期/企業[\BOLD][NEWLINE][NEWLINE]さて、先に記述した偉人の使用法のうち、先述の「消費型」の方はゲーム後半、大体工業化時代辺りに入るとルネサンス期以前ほどの優位性は失われていきます。というのも、偉人の消費で得られる出力はあくまで決められた数字であり、必要な研究力が多くなってくる工業化時代以降の技術では焼け石に水となるためです。この頃になると地形改善も技術進捗により序盤よりもはるかに強力になっています。ゲーム後半戦は[COLOR_HIGHLIGHT_TEXT]最早偉人一人でどうにかなる時代ではなく、国力の時代[COLOR_REVERT]です。[NEWLINE]では定住はどうか？と聞かれるとこれも微妙な選択肢となります。この頃になると[LINK=CIVIC_REPRESENTATION]代議制[\LINK]や各種ブースト建造物も大体揃っているでしょうが、それでも[COLOR_HIGHLIGHT_TEXT]消費を上回るにはそれなりのターン数がかかる[COLOR_REVERT]事になります。ゲーム後半に定住させたとしても、「回収」を見込める頃にはもうプレイヤー文明含めて誰かがゲームの勝者になっていてもおかしくはありません。[NEWLINE][NEWLINE]ゲーム後半は消費も微妙、定住も微妙。じゃあどうすればいいかって？答えは簡単です。[COLOR_HIGHLIGHT_TEXT]黄金期の発動に使うのがベスト[COLOR_REVERT]です。ゲーム後半は国土の大半に地形改善が行き届いているでしょうし、都市数もそれなりの数を確保しているものと思います。そういった状態で発動する黄金期からの出力増大は強力無比です。ゲームの趨勢を決めにかかる時の切り札として使っていきましょう。[NEWLINE]また、ゲーム後半で解禁される企業を創始するには各種偉人が必要になります。この企業を創始したい場合は滞りなく企業を創始出来るように、予め欲しい偉人をキープしていたり雇用専門家を調整するなどの事前準備を行うようにしましょう。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUNMEI_GUIDE</Tag>
+		<English />
+		<French>文明別ワンポイントガイド</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>文明別ワンポイントガイド</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUNMEI_GUIDE_PEDIA</Tag>
+		<English />
+		<French>[TAB][H1]文明別ワンポイントガイド[\H1][PARAGRAPH:1]当MOD、東方叙事詩は登場する文明数はやや少ない部類ですが、その分文明ごとのユニークな特色がバニラBtSのそれよりも非常に色濃く、文明独自の戦略を立てることが出来るくらい特徴・クセが強く出ます。[NEWLINE]基本的な部分はバニラの知識を流用すれば何とかなるMODではありますが、折角なので独自の戦略を立ててみたくもなるでしょう。このページでは、そんな文明ごとの特徴・クセを簡単に解説していきます。[PARAGRAPH:2][H1][LINK=CIVILIZATION_ENGLAND]紅魔館[\LINK][\H1][NEWLINE]この文明は[COLOR_HIGHLIGHT_TEXT]戦争寄り[COLOR_REVERT]の特性です。しかし同じ戦争向き特性を持つ[LINK=CIVILIZATION_MALI]輝針城[\LINK]と比較すると序盤はそれほど高い優位性はありません。紅魔館の真価は[COLOR_HIGHLIGHT_TEXT]中盤～後半の戦争[COLOR_REVERT]にあります。また、オリジナル東方叙事詩ではほぼ戦争一色の特性でしたが統合MOD環境下になった今では多少内政も出来る文明となっています。[NEWLINE]独自地形改善である[LINK=IMPROVEMENT_KOUMAKAN_FARM]花壇[\LINK]の最終出力は全文明中でもトップクラスの凶悪さを誇るようになります。[PARAGRAPH:2][H1][LINK=CIVILIZATION_FRANCE]白玉楼[\LINK][\H1][NEWLINE]この文明は[COLOR_HIGHLIGHT_TEXT]比較的何でも出来る文明[COLOR_REVERT]です。じっくり内政を整えて後半戦に勝負を持っていくことは勿論ですが、東方ユニットの[LINK=UNIT_CHEN1]橙[\LINK]及びそのスペルから召喚される[LINK=UNIT_AKAONI_EASY]赤鬼[\LINK]、[LINK=UNIT_AOONI_EASY]青鬼[\LINK]を主軸とした早期Rも極めて強烈です。[NEWLINE]しかしこの文明最大の特徴は何といっても独自社会制度の[LINK=CIVIC_SISHANOOUKOKU]死者の王国[\LINK]を主軸とした戦法です。この社会制度を採用すると[LINK=IMPROVEMENT_FARM]農場[\LINK]からの食料産出に大幅なボーナスが加わる上に[LINK=CIVIC_CASTE_SYSTEM]カースト制[\LINK]のように専門家の雇用制限解除機能がついてきます。専門家を雇用しまくれ、といわんばかりの性能です。更に[LINK=CIVIC_REPRESENTATION]代議制[\LINK]も合わせて採用すると出力が目に見えて上昇していくでしょう。[NEWLINE]また、後半に解禁される[PARAGRAPH:2][H1][LINK=CIVILIZATION_EGYPT]永遠亭[\LINK][\H1][NEWLINE]明確に[COLOR_HIGHLIGHT_TEXT]内政寄り[COLOR_REVERT]、それも宇宙開発競争勝利に特化した文明という位置付けです。しかし「宇宙特化」とはいうものの[LINK=PROJECT_THE_INTERNET]模擬インターネット[\LINK]を独占で建設出来る博麗神社、ひたすら内政が強い妖怪の山、偉人定住戦略の最終段階が異様な出力になる神霊廟など、他文明も決して引けを取っていません。その分、この文明の現代戦は言うほど他文明より有利というわけではありません。[NEWLINE]最近では強力な固有地形改善である[LINK=IMPROVEMENT_EIENTEI_FOREST_PRESERVE]迷いの竹林[\LINK]を設置しやすくなったため、この迷いの竹林を主軸に戦略を練ってみるといいかもしれません。[PARAGRAPH:2][H1][LINK=CIVILIZATION_SPAIN]妖怪の山[\LINK][\H1][NEWLINE][COLOR_HIGHLIGHT_TEXT]偉大なる内政国家[COLOR_REVERT]です。ゲーム序盤から終盤に至るまで安定して高いタイル出力を産出する事が可能なため、他文明に対し技術的なリードを取る事が容易になるでしょう。[NEWLINE]この文明において最大の選択は、ゲーム開始直後の東方ユニット1体目に[LINK=UNIT_SUWAKO1]洩矢諏訪子[\LINK]を出してタイルの出力を強化してブーストをかけるか、あるいは[LINK=UNIT_NITORI1]河城にとり[\LINK]を出して序盤の遺産を取りに行くかの二択です。どちらの選択肢もメリット・デメリットがあるため、プレイヤー自身の好みや立地の状況に合わせて選択しましょう。[PARAGRAPH:2][H1][LINK=CIVILIZATION_PERSIA]地霊殿[\LINK][\H1][NEWLINE]オリジナル東方叙事詩1.13版と比較すると最も立ち回り方が変わった文明と言ってもいいでしょう。[LINK=IMPROVEMENT_CHIREIDEN_WORKSHOP]極めて優秀な固有地形改善[\LINK]や[LINK=UNIT_CHIREIDEN_WORKER]地形改善速度が頭一つ分抜けている固有労働者[\LINK]などを持ちつつ、一方で東方ユニットには内政に向いたユニットが少ないという仕様になっています。そのため、東方ユニットに頼らない部分で内政をしつつ戦争で一気に勝負を付けに行くスタイルを得意とします。全体的には[COLOR_HIGHLIGHT_TEXT]やや戦争寄りの文明[COLOR_REVERT]と言えるでしょう。[PARAGRAPH:2][H1][LINK=CIVILIZATION_ROME]氷精連合[\LINK][\H1][NEWLINE]どちらかというと[COLOR_HIGHLIGHT_TEXT]やや戦争寄りの文明[COLOR_REVERT]ですが、全体的には戦争・内政双方のバランスが取れている文明です。戦争を行う場合は世界魔法のおかげで急造のユニットを即座に確保出来るため[COLOR_HIGHLIGHT_TEXT]戦争準備は攻城兵器を多めに[COLOR_REVERT]作成しておくとよりスムーズに侵略軍を結成できるでしょう。[NEWLINE]また、この文明の場合指導者が[LINK=LEADER_LETTY]レティ・ホワイトロック[\LINK]の場合に限り独特の内政を行う事が出来ます。経験した事があるプレイヤーからは「別ゲー」と称される程です。まだ試していないなら一度は試してみることをオススメします。[PARAGRAPH:2][H1][LINK=CIVILIZATION_JAPAN]博麗神社[\LINK][\H1][NEWLINE]この文明は明確に[COLOR_HIGHLIGHT_TEXT]内政文明[COLOR_REVERT]です。この文明でプレイする際は（初期に製材所UIが解禁される氷精連合でもそうですが）森をどれだけ残すかを早いうちに決めておく事をお勧めします。食料を増やしつつ幸福まで追加する固有地形改善・[LINK=IMPROVEMENT_HAKUREIJINJA_FOREST_PRESERVE]茸栽培所[\LINK]は強烈な効力を持つ固有地形改善なのですが、森を伐採する事による一時的な加速は序盤ほど有難いものであり、それが出来なくなると序盤のスタートダッシュに影響を与える事にもなります。また、この地形改善はやや改善に時間がかかるため茸栽培所をメインに設置していくなら[COLOR_HIGHLIGHT_TEXT]労働者はいつもより多め[COLOR_REVERT]を心がけると上手くいきます。[PARAGRAPH:2][H1][LINK=CIVILIZATION_INDIA]人間の里[\LINK][\H1][NEWLINE]この文明は東方叙事詩の他文明とは異なり固有のテクノロジーは一切ありません（厳密に言うと東方ユニット生産用の初期技術だけはありますが）その代わりバニラBtS由来の固有建造物群を色々建設出来るという、バニラBtSをブーストさせたような特性があります。その為クセが少なく、またBtSと同じようなノリでプレイ出来るため[COLOR_HIGHLIGHT_TEXT]初めて東方叙事詩をプレイする人にはもってこい[COLOR_REVERT]と言える文明です。[NEWLINE]また、東方ユニットに関しても他文明と比較するとやや内政系スペルの持ち主が多い傾向があるため、東方ユニットの存在に慣れてない人でも「スペルはこのように使えば内政に寄与出来る、戦闘向きにするならこうする」等といった事が比較的分かりやすい文明でしょう。[NEWLINE]しかし初心者向きだからといって上級者が使うべきではないのか、というと決してそうではありません。初心者向きの志向とされる[LINK=TRAIT_SPIRITUAL]宗教志向[\LINK]や[LINK=TRAIT_CREATIVE]創造志向[\LINK]はCiv4に慣れている人が使っても強烈極まりない志向になります。それと同じ事です。人間の里文明は全体としては[COLOR_HIGHLIGHT_TEXT]やや内政寄りの文明[COLOR_REVERT]と言えるでしょう。[PARAGRAPH:2][H1][LINK=CIVILIZATION_RUSSIA]星蓮船[\LINK][\H1][NEWLINE]この文明は偉人のコントロール及び使い方にややクセがある文明です。中盤に固有テクノロジーを進めていると入手出来る特殊ユニット・[LINK=UNIT_RAINBOW_UFO]虹色UFO[\LINK]は自文明の都市に定住している偉人を一人取り出す事が出来る、という特殊能力を発動する事が出来ます。このユニットは確定で入手する事が出来るため、星蓮船文明を使用している際は[COLOR_HIGHLIGHT_TEXT]すぐに使わない偉人は、取り合えず定住させる[COLOR_REVERT]方がお得です。勿論、すぐに使ったり虹色UFOが入手出来る前に使用のタイミングが来るなら話は別ですが、他文明時にありがちな「偉人の長期キープ」はこの文明に限り第三の選択肢がある、と考えて差し支えありません。[NEWLINE]また、この文明でプレイする際は特に理由が無いのであれば初めて出す東方ユニットは[LINK=UNIT_SYOU1]寅丸星[\LINK]がお勧めです。序盤の忙しい拡張期に彼女のスペルカードを発動させる事で財政的にかなり余裕が出て来る事でしょう。また、様々な特性により偉人のコントロールが他文明より容易な文明のため、後半に特定の偉人が必要になる企業創始とも相性が良い文明と言えるでしょう。全体としては[COLOR_HIGHLIGHT_TEXT]やや内政寄りの文明[COLOR_REVERT]と考えて差し支えありません。[PARAGRAPH:2][H1][LINK=CIVILIZATION_CHINA]神霊廟[\LINK][\H1][NEWLINE]この文明はただでさえ独自の仕様が多い東方叙事詩の中でも[COLOR_HIGHLIGHT_TEXT]特にクセが強い文明[COLOR_REVERT]です。一応「偉人の定住がメインの文明」という扱いではありますが、その偉人定住に拘らずに別の手法を色々試す事が可能な文明です。[NEWLINE]しかし色々な手法があるということは、裏を返すとその分複雑な文明であるとも言えます。細かく書くととてもワンポイントとは言えない長さになるので、色々試してみましょう。全体としては[COLOR_HIGHLIGHT_TEXT]内政寄りの文明[COLOR_REVERT]ですが、発想次第では戦争でも十分やっていけるかもしれません。[PARAGRAPH:2][H1][LINK=CIVILIZATION_MALI]輝針城[\LINK][\H1][NEWLINE]この文明は紅魔館を更に戦闘に特化させたような特性の文明であり、完全に[COLOR_HIGHLIGHT_TEXT]戦争寄り[COLOR_REVERT]の文明です。[NEWLINE]特に同じような戦争寄り文明の紅魔館と比較して序盤～中盤にアドバンテージを取りやすい文明であり、古代～中世、そしてルネサンス期辺りの戦争ではユニットの質・量共に揃えやすくこの時期の対外戦争ではほぼ無敵と言ってもいい文明です。しかし、その分工業化時代以降は明確に他文明と比べた場合の利点が少ないというデメリットもあり、特に独自技術の五段階目「[LINK=TECH_KAISYUUKI]魔力の回収期[\LINK]」はテクノロジーツリー的に取りづらい場所にある、技術自体のコストも重い、更に取得しても東方ユニットのアップグレード解禁以外の利点は無い、とイヤガラセのような技術になっています。おかげで工業化時代以降は暫くの間、[COLOR_HIGHLIGHT_TEXT]他文明より東方ユニットの質で劣りやすい[COLOR_REVERT]と思って差し支えありません。[NEWLINE]色んな意味で、ゲーム後半までの間に戦争などで大国化する事を求められる文明と言えるでしょう。大国化してしまいさえすれば後は国力でどうにでもなります。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB][H1]文明別ワンポイントガイド[\H1][PARAGRAPH:1]当MOD、東方叙事詩は登場する文明数はやや少ない部類ですが、その分文明ごとのユニークな特色がバニラBtSのそれよりも非常に色濃く、文明独自の戦略を立てることが出来るくらい特徴・クセが強く出ます。[NEWLINE]基本的な部分はバニラの知識を流用すれば何とかなるMODではありますが、折角なので独自の戦略を立ててみたくもなるでしょう。このページでは、そんな文明ごとの特徴・クセを簡単に解説していきます。[PARAGRAPH:2][H1][LINK=CIVILIZATION_ENGLAND]紅魔館[\LINK][\H1][NEWLINE]この文明は[COLOR_HIGHLIGHT_TEXT]戦争寄り[COLOR_REVERT]の特性です。しかし同じ戦争向き特性を持つ[LINK=CIVILIZATION_MALI]輝針城[\LINK]と比較すると序盤はそれほど高い優位性はありません。紅魔館の真価は[COLOR_HIGHLIGHT_TEXT]中盤～後半の戦争[COLOR_REVERT]にあります。また、オリジナル東方叙事詩ではほぼ戦争一色の特性でしたが統合MOD環境下になった今では多少内政も出来る文明となっています。[NEWLINE]独自地形改善である[LINK=IMPROVEMENT_KOUMAKAN_FARM]花壇[\LINK]の最終出力は全文明中でもトップクラスの凶悪さを誇るようになります。[PARAGRAPH:2][H1][LINK=CIVILIZATION_FRANCE]白玉楼[\LINK][\H1][NEWLINE]この文明は[COLOR_HIGHLIGHT_TEXT]比較的何でも出来る文明[COLOR_REVERT]です。じっくり内政を整えて後半戦に勝負を持っていくことは勿論ですが、東方ユニットの[LINK=UNIT_CHEN1]橙[\LINK]及びそのスペルから召喚される[LINK=UNIT_AKAONI_EASY]赤鬼[\LINK]、[LINK=UNIT_AOONI_EASY]青鬼[\LINK]を主軸とした早期Rも極めて強烈です。[NEWLINE]しかしこの文明最大の特徴は何といっても独自社会制度の[LINK=CIVIC_SISHANOOUKOKU]死者の王国[\LINK]を主軸とした戦法です。この社会制度を採用すると[LINK=IMPROVEMENT_FARM]農場[\LINK]からの食料産出に大幅なボーナスが加わる上に[LINK=CIVIC_CASTE_SYSTEM]カースト制[\LINK]のように専門家の雇用制限解除機能がついてきます。専門家を雇用しまくれ、といわんばかりの性能です。更に[LINK=CIVIC_REPRESENTATION]代議制[\LINK]も合わせて採用すると出力が目に見えて上昇していくでしょう。[NEWLINE]また、後半に解禁される[PARAGRAPH:2][H1][LINK=CIVILIZATION_EGYPT]永遠亭[\LINK][\H1][NEWLINE]明確に[COLOR_HIGHLIGHT_TEXT]内政寄り[COLOR_REVERT]、それも宇宙開発競争勝利に特化した文明という位置付けです。しかし「宇宙特化」とはいうものの[LINK=PROJECT_THE_INTERNET]模擬インターネット[\LINK]を独占で建設出来る博麗神社、ひたすら内政が強い妖怪の山、偉人定住戦略の最終段階が異様な出力になる神霊廟など、他文明も決して引けを取っていません。その分、この文明の現代戦は言うほど他文明より有利というわけではありません。[NEWLINE]最近では強力な固有地形改善である[LINK=IMPROVEMENT_EIENTEI_FOREST_PRESERVE]迷いの竹林[\LINK]を設置しやすくなったため、この迷いの竹林を主軸に戦略を練ってみるといいかもしれません。[PARAGRAPH:2][H1][LINK=CIVILIZATION_SPAIN]妖怪の山[\LINK][\H1][NEWLINE][COLOR_HIGHLIGHT_TEXT]偉大なる内政国家[COLOR_REVERT]です。ゲーム序盤から終盤に至るまで安定して高いタイル出力を産出する事が可能なため、他文明に対し技術的なリードを取る事が容易になるでしょう。[NEWLINE]この文明において最大の選択は、ゲーム開始直後の東方ユニット1体目に[LINK=UNIT_SUWAKO1]洩矢諏訪子[\LINK]を出してタイルの出力を強化してブーストをかけるか、あるいは[LINK=UNIT_NITORI1]河城にとり[\LINK]を出して序盤の遺産を取りに行くかの二択です。どちらの選択肢もメリット・デメリットがあるため、プレイヤー自身の好みや立地の状況に合わせて選択しましょう。[PARAGRAPH:2][H1][LINK=CIVILIZATION_PERSIA]地霊殿[\LINK][\H1][NEWLINE]オリジナル東方叙事詩1.13版と比較すると最も立ち回り方が変わった文明と言ってもいいでしょう。[LINK=IMPROVEMENT_CHIREIDEN_WORKSHOP]極めて優秀な固有地形改善[\LINK]や[LINK=UNIT_CHIREIDEN_WORKER]地形改善速度が頭一つ分抜けている固有労働者[\LINK]などを持ちつつ、一方で東方ユニットには内政に向いたユニットが少ないという仕様になっています。そのため、東方ユニットに頼らない部分で内政をしつつ戦争で一気に勝負を付けに行くスタイルを得意とします。全体的には[COLOR_HIGHLIGHT_TEXT]やや戦争寄りの文明[COLOR_REVERT]と言えるでしょう。[PARAGRAPH:2][H1][LINK=CIVILIZATION_ROME]氷精連合[\LINK][\H1][NEWLINE]どちらかというと[COLOR_HIGHLIGHT_TEXT]やや戦争寄りの文明[COLOR_REVERT]ですが、全体的には戦争・内政双方のバランスが取れている文明です。戦争を行う場合は世界魔法のおかげで急造のユニットを即座に確保出来るため[COLOR_HIGHLIGHT_TEXT]戦争準備は攻城兵器を多めに[COLOR_REVERT]作成しておくとよりスムーズに侵略軍を結成できるでしょう。[NEWLINE]また、この文明の場合指導者が[LINK=LEADER_LETTY]レティ・ホワイトロック[\LINK]の場合に限り独特の内政を行う事が出来ます。経験した事があるプレイヤーからは「別ゲー」と称される程です。まだ試していないなら一度は試してみることをオススメします。[PARAGRAPH:2][H1][LINK=CIVILIZATION_JAPAN]博麗神社[\LINK][\H1][NEWLINE]この文明は明確に[COLOR_HIGHLIGHT_TEXT]内政文明[COLOR_REVERT]です。この文明でプレイする際は（初期に製材所UIが解禁される氷精連合でもそうですが）森をどれだけ残すかを早いうちに決めておく事をお勧めします。食料を増やしつつ幸福まで追加する固有地形改善・[LINK=IMPROVEMENT_HAKUREIJINJA_FOREST_PRESERVE]茸栽培所[\LINK]は強烈な効力を持つ固有地形改善なのですが、森を伐採する事による一時的な加速は序盤ほど有難いものであり、それが出来なくなると序盤のスタートダッシュに影響を与える事にもなります。また、この地形改善はやや改善に時間がかかるため茸栽培所をメインに設置していくなら[COLOR_HIGHLIGHT_TEXT]労働者はいつもより多め[COLOR_REVERT]を心がけると上手くいきます。[PARAGRAPH:2][H1][LINK=CIVILIZATION_INDIA]人間の里[\LINK][\H1][NEWLINE]この文明は東方叙事詩の他文明とは異なり固有のテクノロジーは一切ありません（厳密に言うと東方ユニット生産用の初期技術だけはありますが）その代わりバニラBtS由来の固有建造物群を色々建設出来るという、バニラBtSをブーストさせたような特性があります。その為クセが少なく、またBtSと同じようなノリでプレイ出来るため[COLOR_HIGHLIGHT_TEXT]初めて東方叙事詩をプレイする人にはもってこい[COLOR_REVERT]と言える文明です。[NEWLINE]また、東方ユニットに関しても他文明と比較するとやや内政系スペルの持ち主が多い傾向があるため、東方ユニットの存在に慣れてない人でも「スペルはこのように使えば内政に寄与出来る、戦闘向きにするならこうする」等といった事が比較的分かりやすい文明でしょう。[NEWLINE]しかし初心者向きだからといって上級者が使うべきではないのか、というと決してそうではありません。初心者向きの志向とされる[LINK=TRAIT_SPIRITUAL]宗教志向[\LINK]や[LINK=TRAIT_CREATIVE]創造志向[\LINK]はCiv4に慣れている人が使っても強烈極まりない志向になります。それと同じ事です。人間の里文明は全体としては[COLOR_HIGHLIGHT_TEXT]やや内政寄りの文明[COLOR_REVERT]と言えるでしょう。[PARAGRAPH:2][H1][LINK=CIVILIZATION_RUSSIA]星蓮船[\LINK][\H1][NEWLINE]この文明は偉人のコントロール及び使い方にややクセがある文明です。中盤に固有テクノロジーを進めていると入手出来る特殊ユニット・[LINK=UNIT_RAINBOW_UFO]虹色UFO[\LINK]は自文明の都市に定住している偉人を一人取り出す事が出来る、という特殊能力を発動する事が出来ます。このユニットは確定で入手する事が出来るため、星蓮船文明を使用している際は[COLOR_HIGHLIGHT_TEXT]すぐに使わない偉人は、取り合えず定住させる[COLOR_REVERT]方がお得です。勿論、すぐに使ったり虹色UFOが入手出来る前に使用のタイミングが来るなら話は別ですが、他文明時にありがちな「偉人の長期キープ」はこの文明に限り第三の選択肢がある、と考えて差し支えありません。[NEWLINE]また、この文明でプレイする際は特に理由が無いのであれば初めて出す東方ユニットは[LINK=UNIT_SYOU1]寅丸星[\LINK]がお勧めです。序盤の忙しい拡張期に彼女のスペルカードを発動させる事で財政的にかなり余裕が出て来る事でしょう。また、様々な特性により偉人のコントロールが他文明より容易な文明のため、後半に特定の偉人が必要になる企業創始とも相性が良い文明と言えるでしょう。全体としては[COLOR_HIGHLIGHT_TEXT]やや内政寄りの文明[COLOR_REVERT]と考えて差し支えありません。[PARAGRAPH:2][H1][LINK=CIVILIZATION_CHINA]神霊廟[\LINK][\H1][NEWLINE]この文明はただでさえ独自の仕様が多い東方叙事詩の中でも[COLOR_HIGHLIGHT_TEXT]特にクセが強い文明[COLOR_REVERT]です。一応「偉人の定住がメインの文明」という扱いではありますが、その偉人定住に拘らずに別の手法を色々試す事が可能な文明です。[NEWLINE]しかし色々な手法があるということは、裏を返すとその分複雑な文明であるとも言えます。細かく書くととてもワンポイントとは言えない長さになるので、色々試してみましょう。全体としては[COLOR_HIGHLIGHT_TEXT]内政寄りの文明[COLOR_REVERT]ですが、発想次第では戦争でも十分やっていけるかもしれません。[PARAGRAPH:2][H1][LINK=CIVILIZATION_MALI]輝針城[\LINK][\H1][NEWLINE]この文明は紅魔館を更に戦闘に特化させたような特性の文明であり、完全に[COLOR_HIGHLIGHT_TEXT]戦争寄り[COLOR_REVERT]の文明です。[NEWLINE]特に同じような戦争寄り文明の紅魔館と比較して序盤～中盤にアドバンテージを取りやすい文明であり、古代～中世、そしてルネサンス期辺りの戦争ではユニットの質・量共に揃えやすくこの時期の対外戦争ではほぼ無敵と言ってもいい文明です。しかし、その分工業化時代以降は明確に他文明と比べた場合の利点が少ないというデメリットもあり、特に独自技術の五段階目「[LINK=TECH_KAISYUUKI]魔力の回収期[\LINK]」はテクノロジーツリー的に取りづらい場所にある、技術自体のコストも重い、更に取得しても東方ユニットのアップグレード解禁以外の利点は無い、とイヤガラセのような技術になっています。おかげで工業化時代以降は暫くの間、[COLOR_HIGHLIGHT_TEXT]他文明より東方ユニットの質で劣りやすい[COLOR_REVERT]と思って差し支えありません。[NEWLINE]色んな意味で、ゲーム後半までの間に戦争などで大国化する事を求められる文明と言えるでしょう。大国化してしまいさえすれば後は国力でどうにでもなります。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ISAN_HYOUKA</Tag>
+		<English />
+		<French>遺産評価：BtSとの差異</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>遺産評価：BtSとの差異</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ISAN_HYOUKA_PEDIA</Tag>
+		<English />
+		<French>[TAB][H1]遺産評価：BtSとの差異[\H1][PARAGRAPH:1]当MOD、東方叙事詩では基本的に世界遺産に関してはバニラBtSと全く同じラインナップ、及び全く同じ効力を持ちます。（ただし固有建造物扱いの世界遺産は除きますが）[NEWLINE]当然、遺産に対する評価も基本的にはバニラBtSのそれとほぼ同じなのですが、中には[COLOR_HIGHLIGHT_TEXT]東方叙事詩独自の仕様との噛み合い等で[COLOR_REVERT]バニラBtSより評価が上がっている遺産があります。このページではその一例を紹介します。[PARAGRAPH:2][H1][LINK=BUILDING_STONEHENGE]ストーンヘンジ[\LINK][\H1][NEWLINE]ご存知無償の[LINK=BUILDING_OBELISK]モニュメント[\LINK]、拡張政策の頼れるお供ですが建設すると漏れなく偉人の第一号が高確率で[LINK=UNIT_PROPHET]ハゲ[\LINK]になってしまう副作用が存在します。この偉人第一号がハゲてしまうというのは即ち、その分[LINK=UNIT_SCIENTIST]大科学者[\LINK]の発生及びそこから連なる首都[LINK=BUILDING_ACADEMY]アカデミー[\LINK]や[LINK=TECH_PHILOSOPHY]哲学[\LINK]ジャンプといった高難易度プレイ時における定石・常套手段が遅れてしまうため、特にこれらを狙っているプレイヤーは嫌がります。これが、日本のCiv4コミュニティにおいて[LINK=UNIT_PROPHET]大預言者[\LINK]＝[LINK=UNIT_PROPHET]ハゲ[\LINK]がディスられるようになった理由です。[NEWLINE]ですが東方叙事詩の場合、指導者が叙事詩独自志向の[LINK=TRAIT_ALCHOL]うわばみ志向[\LINK]を持つ場合はハゲが産まれると普通速度で4ターンの小黄金期がついてきます。そのためハゲが産まれるのがバニラよりお得なため、仮に偉人第一号がハゲても無駄なくハゲを利用できるというわけです。[NEWLINE]同じ理由で、[LINK=BUILDING_ORACLE]アポロ神殿[\LINK]など他のハゲ要因遺産もバニラBtSより多少評価が上がっていると思っていいでしょう。勿論、うわばみ志向持ち指導者限定の話ですがね。[PARAGRAPH:2][H1][LINK=BUILDING_PYRAMID]ピラミッド[\LINK][\H1][NEWLINE]当MOD、東方叙事詩では文明特色の全体的な傾向として食料産出がBtSより多く、それに伴い専門家を雇用しやすい傾向が多少なりとも存在します。特に[LINK=CIVILIZATION_ENGLAND]紅魔館[\LINK]、[LINK=CIVILIZATION_JAPAN]博麗神社[\LINK]、[LINK=CIVILIZATION_CHINA]神霊廟[\LINK]辺りはその傾向がより強く出ている代表例と言えるでしょう。[NEWLINE]ですが、専門家を雇う目的といえば偉人を発生させる事が主目的であり、専門家自体の出力はそれほどアテにはしないのが基本です。（詳しくは[LINK=CONCEPT_SENMONKA_KEIZAI]専門家経済ガイド[\LINK]で）しかしこのピラミッドがあると、その効力により専門家及び定住偉人の出力を増加させる[LINK=CIVIC_REPRESENTATION]代議制[\LINK]を早期に採用する事が可能になります。この代議制があれば専門家自体の出力も多少はアテにする事が可能になるため、純粋型専門家経済と呼べるタイプの専門家経済も可能となってきます。[NEWLINE][NEWLINE]長くなりましたが、要するに[COLOR_HIGHLIGHT_TEXT]叙事詩のピラ代議はBtSより強い[COLOR_REVERT]という事です。BtSでは考えにくい戦法であった「農場のみを張り専門家自体の出力で勝負する」といった戦法も叙事詩の一部文明ではネタ抜きで実用的なため、一度は試してみる事をオススメします。[PARAGRAPH:2][H1][LINK=BUILDING_SISTINE_CHAPEL]システィナ礼拝堂[\LINK][\H1][NEWLINE]上述のピラミッドでも述べましたが、叙事詩は全体的な傾向として専門家を雇用しやすい傾向があります。その結果、専門家から追加の文化+2を産出するシスティナ礼拝堂から産出される文化もより強いものとなります。[NEWLINE]具体的には、システィナ礼拝堂がある場合[COLOR_HIGHLIGHT_TEXT]「ゲーム後半で[LINK=CIVIC_FREE_SPEECH]表現の自由[\LINK]を採用し始めたAI文明に対し、[LINK=CIVIC_BUREAUCRACY]官僚制[\LINK]を維持したまま文化圏を逆に押し返せる」[COLOR_REVERT]程度の文化力を確保できます[PARAGRAPH:2][H1][LINK=BUILDING_ANGKOR_WAT]アンコールワット[\LINK][\H1][NEWLINE]東方叙事詩において[COLOR_HIGHLIGHT_TEXT]最も評価が上がっている遺産[COLOR_REVERT]と言っても過言ではありません。というのも、東方叙事詩は先述にもあるとおりBtSよりも専門家を雇用しやすい傾向がありますが、更にその専門家の中では[LINK=SPECIALIST_PRIEST]聖職者[\LINK]が何かと優遇されている傾向があります。[NEWLINE]その聖職者の出力を単純にアップさせるこのアンコールワットは東方叙事詩においては非常に強力な遺産となっています。片っ端から解説すると長くなるのでこの場では省きますが、騙されたと思って一度は聖職者メインの経済を試してみるといいでしょう。世界が変わりますよ。偉人はハゲちまいますがね。</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB][H1]遺産評価：BtSとの差異[\H1][PARAGRAPH:1]当MOD、東方叙事詩では基本的に世界遺産に関してはバニラBtSと全く同じラインナップ、及び全く同じ効力を持ちます。（ただし固有建造物扱いの世界遺産は除きますが）[NEWLINE]当然、遺産に対する評価も基本的にはバニラBtSのそれとほぼ同じなのですが、中には[COLOR_HIGHLIGHT_TEXT]東方叙事詩独自の仕様との噛み合い等で[COLOR_REVERT]バニラBtSより評価が上がっている遺産があります。このページではその一例を紹介します。[PARAGRAPH:2][H1][LINK=BUILDING_STONEHENGE]ストーンヘンジ[\LINK][\H1][NEWLINE]ご存知無償の[LINK=BUILDING_OBELISK]モニュメント[\LINK]、拡張政策の頼れるお供ですが建設すると漏れなく偉人の第一号が高確率で[LINK=UNIT_PROPHET]ハゲ[\LINK]になってしまう副作用が存在します。この偉人第一号がハゲてしまうというのは即ち、その分[LINK=UNIT_SCIENTIST]大科学者[\LINK]の発生及びそこから連なる首都[LINK=BUILDING_ACADEMY]アカデミー[\LINK]や[LINK=TECH_PHILOSOPHY]哲学[\LINK]ジャンプといった高難易度プレイ時における定石・常套手段が遅れてしまうため、特にこれらを狙っているプレイヤーは嫌がります。これが、日本のCiv4コミュニティにおいて[LINK=UNIT_PROPHET]大預言者[\LINK]＝[LINK=UNIT_PROPHET]ハゲ[\LINK]がディスられるようになった理由です。[NEWLINE]ですが東方叙事詩の場合、指導者が叙事詩独自志向の[LINK=TRAIT_ALCHOL]うわばみ志向[\LINK]を持つ場合はハゲが産まれると普通速度で4ターンの小黄金期がついてきます。そのためハゲが産まれるのがバニラよりお得なため、仮に偉人第一号がハゲても無駄なくハゲを利用できるというわけです。[NEWLINE]同じ理由で、[LINK=BUILDING_ORACLE]アポロ神殿[\LINK]など他のハゲ要因遺産もバニラBtSより多少評価が上がっていると思っていいでしょう。勿論、うわばみ志向持ち指導者限定の話ですがね。[PARAGRAPH:2][H1][LINK=BUILDING_PYRAMID]ピラミッド[\LINK][\H1][NEWLINE]当MOD、東方叙事詩では文明特色の全体的な傾向として食料産出がBtSより多く、それに伴い専門家を雇用しやすい傾向が多少なりとも存在します。特に[LINK=CIVILIZATION_ENGLAND]紅魔館[\LINK]、[LINK=CIVILIZATION_JAPAN]博麗神社[\LINK]、[LINK=CIVILIZATION_CHINA]神霊廟[\LINK]辺りはその傾向がより強く出ている代表例と言えるでしょう。[NEWLINE]ですが、専門家を雇う目的といえば偉人を発生させる事が主目的であり、専門家自体の出力はそれほどアテにはしないのが基本です。（詳しくは[LINK=CONCEPT_SENMONKA_KEIZAI]専門家経済ガイド[\LINK]で）しかしこのピラミッドがあると、その効力により専門家及び定住偉人の出力を増加させる[LINK=CIVIC_REPRESENTATION]代議制[\LINK]を早期に採用する事が可能になります。この代議制があれば専門家自体の出力も多少はアテにする事が可能になるため、純粋型専門家経済と呼べるタイプの専門家経済も可能となってきます。[NEWLINE][NEWLINE]長くなりましたが、要するに[COLOR_HIGHLIGHT_TEXT]叙事詩のピラ代議はBtSより強い[COLOR_REVERT]という事です。BtSでは考えにくい戦法であった「農場のみを張り専門家自体の出力で勝負する」といった戦法も叙事詩の一部文明ではネタ抜きで実用的なため、一度は試してみる事をオススメします。[PARAGRAPH:2][H1][LINK=BUILDING_SISTINE_CHAPEL]システィナ礼拝堂[\LINK][\H1][NEWLINE]上述のピラミッドでも述べましたが、叙事詩は全体的な傾向として専門家を雇用しやすい傾向があります。その結果、専門家から追加の文化+2を産出するシスティナ礼拝堂から産出される文化もより強いものとなります。[NEWLINE]具体的には、システィナ礼拝堂がある場合[COLOR_HIGHLIGHT_TEXT]「ゲーム後半で[LINK=CIVIC_FREE_SPEECH]表現の自由[\LINK]を採用し始めたAI文明に対し、[LINK=CIVIC_BUREAUCRACY]官僚制[\LINK]を維持したまま文化圏を逆に押し返せる」[COLOR_REVERT]程度の文化力を確保できます[PARAGRAPH:2][H1][LINK=BUILDING_ANGKOR_WAT]アンコールワット[\LINK][\H1][NEWLINE]東方叙事詩において[COLOR_HIGHLIGHT_TEXT]最も評価が上がっている遺産[COLOR_REVERT]と言っても過言ではありません。というのも、東方叙事詩は先述にもあるとおりBtSよりも専門家を雇用しやすい傾向がありますが、更にその専門家の中では[LINK=SPECIALIST_PRIEST]聖職者[\LINK]が何かと優遇されている傾向があります。[NEWLINE]その聖職者の出力を単純にアップさせるこのアンコールワットは東方叙事詩においては非常に強力な遺産となっています。片っ端から解説すると長くなるのでこの場では省きますが、騙されたと思って一度は聖職者メインの経済を試してみるといいでしょう。世界が変わりますよ。偉人はハゲちまいますがね。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HAGE</Tag>
+		<English />
+		<French>はげ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>はげ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HAGE_PEDIA</Tag>
+		<English />
+		<French>[TAB][H1]はげ[\H1][PARAGRAPH:1]まず、主にCiv4廃人の間からハゲハゲと散々な暴言を吐かれていますが、これは[LINK=UNIT_PROPHET]大預言者[\LINK]（東方叙事詩では大醸造人。名前が違うだけで効力は同じ）のことを指します。そしてこの偉人は序盤の遺産から産出される事が多い＝序盤に遺産を建てると意図していないハゲが沸く確率が高い割に、このハゲ自体は他の偉人と比べると使い道がそれほど無いため、Civ4廃人の間では一言で言うと「ハズレ」扱いされているのが現実です。[NEWLINE]ですが当MOD、東方叙事詩の場合に限り特定の条件を積み重ねる事により、[LINK=SPECIALIST_PRIEST]聖職者[\LINK]を中心に雇用して産出偉人を意図的にハゲ中心にする[COLOR_HIGHLIGHT_TEXT]ハゲ経済がネタ抜きの実用的なレベルで[COLOR_REVERT]行う事が可能になります。ではどういう条件で行えば良いか。それを簡潔ながら幾つか紹介してみたいと思います。[PARAGRAPH:2][H1]その1．ハゲ経済でも偉人第一号は大科学者で[\H1][NEWLINE]いきなりハゲ経済の根本を揺るがすようで何ですが、いくらハゲを中心にプレイするといっても[COLOR_HIGHLIGHT_TEXT]序盤に出す偉人は[LINK=UNIT_SCIENTIST]大科学者[\LINK]の方が望ましい[COLOR_REVERT]です。何故ならメイン都市（多くは首都）に建設する[LINK=BUILDING_ACADEMY]アカデミー[\LINK]や、手順をきっちりこなせばリターンが大きい[LINK=TECH_PHILOSOPHY]哲学[\LINK]ジャンプ、あるいは重要技術である[LINK=TECH_EDUCATION]教育[\LINK]に電球を注いで早期に取得する等、序盤はいくらいても足りないくらいの仕事量があるためです。[NEWLINE]ハゲ主体の経済を組むにしても、最初の偉人2～3人は大科学者（うち、最低でも1人はアカデミー要因で確保）にしておいて、頃合を見計らってから雇用専門家を聖職者中心にシフトする方が無難でしょう。[PARAGRAPH:2][H1]その2．指導者の志向はうわばみ志向[\H1][NEWLINE]ハゲ経済はその名の通り大量のハゲを産出するプレイ法です。そして東方叙事詩独自の志向である[LINK=TRAIT_ALCHOL]うわばみ志向[\LINK]を持つ指導者でハゲを発生させると普通ターンで4ターン分の小黄金期が発生します。つまり、[COLOR_HIGHLIGHT_TEXT]ハゲればハゲるほど光り輝く[COLOR_REVERT]のです。ハゲ経済をするならばこれは外せないでしょう。[PARAGRAPH:2][H1]その3．沸いたハゲは定住させる[\H1][NEWLINE]先述のとおりハゲは他の偉人と比べると特定の使い道に乏しいという現実があります。ですが、偉人の使い道の一つである「都市に定住」に関してはハゲは決して他偉人と比較しても引けを取らない出力を産出します。そのため、大科学者を中心に産出する場合は先に大科学者を出してアカデミーを建てたメイン都市（多くは首都になるでしょう）に沸いたハゲを定住させまくるといい感じで出力が伸びてくれるでしょう。勿論、このアカデミー都市には将来[LINK=BUILDING_OXFORD_UNIVERSITY]オックスフォード大学[\LINK]も建設出来るようにしておきましょう。[NEWLINE]この時社会制度の[LINK=CIVIC_REPRESENTATION]代議制[\LINK]を採用すると定住偉人からもしっかり代議制のボーナスがつきます。そのため、ひとまず代議制の採用を目指しましょう。勿論、チャンスがあれば[LINK=BUILDING_PYRAMID]ピラミッド[\LINK]を建設してピラ代議というのもアリです。[PARAGRAPH:2][H1]その4．定住メインだけど都市数は6都市以上[\H1][NEWLINE]定住させたハゲからは[ICON_PRODUCTION]+2の他に[ICON_GOLD]+5も産出されます。他にも雇用した聖職者からも[ICON_GOLD]が産出されるため、財政的には高い研究レートを保っても収支が黒字化します（場合によっては研究100％だろうが金銭収入プラスになるほど）そのためどちらかというと、元々大して維持費に困らされる事が無いOCC（一都市チャレンジ）よりも、むしろ通常のプレイで都市数を沢山出す時の方が向いています。沢山都市を建てる分の維持費を聖職者やハゲからの収入でまかなってしまおう、というわけです。[PARAGRAPH:2][H1]その5．宗教は可能な限り国内に入れる[\H1][NEWLINE]さて、ぶっちゃけて言うとこの項目がハゲ経済を行うにあたり最も難しいポイントです。[NEWLINE]というのもハゲを意図的に出す為には聖職者を雇用する必要があります。聖職者を雇用するには基本的に各宗教の寺院などを建設する必要があります。そのためには宗教を文明内に入れる必要がありますが、AIが創始した宗教は必ずしも自文明に流入してくるとは限りません。相互を結べないほど関係が悪化してる場合は言うまでもありませんが、相互を結んでいてもランダム伝播はアテになるほどの確率ではなく、かといって宣教師はそれなりに関係が良好（大抵は「不満は無い」以上）でなければ積極的に送ってはくれないためです。[NEWLINE]では創始は？というとこれも確実性はありません。低い難易度なら大半の宗教を自国で創始するのも可能でしょうが、難易度が高くなるにつれてそうも言ってられなくなります。せいぜい[LINK=TECH_LIBERALISM]自由主義[\LINK]ルートの通り道にある[LINK=TECH_CODE_OF_LAWS]法律[\LINK]（[LINK=RELIGION_CONFUCIANISM]儒教/ビール派[\LINK]）や[LINK=TECH_PHILOSOPHY]哲学[\LINK]（[LINK=RELIGION_TAOISM]道教/日本酒派[\LINK]）くらいが関の山でしょう。[NEWLINE]なので、結論を言うと[COLOR_HIGHLIGHT_TEXT]国内の宗教は多ければ多いほどいいが、現実的にはせいぜい3種類あればいい方[COLOR_REVERT]くらいに思っておいた方がいいでしょう。[PARAGRAPH:2][H1]その6[\H1][NEWLINE]昨日、この都しから出てこようとした科学しゃが一人、ハゲた、て　はなしだ。[NEWLINE]都市、せんもんか、あおいのばかり[NEWLINE]偉じんバー　みてみたら　ハゲが９じゅうごパーセント[NEWLINE]いったいこのぶんめい　どうな　て[PARAGRAPH:2][H1]その7[\H1][NEWLINE]はげ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB][H1]はげ[\H1][PARAGRAPH:1]まず、主にCiv4廃人の間からハゲハゲと散々な暴言を吐かれていますが、これは[LINK=UNIT_PROPHET]大預言者[\LINK]（東方叙事詩では大醸造人。名前が違うだけで効力は同じ）のことを指します。そしてこの偉人は序盤の遺産から産出される事が多い＝序盤に遺産を建てると意図していないハゲが沸く確率が高い割に、このハゲ自体は他の偉人と比べると使い道がそれほど無いため、Civ4廃人の間では一言で言うと「ハズレ」扱いされているのが現実です。[NEWLINE]ですが当MOD、東方叙事詩の場合に限り特定の条件を積み重ねる事により、[LINK=SPECIALIST_PRIEST]聖職者[\LINK]を中心に雇用して産出偉人を意図的にハゲ中心にする[COLOR_HIGHLIGHT_TEXT]ハゲ経済がネタ抜きの実用的なレベルで[COLOR_REVERT]行う事が可能になります。ではどういう条件で行えば良いか。それを簡潔ながら幾つか紹介してみたいと思います。[PARAGRAPH:2][H1]その1．ハゲ経済でも偉人第一号は大科学者で[\H1][NEWLINE]いきなりハゲ経済の根本を揺るがすようで何ですが、いくらハゲを中心にプレイするといっても[COLOR_HIGHLIGHT_TEXT]序盤に出す偉人は[LINK=UNIT_SCIENTIST]大科学者[\LINK]の方が望ましい[COLOR_REVERT]です。何故ならメイン都市（多くは首都）に建設する[LINK=BUILDING_ACADEMY]アカデミー[\LINK]や、手順をきっちりこなせばリターンが大きい[LINK=TECH_PHILOSOPHY]哲学[\LINK]ジャンプ、あるいは重要技術である[LINK=TECH_EDUCATION]教育[\LINK]に電球を注いで早期に取得する等、序盤はいくらいても足りないくらいの仕事量があるためです。[NEWLINE]ハゲ主体の経済を組むにしても、最初の偉人2～3人は大科学者（うち、最低でも1人はアカデミー要因で確保）にしておいて、頃合を見計らってから雇用専門家を聖職者中心にシフトする方が無難でしょう。[PARAGRAPH:2][H1]その2．指導者の志向はうわばみ志向[\H1][NEWLINE]ハゲ経済はその名の通り大量のハゲを産出するプレイ法です。そして東方叙事詩独自の志向である[LINK=TRAIT_ALCHOL]うわばみ志向[\LINK]を持つ指導者でハゲを発生させると普通ターンで4ターン分の小黄金期が発生します。つまり、[COLOR_HIGHLIGHT_TEXT]ハゲればハゲるほど光り輝く[COLOR_REVERT]のです。ハゲ経済をするならばこれは外せないでしょう。[PARAGRAPH:2][H1]その3．沸いたハゲは定住させる[\H1][NEWLINE]先述のとおりハゲは他の偉人と比べると特定の使い道に乏しいという現実があります。ですが、偉人の使い道の一つである「都市に定住」に関してはハゲは決して他偉人と比較しても引けを取らない出力を産出します。そのため、大科学者を中心に産出する場合は先に大科学者を出してアカデミーを建てたメイン都市（多くは首都になるでしょう）に沸いたハゲを定住させまくるといい感じで出力が伸びてくれるでしょう。勿論、このアカデミー都市には将来[LINK=BUILDING_OXFORD_UNIVERSITY]オックスフォード大学[\LINK]も建設出来るようにしておきましょう。[NEWLINE]この時社会制度の[LINK=CIVIC_REPRESENTATION]代議制[\LINK]を採用すると定住偉人からもしっかり代議制のボーナスがつきます。そのため、ひとまず代議制の採用を目指しましょう。勿論、チャンスがあれば[LINK=BUILDING_PYRAMID]ピラミッド[\LINK]を建設してピラ代議というのもアリです。[PARAGRAPH:2][H1]その4．定住メインだけど都市数は6都市以上[\H1][NEWLINE]定住させたハゲからは[ICON_PRODUCTION]+2の他に[ICON_GOLD]+5も産出されます。他にも雇用した聖職者からも[ICON_GOLD]が産出されるため、財政的には高い研究レートを保っても収支が黒字化します（場合によっては研究100％だろうが金銭収入プラスになるほど）そのためどちらかというと、元々大して維持費に困らされる事が無いOCC（一都市チャレンジ）よりも、むしろ通常のプレイで都市数を沢山出す時の方が向いています。沢山都市を建てる分の維持費を聖職者やハゲからの収入でまかなってしまおう、というわけです。[PARAGRAPH:2][H1]その5．宗教は可能な限り国内に入れる[\H1][NEWLINE]さて、ぶっちゃけて言うとこの項目がハゲ経済を行うにあたり最も難しいポイントです。[NEWLINE]というのもハゲを意図的に出す為には聖職者を雇用する必要があります。聖職者を雇用するには基本的に各宗教の寺院などを建設する必要があります。そのためには宗教を文明内に入れる必要がありますが、AIが創始した宗教は必ずしも自文明に流入してくるとは限りません。相互を結べないほど関係が悪化してる場合は言うまでもありませんが、相互を結んでいてもランダム伝播はアテになるほどの確率ではなく、かといって宣教師はそれなりに関係が良好（大抵は「不満は無い」以上）でなければ積極的に送ってはくれないためです。[NEWLINE]では創始は？というとこれも確実性はありません。低い難易度なら大半の宗教を自国で創始するのも可能でしょうが、難易度が高くなるにつれてそうも言ってられなくなります。せいぜい[LINK=TECH_LIBERALISM]自由主義[\LINK]ルートの通り道にある[LINK=TECH_CODE_OF_LAWS]法律[\LINK]（[LINK=RELIGION_CONFUCIANISM]儒教/ビール派[\LINK]）や[LINK=TECH_PHILOSOPHY]哲学[\LINK]（[LINK=RELIGION_TAOISM]道教/日本酒派[\LINK]）くらいが関の山でしょう。[NEWLINE]なので、結論を言うと[COLOR_HIGHLIGHT_TEXT]国内の宗教は多ければ多いほどいいが、現実的にはせいぜい3種類あればいい方[COLOR_REVERT]くらいに思っておいた方がいいでしょう。[PARAGRAPH:2][H1]その6[\H1][NEWLINE]昨日、この都しから出てこようとした科学しゃが一人、ハゲた、て　はなしだ。[NEWLINE]都市、せんもんか、あおいのばかり[NEWLINE]偉じんバー　みてみたら　ハゲが９じゅうごパーセント[NEWLINE]いったいこのぶんめい　どうな　て[PARAGRAPH:2][H1]その7[\H1][NEWLINE]はげ</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag></Tag>

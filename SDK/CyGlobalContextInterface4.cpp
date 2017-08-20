@@ -171,8 +171,5 @@ void CyGlobalContextPythonInterface4(python::class_<CyGlobalContext>& x)
 
 		.def("getDiplomacyPowerTypes", &CyGlobalContext::getDiplomacyPowerTypes, "string () - Returns enum string")
 		
-		//ìåï˚èñéñéçóp
-        .def("getTextToSpellInt", &CyGlobalContext::getTextToSpellInt, "int (string,int) - returns int")
-
 		;
 }

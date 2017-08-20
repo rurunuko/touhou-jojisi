@@ -1848,24 +1848,6 @@
 		<Japanese>軍事学</Japanese>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_CONCEPT_LATE_START</Tag>
-		<English />
-		<French>成長済みスタート</French>
-		<German />
-		<Italian />
-		<Spanish />
-		<Japanese>成長済みスタート</Japanese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BTS_FOREST_PRESERVE</Tag>
-		<English />
-		<French>森林保護区</French>
-		<German />
-		<Italian />
-		<Spanish />
-		<Japanese>森林保護区</Japanese>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SHWEDAGON_PAYA</Tag>
 		<English />
 		<French>シェダゴン・パゴダ</French>
@@ -1929,15 +1911,6 @@
 		<Italian />
 		<Spanish />
 		<Japanese>[COLOR_BUILDING_TEXT]鍛冶屋[COLOR_REVERT]がある都市はユニットや建造物の生産速度が増しますが、一方で衛生状態は悪化してしまいます。[COLOR_BUILDING_TEXT]溶鉱炉[COLOR_REVERT]は世界遺産である[COLOR_BUILDING_TEXT]ロードス島の巨神像[COLOR_REVERT]や[COLOR_BUILDING_TEXT]エッフェル塔[COLOR_REVERT]や[COLOR_BUILDING_TEXT]自由の女神[COLOR_REVERT]、国家遺産である[COLOR_BUILDING_TEXT]製鉄所[COLOR_REVERT]を建設するのに必要です。</Japanese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CONCEPT_APOSTOLIC_PALACE</Tag>
-		<English />
-		<French>宴会幹事役と博麗会議</French>
-		<German />
-		<Italian />
-		<Spanish />
-		<Japanese>宴会幹事役と博麗会議</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_APOSTOLIC_PALACE_PEDIA</Tag>

@@ -351,11 +351,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_EIENTEI9</Tag>
 		<English>EIENTEI9</English>
-		<French>ŒŽ”V“s</French>
+		<French>˜T‚Ì•Û—¯’n</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>ŒŽ”V“s</Japanese>
+		<Japanese>˜T‚Ì•Û—¯’n</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_EIENTEI10</Tag>
@@ -396,20 +396,20 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_EIENTEI14</Tag>
 		<English>EIENTEI14</English>
-		<French>–L‚©‚ÌŠC</French>
+		<French>‘‚Ìª—d‰öƒlƒbƒgƒ[ƒN</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>–L‚©‚ÌŠC</Japanese>
+		<Japanese>‘‚Ìª—d‰öƒlƒbƒgƒ[ƒN</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_EIENTEI15</Tag>
 		<English>EIENTEI15</English>
-		<French>Ã‚©‚ÌŠC</French>
+		<French>äŠ‚ÉŒŽ</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>Ã‚©‚ÌŠC</Japanese>
+		<Japanese>äŠ‚ÉŒŽ</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_YOUKAINOYAMA1</Tag>
@@ -1625,6 +1625,186 @@
 		<Italian />
 		<Spanish />
 		<Japanese>ƒh[ƒs[</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO1</Tag>
+		<English>TUKI_NO_MIYAKO1</English>
+		<French>ŒŽ‚Ì“s</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ŒŽ‚Ì“s</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO2</Tag>
+		<English>TUKI_NO_MIYAKO2</English>
+		<French>–L‚©‚ÌŠC</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>–L‚©‚ÌŠC</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO3</Tag>
+		<English>TUKI_NO_MIYAKO3</English>
+		<French>Ã‚©‚ÌŠC</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Ã‚©‚ÌŠC</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO4</Tag>
+		<English>TUKI_NO_MIYAKO4</English>
+		<French>–²‚ÌŒÎ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>–²‚ÌŒÎ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO5</Tag>
+		<English>TUKI_NO_MIYAKO5</English>
+		<French>_Žð‚ÌŠC</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>_Žð‚ÌŠC</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO6</Tag>
+		<English>TUKI_NO_MIYAKO6</English>
+		<French>ŒŽ‚Ì“ü]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ŒŽ‚Ì“ü]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO7</Tag>
+		<English>TUKI_NO_MIYAKO7</English>
+		<French>Œ«ŽÒ‚ÌŠC</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Œ«ŽÒ‚ÌŠC</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO8</Tag>
+		<English>TUKI_NO_MIYAKO8</English>
+		<French>–°‚è‚ÌÀ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>–°‚è‚ÌÀ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO9</Tag>
+		<English>TUKI_NO_MIYAKO9</English>
+		<French>Šì‚Ñ‚ÌŒÎ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Šì‚Ñ‚ÌŒÎ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO10</Tag>
+		<English>TUKI_NO_MIYAKO10</English>
+		<French>‰hŒõ‚Ì“ü]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>‰hŒõ‚Ì“ü]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO11</Tag>
+		<English>TUKI_NO_MIYAKO11</English>
+		<French>ƒ‚ƒXƒNƒ‚ÌŠC</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ƒ‚ƒXƒNƒ‚ÌŠC</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO12</Tag>
+		<English>TUKI_NO_MIYAKO12</English>
+		<French>–Y‹p‚ÌŒÎ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>–Y‹p‚ÌŒÎ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO13</Tag>
+		<English>TUKI_NO_MIYAKO13</English>
+		<French>–A‚ÌŠC</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>–A‚ÌŠC</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO14</Tag>
+		<English>TUKI_NO_MIYAKO14</English>
+		<French>Šó–]‚ÌŒÎ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Šó–]‚ÌŒÎ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO15</Tag>
+		<English>TUKI_NO_MIYAKO15</English>
+		<French>M—Š‚Ì“ü]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>M—Š‚Ì“ü]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO16</Tag>
+		<English>TUKI_NO_MIYAKO16</English>
+		<French>r–ì‚ÌŒÎ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>r–ì‚ÌŒÎ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO17</Tag>
+		<English>TUKI_NO_MIYAKO17</English>
+		<French>ö‹C‚ÌŠC</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ö‹C‚ÌŠC</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO18</Tag>
+		<English>TUKI_NO_MIYAKO18</English>
+		<French>˜I‚Ì“ü]</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>˜I‚Ì“ü]</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO19</Tag>
+		<English>TUKI_NO_MIYAKO19</English>
+		<French>‘ì‰z‚ÌŒÎ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>‘ì‰z‚ÌŒÎ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO20</Tag>
+		<English>TUKI_NO_MIYAKO20</English>
+		<French>Šù’m‚ÌŠC</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>Šù’m‚ÌŠC</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BARBARIAN1</Tag>

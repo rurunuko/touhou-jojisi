@@ -433,6 +433,9 @@ public:
     double getPower();
     void setNumPowerUp(int index,int iNum);
     int getNumPowerUp(int index);
+	//“Œ•û––E“‡MOD—p
+	void setNumTurnPromo(int iNum);
+	int getNumTurnPromo();
 
     int countSpellTolerance();
     int countExpByTrun();

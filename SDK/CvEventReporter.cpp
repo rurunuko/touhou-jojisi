@@ -118,6 +118,28 @@ void CvEventReporter::combatResult(CvUnit* pWinner, CvUnit* pLoser)
 {
 	m_kPythonEventMgr.reportCombatResult(pWinner, pLoser);
 }
+//東方叙事詩・統合MOD追記
+// BUG - Combat Events - start
+void CvEventReporter::combatRetreat(CvUnit* pAttacker, CvUnit* pDefender)
+{
+	m_kPythonEventMgr.reportCombatRetreat(pAttacker, pDefender);
+}
+
+void CvEventReporter::combatWithdrawal(CvUnit* pAttacker, CvUnit* pDefender)
+{
+	m_kPythonEventMgr.reportCombatWithdrawal(pAttacker, pDefender);
+}
+
+void CvEventReporter::combatLogCollateral(CvUnit* pAttacker, CvUnit* pDefender, int iDamage)
+{
+	m_kPythonEventMgr.reportCombatLogCollateral(pAttacker, pDefender, iDamage);
+}
+
+void CvEventReporter::combatLogFlanking(CvUnit* pAttacker, CvUnit* pDefender, int iDamage)
+{
+	m_kPythonEventMgr.reportCombatLogFlanking(pAttacker, pDefender, iDamage);
+}
+// BUG - Combat Events - end
 
 void CvEventReporter::improvementBuilt(int iImprovementType, int iX, int iY)
 {
@@ -385,6 +407,19 @@ void CvEventReporter::playerChangeStateReligion(PlayerTypes ePlayerID, ReligionT
 void CvEventReporter::playerGoldTrade(PlayerTypes eFromPlayer, PlayerTypes eToPlayer, int iAmount)
 {
 	m_kPythonEventMgr.reportPlayerGoldTrade(eFromPlayer, eToPlayer, iAmount);
+}
+
+//東方叙事詩・統合MOD追記
+// BUG - Revolution Event - start
+void CvEventReporter::playerRevolution(PlayerTypes ePlayerID, int iAnarchyLength, CivicTypes* paeOldCivics, CivicTypes* paeNewCivics)
+{
+	m_kPythonEventMgr.reportPlayerRevolution(ePlayerID, iAnarchyLength, paeOldCivics, paeNewCivics);
+}
+// BUG - Revolution Event - end
+
+void CvEventReporter::onDelayedDeath(int x, int y)
+{
+  m_kPythonEventMgr.reportOnDelayedDeath(x, y);
 }
 
 void CvEventReporter::chat(CvWString szString)

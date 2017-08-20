@@ -140,35 +140,7 @@
           <bLeaderAvailability>1</bLeaderAvailability>
         </Leader>
         <Leader>
-          <LeaderName>LEADER_YORIHIME</LeaderName>
-          <bLeaderAvailability>1</bLeaderAvailability>
-        </Leader>
-        <Leader>
-          <LeaderName>LEADER_WATAHIME</LeaderName>
-          <bLeaderAvailability>1</bLeaderAvailability>
-        </Leader>
-        <Leader>
-          <LeaderName>LEADER_REISEN2</LeaderName>
-          <bLeaderAvailability>1</bLeaderAvailability>
-        </Leader>
-        <Leader>
           <LeaderName>LEADER_KAGEROU</LeaderName>
-          <bLeaderAvailability>1</bLeaderAvailability>
-        </Leader>
-        <Leader>
-          <LeaderName>LEADER_SEIRAN</LeaderName>
-          <bLeaderAvailability>1</bLeaderAvailability>
-        </Leader>
-        <Leader>
-          <LeaderName>LEADER_RINGO</LeaderName>
-          <bLeaderAvailability>1</bLeaderAvailability>
-        </Leader>
-        <Leader>
-          <LeaderName>LEADER_DOREMY</LeaderName>
-          <bLeaderAvailability>1</bLeaderAvailability>
-        </Leader>
-        <Leader>
-          <LeaderName>LEADER_SAGUME</LeaderName>
           <bLeaderAvailability>1</bLeaderAvailability>
         </Leader>
       </Leaders>
@@ -396,10 +368,6 @@
           <bLeaderAvailability>1</bLeaderAvailability>
         </Leader>
         <Leader>
-          <LeaderName>LEADER_LILYB</LeaderName>
-          <bLeaderAvailability>1</bLeaderAvailability>
-        </Leader>
-        <Leader>
           <LeaderName>LEADER_LUNASA</LeaderName>
           <bLeaderAvailability>1</bLeaderAvailability>
         </Leader>
@@ -570,10 +538,6 @@
         </Leader>
         <Leader>
           <LeaderName>LEADER_KEINE</LeaderName>
-          <bLeaderAvailability>1</bLeaderAvailability>
-        </Leader>
-        <Leader>
-          <LeaderName>LEADER_HAKUTAKU</LeaderName>
           <bLeaderAvailability>1</bLeaderAvailability>
         </Leader>
         <Leader>
@@ -915,6 +879,10 @@
         </Leader>
         <Leader>
           <LeaderName>LEADER_WAKASAGIHIME</LeaderName>
+          <bLeaderAvailability>1</bLeaderAvailability>
+        </Leader>
+        <Leader>
+          <LeaderName>LEADER_SUMMERCIRNO</LeaderName>
           <bLeaderAvailability>1</bLeaderAvailability>
         </Leader>
       </Leaders>
@@ -1640,6 +1608,157 @@
       <DerivativeCiv>NONE</DerivativeCiv>
       <CivilizationSelectionSound>AS3D_MALI_SELECT</CivilizationSelectionSound>
       <CivilizationActionSound>AS3D_MALI_ORDER</CivilizationActionSound>
+    </CivilizationInfo>
+    <CivilizationInfo>
+      <Type>CIVILIZATION_AMERICA</Type>
+      <Description>TXT_KEY_CIV_TUKI_NO_MIYAKO_DESC</Description>
+      <ShortDescription>TXT_KEY_CIV_TUKI_NO_MIYAKO_DESC</ShortDescription>
+      <Adjective>TXT_KEY_CIV_TUKI_NO_MIYAKO_DESC</Adjective>
+      <Civilopedia>TXT_KEY_CIV_TUKI_NO_MIYAKO_PEDIA</Civilopedia>
+      <DefaultPlayerColor>PLAYERCOLOR_MOON</DefaultPlayerColor>
+      <ArtDefineTag>ART_DEF_CIVILIZATION_TUKI_NO_MIYAKO</ArtDefineTag>
+      <ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+      <UnitArtStyleType>UNIT_ARTSTYLE_EUROPEAN</UnitArtStyleType>
+      <bPlayable>1</bPlayable>
+      <bAIPlayable>1</bAIPlayable>
+      <Cities>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO1</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO2</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO3</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO4</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO5</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO6</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO7</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO8</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO9</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO10</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO11</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO12</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO13</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO14</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO15</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO16</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO17</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO18</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO19</City>
+        <City>TXT_KEY_CITY_NAME_TUKI_NO_MIYAKO20</City>
+        <City>TXT_KEY_CITY_NAME_MEMPHIS</City>
+        <City>TXT_KEY_CITY_NAME_CLEVELAN</City>
+        <City>TXT_KEY_CITY_NAME_KANSAS_CITY</City>
+        <City>TXT_KEY_CITY_NAME_SAN_DIEGO</City>
+        <City>TXT_KEY_CITY_NAME_RICHMOND</City>
+        <City>TXT_KEY_CITY_NAME_LAS_VEGAS</City>
+        <City>TXT_KEY_CITY_NAME_PHOENIX</City>
+        <City>TXT_KEY_CITY_NAME_ALBUQUERQUE</City>
+        <City>TXT_KEY_CITY_NAME_MINNEAPOLIS</City>
+        <City>TXT_KEY_CITY_NAME_PITTSBURGH</City>
+        <City>TXT_KEY_CITY_NAME_OAKLAND</City>
+        <City>TXT_KEY_CITY_NAME_TAMPA_BAY</City>
+        <City>TXT_KEY_CITY_NAME_ORLANDO</City>
+        <City>TXT_KEY_CITY_NAME_TACOMA</City>
+        <City>TXT_KEY_CITY_NAME_SANTA_FE</City>
+        <City>TXT_KEY_CITY_NAME_OLYMPIA</City>
+        <City>TXT_KEY_CITY_NAME_HUNT_VALLEY</City>
+        <City>TXT_KEY_CITY_NAME_SPRINGFIELD</City>
+        <City>TXT_KEY_CITY_NAME_PALO_ALTO</City>
+        <City>TXT_KEY_CITY_NAME_CENTRALIA</City>
+        <City>TXT_KEY_CITY_NAME_SPOKANE</City>
+        <City>TXT_KEY_CITY_NAME_JACKSONVILLE</City>
+        <City>TXT_KEY_CITY_NAME_SAVANNAH</City>
+        <City>TXT_KEY_CITY_NAME_CHARLESTON</City>
+        <City>TXT_KEY_CITY_NAME_SAN_ANTONIO</City>
+        <City>TXT_KEY_CITY_NAME_OMAHA</City>
+        <City>TXT_KEY_CITY_NAME_BIRMINGHAM</City>
+        <City>TXT_KEY_CITY_NAME_HONOLULU</City>
+        <City>TXT_KEY_CITY_NAME_ANCHORAGE</City>
+        <City>TXT_KEY_CITY_NAME_SACRAMENTO</City>
+        <City>TXT_KEY_CITY_NAME_SALT_LAKE_CITY</City>
+        <City>TXT_KEY_CITY_NAME_RENO</City>
+        <City>TXT_KEY_CITY_NAME_BOISE</City>
+        <City>TXT_KEY_CITY_NAME_MILWAUKEE</City>
+        <City>TXT_KEY_CITY_NAME_SANTA_CRUZ</City>
+        <City>TXT_KEY_CITY_NAME_MONTEREY</City>
+        <City>TXT_KEY_CITY_NAME_SANTA_MONICA</City>
+        <City>TXT_KEY_CITY_NAME_LITTLE_ROCK</City>
+        <City>TXT_KEY_CITY_NAME_COLUMBUS</City>
+        <City>TXT_KEY_CITY_NAME_LE_BAM</City>
+      </Cities>
+      <Buildings>
+      </Buildings>
+      <Units>
+        <Unit>
+          <UnitClassType>UNITCLASS_WORKER</UnitClassType>
+          <UnitType>UNIT_TUKI_NO_MIYAKO_WORKER</UnitType>
+        </Unit>
+      </Units>
+      <FreeUnitClasses>
+        <FreeUnitClass>
+          <UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+          <iFreeUnits>1</iFreeUnits>
+        </FreeUnitClass>
+      </FreeUnitClasses>
+      <FreeBuildingClasses>
+        <FreeBuildingClass>
+          <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+          <bFreeBuildingClass>1</bFreeBuildingClass>
+        </FreeBuildingClass>
+      </FreeBuildingClasses>
+      <FreeTechs>
+        <FreeTech>
+          <TechType>TECH_FISHING</TechType>
+          <bFreeTech>1</bFreeTech>
+        </FreeTech>
+        <FreeTech>
+          <TechType>TECH_AGRICULTURE</TechType>
+          <bFreeTech>1</bFreeTech>
+        </FreeTech>
+        <FreeTech>
+          <TechType>TECH_TUKI_NO_MIYAKO</TechType>
+          <bFreeTech>1</bFreeTech>
+        </FreeTech>
+      </FreeTechs>
+      <DisableTechs />
+      <InitialCivics>
+        <CivicType>CIVIC_DESPOTISM</CivicType>
+        <CivicType>CIVIC_BARBARISM</CivicType>
+        <CivicType>CIVIC_TRIBALISM</CivicType>
+        <CivicType>CIVIC_DECENTRALIZATION</CivicType>
+        <CivicType>CIVIC_PAGANISM</CivicType>
+        <CivicType>CIVIC_NONE_RELIGION</CivicType>
+      </InitialCivics>
+      <Leaders>
+        <Leader>
+          <LeaderName>LEADER_YORIHIME</LeaderName>
+          <bLeaderAvailability>1</bLeaderAvailability>
+        </Leader>
+        <Leader>
+          <LeaderName>LEADER_WATAHIME</LeaderName>
+          <bLeaderAvailability>1</bLeaderAvailability>
+        </Leader>
+        <Leader>
+          <LeaderName>LEADER_REISEN2</LeaderName>
+          <bLeaderAvailability>1</bLeaderAvailability>
+        </Leader>
+        <Leader>
+          <LeaderName>LEADER_SEIRAN</LeaderName>
+          <bLeaderAvailability>1</bLeaderAvailability>
+        </Leader>
+        <Leader>
+          <LeaderName>LEADER_RINGO</LeaderName>
+          <bLeaderAvailability>1</bLeaderAvailability>
+        </Leader>
+        <Leader>
+          <LeaderName>LEADER_DOREMY</LeaderName>
+          <bLeaderAvailability>1</bLeaderAvailability>
+        </Leader>
+        <Leader>
+          <LeaderName>LEADER_SAGUME</LeaderName>
+          <bLeaderAvailability>1</bLeaderAvailability>
+        </Leader>
+      </Leaders>
+      <DerivativeCiv>NONE</DerivativeCiv>
+      <CivilizationSelectionSound>AS3D_AMERICA_SELECT</CivilizationSelectionSound>
+      <CivilizationActionSound>AS3D_AMERICA_ORDER</CivilizationActionSound>
     </CivilizationInfo>
     <CivilizationInfo>
       <Type>CIVILIZATION_BARBARIAN</Type>

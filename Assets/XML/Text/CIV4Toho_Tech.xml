@@ -1296,4 +1296,123 @@
 		<Japanese>「利用するだけして後はポイッだ」[NEWLINE]全てのCiv廃人に捧ぐ　　　　-少名針妙丸</Japanese>
 	</TEXT>
 <!-- Kishinjou Techs End-->
+<!-- Tukinomiyako Techs Start-->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOON_WAR_FIRST</Tag>
+		<English />
+		<French>第一次月面戦争</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>第一次月面戦争</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_APOLLO</Tag>
+		<English />
+		<French>アポロ計画</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アポロ計画</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_APOLLO_CONSPIRACY</Tag>
+		<English />
+		<French>アポロ計画陰謀論</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アポロ計画陰謀論</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LUNAR_CAPITAL_TRANSFER_PLAN</Tag>
+		<English />
+		<French>月の都遷都計画</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月の都遷都計画</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SAKE_OF_THE_WATATSUKI</Tag>
+		<English />
+		<French>綿月の神酒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>綿月の神酒</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_THE_TRUMP_CARD_IS_ALWAYS_A_BAD_MOVE</Tag>
+		<English />
+		<French>切り札はいつだって悪手</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>切り札はいつだって悪手</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TUKI_NO_MIYAKO_QUOTE</Tag>
+		<English></English>
+		<French>月の都</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月の都</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOON_WAR_FIRST_QUOTE</Tag>
+		<English></English>
+		<French>「地上の民は月の民には決して敵わないのよ」…って紫が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「地上の民は月の民には決して敵わないのよ」…って紫が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_APOLLO_QUOTE</Tag>
+		<English></English>
+		<French>「鷲は舞い降りた」 - ニール・アームストロング</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「鷲は舞い降りた」 - ニール・アームストロング</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_APOLLO_CONSPIRACY_QUOTE</Tag>
+		<English></English>
+		<French>「モルダー、あなた疲れてるのよ」 - ダナ・キャサリン・スカリー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「モルダー、あなた疲れてるのよ」 - ダナ・キャサリン・スカリー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LUNAR_CAPITAL_TRANSFER_PLAN_QUOTE</Tag>
+		<English></English>
+		<French>「全滅を回避する為に幻想郷への移住を検討していたの 」…ってサグメが言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「全滅を回避する為に幻想郷への移住を検討していたの 」…ってサグメが言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SAKE_OF_THE_WATATSUKI_QUOTE</Tag>
+		<English></English>
+		<French>「ぎゃふん」…って月の姉妹が言ってた</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「ぎゃふん」…って月の姉妹が言ってた</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TUKINOMIYAKO_LAST_QUOTE</Tag>
+		<English></English>
+		<French>「エリクサー症候群」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>「エリクサー症候群」</Japanese>
+	</TEXT>
+<!-- Tukinomiyako Techs End-->
 </Civ4GameText>

@@ -13,18 +13,23 @@ import SpellInfo
 import TohoUnitList
 import Functions
 ##### </written by F> #####
+import codecs
 
 # globals
 gc = CyGlobalContext()
 ##### <written by F> #####
 #デバッグ用print文
+#東方叙事詩・統合MOD追記
+#原因はよくわからないエラーへの対処。記述部分を流用先のFfH Age of Iceと同一にする
+#デバッグ用のため必要になったらコメントアウトを外す
 logInited = False
 def initLog():
 	global logInited
-	helpFile=file("debuglog.txt", "w")
-	sys.stdout=helpFile
+	#helpFile=file("debuglog.txt", "w")
+	helpFile=codecs.open('debuglog.txt', 'w', 'shift_jis')
+#	sys.stdout=helpFile
 	sys.stdout.write("loaded\n")
-	sys.stdout.flush()
+#	sys.stdout.flush()
 	logInited = True
 def doprint(str):
 	#cd sys.stderr.write(str)
@@ -32,7 +37,7 @@ def doprint(str):
 		initLog()
 	sys.stdout.write(str)
 	sys.stdout.write("\n")
-	sys.stdout.flush()
+#	sys.stdout.flush()
 ##### </written by F> #####
 
 class CvGameUtils:
@@ -100,19 +105,19 @@ class CvGameUtils:
 		if gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_PEACE_OF_BC1000')):
 			iGameTarn = gc.getGame().getGameTurn()
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_MARATHON'):
-				if iGameTarn < 251:
+				if iGameTarn < 250:
 					return False
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_EPIC'):
-				if iGameTarn < 121:
+				if iGameTarn < 120:
 					return False
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_NORMAL'):
-				if iGameTarn < 76:
+				if iGameTarn < 75:
 					return False
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_QUICK'):
-				if iGameTarn < 51:
+				if iGameTarn < 50:
 					return False
 			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_TENGU'):
-				if iGameTarn < 44:
+				if iGameTarn < 43:
 					return False
 		#統合MOD追記ここまで
 		
@@ -201,13 +206,20 @@ class CvGameUtils:
 		#なのでシステム上、どう頑張っても自国のUI以外は建設出来ないようにする
 		#追記：コード変更。やってる事自体はほぼ同じだが、それぞれのUIの元になる地形改善もNGに。
 		#効果があるかどうかは知らん
-
+		
+		#（多分書かなくても大丈夫だとは思うが、念の為）テラフォーミング系ダミービルドは全てpython側でNGに
+		if gc.getInfoTypeForString('BUILD_TERRAFORM_PLAIN') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_TERRAFORM_FLOOD'):
+			return 0
+		
 		#紅魔館の場合
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_ENGLAND'):
 			if gc.getInfoTypeForString('BUILD_EIENTEI_PLANTATION') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_EIENTEI_FOREST_PRESERVE'):
 				return 0
-			if gc.getInfoTypeForString('BUILD_HAKUGYOKUROU_QUARRY') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_KISHINJOU_WINERY'):
+			if gc.getInfoTypeForString('BUILD_HAKUGYOKUROU_QUARRY') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_TUKI_NO_MIYAKO_QUARRY'):
 				return 0
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_RELIGION')) == gc.getInfoTypeForString('CIVIC_PURE_SAKE')) == True:
+				iPureSakeValue = self.CheckPureSake(pPlayer, argsList)
+				return iPureSakeValue
 			if iBuild == gc.getInfoTypeForString('BUILD_FARM'):
 				return 0
 			if iBuild == gc.getInfoTypeForString('BUILD_WINERY'):
@@ -217,8 +229,11 @@ class CvGameUtils:
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_FRANCE'):
 			if gc.getInfoTypeForString('BUILD_EIENTEI_PLANTATION') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_KOUMAKAN_FARM'):
 				return 0
-			if gc.getInfoTypeForString('BUILD_NINGENNOSATO_COTTAGE') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_KISHINJOU_WINERY'):
+			if gc.getInfoTypeForString('BUILD_NINGENNOSATO_COTTAGE') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_TUKI_NO_MIYAKO_QUARRY'):
 				return 0
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_RELIGION')) == gc.getInfoTypeForString('CIVIC_PURE_SAKE')) == True:
+				iPureSakeValue = self.CheckPureSake(pPlayer, argsList)
+				return iPureSakeValue
 			if iBuild == gc.getInfoTypeForString('BUILD_QUARRY'):
 				return 0
 			if iBuild == gc.getInfoTypeForString('BUILD_WINDMILL'):
@@ -228,8 +243,11 @@ class CvGameUtils:
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_ROME'):
 			if gc.getInfoTypeForString('BUILD_EIENTEI_PLANTATION') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_HAKUREIJINJA_PLANTATION'):
 				return 0
-			if gc.getInfoTypeForString('BUILD_YOUKAINOYAMA_FORT') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_KISHINJOU_WINERY'):
+			if gc.getInfoTypeForString('BUILD_YOUKAINOYAMA_FORT') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_TUKI_NO_MIYAKO_QUARRY'):
 				return 0
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_RELIGION')) == gc.getInfoTypeForString('CIVIC_PURE_SAKE')) == True:
+				iPureSakeValue = self.CheckPureSake(pPlayer, argsList)
+				return iPureSakeValue
 			if iBuild == gc.getInfoTypeForString('BUILD_LUMBERMILL'):
 				return 0
 			if iBuild == gc.getInfoTypeForString('BUILD_PASTURE'):
@@ -239,6 +257,9 @@ class CvGameUtils:
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_EGYPT'):
 			if gc.getInfoTypeForString('BUILD_KOUMAKAN_WINERY') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_KISHINJOU_WINERY'):
 				return 0
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_RELIGION')) == gc.getInfoTypeForString('CIVIC_PURE_SAKE')) == True:
+				iPureSakeValue = self.CheckPureSake(pPlayer, argsList)
+				return iPureSakeValue
 			if iBuild == gc.getInfoTypeForString('BUILD_PLANTATION'):
 				return 0
 
@@ -246,8 +267,11 @@ class CvGameUtils:
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_SPAIN'):
 			if gc.getInfoTypeForString('BUILD_EIENTEI_PLANTATION') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_HYOUSEIRENGOU_PASTURE'):
 				return 0
-			if gc.getInfoTypeForString('BUILD_CHIREIDEN_WORKSHOP') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_KISHINJOU_WINERY'):
+			if gc.getInfoTypeForString('BUILD_CHIREIDEN_WORKSHOP') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_TUKI_NO_MIYAKO_QUARRY'):
 				return 0
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_RELIGION')) == gc.getInfoTypeForString('CIVIC_PURE_SAKE')) == True:
+				iPureSakeValue = self.CheckPureSake(pPlayer, argsList)
+				return iPureSakeValue
 			if iBuild == gc.getInfoTypeForString('BUILD_FORT'):
 				return 0
 			if iBuild == gc.getInfoTypeForString('BUILD_FARM'):
@@ -257,8 +281,11 @@ class CvGameUtils:
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_JAPAN'):
 			if gc.getInfoTypeForString('BUILD_EIENTEI_PLANTATION') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_NINGENNOSATO_WATERMILL'):
 				return 0
-			if gc.getInfoTypeForString('BUILD_HYOUSEIRENGOU_LUMBERMILL') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_KISHINJOU_WINERY'):
+			if gc.getInfoTypeForString('BUILD_HYOUSEIRENGOU_LUMBERMILL') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_TUKI_NO_MIYAKO_QUARRY'):
 				return 0
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_RELIGION')) == gc.getInfoTypeForString('CIVIC_PURE_SAKE')) == True:
+				iPureSakeValue = self.CheckPureSake(pPlayer, argsList)
+				return iPureSakeValue
 			if iBuild == gc.getInfoTypeForString('BUILD_FOREST_PRESERVE'):
 				return 0
 			if iBuild == gc.getInfoTypeForString('BUILD_PLANTATION'):
@@ -268,8 +295,11 @@ class CvGameUtils:
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_PERSIA'):
 			if gc.getInfoTypeForString('BUILD_EIENTEI_PLANTATION') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_YOUKAINOYAMA_FARM'):
 				return 0
-			if gc.getInfoTypeForString('BUILD_SEIRENSEN_MINE') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_KISHINJOU_WINERY'):
+			if gc.getInfoTypeForString('BUILD_SEIRENSEN_MINE') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_TUKI_NO_MIYAKO_QUARRY'):
 				return 0
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_RELIGION')) == gc.getInfoTypeForString('CIVIC_PURE_SAKE')) == True:
+				iPureSakeValue = self.CheckPureSake(pPlayer, argsList)
+				return iPureSakeValue
 			if iBuild == gc.getInfoTypeForString('BUILD_WORKSHOP'):
 				return 0
 			if iBuild == gc.getInfoTypeForString('BUILD_WELL'):
@@ -279,8 +309,11 @@ class CvGameUtils:
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_RUSSIA'):
 			if gc.getInfoTypeForString('BUILD_EIENTEI_PLANTATION') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_CHIREIDEN_WELL'):
 				return 0
-			if gc.getInfoTypeForString('BUILD_SHINREIBYOU_COTTAGE') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_KISHINJOU_WINERY'):
+			if gc.getInfoTypeForString('BUILD_SHINREIBYOU_COTTAGE') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_TUKI_NO_MIYAKO_QUARRY'):
 				return 0
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_RELIGION')) == gc.getInfoTypeForString('CIVIC_PURE_SAKE')) == True:
+				iPureSakeValue = self.CheckPureSake(pPlayer, argsList)
+				return iPureSakeValue
 			if iBuild == gc.getInfoTypeForString('BUILD_MINE'):
 				return 0
 			if iBuild == gc.getInfoTypeForString('BUILD_CAMP'):
@@ -290,26 +323,50 @@ class CvGameUtils:
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_CHINA'):
 			if gc.getInfoTypeForString('BUILD_EIENTEI_PLANTATION') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_SEIRENSEN_CAMP'):
 				return 0
-			if gc.getInfoTypeForString('BUILD_KISHINJOU_WORKSHOP') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_KISHINJOU_WINERY'):
+			if gc.getInfoTypeForString('BUILD_KISHINJOU_WORKSHOP') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_TUKI_NO_MIYAKO_QUARRY'):
 				return 0
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_RELIGION')) == gc.getInfoTypeForString('CIVIC_PURE_SAKE')) == True:
+				iPureSakeValue = self.CheckPureSake(pPlayer, argsList)
+				return iPureSakeValue
 			if iBuild == gc.getInfoTypeForString('BUILD_COTTAGE'):
 				return 0
+			
 
 		#輝針城の場合
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_MALI'):
 			if gc.getInfoTypeForString('BUILD_EIENTEI_PLANTATION') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_SHINREIBYOU_ROAD'):
 				return 0
+			if gc.getInfoTypeForString('BUILD_TUKI_NO_MIYAKO_COTTAGE') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_TUKI_NO_MIYAKO_QUARRY'):
+				return 0
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_RELIGION')) == gc.getInfoTypeForString('CIVIC_PURE_SAKE')) == True:
+				iPureSakeValue = self.CheckPureSake(pPlayer, argsList)
+				return iPureSakeValue
 			if iBuild == gc.getInfoTypeForString('BUILD_WORKSHOP'):
 				return 0
 			if iBuild == gc.getInfoTypeForString('BUILD_WINERY'):
+				return 0
+				
+		#月の都の場合
+		if iCiv == gc.getInfoTypeForString('CIVILIZATION_AMERICA'):
+			if gc.getInfoTypeForString('BUILD_EIENTEI_PLANTATION') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_KISHINJOU_WINERY'):
+				return 0
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_RELIGION')) == gc.getInfoTypeForString('CIVIC_PURE_SAKE')) == True:
+				iPureSakeValue = self.CheckPureSake(pPlayer, argsList)
+				return iPureSakeValue
+			if iBuild == gc.getInfoTypeForString('BUILD_COTTAGE'):
+				return 0
+			if iBuild == gc.getInfoTypeForString('BUILD_QUARRY'):
 				return 0
 
 		#人間の里の場合
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_INDIA'):
 			if gc.getInfoTypeForString('BUILD_EIENTEI_PLANTATION') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_HAKUGYOKUROU_WINDMILL'):
 				return 0
-			if gc.getInfoTypeForString('BUILD_HAKUREIJINJA_FOREST_PRESERVE') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_KISHINJOU_WINERY'):
+			if gc.getInfoTypeForString('BUILD_HAKUREIJINJA_FOREST_PRESERVE') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_TUKI_NO_MIYAKO_QUARRY'):
 				return 0
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_RELIGION')) == gc.getInfoTypeForString('CIVIC_PURE_SAKE')) == True:
+				iPureSakeValue = self.CheckPureSake(pPlayer, argsList)
+				return iPureSakeValue
 			if iBuild == gc.getInfoTypeForString('BUILD_COTTAGE'):
 				return 0
 			if iBuild == gc.getInfoTypeForString('BUILD_WATERMILL'):
@@ -317,12 +374,77 @@ class CvGameUtils:
 			
 		#蛮族の場合
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_BARBARIAN'):
-			if gc.getInfoTypeForString('BUILD_EIENTEI_PLANTATION') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_KISHINJOU_WINERY'):
+			if gc.getInfoTypeForString('BUILD_EIENTEI_PLANTATION') <= iBuild and iBuild <= gc.getInfoTypeForString('BUILD_TUKI_NO_MIYAKO_QUARRY'):
 				return 0
 
-		#統合MOD追記部分
-
 		return -1	# Returning -1 means ignore; 0 means Build cannot be performed; 1 or greater means it can
+
+	def CheckPureSake(self, pPlayer, argsList):
+		iX, iY, iBuild, iPlayer = argsList
+		pPlot = gc.getMap().plot(iX,iY)
+		if pPlayer.getTeam() == pPlot.getTeam():
+			#以下全てUIの場合含む
+			if pPlot.getFeatureType() == gc.getInfoTypeForString('FEATURE_OASIS'):
+				#小屋
+				if iBuild == gc.getInfoTypeForString('BUILD_NINGENNOSATO_COTTAGE'):
+					if not (gc.getInfoTypeForString('IMPROVEMENT_NINGENNOSATO_COTTAGE') <= pPlot.getImprovementType() and pPlot.getImprovementType() <= gc.getInfoTypeForString('IMPROVEMENT_NINGENNOSATO_TOWN')):
+						return 1
+				elif iBuild == gc.getInfoTypeForString('BUILD_SHINREIBYOU_COTTAGE'):
+					if not (gc.getInfoTypeForString('IMPROVEMENT_SHINREIBYOU_COTTAGE') <= pPlot.getImprovementType() and pPlot.getImprovementType() <= gc.getInfoTypeForString('IMPROVEMENT_SHINREIBYOU_TOWN')):
+						return 1
+				elif iBuild == gc.getInfoTypeForString('BUILD_TUKI_NO_MIYAKO_COTTAGE'):
+					if not (gc.getInfoTypeForString('IMPROVEMENT_TUKI_NO_MIYAKO_COTTAGE') <= pPlot.getImprovementType() and pPlot.getImprovementType() <= gc.getInfoTypeForString('IMPROVEMENT_TUKI_NO_MIYAKO_TOWN')):
+						return 1
+				elif iBuild == gc.getInfoTypeForString('BUILD_COTTAGE'):
+					if not (gc.getInfoTypeForString('IMPROVEMENT_COTTAGE') <= pPlot.getImprovementType() and pPlot.getImprovementType() <= gc.getInfoTypeForString('IMPROVEMENT_TOWN')):
+						return 1
+				#農場
+				if iBuild == gc.getInfoTypeForString('BUILD_KOUMAKAN_FARM'):
+					if not (gc.getInfoTypeForString('IMPROVEMENT_KOUMAKAN_FARM') <= pPlot.getImprovementType() and pPlot.getImprovementType() <= gc.getInfoTypeForString('IMPROVEMENT_KOUMAKAN_FARM_3')):
+						if not pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_KOUMAKAN_FARM_4'):
+							return 1
+				elif iBuild == gc.getInfoTypeForString('BUILD_YOUKAINOYAMA_FARM'):
+					if not pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_YOUKAINOYAMA_FARM'):
+						return 1
+				elif iBuild == gc.getInfoTypeForString('BUILD_FARM'):
+					if not pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_FARM'):
+						return 1
+				#工房
+				if iBuild == gc.getInfoTypeForString('BUILD_CHIREIDEN_WORKSHOP'):
+					if not pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_CHIREIDEN_WORKSHOP'):
+						return 1
+				elif iBuild == gc.getInfoTypeForString('BUILD_FARM'):
+					if not pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_KISHINJOU_WORKSHOP'):
+						return 1
+				elif iBuild == gc.getInfoTypeForString('BUILD_WORKSHOP'):
+					if not pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_WORKSHOP'):
+						return 1
+			if pPlot.isCity():
+				#農場
+				if iBuild == gc.getInfoTypeForString('BUILD_KOUMAKAN_FARM'):
+					if not (gc.getInfoTypeForString('IMPROVEMENT_KOUMAKAN_FARM') <= pPlot.getImprovementType() and pPlot.getImprovementType() <= gc.getInfoTypeForString('IMPROVEMENT_KOUMAKAN_FARM_3')):
+						if not pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_KOUMAKAN_FARM_4'):
+							return 1
+				elif iBuild == gc.getInfoTypeForString('BUILD_YOUKAINOYAMA_FARM'):
+					if not pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_YOUKAINOYAMA_FARM'):
+						return 1
+				elif iBuild == gc.getInfoTypeForString('BUILD_FARM'):
+					if not pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_FARM'):
+						return 1
+				#工房
+				if iBuild == gc.getInfoTypeForString('BUILD_CHIREIDEN_WORKSHOP'):
+					if not pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_CHIREIDEN_WORKSHOP'):
+						return 1
+				elif iBuild == gc.getInfoTypeForString('IMPROVEMENT_KISHINJOU_WORKSHOP'):
+					if not pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_KISHINJOU_WORKSHOP'):
+						return 1
+				elif iBuild == gc.getInfoTypeForString('BUILD_WORKSHOP'):
+					if not pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_WORKSHOP'):
+						return 1
+		
+		return -1	# Returning -1 means ignore; 0 means Build cannot be performed; 1 or greater means it can
+		
+		#統合MOD追記部分
 
 	def cannotFoundCity(self,argsList):
 		iPlayer, iPlotX, iPlotY = argsList
@@ -432,12 +554,19 @@ class CvGameUtils:
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_MALI'):
 			if gc.getInfoTypeForString('TECH_KOUMAKAN') <= eTech and eTech <= gc.getInfoTypeForString('TECH_HOSIHURU_SHINREIBYOU'):
 				return True
+			if gc.getInfoTypeForString('TECH_TUKI_NO_MIYAKO') <= eTech and eTech <= gc.getInfoTypeForString('TECH_KEINENOIRAI'):
+				return True
+		
+		#月の都
+		if iCiv == gc.getInfoTypeForString('CIVILIZATION_AMERICA'):
+			if gc.getInfoTypeForString('TECH_KOUMAKAN') <= eTech and eTech <= gc.getInfoTypeForString('TECH_MUGENNOTIKARA'):
+				return True
 			if gc.getInfoTypeForString('TECH_KEINENOIRAI') <= eTech and eTech <= gc.getInfoTypeForString('TECH_KEINENOIRAI'):
 				return True
-			
+		
 		#人間の里
 		if iCiv == gc.getInfoTypeForString('CIVILIZATION_INDIA'):
-			if gc.getInfoTypeForString('TECH_KOUMAKAN') <= eTech and eTech <= gc.getInfoTypeForString('TECH_MUGENNOTIKARA'):
+			if gc.getInfoTypeForString('TECH_KOUMAKAN') <= eTech and eTech <= gc.getInfoTypeForString('TECH_TUKI_NO_MIYAKO'):
 				return True
 		
 		##### </written by F> #####
@@ -484,6 +613,13 @@ class CvGameUtils:
 				return False
 
 			elif eCivic == gc.getInfoTypeForString('CIVIC_ZYUUSHICHIZYO_KENPOU'):
+				return True
+		
+		#ゴールデン巻き○ソ処理
+		if pPlayer.countNumBuildings(gc.getInfoTypeForString("BUILDING_SHWEDAGON_PAYA")) == 1:
+			if iCiv == gc.getInfoTypeForString('CIVILIZATION_AMERICA'):
+				return False
+			elif eCivic == gc.getInfoTypeForString('CIVIC_PURE_SAKE'):
 				return True
 		
 		#統合MOD追記部分ここまで
@@ -630,7 +766,7 @@ class CvGameUtils:
 			if eUnit == gc.getInfoTypeForString('UNIT_YUKARI0'):
 				if (iCiv == gc.getInfoTypeForString('CIVILIZATION_JAPAN')) == True and (pPlayer.getLeaderType() == gc.getInfoTypeForString('LEADER_YUKARI')) == True:
 					return True
-
+		
 		return False
 
 	def canConstruct(self,argsList):
@@ -854,6 +990,12 @@ class CvGameUtils:
 		pCity = argsList[0]
 		eProcess = argsList[1]
 		bContinue = argsList[2]
+		
+		#「片翼の白鷲」がある都市は諜報ポイント生産が可能
+		if pCity.isHasBuilding(gc.getInfoTypeForString('BUILDING_KATAYOKU')):
+			if eProcess == gc.getInfoTypeForString('PROCESS_KATAYOKU_SPY'):
+				return True
+		
 		return False
 
 	def cannotMaintain(self,argsList):
@@ -1055,13 +1197,13 @@ class CvGameUtils:
 		pPlayer = gc.getPlayer(iPlayer)
 		
 		#統合MOD追記部分
-		#純狐の志向で白兵コスト-25%
+		#純狐の志向で白兵コスト-15%
 		iMod = 100
 		iUnitCombatType = gc.getUnitInfo(iUnit).getUnitCombatType()
 		
 		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_JUNKOLIST')):
 			if iUnitCombatType == gc.getInfoTypeForString('UNITCOMBAT_MELEE'):
-				iMod -= 25
+				iMod -= 15
 		
 		return iMod
 		
@@ -1171,7 +1313,7 @@ class CvGameUtils:
 		pPlayer = gc.getPlayer(iPlayer)
 		pUnit = pPlayer.getUnit(iUnitID)
 		
-		if gc.getInfoTypeForString('UNIT_SANAE0') <=  iUnitTypeUpgrade and iUnitTypeUpgrade <= gc.getInfoTypeForString('UNIT_RAIKO6') and ( gc.getInfoTypeForString('UNITCOMBAT_BOSS') == pUnit.getUnitCombatType() or gc.getInfoTypeForString('UNITCOMBAT_STANDBY') == pUnit.getUnitCombatType()):
+		if gc.getInfoTypeForString('UNIT_SANAE0') <=  iUnitTypeUpgrade and iUnitTypeUpgrade <= gc.getInfoTypeForString('UNIT_SAGUME6') and ( gc.getInfoTypeForString('UNITCOMBAT_BOSS') == pUnit.getUnitCombatType() or gc.getInfoTypeForString('UNITCOMBAT_STANDBY') == pUnit.getUnitCombatType()):
 		
 			#アップグレードコストのリスト　ここの数字をいじればＵＧコストが変更可能
 			#以下のコストは、「そのユニットになるのに必要な金額」であり、
@@ -1248,6 +1390,12 @@ class CvGameUtils:
 						-1,  20,  20,  25,  40,  60, 90,   #正邪
 						-1,  20,  20,  25,  40,  60, 90,   #しんみょうまる
 						-1,  30,  40,  50,  60,  70, 100,   #雷鼓
+						-1,  40,  60,  80,  100,  150, 200,   #依姫※他東方ユニットよりUG費高め
+						-1,  40,  60,  80,  100,  150, 200,   #豊姫※他東方ユニットよりUG費高め
+						-1,  20,  20,  25,  40,  60, 90,   #せーらん
+						-1,  20,  20,  25,  40,  60, 90,   #おりんご
+						-1,  20,  20,  25,  40,  60, 90,   #どれみ
+						-1,  20,  20,  25,  40,  60, 90,   #サグメ
 						]
 			
 			#時代ごとのＵＧコスト補正　数字は％表記で、後半の時代ほど高額になる

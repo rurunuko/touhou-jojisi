@@ -824,6 +824,42 @@
       <VictoryThresholds />
     </BuildingClassInfo>
     <BuildingClassInfo>
+      <Type>BUILDINGCLASS_HEKATE_SANCTUARY</Type>
+      <Description>TXT_KEY_BUILDING_HEKATE_SANCTUARY</Description>
+      <iMaxGlobalInstances>-1</iMaxGlobalInstances>
+      <iMaxTeamInstances>-1</iMaxTeamInstances>
+      <iMaxPlayerInstances>1</iMaxPlayerInstances>
+      <iExtraPlayerInstances>0</iExtraPlayerInstances>
+      <bNoLimit>0</bNoLimit>
+      <bMonument>0</bMonument>
+      <DefaultBuilding>BUILDING_HEKATE_SANCTUARY</DefaultBuilding>
+      <VictoryThresholds />
+    </BuildingClassInfo>
+    <BuildingClassInfo>
+      <Type>BUILDINGCLASS_TRUE_ARTEMIS</Type>
+      <Description>TXT_KEY_BUILDING_TRUE_ARTEMIS</Description>
+      <iMaxGlobalInstances>1</iMaxGlobalInstances>
+      <iMaxTeamInstances>-1</iMaxTeamInstances>
+      <iMaxPlayerInstances>-1</iMaxPlayerInstances>
+      <iExtraPlayerInstances>0</iExtraPlayerInstances>
+      <bNoLimit>0</bNoLimit>
+      <bMonument>0</bMonument>
+      <DefaultBuilding>BUILDING_TRUE_ARTEMIS</DefaultBuilding>
+      <VictoryThresholds />
+    </BuildingClassInfo>
+    <BuildingClassInfo>
+      <Type>BUILDINGCLASS_TSUKUYOMI_SHRINE</Type>
+      <Description>TXT_KEY_BUILDING_TSUKUYOMI_SHRINE</Description>
+      <iMaxGlobalInstances>1</iMaxGlobalInstances>
+      <iMaxTeamInstances>-1</iMaxTeamInstances>
+      <iMaxPlayerInstances>-1</iMaxPlayerInstances>
+      <iExtraPlayerInstances>0</iExtraPlayerInstances>
+      <bNoLimit>0</bNoLimit>
+      <bMonument>0</bMonument>
+      <DefaultBuilding>BUILDING_TSUKUYOMI_SHRINE</DefaultBuilding>
+      <VictoryThresholds />
+    </BuildingClassInfo>
+    <BuildingClassInfo>
       <Type>BUILDINGCLASS_CTHULHU</Type>
       <Description>TXT_KEY_BUILDING_CTHULHU</Description>
       <iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -1878,6 +1914,66 @@
       <bNoLimit>0</bNoLimit>
       <bMonument>0</bMonument>
       <DefaultBuilding>BUILDING_KISHINJOU_AMERICAN_MALL</DefaultBuilding>
+      <VictoryThresholds />
+    </BuildingClassInfo>
+    <BuildingClassInfo>
+      <Type>BUILDINGCLASS_KAMINOHI</Type>
+      <Description>TXT_KEY_BUILDING_KAMINOHI</Description>
+      <iMaxGlobalInstances>-1</iMaxGlobalInstances>
+      <iMaxTeamInstances>-1</iMaxTeamInstances>
+      <iMaxPlayerInstances>-1</iMaxPlayerInstances>
+      <iExtraPlayerInstances>0</iExtraPlayerInstances>
+      <bNoLimit>0</bNoLimit>
+      <bMonument>0</bMonument>
+      <DefaultBuilding>BUILDING_KAMINOHI</DefaultBuilding>
+      <VictoryThresholds />
+    </BuildingClassInfo>
+    <BuildingClassInfo>
+      <Type>BUILDINGCLASS_KOUTENGEN</Type>
+      <Description>TXT_KEY_BUILDING_KOUTENGEN</Description>
+      <iMaxGlobalInstances>-1</iMaxGlobalInstances>
+      <iMaxTeamInstances>-1</iMaxTeamInstances>
+      <iMaxPlayerInstances>-1</iMaxPlayerInstances>
+      <iExtraPlayerInstances>0</iExtraPlayerInstances>
+      <bNoLimit>0</bNoLimit>
+      <bMonument>0</bMonument>
+      <DefaultBuilding>BUILDING_KOUTENGEN</DefaultBuilding>
+      <VictoryThresholds />
+    </BuildingClassInfo>
+    <BuildingClassInfo>
+      <Type>BUILDINGCLASS_DANGOYA</Type>
+      <Description>TXT_KEY_BUILDING_DANGOYA</Description>
+      <iMaxGlobalInstances>-1</iMaxGlobalInstances>
+      <iMaxTeamInstances>-1</iMaxTeamInstances>
+      <iMaxPlayerInstances>-1</iMaxPlayerInstances>
+      <iExtraPlayerInstances>0</iExtraPlayerInstances>
+      <bNoLimit>0</bNoLimit>
+      <bMonument>0</bMonument>
+      <DefaultBuilding>BUILDING_DANGOYA</DefaultBuilding>
+      <VictoryThresholds />
+    </BuildingClassInfo>
+    <BuildingClassInfo>
+      <Type>BUILDINGCLASS_DAGON</Type>
+      <Description>TXT_KEY_BUILDING_DAGON</Description>
+      <iMaxGlobalInstances>-1</iMaxGlobalInstances>
+      <iMaxTeamInstances>-1</iMaxTeamInstances>
+      <iMaxPlayerInstances>-1</iMaxPlayerInstances>
+      <iExtraPlayerInstances>0</iExtraPlayerInstances>
+      <bNoLimit>0</bNoLimit>
+      <bMonument>0</bMonument>
+      <DefaultBuilding>BUILDING_DAGON</DefaultBuilding>
+      <VictoryThresholds />
+    </BuildingClassInfo>
+    <BuildingClassInfo>
+      <Type>BUILDINGCLASS_KATAYOKU</Type>
+      <Description>TXT_KEY_BUILDING_KATAYOKU</Description>
+      <iMaxGlobalInstances>-1</iMaxGlobalInstances>
+      <iMaxTeamInstances>-1</iMaxTeamInstances>
+      <iMaxPlayerInstances>-1</iMaxPlayerInstances>
+      <iExtraPlayerInstances>0</iExtraPlayerInstances>
+      <bNoLimit>0</bNoLimit>
+      <bMonument>0</bMonument>
+      <DefaultBuilding>BUILDING_KATAYOKU</DefaultBuilding>
       <VictoryThresholds />
     </BuildingClassInfo>
     <!--Trait Building-->

@@ -369,11 +369,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_RENKO</Tag>
 		<English>Renko Usami</English>
-		<French>宇佐美蓮子</French>
+		<French>宇佐見蓮子</French>
 		<German />
 		<Italian />
 		<Spanish />
-		<Japanese>宇佐美蓮子</Japanese>
+		<Japanese>宇佐見蓮子</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_RUMIA</Tag>
@@ -995,6 +995,15 @@
 		<Italian />
 		<Spanish />
 		<Japanese>ヘカーティア・ラピスラズリ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SUMMERCIRNO</Tag>
+		<English />
+		<French>日焼けしたチルノ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>日焼けしたチルノ</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_KEDAMA</Tag>
@@ -1640,7 +1649,69 @@
 		<Spanish />
 		<Japanese>この台詞に心当たりがあるプレイヤーは多いはずだ</Japanese>
 	</TEXT>
-
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TUKI_NO_MIYAKO_PEDIA</Tag>
+		<English />
+		<French>月の都。月に本拠地を構える者たちが集う</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月の都。月に本拠地を構える者たちが集う</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOON_WAR_FIRST_PEDIA</Tag>
+		<English />
+		<French>実際に第一回の時は妖怪側がボロ負けしたらしい</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>実際に第一回の時は妖怪側がボロ負けしたらしい</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_APOLLO_PEDIA</Tag>
+		<English />
+		<French>[TAB]「鷲は舞い降りた」（英：The Eagle Has Landed）はかの有名なアポロ11号による月面着陸のワンシーン、司令船コロンビアから分離した月着陸船「イーグル」が無事に月面静かの海に着陸した際にアームストロング船長が地球の管制室に連絡を取った際の言葉です。[NEWLINE]「イーグル」は月着陸船そのものの名前でもある上に、アメリカの国鳥も鷲＝"Eagle"です。そのため「イーグルが着陸に成功」という事務的な報告以上の象徴的な意味合いがあります[NEWLINE]ちなみにこの言葉には更に元ネタがあり、元ネタはジャック・ヒギンズによるイギリスの冒険小説です。映画化もされていたりします[NEWLINE][NEWLINE]ところで何故この歴史に残る名言が基本的にゆるい空気でやってる東方叙事詩の独自技術解説に入っているかって？[NEWLINE]理由は東方紺珠伝本編において清蘭のテーマ曲の名前が「兎は舞い降りた」となっているためです[NEWLINE]つまり、静かの海に舞い降りた鷲に対する意趣返しという構図になっているのです</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]「鷲は舞い降りた」（英：The Eagle Has Landed）はかの有名なアポロ11号による月面着陸のワンシーン、司令船コロンビアから分離した月着陸船「イーグル」が無事に月面静かの海に着陸した際にアームストロング船長が地球の管制室に連絡を取った際の言葉です。[NEWLINE]「イーグル」は月着陸船そのものの名前でもある上に、アメリカの国鳥も鷲＝"Eagle"です。そのため「イーグルが着陸に成功」という事務的な報告以上の象徴的な意味合いがあります[NEWLINE]ちなみにこの言葉には更に元ネタがあり、元ネタはジャック・ヒギンズによるイギリスの冒険小説です。映画化もされていたりします[NEWLINE][NEWLINE]ところで何故この歴史に残る名言が基本的にゆるい空気でやってる東方叙事詩の独自技術解説に入っているかって？[NEWLINE]理由は東方紺珠伝本編において清蘭のテーマ曲の名前が「兎は舞い降りた」となっているためです[NEWLINE]つまり、静かの海に舞い降りた鷲に対する意趣返しという構図になっているのです</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_APOLLO_CONSPIRACY_PEDIA</Tag>
+		<English />
+		<French>アメリカ合衆国は何かにつけて自国政府の陰謀論に結び付けたがる人々が大勢いる国家でもあります。[NEWLINE]彼らは今日も元気にアポロ計画やエリア51の陰謀論を考えていることでしょう</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アメリカ合衆国は何かにつけて自国政府の陰謀論に結び付けたがる人々が大勢いる国家でもあります。[NEWLINE]彼らは今日も元気にアポロ計画やエリア51の陰謀論を考えていることでしょう</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LUNAR_CAPITAL_TRANSFER_PLAN_PEDIA</Tag>
+		<English />
+		<French>このために幻想郷を「浄化」する必要があるらしい。なんてはた迷惑な</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>このために幻想郷を「浄化」する必要があるらしい。なんてはた迷惑な</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SAKE_OF_THE_WATATSUKI_PEDIA</Tag>
+		<English />
+		<French>おかげで第二回はぎゃふんと言わされてしまった</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>おかげで第二回はぎゃふんと言わされてしまった</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_THE_TRUMP_CARD_IS_ALWAYS_A_BAD_MOVE_PEDIA</Tag>
+		<English />
+		<French>貴重なエリクサーを大事に大事に取っておいたら、結局ラスボス戦でも使わなかった[NEWLINE]そんなことあったりしない？</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>貴重なエリクサーを大事に大事に取っておいたら、結局ラスボス戦でも使わなかった[NEWLINE]そんなことあったりしない？</Japanese>
+	</TEXT>
 
 	<TEXT>
 		<Tag>TXT_KEY_TECH_KEINENOIRAI_PEDIA</Tag>

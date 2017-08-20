@@ -2794,6 +2794,29 @@
       <bGraphicalOnly>1</bGraphicalOnly>
     </TraitInfo>
     <TraitInfo>
+      <Type>TRAIT_SUMMERCIRNOLIST</Type>
+      <Description>TXT_KEY_TRAIT_SUMMERCIRNOLIST</Description>
+      <ShortDescription>TXT_KEY_TRAIT_KOYUUSHIKOU_SHORT</ShortDescription>
+      <iHealth>0</iHealth>
+      <iHappiness>1</iHappiness>
+      <iMaxAnarchy>-1</iMaxAnarchy>
+      <iUpkeepModifier>0</iUpkeepModifier>
+      <iLevelExperienceModifier>0</iLevelExperienceModifier>
+      <iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
+      <iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
+      <iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
+      <iMaxGlobalBuildingProductionModifier>0</iMaxGlobalBuildingProductionModifier>
+      <iMaxTeamBuildingProductionModifier>0</iMaxTeamBuildingProductionModifier>
+      <iMaxPlayerBuildingProductionModifier>0</iMaxPlayerBuildingProductionModifier>
+      <ExtraYieldThresholds />
+      <TradeYieldModifiers />
+      <CommerceChanges />
+      <CommerceModifiers />
+      <FreePromotions />
+      <FreePromotionUnitCombats />
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </TraitInfo>
+    <TraitInfo>
       <Type>TRAIT_PHILOSOPHICAL</Type>
       <Description>TXT_KEY_TRAIT_PHILOSOPHICAL</Description>
       <ShortDescription>TXT_KEY_TRAIT_PHILOSOPHICAL_SHORT</ShortDescription>
@@ -2885,6 +2908,7 @@
       <Type>TRAIT_EXPANSIVE</Type>
       <Description>TXT_KEY_TRAIT_EXPANSIVE</Description>
       <ShortDescription>TXT_KEY_TRAIT_EXPANSIVE_SHORT</ShortDescription>
+      <Help>TXT_KEY_TRAIT_EXPANSIVE_HELP</Help>
       <iHealth>2</iHealth>
       <iHappiness>0</iHappiness>
       <iMaxAnarchy>-1</iMaxAnarchy>

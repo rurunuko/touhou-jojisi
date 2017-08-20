@@ -1448,6 +1448,7 @@ class CvMainInterface:
 
 		##### <written by F> #####
 		#ÉXÉyÉãÇÃèâä˙âªèàóù
+		### Ç‚Ç¡ÇœñﬂÇ∑
 		SpellInfo.init()
 		##### </written by F> #####
 
@@ -3687,7 +3688,7 @@ class CvMainInterface:
 					#ëΩï™Ç±ÇÃTohoDeltaÇÃílÇ…ì¸Ç¡ÇƒÇ¢ÇÈÇÃÇÕSANAE0
 					TohoDelta = gc.getNumCommandInfos()+InterfaceModeTypes.NUM_INTERFACEMODE_TYPES+gc.getNumBuildInfos()+gc.getNumPromotionInfos()
 					SpellDelta = gc.getNumCommandInfos()+InterfaceModeTypes.NUM_INTERFACEMODE_TYPES+gc.getNumBuildInfos()+gc.getNumPromotionInfos()+gc.getNumUnitInfos()+gc.getNumReligionInfos()+gc.getNumSpecialistInfos()+gc.getNumBuildingInfos()+gc.getNumControlInfos()+7
-					TohoUnitNum = gc.getInfoTypeForString('UNIT_RAIKO6') - gc.getInfoTypeForString('UNIT_SANAE0') + 1
+					TohoUnitNum = gc.getInfoTypeForString('UNIT_SAGUME6') - gc.getInfoTypeForString('UNIT_SANAE0') + 1
 					for i in actions:
 						if TohoDelta <= i and i <= TohoDelta + TohoUnitNum - 1:
 							continue

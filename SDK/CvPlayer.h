@@ -1087,6 +1087,9 @@ public:
 	void setNumMadeMyLove(int iNum);
 	int getNumMadeMyLove_const() const;
 	void resetGreatPeopleThreshold();
+	//“Œ•û––“‡MOD—p
+	int getAmenouzumeFlag();
+	void setAmenouzumeFlag(int iNum);
 
 protected:
 
@@ -1360,6 +1363,8 @@ protected:
 	int m_iAIPromotionRoute;
 	int m_iNumMyLove;
 	int m_iNumMadeMyLove;
+	//“Œ•û––“‡MOD—p
+	int m_iAmenouzumeFlag;
 
 };
 

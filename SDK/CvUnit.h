@@ -801,6 +801,9 @@ public:
     double getPower();
     void setNumPowerUp(int index,int iNum);
     int getNumPowerUp(int index);
+	//東方叙事詩・統合MOD用
+	void setNumTurnPromo(int iNum);
+	int getNumTurnPromo();
 
     int countSpellTolerance() const;
     int countExpByTrun() const;
@@ -951,6 +954,9 @@ protected:
     int m_iNumPowerUpCombat; //愛による強化分
     int m_iNumPowerUpSTG;
     int m_iNumPowerUpCAL;
+	
+	//東方叙事詩・統合MOD用
+	int m_iNumTurnPromo;//一時的バフ・デバフ昇進管理変数
 
     int m_iNumSpellCardBreakTime;
     int m_iNumSpellExtraBreakTime;
@@ -965,6 +971,7 @@ protected:
     int promCom6;// = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TOHO_COMBAT6");
     int promComS;// = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STACK_BONUS");
     int promComSTG;// = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL");
+    int promComRNG;// = (PromotionTypes)GC.getInfoTypeForString("PROMOTION_TEMP_STG_SKILL");
 };
 
 #endif

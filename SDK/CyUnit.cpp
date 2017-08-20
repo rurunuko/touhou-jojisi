@@ -1890,4 +1890,16 @@ int CyUnit::getNumPowerUp(int index){
     return m_pUnit->getNumPowerUp(index);
 }
 
+//“Œ•û–Ž–ŽE“‡MOD—p
 
+void CyUnit::setNumTurnPromo(int iNum){
+
+    m_pUnit->setNumTurnPromo(iNum);
+
+}
+
+int CyUnit::getNumTurnPromo(){
+
+    return m_pUnit->getNumTurnPromo();
+
+}

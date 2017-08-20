@@ -97,6 +97,15 @@
 		<Japanese>弱者の楽園</Japanese>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PURE_SAKE</Tag>
+		<English />
+		<French>穢れ無き純粋な酒</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>穢れ無き純粋な酒</Japanese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CIVICOPTION_FAITH</Tag>
 		<English />
 		<French>信仰</French>
@@ -259,6 +268,15 @@
 		<Japanese>[TAB]弱者のみが住む楽園ではお互いがお互いの為に行動できる為とても住みやすい世界を形作ります。[NEWLINE]国民はこの楽園を守るために戦争にもある程度積極的になります。[NEWLINE]若干の不衛生は発生しますが平和が崩れない限りこの国はゆっくりと発展していくことでしょう。[NEWLINE]弱者の間にも必ず格差は生まれ、いずれは強者が生み出される。[NEWLINE]その事に気づかない限り楽園は何時までも楽園でいられるでしょう。</Japanese>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PURE_SAKE_PEDIA</Tag>
+		<English />
+		<French>[TAB]普段我々が嗜んでいる酒はその製造工程の違いで無数の味や香りの違いへと分岐していきます[NEWLINE]その違いが酒の醍醐味でもあるのですが、その無数の味や香りは見方を変えると酒に混じっている不純物とも言えます。[NEWLINE]そんな不純物の一切を取り除いた完璧で純粋な酒を月の都の住民は好む模様です。[NEWLINE]この酒は非常に強い酒のため酒が回った労働者たちはトチ狂って普段は絶対に改善できないような場所まで改善し始めることでしょう。改善の成長速度も酒の勢いにより増していきます[NEWLINE][NEWLINE]「…ところで、完璧に純粋な酒って要するにただの100%アルコールじゃ…」[NEWLINE]「それは言っちゃダメよ！」</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[TAB]普段我々が嗜んでいる酒はその製造工程の違いで無数の味や香りの違いへと分岐していきます[NEWLINE]その違いが酒の醍醐味でもあるのですが、その無数の味や香りは見方を変えると酒に混じっている不純物とも言えます。[NEWLINE]そんな不純物の一切を取り除いた完璧で純粋な酒を月の都の住民は好む模様です。[NEWLINE]この酒は非常に強い酒のため酒が回った労働者たちはトチ狂って普段は絶対に改善できないような場所まで改善し始めることでしょう。改善の成長速度も酒の勢いにより増していきます[NEWLINE][NEWLINE]「…ところで、完璧に純粋な酒って要するにただの100%アルコールじゃ…」[NEWLINE]「それは言っちゃダメよ！」</Japanese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CIVIC_NONE_RELIGION_PEDIA</Tag>
 		<English />
 		<French>[TAB]無宗教とは、すなわち何の信仰も無い状態です。人々の心は混沌に満ち溢れ、何の効力も示さないでしょう。</French>
@@ -412,6 +430,15 @@
 		<Japanese>都市維持費を始めとする維持費諸々を軽減しつつ、多少の不衛生と引き換えに都市にほんの少しの幸福を発生させます</Japanese>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PURE_SAKE_STRATEGY</Tag>
+		<English />
+		<French>幻想シド星一般に広まっている穢れたフレーバーが混じった国酒を捨て、純粋なる原初の酒を飲み始めます。酒の力で普段は地形改善を置けない場所を無理矢理改善出来るようになり、また地形改善の成長速度も速まります</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>幻想シド星一般に広まっている穢れたフレーバーが混じった国酒を捨て、純粋なる原初の酒を飲み始めます。酒の力で普段は地形改善を置けない場所を無理矢理改善出来るようになり、また地形改善の成長速度も速まります</Japanese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CIVIC_FAITH_SHINTO_STRATEGY</Tag>
 		<English />
 		<French>全ての都市で少しだけ生産力が増加します</French>
@@ -473,6 +500,15 @@
 		<Italian />
 		<Spanish />
 		<Japanese>[ICON_BULLET]偉人誕生時に追加の神霊</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PURE_SAKE_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]オアシスタイルに小屋・農場・工房のいずれかを設置可能になる&#13;[ICON_BULLET]都市直下タイルに農場・工房のいずれかを設置可能になる</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]オアシスタイルに小屋・農場・工房のいずれかを設置可能になる&#13;[ICON_BULLET]都市直下タイルに農場・工房のいずれかを設置可能になる</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_JAKUSYANORAKUEN_HELP</Tag>

@@ -964,7 +964,7 @@
       <bActAsLand>0</bActAsLand>
       <bActAsAir>0</bActAsAir>
       <NIF>Art/Units/kimokeine/kimokeine.nif</NIF>
-      <KFM>Art/Units/kimokeine/kimokeine.kfm</KFM>
+      <KFM>Art/Units/keine/keine.kfm</KFM>
       <SHADERNIF>
       </SHADERNIF>
       <ShadowDef>
@@ -989,7 +989,7 @@
       <bActAsLand>0</bActAsLand>
       <bActAsAir>0</bActAsAir>
       <NIF>Art/Units/kimokeine/kimokeine.nif</NIF>
-      <KFM>Art/Units/kimokeine/kimokeine.kfm</KFM>
+      <KFM>Art/Units/keine/keine.kfm</KFM>
       <SHADERNIF>
       </SHADERNIF>
       <ShadowDef>
@@ -3337,6 +3337,294 @@
       </AudioRunSounds>
     </UnitArtInfo>
     <UnitArtInfo>
+      <Type>ART_DEF_UNIT_YORIHIME0</Type>
+      <Button>Art/Interface/Buttons/Units/yorihime_button.dds</Button>
+      <fScale>0.44</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/miku/miku.nif</NIF>
+      <KFM>Art/Units/miku/miku.kfm</KFM>
+      <SHADERNIF />
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_YORIHIME</Type>
+      <Button>Art/Interface/Buttons/Units/yorihime_button.dds</Button>
+      <fScale>0.44</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/miku/miku.nif</NIF>
+      <KFM>Art/Units/miku/miku.kfm</KFM>
+      <SHADERNIF />
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>1</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_TOYOHIME0</Type>
+      <Button>Art/Interface/Buttons/Units/toyohime_button.dds</Button>
+      <fScale>0.44</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/miku_red/miku.nif</NIF>
+      <KFM>Art/Units/miku_red/miku.kfm</KFM>
+      <SHADERNIF />
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_TOYOHIME</Type>
+      <Button>Art/Interface/Buttons/Units/toyohime_button.dds</Button>
+      <fScale>0.44</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/miku_red/miku.nif</NIF>
+      <KFM>Art/Units/miku_red/miku.kfm</KFM>
+      <SHADERNIF />
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>1</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_SEIRAN0</Type>
+      <Button>Art/Interface/Buttons/Units/seiran_button.dds</Button>
+      <fScale>0.44</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Unique_Babylon_Bowman/Unique_Babylon_Bowman.nif</NIF>
+      <KFM>Art/Units/Unique_Babylon_Bowman/Unique_Babylon_Bowman.kfm</KFM>
+      <SHADERNIF>Art/Units/Unique_Babylon_Bowman/Unique_Babylon_Bowman_FX.nif</SHADERNIF>
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_SEIRAN</Type>
+      <Button>Art/Interface/Buttons/Units/seiran_button.dds</Button>
+      <fScale>0.44</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Unique_Babylon_Bowman/Unique_Babylon_Bowman.nif</NIF>
+      <KFM>Art/Units/Unique_Babylon_Bowman/Unique_Babylon_Bowman.kfm</KFM>
+      <SHADERNIF>Art/Units/Unique_Babylon_Bowman/Unique_Babylon_Bowman_FX.nif</SHADERNIF>
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>1</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_RINGO0</Type>
+      <Button>Art/Interface/Buttons/Units/ringo_button.dds</Button>
+      <fScale>0.44</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Unique_Maya_Holkan/Unique_Mayan_Holkan.nif</NIF>
+      <KFM>Art/Units/Unique_Maya_Holkan/Unique_Mayan_Holkan.kfm</KFM>
+      <SHADERNIF>Art/Units/Unique_Maya_Holkan/Unique_Mayan_Holkan_FX.nif</SHADERNIF>
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_RINGO</Type>
+      <Button>Art/Interface/Buttons/Units/ringo_button.dds</Button>
+      <fScale>0.44</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Unique_Maya_Holkan/Unique_Mayan_Holkan.nif</NIF>
+      <KFM>Art/Units/Unique_Maya_Holkan/Unique_Mayan_Holkan.kfm</KFM>
+      <SHADERNIF>Art/Units/Unique_Maya_Holkan/Unique_Mayan_Holkan_FX.nif</SHADERNIF>
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>1</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_DOREMY0</Type>
+      <Button>Art/Interface/Buttons/Units/doremy_button.dds</Button>
+      <fScale>0.44</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Zulu_Impi/Zulu_Impi.nif</NIF>
+      <KFM>Art/Units/Zulu_Impi/Zulu_Impi.kfm</KFM>
+      <SHADERNIF>Art/Units/Zulu_Impi/Zulu_Impi_FX.nif</SHADERNIF>
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_DOREMY</Type>
+      <Button>Art/Interface/Buttons/Units/doremy_button.dds</Button>
+      <fScale>0.44</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Zulu_Impi/Zulu_Impi.nif</NIF>
+      <KFM>Art/Units/Zulu_Impi/Zulu_Impi.kfm</KFM>
+      <SHADERNIF>Art/Units/Zulu_Impi/Zulu_Impi_FX.nif</SHADERNIF>
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>1</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_SAGUME0</Type>
+      <Button>Art/Interface/Buttons/Units/sagume_button.dds</Button>
+      <fScale>0.44</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Unique_HolyRomanEmpire_Landsknecht/Unique_HolyRoman_Landsknecht.nif</NIF>
+      <KFM>Art/Units/Unique_HolyRomanEmpire_Landsknecht/Unique_HolyRoman_Landsknecht.kfm</KFM>
+      <SHADERNIF>Art/Units/Unique_HolyRomanEmpire_Landsknecht/Unique_HolyRoman_Landsknecht_FX.nif</SHADERNIF>
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_SAGUME</Type>
+      <Button>Art/Interface/Buttons/Units/sagume_button.dds</Button>
+      <fScale>0.44</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Unique_HolyRomanEmpire_Landsknecht/Unique_HolyRoman_Landsknecht.nif</NIF>
+      <KFM>Art/Units/Unique_HolyRomanEmpire_Landsknecht/Unique_HolyRoman_Landsknecht.kfm</KFM>
+      <SHADERNIF>Art/Units/Unique_HolyRomanEmpire_Landsknecht/Unique_HolyRoman_Landsknecht_FX.nif</SHADERNIF>
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>1</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
       <Type>ART_DEF_UNIT_KAPPA_ROBOT</Type>
       <Button>Art/Interface/Buttons/Units/kappa_robot.dds</Button>
       <fScale>0.4</fScale>
@@ -3939,6 +4227,250 @@
       </AudioRunSounds>
       <SelectionSound>AS3D_UN_MECH_SERVO</SelectionSound>
       <ActionSound>AS3D_UN_MECH_SERVO</ActionSound>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_AURIC</Type>
+      <Button>Art/Interface/Buttons/Units/auric_button.dds</Button>
+      <fScale>5</fScale>
+      <fInterfaceScale>0.5</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/auric ascended/mulcarn.nif</NIF>
+      <KFM>Art/Units/auric ascended/mulcarn.kfm</KFM>
+      <SHADERNIF />
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_EAGLE</Type>
+      <Button>Art/Interface/Buttons/Units/Hawk.dds</Button>
+      <fScale>0.3</fScale>
+      <fInterfaceScale>1</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Hawk/bird.nif</NIF>
+      <KFM>Art/Units/Hawk/bird.kfm</KFM>
+      <SHADERNIF />
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>0.75</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_SHUB-NIGGURATH</Type>
+      <Button>Art/Interface/Buttons/Units/shub-niggurath.dds</Button>
+      <fScale>0.5</fScale>
+      <fInterfaceScale>.55</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Afterworld_Boss/Afterworld_Boss.nif</NIF>
+      <KFM>Art/Units/Afterworld_Boss/Afterworld_Boss.kfm</KFM>
+      <SHADERNIF>Art/Units/Afterworld_Boss/Afterworld_Boss.nif</SHADERNIF>
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.05</fRangedDeathTime>
+      <bActAsRanged>1</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_GREAT_RACE_OF_YITH</Type>
+      <Button>Art/Interface/Buttons/Units/great_race_of_yith.dds</Button>
+      <fScale>0.75</fScale>
+      <fInterfaceScale>1</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/kraken/krake.nif</NIF>
+      <KFM>Art/Units/kraken/krake.kfm</KFM>
+      <SHADERNIF />
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/FrigateShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>0.25</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_SPIRAL_KING</Type>
+      <Button>Art/Interface/Buttons/Units/spiral_king.dds</Button>
+      <fScale>0.75</fScale>
+      <fInterfaceScale>0.5</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Floating_Eye/flyeye.nif</NIF>
+      <KFM>Art/Units/Floating_Eye/flyeye.kfm</KFM>
+      <SHADERNIF />
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>0.9</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_DEEPONE</Type>
+      <Button>Art/Interface/Buttons/Units/deepone.dds</Button>
+      <fScale>0.70</fScale>
+      <fInterfaceScale>0.5</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Afterworld_Bleeder_Aberrant/Rabid/Bleeder_Aberrant.nif</NIF>
+      <KFM>Art/Units/Afterworld_Bleeder_Aberrant/Bleeder_Aberrant.kfm</KFM>
+      <SHADERNIF>Art/Units/Afterworld_Bleeder_Aberrant/Rabid/Bleeder_Aberrant_FX.nif</SHADERNIF>
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.05</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_TANTIGATA_KIRAI</Type>
+      <Button>Art/Interface/Buttons/Units/OrbofSucellus.dds</Button>
+      <fScale>0.75</fScale>
+      <fInterfaceScale>1.4</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Orb_of_Sucellus/wolf.nif</NIF>
+      <KFM>Art/Units/Orb_of_Sucellus/wolf.kfm</KFM>
+      <SHADERNIF />
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_LANDFILLER</Type>
+      <Button>Art/Interface/Buttons/terraforming/terraform_landfill.dds</Button>
+      <fScale>0.4</fScale>
+      <fInterfaceScale>0.9</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Tanker/landfiller.nif</NIF>
+      <KFM>Art/Units/Transport/Transport.kfm</KFM>
+      <SHADERNIF />
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop>LOOPSTEP_TRANSPORT</AudioRunTypeLoop>
+        <AudioRunTypeEnd>ENDSTEP_TRANSPORT</AudioRunTypeEnd>
+      </AudioRunSounds>
+      <SelectionSound>AS3D_UN_WRK_BOAT_MOD_FORT</SelectionSound>
+      <ActionSound>AS3D_UN_WRK_BOAT_MOD_FORT</ActionSound>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_ICEBREAKER</Type>
+      <Button>Art/Interface/Buttons/terraforming/terraform_crushice.dds</Button>
+      <fScale>0.75</fScale>
+      <fInterfaceScale>0.5</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/Icebreaker/merchantship.nif</NIF>
+      <KFM>Art/Units/Transport/Transport.kfm</KFM>
+      <SHADERNIF />
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop>LOOPSTEP_TRANSPORT</AudioRunTypeLoop>
+        <AudioRunTypeEnd>ENDSTEP_TRANSPORT</AudioRunTypeEnd>
+      </AudioRunSounds>
+      <SelectionSound>AS3D_UN_WRK_BOAT_MOD_FORT</SelectionSound>
+      <ActionSound>AS3D_UN_WRK_BOAT_MOD_FORT</ActionSound>
+    </UnitArtInfo>
+    <UnitArtInfo>
+      <Type>ART_DEF_UNIT_OCEANIWORKER</Type>
+      <Button>Art/Interface/Buttons/terraforming/terraform_oceanization.dds</Button>
+      <fScale>0.44</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <bActAsLand>0</bActAsLand>
+      <bActAsAir>0</bActAsAir>
+      <NIF>Art/Units/heavyworker/heavy.nif</NIF>
+      <KFM>Art/Units/AntiTankInfantry/AntiTankInfantry.kfm</KFM>
+      <SHADERNIF>Art/Units/heavyworker/heavy.nif</SHADERNIF>
+      <ShadowDef>
+        <ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+        <ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+        <fShadowScale>1.0</fShadowScale>
+      </ShadowDef>
+      <fBattleDistance>0.35</fBattleDistance>
+      <fRangedDeathTime>0.31</fRangedDeathTime>
+      <bActAsRanged>0</bActAsRanged>
+      <TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+      <AudioRunSounds>
+        <AudioRunTypeLoop />
+        <AudioRunTypeEnd />
+      </AudioRunSounds>
     </UnitArtInfo>
     <UnitArtInfo>
       <Type>ART_DEF_UNIT_LION</Type>

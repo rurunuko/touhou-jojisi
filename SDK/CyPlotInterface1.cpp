@@ -173,9 +173,13 @@ void CyPlotPythonInterface1(python::class_<CyPlot>& x)
 		.def("isFlatlands", &CyPlot::isFlatlands, "bool ()")
 		.def("isHills", &CyPlot::isHills, "bool ()")
 		.def("isPeak", &CyPlot::isPeak, "bool ()")
+		//東方叙事詩・統合MOD追記
 		.def("setPlotType", &CyPlot::setPlotType, "void (PlotTypes eNewValue, bool bRecalculate, bool bRebuildGraphics)")
+		.def("setPlotTypeWithoutUnitErase", &CyPlot::setPlotTypeWithoutUnitErase, "void (PlotTypes eNewValue, bool bRecalculate, bool bRebuildGraphics)")
 		.def("getTerrainType", &CyPlot::getTerrainType, "int ()")
+		//東方叙事詩・統合MOD追記
 		.def("setTerrainType", &CyPlot::setTerrainType, "void (TerrainTypes eNewValue, bool bRecalculate, bool bRebuildGraphics)")
+		.def("setTerrainTypeWithoutUnitErase", &CyPlot::setTerrainTypeWithoutUnitErase, "void (TerrainTypes eNewValue, bool bRecalculate, bool bRebuildGraphics)")
 		.def("getFeatureType", &CyPlot::getFeatureType, "int ()")
 		.def("setFeatureType", &CyPlot::setFeatureType, "void (int /*FeatureTypes*/ eNewValue, int iVariety)")
 		.def("setFeatureDummyVisibility", &CyPlot::setFeatureDummyVisibility, "void (string dummyTag, bool show)")
