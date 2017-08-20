@@ -2175,7 +2175,9 @@ public:
 	// Arrays
 
 	DllExport int getCivilizationBuildings(int i) const;				// Exposed to Python
+	DllExport void setCivilizationBuildings(int i, int v);				// Exposed to Python
 	DllExport int getCivilizationUnits(int i) const;				// Exposed to Python
+	DllExport void setCivilizationUnits(int i, int v);				// Exposed to Python
 	DllExport int getCivilizationFreeUnitsClass(int i) const;				// Exposed to Python
 	DllExport int getCivilizationInitialCivics(int i) const;				// Exposed to Python
 

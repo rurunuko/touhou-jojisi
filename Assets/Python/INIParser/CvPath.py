@@ -96,8 +96,6 @@ def _getUserDir():
 
 def _getInstallDir():
 	installPath = os.getcwd()
-	if (installPath.find(r"\steamapps")):
-		return os.path.join(installPath, "Beyond the Sword")
 	#print installPath
 	if (installPath.find("CYBERFRONT")):
 		szReg = r"Software\CYBERFRONT\Sid Meier's Civilization 4(J) - Beyond the Sword"

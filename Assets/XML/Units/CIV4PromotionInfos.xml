@@ -5917,9 +5917,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>NONE</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT3</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_MEDICINE</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -6787,7 +6787,7 @@
       <bShiftDown>0</bShiftDown>
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
-      <Button>,Art/Interface/Buttons/Promotions/Combat5.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,7,16</Button>
+      <Button>Art/Interface/Buttons/Promotions/RUNNINGFIRE.dds</Button>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_HUKUZITEKI_SONGAI</Type>
@@ -7823,7 +7823,7 @@
       <PromotionPrereq>NONE</PromotionPrereq>
       <PromotionPrereqOr1>PROMOTION_TOHO_DRILL4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>TECH_RIFLING</TechPrereq>
+      <TechPrereq>TECH_STEAM_POWER</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -11939,6 +11939,414 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/raiko_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_YORIHIME</Type>
+      <Description>TXT_KEY_PROMOTION_CHARACTER_MARK_YORIHIME</Description>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>TECH_DUMMY</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats>
+        <UnitCombat>
+          <UnitCombatType>UNITCOMBAT_BOSS</UnitCombatType>
+          <bUnitCombat>1</bUnitCombat>
+        </UnitCombat>
+      </UnitCombats>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Units/yorihime_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_TOYOHIME</Type>
+      <Description>TXT_KEY_PROMOTION_CHARACTER_MARK_TOYOHIME</Description>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>TECH_DUMMY</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats>
+        <UnitCombat>
+          <UnitCombatType>UNITCOMBAT_BOSS</UnitCombatType>
+          <bUnitCombat>1</bUnitCombat>
+        </UnitCombat>
+      </UnitCombats>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Units/toyohime_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_SEIRAN</Type>
+      <Description>TXT_KEY_PROMOTION_CHARACTER_MARK_SEIRAN</Description>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>TECH_DUMMY</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats>
+        <UnitCombat>
+          <UnitCombatType>UNITCOMBAT_BOSS</UnitCombatType>
+          <bUnitCombat>1</bUnitCombat>
+        </UnitCombat>
+      </UnitCombats>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Units/seiran_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_RINGO</Type>
+      <Description>TXT_KEY_PROMOTION_CHARACTER_MARK_RINGO</Description>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>TECH_DUMMY</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats>
+        <UnitCombat>
+          <UnitCombatType>UNITCOMBAT_BOSS</UnitCombatType>
+          <bUnitCombat>1</bUnitCombat>
+        </UnitCombat>
+      </UnitCombats>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Units/ringo_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_DOREMY</Type>
+      <Description>TXT_KEY_PROMOTION_CHARACTER_MARK_DOREMY</Description>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>TECH_DUMMY</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats>
+        <UnitCombat>
+          <UnitCombatType>UNITCOMBAT_BOSS</UnitCombatType>
+          <bUnitCombat>1</bUnitCombat>
+        </UnitCombat>
+      </UnitCombats>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Units/doremy_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_SAGUME</Type>
+      <Description>TXT_KEY_PROMOTION_CHARACTER_MARK_SAGUME</Description>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>TECH_DUMMY</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats>
+        <UnitCombat>
+          <UnitCombatType>UNITCOMBAT_BOSS</UnitCombatType>
+          <bUnitCombat>1</bUnitCombat>
+        </UnitCombat>
+      </UnitCombats>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Units/sagume_button.dds</Button>
       <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
@@ -19860,6 +20268,765 @@
       <Button>Art/Interface/Buttons/Units/raiko_button.dds</Button>
     </PromotionInfo>
     <PromotionInfo>
+      <Type>PROMOTION_YATANOKAGAMI_TURN1</Type>
+      <Description>TXT_KEY_PROMOTION_YATANOKAGAMI</Description>
+      <Help>TXT_KEY_PROMOTION_YATANOKAGAMI_TURN1_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>TECH_DUMMY</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Promotions/yatanokagami.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_YATANOKAGAMI_TURN2</Type>
+      <Description>TXT_KEY_PROMOTION_YATANOKAGAMI</Description>
+      <Help>TXT_KEY_PROMOTION_YATANOKAGAMI_TURN2_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>TECH_DUMMY</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Promotions/yatanokagami.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_YATANOKAGAMI_TURN3</Type>
+      <Description>TXT_KEY_PROMOTION_YATANOKAGAMI</Description>
+      <Help>TXT_KEY_PROMOTION_YATANOKAGAMI_TURN3_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>TECH_DUMMY</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Promotions/yatanokagami.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_LUNATICGUN_LV1</Type>
+      <Description>TXT_KEY_PROMOTION_LUNATICGUN</Description>
+      <Help>TXT_KEY_PROMOTION_LUNATICGUN_LV1_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>NONE</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>1</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Promotions/lunatic_gun.dds</Button>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_LUNATICGUN_LV2_TURN1</Type>
+      <Description>TXT_KEY_PROMOTION_LUNATICGUN</Description>
+      <Help>TXT_KEY_PROMOTION_LUNATICGUN_LV2_TURN1_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>NONE</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>2</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Promotions/lunatic_gun.dds</Button>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_LUNATICGUN_LV2_TURN2</Type>
+      <Description>TXT_KEY_PROMOTION_LUNATICGUN</Description>
+      <Help>TXT_KEY_PROMOTION_LUNATICGUN_LV2_TURN2_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>NONE</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>2</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Promotions/lunatic_gun.dds</Button>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_LUNATICGUN_LV3_TURN1</Type>
+      <Description>TXT_KEY_PROMOTION_LUNATICGUN</Description>
+      <Help>TXT_KEY_PROMOTION_LUNATICGUN_LV3_TURN1_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>NONE</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>3</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Promotions/lunatic_gun.dds</Button>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_LUNATICGUN_LV3_TURN2</Type>
+      <Description>TXT_KEY_PROMOTION_LUNATICGUN</Description>
+      <Help>TXT_KEY_PROMOTION_LUNATICGUN_LV3_TURN2_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>NONE</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>3</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Promotions/lunatic_gun.dds</Button>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_LUNATICGUN_LV3_TURN3</Type>
+      <Description>TXT_KEY_PROMOTION_LUNATICGUN</Description>
+      <Help>TXT_KEY_PROMOTION_LUNATICGUN_LV3_TURN3_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>NONE</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>3</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Promotions/lunatic_gun.dds</Button>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_SPEED_STRIKE</Type>
+      <Description>TXT_KEY_PROMOTION_SPEED_STRIKE</Description>
+      <Help>TXT_KEY_PROMOTION_SPEED_STRIKE_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>NONE</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>1</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>1</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Promotions/speed_strike.dds</Button>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_HALLOWEEN_FEVER</Type>
+      <Description>TXT_KEY_PROMOTION_HALLOWEEN_FEVER</Description>
+      <Help>TXT_KEY_PROMOTION_HALLOWEEN_FEVER_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>NONE</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Promotions/ringo_promotion_1.dds</Button>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_DANGO_FEVER</Type>
+      <Description>TXT_KEY_PROMOTION_DANGO_FEVER</Description>
+      <Help>TXT_KEY_PROMOTION_DANGO_FEVER_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>NONE</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Promotions/ringo_promotion_2.dds</Button>
+    </PromotionInfo>
+    <PromotionInfo>
       <Type>PROMOTION_REDUFO</Type>
       <Description>TXT_KEY_PROMOTION_REDUFO</Description>
       <Sound>AS2D_IF_LEVELUP</Sound>
@@ -20638,15 +21805,267 @@
       <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
+      <Type>PROMOTION_CTHULHU_FAMILY</Type>
+      <Description>TXT_KEY_PROMOTION_CTHULHU_FAMILY</Description>
+      <Help>TXT_KEY_PROMOTION_CTHULHU_FAMILY_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>NONE</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>1</bAmphib>
+      <bRiver>1</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Civics/faith_cthulhu.dds</Button>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_INCLUSION</Type>
+      <Description>TXT_KEY_PROMOTION_INCLUSION</Description>
+      <Help>TXT_KEY_PROMOTION_INCLUSION_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>NONE</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Units/shub-niggurath.dds</Button>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_JIBAKU</Type>
+      <Description>TXT_KEY_PROMOTION_JIBAKU</Description>
+      <Help>TXT_KEY_PROMOTION_JIBAKU_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>NONE</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Promotions/jibaku.dds</Button>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_DOREMY_YUMEOTI</Type>
+      <Description>TXT_KEY_PROMOTION_DOREMY_YUMEOTI</Description>
+      <Help>TXT_KEY_PROMOTION_DOREMY_YUMEOTI_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>NONE</PromotionPrereq>
+      <PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>NONE</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats />
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Units/doremy_button.dds</Button>
+    </PromotionInfo>
+    <PromotionInfo>
       <Type>PROMOTION_SANAE_SKILL1</Type>
       <Description>TXT_KEY_PROMOTION_SANAE_SKILL1</Description>
       <Help>TXT_KEY_PROMOTION_SANAE_SKILL1_HELP</Help>
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_SANAE</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -20709,6 +22128,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/SANAE_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_REMILIA_SKILL1</Type>
@@ -20717,9 +22137,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_REMILIA</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -20777,6 +22197,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/REMILIA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_CHEN_SKILL1</Type>
@@ -20785,9 +22206,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_CHEN</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -20845,6 +22266,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/CHEN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_WRIGGLE_SKILL1</Type>
@@ -20853,9 +22275,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_WRIGGLE</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -20913,6 +22335,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/WRIGGLE_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_TEWI_SKILL1</Type>
@@ -20921,9 +22344,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_TEWI</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -20981,6 +22404,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/TEWI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_NITORI_SKILL1</Type>
@@ -20989,9 +22413,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_NITORI</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -21049,6 +22473,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/NITORI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MARISA_SKILL1</Type>
@@ -21057,9 +22482,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_MARISA</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -21117,6 +22542,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MARISA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FLAN_SKILL1</Type>
@@ -21125,9 +22551,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_FLAN</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -21185,6 +22611,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/FLAN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_YOUMU_SKILL1</Type>
@@ -21193,9 +22620,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_YOUMU</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -21253,6 +22680,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/YOUMU_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_CIRNO_SKILL1</Type>
@@ -21261,9 +22689,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_CIRNO</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -21321,6 +22749,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/CIRNO_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_EIRIN_SKILL1</Type>
@@ -21329,9 +22758,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_EIRIN</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -21389,6 +22818,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/EIRIN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SUWAKO_SKILL1</Type>
@@ -21397,9 +22827,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_SUWAKO</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -21457,6 +22887,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/SUWAKO_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_ALICE_SKILL1</Type>
@@ -21465,9 +22896,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_ALICE</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -21525,6 +22956,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/ALICE_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MOKOU_SKILL1</Type>
@@ -21533,9 +22965,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_MOKOU</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -21593,6 +23025,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MOKOU_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KEINE_SKILL1</Type>
@@ -21601,9 +23034,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_KEINE</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -21661,6 +23094,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/KEINE_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_PARSEE_SKILL1</Type>
@@ -21669,9 +23103,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_PARSEE</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -21729,6 +23163,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/PARSEE_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_YUGI_SKILL1</Type>
@@ -21737,9 +23172,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_YUGI</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -21802,6 +23237,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/YUGI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SAKUYA_SKILL1</Type>
@@ -21810,9 +23246,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_SAKUYA</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -21870,6 +23306,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/SAKUYA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_YUYUKO_SKILL1</Type>
@@ -21878,9 +23315,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_YUYUKO</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -21938,6 +23375,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/YUYUKO_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_RUMIA_SKILL1</Type>
@@ -21946,9 +23384,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_RUMIA</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -22006,6 +23444,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/RUMIA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MEDICIN_SKILL1</Type>
@@ -22014,9 +23453,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_MEDICIN</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -22074,6 +23513,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MEDICIN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KANAKO_SKILL1</Type>
@@ -22082,9 +23522,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_KANAKO</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -22142,6 +23582,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/KANAKO_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_REIMU_SKILL1</Type>
@@ -22150,9 +23591,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_REIMU</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -22215,6 +23656,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/REIMU_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_YUKA_SKILL1</Type>
@@ -22223,9 +23665,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_YUKA</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -22283,6 +23725,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/YUKA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KOISHI_SKILL1</Type>
@@ -22291,9 +23734,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_KOISHI</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -22351,6 +23794,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/KOISHI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_PATCHOULI_SKILL1</Type>
@@ -22359,9 +23803,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_PATCHOULI</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -22419,6 +23863,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/PATCHOULI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_RAN_SKILL1</Type>
@@ -22427,9 +23872,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_RAN</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -22512,6 +23957,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/RAN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_REISEN_SKILL1</Type>
@@ -22520,9 +23966,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_REISEN</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -22580,6 +24026,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/REISEN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_IKU_SKILL1</Type>
@@ -22588,9 +24035,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_IKU</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -22648,6 +24095,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/IKU_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SATORI_SKILL1</Type>
@@ -22656,9 +24104,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_SATORI</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -22716,6 +24164,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/SATORI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MYSTIA_SKILL1</Type>
@@ -22724,9 +24173,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_MYSTIA</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -22784,6 +24233,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MYSTIA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SUIKA_SKILL1</Type>
@@ -22792,9 +24242,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_SUIKA</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -22852,6 +24302,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/SUIKA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KOMACHI_SKILL1</Type>
@@ -22860,9 +24311,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_KOMACHI</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -22920,6 +24371,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/KOMACHI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MEIRIN_SKILL1</Type>
@@ -22928,9 +24380,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_MEIRIN</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -22988,6 +24440,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MEIRIN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_YUKARI_SKILL1</Type>
@@ -22996,9 +24449,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_YUKARI</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -23056,6 +24509,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/YUKARI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KAGUYA_SKILL1</Type>
@@ -23064,9 +24518,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_KAGUYA</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -23124,6 +24578,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/KAGUYA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_TENSHI_SKILL1</Type>
@@ -23132,9 +24587,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_TENSHI</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -23192,6 +24647,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/TENSHI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_RIN_SKILL1</Type>
@@ -23200,9 +24656,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_RIN</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -23260,6 +24716,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/RIN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_LETTY_SKILL1</Type>
@@ -23268,9 +24725,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_LETTY</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -23328,6 +24785,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/LETTY_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MIMA_SKILL1</Type>
@@ -23336,9 +24794,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_MIMA</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -23396,6 +24854,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MIMA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_EIKI_SKILL1</Type>
@@ -23404,9 +24863,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_EIKI</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -23497,6 +24956,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/EIKI_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_NAZRIN_SKILL1</Type>
@@ -23505,9 +24965,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_NAZRIN</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -23565,6 +25025,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/NAZRIN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_KOGASA_SKILL1</Type>
@@ -23573,9 +25034,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_KOGASA</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>1</bBlitz>
@@ -23633,6 +25094,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/KOGASA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_ICHIRIN_SKILL1</Type>
@@ -23641,9 +25103,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_ICHIRIN</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -23701,6 +25163,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/ICHIRIN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MINAMITSU_SKILL1</Type>
@@ -23709,9 +25172,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_MINAMITSU</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -23769,6 +25232,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MINAMITSU_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SYOU_SKILL1</Type>
@@ -23777,9 +25241,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_SYOU</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -23837,6 +25301,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/SYOU_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_BYAKUREN_SKILL1</Type>
@@ -23845,9 +25310,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_BYAKUREN</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -23905,6 +25370,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/BYAKUREN_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_NUE_SKILL1</Type>
@@ -23913,9 +25379,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_NUE</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -24002,6 +25468,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/NUE_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_YOSHIKA_SKILL1</Type>
@@ -24010,9 +25477,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_YOSHIKA</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -24070,6 +25537,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/YOSHIKA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SEIGA_SKILL1</Type>
@@ -24078,9 +25546,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_SEIGA</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -24138,6 +25606,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/SEIGA_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_TOJIKO_SKILL1</Type>
@@ -24146,9 +25615,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_TOJIKO</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -24206,6 +25675,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/TOJIKO_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_FUTO_SKILL1</Type>
@@ -24214,9 +25684,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_FUTO</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -24279,6 +25749,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/FUTO_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_MIMIMIKO_SKILL1</Type>
@@ -24287,9 +25758,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_MIMIMIKO</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -24347,6 +25818,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/MIMIMIKO_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_YATUHASHI_SKILL1</Type>
@@ -24355,9 +25827,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_YATUHASHI</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -24415,6 +25887,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/yatuhashi_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_BENBEN_SKILL1</Type>
@@ -24422,9 +25895,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_BENBEN</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -24482,6 +25955,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/benben_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SEIJA_SKILL1</Type>
@@ -24489,9 +25963,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_SEIJA</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -24582,6 +26056,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/seija_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_SHINMYOUMARU_SKILL1</Type>
@@ -24589,9 +26064,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_SHINMYOUMARU</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -24649,6 +26124,7 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/shinmyoumaru_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_RAIKO_SKILL1</Type>
@@ -24657,9 +26133,9 @@
       <Sound>AS2D_IF_LEVELUP</Sound>
       <LayerAnimationPath>NONE</LayerAnimationPath>
       <PromotionPrereq>PROMOTION_RAIKO</PromotionPrereq>
-      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT5</PromotionPrereqOr1>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
       <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-      <TechPrereq>NONE</TechPrereq>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
       <StateReligionPrereq>NONE</StateReligionPrereq>
       <bLeader>0</bLeader>
       <bBlitz>0</bBlitz>
@@ -24717,6 +26193,421 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>0</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Units/raiko_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_YORIHIME_SKILL1</Type>
+      <Description>TXT_KEY_PROMOTION_YORIHIME_SKILL1</Description>
+      <Help>TXT_KEY_PROMOTION_YORIHIME_SKILL1_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>PROMOTION_YORIHIME</PromotionPrereq>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>10</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats>
+        <UnitCombat>
+          <UnitCombatType>UNITCOMBAT_BOSS</UnitCombatType>
+          <bUnitCombat>1</bUnitCombat>
+        </UnitCombat>
+      </UnitCombats>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Units/yorihime_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_TOYOHIME_SKILL1</Type>
+      <Description>TXT_KEY_PROMOTION_TOYOHIME_SKILL1</Description>
+      <Help>TXT_KEY_PROMOTION_TOYOHIME_SKILL1_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>PROMOTION_TOYOHIME</PromotionPrereq>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>1</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats>
+        <UnitCombat>
+          <UnitCombatType>UNITCOMBAT_BOSS</UnitCombatType>
+          <bUnitCombat>1</bUnitCombat>
+        </UnitCombat>
+      </UnitCombats>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Units/toyohime_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_SEIRAN_SKILL1</Type>
+      <Description>TXT_KEY_PROMOTION_SEIRAN_SKILL1</Description>
+      <Help>TXT_KEY_PROMOTION_SEIRAN_SKILL1_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>PROMOTION_SEIRAN</PromotionPrereq>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>50</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>2</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats>
+        <UnitCombat>
+          <UnitCombatType>UNITCOMBAT_BOSS</UnitCombatType>
+          <bUnitCombat>1</bUnitCombat>
+        </UnitCombat>
+      </UnitCombats>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Units/seiran_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_RINGO_SKILL1</Type>
+      <Description>TXT_KEY_PROMOTION_RINGO_SKILL1</Description>
+      <Help>TXT_KEY_PROMOTION_RINGO_SKILL1_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>PROMOTION_RINGO</PromotionPrereq>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>2</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats>
+        <UnitCombat>
+          <UnitCombatType>UNITCOMBAT_BOSS</UnitCombatType>
+          <bUnitCombat>1</bUnitCombat>
+        </UnitCombat>
+      </UnitCombats>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Units/ringo_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_DOREMY_SKILL1</Type>
+      <Description>TXT_KEY_PROMOTION_DOREMY_SKILL1</Description>
+      <Help>TXT_KEY_PROMOTION_DOREMY_SKILL1_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>PROMOTION_DOREMY</PromotionPrereq>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats>
+        <UnitCombat>
+          <UnitCombatType>UNITCOMBAT_BOSS</UnitCombatType>
+          <bUnitCombat>1</bUnitCombat>
+        </UnitCombat>
+      </UnitCombats>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Units/doremy_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
+    </PromotionInfo>
+    <PromotionInfo>
+      <Type>PROMOTION_SAGUME_SKILL1</Type>
+      <Description>TXT_KEY_PROMOTION_SAGUME_SKILL1</Description>
+      <Help>TXT_KEY_PROMOTION_SAGUME_SKILL1_HELP</Help>
+      <Sound>AS2D_IF_LEVELUP</Sound>
+      <LayerAnimationPath>NONE</LayerAnimationPath>
+      <PromotionPrereq>PROMOTION_SAGUME</PromotionPrereq>
+      <PromotionPrereqOr1>PROMOTION_TOHO_COMBAT4</PromotionPrereqOr1>
+      <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+      <TechPrereq>TECH_SHOOTING_TECHNIQUE3</TechPrereq>
+      <StateReligionPrereq>NONE</StateReligionPrereq>
+      <bLeader>0</bLeader>
+      <bBlitz>0</bBlitz>
+      <bAmphib>0</bAmphib>
+      <bRiver>0</bRiver>
+      <bEnemyRoute>0</bEnemyRoute>
+      <bAlwaysHeal>0</bAlwaysHeal>
+      <bHillsDoubleMove>0</bHillsDoubleMove>
+      <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+      <iVisibilityChange>0</iVisibilityChange>
+      <iMovesChange>0</iMovesChange>
+      <iMoveDiscountChange>0</iMoveDiscountChange>
+      <iAirRangeChange>0</iAirRangeChange>
+      <iInterceptChange>0</iInterceptChange>
+      <iEvasionChange>0</iEvasionChange>
+      <iWithdrawalChange>0</iWithdrawalChange>
+      <iCargoChange>0</iCargoChange>
+      <iCollateralDamageChange>0</iCollateralDamageChange>
+      <iBombardRateChange>0</iBombardRateChange>
+      <iFirstStrikesChange>0</iFirstStrikesChange>
+      <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+      <iEnemyHealChange>0</iEnemyHealChange>
+      <iNeutralHealChange>0</iNeutralHealChange>
+      <iFriendlyHealChange>0</iFriendlyHealChange>
+      <iSameTileHealChange>0</iSameTileHealChange>
+      <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+      <iCombatPercent>0</iCombatPercent>
+      <iCityAttack>0</iCityAttack>
+      <iCityDefense>0</iCityDefense>
+      <iHillsAttack>0</iHillsAttack>
+      <iHillsDefense>0</iHillsDefense>
+      <iKamikazePercent>0</iKamikazePercent>
+      <iRevoltProtection>0</iRevoltProtection>
+      <iCollateralDamageProtection>0</iCollateralDamageProtection>
+      <iPillageChange>0</iPillageChange>
+      <iUpgradeDiscount>0</iUpgradeDiscount>
+      <iExperiencePercent>0</iExperiencePercent>
+      <TerrainAttacks />
+      <TerrainDefenses />
+      <FeatureAttacks />
+      <FeatureDefenses />
+      <UnitCombatMods />
+      <DomainMods />
+      <TerrainDoubleMoves />
+      <FeatureDoubleMoves />
+      <UnitCombats>
+        <UnitCombat>
+          <UnitCombatType>UNITCOMBAT_BOSS</UnitCombatType>
+          <bUnitCombat>1</bUnitCombat>
+        </UnitCombat>
+      </UnitCombats>
+      <HotKey />
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Units/sagume_button.dds</Button>
+      <bGraphicalOnly>1</bGraphicalOnly>
     </PromotionInfo>
     <PromotionInfo>
       <Type>PROMOTION_TEMP_STACK_BONUS</Type>
@@ -25399,7 +27290,7 @@
       <bHillsDoubleMove>0</bHillsDoubleMove>
       <bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
       <iVisibilityChange>0</iVisibilityChange>
-      <iMovesChange>0</iMovesChange>
+      <iMovesChange>-5</iMovesChange>
       <iMoveDiscountChange>0</iMoveDiscountChange>
       <iAirRangeChange>0</iAirRangeChange>
       <iInterceptChange>0</iInterceptChange>

@@ -31,13 +31,6 @@ import CvWonderMovieScreen
 import CvEraMovieScreen
 import CvSpaceShipScreen
 
-import CvPediaMain
-import CvPediaHistory
-
-##### <written by F> #####
-import CvPediaTohoUnit
-##### </written by F> #####
-
 import CvWorldBuilderScreen
 import CvWorldBuilderDiplomacyScreen
 
@@ -218,7 +211,6 @@ def showGreatPersonScreen(argsList):
 ## Platypedia ##
 pediaMainScreen = PlatyPediaMain.CvPediaMain()
 ## Platypedia ##
-#pediaMainScreen = CvPediaMain.CvPediaMain()
 def linkToPedia(argsList):
 	pediaMainScreen.link(argsList[0])
 		

@@ -29,9 +29,11 @@ import PlatyPediaGameInfo
 import PlatyPediaMovie
 import PlatyPediaTechTree
 import PlatyPediaBuildingChart
+import PlatyPediaCredits
 #東方叙事詩統合MOD追記
 import CvPediaTohoUnitonplatypedia
 import CvGameUtils
+import re
 #東方叙事詩統合MOD追記ここまで
 
 #現状まだまだ仮組み段階、というかまともに動かない
@@ -74,6 +76,7 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		self.PLATYPEDIA_HINTS		= self.PLATYPEDIA_GAMEOPTION + 1
 		self.PLATYPEDIA_INDEX		= self.PLATYPEDIA_HINTS + 1
 		self.PLATYPEDIA_MOVIE		= self.PLATYPEDIA_INDEX + 1
+		self.PLATYPEDIA_CREDIT		= self.PLATYPEDIA_MOVIE + 1
 
 		self.lAdvisors = 		["TXT_KEY_ADVISOR_MILITARY", "TXT_KEY_ADVISOR_RELIGION", "TXT_KEY_ADVISOR_ECONOMY",
 						"TXT_KEY_ADVISOR_SCIENCE", "TXT_KEY_ADVISOR_CULTURE", "TXT_KEY_ADVISOR_GROWTH"]
@@ -134,6 +137,7 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 			self.PLATYPEDIA_GAMEOPTION	: self.placeGameOptions,
 			self.PLATYPEDIA_B_CHART		: self.placeBuildingChart,
 			self.PLATYPEDIA_TREE		: self.placeUpgradeTree,
+			self.PLATYPEDIA_CREDIT		: self.placeCredits,
 			#東方叙事詩統合MOD追記
 			self.PLATYPEDIA_TOHOUNIT	: self.placeTohoUnits,
 			#東方叙事詩統合MOD追記ここまで
@@ -295,11 +299,12 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 					CyTranslator().getText(self.sCorporationIcon, ()) + CyTranslator().getText("TXT_KEY_CONCEPT_CORPORATIONS", ()),
 					CyTranslator().getText(self.sCivicIcon, ()) + CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_CIVIC", ()),
 					CyTranslator().getText(self.sGameInfoIcon, ()) + CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_GAME_INFO", ()),
-					CyTranslator().getText(self.sHelpIcon, ()) + CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_CONCEPT", ()),
+					CyTranslator().getText(self.sHelpIcon, ()) + CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_JOJISI_CONCEPT", ()),
 					CyTranslator().getText(self.sHelpIcon, ()) + CyTranslator().getText("TXT_KEY_PITBOSS_GAME_OPTIONS", ()),
 					CyTranslator().getText(self.sHelpIcon, ()) + CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_HINTS", ()),
 					CyTranslator().getText(self.sIndexIcon, ()) + CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_INDEX", ()),
-					CyTranslator().getText(self.sMovieIcon, ()) + CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_MOVIES", ())]
+					CyTranslator().getText(self.sMovieIcon, ()) + CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_MOVIES", ()),
+					CyTranslator().getText(self.sHelpIcon, ()) + CyTranslator().getText("TXT_KEY_PEDIA_CREDITS", ())]
 
 		screen = self.getScreen()
 		screen.setRenderInterfaceOnly(True);
@@ -1005,6 +1010,10 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 					iCount += 1
 		self.iExtraRow = 0
 
+	def placeCredits(self):
+		screen = self.getScreen()
+		PlatyPediaCredits.CvPediaCredits(self).interfaceScreen()
+
 	def getNextWidgetName(self):
 		szName = "PediaMainWidget" + str(self.nWidgetCount)
 		self.nWidgetCount += 1
@@ -1179,11 +1188,18 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 			if gc.getWorldInfo(i).isMatchForLink(szLink, False):
 				return self.pediaJump(self.PLATYPEDIA_GAME_INFO, 6797 * 10000 + i, True)
 		#東方叙事詩統合MOD追記
-#		if (szLink == "PEDIA_MAIN_TOHOUNIT"):
-#			return self.pediaJump(CvScreenEnums.PEDIA_MAIN, int(CivilopediaPageTypes.CIVILOPEDIA_PAGE_TOHOUNIT), True)	
-		for i in range(gc.getNumUnitInfos()):
-			if (gc.getUnitInfo(i).isMatchForLink(szLink, False)):
-				return self.pediaJump(CvScreenEnums.PEDIA_TOHOUNIT, i, True)
+		
+		### うゎぁきちゃない
+		m = re.compile("^TOHOUNIT_")
+		if ( m.match(szLink) ):
+			link = m.sub("", szLink)
+			for i in xrange(gc.getNumUnitInfos()):
+				if gc.getUnitInfo(i).isMatchForLink(link, False):
+					return self.pediaJump(CvScreenEnums.PEDIA_TOHOUNIT, i, True)
+		# for i in range(gc.getNumUnitInfos()):
+		# 	if (gc.getUnitInfo(i).isMatchForLink(szLink, False)):
+		# 		CvGameUtils.doprint("szLink=" + szLink)
+		# 		return self.pediaJump(CvScreenEnums.PEDIA_TOHOUNIT, i, True)
 
 		#東方叙事詩統合MOD追記ここまで
 		
@@ -1747,6 +1763,17 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_SEIJA1') or
 					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_SHINMYOUMARU1') or
 					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_RAIKO1') ):
+						lTemp.append(item)
+			#月の都
+			for item in lItems:
+				ItemInfo = gc.getUnitInfo(item[1])
+				if ItemInfo.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+					if (ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_YORIHIME1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_TOYOHIME1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_SEIRAN1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_RINGO1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_DOREMY1') or
+					ItemInfo.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_SAGUME1') ):
 						lTemp.append(item)
 			if lTemp:
 				lSorted.append(["", "", lTemp])
@@ -2770,7 +2797,7 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 			lItems.append([ItemInfo.getDescription(), iItem, ""])
 		if not lItems: return lSorted
 		lItems.sort()
-		lSorted.append([CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_CONCEPT", ()), "", lItems])
+		lSorted.append([CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_JOJISI_STRATEGY", ()), "", lItems])
 		return lSorted
 
 	def sortNewConcepts(self):
@@ -2782,7 +2809,7 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 			lItems.append([ItemInfo.getDescription(), iItem, ""])
 		if not lItems: return lSorted
 		lItems.sort()
-		lSorted.append([CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_CONCEPT_NEW", ()), "", lItems])
+		lSorted.append([CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_JOJISI_CONCEPT_2", ()), "", lItems])
 		return lSorted
 
 	def sortVictories(self):

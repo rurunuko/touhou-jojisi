@@ -22,6 +22,8 @@
 
 //東方叙事詩用
 #include <math.h>
+#include <locale.h>
+#include "CyUnit.h"
 
 CvDLLWidgetData* CvDLLWidgetData::m_pInst = NULL;
 
@@ -1978,6 +1980,89 @@ void CvDLLWidgetData::parseConscriptHelp(CvWidgetDataStruct &widgetDataStruct, C
 	}
 }
 
+// for 東方叙事詩・統合17.06
+// スペル説明の[***]や{***}を解釈する
+// parseActionHelp()が長すぎてつらたんなので
+// 別個にフリー関数に切り出す
+namespace{
+using std::wstring;
+
+void parseSpellActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer)
+{
+	int eAutomate = GC.getActionInfo(widgetDataStruct.m_iData1).getAutomateType();
+
+	CvWStringBuffer cvbuf;
+	const wchar_t *szwstr = szBuffer.getCString();
+	const wchar_t *prev_code_end = szwstr, *p;
+	for(p = szwstr; *p != L'\0'; ++p)
+	{
+		if(*p == L'[')
+		{
+			const wchar_t *code_begin = ++p;
+			while( iswalnum(*p) ) p++; // 英数字であればよし
+			if( p - code_begin > 10 || *p != L']') continue; // 中の文字数も1-10文字で自由
+
+			wstring code(code_begin, p);
+			wstring pre(prev_code_end, code_begin);
+			cvbuf.append(pre);
+
+			CvString mbs(code);
+			CvUnit *pHeadSelectedUnit = gDLL->getInterfaceIFace()->getHeadSelectedUnit();
+			int cal = pHeadSelectedUnit->countCardAttackLevel();
+
+			//Pythonにぶんなげる
+			CyArgsList argsList;
+			argsList.add(mbs.c_str());
+			CyUnit *pyUnit = new CyUnit(pHeadSelectedUnit);
+			argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));
+			argsList.add(cal);
+			argsList.add(eAutomate);
+			long splong = 0l;
+			gDLL->getPythonIFace()->callFunction("SpellInterface", "getTextToSpellInt", argsList.makeFunctionArgs(), &splong);
+
+			CvWString out;
+			out.Format(L"%ld", splong);
+			cvbuf.append(out);
+			prev_code_end = p;
+		}
+
+		if(*p == L'{')
+		{
+			const wchar_t *code_begin = ++p;
+			while( iswalnum(*p) ) p++; // 英数字であればよし
+			if( p - code_begin > 10 || *p != L'}') continue; // 中の文字数も1-10文字で自由
+
+			wstring code(code_begin, p);
+			wstring pre(prev_code_end, code_begin-1);
+			cvbuf.append(pre);
+
+			CvString mbs(code);
+			CvUnit *pHeadSelectedUnit = gDLL->getInterfaceIFace()->getHeadSelectedUnit();
+			int cal = pHeadSelectedUnit->countCardAttackLevel();
+
+			//Pythonにぶんなげる
+			CyArgsList argsList;
+			argsList.add(mbs.c_str());
+			CyUnit *pyUnit = new CyUnit(pHeadSelectedUnit);
+			argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));
+			argsList.add(cal);
+			argsList.add(eAutomate);
+			CvWString spwstr;
+			gDLL->getPythonIFace()->callFunction("SpellInterface", "getTextToSpellText", argsList.makeFunctionArgs(), &spwstr);
+
+			cvbuf.append(spwstr);
+			prev_code_end = ++p;
+		}
+	}
+	wstring suf(prev_code_end, p);
+	cvbuf.append(suf);
+
+	szBuffer.assign(cvbuf.getCString());
+}
+}
+
+// 本体
+
 
 void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer)
 {
@@ -3035,66 +3120,8 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 				szBuffer.append(CvWString::format(L"%s%s", NEWLINE, GC.getAutomateInfo((ControlTypes)(GC.getActionInfo(widgetDataStruct.m_iData1).getAutomateType())).getHelp()).c_str());
 			
 				//東方叙事詩用
-				//テキスト中の[***]を置換する
-
-				wchar* tempBuf = szBuffer.getCString_jojisi();
-				for (int i=0;i<szBuffer.getLength()-5;i++){
-                    if(tempBuf[i] == L'[' && tempBuf[i+4] == L']'){
-                        wchar* endstr;
-                        int CALcode = wcstol(&tempBuf[i+1],&endstr,10);
-                        int output = pHeadSelectedUnit->countCardAttackLevel();
-
-                        char tempBuf2[5] = "";
-
-                        for (int j=0;j<3;j++){
-                            if (tempBuf[i+1+j] == L's'){
-                                tempBuf2[j] = 's';
-                            }else if (tempBuf[i+1+j] == L'z'){
-                                tempBuf2[j] = 'z';
-                            }else if (tempBuf[i+1+j] == L'w'){
-                                tempBuf2[j] = 'w';
-                            }else if (tempBuf[i+1+j] == L'1'){
-                                tempBuf2[j] = '1';
-                            }else if (tempBuf[i+1+j] == L'2'){
-                                tempBuf2[j] = '2';
-                            }else if (tempBuf[i+1+j] == L'3'){
-                                tempBuf2[j] = '3';
-                            }else if (tempBuf[i+1+j] == L'4'){
-                                tempBuf2[j] = '4';
-                            }else if (tempBuf[i+1+j] == L'5'){
-                                tempBuf2[j] = '5';
-                            }else if (tempBuf[i+1+j] == L'6'){
-                                tempBuf2[j] = '6';
-                            }else if (tempBuf[i+1+j] == L'7'){
-                                tempBuf2[j] = '7';
-                            }else if (tempBuf[i+1+j] == L'8'){
-                                tempBuf2[j] = '8';
-                            }else if (tempBuf[i+1+j] == L'9'){
-                                tempBuf2[j] = '9';
-                            }else if (tempBuf[i+1+j] == L'0'){
-                                tempBuf2[j] = '0';
-                            }else{
-                                tempBuf2[j] = '0';
-                            }
-                        }
-
-                        tempBuf2[3] = '\0';
-
-                        output = GC.getTextToSpellInt(tempBuf2,pHeadSelectedUnit->countCardAttackLevel(),pHeadSelectedUnit);
-
-                        //出力
-                        wchar tempwchar[16];
-                        wchar tempBuf3[4000];
-                        wcscpy(tempBuf3,tempBuf);
-                        tempBuf[i+1] = L'\0';
-                        szBuffer.setLength(i+1);
-                        szBuffer.append(_itow(output,tempwchar,10));
-                        szBuffer.append(&tempBuf3[i+4]);
-                    }
-				}
-			
-
-			
+				//ぶんなげ
+				parseSpellActionHelp(widgetDataStruct, szBuffer);
 			}
 		}
 	}

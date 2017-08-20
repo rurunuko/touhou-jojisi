@@ -512,6 +512,51 @@
       <KFM />
       <Button>Art/Interface/Buttons/Builds/buildyoukaifort.dds</Button>
     </ImprovementArtInfo>
+    <ImprovementArtInfo>
+      <Type>ART_DEF_IMPROVEMENT_TUKI_NO_MIYAKO_COTTAGE</Type>
+      <bExtraAnimations>0</bExtraAnimations>
+      <fScale>1.0</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <NIF>Art/Structures/Improvements/tukinomiyako_cottage/SMACcottage.nif</NIF>
+      <KFM />
+      <Button>Art/Interface/Buttons/Builds/buildtukicottage.dds</Button>
+    </ImprovementArtInfo>
+    <ImprovementArtInfo>
+      <Type>ART_DEF_IMPROVEMENT_TUKI_NO_MIYAKO_HAMLET</Type>
+      <bExtraAnimations>0</bExtraAnimations>
+      <fScale>1.0</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <NIF>Art/Structures/Improvements/tukinomiyako_cottage/SMAChamlet.nif</NIF>
+      <KFM />
+      <Button>Art/Interface/Buttons/Builds/buildtukihamlet.dds</Button>
+    </ImprovementArtInfo>
+    <ImprovementArtInfo>
+      <Type>ART_DEF_IMPROVEMENT_TUKI_NO_MIYAKO_VILLAGE</Type>
+      <bExtraAnimations>0</bExtraAnimations>
+      <fScale>1.0</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <NIF>Art/Structures/Improvements/tukinomiyako_cottage/SMACvillage.nif</NIF>
+      <KFM />
+      <Button>Art/Interface/Buttons/Builds/buildtukivillage.dds</Button>
+    </ImprovementArtInfo>
+    <ImprovementArtInfo>
+      <Type>ART_DEF_IMPROVEMENT_TUKI_NO_MIYAKO_TOWN</Type>
+      <bExtraAnimations>0</bExtraAnimations>
+      <fScale>1.0</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <NIF>Art/Structures/Improvements/tukinomiyako_cottage/SMACtown.nif</NIF>
+      <KFM />
+      <Button>Art/Interface/Buttons/Builds/buildtukitown.dds</Button>
+    </ImprovementArtInfo>
+    <ImprovementArtInfo>
+      <Type>ART_DEF_IMPROVEMENT_TUKI_NO_MIYAKO_QUARRY</Type>
+      <bExtraAnimations>0</bExtraAnimations>
+      <fScale>1.0</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <NIF>Art/Structures/Improvements/tukinomiyako_mine/mine_modern.nif</NIF>
+      <KFM>Art/Structures/Improvements/Mine/Mine_Modern.kfm</KFM>
+      <Button>Art/Interface/Buttons/Builds/buildtukiquarry.dds</Button>
+    </ImprovementArtInfo>
     <!--Special Improvement-->
     <ImprovementArtInfo>
       <Type>ART_DEF_IMPROVEMENT_SPECIAL_RYUMYAKU</Type>
@@ -557,6 +602,61 @@
       <NIF>Art/Structures/Improvements/karigurashi/karigurashi3.nif</NIF>
       <KFM />
       <Button>Art/Interface/Buttons/Units/shinmyoumaru_button.dds</Button>
+    </ImprovementArtInfo>
+    <ImprovementArtInfo>
+      <Type>ART_DEF_IMPROVEMENT_GREATMINE</Type>
+      <bExtraAnimations>0</bExtraAnimations>
+      <fScale>1.0</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <NIF>Art/Structures/Improvements/greatmine/mine_modern.nif</NIF>
+      <KFM>Art/Structures/Improvements/Mine/Mine.kfm</KFM>
+      <Button>Art/Interface/Buttons/Units/yorihime_button.dds</Button>
+    </ImprovementArtInfo>
+    <ImprovementArtInfo>
+      <Type>ART_DEF_IMPROVEMENT_MARS_FARM</Type>
+      <bExtraAnimations>0</bExtraAnimations>
+      <fScale>2.0</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <NIF>Art/Structures/Improvements/mars_farm/farm.nif</NIF>
+      <KFM />
+      <Button>,Art/Interface/Buttons/Builds/BuildFarm.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,3,7</Button>
+    </ImprovementArtInfo>
+    <!--Terraforming-->
+    <ImprovementArtInfo>
+      <Type>ART_DEF_IMPROVEMENT_TERRAFORM_PLAIN</Type>
+      <bExtraAnimations>0</bExtraAnimations>
+      <fScale>15.0</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <NIF>Art/Structures/Improvements/tukinomiyako_terraform/biodome.nif</NIF>
+      <KFM />
+      <Button>Art/Interface/Buttons/baseterrain/plains.dds</Button>
+    </ImprovementArtInfo>
+    <ImprovementArtInfo>
+      <Type>ART_DEF_IMPROVEMENT_TERRAFORM_GRASS</Type>
+      <bExtraAnimations>0</bExtraAnimations>
+      <fScale>15.0</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <NIF>Art/Structures/Improvements/tukinomiyako_terraform/biodome.nif</NIF>
+      <KFM />
+      <Button>Art/Interface/Buttons/baseterrain/grassland.dds</Button>
+    </ImprovementArtInfo>
+    <ImprovementArtInfo>
+      <Type>ART_DEF_IMPROVEMENT_TERRAFORM_HILL</Type>
+      <bExtraAnimations>0</bExtraAnimations>
+      <fScale>15.0</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <NIF>Art/Structures/Improvements/tukinomiyako_terraform/biodome.nif</NIF>
+      <KFM />
+      <Button>Art/Interface/Buttons/baseterrain/hill.dds</Button>
+    </ImprovementArtInfo>
+    <ImprovementArtInfo>
+      <Type>ART_DEF_IMPROVEMENT_TERRAFORM_FOREST</Type>
+      <bExtraAnimations>0</bExtraAnimations>
+      <fScale>15.0</fScale>
+      <fInterfaceScale>1.0</fInterfaceScale>
+      <NIF>Art/Structures/Improvements/tukinomiyako_terraform/biodome.nif</NIF>
+      <KFM />
+      <Button>Art/Interface/Buttons/terrainfeatures/forest.dds</Button>
     </ImprovementArtInfo>
   </ImprovementArtInfos>
 </Civ4ArtDefines>

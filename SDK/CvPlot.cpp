@@ -2730,7 +2730,8 @@ int CvPlot::movementCost(const CvUnit* pUnit, const CvPlot* pFromPlot) const
 	}
 
 	//東方叙事詩用
-	//統合MOD追記：キャラクターマークでも海上移動力減少追加。その代わりスキルでの移動減少力も控えめに
+	//統合MOD追記：キャラクターマークでも海上移動コスト減少追加。その代わりスキルでの移動減少力も控えめに
+	//「旧支配者の一族」にも同等の性能を付与
 
 	if (pUnit->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_MINAMITSU"))){
         if (getPlotType() == PLOT_OCEAN){
@@ -2744,6 +2745,11 @@ int CvPlot::movementCost(const CvUnit* pUnit, const CvPlot* pFromPlot) const
         }
 	}
 
+	if (pUnit->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_CTHULHU_FAMILY"))){
+        if (getPlotType() == PLOT_OCEAN){
+            iRegularCost /= 2;
+        }
+	}
 
 	if (pFromPlot->isValidRoute(pUnit) && isValidRoute(pUnit) && ((GET_TEAM(pUnit->getTeam()).isBridgeBuilding() || !(pFromPlot->isRiverCrossing(directionXY(pFromPlot, this))))))
 	{
@@ -4784,8 +4790,10 @@ bool CvPlot::isPeak() const
 	return (getPlotType() == PLOT_PEAK);
 }
 
-
-void CvPlot::setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGraphics)
+//東方叙事詩・統合MOD追記
+//bSpellReclaimがある場合は例外処理
+//以下bSpellReclaimの記述が追加されている箇所も同等
+void CvPlot::setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGraphics, bool bSpellReclaim)
 {
 	CvArea* pNewArea;
 	CvArea* pCurrArea;
@@ -4798,7 +4806,7 @@ void CvPlot::setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGr
 
 	if (getPlotType() != eNewValue)
 	{
-		if ((getPlotType() == PLOT_OCEAN) || (eNewValue == PLOT_OCEAN))
+		if ( ( (getPlotType() == PLOT_OCEAN) || (eNewValue == PLOT_OCEAN) ) && !bSpellReclaim)
 		{
 			erase();
 		}
@@ -4820,16 +4828,16 @@ void CvPlot::setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGr
 			{
 				if (isAdjacentToLand())
 				{
-					setTerrainType(((TerrainTypes)(GC.getDefineINT("SHALLOW_WATER_TERRAIN"))), bRecalculate, bRebuildGraphics);
+					setTerrainType(((TerrainTypes)(GC.getDefineINT("SHALLOW_WATER_TERRAIN"))), bRecalculate, bRebuildGraphics, bSpellReclaim);
 				}
 				else
 				{
-					setTerrainType(((TerrainTypes)(GC.getDefineINT("DEEP_WATER_TERRAIN"))), bRecalculate, bRebuildGraphics);
+					setTerrainType(((TerrainTypes)(GC.getDefineINT("DEEP_WATER_TERRAIN"))), bRecalculate, bRebuildGraphics, bSpellReclaim);
 				}
 			}
 			else
 			{
-				setTerrainType(((TerrainTypes)(GC.getDefineINT("LAND_TERRAIN"))), bRecalculate, bRebuildGraphics);
+				setTerrainType(((TerrainTypes)(GC.getDefineINT("LAND_TERRAIN"))), bRecalculate, bRebuildGraphics, bSpellReclaim);
 			}
 		}
 
@@ -4849,11 +4857,11 @@ void CvPlot::setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGr
 						{
 							if (pLoopPlot->isAdjacentToLand())
 							{
-								pLoopPlot->setTerrainType(((TerrainTypes)(GC.getDefineINT("SHALLOW_WATER_TERRAIN"))), bRecalculate, bRebuildGraphics);
+								pLoopPlot->setTerrainType(((TerrainTypes)(GC.getDefineINT("SHALLOW_WATER_TERRAIN"))), bRecalculate, bRebuildGraphics, bSpellReclaim);
 							}
 							else
 							{
-								pLoopPlot->setTerrainType(((TerrainTypes)(GC.getDefineINT("DEEP_WATER_TERRAIN"))), bRecalculate, bRebuildGraphics);
+								pLoopPlot->setTerrainType(((TerrainTypes)(GC.getDefineINT("DEEP_WATER_TERRAIN"))), bRecalculate, bRebuildGraphics, bSpellReclaim);
 							}
 						}
 					}
@@ -5027,7 +5035,7 @@ void CvPlot::setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGr
 		}
 	}
 }
-
+//東方叙事詩・統合MOD追記ここまで
 
 TerrainTypes CvPlot::getTerrainType() const
 {
@@ -5035,7 +5043,7 @@ TerrainTypes CvPlot::getTerrainType() const
 }
 
 
-void CvPlot::setTerrainType(TerrainTypes eNewValue, bool bRecalculate, bool bRebuildGraphics)
+void CvPlot::setTerrainType(TerrainTypes eNewValue, bool bRecalculate, bool bRebuildGraphics, bool bSpellReclaim)
 {
 	bool bUpdateSight;
 
@@ -5078,7 +5086,7 @@ void CvPlot::setTerrainType(TerrainTypes eNewValue, bool bRecalculate, bool bReb
 
 		if (GC.getTerrainInfo(getTerrainType()).isWater() != isWater())
 		{
-			setPlotType(((GC.getTerrainInfo(getTerrainType()).isWater()) ? PLOT_OCEAN : PLOT_LAND), bRecalculate, bRebuildGraphics);
+			setPlotType(((GC.getTerrainInfo(getTerrainType()).isWater()) ? PLOT_OCEAN : PLOT_LAND), bRecalculate, bRebuildGraphics, bSpellReclaim);
 		}
 	}
 }
@@ -6110,7 +6118,7 @@ int CvPlot::calculateYield(YieldTypes eYield, bool bDisplay) const
 		if (GET_PLAYER(ePlayer).hasTrait((TraitTypes)(GC.getInfoTypeForString("TRAIT_FUTOLIST")))){
 			if (eYield == YIELD_FOOD){
 				if (this->getImprovementType() == GC.getInfoTypeForString("IMPROVEMENT_RYUMYAKU")){
-					iYield += 2;
+					iYield += 1;
 				}
 			}
 		}

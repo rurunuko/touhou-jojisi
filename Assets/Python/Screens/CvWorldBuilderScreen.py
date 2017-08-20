@@ -480,9 +480,9 @@ class CvWorldBuilderScreen:
 					pPlot = CyMap().plot(i,j)
 					if (not pPlot.isNone()):
 						if bWater and pPlot.isWater():
-							pPlot.setTerrainType(lTerrain[iTerrainType], True, True)
+							pPlot.setTerrainType(lTerrain[iTerrainType],True,True)
 						elif (not bWater) and (not pPlot.isWater()):
-							pPlot.setTerrainType(lTerrain[iTerrainType], True, True)	
+							pPlot.setTerrainType(lTerrain[iTerrainType],True,True)	
 		return 1
 ## Platy Change All Plots End ##
 
@@ -502,6 +502,11 @@ class CvWorldBuilderScreen:
 #CALをWB上で調整
 	def handleUnitEditCALCB (self, argsList) :
 		self.m_pActivePlot.getUnit(self.m_iCurrentUnit).setNumAcquisSpellPromotion(int(argsList[0]) -1)
+		return 1
+
+#debug NumTurnPromoをWB上で確認調整
+	def handleUnitEditNTPCB (self, argsList) :
+		self.m_pActivePlot.getUnit(self.m_iCurrentUnit).getNumTurnPromo(int(argsList[0]) -1)
 		return 1
 
 #東方叙事詩・統合MOD追記ここまで
@@ -636,13 +641,13 @@ class CvWorldBuilderScreen:
 					pPlot = CyMap().plot(i,j)
 					if (not pPlot.isNone()) and pPlot.getArea() == self.m_iArea:
 						if iIndex == 0:
-							pPlot.setPlotType(PlotTypes.PLOT_PEAK, True, True)
+							pPlot.setPlotType(PlotTypes.PLOT_PEAK,True,True)
 						elif iIndex == 1:
-							pPlot.setPlotType(PlotTypes.PLOT_HILLS, True, True)
+							pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
 						elif iIndex == 2:
-							pPlot.setPlotType(PlotTypes.PLOT_LAND, True, True)
+							pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 						elif iIndex == 3:
-							pPlot.setPlotType(PlotTypes.PLOT_OCEAN, True, True)
+							pPlot.setPlotType(PlotTypes.PLOT_OCEAN,True,True)
 		self.refreshSideMenu()
 		return 1
 
@@ -663,12 +668,12 @@ class CvWorldBuilderScreen:
 				if pPlot.isNone(): continue
 				if self.m_bChangeAllPlots:
 					if gc.getTerrainInfo(iIndex).isWater() and pPlot.isWater():
-						pPlot.setTerrainType(lTerrain[iIndex], True, True)
+						pPlot.setTerrainType(lTerrain[iIndex],True,True)
 					elif (not gc.getTerrainInfo(iIndex).isWater()) and (not pPlot.isWater()):
-						pPlot.setTerrainType(lTerrain[iIndex], True, True)	
+						pPlot.setTerrainType(lTerrain[iIndex],True,True)	
 				elif pPlot.getArea() == self.m_iArea:
 					if iIndex < len(lTerrain):
-						pPlot.setTerrainType(lTerrain[iIndex], True, True)
+						pPlot.setTerrainType(lTerrain[iIndex],True,True)
 		self.refreshSideMenu()
 		return 1
 
@@ -1573,13 +1578,13 @@ class CvWorldBuilderScreen:
 	def handlePlotEditPlotTypeCB ( self, argsList ) :
 		iIndex = int(argsList[0])
 		if iIndex == 0:
-			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_PEAK, True, True)
+			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_PEAK,True,True)
 		elif iIndex == 1:
-			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_HILLS, True, True)
+			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
 		elif iIndex == 1:
-			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_LAND, True, True)
+			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
 		else:
-			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_OCEAN, True, True)
+			self.m_pActivePlot.setPlotType(PlotTypes.PLOT_OCEAN,True,True)
 
 	def handlePlotEditTerrainCB ( self, argsList ) :
 		iIndex = int(argsList[0])
@@ -1587,7 +1592,7 @@ class CvWorldBuilderScreen:
 		for i in xrange(gc.getNumTerrainInfos()):
 			if gc.getTerrainInfo(i).isGraphicalOnly(): continue
 			if iCount == iIndex:
-				self.m_pActivePlot.setTerrainType(i, True, True)
+				self.m_pActivePlot.setTerrainType(i,True,True)
 				self.setPlotEditInfo(False)
 				return 1
 			iCount += 1
@@ -2029,7 +2034,7 @@ class CvWorldBuilderScreen:
 		elif ((self.m_bNormalMap) and (self.m_normalMapTabCtrl.getActiveTab() == self.m_iTerrainTabID)):
 			if (self.m_iNormalMapCurrentList[self.m_normalMapTabCtrl.getActiveTab()] == self.m_iTerrainListID):
 				iTerrainType = self.m_iNormalMapCurrentIndexes[self.m_normalMapTabCtrl.getActiveTab()]
-				self.m_pCurrentPlot.setTerrainType(iTerrainType, True, True)
+				self.m_pCurrentPlot.setTerrainType(iTerrainType,True,True)
 			elif (self.m_iNormalMapCurrentList[self.m_normalMapTabCtrl.getActiveTab()] == self.m_iFeatureListID):
 				iButtonIndex = self.m_iNormalMapCurrentIndexes[self.m_normalMapTabCtrl.getActiveTab()]
 				iCount = -1
@@ -2041,7 +2046,7 @@ class CvWorldBuilderScreen:
 			elif (self.m_iNormalMapCurrentList[self.m_normalMapTabCtrl.getActiveTab()] == self.m_iPlotTypeListID):
 				iPlotType = self.m_iNormalMapCurrentIndexes[self.m_normalMapTabCtrl.getActiveTab()]
 				if (iPlotType >= 0) and (iPlotType < PlotTypes.NUM_PLOT_TYPES):
-					self.m_pCurrentPlot.setPlotType(PlotTypes(iPlotType), True, True)
+					self.m_pCurrentPlot.setPlotType(PlotTypes(iPlotType),True,True)
 			elif (self.m_iNormalMapCurrentList[self.m_normalMapTabCtrl.getActiveTab()] == self.m_iRouteListID):
 				iRouteType = self.m_iNormalMapCurrentIndexes[self.m_normalMapTabCtrl.getActiveTab()]
 				if (iRouteType == gc.getNumRouteInfos()):
@@ -2435,6 +2440,10 @@ class CvWorldBuilderScreen:
 #CAレベルをWB上で調整
 		self.m_tabCtrlEdit.addSectionLabel(localText.getText("TXT_KEY_WB_CAL",()),  0)
 		self.m_tabCtrlEdit.addSectionSpinner("UnitEditCALCB", "CvScreensInterface", "WorldBuilderHandleUnitEditCALCB", "UnitEditCAL", 0, 0, 254, 1, pUnit.countCardAttackLevel(), 0, 0)
+
+#debug NumTurnPromoをWB上で確認調整
+		self.m_tabCtrlEdit.addSectionLabel(localText.getText("TXT_KEY_WB_NTP",()),  0)
+		self.m_tabCtrlEdit.addSectionSpinner("UnitEditNTPCB", "CvScreensInterface", "WorldBuilderHandleUnitEditNTPCB", "UnitEditNTP", 0, 0, 254, 1, pUnit.getNumTurnPromo(), 0, 0)
 
 #東方叙事詩・統合MOD追記ここまで
 ## Owner ##

@@ -5060,4 +5060,472 @@
 		<Spanish />
 		<Japanese>ルイ・ダゲール</Japanese>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALEXANDER</Tag>
+		<English>Alexander</English>
+		<French>アレクサンドロス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アレクサンドロス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ASOKA</Tag>
+		<English>Asoka</English>
+		<French>アショーカ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アショーカ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AUGUSTUS</Tag>
+		<English>Augustus Caesar</English>
+		<French>アウグストゥス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>アウグストゥス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BISMARCK</Tag>
+		<English>Bismarck</English>
+		<French>ビスマルク</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ビスマルク</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BOUDICA</Tag>
+		<English>Boudica</English>
+		<French>ブーディカ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ブーディカ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BRENNUS</Tag>
+		<English>Brennus</English>
+		<French>ブレヌス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ブレヌス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CATHERINE</Tag>
+		<English>Catherine</English>
+		<French>エカテリーナ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エカテリーナ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHARLEMAGNE</Tag>
+		<English>Charlemagne</English>
+		<French>シャルルマーニュ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>シャルルマーニュ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHURCHILL</Tag>
+		<English>Churchill</English>
+		<French>チャーチル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チャーチル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CYRUS</Tag>
+		<English>Cyrus</English>
+		<French>大キュロス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>大キュロス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DARIUS</Tag>
+		<English>Darius I</English>
+		<French>ダレイオス1世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ダレイオス1世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DE_GAULLE</Tag>
+		<English>De Gaulle</English>
+		<French>ド・ゴール</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ド・ゴール</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ELIZABETH_I</Tag>
+		<English>Elizabeth I</English>
+		<French>エリザベス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>エリザベス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FREDERICK</Tag>
+		<English>Frederick</English>
+		<French>フリードリッヒ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フリードリッヒ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GANDHI</Tag>
+		<English>Gandhi</English>
+		<French>ガンジー</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ガンジー</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GENGHIS_KHAN</Tag>
+		<English>Genghis Khan</English>
+		<French>チンギス・ハーン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>チンギス・ハーン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GILGAMESH</Tag>
+		<English>Gilgamesh</English>
+		<French>ギルガメッシュ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ギルガメッシュ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HAMMURABI</Tag>
+		<English>Hammurabi</English>
+		<French>ハンムラビ大王</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ハンムラビ大王</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HANNIBAL</Tag>
+		<English>Hannibal</English>
+		<French>ハンニバル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ハンニバル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HATSHEPSUT</Tag>
+		<English>Hatshepsut</English>
+		<French>ハトシェプスト</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ハトシェプスト</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HUAYNA_CAPAC</Tag>
+		<English>Huayna Capac</English>
+		<French>ワイナ・カパック</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ワイナ・カパック</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ISABELLA</Tag>
+		<English>Isabella</English>
+		<French>イザベル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>イザベル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOAO</Tag>
+		<English>Joao II</English>
+		<French>ジョアン2世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ジョアン2世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JULIUS_CAESAR</Tag>
+		<English>Julius Caesar</English>
+		<French>ユリウス・カエサル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ユリウス・カエサル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JUSTINIAN</Tag>
+		<English>Justinian I</English>
+		<French>ユスティニアヌス1世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ユスティニアヌス1世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KUBLAI_KHAN</Tag>
+		<English>Kublai Khan</English>
+		<French>フビライ・ハーン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>フビライ・ハーン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LINCOLN</Tag>
+		<English>Lincoln</English>
+		<French>リンカーン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>リンカーン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LOUIS_XIV</Tag>
+		<English>Louis XIV</English>
+		<French>ルイ14世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルイ14世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MANSA_MUSA</Tag>
+		<English>Mansa Musa</English>
+		<French>マンサ・ムサ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>マンサ・ムサ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MAO_ZEDONG</Tag>
+		<English>Mao Zedong</English>
+		<French>毛沢東</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>毛沢東</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MEHMED</Tag>
+		<English>Mehmed II</English>
+		<French>メフメド2世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>メフメド2世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MONTEZUMA</Tag>
+		<English>Montezuma</English>
+		<French>モンテスマ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>モンテスマ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NAPOLEON</Tag>
+		<English>Napoleon</English>
+		<French>ナポレオン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ナポレオン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PACAL</Tag>
+		<English>Pacal II</English>
+		<French>パカル2世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>パカル2世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PERICLES</Tag>
+		<English>Pericles</English>
+		<French>ペリクレス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ペリクレス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PETER</Tag>
+		<English>Peter</English>
+		<French>ピョートル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ピョートル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_QIN_SHI_HUANG</Tag>
+		<English>Qin Shi Huang</English>
+		<French>始皇帝</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>始皇帝</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RAMESSES</Tag>
+		<English>Ramesses II</English>
+		<French>ラムセス2世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ラムセス2世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RAGNAR</Tag>
+		<English>Ragnar</English>
+		<French>ラグナル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ラグナル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ROOSEVELT</Tag>
+		<English>Roosevelt</English>
+		<French>ルーズヴェルト</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ルーズヴェルト</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SALADIN</Tag>
+		<English>Saladin</English>
+		<French>サラディン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>サラディン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SHAKA</Tag>
+		<English>Shaka</English>
+		<French>シャカ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>シャカ</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SITTING_BULL</Tag>
+		<English>Sitting Bull</English>
+		<French>シッティング・ブル</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>シッティング・ブル</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_STALIN</Tag>
+		<English>Stalin</English>
+		<French>スターリン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スターリン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SULEIMAN</Tag>
+		<English>Suleiman</English>
+		<French>スレイマン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スレイマン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SURYAVARMAN</Tag>
+		<English>Suryavarman II</English>
+		<French>スーリヤヴァルマン2世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>スーリヤヴァルマン2世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TOKUGAWA</Tag>
+		<English>Tokugawa</English>
+		<French>徳川家康</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>徳川家康</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_VICTORIA</Tag>
+		<English>Victoria</English>
+		<French>ヴィクトリア</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ヴィクトリア</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WANGKON</Tag>
+		<English>Wang Kon</English>
+		<French>王建</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>王建</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WASHINGTON</Tag>
+		<English>Washington</English>
+		<French>ワシントン</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ワシントン</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WILLEM_VAN_ORANJE</Tag>
+		<English>Willem van Oranje</English>
+		<French>オラニエ公ヴィレム1世</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>オラニエ公ヴィレム1世</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ZARA_YAQOB</Tag>
+		<English>Zara Yaqob</English>
+		<French>ザラ・ヤコブ</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ザラ・ヤコブ</Japanese>
+	</TEXT>
 </Civ4GameText>

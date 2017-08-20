@@ -70,6 +70,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_I</HotKey>
       <bAltDown>0</bAltDown>
@@ -142,6 +149,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_M</HotKey>
       <bAltDown>0</bAltDown>
@@ -174,6 +188,13 @@
           <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
           <iTime>300</iTime>
           <iProduction>30</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
       </FeatureStructs>
@@ -229,6 +250,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_W</HotKey>
       <bAltDown>0</bAltDown>
@@ -261,6 +289,13 @@
           <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
           <iTime>300</iTime>
           <iProduction>30</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
       </FeatureStructs>
@@ -297,6 +332,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_P</HotKey>
       <bAltDown>0</bAltDown>
@@ -331,6 +373,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_Q</HotKey>
       <bAltDown>0</bAltDown>
@@ -363,6 +412,13 @@
           <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
           <iTime>300</iTime>
           <iProduction>30</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
       </FeatureStructs>
@@ -418,6 +474,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_W</HotKey>
       <bAltDown>0</bAltDown>
@@ -471,6 +534,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_W</HotKey>
       <bAltDown>0</bAltDown>
@@ -503,6 +573,13 @@
           <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
           <iTime>300</iTime>
           <iProduction>30</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
       </FeatureStructs>
@@ -614,6 +691,33 @@
       <Button>,Art/Interface/Buttons/Builds/BuildChopDown.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,7,8</Button>
     </BuildInfo>
     <BuildInfo>
+      <Type>BUILD_REMOVE_REGENERATION_FOREST</Type>
+      <Description>TXT_KEY_BUILD_REMOVE_REGENERATION_FOREST</Description>
+      <Help />
+      <PrereqTech>NONE</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>ENTITY_EVENT_CHOP</EntityEvent>
+      <FeatureStructs>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+      </FeatureStructs>
+      <HotKey>KB_C</HotKey>
+      <bAltDown>1</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>,Art/Interface/Buttons/Builds/BuildChopDown.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,7,8</Button>
+    </BuildInfo>
+    <BuildInfo>
       <Type>BUILD_SCRUB_FALLOUT</Type>
       <Description>TXT_KEY_BUILD_SCRUB_FALLOUT</Description>
       <Help />
@@ -659,6 +763,349 @@
       <iHotKeyPriority>1</iHotKeyPriority>
       <Button>,Art/Interface/Buttons/TerrainFeatures/Forest.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,4,14</Button>
     </BuildInfo>
+    <!--Terraforming Pedia Dummy-->
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_PLAIN</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_PLAIN</Description>
+      <Help />
+      <PrereqTech>TECH_MOON_WAR_FIRST</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/baseterrain/plains.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_GRASS</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_GRASS</Description>
+      <Help />
+      <PrereqTech>TECH_MOON_WAR_FIRST</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>KB_F</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/baseterrain/grassland.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_HILL</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_HILL</Description>
+      <Help />
+      <PrereqTech>TECH_APOLLO</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/terraforming/terraform_flat_to_hill.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_FLATLAND</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_FLATLAND</Description>
+      <Help />
+      <PrereqTech>TECH_APOLLO</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/terraforming/terraform_hill_to_flat.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_PLAIN_TO_TUNDRA</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_PLAIN_TO_TUNDRA</Description>
+      <Help />
+      <PrereqTech>TECH_APOLLO_CONSPIRACY</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/terraforming/terraform_tundra_to_plain.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_FOREST</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_FOREST</Description>
+      <Help />
+      <PrereqTech>TECH_APOLLO_CONSPIRACY</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/terrainfeatures/forest.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_PLAIN_TO_DESERT</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_PLAIN_TO_DESERT</Description>
+      <Help />
+      <PrereqTech>TECH_LUNAR_CAPITAL_TRANSFER_PLAN</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/terraforming/terraform_desert_to_plain.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_PLAIN_TO_ICE</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_PLAIN_TO_ICE</Description>
+      <Help />
+      <PrereqTech>TECH_LUNAR_CAPITAL_TRANSFER_PLAN</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/terraforming/terraform_ice_to_plain.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_PLAIN_NO_SACRIFICE</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_PLAIN_NO_SACRIFICE</Description>
+      <Help />
+      <PrereqTech>TECH_LUNAR_CAPITAL_TRANSFER_PLAN</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/terraforming/terraform_plain_no_sacrifice.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_GRASS_NO_SACRIFICE</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_GRASS_NO_SACRIFICE</Description>
+      <Help />
+      <PrereqTech>TECH_LUNAR_CAPITAL_TRANSFER_PLAN</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/terraforming/terraform_grass_no_sacrifice.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_HILL_NO_SACRIFICE</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_HILL_NO_SACRIFICE</Description>
+      <Help />
+      <PrereqTech>TECH_LUNAR_CAPITAL_TRANSFER_PLAN</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/terraforming/terraform_flat_to_hill_no_sacrifice.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_FLATLAND_NO_SACRIFICE</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_FLATLAND_NO_SACRIFICE</Description>
+      <Help />
+      <PrereqTech>TECH_LUNAR_CAPITAL_TRANSFER_PLAN</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/terraforming/terraform_hill_to_flat_no_sacrifice.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_PLAIN_TO_FLOOD</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_PLAIN_TO_FLOOD</Description>
+      <Help />
+      <PrereqTech>TECH_SAKE_OF_THE_WATATSUKI</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/baseterrain/plains.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_LANDFILL</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_LANDFILL</Description>
+      <Help />
+      <PrereqTech>TECH_SAKE_OF_THE_WATATSUKI</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/terraforming/terraform_landfill.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_CRUSHICE</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_CRUSHICE</Description>
+      <Help />
+      <PrereqTech>TECH_SAKE_OF_THE_WATATSUKI</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/terraforming/terraform_crushice.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_OCEANIZATION</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_OCEANIZATION</Description>
+      <Help />
+      <PrereqTech>TECH_SAKE_OF_THE_WATATSUKI</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/terraforming/terraform_oceanization.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_FINAL</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_FINAL</Description>
+      <Help />
+      <PrereqTech>TECH_THE_TRUMP_CARD_IS_ALWAYS_A_BAD_MOVE</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/actions/goldenage.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TERRAFORM_FLOOD</Type>
+      <Description>TXT_KEY_BUILD_TERRAFORM_FLOOD</Description>
+      <Help />
+      <PrereqTech>TECH_THE_TRUMP_CARD_IS_ALWAYS_A_BAD_MOVE</PrereqTech>
+      <iTime>0</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>NONE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>NONE</EntityEvent>
+      <FeatureStructs />
+      <HotKey>NONE</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>1</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/terrainfeatures/floodplains.dds</Button>
+    </BuildInfo>
     <!-- Build UI -->
     <BuildInfo>
       <Type>BUILD_EIENTEI_PLANTATION</Type>
@@ -684,6 +1131,13 @@
           <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
           <iTime>300</iTime>
           <iProduction>30</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
       </FeatureStructs>
@@ -739,6 +1193,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_W</HotKey>
       <bAltDown>0</bAltDown>
@@ -771,6 +1232,13 @@
           <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
           <iTime>300</iTime>
           <iProduction>30</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
       </FeatureStructs>
@@ -807,6 +1275,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_Q</HotKey>
       <bAltDown>0</bAltDown>
@@ -839,6 +1314,13 @@
           <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
           <iTime>300</iTime>
           <iProduction>30</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
       </FeatureStructs>
@@ -875,6 +1357,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_T</HotKey>
       <bAltDown>0</bAltDown>
@@ -907,6 +1396,13 @@
           <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
           <iTime>300</iTime>
           <iProduction>30</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
       </FeatureStructs>
@@ -962,6 +1458,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_P</HotKey>
       <bAltDown>0</bAltDown>
@@ -1013,6 +1516,13 @@
           <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
           <iTime>300</iTime>
           <iProduction>30</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
       </FeatureStructs>
@@ -1068,6 +1578,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_I</HotKey>
       <bAltDown>0</bAltDown>
@@ -1100,6 +1617,13 @@
           <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
           <iTime>300</iTime>
           <iProduction>30</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
       </FeatureStructs>
@@ -1136,6 +1660,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_W</HotKey>
       <bAltDown>0</bAltDown>
@@ -1168,6 +1699,13 @@
           <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
           <iTime>300</iTime>
           <iProduction>30</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
       </FeatureStructs>
@@ -1223,6 +1761,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_T</HotKey>
       <bAltDown>0</bAltDown>
@@ -1276,6 +1821,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_K</HotKey>
       <bAltDown>0</bAltDown>
@@ -1310,6 +1862,13 @@
           <iProduction>30</iProduction>
           <bRemove>1</bRemove>
         </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
       </FeatureStructs>
       <HotKey>KB_W</HotKey>
       <bAltDown>0</bAltDown>
@@ -1317,6 +1876,74 @@
       <bCtrlDown>0</bCtrlDown>
       <iHotKeyPriority>1</iHotKeyPriority>
       <Button>Art/Interface/Buttons/Builds/buildkishinjouwinery.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TUKI_NO_MIYAKO_COTTAGE</Type>
+      <Description>TXT_KEY_BUILD_TUKI_NO_MIYAKO_COTTAGE</Description>
+      <Help />
+      <PrereqTech>TECH_POTTERY</PrereqTech>
+      <iTime>400</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>IMPROVEMENT_TUKI_NO_MIYAKO_COTTAGE</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+      <FeatureStructs>
+        <FeatureStruct>
+          <FeatureType>FEATURE_JUNGLE</FeatureType>
+          <PrereqTech>TECH_IRON_WORKING</PrereqTech>
+          <iTime>400</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+      </FeatureStructs>
+      <HotKey>KB_T</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Builds/buildtukicottage.dds</Button>
+    </BuildInfo>
+    <BuildInfo>
+      <Type>BUILD_TUKI_NO_MIYAKO_QUARRY</Type>
+      <Description>TXT_KEY_BUILD_TUKI_NO_MIYAKO_QUARRY</Description>
+      <Help />
+      <PrereqTech>TECH_MASONRY</PrereqTech>
+      <iTime>600</iTime>
+      <iCost>0</iCost>
+      <bKill>0</bKill>
+      <ImprovementType>IMPROVEMENT_TUKI_NO_MIYAKO_QUARRY</ImprovementType>
+      <RouteType>NONE</RouteType>
+      <EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+      <FeatureStructs>
+        <FeatureStruct>
+          <FeatureType>FEATURE_JUNGLE</FeatureType>
+          <PrereqTech>TECH_IRON_WORKING</PrereqTech>
+          <iTime>400</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>30</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+        <FeatureStruct>
+          <FeatureType>FEATURE_REGENERATION_FOREST</FeatureType>
+          <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+          <iTime>300</iTime>
+          <iProduction>0</iProduction>
+          <bRemove>1</bRemove>
+        </FeatureStruct>
+      </FeatureStructs>
+      <HotKey>KB_Q</HotKey>
+      <bAltDown>0</bAltDown>
+      <bShiftDown>0</bShiftDown>
+      <bCtrlDown>0</bCtrlDown>
+      <iHotKeyPriority>0</iHotKeyPriority>
+      <Button>Art/Interface/Buttons/Builds/buildtukiquarry.dds</Button>
     </BuildInfo>
   </BuildInfos>
 </Civ4BuildInfos>

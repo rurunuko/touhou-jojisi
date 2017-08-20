@@ -105,6 +105,15 @@
 		<Japanese>小人労働者</Japanese>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_TUKI_NO_MIYAKO_WORKER</Tag>
+		<English />
+		<French>玉兎労働者</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>玉兎労働者</Japanese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_EIENTEI_PLANTATION</Tag>
 		<English />
 		<French>製薬所</French>
@@ -375,6 +384,51 @@
 		<Japanese>丑三つ時宴会場</Japanese>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TUKI_NO_MIYAKO_COTTAGE</Tag>
+		<English />
+		<French>月面小屋</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月面小屋</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TUKI_NO_MIYAKO_HAMLET</Tag>
+		<English />
+		<French>月面村落</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月面村落</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TUKI_NO_MIYAKO_VILLAGE</Tag>
+		<English />
+		<French>月面村</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月面村</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TUKI_NO_MIYAKO_TOWN</Tag>
+		<English />
+		<French>月の都</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月の都</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TUKI_NO_MIYAKO_QUARRY</Tag>
+		<English />
+		<French>月の石採石所</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月の石採石所</Japanese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_SPECIAL_RYUKETU</Tag>
 		<English />
 		<French>龍穴</French>
@@ -409,6 +463,42 @@
 		<Italian />
 		<Spanish />
 		<Japanese>小人たちの借り暮らし</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SPECIAL_GREATMINE</Tag>
+		<English />
+		<French>金山彦の鉱山</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>金山彦の鉱山</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DREAM_EXPRESS</Tag>
+		<English />
+		<French>ドリームエクスプレス</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>ドリームエクスプレス</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MARS_FARM</Tag>
+		<English />
+		<French>火星印のジャガイモ農場</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>火星印のジャガイモ農場</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MOONBASE</Tag>
+		<English />
+		<French>月面基地</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月面基地</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_EIENTEI_PLANTATION</Tag>
@@ -609,6 +699,24 @@
 		<Japanese>[LINK=IMPROVEMENT_KISHINJOU_WINERY]丑三つ時宴会場[\LINK]の建設</Japanese>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUILD_TUKI_NO_MIYAKO_COTTAGE</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TUKI_NO_MIYAKO_COTTAGE]月面小屋[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TUKI_NO_MIYAKO_COTTAGE]月面小屋[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TUKI_NO_MIYAKO_QUARRY</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TUKI_NO_MIYAKO_QUARRY]月の石採石所[\LINK]の建設</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TUKI_NO_MIYAKO_QUARRY]月の石採石所[\LINK]の建設</Japanese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_EIENTEI_WORKER_PEDIA</Tag>
 		<English />
 		<French>永遠亭は、玉兎の代わりに地上の兎を労働力として使っていました。亭内の清掃や、餅搗き、薬搗きなどの仕事に従事しています。時には里へ薬を売りに行ったりもします。</French>
@@ -706,6 +814,15 @@
 		<Italian />
 		<Spanish />
 		<Japanese>幻想郷でも幻と思われていた小人達の存在が最近確認されました。小さい体でも普通の労働者と同じくらいがんばっているようです。</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TUKI_NO_MIYAKO_WORKER_PEDIA</Tag>
+		<English />
+		<French>月でヒマそうにしている玉兎たちがこの遊びに付き合ってくれるようです。この月の都文明は特に労働者が犠牲になる事が多いですが、それもまた遊びだと思って楽しんでくれるかもしれません</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>月でヒマそうにしている玉兎たちがこの遊びに付き合ってくれるようです。この月の都文明は特に労働者が犠牲になる事が多いですが、それもまた遊びだと思って楽しんでくれるかもしれません</Japanese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EIENTEI_WORKER_STRATEGY</Tag>
@@ -807,6 +924,15 @@
 		<Japanese>小人労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットは様々な小人の集まりなので、交易を得意とする者が任務によって小額の資金を得ることができます。</Japanese>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_TUKI_NO_MIYAKO_WORKER_STRATEGY</Tag>
+		<English />
+		<French>玉兎労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットはあくまで暇潰しに遊んでいるだけなので、ユニットの維持費を請求する事はありません</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>玉兎労働者を使って各都市周辺の土地の資源活用を行い、また道路をつくって交易路を築きましょう。さらに、このユニットはあくまで暇潰しに遊んでいるだけなので、ユニットの維持費を請求する事はありません</Japanese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_WORKER</Tag>
 		<English />
 		<French>幽霊</French>
@@ -815,4 +941,384 @@
 		<Spanish />
 		<Japanese>幽霊</Japanese>
 	</TEXT>
+	<!-- Tukinomiyako Terraforming Start-->
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TERRAFORM_PLAIN</Tag>
+		<English />
+		<French>テラフォーミング：平原化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：平原化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TERRAFORM_PLAIN_COMPLETE</Tag>
+		<English />
+		<French>テラフォーミング：平原化完了</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：平原化完了</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TERRAFORM_GRASS</Tag>
+		<English />
+		<French>テラフォーミング：草原化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：草原化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TERRAFORM_GRASS_COMPLETE</Tag>
+		<English />
+		<French>テラフォーミング：草原化完了</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：草原化完了</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TERRAFORM_HILL</Tag>
+		<English />
+		<French>テラフォーミング：丘陵化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：丘陵化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TERRAFORM_HILL_COMPLETE</Tag>
+		<English />
+		<French>テラフォーミング：丘陵化完了</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：丘陵化完了</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TERRAFORM_FLATLAND</Tag>
+		<English />
+		<French>テラフォーミング：平地化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：平地化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TERRAFORM_FLATLAND_COMPLETE</Tag>
+		<English />
+		<French>テラフォーミング：平地化完了</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：平地化完了</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TERRAFORM_FOREST</Tag>
+		<English />
+		<French>テラフォーミング：植林</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：植林</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TERRAFORM_FOREST_COMPLETE</Tag>
+		<English />
+		<French>テラフォーミング：植林完了</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：植林完了</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAFORMING_COMPLETED_PLAIN_ANNOUNCE</Tag>
+		<English />
+		<French>テラフォーミング：平原化が完了しました</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：平原化が完了しました</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAFORMING_COMPLETED_GRASS_ANNOUNCE</Tag>
+		<English />
+		<French>テラフォーミング：草原化が完了しました</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：草原化が完了しました</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAFORMING_COMPLETED_HILL_ANNOUNCE</Tag>
+		<English />
+		<French>テラフォーミング：丘陵化が完了しました</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：丘陵化が完了しました</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAFORMING_COMPLETED_FLATLAND_ANNOUNCE</Tag>
+		<English />
+		<French>テラフォーミング：平地化が完了しました</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：平地化が完了しました</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAFORMING_COMPLETED_FOREST_ANNOUNCE</Tag>
+		<English />
+		<French>テラフォーミング：植林が完了しました</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：植林が完了しました</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_REGENERATION_FOREST</Tag>
+		<English />
+		<French>再生林</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>再生林</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_REMOVE_REGENERATION_FOREST</Tag>
+		<English />
+		<French>再生林の伐採</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>再生林の伐採</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TERRAFORMING_PEDIA</Tag>
+		<English />
+		<French>テラフォーミングのペディア（仮）</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミングのペディア（仮）</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_PLAIN</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]の実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]の実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_GRASS</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TERRAFORM_GRASS]テラフォーミング：草原化[\LINK]の実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_GRASS]テラフォーミング：草原化[\LINK]の実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_HILL</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TERRAFORM_HILL]テラフォーミング：丘陵化[\LINK]の実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_HILL]テラフォーミング：丘陵化[\LINK]の実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_FLATLAND</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TERRAFORM_FLATLAND]テラフォーミング：平地化[\LINK]の実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_FLATLAND]テラフォーミング：平地化[\LINK]の実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_PLAIN_TO_DESERT</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]の砂漠タイル上での実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]の砂漠タイル上での実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_PLAIN_NO_SACRIFICE</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]の犠牲無しでの実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]の犠牲無しでの実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_GRASS_NO_SACRIFICE</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TERRAFORM_GRASS]テラフォーミング：草原化[\LINK]の犠牲無しでの実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_GRASS]テラフォーミング：草原化[\LINK]の犠牲無しでの実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_FOREST</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TERRAFORM_FOREST]テラフォーミング：植林[\LINK]の実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_FOREST]テラフォーミング：植林[\LINK]の実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_PLAIN_TO_TUNDRA</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]のツンドラタイル上での実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]のツンドラタイル上での実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_PLAIN_TO_ICE</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]の氷土タイル上での実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]の氷土タイル上での実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_HILL_NO_SACRIFICE</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TERRAFORM_HILL]テラフォーミング：丘陵化[\LINK]の犠牲無しでの実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_HILL]テラフォーミング：丘陵化[\LINK]の犠牲無しでの実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_FLATLAND_NO_SACRIFICE</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TERRAFORM_FLATLAND]テラフォーミング：平地化[\LINK]の犠牲無しでの実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_FLATLAND]テラフォーミング：平地化[\LINK]の犠牲無しでの実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_PLAIN_TO_FLOOD</Tag>
+		<English />
+		<French>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]の氾濫源タイル上での実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[LINK=IMPROVEMENT_TERRAFORM_PLAIN]テラフォーミング：平原化[\LINK]の氾濫源タイル上での実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_LANDFILL</Tag>
+		<English />
+		<French>テラフォーミング：埋め立ての実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：埋め立ての実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_CRUSHICE</Tag>
+		<English />
+		<French>テラフォーミング：砕氷の実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：砕氷の実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_OCEANIZATION</Tag>
+		<English />
+		<French>テラフォーミング：海洋化の実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：海洋化の実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_FINAL</Tag>
+		<English />
+		<French>テラフォーミング：平原・草原・丘陵・平地の即時反映化</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：平原・草原・丘陵・平地の即時反映化</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_FLOOD</Tag>
+		<English />
+		<French>テラフォーミング：氾濫源化の実行</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>テラフォーミング：氾濫源化の実行</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LANDFILLER</Tag>
+		<English />
+		<French>埋め立て船</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>埋め立て船</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LANDFILLER_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]テラフォーミング：埋め立ての実行が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]テラフォーミング：埋め立ての実行が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ICEBREAKER</Tag>
+		<English />
+		<French>砕氷船</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>砕氷船</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ICEBREAKER_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]テラフォーミング：砕氷の実行が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]テラフォーミング：砕氷の実行が可能</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_OCEANIWORKER</Tag>
+		<English />
+		<French>海洋工作玉兎</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>海洋工作玉兎</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_OCEANIWORKER_HELP</Tag>
+		<English />
+		<French>[ICON_BULLET]テラフォーミング：海洋化の実行が可能</French>
+		<German />
+		<Italian />
+		<Spanish />
+		<Japanese>[ICON_BULLET]テラフォーミング：海洋化の実行が可能</Japanese>
+	</TEXT>
+	<!-- Tukinomiyako Terraforming End-->
 </Civ4GameText>

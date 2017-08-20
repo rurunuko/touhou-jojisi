@@ -181,6 +181,15 @@ class CvEventManager:
 			'setPlayerAlive'		: self.onSetPlayerAlive,
 			'playerChangeStateReligion'		: self.onPlayerChangeStateReligion,
 			'playerGoldTrade'		: self.onPlayerGoldTrade,
+			#統合MOD追記部分
+			'delayedDeath' 			: self.onDelayedDeath,
+			# BULL events
+			'playerRevolution'		: self.onPlayerRevolution,
+			'combatWithdrawal'		: self.onCombatWithdrawal,
+			'combatRetreat'			: self.onCombatRetreat,
+			'combatLogCollateral'	: self.onCombatLogCollateral,
+			'combatLogFlanking'		: self.onCombatLogFlanking,
+			#統合MOD追記部分ここまで
 			'windowActivation'		: self.onWindowActivation,
 			'gameUpdate'			: self.onGameUpdate,		# sample generic event
 		}
@@ -212,8 +221,10 @@ class CvEventManager:
 		if (config != None):
 			CFG_EnabledCitizensAutomated = config.getboolean( "Citizens Automated", "Enabled", True)
 
-                # 地霊殿持ち越し用
-                self.ChireidenOverflow = (-1, 0)
+		# 地霊殿持ち越し用
+		self.ChireidenOverflow = (-1, 0)
+		# UB変更履歴
+		self.oldCivBuildings = []
 
 #################### EVENT STARTERS ######################
 	def handleEvent(self, argsList):
@@ -463,11 +474,45 @@ class CvEventManager:
 		"return the string to be saved - Must be a string"
 		return ""
 
+	def setTraitUB(self):
+		iNumPlayer = 19     # 19でいいのかほんとに
+
+		TraitBuildingclassBuildingList = [
+			['TRAIT_BENBENLIST', 'BUILDINGCLASS_OBELISK', 'BUILDING_KISHINJOU_ETHIOPIAN_STELE'],
+		]
+
+		# もどす
+		for it in self.oldCivBuildings:
+			iCiv, ibC, idB = it
+			pCiv = gc.getCivilizationInfo(iCiv)
+			pCiv.setCivilizationBuildings(ibC, idB)
+
+		for it in TraitBuildingclassBuildingList:
+			trait, bclass, build = it
+			found = False
+			for i in range(iNumPlayer):
+				pPlayer = gc.getPlayer(i)
+				pCiv = gc.getCivilizationInfo( pPlayer.getCivilizationType() )
+				ibC = gc.getInfoTypeForString(bclass)
+				#その志向があれば
+				if pPlayer.hasTrait(gc.getInfoTypeForString(trait)):
+					iB = gc.getInfoTypeForString(build)
+					# おぼえる
+					self.oldCivBuildings.append( [pPlayer.getCivilizationType(), ibC, pCiv.getCivilizationBuildings(ibC)] )
+					# かえる
+					pCiv.setCivilizationBuildings(ibC, iB)
+				
+		
 	def onLoadGame(self, argsList):
+		self.setTraitUB()
 		return 0
 
 	def onGameStart(self, argsList):
 		'Called at the start of the game'
+
+		# before Starting Popup Widget
+		self.setTraitUB()
+		
 		if (gc.getGame().getGameTurnYear() == gc.getDefineINT("START_YEAR") and not gc.getGame().isOption(GameOptionTypes.GAMEOPTION_ADVANCED_START)):
 			for iPlayer in range(gc.getMAX_PLAYERS()):
 				player = gc.getPlayer(iPlayer)
@@ -576,8 +621,13 @@ class CvEventManager:
 				#輝針城
 				if iCiv == gc.getInfoTypeForString('CIVILIZATION_MALI'):
 					pTeam.setHasTech(gc.getInfoTypeForString('TECH_JAKUSYANORAKUEN'),True,i,True,True)
+				
+				#月の都
+				if iCiv == gc.getInfoTypeForString('CIVILIZATION_AMERICA'):
+					pTeam.setHasTech(gc.getInfoTypeForString('TECH_MOON_WAR_FIRST'),True,i,True,True)
 			
-		##### </written by F> #####
+			##### </written by F> #####
+			
 		
 		
 	def onGameEnd(self, argsList):
@@ -645,6 +695,1255 @@ class CvEventManager:
 		'Called at the end of the end of each turn'
 		iGameTurn = argsList[0]
 
+#統合MOD追記部分
+	def BPTprocessTohoUnit(self, pUnit, argsList):
+		iGameTurn, iPlayer = argsList
+		#東方ユニットまわりの管理・処理
+		#一部のキャラクタースキル関連もここで
+		py = PyPlayer(iPlayer)
+		pPlayer = gc.getPlayer(iPlayer)
+		
+		#ここから確実に東方ユニットであることが前提の処理
+		#東方ユニットであればPower回復
+		Gain = 0.015
+		GainPer = 100
+		for item in TohoUnitList.PowerGainPromotionList:
+			if pUnit.isHasPromotion(gc.getInfoTypeForString(item[0])):
+				Gain = Gain + item[1]
+		for item in TohoUnitList.PowerGainPerPromotionList:
+			if pUnit.isHasPromotion(gc.getInfoTypeForString(item[0])):
+				GainPer = GainPer + item[1]
+			
+		Gain = Gain * GainPer / 100
+			
+		#時代補正
+		GainPer = 100
+		for item in TohoUnitList.PowerGainPerEraList:
+			if pPlayer.getCurrentEra() == gc.getInfoTypeForString(item[0]):
+				GainPer = GainPer + item[1]
+			Gain = Gain * GainPer / 100
+				
+		#ゲームスピード補正
+		GainPer = 100
+		for item in TohoUnitList.PowerGainPerGameSpeedList:
+			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString(item[0]):
+				GainPer = item[1]
+		Gain = Gain * GainPer / 100
+				
+		#AI強化モードによる補正
+		if gc.getPlayer(pUnit.getOwner()).isHuman() == False and gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_STRONG_AI')):
+			Gain = Gain*2
+		#無双モードによる補正
+		if gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_MUSOU')) and gc.getPlayer(pUnit.getOwner()).isHuman():
+			Gain = Gain*2
+				
+		pUnit.setPower(pUnit.getPower()+Gain)
+		#pUnit.setPower(4)
+		#あふれ分はSDK内で処理
+				
+		#東方ユニットであれば、一定確率で経験値を１獲得
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_BUNSHIN'))==False:
+			PerExperience = pUnit.countExpByTrun()
+			while PerExperience > 0:
+				if gc.getGame().getSorenRandNum(100, "Toho Unit gets Experience Percent") < PerExperience:
+					pUnit.changeExperience(1,-1,false,false,false)
+				PerExperience -= 100
+		
+		#分身もちは10％のダメージを受ける
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_BUNSHIN')):
+			pUnit.changeDamage(10,iPlayer)
+		
+		#SpecialNumberの処理
+		#おりんだったらリセット
+		if ( (gc.getInfoTypeForString('UNIT_RIN0') <= pUnit.getUnitType() and pUnit.getUnitType() <= gc.getInfoTypeForString('UNIT_RIN6')) or
+			(gc.getInfoTypeForString('UNIT_RIN_CATMODE0') <= pUnit.getUnitType() and pUnit.getUnitType() <= gc.getInfoTypeForString('UNIT_RIN_CATMODE6')) ):
+			pUnit.setSpecialNumber(0)
+		#一輪だったらリセット
+		if  gc.getInfoTypeForString('UNIT_ICHIRIN0') <= pUnit.getUnitType() and pUnit.getUnitType() <= gc.getInfoTypeForString('UNIT_ICHIRIN6'):
+			pUnit.setSpecialNumber(0)
+			
+		#清蘭だったらリセット
+		if  gc.getInfoTypeForString('UNIT_SEIRAN0') <= pUnit.getUnitType() and pUnit.getUnitType() <= gc.getInfoTypeForString('UNIT_SEIRAN6'):
+			pUnit.setSpecialNumber(0)
+				
+		#スペルのブレークタイムを減らす
+		if pUnit.getNumSpellCardBreakTime > 0:
+			pUnit.setNumSpellCardBreakTime(pUnit.getNumSpellCardBreakTime()-1)
+		if pUnit.getNumSpellExtraBreakTime > 0:
+			pUnit.setNumSpellExtraBreakTime(pUnit.getNumSpellExtraBreakTime()-1)
+		if pUnit.getNumSpellPhantasmBreakTime > 0:
+			pUnit.setNumSpellPhantasmBreakTime(pUnit.getNumSpellPhantasmBreakTime()-1)
+				
+		#寅スキルによるお金ゲット
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SYOU_SKILL1')):
+			iNumGold = gc.getGame().getSorenRandNum( pUnit.baseCombatStr()*5,"tora skill")
+			if (pPlayer.getGold() > iNumGold):
+				if gc.getGame().getSorenRandNum( 100,"tora skill") < 2:
+					iNumGold = -iNumGold
+			pPlayer.changeGold(iNumGold)
+				
+		#レティスキルがあれば
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_LETTY_SKILL1')):
+			pPlot = pUnit.plot()
+			if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_DESERT') and pPlot.getFeatureType() != gc.getInfoTypeForString('FEATURE_OASIS') and pPlot.getFeatureType() != gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
+				if pUnit.getDamage() == 0:
+					pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
+					pUnit.changeDamage(40,pUnit.getOwner())
+			if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
+				pUnit.changeDamage(-40,pUnit.getOwner())
+			if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
+				pUnit.changeDamage(-80,pUnit.getOwner())
+		
+		#加奈子のスキルがあれば、周囲のユニットが寝返る
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KANAKO_SKILL1')) and pUnit.getUnitType() != gc.getInfoTypeForString('UNIT_KANAKO0'):
+			pTeam = gc.getTeam(pUnit.getTeam())
+			for iX in range(pUnit.getX()-1,pUnit.getX()+2):
+				for iY in range(pUnit.getY()-1,pUnit.getY()+2):
+					if Functions.isPlot(iX,iY):
+						pPlot = gc.getMap().plot(iX,iY)
+						for i in range(pPlot.getNumUnits()):
+							if pTeam.isAtWar(pPlot.getUnit(i).getTeam()):
+								if pPlot.getUnit(i).getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_BOSS') and pPlot.getUnit(i).getUnitCombatType() != gc.getInfoTypeForString("UNITCOMBAT_STANDBY"):
+									if gc.getGame().getSorenRandNum(100, "kanako skill") < 5:
+										RevivalUnit = pPlot.getUnit(i).getUnitType()
+										plotX = pUnit.getX()
+										plotY = pUnit.getY()
+										iExperience = pPlot.getUnit(i).getExperience()
+										iLevel = pPlot.getUnit(i).getLevel()
+										newUnit1 = gc.getPlayer(pUnit.getOwner()).initUnit(RevivalUnit, plotX, plotY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+										
+										newUnit1.changeExperience(iExperience,-1,false,false,false)
+										newUnit1.changeLevel(iLevel-1)
+										
+										#もともと持っていた昇進をそのまま移行させる
+										PromotionStart = gc.getNumCommandInfos()+InterfaceModeTypes.NUM_INTERFACEMODE_TYPES+gc.getNumBuildInfos()
+										PromotionEnd = gc.getNumCommandInfos()+InterfaceModeTypes.NUM_INTERFACEMODE_TYPES+gc.getNumBuildInfos()+gc.getNumPromotionInfos()
+										PromotionNum = PromotionEnd - PromotionStart
+										
+										for iPromotion in range(PromotionNum):
+											if pPlot.getUnit(i).isHasPromotion(iPromotion):
+												newUnit1.setHasPromotion(iPromotion,True)
+										newUnit1.finishMoves()
+										pPlot.getUnit(i).changeDamage(100,iPlayer)
+				
+		#てゐのスキルがあれば、同スタックのユニットにいたずらを仕掛ける。自分は含まれない。
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TEWI_SKILL1')):
+			pPlot = pUnit.plot()
+			for i in range(pPlot.getNumUnits()):
+				if pUnit.getUnitType() != pPlot.getUnit(i).getUnitType():
+					if pPlot.getUnit(i).getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS') or pPlot.getUnit(i).getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_STANDBY'):
+						if gc.getGame().getSorenRandNum(100, "ITAZURA of TEWI") < 10:
+							pPlot.getUnit(i).changeExperience(1,-1,False,False,False)
+							pUnit.changeExperience(1,-1,False,False,False)
+					else:
+						if gc.getGame().getSorenRandNum(100, "ITAZURA of TEWI") < 30:  
+							pPlot.getUnit(i).changeExperience(1,-1,False,False,False)
+		
+		#えーりんのスキルがあれば同スタックを回復30％
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_EIRIN_SKILL1')):
+			pPlot = pUnit.plot()
+			iNumUnit = pPlot.getNumUnits()
+			for i in range(iNumUnit):
+				pPlot.getUnit(i).changeDamage(-30,iPlayer)
+		
+		#メディのスキルがあれば同スタックを回復５％
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MEDICIN_SKILL1')):
+			pPlot = pUnit.plot()
+			iNumUnit = pPlot.getNumUnits()
+			for i in range(iNumUnit):
+				pPlot.getUnit(i).changeDamage(-5,iPlayer)
+		
+		#アリスのスキルがあれば、15％の確率で上海召喚 昇進をある程度受け継ぐ
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_ALICE_SKILL1')) and pUnit.getUnitType() != gc.getInfoTypeForString('UNIT_ALICE0'):
+			iSummonNum = 20# gc.getGame().getSorenRandNum(20, "summon SHANGHAI")
+			#ゲーム速度による変化
+			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_MARATHON'):
+				iSummonNum = iSummonNum * 50 / 100
+			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_EPIC'):
+				iSummonNum = iSummonNum * 75 / 100
+			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_QUICK'):
+				iSummonNum = iSummonNum * 150 / 100
+			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_TENGU'):
+				iSummonNum = iSummonNum * 200 / 100
+			if gc.getGame().getSorenRandNum(100, "summon SHANGHAI") < iSummonNum:
+				iPlayer = pUnit.getOwner()
+				pPlayer = gc.getPlayer(iPlayer)
+				iX = pUnit.getX()
+				iY = pUnit.getY()
+				if gc.getGame().getSorenRandNum(100,"Alice Skill") < 50:
+					iNumNewUnit = pUnit.getUnitType() - gc.getInfoTypeForString('UNIT_ALICE1') + gc.getInfoTypeForString('UNIT_SHANGHAI_DOLL1')
+				else:
+					iNumNewUnit = pUnit.getUnitType() - gc.getInfoTypeForString('UNIT_ALICE1') + gc.getInfoTypeForString('UNIT_HOURAI_DOLL1')
+				
+				newUnit = pPlayer.initUnit(iNumNewUnit, iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+				
+				if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_COMBAT1')):
+					newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_COMBAT1'),True)
+				if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_COMBAT2')):
+					newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_COMBAT2'),True)
+				if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_COMBAT3')):
+					newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_COMBAT3'),True)
+				if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_COMBAT4')):
+					newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_COMBAT4'),True)
+				if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_COMBAT5')):
+					newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_COMBAT5'),True)
+				if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_COMBAT6')):
+					newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_COMBAT6'),True)
+				if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_DRILL1')):
+					newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DRILL1'),True)
+				if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_DRILL2')):
+					newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DRILL2'),True)
+				if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_DRILL3')):
+					newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DRILL3'),True)
+				if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_DRILL4')):
+					newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DRILL4'),True)
+		
+		#統合MOD追記部分
+		
+		#おりんごのスキルがあれば同スタックを回復15％
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RINGO_SKILL1')):
+			pPlot = pUnit.plot()
+			iNumUnit = pPlot.getNumUnits()
+			for i in range(iNumUnit):
+				pPlot.getUnit(i).changeDamage(-30,iPlayer)
+		
+		#萃香とさとり（コピー時）の変身処理
+		#オリジナルから多少処理を変える
+		
+		if pUnit.getNumTransformTime() > 0:
+			#すいかが変身中なら、変身時間が切れたら元に戻る
+			if gc.getInfoTypeForString("UNIT_SUIKA_BIG1") <= pUnit.getUnitType() and pUnit.getUnitType() <= gc.getInfoTypeForString("UNIT_SUIKA_BIG6"):
+				pUnit.setNumTransformTime( pUnit.getNumTransformTime() - 1 )
+				if pUnit.getNumTransformTime() <= 0:
+					iDamage = pUnit.getDamage()
+					TransformUnit = pUnit.getUnitType() - gc.getInfoTypeForString("UNIT_SUIKA_BIG1") + gc.getInfoTypeForString("UNIT_SUIKA1")
+					newUnit1 = pPlayer.initUnit(TransformUnit, pUnit.getX(), pUnit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+					newUnit1.convert(pUnit)
+					#newUnit1.changeDamage(iDamage,pUnit.getOwner())
+					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_EASY'),False )
+					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_NORMAL'),False )
+					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_HARD'),False )
+					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_LUNATIC'),False )
+		
+		#統合MOD追記部分
+		#萃香＠妖怪の山の変身終了処理
+			if gc.getInfoTypeForString("UNIT_SUIKA_BIG1_YOUKAI") <= pUnit.getUnitType() and pUnit.getUnitType() <= gc.getInfoTypeForString("UNIT_SUIKA_BIG6_YOUKAI"):
+				pUnit.setNumTransformTime( pUnit.getNumTransformTime() - 1 )
+				if pUnit.getNumTransformTime() <= 0:
+					iDamage = pUnit.getDamage()
+					TransformUnit = pUnit.getUnitType() - gc.getInfoTypeForString("UNIT_SUIKA_BIG1_YOUKAI") + gc.getInfoTypeForString("UNIT_SUIKA1_YOUKAI")
+					newUnit1 = pPlayer.initUnit(TransformUnit, pUnit.getX(), pUnit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+					newUnit1.convert(pUnit)
+					#newUnit1.changeDamage(iDamage,pUnit.getOwner())
+					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_EASY'),False )
+					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_NORMAL'),False )
+					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_HARD'),False )
+					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_LUNATIC'),False )
+		#統合MOD追記部分ここまで
+		
+		#さとりの変身タイムが切れた場合は昇進だけが無くなる
+			if gc.getInfoTypeForString("UNIT_SATORI1") <= pUnit.getUnitType() and pUnit.getUnitType() <= gc.getInfoTypeForString("UNIT_SATORI6"):
+				pUnit.setNumTransformTime( pUnit.getNumTransformTime() - 1 )
+				if pUnit.getNumTransformTime() <= 0:
+					pUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_EASY'),False )
+					pUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_NORMAL'),False )
+					pUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_HARD'),False )
+					pUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_LUNATIC'),False )
+			
+		#森羅結界のカウントを減少させる
+		#東方叙事詩・統合MOD追記
+		#結界無しオプションFalseの時のみ判定
+		#更に追記：おまけに同判定でAIが行う処理も入れたいので順番も入れ替える
+		
+		if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+			if gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_NO_OUKA')) == False:
+				if pUnit.getSinraDelayTurn() > 0:
+					if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_ZIKI')):
+						pUnit.setSinraDelayTurn( pUnit.getSinraDelayTurn() - ( 10 + pUnit.countCardAttackLevel() )*2)
+					else:
+						pUnit.setSinraDelayTurn(pUnit.getSinraDelayTurn() - 10 - pUnit.countCardAttackLevel())
+				else:
+					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_OUKAKEKKAI'),True)
+		
+			#AIのとき
+			if pPlayer.isHuman() == False:
+				#もしルートが選択されいなければ、再選択
+				if pUnit.getAIPromotionRoute()<1 or pUnit.getAIPromotionRoute()>3:
+					if pPlayer.getAIPromotionRoute() > 0:
+						pUnit.setAIPromotionRoute(pPlayer.getAIPromotionRoute())
+					else:
+						pUnit.setAIPromotionRoute( gc.getGame().getSorenRandNum(3,'PromotionRoute') + 1  )
+				#コンバットルートはちょいと特殊なので、連結して２回判定をする
+				PromoList = TohoUnitList.getAIPromotionList[pUnit.getAIPromotionRoute()-1] + TohoUnitList.getAIPromotionList[pUnit.getAIPromotionRoute()-1]
+				for sPromotion in PromoList:
+					iExperience = pUnit.getExperience()
+					iLevel = pUnit.getLevel()
+					PromotionFlag = False
+					if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_CHARISMATIC')):
+						if iExperience >= (iLevel*iLevel+1 + 1) *3 /4:
+							PromotionFlag = True
+					else:
+						if iExperience >= iLevel*iLevel + 1:
+							PromotionFlag = True
+					
+					if PromotionFlag == True:
+						if pUnit.canAcquirePromotion(gc.getInfoTypeForString(sPromotion)):
+							pUnit.changeLevel(1)
+							pUnit.setHasPromotion(gc.getInfoTypeForString(sPromotion),True)
+							pUnit.changeDamage(-(pUnit.getDamage() / 2),iPlayer);
+							#print pUnit.getID()
+							#print sPromotion
+							
+						#もしCALアップ昇進ならば、経験値がなくなるまで取得させる
+						if sPromotion == 'PROMOTION_CARD_ATTACK_LEVEL_UP':
+							pUnit.setNumAcquisSpellPromotion(pUnit.getNumAcquisSpellPromotion()+1)
+							pUnit.setHasPromotion(gc.getInfoTypeForString(sPromotion),False)
+							while(1):
+								iExperience = pUnit.getExperience()
+								iLevel = pUnit.getLevel()
+								PromotionFlag = False
+								if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_CHARISMATIC')):
+									if iExperience >= (iLevel*iLevel+1 + 1) *3 /4:
+										PromotionFlag = True
+								else:
+									if iExperience >= iLevel*iLevel + 1:
+										PromotionFlag = True
+								
+								if PromotionFlag == True:
+									pUnit.changeLevel(1)
+									pUnit.changeDamage(-(pUnit.getDamage() / 2),iPlayer);
+									pUnit.setNumAcquisSpellPromotion(pUnit.getNumAcquisSpellPromotion()+1)
+								else:
+									break
+									
+				#スペルルートのAI東方ユニットにスペルを使用させる
+				#if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+				#if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS') and pUnit.getAIPromotionRoute() == 3 and pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SPELL_CASTED')) == False:
+				#if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS') and pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SPELL_CASTED')) == False:
+				Functions.AISpellCast(pUnit)
+
+		
+		
+		#CALが１６以上の子は確率で桜花結界を獲得する
+		#注釈：ご覧のとおりコメントアウト枠だけど、取りあえず残しておく
+		#if pUnit.countCardAttackLevel() >= 16 :
+		#	if gc.getGame().getSorenRandNum(100,"get oukakekkai") < pUnit.countCardAttackLevel():
+		#		pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_OUKAKEKKAI'),True)
+		
+		#歴史喰い PROMOTION_REKISHIを持ってる子が居たら、それを削除するか一つさげる
+		#if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_EASY')):
+		#	pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_EASY'),False)
+		#if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_NORMAL')):
+		#	pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_NORMAL'),False)
+		#	pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_EASY'),True)
+		#if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_HARD')):
+		#	pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_HARD'),False)
+		#	pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_NORMAL'),True)
+		#if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_LUNATIC')):
+		#	pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_LUNATIC'),False)
+		#	pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_HARD'),True)
+				
+				
+				
+		#東方ユニットであることが前提の処理ここまで
+		
+		
+	def BPTprocessPromotions(self, pUnit, argsList):
+		#ターン経過で消滅するタイプのバフ・デバフ昇進はここで処理する
+		iGameTurn, iPlayer = argsList
+		
+		py = PyPlayer(iPlayer)
+		pPlayer = gc.getPlayer(iPlayer)
+		BarbarianFlag = False
+		TurnPromoFlag = False
+		#ほぼ総入れ替えに近い事をやるため、折角なのでバフとデバフで分ける
+		#バフ系かいし
+		#さとりスペカによる昇進をもっていた場合、１ランクずつ下げる
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR1')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR1'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR2')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR2'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR1'),True)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR3')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR3'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR2'),True)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR4')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR4'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR3'),True)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR5')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR5'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR4'),True)
+			
+		#せーらんスペカ・ルナティックガンの処理
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_LUNATICGUN_LV1')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LUNATICGUN_LV1'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		#レベル2
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_LUNATICGUN_LV2_TURN1')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LUNATICGUN_LV2_TURN1'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_LUNATICGUN_LV2_TURN2')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LUNATICGUN_LV2_TURN1'),True)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LUNATICGUN_LV2_TURN2'),False)
+		#レベル3
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_LUNATICGUN_LV3_TURN1')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LUNATICGUN_LV3_TURN1'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_LUNATICGUN_LV3_TURN2')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LUNATICGUN_LV3_TURN1'),True)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LUNATICGUN_LV3_TURN2'),False)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_LUNATICGUN_LV3_TURN3')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LUNATICGUN_LV3_TURN2'),True)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_LUNATICGUN_LV3_TURN3'),False)
+			
+		#PROMOTION_NEKKYOUを持ってる子がいたら、昇進消滅
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_NEKKYOU')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_NEKKYOU'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+			
+		#PROMOTION_HOTARUNOHIKARIを持ってる子がいたら、それを削除
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_HOTARUNOHIKARI')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HOTARUNOHIKARI'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+
+		#シルフィホルンの除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SYLPHAEHORN')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SYLPHAEHORN'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		
+		#魔法障壁をもってる子がいたら、その昇進を除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_BARRIER')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_BARRIER'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+			
+		#式の式をもってる子がいたら、その昇進を除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SHIKINOSHIKI')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHIKINOSHIKI'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+				
+		#火ねずみの皮衣をもっていれば除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_HINEZUMINOKAWAGOROMO')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HINEZUMINOKAWAGOROMO'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+				
+		#PROMOTION_DOLLS_WARを持ってる子がいたら、それを除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_DOLLS_WAR')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DOLLS_WAR'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		
+		#昇進：スコアデザイアイーターを持っていた場合、それを除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SCORE_DESIRE')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SCORE_DESIRE'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		
+		#昇進：壁抜けを持っていた場合、それを除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KABENUKE')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KABENUKE'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+				
+		#正邪Phを所有しているユニットの処理
+		#小槌反動処理
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_1TURN')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_1TURN'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_2TURN')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_2TURN'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_1TURN'),True)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_3TURN')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_3TURN'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_2TURN'),True)
+		#小槌効力継続中処理
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_1TURN')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_1TURN'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_3TURN'),True)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_2TURN')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_2TURN'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_1TURN'),True)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_3TURN')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_3TURN'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_2TURN'),True)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_4TURN')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_4TURN'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_3TURN'),True)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_5TURN')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_5TURN'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_4TURN'),True)
+			
+		#「始原のビート」を持っている場合、それを除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_PRISTINE_BEAT')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_PRISTINE_BEAT'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		
+		#「八咫鏡」を持っている場合、それを除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_YATANOKAGAMI_TURN1')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_YATANOKAGAMI_TURN1'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_YATANOKAGAMI_TURN2')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_YATANOKAGAMI_TURN2'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_YATANOKAGAMI_TURN1'),True)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_YATANOKAGAMI_TURN3')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_YATANOKAGAMI_TURN3'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_YATANOKAGAMI_TURN2'),True)
+		
+		#「スピードストライク」を持っている場合、それを除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SPEED_STRIKE')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SPEED_STRIKE'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		
+		#溜め中の昇進がある場合、それを除去させつつ溜め発動を付与
+		#溜め発動の昇進がある場合、それを除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TAME_KANRYOU')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TAME_KANRYOU'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TAMETYUU')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TAMETYUU'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TAME_KANRYOU'),True)
+			
+		
+		#バフ系ここまで
+		
+		#デバフ系かいし
+		
+		#復活後のディレイを減少
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_1')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_1'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_2')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_2'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_1'),True)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_3')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_3'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_2'),True)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_4')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_4'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_3'),True)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_5')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_5'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_4'),True)
+		
+		#PROMOTION_FREEZEをもってる子がいたら、ダメージを25％与え、行動終了・・・できない　1/2で昇進削除
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_FREEZE')):
+			TurnPromoFlag = True
+			#pUnit.changeDamage(25,iPlayer)
+			#pUnit.finishMoves()
+			#pUnit.changeMoves(-5)
+			if gc.getGame().getSorenRandNum(100, "Toho Unit gets Experience Percent") < 50:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FREEZE'),False) 
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		
+		#PROMOTON_THEWORLD系を持っている子がいたら、ダメージを与えてそれを削除　20%以下にはならないように
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_EASY')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_EASY'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+			if 19 < (100-pUnit.getDamage()) and (100-pUnit.getDamage()) < 50:
+				pUnit.setDamage(80,iPlayer)
+			elif (100-pUnit.getDamage()) >= 40:
+				pUnit.changeDamage(30,iPlayer)
+			
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_NORMAL')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_NORMAL'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+			if 19 < (100-pUnit.getDamage()) and (100-pUnit.getDamage()) < 60:
+				pUnit.setDamage(80,iPlayer)
+			elif (100-pUnit.getDamage()) >= 50:
+				pUnit.changeDamage(40,iPlayer)
+			
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_HARD')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_HARD'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+			if 19 < (100-pUnit.getDamage()) and (100-pUnit.getDamage()) < 70:
+				pUnit.setDamage(80,iPlayer)
+			elif (100-pUnit.getDamage()) >= 60:
+				pUnit.changeDamage(50,iPlayer)
+			
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_LUNATIC')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_LUNATIC'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+			if 19 < (100-pUnit.getDamage()) and (100-pUnit.getDamage()) < 80:
+				pUnit.setDamage(80,iPlayer)
+			elif (100-pUnit.getDamage()) >= 70:
+				pUnit.changeDamage(60,iPlayer)
+			
+		#PROMOTION_KURAYAMIを持ってる子が居たら、20％の確率でそれを除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KURAYAMI')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100,"Remove PROMOTION_KURAYAMI") < 20:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KURAYAMI'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+				
+		#PROMOTION_POISON系を持ってる子が居たら、ものによってダメージを与えてから30％の確率でそれを除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON1')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100,"Remove Poison1") < 30:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON1'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+			
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON2')):
+			TurnPromoFlag = True
+			pUnit.changeDamage(15,iPlayer)
+			if gc.getGame().getSorenRandNum(100,"Remove Poison2") < 30:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON2'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON3')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100,"Remove Poison3") < 30:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON3'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+			
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON4')):
+			TurnPromoFlag = True
+			pUnit.changeDamage(15,iPlayer)
+			if gc.getGame().getSorenRandNum(100,"Remove Poison4") < 30:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON4'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+			
+		#PROMOTION_CHARMを持ってる子がいたら、５０％の確率でそれを除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_CHARM')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100,"Remove Charm") < 50:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_CHARM'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+			
+		#狂気をもっていたら確率でさまざまな行動を取る
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MADNESS')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100, "MADNESS") < 50:        #正気に戻る
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_MADNESS'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+			if gc.getGame().getSorenRandNum(100, "MADNESS") < 15:        #蛮族化
+				BarbarianFlag = True
+			if gc.getGame().getSorenRandNum(100, "MADNESS") < 25:        #自分に固定ダメージ
+				iDamage =  gc.getGame().getSorenRandNum(41, "MADNESS damage") + 10
+				pUnit.changeDamage(iDamage,pUnit.getOwner())
+			if gc.getGame().getSorenRandNum(100, "MADNESS") < 25:     #同スタックにダメージ
+				UnitList = []
+				pPlot = pUnit.plot()
+				for i in range(pPlot.getNumUnits()):
+					pUnit = pPlot.getUnit(i)
+					if pUnit.getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_STANDBY') and pUnit.getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+						UnitList.append(pUnit)
+				for i in range(5):
+					if len(UnitList) > 0:
+						iRandNum2 = gc.getGame().getSorenRandNum(len(UnitList), "MADNESS rand")
+						iDamage =  gc.getGame().getSorenRandNum(6, "MADNESS damage") + 5
+						UnitList[iRandNum2].changeDamage(iDamage,pUnit.getOwner())
+						if UnitList[iRandNum2].getDamage >= 100:
+							del UnitList[iRandNum2]
+			if gc.getGame().getSorenRandNum(100, "MADNESS") < 25: #魅了される
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_CHARM'),True)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() +1)
+			if gc.getGame().getSorenRandNum(100, "MADNESS") < 25: #耐久力半減
+				iDamage = (100-pUnit.getDamage()) / 2
+				pUnit.changeDamage(iDamage,pUnit.getOwner())
+			if gc.getGame().getSorenRandNum(100, "MADNESS") < 25:       #勝手に歩く
+				#周囲2マスで空いてる場所を探す、なければ動かない
+				ClearPlotList = []
+				for iX in range(pUnit.getX()-2,pUnit.getX()+3):
+					for iY in range(pUnit.getY()-2,pUnit.getY()+3):
+						if gc.getMap().plot(iX,iY).getNumUnits() == 0:
+							ClearPlotList.append([iX,iY])
+				if len(ClearPlotList)!=0:
+					iNum = gc.getGame().getSorenRandNum(len(ClearPlotList), "create barbarian plot")
+					pUnit.setXY(ClearPlotList[iNum][0],ClearPlotList[iNum][1],False,True,True)
+				
+		#パルスィのスペカによる昇進、嫉妬心を持っていた場合、確率で蛮族化
+		#注釈：パルスィスペカは途中でグリーンアイドモンスターの方になりこっちは陳腐化したと思われる
+		#でも一応残しておくことに
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_EASY')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100, "SHITTOSHIN EASY") < 10:
+				BarbarianFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_EASY'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_NORMAL')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100, "SHITTOSHIN NORMAL") < 10:
+				BarbarianFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_NORMAL'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_EASY'),True)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_HARD')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100, "SHITTOSHIN NORMAL") < 10:
+				BarbarianFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_HARD'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_NORMAL'),True)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_LUNATIC')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100, "SHITTOSHIN NORMAL") < 10:
+				BarbarianFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_LUNATIC'),False)
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_HARD'),True)
+				
+		#鳥目をもっていたら、条件次第で除去する
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TORIME')):
+			TurnPromoFlag = True
+			RangeList = [ [-1,-1],[ 0,-1],[ 1,-1],[-1, 0], [ 0, 0],[ 1, 0],[-1, 1],[ 0, 1],[ 1, 1], ]
+			if Functions.checkUnit(pUnit.getX(),pUnit.getY(),RangeList,gc.getInfoTypeForString('UNIT_MYSTIA1'),gc.getInfoTypeForString('UNIT_MYSTIA6')) == False:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TORIME'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+				
+		#弾幕結界をもっていたらすこしずつダメージを受ける
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_DANMAKUKEKKAI')):
+			TurnPromoFlag = True
+			pUnit.setDanmakuKekkai( pUnit.getNowDanmakuKekkai()+1 , pUnit.getMaxDanmakuKekkai() )
+			if (pUnit.getNowDanmakuKekkai() >= pUnit.getMaxDanmakuKekkai()):
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANMAKUKEKKAI'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+			iDamage = pUnit.getNowDanmakuKekkai() * 5 + 5
+			if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+				iDamage /= 2
+			iDamage = iDamage *  (100 - pUnit.countSpellTolerance()) / 100
+			pUnit.changeDamage(iDamage,pUnit.getOwner())
+					
+		#「スタン」を除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_STAN')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_STAN'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+				
+		#寒気の昇進をもっていれば、地形に応じて除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_FROST')):
+			TurnPromoFlag = True
+			pPlot = pUnit.plot()
+			if pPlot.getTerrainType() != gc.getInfoTypeForString('TERRAIN_TUNDRA') and  pPlot.getTerrainType() != gc.getInfoTypeForString('TERRAIN_SNOW'):
+				if gc.getGame().getSorenRandNum(100,"Letty Skill") < 50:
+					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FROST'),False)
+					pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+				
+		#「どしゃぶり」を25％の確率で除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_HEAVY_RAIN')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100,"Kogasa Skill") < 25:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HEAVY_RAIN'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+				
+		#昇進：ゾンビの毒を持っていた場合、25％で除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_ZOMBIE_POISON')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100,"Remove ZombiePoison") < 25:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ZOMBIE_POISON'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+				
+		#「操作反転」を25％の確率で除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SOUSA_HANTEN_A')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100,"Seija Skill") < 25:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SOUSA_HANTEN_A'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SOUSA_HANTEN_B')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100,"Seija Skill") < 25:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SOUSA_HANTEN_B'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		#「上下反転」を50％の確率で除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_JOUGE_HANTEN_A')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100,"Seija Skill") < 50:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_JOUGE_HANTEN_A'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_JOUGE_HANTEN_B')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100,"Seija Skill") < 50:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_JOUGE_HANTEN_B'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+		
+		#久遠の夢をもっていれば確率で除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KUONNOYUME')):
+			TurnPromoFlag = True
+			if gc.getGame().getSorenRandNum(100,"Mima Skill") < 30:
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KUONNOYUME'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+				
+		#びっくりをもっていれば除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_OOPS')):
+			TurnPromoFlag = True
+			pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_OOPS'),False)
+			pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+			
+		#昇進：発火を持っていた場合、ダメージを25％与えた後に50％で除去
+		#注釈：これは布都EX初期実装時まだ技術力・知識不足で比較的簡単なものしか出来なかったため導入した簡易的なもの
+		#既に陳腐化していて現在は（記憶が確かなら）使われていない
+		#が、何かの役に立つかもしれないので取りあえずコメントアウトで置いておく
+		#if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_HAKKA')):
+		#	pUnit.changeDamage(25,iPlayer)
+		#	if gc.getGame().getSorenRandNum(100,"Remove Hakka") < 50:
+		#		pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HAKKA'),False)
+		
+		#昇進：恐怖を持っていた場合、一般ユニットなら50%、東方ユニットなら100％でそれを除去
+		if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_FEAR')):
+			TurnPromoFlag = True
+			if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FEAR'),False)
+				pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+			else:
+				if gc.getGame().getSorenRandNum(100,"Remove Fear") < 50:
+					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FEAR'),False)
+					pUnit.setNumTurnPromo(pUnit.getNumTurnPromo() -1)
+
+				
+				
+
+				
+			#デバフ系ここまで
+			#以後はその他の昇進を処理
+				
+		#ターン系昇進を持っていないにも関わらずTurnPromoの値を持っている場合、リセットする
+		if not TurnPromoFlag:
+			pUnit.setNumTurnPromo(0)
+				
+		#蛮族化
+		#厳密に言うと昇進ではないが、ここで処理が望ましい
+		if BarbarianFlag == True:
+			BarBarianUnit = pUnit.getUnitType()
+			plotX = pUnit.getX()
+			plotY = pUnit.getY()
+			iExperience = pUnit.getExperience()
+			iLevel = pUnit.getLevel()
+			
+			#周囲１マスで空いてる場所を探す、なければ消滅
+			ClearPlotList = []
+			for iX in range(plotX-1,plotX+2):
+				for iY in range(plotY-1,plotY+2):
+					if gc.getMap().plot(iX,iY).getNumUnits() == 0:
+						ClearPlotList.append([iX,iY])
+						
+			if len(ClearPlotList)!=0:
+				iNum = gc.getGame().getSorenRandNum(len(ClearPlotList), "create barbarian plot")
+				iiX = ClearPlotList[iNum][0]
+				iiY = ClearPlotList[iNum][1]
+				newUnit1 = gc.getPlayer(gc.getBARBARIAN_PLAYER()).initUnit(BarBarianUnit, iiX, iiY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+				
+				newUnit1.changeExperience(iExperience,-1,false,false,false)
+				newUnit1.changeLevel(iLevel-1)
+				
+				#もともと持っていた昇進をそのまま移行させる
+				PromotionStart = gc.getNumCommandInfos()+InterfaceModeTypes.NUM_INTERFACEMODE_TYPES+gc.getNumBuildInfos()
+				PromotionEnd = gc.getNumCommandInfos()+InterfaceModeTypes.NUM_INTERFACEMODE_TYPES+gc.getNumBuildInfos()+gc.getNumPromotionInfos()
+				PromotionNum = PromotionEnd - PromotionStart
+				
+				for iPromotion in range(PromotionNum):
+					if pUnit.isHasPromotion(iPromotion):
+						newUnit1.setHasPromotion(iPromotion,True)
+				newUnit1.setNumTurnPromo(pUnit.getNumTurnPromo())
+				newUnit1.finishMoves()
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_EASY'),False)
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_NORMAL'),False)
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_HARD'),False)
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_LUNATIC'),False)
+				
+			pUnit.changeDamage(100,pUnit.getOwner())
+				
+					
+		
+		
+	def BPTprocessAITurn(self, argsList):
+		iGameTurn, iPlayer = argsList
+		#主にAI側の処理（AI世界魔法など）を纏めるとこ
+		py = PyPlayer(iPlayer)
+		pPlayer = gc.getPlayer(iPlayer)
+		pTeam = gc.getTeam(pPlayer.getTeam())
+		
+		#print pPlayer.getID() + 1000
+		#print pPlayer.getAIPromotionRoute()
+		
+		#人間の里で世界魔法が可能なとき、条件によって世界魔法を使用する
+		iCiv = pPlayer.getCivilizationType()
+		if iCiv == gc.getInfoTypeForString('CIVILIZATION_INDIA'):
+			if pPlayer.getNumWorldSpell()>0:
+				if gc.getGame().getGameTurn() > 50:
+					pTeam = gc.getTeam(pPlayer.getTeam())
+					iNumTeam = gc.getGame().countCivTeamsAlive() + gc.getGame().countCivTeamsEverAlive()
+					for i in range(iNumTeam):
+						ppTeam = gc.getTeam(i)
+						if ppTeam.isBarbarian() == False:
+							if pTeam.isAtWar(i):
+								pPlayer.changeGoldenAgeTurns(pPlayer.getGoldenAgeLength())
+								pPlayer.setNumWorldSpell(0)
+								CyInterface().addImmediateMessage("&#20154;&#38291;&#12398;&#37324;&#12364;&#32080;&#26463;&#12434;&#39640;&#12417;&#40644;&#37329;&#26399;&#12364;&#30330;&#21205;&#12375;&#12414;&#12375;&#12383;","")
+		
+		#連合で世界魔法が可能なとき、条件によって世界魔法を使用する
+		iCiv = pPlayer.getCivilizationType()
+		if iCiv == gc.getInfoTypeForString('CIVILIZATION_ROME'):
+			if pPlayer.getNumWorldSpell()>0:
+				if gc.getGame().getGameTurn() > 50:
+					pTeam = gc.getTeam(pPlayer.getTeam())
+					iNumTeam = gc.getGame().countCivTeamsAlive() + gc.getGame().countCivTeamsEverAlive()
+					for i in range(iNumTeam):
+						ppTeam = gc.getTeam(i)
+						if ppTeam.isBarbarian() == False:
+							if pTeam.isAtWar(i):
+								#沸いてくるユニットは時代依存
+								iNumUnit = 5
+								if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_ANCIENT'):
+									iUnit = gc.getInfoTypeForString('UNIT_WARRIOR')
+									iNumUnit = 2
+								if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_CLASSICAL'):
+									iUnit = gc.getInfoTypeForString('UNIT_AXEMAN')
+									iNumUnit = 3
+								if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_MEDIEVAL'):
+									iUnit = gc.getInfoTypeForString('UNIT_MACEMAN')
+								if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_RENAISSANCE'):
+									iUnit = gc.getInfoTypeForString('UNIT_MUSKETMAN')
+								if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_INDUSTRIAL'):
+									iUnit = gc.getInfoTypeForString('UNIT_RIFLEMAN')
+								if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_MODERN'):
+									iUnit = gc.getInfoTypeForString('UNIT_INFANTRY')
+								if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_FUTURE'):
+									iUnit = gc.getInfoTypeForString('UNIT_MECHANIZED_INFANTRY')
+								
+								py = PyPlayer(iPlayer)
+								for pPyCity in py.getCityList():
+									pCity = pPlayer.getCity(pPyCity.getID())
+									iNum = pCity.getPopulation() / iNumUnit
+									if iNum < 1:
+										iNum = 1
+									if iNum > 3:
+										iNum = 3
+									for i in range(iNum):
+										newUnit = pPlayer.initUnit(iUnit, pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+										newUnit.changeExperience(gc.getGame().getSorenRandNum(6, "world spell rengou no kessoku"),-1,False,False,False)
+								pPlayer.setNumWorldSpell(0)
+								CyInterface().addImmediateMessage("&#22934;&#31934;&#12383;&#12385;&#12364;&#32080;&#26463;&#12434;&#39640;&#12417;&#37117;&#24066;&#12395;&#38598;&#32080;&#12375;&#12414;&#12375;&#12383;","")
+
+		#統合MOD追記部分
+		#輝針城の時世界魔法が使用可能な場合、世界魔法を使用する
+		iCiv = pPlayer.getCivilizationType()
+		if iCiv == gc.getInfoTypeForString('CIVILIZATION_MALI'):
+			if pPlayer.getNumWorldSpell()>0:
+				if gc.getGame().getGameTurn() > 50:
+					pTeam = gc.getTeam(pPlayer.getTeam())
+					iNumTeam = gc.getGame().countCivTeamsAlive() + gc.getGame().countCivTeamsEverAlive()
+					for i in range(iNumTeam):
+						ppTeam = gc.getTeam(i)
+						if ppTeam.isBarbarian() == False:
+							if pTeam.isAtWar(i):
+								TAIKOFlag = False
+								TYUUSEIFlag = False
+								KINDAIFlag = False
+								
+									#時代によって沸かせるユニットや計算式を変動させる
+								if (pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_ANCIENT')) or (pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_CLASSICAL')):
+									iUnitKOU = gc.getInfoTypeForString('UNIT_TSUKUMOGAMI_KOU_TAIKO')
+									iNumCityCountKOU = 3
+									TAIKOFlag = True
+								if (pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_MEDIEVAL')) or (pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_RENAISSANCE')):
+									iUnitKOU = gc.getInfoTypeForString('UNIT_TSUKUMOGAMI_KOU_TYUUSEI')
+									iUnitOTU = gc.getInfoTypeForString('UNIT_TSUKUMOGAMI_OTU_TYUUSEI')
+									iNumCityCountKOU = 5
+									iNumCityCountOTU = 8
+									TYUUSEIFlag = True
+								if (pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_INDUSTRIAL')) or (pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_MODERN')) or (pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_FUTURE')):
+									iUnitKOU = gc.getInfoTypeForString('UNIT_TSUKUMOGAMI_KOU_KINDAI')
+									iUnitOTU = gc.getInfoTypeForString('UNIT_TSUKUMOGAMI_OTU_KINDAI')
+									iNumCityCountKOU = 5
+									iNumCityCountOTU = 8
+									KINDAIFlag = True
+									
+								py = PyPlayer(iPlayer)
+								for pPyCity in py.getCityList():
+									pCity = pPlayer.getCity(pPyCity.getID())
+								
+									if TAIKOFlag == True:
+										iNumKOU = pCity.getPopulation() / iNumCityCountKOU
+										if iNumKOU > 2:
+											iNumKOU = 2
+										iNumOTU = 0
+		
+									elif TYUUSEIFlag == True:
+										iNumKOU = pCity.getPopulation() / iNumCityCountKOU
+										if iNumKOU < 1:
+											iNumKOU = 1
+										if iNumKOU > 3:
+											iNumKOU = 3
+
+										iNumOTU = pCity.getPopulation() / iNumCityCountOTU
+										if iNumOTU > 1:
+											iNumOTU = 1
+		
+									else:
+										iNumKOU = pCity.getPopulation() / iNumCityCountKOU
+										if iNumKOU < 1:
+											iNumKOU = 1
+										if iNumKOU > 3:
+											iNumKOU = 3
+			
+										iNumOTU = pCity.getPopulation() / iNumCityCountOTU
+										if iNumOTU < 1:
+											iNumOTU = 1
+										if iNumOTU > 3:
+											iNumOTU = 3
+		
+									if iNumKOU >= 1:
+										for i in range(iNumKOU):
+											newUnit = pPlayer.initUnit(iUnitKOU, pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+									if iNumOTU >= 1:
+										for i in range(iNumOTU):
+											newUnit = pPlayer.initUnit(iUnitOTU, pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+
+								pPlayer.setNumWorldSpell(0)
+								CyInterface().addImmediateMessage("&#36637;&#37341;&#22478;&#12398;&#21508;&#37117;&#24066;&#12391;&#20184;&#21930;&#31070;&#12364;&#22823;&#37327;&#30330;&#29983;&#12375;&#12414;&#12375;&#12383;&#65281;","")
+
+	def BPTprocessCity(self, pCity, argsList):
+		iGameTurn, iPlayer = argsList
+		py = PyPlayer(iPlayer)
+		pPlayer = gc.getPlayer(iPlayer)
+		pTeam = gc.getTeam(pPlayer.getTeam())
+		
+		#統合MOD追記部分
+		#そのプレイヤーの首都走査
+		pCapital = gc.getPlayer(pCity.getOwner()).getCapitalCity()
+		
+		#輝針城のユニット自動供給処理
+		## originai:king_richard_s_crusade ##
+		
+		if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_KISHINJOU")):
+			obsoleteTech = gc.getBuildingInfo(gc.getInfoTypeForString("BUILDING_KISHINJOU")).getObsoleteTech()
+			if ( pTeam.isHasTech(obsoleteTech) == false or obsoleteTech == -1 ):
+				iX = pCity.getX()
+				iY = pCity.getY()
+				tyousaheidan = gc.getInfoTypeForString( 'UNIT_KOBITO_TYOUSAHEIDAN' )
+				estiEnd = CyGame().getEstimateEndTurn()
+				if ( estiEnd >= 1000 ):
+					if ( iGameTurn % 12 ) == 0:
+						pNewUnit = pPlayer.initUnit( tyousaheidan, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
+				elif ( estiEnd >= 700 ):
+					if ( iGameTurn % 8 ) == 0:
+						pNewUnit = pPlayer.initUnit( tyousaheidan, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
+				elif ( estiEnd >= 500 ):
+					if ( iGameTurn % 6 ) == 0:
+						pNewUnit = pPlayer.initUnit( tyousaheidan, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
+
+				elif ( estiEnd >= 300 ):
+					if ( iGameTurn % 4 ) == 0:
+						pNewUnit = pPlayer.initUnit( tyousaheidan, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
+				else:
+					if ( iGameTurn % 4 ) == 0:
+						pNewUnit = pPlayer.initUnit( tyousaheidan, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
+
+				basechance = 12
+				estiEnd = CyGame().getEstimateEndTurn()
+				if ( estiEnd >= 1000 ):
+					basechance = basechance
+				elif ( estiEnd >= 700 ):
+					basechance = 6
+				elif ( estiEnd >= 500 ):
+					basechance = 4
+				elif ( estiEnd >= 300 ):
+					basechance = 2
+				else:
+					basechance = 1
+			
+		#統合MOD追記部分ここまで
+		
+		#小傘の固有志向があれば
+		if gc.getPlayer(pCity.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_KOGASALIST')):
+			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SADESM'),1)
+		
+		#無双モードであれば
+		if gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_MUSOU')) and gc.getPlayer(pCity.getOwner()).isHuman():
+			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_MUSOU_MODE'),1)
+		
+		
+		#統合MOD追記部分
+		
+		#指導者正邪が中世以降に無秩序を採用していたら、建造物天邪鬼設置
+		#これは移植不可、このまま置いておく方が安定
+		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_SEIJALIST')) and \
+			pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_ANCIENT') and \
+			pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_CLASSICAL') and \
+			pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LEGAL')) == gc.getInfoTypeForString('CIVIC_BARBARISM') and \
+			pCity.isCapital() and pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_AMANOJAKU")) == 0:
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_AMANOJAKU'),1)
+		
+		#集権志向持ちで、かつ首都に集権志向ボーナス建造物が無い場合は自動設置
+		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_CENTRALIZATION')):
+			if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_CENTRALIZATION")) == False:
+				pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CENTRALIZATION'),1)
+			
+		#統合MOD追記部分ここまで
+			
+		#謎の鳴き声があり、弓系ユニットが居た場合は除去
+		if pCity.isHasBuilding(gc.getInfoTypeForString('BUILDING_ENIGMATIC_CRY')):
+			pPlot = pCity.plot()
+			for i in range(pPlot.getNumUnits()):
+				pUnit = pPlot.getUnit(i)
+				if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_ARCHER'):
+					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ENIGMATIC_CRY'),0)
+					break
+		
+		
+		#都市に特定の建造物があり、特定のユニットがいなければ建造物消滅
+		for BuildingList in TohoUnitList.TohoUnitBuildingList:
+			sBuilding,sStartUnit,sEndUnit = BuildingList
+			if pCity.isHasBuilding(gc.getInfoTypeForString(sBuilding)):
+				if Functions.checkUnit(pCity.getX(),pCity.getY(),[[0,0],],gc.getInfoTypeForString(sStartUnit),gc.getInfoTypeForString(sEndUnit)) == False:
+					if sBuilding == 'BUILDING_SUZURAN':
+						if Functions.checkUnit(pCity.getX(),pCity.getY(),[[0,0],],gc.getInfoTypeForString('UNIT_MEDICINwithSU1'),gc.getInfoTypeForString('UNIT_MEDICINwithSU6')) == False:
+							pCity.setNumRealBuilding(gc.getInfoTypeForString(sBuilding),0)
+					if sBuilding == 'BUILDING_SHUEN':
+						if Functions.checkUnit(pCity.getX(),pCity.getY(),[[0,0],],gc.getInfoTypeForString('UNIT_SUIKA1_YOUKAI'),gc.getInfoTypeForString('UNIT_SUIKA6_YOUKAI')) == False:
+							pCity.setNumRealBuilding(gc.getInfoTypeForString(sBuilding),0)
+					else:
+						pCity.setNumRealBuilding(gc.getInfoTypeForString(sBuilding),0)
+			
+		#行商のある都市があれば、その都市の人口分の金銭がうどんげを所持する文明に入る
+		if pCity.isHasBuilding(gc.getInfoTypeForString('BUILDING_GYOUSHOU')):
+			#うどんげサーチ
+			flag = False
+			for i in range(19): #文明数のマジックナンバー
+				ppPlayer = gc.getPlayer(i)
+				if ppPlayer.isBarbarian() == False and ppPlayer.isAlive() == True:
+					ppy = PyPlayer(i)
+					for pUnit in ppy.getUnitList():
+						if gc.getInfoTypeForString('UNIT_REISEN0') <= pUnit.getUnitType() and pUnit.getUnitType() <= gc.getInfoTypeForString('UNIT_REISEN6'):
+							ppPlayer.changeGold(pCity.getPopulation() * ppPlayer.getCity(ppy.getCapitalCity().getID()).getTotalCommerceRateModifier(0) / 100)
+							flag = True
+							break
+					if flag:
+						break;
+								
+		#ミスティアコンサートのある都市があれば、全世界のファンクラブの数にあわせて金銭を入手
+		if pCity.isHasBuilding(gc.getInfoTypeForString('BUILDING_MYSTIACONCERT')):
+			#全都市検索
+			iChange = 0
+			for i in range(19):
+				ppPlayer = gc.getPlayer(i)
+				if ppPlayer.isBarbarian() == False and ppPlayer.isAlive() == True:
+					ppy = PyPlayer(i)
+					for ppyCity in ppy.getCityList():
+						ppCity = ppPlayer.getCity(ppyCity.getID())
+						if ppCity.isHasBuilding(gc.getInfoTypeForString('BUILDING_MYSTIA_FANCLUB')):
+							if pCity.getOwner() == ppCity.getOwner():
+								iChange = iChange + 1
+							if ppCity.hasBonus(gc.getInfoTypeForString('BONUS_YOSUZUNOUTA')):
+								iChange = iChange + 1
+			pCity.setBuildingCommerceChange(gc.getInfoTypeForString('BUILDINGCLASS_MYSTIACONCERT'),0,iChange)
+		
+		#ぱちぇの魔道書があれば、時代に応じて産出アップ
+		if pCity.isHasBuilding(gc.getInfoTypeForString('BUILDING_PATCHOULI_BOOK')):
+			iAge = gc.getPlayer(pCity.getOwner()).getCurrentEra()
+			pCity.setBuildingCommerceChange(gc.getInfoTypeForString('BUILDINGCLASS_PATCHOULI_BOOK'),1, (iAge+1) * 2 )
+		
+		#スペルモニュメントがあれば、時代に応じて産出アップ
+		if pCity.isHasBuilding(gc.getInfoTypeForString('BUILDING_SPELL_OBELISK')):
+			iAge = gc.getPlayer(pCity.getOwner()).getCurrentEra()
+			for i in range(3):
+				if pCity.getBuildingYieldChange(gc.getInfoTypeForString('BUILDINGCLASS_SPELL_OBELISK'),i) > 0:
+					if i==0:
+						pCity.setBuildingYieldChange(gc.getInfoTypeForString('BUILDINGCLASS_SPELL_OBELISK'),i,(TohoUnitList.SpellistAIBonusList[(iAge)]+1)/2 )
+					else:
+						pCity.setBuildingYieldChange(gc.getInfoTypeForString('BUILDINGCLASS_SPELL_OBELISK'),i,TohoUnitList.SpellistAIBonusList[iAge] )
+			for i in range(4):
+				if pCity.getBuildingCommerceChange(gc.getInfoTypeForString('BUILDINGCLASS_SPELL_OBELISK'),i) > 0:
+					pCity.setBuildingCommerceChange(gc.getInfoTypeForString('BUILDINGCLASS_SPELL_OBELISK'),i,TohoUnitList.SpellistAIBonusList[iAge] )
+			
+		#花畑があれば成長or枯化
+		if pCity.isHasBuilding(gc.getInfoTypeForString('BUILDING_NIJIIRONOHANABATAKE')):
+			MeirinFlag = False
+			for i in range(pCity.plot().getNumUnits()):
+				if gc.getInfoTypeForString('UNIT_MEIRIN0') <= pCity.plot().getUnit(i).getUnitType() and pCity.plot().getUnit(i).getUnitType() <= gc.getInfoTypeForString('UNIT_MEIRIN6'):
+					MeirinFlag = True
+			if MeirinFlag:
+				pCity.setFlowerGardenTurn( pCity.getFlowerGardenTurn()+1 )
+			else:
+				pCity.setFlowerGardenTurn( pCity.getFlowerGardenTurn()-1 )
+			
+			Growth = 0 #０なら変化無し　１なら成長　－１なら枯化
+			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_MARATHON'):
+				if pCity.getFlowerGardenTurn() >= 24:
+					Growth = 1
+				if pCity.getFlowerGardenTurn() <= 3:
+					Growth = -1
+			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_EPIC'):
+				if pCity.getFlowerGardenTurn() >= 22:
+					Growth = 1
+				if pCity.getFlowerGardenTurn() <= 4:
+					Growth = -1
+			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_NORMAL'):
+				if pCity.getFlowerGardenTurn() >= 20:
+					Growth = 1
+				if pCity.getFlowerGardenTurn() <= 5:
+					Growth = -1
+			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_QUICK'):
+				if pCity.getFlowerGardenTurn() >= 18:
+					Growth = 1
+				if pCity.getFlowerGardenTurn() <= 6:
+					Growth = -1
+			if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_TENGU'):
+				if pCity.getFlowerGardenTurn() >= 16:
+					Growth = 1
+				if pCity.getFlowerGardenTurn() <= 7:
+					Growth = -1
+			
+			iNumHappy = pCity.getBuildingHappyChange( gc.getInfoTypeForString('BUILDINGCLASS_NIJIIRONOHANABATAKE') )
+			iNumHealth = pCity.getBuildingHealthChange( gc.getInfoTypeForString('BUILDINGCLASS_NIJIIRONOHANABATAKE') )
+			if Growth > 0:
+				pCity.setFlowerGardenTurn(10)
+				if gc.getGame().getSorenRandNum(100, "hanabatake") < 50:
+					pCity.setBuildingHappyChange( gc.getInfoTypeForString('BUILDINGCLASS_NIJIIRONOHANABATAKE') , iNumHappy + 1 )
+				else:
+					pCity.setBuildingHealthChange( gc.getInfoTypeForString('BUILDINGCLASS_NIJIIRONOHANABATAKE') , iNumHealth + 1 )
+			if Growth < 0:
+				pCity.setFlowerGardenTurn(10)
+				if iNumHappy + iNumHealth <= 1 :
+					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_NIJIIRONOHANABATAKE'),0)
+				else:
+					if iNumHappy >= iNumHealth:
+						pCity.setBuildingHappyChange( gc.getInfoTypeForString('BUILDINGCLASS_NIJIIRONOHANABATAKE') , iNumHappy - 1 )
+					else:
+						pCity.setBuildingHealthChange( gc.getInfoTypeForString('BUILDINGCLASS_NIJIIRONOHANABATAKE') , iNumHealth - 1 )
+					if iNumHappy <= 0 and iNumHealth <= 0 :
+						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_NIJIIRONOHANABATAKE'),0)
+		
+		
+#統合MOD追記部分ここまで
+
 	def onBeginPlayerTurn(self, argsList):
 		'Called at the beginning of a players turn'
 		iGameTurn, iPlayer = argsList
@@ -681,78 +1980,33 @@ class CvEventManager:
 		if pPlayer.isHuman() == False and gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_STRONG_AI')):
 			pPlayer.setNumTohoUnitLimit( Limit + TohoUnitList.TohoNumList[Functions.getHandicap()] )
 		#CyInterface().addImmediateMessage(gc.getHandicapInfo(pPlayer.getHandicapType()).getDescription(),"")
-
-		
-		#そのプレイヤーのユニット全走査
-		for pUnit in py.getUnitList():
 			
+		#そのプレイヤーのユニット全捜査
+		for pUnit in py.getUnitList():
+			#東方ユニットの処理かいし
+			if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS') or pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_STANDBY'):
+				self.BPTprocessTohoUnit(pUnit, argsList)
+			
+			#一時昇進系の処理かいし
+			if pUnit.getNumTurnPromo() > 0:
+				self.BPTprocessPromotions(pUnit, argsList)
+			
+			#以下はひとまずここで処理するしかないもの
+			#東方ユニット以外にもついたりするものが中心
 			#SPELL_CASTEDをもってる子がいたら、それを除去 
 			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SPELL_CASTED')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),False) 
-			
-			#東方ユニットであればPower回復
-			if  pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS') or pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_STANDBY'):
-				Gain = 0.015
-				GainPer = 100
-				for item in TohoUnitList.PowerGainPromotionList:
-					if pUnit.isHasPromotion(gc.getInfoTypeForString(item[0])):
-						Gain = Gain + item[1]
-				for item in TohoUnitList.PowerGainPerPromotionList:
-					if pUnit.isHasPromotion(gc.getInfoTypeForString(item[0])):
-						GainPer = GainPer + item[1]
-				
-				Gain = Gain * GainPer / 100
-				
-				#時代補正
-				GainPer = 100
-				for item in TohoUnitList.PowerGainPerEraList:
-					if pPlayer.getCurrentEra() == gc.getInfoTypeForString(item[0]):
-						GainPer = GainPer + item[1]
-				Gain = Gain * GainPer / 100
-				
-				#ゲームスピード補正
-				GainPer = 100
-				for item in TohoUnitList.PowerGainPerGameSpeedList:
-					if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString(item[0]):
-						GainPer = item[1]
-				Gain = Gain * GainPer / 100
-				
-				#AI強化モードによる補正
-				if gc.getPlayer(pUnit.getOwner()).isHuman() == False and gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_STRONG_AI')):
-					Gain = Gain*2
-				#無双モードによる補正
-				if gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_MUSOU')) and gc.getPlayer(pUnit.getOwner()).isHuman():
-					Gain = Gain*2
-				
-				pUnit.setPower(pUnit.getPower()+Gain)
-				#pUnit.setPower(4)
-				#あふれ分はSDK内で処理
-			
-			
-			#連続戦闘のカウントをリセット
-			pUnit.setNumCombatCombo(0)
+				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),False)
 			
 			#PROMOTION_ILLUSIONをもってる子がいたら、その子を削除
 			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_ILLUSION')):
 				pUnit.changeDamage(100,iPlayer)
 			
-			#SpecialNumberの処理
-			#おりんだったらリセット
-			if ( (gc.getInfoTypeForString('UNIT_RIN0') <= pUnit.getUnitType() and pUnit.getUnitType() <= gc.getInfoTypeForString('UNIT_RIN6')) or
-				(gc.getInfoTypeForString('UNIT_RIN_CATMODE0') <= pUnit.getUnitType() and pUnit.getUnitType() <= gc.getInfoTypeForString('UNIT_RIN_CATMODE6')) ):
-				pUnit.setSpecialNumber(0)
-			#一輪だったらリセット
-			if  gc.getInfoTypeForString('UNIT_ICHIRIN0') <= pUnit.getUnitType() and pUnit.getUnitType() <= gc.getInfoTypeForString('UNIT_ICHIRIN6'):
-				pUnit.setSpecialNumber(0)
+			#自然回復があれば回復
+			if pUnit.countAutoHeal() > 0:
+				pUnit.changeDamage(-pUnit.countAutoHeal(),iPlayer)
 			
-			#寅スキルによるお金ゲット
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SYOU_SKILL1')):
-				iNumGold = gc.getGame().getSorenRandNum( pUnit.baseCombatStr()*5,"tora skill")
-				if (pPlayer.getGold() > iNumGold):
-					if gc.getGame().getSorenRandNum( 100,"tora skill") < 2:
-						iNumGold = -iNumGold
-				pPlayer.changeGold(iNumGold)
-			
+			#連続戦闘のカウントをリセット
+			pUnit.setNumCombatCombo(0)
 			
 			#てゐトラップの発動判定
 			if pUnit.getUnitType() == gc.getInfoTypeForString('UNIT_TRAP'):
@@ -767,7 +2021,7 @@ class CvEventManager:
 				for pUnit2 in UnitList:
 					if pTeam.isAtWar(pUnit2.getTeam()):
 						UnitList2.append(pUnit2)
-				
+			
 				#スパイが居ればスパイと引き換えにトラップ除去
 				if len(SpyList2) > 0:
 					SpyList2[0].changeDamage(100,pUnit.getOwner())
@@ -786,1071 +2040,18 @@ class CvEventManager:
 						point = pUnit.plot().getPoint()
 						CyEngine().triggerEffect(gc.getInfoTypeForString('EFFECT_SPELL'),point)
 						CyAudioGame().Play3DSound("AS3D_spell_use",point.x,point.y,point.z)
-					
-			
-			#シルフィホルンの除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SYLPHAEHORN')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SYLPHAEHORN'),False)
-			
-			#統合MOD追記部分
-
-			#「操作反転」を25％の確率で除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SOUSA_HANTEN_A')):
-				if gc.getGame().getSorenRandNum(100,"Seija Skill") < 25:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SOUSA_HANTEN_A'),False)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SOUSA_HANTEN_B')):
-				if gc.getGame().getSorenRandNum(100,"Seija Skill") < 25:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SOUSA_HANTEN_B'),False)
-			#「上下反転」を50％の確率で除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_JOUGE_HANTEN_A')):
-				if gc.getGame().getSorenRandNum(100,"Seija Skill") < 50:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_JOUGE_HANTEN_A'),False)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_JOUGE_HANTEN_B')):
-				if gc.getGame().getSorenRandNum(100,"Seija Skill") < 50:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_JOUGE_HANTEN_B'),False)
-
-			#「どしゃぶり」を25％の確率で除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_HEAVY_RAIN')):
-				if gc.getGame().getSorenRandNum(100,"Kogasa Skill") < 25:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HEAVY_RAIN'),False)
-
-			#「始原のビート」を除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_PRISTINE_BEAT')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_PRISTINE_BEAT'),False)
-			
-			#「スタン」の昇進がある場合、行動不能ターンをリセットした後に除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_STAN')):
-				pUnit.setImmobileTimer(0)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_STAN'),False)
-			
-			#溜め中の昇進がある場合、それを除去させつつ溜め発動を付与
-			#溜め発動の昇進がある場合、それを除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TAME_KANRYOU')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TAME_KANRYOU'),False)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TAMETYUU')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TAMETYUU'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TAME_KANRYOU'),True)
-			
-			#レティスキルがあれば
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_LETTY_SKILL1')):
-				pPlot = pUnit.plot()
-				if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_DESERT') and pPlot.getFeatureType() != gc.getInfoTypeForString('FEATURE_OASIS') and pPlot.getFeatureType() != gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS'):
-					if pUnit.getDamage() == 0:
-						pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
-						pUnit.changeDamage(40,pUnit.getOwner())
-				if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_TUNDRA'):
-					pUnit.changeDamage(-40,pUnit.getOwner())
-				if pPlot.getTerrainType() == gc.getInfoTypeForString('TERRAIN_SNOW'):
-					pUnit.changeDamage(-80,pUnit.getOwner())
-			
-			#久遠の夢をもっていれば確率で除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KUONNOYUME')):
-				if gc.getGame().getSorenRandNum(100,"Mima Skill") < 30:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KUONNOYUME'),False)
-			
-			#火ねずみの皮衣をもっていれば除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_HINEZUMINOKAWAGOROMO')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HINEZUMINOKAWAGOROMO'),False)
-			
-			#びっくりをもっていれば除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_OOPS')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_OOPS'),False)
-			
-			#寒気の昇進をもっていれば、地形に応じて除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_FROST')):
-				pPlot = pUnit.plot()
-				if pPlot.getTerrainType() != gc.getInfoTypeForString('TERRAIN_TUNDRA') and  pPlot.getTerrainType() != gc.getInfoTypeForString('TERRAIN_SNOW'):
-					if gc.getGame().getSorenRandNum(100,"Letty Skill") < 50:
-						pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FROST'),False)
-					
-			#森羅結界のカウントを減少させる
-			#東方叙事詩・統合MOD追記
-			#結界無しオプションFalseの時のみ判定
-			if gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_NO_OUKA')) == False:
-				if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
-					if pUnit.getSinraDelayTurn() > 0:
-						if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_ZIKI')):
-							pUnit.setSinraDelayTurn( pUnit.getSinraDelayTurn() - ( 10 + pUnit.countCardAttackLevel() )*2)
-						else:
-							pUnit.setSinraDelayTurn(pUnit.getSinraDelayTurn() - 10 - pUnit.countCardAttackLevel())
-					else:
-						pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_OUKAKEKKAI'),True)
-			
-			#分身もちは10％のダメージを受ける
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_BUNSHIN')):
-				pUnit.changeDamage(10,iPlayer)
-			
-			#自然回復があれば回復
-			if pUnit.countAutoHeal() > 0:
-				pUnit.changeDamage(-pUnit.countAutoHeal(),iPlayer)
-			
-			#PROMOTION_KURAYAMIを持ってる子が居たら、20％の確率でそれを除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KURAYAMI')):
-				if gc.getGame().getSorenRandNum(100,"Remove PROMOTION_KURAYAMI") < 50:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KURAYAMI'),False)
-			
-			#CALが１６以上の子は確率で桜花結界を獲得する
-			#if pUnit.countCardAttackLevel() >= 16 :
-			#	if gc.getGame().getSorenRandNum(100,"get oukakekkai") < pUnit.countCardAttackLevel():
-			#		pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_OUKAKEKKAI'),True)
-			
-			#魔法障壁をもってる子がいたら、その昇進を除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_BARRIER')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_BARRIER'),False)
-			
-			#式の式をもってる子がいたら、その昇進を除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SHIKINOSHIKI')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHIKINOSHIKI'),False)
-			
-			#復活後のディレイを減少
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_1')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_1'),False)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_2')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_2'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_1'),True)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_3')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_3'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_2'),True)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_4')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_4'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_3'),True)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_5')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_5'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_4'),True)
-			
-			#スペルのブレークタイムを減らす
-			if pUnit.getNumSpellCardBreakTime > 0:
-				pUnit.setNumSpellCardBreakTime(pUnit.getNumSpellCardBreakTime()-1)
-			if pUnit.getNumSpellExtraBreakTime > 0:
-				pUnit.setNumSpellExtraBreakTime(pUnit.getNumSpellExtraBreakTime()-1)
-			if pUnit.getNumSpellPhantasmBreakTime > 0:
-				pUnit.setNumSpellPhantasmBreakTime(pUnit.getNumSpellPhantasmBreakTime()-1)
-			
-			#加奈子のスキルがあれば、周囲のユニットが寝返る
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KANAKO_SKILL1')) and pUnit.getUnitType() != gc.getInfoTypeForString('UNIT_KANAKO0'):
-				pTeam = gc.getTeam(pUnit.getTeam())
-				for iX in range(pUnit.getX()-1,pUnit.getX()+2):
-					for iY in range(pUnit.getY()-1,pUnit.getY()+2):
-						if Functions.isPlot(iX,iY):
-							pPlot = gc.getMap().plot(iX,iY)
-							for i in range(pPlot.getNumUnits()):
-								if pTeam.isAtWar(pPlot.getUnit(i).getTeam()):
-									if pPlot.getUnit(i).getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_BOSS') and pPlot.getUnit(i).getUnitCombatType() != gc.getInfoTypeForString("UNITCOMBAT_STANDBY"):
-										if gc.getGame().getSorenRandNum(100, "kanako skill") < 5:
-											RevivalUnit = pPlot.getUnit(i).getUnitType()
-											plotX = pUnit.getX()
-											plotY = pUnit.getY()
-											iExperience = pPlot.getUnit(i).getExperience()
-											iLevel = pPlot.getUnit(i).getLevel()
-											newUnit1 = gc.getPlayer(pUnit.getOwner()).initUnit(RevivalUnit, plotX, plotY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-											
-											newUnit1.changeExperience(iExperience,-1,false,false,false)
-											newUnit1.changeLevel(iLevel-1)
-											
-											#もともと持っていた昇進をそのまま移行させる
-											PromotionStart = gc.getNumCommandInfos()+InterfaceModeTypes.NUM_INTERFACEMODE_TYPES+gc.getNumBuildInfos()
-											PromotionEnd = gc.getNumCommandInfos()+InterfaceModeTypes.NUM_INTERFACEMODE_TYPES+gc.getNumBuildInfos()+gc.getNumPromotionInfos()
-											PromotionNum = PromotionEnd - PromotionStart
-											
-											for iPromotion in range(PromotionNum):
-												if pPlot.getUnit(i).isHasPromotion(iPromotion):
-													newUnit1.setHasPromotion(iPromotion,True)
-											newUnit1.finishMoves()
-											pPlot.getUnit(i).changeDamage(100,iPlayer)
-			
-			#歴史喰い PROMOTION_REKISHIを持ってる子が居たら、それを削除するか一つさげる
-			#if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_EASY')):
-			#	pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_EASY'),False)
-			#if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_NORMAL')):
-			#	pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_NORMAL'),False)
-			#	pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_EASY'),True)
-			#if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_HARD')):
-			#	pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_HARD'),False)
-			#	pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_NORMAL'),True)
-			#if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_LUNATIC')):
-			#	pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_LUNATIC'),False)
-			#	pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI_HARD'),True)
-			
-			
-			#PROMOTON_THEWORLD系を持っている子がいたら、ダメージを与えてそれを削除　20%以下にはならないように
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_EASY')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_EASY'),False)
-				if 19 < (100-pUnit.getDamage()) and (100-pUnit.getDamage()) < 50:
-					pUnit.setDamage(80,iPlayer)
-				elif (100-pUnit.getDamage()) >= 40:
-					pUnit.changeDamage(30,iPlayer)
-			
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_NORMAL')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_NORMAL'),False)
-				if 19 < (100-pUnit.getDamage()) and (100-pUnit.getDamage()) < 60:
-					pUnit.setDamage(80,iPlayer)
-				elif (100-pUnit.getDamage()) >= 50:
-					pUnit.changeDamage(40,iPlayer)
-			
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_HARD')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_HARD'),False)
-				if 19 < (100-pUnit.getDamage()) and (100-pUnit.getDamage()) < 70:
-					pUnit.setDamage(80,iPlayer)
-				elif (100-pUnit.getDamage()) >= 60:
-					pUnit.changeDamage(50,iPlayer)
-			
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_LUNATIC')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_THEWORLD_LUNATIC'),False)
-				if 19 < (100-pUnit.getDamage()) and (100-pUnit.getDamage()) < 80:
-					pUnit.setDamage(80,iPlayer)
-				elif (100-pUnit.getDamage()) >= 70:
-					pUnit.changeDamage(60,iPlayer)
-			
-			#PROMOTION_POISON系を持ってる子が居たら、ものによってダメージを与えてから30％の確率でそれを除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON1')):
-				if gc.getGame().getSorenRandNum(100,"Remove Poison1") < 30:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON1'),False)
-			
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON2')):
-				pUnit.changeDamage(15,iPlayer)
-				if gc.getGame().getSorenRandNum(100,"Remove Poison2") < 30:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON2'),False)
-			
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON3')):
-				if gc.getGame().getSorenRandNum(100,"Remove Poison3") < 30:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON3'),False)
-			
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON4')):
-				pUnit.changeDamage(15,iPlayer)
-				if gc.getGame().getSorenRandNum(100,"Remove Poison4") < 30:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_POISON4'),False)
-			
-			#PROMOTION_DOLLS_WARを持ってる子がいたら、それを除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_DOLLS_WAR')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DOLLS_WAR'),False)
-			
-			#PROMOTION_HOTARUNOHIKARIを持ってる子がいたら、それを削除
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_HOTARUNOHIKARI')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HOTARUNOHIKARI'),False)
-				
-			#PROMOTION_CHARMを持ってる子がいたら、５０％の確率でそれを除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_CHARM')):
-				if gc.getGame().getSorenRandNum(100,"Remove Charm") < 50:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_CHARM'),False)
-
-			#統合MOD追記部分ここから
-
-			#昇進：ゾンビの毒を持っていた場合、25％で除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_ZOMBIE_POISON')):
-				if gc.getGame().getSorenRandNum(100,"Remove ZombiePoison") < 25:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ZOMBIE_POISON'),False)
-					
-			#昇進：スコアデザイアイーターを持っていた場合、それを除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SCORE_DESIRE')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SCORE_DESIRE'),False)
-				
-			#昇進：壁抜けを持っていた場合、それを除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KABENUKE')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KABENUKE'),False)
-				
-			#昇進：発火を持っていた場合、ダメージを25％与えた後に50％で除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_HAKKA')):
-				pUnit.changeDamage(25,iPlayer)
-				if gc.getGame().getSorenRandNum(100,"Remove Hakka") < 50:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_HAKKA'),False)
-			
-			#昇進：恐怖を持っていた場合、一般ユニットなら50%、東方ユニットなら100％でそれを除去
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_FEAR')):
-				if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FEAR'),False)
-				else:
-					if gc.getGame().getSorenRandNum(100,"Remove Fear") < 50:
-						pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FEAR'),False)
-
-			#統合MOD追記部分ここまで
-				
-			#PROMOTION_FREEZEをもってる子がいたら、ダメージを25％与え、行動終了・・・できない　1/2で昇進削除
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_FREEZE')):
-				#pUnit.changeDamage(25,iPlayer)
-				#pUnit.finishMoves()
-				#pUnit.changeMoves(-5)
-				if gc.getGame().getSorenRandNum(100, "Toho Unit gets Experience Percent") < 50:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FREEZE'),False) 
-						
-			#PROMOTION_NEKKYOUを持ってる子がいたら、昇進消滅
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_NEKKYOU')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_NEKKYOU'),False)
-			
-			#東方ユニットであれば、一定確率で経験値を１獲得
-			if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS') or pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_STANDBY'):
-				if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_BUNSHIN'))==False:
-					PerExperience = pUnit.countExpByTrun()
-					while PerExperience > 0:
-						if gc.getGame().getSorenRandNum(100, "Toho Unit gets Experience Percent") < PerExperience:
-							pUnit.changeExperience(1,-1,false,false,false)
-						PerExperience -= 100
-			
-			#てゐのスキルがあれば、同スタックのユニットにいたずらを仕掛ける。自分は含まれない。
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TEWI_SKILL1')):
-				pPlot = pUnit.plot()
-				for i in range(pPlot.getNumUnits()):
-					if pUnit.getUnitType() != pPlot.getUnit(i).getUnitType():
-						if pPlot.getUnit(i).getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS') or pPlot.getUnit(i).getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_STANDBY'):
-							if gc.getGame().getSorenRandNum(100, "ITAZURA of TEWI") < 10:
-								pPlot.getUnit(i).changeExperience(1,-1,False,False,False)
-								pUnit.changeExperience(1,-1,False,False,False)
-						else:
-							if gc.getGame().getSorenRandNum(100, "ITAZURA of TEWI") < 30:  
-								pPlot.getUnit(i).changeExperience(1,-1,False,False,False)
-				
-			
-			#えーりんのスキルがあれば同スタックを回復30％
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_EIRIN_SKILL1')):
-				pPlot = pUnit.plot()
-				iNumUnit = pPlot.getNumUnits()
-				for i in range(iNumUnit):
-					pPlot.getUnit(i).changeDamage(-30,iPlayer)
-			
-			#メディのスキルがあれば同スタックを回復５％
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MEDICIN_SKILL1')):
-				pPlot = pUnit.plot()
-				iNumUnit = pPlot.getNumUnits()
-				for i in range(iNumUnit):
-					pPlot.getUnit(i).changeDamage(-5,iPlayer)
-			
-			#アリスのスキルがあれば、15％の確率で上海召喚 昇進をある程度受け継ぐ
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_ALICE_SKILL1')) and pUnit.getUnitType() != gc.getInfoTypeForString('UNIT_ALICE0'):
-				iSummonNum = 20# gc.getGame().getSorenRandNum(20, "summon SHANGHAI")
-				#ゲーム速度による変化
-				if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_MARATHON'):
-					iSummonNum = iSummonNum * 50 / 100
-				if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_EPIC'):
-					iSummonNum = iSummonNum * 75 / 100
-				if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_QUICK'):
-					iSummonNum = iSummonNum * 150 / 100
-				if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_TENGU'):
-					iSummonNum = iSummonNum * 200 / 100
-				if gc.getGame().getSorenRandNum(100, "summon SHANGHAI") < iSummonNum:
-					iPlayer = pUnit.getOwner()
-					pPlayer = gc.getPlayer(iPlayer)
-					iX = pUnit.getX()
-					iY = pUnit.getY()
-					if gc.getGame().getSorenRandNum(100,"Alice Skill") < 50:
-						iNumNewUnit = pUnit.getUnitType() - gc.getInfoTypeForString('UNIT_ALICE1') + gc.getInfoTypeForString('UNIT_SHANGHAI_DOLL1')
-					else:
-						iNumNewUnit = pUnit.getUnitType() - gc.getInfoTypeForString('UNIT_ALICE1') + gc.getInfoTypeForString('UNIT_HOURAI_DOLL1')
-					
-					newUnit = pPlayer.initUnit(iNumNewUnit, iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-					
-					if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_COMBAT1')):
-						newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_COMBAT1'),True)
-					if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_COMBAT2')):
-						newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_COMBAT2'),True)
-					if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_COMBAT3')):
-						newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_COMBAT3'),True)
-					if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_COMBAT4')):
-						newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_COMBAT4'),True)
-					if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_COMBAT5')):
-						newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_COMBAT5'),True)
-					if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_COMBAT6')):
-						newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_COMBAT6'),True)
-					if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_DRILL1')):
-						newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DRILL1'),True)
-					if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_DRILL2')):
-						newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DRILL2'),True)
-					if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_DRILL3')):
-						newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DRILL3'),True)
-					if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TOHO_DRILL4')):
-						newUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DRILL4'),True)
-			
-			#統合MOD追記部分
-			#正邪Phを所有しているユニットの処理
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_1TURN')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_1TURN'),False)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_2TURN')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_2TURN'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_1TURN'),True)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_3TURN')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_3TURN'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_2TURN'),True)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_1TURN')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_1TURN'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_KODUCHI_HANDOU_3TURN'),True)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_2TURN')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_2TURN'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_1TURN'),True)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_3TURN')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_3TURN'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_UCHIDENO_KODUCHI_2TURN'),True)
-			#統合MOD追記部分ここまで
-			
-			#さとりスペカによる昇進をもっていた場合、１ランクずつ下げる
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR1')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR1'),False)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR2')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR2'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR1'),True)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR3')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR3'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR2'),True)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR4')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR4'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR3'),True)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR5')):
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR5'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TERRIBLE_SOUVEBNIR4'),True)
-						
-			#鳥目をもっていたら、条件次第で除去する
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TORIME')):
-				RangeList = [ [-1,-1],[ 0,-1],[ 1,-1],[-1, 0], [ 0, 0],[ 1, 0],[-1, 1],[ 0, 1],[ 1, 1], ]
-				if Functions.checkUnit(pUnit.getX(),pUnit.getY(),RangeList,gc.getInfoTypeForString('UNIT_MYSTIA1'),gc.getInfoTypeForString('UNIT_MYSTIA6')) == False:
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TORIME'),False)
-			
-			#弾幕結界をもっていたらすこしずつダメージを受ける
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_DANMAKUKEKKAI')):
-				pUnit.setDanmakuKekkai( pUnit.getNowDanmakuKekkai()+1 , pUnit.getMaxDanmakuKekkai() )
-				if (pUnit.getNowDanmakuKekkai() >= pUnit.getMaxDanmakuKekkai()):
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DANMAKUKEKKAI'),False)
-				iDamage = pUnit.getNowDanmakuKekkai() * 5 + 5
-				if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
-					iDamage /= 2
-				iDamage = iDamage *  (100 - pUnit.countSpellTolerance()) / 100
-				pUnit.changeDamage(iDamage,pUnit.getOwner())
-			
-			
-			#すいかが変身中なら、変身時間が切れたら元に戻る
-			if pUnit.getNumTransformTime() > 0 and gc.getInfoTypeForString("UNIT_SUIKA_BIG1") <= pUnit.getUnitType() and pUnit.getUnitType() <= gc.getInfoTypeForString("UNIT_SUIKA_BIG6"):
-				pUnit.setNumTransformTime( pUnit.getNumTransformTime() - 1 )
-				if pUnit.getNumTransformTime() <= 0:
-					iDamage = pUnit.getDamage()
-					TransformUnit = pUnit.getUnitType() - gc.getInfoTypeForString("UNIT_SUIKA_BIG1") + gc.getInfoTypeForString("UNIT_SUIKA1")
-					newUnit1 = pPlayer.initUnit(TransformUnit, pUnit.getX(), pUnit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-					newUnit1.convert(pUnit)
-					#newUnit1.changeDamage(iDamage,pUnit.getOwner())
-					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_EASY'),False )
-					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_NORMAL'),False )
-					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_HARD'),False )
-					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_LUNATIC'),False )
-			
-			#統合MOD追記部分
-			#萃香＠妖怪の山の変身終了処理
-			if pUnit.getNumTransformTime() > 0 and gc.getInfoTypeForString("UNIT_SUIKA_BIG1_YOUKAI") <= pUnit.getUnitType() and pUnit.getUnitType() <= gc.getInfoTypeForString("UNIT_SUIKA_BIG6_YOUKAI"):
-				pUnit.setNumTransformTime( pUnit.getNumTransformTime() - 1 )
-				if pUnit.getNumTransformTime() <= 0:
-					iDamage = pUnit.getDamage()
-					TransformUnit = pUnit.getUnitType() - gc.getInfoTypeForString("UNIT_SUIKA_BIG1_YOUKAI") + gc.getInfoTypeForString("UNIT_SUIKA1_YOUKAI")
-					newUnit1 = pPlayer.initUnit(TransformUnit, pUnit.getX(), pUnit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-					newUnit1.convert(pUnit)
-					#newUnit1.changeDamage(iDamage,pUnit.getOwner())
-					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_EASY'),False )
-					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_NORMAL'),False )
-					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_HARD'),False )
-					newUnit1.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_LUNATIC'),False )
-			#統合MOD追記部分ここまで
-			
-			#さとりの変身タイムが切れた場合は昇進だけが無くなる
-			if pUnit.getNumTransformTime() > 0  and gc.getInfoTypeForString("UNIT_SATORI1") <= pUnit.getUnitType() and pUnit.getUnitType() <= gc.getInfoTypeForString("UNIT_SATORI6"):
-				pUnit.setNumTransformTime( pUnit.getNumTransformTime() - 1 )
-				if pUnit.getNumTransformTime() <= 0:
-					pUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_EASY'),False )
-					pUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_NORMAL'),False )
-					pUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_HARD'),False )
-					pUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_MISSING_POWER_LUNATIC'),False )
-					
-			
-
-			
-			#パルスィのスペカによる昇進、嫉妬心を持っていた場合、確率で蛮族化
-			BarbarianFlag = False
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_EASY')):
-				if gc.getGame().getSorenRandNum(100, "SHITTOSHIN EASY") < 10:
-					BarbarianFlag = True
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_EASY'),False)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_NORMAL')):
-				if gc.getGame().getSorenRandNum(100, "SHITTOSHIN NORMAL") < 10:
-					BarbarianFlag = True
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_NORMAL'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_EASY'),True)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_HARD')):
-				if gc.getGame().getSorenRandNum(100, "SHITTOSHIN NORMAL") < 10:
-					BarbarianFlag = True
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_HARD'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_NORMAL'),True)
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_LUNATIC')):
-				if gc.getGame().getSorenRandNum(100, "SHITTOSHIN NORMAL") < 10:
-					BarbarianFlag = True
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_LUNATIC'),False)
-				pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_HARD'),True)
-			
-			#狂気をもっていたら確率でさまざまな行動を取る
-			if pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MADNESS')):
-				if gc.getGame().getSorenRandNum(100, "MADNESS") < 50:        #正気に戻る
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_MADNESS'),False)
-				if gc.getGame().getSorenRandNum(100, "MADNESS") < 15:        #蛮族化
-					BarbarianFlag = True
-				if gc.getGame().getSorenRandNum(100, "MADNESS") < 25:        #自分に固定ダメージ
-					iDamage =  gc.getGame().getSorenRandNum(41, "MADNESS damage") + 10
-					pUnit.changeDamage(iDamage,pUnit.getOwner())
-				if gc.getGame().getSorenRandNum(100, "MADNESS") < 25:     #同スタックにダメージ
-					UnitList = []
-					pPlot = pUnit.plot()
-					for i in range(pPlot.getNumUnits()):
-						pUnit = pPlot.getUnit(i)
-						if pUnit.getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_STANDBY') and pUnit.getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
-							UnitList.append(pUnit)
-					for i in range(5):
-						if len(UnitList) > 0:
-							iRandNum2 = gc.getGame().getSorenRandNum(len(UnitList), "MADNESS rand")
-							iDamage =  gc.getGame().getSorenRandNum(6, "MADNESS damage") + 5
-							UnitList[iRandNum2].changeDamage(iDamage,pUnit.getOwner())
-							if UnitList[iRandNum2].getDamage >= 100:
-								del UnitList[iRandNum2]
-				if gc.getGame().getSorenRandNum(100, "MADNESS") < 25: #魅了される
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_CHARM'),True)
-				if gc.getGame().getSorenRandNum(100, "MADNESS") < 25: #耐久力半減
-					iDamage = (100-pUnit.getDamage()) / 2
-					pUnit.changeDamage(iDamage,pUnit.getOwner())
-				if gc.getGame().getSorenRandNum(100, "MADNESS") < 25:       #勝手に歩く
-					#周囲2マスで空いてる場所を探す、なければ動かない
-					ClearPlotList = []
-					for iX in range(pUnit.getX()-2,pUnit.getX()+3):
-						for iY in range(pUnit.getY()-2,pUnit.getY()+3):
-							if gc.getMap().plot(iX,iY).getNumUnits() == 0:
-								ClearPlotList.append([iX,iY])
-					if len(ClearPlotList)!=0:
-						iNum = gc.getGame().getSorenRandNum(len(ClearPlotList), "create barbarian plot")
-						pUnit.setXY(ClearPlotList[iNum][0],ClearPlotList[iNum][1],False,True,True)
-			
-			#蛮族化
-			if BarbarianFlag == True:
-				BarBarianUnit = pUnit.getUnitType()
-				plotX = pUnit.getX()
-				plotY = pUnit.getY()
-				iExperience = pUnit.getExperience()
-				iLevel = pUnit.getLevel()
-				
-				#周囲１マスで空いてる場所を探す、なければ消滅
-				ClearPlotList = []
-				for iX in range(plotX-1,plotX+2):
-					for iY in range(plotY-1,plotY+2):
-						if gc.getMap().plot(iX,iY).getNumUnits() == 0:
-							ClearPlotList.append([iX,iY])
-							
-				if len(ClearPlotList)!=0:
-					iNum = gc.getGame().getSorenRandNum(len(ClearPlotList), "create barbarian plot")
-					iiX = ClearPlotList[iNum][0]
-					iiY = ClearPlotList[iNum][1]
-					newUnit1 = gc.getPlayer(gc.getBARBARIAN_PLAYER()).initUnit(BarBarianUnit, iiX, iiY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-					
-					newUnit1.changeExperience(iExperience,-1,false,false,false)
-					newUnit1.changeLevel(iLevel-1)
-					
-					#もともと持っていた昇進をそのまま移行させる
-					PromotionStart = gc.getNumCommandInfos()+InterfaceModeTypes.NUM_INTERFACEMODE_TYPES+gc.getNumBuildInfos()
-					PromotionEnd = gc.getNumCommandInfos()+InterfaceModeTypes.NUM_INTERFACEMODE_TYPES+gc.getNumBuildInfos()+gc.getNumPromotionInfos()
-					PromotionNum = PromotionEnd - PromotionStart
-					
-					for iPromotion in range(PromotionNum):
-						if pUnit.isHasPromotion(iPromotion):
-							newUnit1.setHasPromotion(iPromotion,True)
-					newUnit1.finishMoves()
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_EASY'),False)
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_NORMAL'),False)
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_HARD'),False)
-					pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SHITTOSHIN_LUNATIC'),False)
-					
-				pUnit.changeDamage(100,pUnit.getOwner())
-			
 		
-		#ＡＩのとき
+		#AIのとき
 		if pPlayer.isHuman() == False:
+			self.BPTprocessAITurn(argsList)
 		
-			
-			#print pPlayer.getID() + 1000
-			#print pPlayer.getAIPromotionRoute()
-			
-			#人間の里で世界魔法が可能なとき、条件によって世界魔法を使用する
-			iCiv = pPlayer.getCivilizationType()
-			if iCiv == gc.getInfoTypeForString('CIVILIZATION_INDIA'):
-				if pPlayer.getNumWorldSpell()>0:
-					if gc.getGame().getGameTurn() > 50:
-						pTeam = gc.getTeam(pPlayer.getTeam())
-						iNumTeam = gc.getGame().countCivTeamsAlive() + gc.getGame().countCivTeamsEverAlive()
-						for i in range(iNumTeam):
-							ppTeam = gc.getTeam(i)
-							if ppTeam.isBarbarian() == False:
-								if pTeam.isAtWar(i):
-									pPlayer.changeGoldenAgeTurns(pPlayer.getGoldenAgeLength())
-									pPlayer.setNumWorldSpell(0)
-									CyInterface().addImmediateMessage("&#20154;&#38291;&#12398;&#37324;&#12364;&#32080;&#26463;&#12434;&#39640;&#12417;&#40644;&#37329;&#26399;&#12364;&#30330;&#21205;&#12375;&#12414;&#12375;&#12383;","")
-			
-			#連合で世界魔法が可能なとき、条件によって世界魔法を使用する
-			iCiv = pPlayer.getCivilizationType()
-			if iCiv == gc.getInfoTypeForString('CIVILIZATION_ROME'):
-				if pPlayer.getNumWorldSpell()>0:
-					if gc.getGame().getGameTurn() > 50:
-						pTeam = gc.getTeam(pPlayer.getTeam())
-						iNumTeam = gc.getGame().countCivTeamsAlive() + gc.getGame().countCivTeamsEverAlive()
-						for i in range(iNumTeam):
-							ppTeam = gc.getTeam(i)
-							if ppTeam.isBarbarian() == False:
-								if pTeam.isAtWar(i):
-									#沸いてくるユニットは時代依存
-									iNumUnit = 5
-									if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_ANCIENT'):
-										iUnit = gc.getInfoTypeForString('UNIT_WARRIOR')
-										iNumUnit = 2
-									if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_CLASSICAL'):
-										iUnit = gc.getInfoTypeForString('UNIT_AXEMAN')
-										iNumUnit = 3
-									if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_MEDIEVAL'):
-										iUnit = gc.getInfoTypeForString('UNIT_MACEMAN')
-									if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_RENAISSANCE'):
-										iUnit = gc.getInfoTypeForString('UNIT_MUSKETMAN')
-									if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_INDUSTRIAL'):
-										iUnit = gc.getInfoTypeForString('UNIT_RIFLEMAN')
-									if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_MODERN'):
-										iUnit = gc.getInfoTypeForString('UNIT_INFANTRY')
-									if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_FUTURE'):
-										iUnit = gc.getInfoTypeForString('UNIT_MECHANIZED_INFANTRY')
-									
-									py = PyPlayer(iPlayer)
-									for pPyCity in py.getCityList():
-										pCity = pPlayer.getCity(pPyCity.getID())
-										iNum = pCity.getPopulation() / iNumUnit
-										if iNum < 1:
-											iNum = 1
-										if iNum > 3:
-											iNum = 3
-										for i in range(iNum):
-											newUnit = pPlayer.initUnit(iUnit, pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-											newUnit.changeExperience(gc.getGame().getSorenRandNum(6, "world spell rengou no kessoku"),-1,False,False,False)
-									pPlayer.setNumWorldSpell(0)
-									CyInterface().addImmediateMessage("&#22934;&#31934;&#12383;&#12385;&#12364;&#32080;&#26463;&#12434;&#39640;&#12417;&#37117;&#24066;&#12395;&#38598;&#32080;&#12375;&#12414;&#12375;&#12383;","")
-
-			#統合MOD追記部分
-			#輝針城の時世界魔法が使用可能な場合、世界魔法を使用する
-			iCiv = pPlayer.getCivilizationType()
-			if iCiv == gc.getInfoTypeForString('CIVILIZATION_MALI'):
-				if pPlayer.getNumWorldSpell()>0:
-					if gc.getGame().getGameTurn() > 50:
-						pTeam = gc.getTeam(pPlayer.getTeam())
-						iNumTeam = gc.getGame().countCivTeamsAlive() + gc.getGame().countCivTeamsEverAlive()
-						for i in range(iNumTeam):
-							ppTeam = gc.getTeam(i)
-							if ppTeam.isBarbarian() == False:
-								if pTeam.isAtWar(i):
-									TAIKOFlag = False
-									TYUUSEIFlag = False
-									KINDAIFlag = False
-									
-										#時代によって沸かせるユニットや計算式を変動させる
-									if (pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_ANCIENT')) or (pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_CLASSICAL')):
-										iUnitKOU = gc.getInfoTypeForString('UNIT_TSUKUMOGAMI_KOU_TAIKO')
-										iNumCityCountKOU = 3
-										TAIKOFlag = True
-									if (pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_MEDIEVAL')) or (pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_RENAISSANCE')):
-										iUnitKOU = gc.getInfoTypeForString('UNIT_TSUKUMOGAMI_KOU_TYUUSEI')
-										iUnitOTU = gc.getInfoTypeForString('UNIT_TSUKUMOGAMI_OTU_TYUUSEI')
-										iNumCityCountKOU = 5
-										iNumCityCountOTU = 8
-										TYUUSEIFlag = True
-									if (pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_INDUSTRIAL')) or (pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_MODERN')) or (pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_FUTURE')):
-										iUnitKOU = gc.getInfoTypeForString('UNIT_TSUKUMOGAMI_KOU_KINDAI')
-										iUnitOTU = gc.getInfoTypeForString('UNIT_TSUKUMOGAMI_OTU_KINDAI')
-										iNumCityCountKOU = 5
-										iNumCityCountOTU = 8
-										KINDAIFlag = True
-										
-									py = PyPlayer(iPlayer)
-									for pPyCity in py.getCityList():
-										pCity = pPlayer.getCity(pPyCity.getID())
-		
-										if TAIKOFlag == True:
-											iNumKOU = pCity.getPopulation() / iNumCityCountKOU
-											if iNumKOU > 2:
-												iNumKOU = 2
-											iNumOTU = 0
-		
-										elif TYUUSEIFlag == True:
-											iNumKOU = pCity.getPopulation() / iNumCityCountKOU
-											if iNumKOU < 1:
-												iNumKOU = 1
-											if iNumKOU > 3:
-												iNumKOU = 3
-
-											iNumOTU = pCity.getPopulation() / iNumCityCountOTU
-											if iNumOTU > 1:
-												iNumOTU = 1
-		
-										else:
-											iNumKOU = pCity.getPopulation() / iNumCityCountKOU
-											if iNumKOU < 1:
-												iNumKOU = 1
-											if iNumKOU > 3:
-												iNumKOU = 3
-			
-											iNumOTU = pCity.getPopulation() / iNumCityCountOTU
-											if iNumOTU < 1:
-												iNumOTU = 1
-											if iNumOTU > 3:
-												iNumOTU = 3
-		
-										if iNumKOU >= 1:
-											for i in range(iNumKOU):
-												newUnit = pPlayer.initUnit(iUnitKOU, pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-										if iNumOTU >= 1:
-											for i in range(iNumOTU):
-												newUnit = pPlayer.initUnit(iUnitOTU, pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-
-									pPlayer.setNumWorldSpell(0)
-									CyInterface().addImmediateMessage("&#36637;&#37341;&#22478;&#12398;&#21508;&#37117;&#24066;&#12391;&#20184;&#21930;&#31070;&#12364;&#22823;&#37327;&#30330;&#29983;&#12375;&#12414;&#12375;&#12383;&#65281;","")
-		
-		
-			#もしコンピュータのユニットで、オートボムおよびスペルカードが取得可能なときは取得させる
-			for pUnit in py.getUnitList():
-				if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
-					#もしルートが選択されいなければ、再選択
-					if pUnit.getAIPromotionRoute()<1 or pUnit.getAIPromotionRoute()>3:
-						if pPlayer.getAIPromotionRoute() > 0:
-							pUnit.setAIPromotionRoute(pPlayer.getAIPromotionRoute())
-						else:
-							pUnit.setAIPromotionRoute( gc.getGame().getSorenRandNum(3,'PromotionRoute') + 1  )
-					#コンバットルートはちょいと特殊なので、連結して２回判定をする
-					PromoList = TohoUnitList.getAIPromotionList[pUnit.getAIPromotionRoute()-1] + TohoUnitList.getAIPromotionList[pUnit.getAIPromotionRoute()-1]
-					for sPromotion in PromoList:
-						iExperience = pUnit.getExperience()
-						iLevel = pUnit.getLevel()
-						PromotionFlag = False
-						if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_CHARISMATIC')):
-							if iExperience >= (iLevel*iLevel+1 + 1) *3 /4:
-								PromotionFlag = True
-						else:
-							if iExperience >= iLevel*iLevel + 1:
-								PromotionFlag = True
-						
-						if PromotionFlag == True:
-							if pUnit.canAcquirePromotion(gc.getInfoTypeForString(sPromotion)):
-								pUnit.changeLevel(1)
-								pUnit.setHasPromotion(gc.getInfoTypeForString(sPromotion),True)
-								pUnit.changeDamage(-(pUnit.getDamage() / 2),iPlayer);
-								#print pUnit.getID()
-								#print sPromotion
-								
-							#もしCALアップ昇進ならば、経験値がなくなるまで取得させる
-							if sPromotion == 'PROMOTION_CARD_ATTACK_LEVEL_UP':
-								pUnit.setNumAcquisSpellPromotion(pUnit.getNumAcquisSpellPromotion()+1)
-								pUnit.setHasPromotion(gc.getInfoTypeForString(sPromotion),False)
-								while(1):
-									iExperience = pUnit.getExperience()
-									iLevel = pUnit.getLevel()
-									PromotionFlag = False
-									if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_CHARISMATIC')):
-										if iExperience >= (iLevel*iLevel+1 + 1) *3 /4:
-											PromotionFlag = True
-									else:
-										if iExperience >= iLevel*iLevel + 1:
-											PromotionFlag = True
-									
-									if PromotionFlag == True:
-										pUnit.changeLevel(1)
-										pUnit.changeDamage(-(pUnit.getDamage() / 2),iPlayer);
-										pUnit.setNumAcquisSpellPromotion(pUnit.getNumAcquisSpellPromotion()+1)
-									else:
-										break
-										
-				#スペルルートのAI東方ユニットにスペルを使用させる
-				#if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
-				#if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS') and pUnit.getAIPromotionRoute() == 3 and pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SPELL_CASTED')) == False:
-				#if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS') and pUnit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SPELL_CASTED')) == False:
-				Functions.AISpellCast(pUnit)
-
-						
 		#そのプレイヤーの都市全走査
 		for pPyCity in py.getCityList():
 			pCity = pPlayer.getCity(pPyCity.getID())
-			#統合MOD追記部分
-			#そのプレイヤーの首都走査
-			pCapital = gc.getPlayer(pCity.getOwner()).getCapitalCity()
-			
-			#輝針城のユニット自動供給処理
-			## originai:king_richard_s_crusade ##
-			
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_KISHINJOU")):
-				obsoleteTech = gc.getBuildingInfo(gc.getInfoTypeForString("BUILDING_KISHINJOU")).getObsoleteTech()
-				if ( pTeam.isHasTech(obsoleteTech) == false or obsoleteTech == -1 ):
-					iX = pCity.getX()
-					iY = pCity.getY()
-					tyousaheidan = gc.getInfoTypeForString( 'UNIT_KOBITO_TYOUSAHEIDAN' )
-					estiEnd = CyGame().getEstimateEndTurn()
-					if ( estiEnd >= 1000 ):
-						if ( iGameTurn % 12 ) == 0:
-							for i in range(1):
-								pNewUnit = pPlayer.initUnit( tyousaheidan, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
-					elif ( estiEnd >= 700 ):
-						if ( iGameTurn % 8 ) == 0:
-							for i in range(1):
-								pNewUnit = pPlayer.initUnit( tyousaheidan, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
-					elif ( estiEnd >= 500 ):
-						if ( iGameTurn % 6 ) == 0:
-							for i in range(1):
-								pNewUnit = pPlayer.initUnit( tyousaheidan, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
-
-					elif ( estiEnd >= 300 ):
-						if ( iGameTurn % 4 ) == 0:
-							for i in range(1):
-								pNewUnit = pPlayer.initUnit( tyousaheidan, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
-					else:
-						if ( iGameTurn % 4 ) == 0:
-							for i in range(1):
-								pNewUnit = pPlayer.initUnit( tyousaheidan, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
-
-					basechance = 12
-					estiEnd = CyGame().getEstimateEndTurn()
-					if ( estiEnd >= 1000 ):
-						basechance = basechance
-					elif ( estiEnd >= 700 ):
-						basechance = 6
-					elif ( estiEnd >= 500 ):
-						basechance = 4
-					elif ( estiEnd >= 300 ):
-						basechance = 2
-					else:
-						basechance = 1
-			
-			#統合MOD追記部分ここまで
-			
-			#小傘の固有志向があれば
-			if gc.getPlayer(pCity.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_KOGASALIST')):
-				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SADESM'),1)
-			
-			#無双モードであれば
-			if gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_MUSOU')) and gc.getPlayer(pCity.getOwner()).isHuman():
-				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_MUSOU_MODE'),1)
-			
-			
-			#統合MOD追記部分
-			
-			#神道を採用している場合、都市に鳥居自動建設
-			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_SHINTO')) == True:
-				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_TORII")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),1)
-
-			#仏教を採用している場合、都市に仏像自動建設＆八橋スペル建造物を強化版に切り替え
-			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_BUDDHISM')) == True:
-				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_BUTUZOU")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUTUZOU'),1)
-					for pPyCity in py.getCityList():
-						pCity = pPlayer.getCity(pPyCity.getID())
-						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SYOGYOU_MUJOU_A")) == True:
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_B'),1)
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_A'),0)
-
-			#道教を採用している場合、都市に仙丹自動建設＆陰陽寮＠出力無しを陰陽寮＠出力有りに切り替え
-			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_TAOISM')) == True:
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SENTAN")) == False:
-					pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SENTAN'),1)
-					for pPyCity in py.getCityList():
-						pCity = pPlayer.getCity(pPyCity.getID())
-						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_ONMYOURYOU2")) == True:
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU1'),1)
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU2'),0)
-
-			#深海の旧支配者を採用している場合、首都にネクロノミコン写本自動建設
-			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_CTHULHU')) == True:
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_CTHULHU")) == False:
-					pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CTHULHU'),1)
-
-			#弱者の楽園を採用している場合、首都に幸福1衛生-2用の建造物自動建設
-			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_ECONOMY')) == gc.getInfoTypeForString('CIVIC_JAKUSYANORAKUEN')) == True:
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_JAKUSYANORAKUEN")) == False:
-					pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_JAKUSYANORAKUEN'),1)
-				
-			#指導者正邪が中世以降に無秩序を採用していたら、建造物天邪鬼設置
-			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_SEIJALIST')):
-				if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_ANCIENT'):
-					if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_CLASSICAL'):
-						if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LEGAL')) == gc.getInfoTypeForString('CIVIC_BARBARISM')) == True:
-							if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_AMANOJAKU")) == False:
-								pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_AMANOJAKU'),1)
-			
-			#指導者ロリスが奴隷制を採用した場合、首都に死んでくれる？設置
-			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LOLISELIST')):
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SLAVERY')) == True:
-					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SINDEKURERU")) == False:
-						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),1)
-
-			#労働志向を持っているかどうか
-			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LABORLIST')):
-				#労働制度毎に異なる建造物を与える
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_TRIBALISM')) == True:
-					if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_TRIBALISM")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),1)
-				
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SLAVERY')) == True:
-					if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SLAVERY_1")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),1)
-					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SLAVERY_2")) == False:
-						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),1)
-				
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SERFDOM')) == True:
-					if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SERFDOM")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),1)
-				
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_CASTE_SYSTEM')) == True:
-					if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_CASTE_1")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),1)
-					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_CASTE_2")) == False:
-						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),1)
-				
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_EMANCIPATION')) == True:
-					if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_EMANCIPATION")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),1)
-				
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SISHANOOUKOKU')) == True:
-					if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SISHANOOUKOKU")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),1)
-				
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_HAKUREISIKI')) == True:
-					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_HAKUREISIKI")) == False:
-						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),1)
-			
-			#集権志向持ちで、かつ首都に集権志向ボーナス建造物が無い場合は自動設置
-			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_CENTRALIZATION')):
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_CENTRALIZATION")) == False:
-					pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CENTRALIZATION'),1)
-			
-			#統合MOD追記部分ここまで
-			
-			#謎の鳴き声があり、弓系ユニットが居た場合は除去
-			if pCity.isHasBuilding(gc.getInfoTypeForString('BUILDING_ENIGMATIC_CRY')):
-				pPlot = pCity.plot()
-				for i in range(pPlot.getNumUnits()):
-					pUnit = pPlot.getUnit(i)
-					if pUnit.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_ARCHER'):
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ENIGMATIC_CRY'),0)
-						break
-			
-			
-			#都市に特定の建造物があり、特定のユニットがいなければ建造物消滅
-			for BuildingList in TohoUnitList.TohoUnitBuildingList:
-				sBuilding,sStartUnit,sEndUnit = BuildingList
-				if pCity.isHasBuilding(gc.getInfoTypeForString(sBuilding)):
-					if Functions.checkUnit(pCity.getX(),pCity.getY(),[[0,0],],gc.getInfoTypeForString(sStartUnit),gc.getInfoTypeForString(sEndUnit)) == False:
-						if sBuilding == 'BUILDING_SUZURAN':
-							if Functions.checkUnit(pCity.getX(),pCity.getY(),[[0,0],],gc.getInfoTypeForString('UNIT_MEDICINwithSU1'),gc.getInfoTypeForString('UNIT_MEDICINwithSU6')) == False:
-								pCity.setNumRealBuilding(gc.getInfoTypeForString(sBuilding),0)
-						if sBuilding == 'BUILDING_SHUEN':
-							if Functions.checkUnit(pCity.getX(),pCity.getY(),[[0,0],],gc.getInfoTypeForString('UNIT_SUIKA1_YOUKAI'),gc.getInfoTypeForString('UNIT_SUIKA6_YOUKAI')) == False:
-								pCity.setNumRealBuilding(gc.getInfoTypeForString(sBuilding),0)
-						else:
-							pCity.setNumRealBuilding(gc.getInfoTypeForString(sBuilding),0)
-			
-			#行商のある都市があれば、その都市の人口分の金銭がうどんげを所持する文明に入る
-			if pCity.isHasBuilding(gc.getInfoTypeForString('BUILDING_GYOUSHOU')):
-				#うどんげサーチ
-				flag = False
-				for i in range(19): #文明数のマジックナンバー
-					ppPlayer = gc.getPlayer(i)
-					if ppPlayer.isBarbarian() == False and ppPlayer.isAlive() == True:
-						ppy = PyPlayer(i)
-						for pUnit in ppy.getUnitList():
-							if gc.getInfoTypeForString('UNIT_REISEN0') <= pUnit.getUnitType() and pUnit.getUnitType() <= gc.getInfoTypeForString('UNIT_REISEN6'):
-								ppPlayer.changeGold(pCity.getPopulation() * ppPlayer.getCity(ppy.getCapitalCity().getID()).getTotalCommerceRateModifier(0) / 100)
-								flag = True
-								break
-						if flag:
-							break;
-								
-			#ミスティアコンサートのある都市があれば、全世界のファンクラブの数にあわせて金銭を入手
-			if pCity.isHasBuilding(gc.getInfoTypeForString('BUILDING_MYSTIACONCERT')):
-				#全都市検索
-				iChange = 0
-				for i in range(19):
-					ppPlayer = gc.getPlayer(i)
-					if ppPlayer.isBarbarian() == False and ppPlayer.isAlive() == True:
-						ppy = PyPlayer(i)
-						for ppyCity in ppy.getCityList():
-							ppCity = ppPlayer.getCity(ppyCity.getID())
-							if ppCity.isHasBuilding(gc.getInfoTypeForString('BUILDING_MYSTIA_FANCLUB')):
-								if pCity.getOwner() == ppCity.getOwner():
-									iChange = iChange + 1
-								if ppCity.hasBonus(gc.getInfoTypeForString('BONUS_YOSUZUNOUTA')):
-									iChange = iChange + 1
-				pCity.setBuildingCommerceChange(gc.getInfoTypeForString('BUILDINGCLASS_MYSTIACONCERT'),0,iChange)
-			
-			#ぱちぇの魔道書があれば、時代に応じて産出アップ
-			if pCity.isHasBuilding(gc.getInfoTypeForString('BUILDING_PATCHOULI_BOOK')):
-				iAge = gc.getPlayer(pCity.getOwner()).getCurrentEra()
-				pCity.setBuildingCommerceChange(gc.getInfoTypeForString('BUILDINGCLASS_PATCHOULI_BOOK'),1, (iAge+1) * 2 )
-			
-			#スペルモニュメントがあれば、時代に応じて産出アップ
-			if pCity.isHasBuilding(gc.getInfoTypeForString('BUILDING_SPELL_OBELISK')):
-				iAge = gc.getPlayer(pCity.getOwner()).getCurrentEra()
-				for i in range(3):
-					if pCity.getBuildingYieldChange(gc.getInfoTypeForString('BUILDINGCLASS_SPELL_OBELISK'),i) > 0:
-						if i==0:
-							pCity.setBuildingYieldChange(gc.getInfoTypeForString('BUILDINGCLASS_SPELL_OBELISK'),i,(TohoUnitList.SpellistAIBonusList[(iAge)]+1)/2 )
-						else:
-							pCity.setBuildingYieldChange(gc.getInfoTypeForString('BUILDINGCLASS_SPELL_OBELISK'),i,TohoUnitList.SpellistAIBonusList[iAge] )
-				for i in range(4):
-					if pCity.getBuildingCommerceChange(gc.getInfoTypeForString('BUILDINGCLASS_SPELL_OBELISK'),i) > 0:
-						pCity.setBuildingCommerceChange(gc.getInfoTypeForString('BUILDINGCLASS_SPELL_OBELISK'),i,TohoUnitList.SpellistAIBonusList[iAge] )
-			
-			#花畑があれば成長or枯化
-			if pCity.isHasBuilding(gc.getInfoTypeForString('BUILDING_NIJIIRONOHANABATAKE')):
-				MeirinFlag = False
-				for i in range(pCity.plot().getNumUnits()):
-					if gc.getInfoTypeForString('UNIT_MEIRIN0') <= pCity.plot().getUnit(i).getUnitType() and pCity.plot().getUnit(i).getUnitType() <= gc.getInfoTypeForString('UNIT_MEIRIN6'):
-						MeirinFlag = True
-				if MeirinFlag:
-					pCity.setFlowerGardenTurn( pCity.getFlowerGardenTurn()+1 )
-				else:
-					pCity.setFlowerGardenTurn( pCity.getFlowerGardenTurn()-1 )
-				
-				Growth = 0 #０なら変化無し　１なら成長　－１なら枯化
-				if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_MARATHON'):
-					if pCity.getFlowerGardenTurn() >= 24:
-						Growth = 1
-					if pCity.getFlowerGardenTurn() <= 3:
-						Growth = -1
-				if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_EPIC'):
-					if pCity.getFlowerGardenTurn() >= 22:
-						Growth = 1
-					if pCity.getFlowerGardenTurn() <= 4:
-						Growth = -1
-				if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_NORMAL'):
-					if pCity.getFlowerGardenTurn() >= 20:
-						Growth = 1
-					if pCity.getFlowerGardenTurn() <= 5:
-						Growth = -1
-				if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_QUICK'):
-					if pCity.getFlowerGardenTurn() >= 18:
-						Growth = 1
-					if pCity.getFlowerGardenTurn() <= 6:
-						Growth = -1
-				if gc.getGame().getGameSpeedType() == gc.getInfoTypeForString('GAMESPEED_TENGU'):
-					if pCity.getFlowerGardenTurn() >= 16:
-						Growth = 1
-					if pCity.getFlowerGardenTurn() <= 7:
-						Growth = -1
-				
-				iNumHappy = pCity.getBuildingHappyChange( gc.getInfoTypeForString('BUILDINGCLASS_NIJIIRONOHANABATAKE') )
-				iNumHealth = pCity.getBuildingHealthChange( gc.getInfoTypeForString('BUILDINGCLASS_NIJIIRONOHANABATAKE') )
-				if Growth > 0:
-					pCity.setFlowerGardenTurn(10)
-					if gc.getGame().getSorenRandNum(100, "hanabatake") < 50:
-						pCity.setBuildingHappyChange( gc.getInfoTypeForString('BUILDINGCLASS_NIJIIRONOHANABATAKE') , iNumHappy + 1 )
-					else:
-						pCity.setBuildingHealthChange( gc.getInfoTypeForString('BUILDINGCLASS_NIJIIRONOHANABATAKE') , iNumHealth + 1 )
-				if Growth < 0:
-					pCity.setFlowerGardenTurn(10)
-					if iNumHappy + iNumHealth <= 1 :
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_NIJIIRONOHANABATAKE'),0)
-					else:
-						if iNumHappy >= iNumHealth:
-							pCity.setBuildingHappyChange( gc.getInfoTypeForString('BUILDINGCLASS_NIJIIRONOHANABATAKE') , iNumHappy - 1 )
-						else:
-							pCity.setBuildingHealthChange( gc.getInfoTypeForString('BUILDINGCLASS_NIJIIRONOHANABATAKE') , iNumHealth - 1 )
-						if iNumHappy <= 0 and iNumHealth <= 0 :
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_NIJIIRONOHANABATAKE'),0)
-
+			self.BPTprocessCity(pCity, argsList)
+		
 		##### </written by F> #####
+		
 	def onEndPlayerTurn(self, argsList):
 		'Called at the end of a players turn'
 		iGameTurn, iPlayer = argsList
@@ -1887,87 +2088,6 @@ class CvEventManager:
 			pCity = pPlayer.getCity(pPyCity.getID())
 			pCapital = gc.getPlayer(pCity.getOwner()).getCapitalCity()
 			
-		#鳥居リセット
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_TORII")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_SHINTO')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),0)
-
-		#仏像リセット＆八橋スペル建造物を弱体版に切り替え
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_BUTUZOU")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_BUDDHISM')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUTUZOU'),0)
-					for pPyCity in py.getCityList():
-						pCity = pPlayer.getCity(pPyCity.getID())
-						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SYOGYOU_MUJOU_B")) == True:
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_A'),1)
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_B'),0)
-
-		#仙丹リセッ＆陰陽寮＠出力有りを陰陽寮＠出力無しに切り替え
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SENTAN")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_TAOISM')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SENTAN'),0)
-					for pPyCity in py.getCityList():
-						pCity = pPlayer.getCity(pPyCity.getID())
-						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_ONMYOURYOU1")) == True:
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU2'),1)
-							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU1'),0)
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SENTAN")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SENTAN'),0)
-
-		#ネクロノミコンリセット
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_CTHULHU")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_CTHULHU')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CTHULHU'),0)
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_CTHULHU")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CTHULHU'),0)
-		
-		#弱者の楽園リセット
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_JAKUSYANORAKUEN")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_ECONOMY')) == gc.getInfoTypeForString('CIVIC_JAKUSYANORAKUEN')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_JAKUSYANORAKUEN'),0)
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_JAKUSYANORAKUEN")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_JAKUSYANORAKUEN'),0)
-		
-		#労働志向系建造物リセット
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_TRIBALISM")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_TRIBALISM')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),0)
-			
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SLAVERY_1")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SLAVERY')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),0)
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),0)
-					
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SLAVERY_2")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),0)
-			
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SERFDOM")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SERFDOM')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),0)
-			
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_CASTE_1")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_CASTE_SYSTEM')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),0)
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),0)
-			
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_CASTE_2")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),0)
-			
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_EMANCIPATION")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_EMANCIPATION')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),0)
-			
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_SISHANOOUKOKU")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SISHANOOUKOKU')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),0)
-			
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_HAKUREISIKI")) == True:
-				if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_HAKUREISIKI')) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),0)
-				
-				if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_LABORLIST_HAKUREISIKI")) == False:
-					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),0)
-		
 		#こころちゃんの志向変化で労働志向が無くなった場合の処理
 			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_KOKOROLIST')):
 				if not pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LABORLIST')):
@@ -1984,21 +2104,6 @@ class CvEventManager:
 				if not pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_CENTRALIZATION')):
 					pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CENTRALIZATION'),0)
 		
-		#正邪志向建造物リセット
-			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_SEIJALIST')):
-				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_AMANOJAKU")) == True:
-					if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LEGAL')) == gc.getInfoTypeForString('CIVIC_BARBARISM')) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_AMANOJAKU'),0)
-					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_AMANOJAKU")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_AMANOJAKU'),0)
-
-		#ロリス志向建造物リセット
-			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LOLISELIST')):
-				if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SINDEKURERU")) == True:
-					if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SLAVERY')) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),0)
-					if pCapital.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SINDEKURERU")) == False:
-						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),0)
 		
 		#集権志向ブースト建造物リセット
 			if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_CENTRALIZATION')):
@@ -2053,6 +2158,7 @@ class CvEventManager:
 			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_BYAKUREN_SKILL1')) or
 			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_YOSHIKA_SKILL1')) or
 			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RAIKO_SKILL1')) or
+			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_YORIHIME_SKILL1')) or
 			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MISSING_POWER_EASY')) or
 			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MISSING_POWER_NORMAL')) or
 			pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MISSING_POWER_HARD')) or
@@ -2476,6 +2582,7 @@ class CvEventManager:
 				if gc.getGame().getSorenRandNum(100, "ROKUROKUBI") < 10:
 					if pWinner.getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
 						pPlot.getUnit(i).setHasPromotion(gc.getInfoTypeForString('PROMOTION_FEAR'),True)
+						pPlot.getUnit(i).setNumTurnPromo(pUnit.getNumTurnPromo() +1)
 		
 		#八橋スキルの文化防御減少処理
 		if pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_YATUHASHI_SKILL1')):
@@ -2492,19 +2599,106 @@ class CvEventManager:
 				pPlayer = gc.getPlayer(pWinner.getOwner())
 				pPlayer.changeGoldenAgeTurns(+1)
 		
+		#「眷属化」持ちが敵を撃破した時、確率で「深きものども」発生
+		if pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_INCLUSION')):
+			if pLoser.getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+				iPlayer = pWinner.getOwner()
+				pPlayer = gc.getPlayer(iPlayer)
+				iX = pWinner.getX()
+				iY = pWinner.getY()
+				if gc.getGame().getSorenRandNum(100, "Deepone Inclusion") < 20:
+					if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_ANCIENT'):
+						newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_DEEPONE'), iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+						newUnit.setSpecialNumber(3)
+						newUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+						newUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),False )
+						newUnit.finishMoves()
+					if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_CLASSICAL'):
+						newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_DEEPONE'), iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+						newUnit.setSpecialNumber(5)
+						newUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+						newUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),False )
+						newUnit.finishMoves()
+					if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_MEDIEVAL'):
+						newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_DEEPONE'), iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+						newUnit.setSpecialNumber(7)
+						newUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+						newUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),False )
+						newUnit.finishMoves()
+					if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_RENAISSANCE'):
+						newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_DEEPONE'), iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+						newUnit.setSpecialNumber(8)
+						newUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+						newUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),False )
+						newUnit.finishMoves()
+					if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_INDUSTRIAL'):
+						newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_DEEPONE'), iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+						newUnit.setSpecialNumber(13)
+						newUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+						newUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),False )
+						newUnit.finishMoves()
+					if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_MODERN'):
+						newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_DEEPONE'), iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+						newUnit.setSpecialNumber(17)
+						newUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+						newUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),False )
+						newUnit.finishMoves()
+					if pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_FUTURE'):
+						newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_DEEPONE'), iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+						newUnit.setSpecialNumber(23)
+						newUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),True )
+						newUnit.setHasPromotion( gc.getInfoTypeForString('PROMOTION_SPELL_CASTED'),False )
+						newUnit.finishMoves()
+		
+		#どれみスキルを持っている場合、味方ユニットに夢オチ付与
+		if pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_DOREMY_SKILL1')):
+			pPlot = gc.getMap().plot(pWinner.getX(),pWinner.getY())
+			for i in range(pPlot.getNumUnits()):
+				if gc.getGame().getSorenRandNum(100, "Yumeoti") < 10:
+					if pPlot.getUnit(i).getUnitCombatType() != gc.getInfoTypeForString("UNITCOMBAT_STANDBY") and pPlot.getUnit(i).getUnitCombatType() != gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+						pPlot.getUnit(i).setHasPromotion(gc.getInfoTypeForString('PROMOTION_DOREMY_YUMEOTI'),True)
+		
+		#サグメスキルを持っている場合、サグメのUG段階に応じて探知型機雷発生
+		if pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SAGUME_SKILL1')):
+			iPlayer = pWinner.getOwner()
+			pPlayer = gc.getPlayer(iPlayer)
+			iX = pWinner.getX()
+			iY = pWinner.getY()
+			if gc.getGame().getSorenRandNum(100, "Tantigata kirai") < 15:
+				if pWinner.getUnitType() == gc.getInfoTypeForString('UNIT_SAGUME1') or \
+				pWinner.getUnitType() == gc.getInfoTypeForString('UNIT_SAGUME2'):
+					newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_TANTIGATA_KIRAI_2'), iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+				
+				if pWinner.getUnitType() == gc.getInfoTypeForString('UNIT_SAGUME3') or \
+				pWinner.getUnitType() == gc.getInfoTypeForString('UNIT_SAGUME4'):
+					newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_TANTIGATA_KIRAI_3'), iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+				
+				if pWinner.getUnitType() == gc.getInfoTypeForString('UNIT_SAGUME5') or \
+				pWinner.getUnitType() == gc.getInfoTypeForString('UNIT_SAGUME6'):
+					newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_TANTIGATA_KIRAI_4'), iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+		
+		#戦闘勝利時Power回復
+		#以後このPower回復は基本的に一部東方ユニットのキャラクタースキルもしくは特性で
+		if pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SAGUME_SKILL1')) or \
+		pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_PATCHOULI_SKILL1')) or \
+		pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_MARISA_SKILL1')) or \
+		pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_BYAKUREN_SKILL1')):
+			pWinner.setPower(pWinner.getPower() + 0.03)
+		
+		
 		#統合MOD追記部分ここまで
 		
 		#それぞれのユニットによるPower回復を計算
-		WinnerTohoUnitList = Functions.searchTeamTohoUnit(pWinner.plot(),pWinner)
-		for i in range(len(WinnerTohoUnitList)):
-			WinnerTohoUnitList[i].setPower( WinnerTohoUnitList[i].getPower() + (0.01 / len(WinnerTohoUnitList)) )
-		
-		LoserTohoUnitList = Functions.searchTeamTohoUnit(pLoser.plot(),pLoser)
-		for i in range(len(LoserTohoUnitList)):
-			LoserTohoUnitList[i].setPower( LoserTohoUnitList[i].getPower() + (0.003 / len(LoserTohoUnitList)) )
-		
-		if pWinner.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
-			pWinner.setPower(pWinner.getPower() + 0.03)
+		#WinnerTohoUnitList = Functions.searchTeamTohoUnit(pWinner.plot(),pWinner)
+		#for i in range(len(WinnerTohoUnitList)):
+		#	WinnerTohoUnitList[i].setPower( WinnerTohoUnitList[i].getPower() + (0.01 / len(WinnerTohoUnitList)) )
+		#
+		#LoserTohoUnitList = Functions.searchTeamTohoUnit(pLoser.plot(),pLoser)
+		#for i in range(len(LoserTohoUnitList)):
+		#	LoserTohoUnitList[i].setPower( LoserTohoUnitList[i].getPower() + (0.003 / len(LoserTohoUnitList)) )
+		#
+		#if pWinner.getUnitCombatType() == gc.getInfoTypeForString('UNITCOMBAT_BOSS'):
+		#	pWinner.setPower(pWinner.getPower() + 0.03)
 
 		
 		##### </written by F> #####
@@ -2550,9 +2744,87 @@ class CvEventManager:
 				CyInterface().addCombatMessage(cdAttacker.eOwner,combatMessage)
 				CyInterface().addCombatMessage(cdDefender.eOwner,combatMessage)
 
+#統合MOD追記部分
+# BULL events
+	def onCombatWithdrawal(self, argsList):
+		"""Fired when a unit withdraws from combat after doing maximum damage."""
+		pAttacker, pDefender = argsList
+		
+		#「穢身探知型機雷」が敵を撃破（厳密にいうと勝利退却）した時、自身も消滅
+		if ( pAttacker.getUnitType() == gc.getInfoTypeForString('UNIT_TANTIGATA_KIRAI_1') or
+			pAttacker.getUnitType() == gc.getInfoTypeForString('UNIT_TANTIGATA_KIRAI_2') or
+			pAttacker.getUnitType() == gc.getInfoTypeForString('UNIT_TANTIGATA_KIRAI_3') or
+			pAttacker.getUnitType() == gc.getInfoTypeForString('UNIT_TANTIGATA_KIRAI_4') ):
+			pAttacker.changeDamage(100,pAttacker.getOwner())
+		
+		#BugUtil.debug("%s withdraws from %s", 
+		#		pAttacker.getName(), pDefender.getName())
+	
+	def onCombatRetreat(self, argsList):
+		"""Fired when a unit retreats from combat, escaping death."""
+		pAttacker, pDefender = argsList
+		
+		#BugUtil.debug("%s retreats from %s", 
+		#		pAttacker.getName(), pDefender.getName())
+	
+	def onCombatLogCollateral(self, argsList):
+		"""Fired when a unit inflicts collateral damage to another unit."""
+		#注釈：Collateralとは言うけど実際はカノン砲等攻城兵器による副次ではなく
+		#爆撃機などで与える副次で動作する模様。実験で確認
+		pAttacker, pDefender, iDamage = argsList
+		
+		#BugUtil.debug("%s bombards %s for %d HP", 
+		#		pAttacker.getName(), pDefender.getName(), iDamage)
+	
+	def onCombatLogFlanking(self, argsList):
+		"""Fired when a unit inflicts flanking damage to another unit."""
+		pAttacker, pDefender, iDamage = argsList
+		
+		#BugUtil.debug("%s flanks %s for %d HP", 
+		#		pAttacker.getName(), pDefender.getName(), iDamage)
+
+#統合MOD追記部分ここまで
+
 	def onImprovementBuilt(self, argsList):
 		'Improvement Built'
 		iImprovement, iX, iY = argsList
+		
+		#東方叙事詩・統合MOD追記
+		#月の都テラフォーミング処理
+		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_PLAIN_COMPLETE')):
+			pPlot = CyMap().plot(iX, iY)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_PLAINS'),True,True)
+			pPlot.setImprovementType(-1)
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_PLAIN_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/plains.dds',ColorTypes(8),iX,iY,True,True)
+		
+		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_GRASS_COMPLETE')):
+			pPlot = CyMap().plot(iX, iY)
+			pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_GRASS'),True,True)
+			pPlot.setImprovementType(-1)
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_GRASS_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(8),iX,iY,True,True)
+		
+		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_HILL_COMPLETE')):
+			pPlot = CyMap().plot(iX, iY)
+			pPlot.setPlotType(PlotTypes.PLOT_HILLS,True,True)
+			pPlot.setImprovementType(-1)
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_HILL_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/hill.dds',ColorTypes(8),iX,iY,True,True)
+		
+		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FLATLAND_COMPLETE')):
+			pPlot = CyMap().plot(iX, iY)
+			pPlot.setPlotType(PlotTypes.PLOT_LAND,True,True)
+			pPlot.setImprovementType(-1)
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_FLATLAND_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/baseterrain/grassland.dds',ColorTypes(8),iX,iY,True,True)
+		
+		if(iImprovement==gc.getInfoTypeForString('IMPROVEMENT_TERRAFORM_FOREST_COMPLETE')):
+			pPlot = CyMap().plot(iX, iY)
+			pPlot.setFeatureType(gc.getInfoTypeForString('FEATURE_REGENERATION_FOREST'), 1)
+			pPlot.setImprovementType(-1)
+			CyInterface().addMessage(CyGame().getActivePlayer(),True,25,CyTranslator().getText("TXT_KEY_TERRAFORMING_COMPLETED_FOREST_ANNOUNCE",()),'AS2D_DISCOVERBONUS',1,'Art/Interface/Buttons/terrainfeatures/forest.dds',ColorTypes(8),iX,iY,True,True)
+		
+		
+		
+		#東方叙事詩・統合MOD追記ここまで
+		
 		if (not self.__LOG_IMPROVEMENT):
 			return
 		CvUtil.pyPrint('Improvement %s was built at %d, %d'
@@ -2734,11 +3006,43 @@ class CvEventManager:
 					ppCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SUPERMARKET'),0)
 		
 		#もしも弁々がストーンヘンジを建設した場合、特殊ストーンヘンジに自動変換
-		if pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_BENBENLIST")):
-			if iBuildingType == gc.getInfoTypeForString('BUILDING_STONEHENGE'):
-				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_STONEHENGE'),0)
-				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BENBEN_STONEHENGE'),1)
+		#if pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_BENBENLIST")):
+		#	if iBuildingType == gc.getInfoTypeForString('BUILDING_STONEHENGE'):
+		#		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_STONEHENGE'),0)
+		#		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BENBEN_STONEHENGE'),1)
 		
+		#月読神社を建設した都市の周囲2マス圏内に農場および保安林があったら変換させる
+		if iBuildingType == gc.getInfoTypeForString('BUILDING_TSUKUYOMI_SHRINE'):
+			pTeam = gc.getTeam(pPlayer.getTeam())
+			# 範囲の定義
+			RangeListCity2 = [        [-1,-2],[ 0,-2],[ 1,-2],
+							  [-2,-1],[-1,-1],[ 0,-1],[ 1,-1],[ 2,-1],
+							  [-2, 0],[-1, 0],        [ 1, 0],[ 2, 0],
+							  [-2, 1],[-1, 1],[ 0, 1],[ 1, 1],[ 2, 1],
+							          [-1, 2],[ 0, 2],[ 1, 2],        ]
+			# 都市(pCity)を中心としてRangeListCity2のはんいになんかする
+			for sq in RangeListCity2:
+				iX = pCity.getX() + sq[0]
+				iY = pCity.getY() + sq[1]
+				if Functions.isPlot(iX,iY):
+					pPlot = gc.getMap().plot(iX,iY)
+					if pPlayer.getTeam() == pPlot.getTeam():
+						if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_FARM'):
+							pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_MARS_FARM'))
+						if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_FOREST_PRESERVE'):
+							pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_MOONBASE'))
+			#iX = pCity.getX()
+			#iY = pCity.getY()
+			#for iiX in range(iX-2,iX+3):
+			#	for iiY in range(iY-2,iY+3):
+			#		if Functions.isPlot(iiX,iiY):
+			#			pPlot = gc.getMap().plot(iiX,iiY)
+			#			if pPlayer.getTeam() == pPlot.getTeam():
+			#				if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_FARM'):
+			#					pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_MARS_FARM'))
+			#				if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVEMENT_FOREST_PRESERVE'):
+			#					pPlot.setImprovementType(gc.getInfoTypeForString('IMPROVEMENT_MOONBASE'))
+	
 		#統合MOD追記部分ここまで
 
 		CvAdvisorUtils.buildingBuiltFeats(pCity, iBuildingType)
@@ -3073,6 +3377,12 @@ class CvEventManager:
 				newUnit = pPlayer.initUnit(unit.getUnitType(), city.getX(), city.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 				newUnit.changeExperience(unit.getExperience(),-1,False,False,False)
 		
+		#防衛志向で機関銃兵を作ると都市駐留1・教練1がつく
+		if pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_PROTECTIVE")):
+			if unit.getUnitClassType() == gc.getInfoTypeForString('UNITCLASS_MACHINE_GUN'):
+				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_CITY_GARRISON1'),True)
+				unit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DRILL1'),True)
+		
 		CvAdvisorUtils.unitBuiltFeats(city, unit)
 
 		if (not self.__LOG_UNITBUILD):
@@ -3164,7 +3474,15 @@ class CvEventManager:
 				newUnit1.changeDamage(99,iPlayer)
 				newUnit1.setHasPromotion(gc.getInfoTypeForString('PROMOTION_REKISHI1'),False)
 			
-			
+		#夢オチを持っている場合、体力50％の状態で復活
+		elif unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_DOREMY_YUMEOTI')):
+			if gc.getGame().getSorenRandNum(100, "Yumeoti Hukkatu") < 25:
+				newUnit1 = pPlayer.initUnit(iUnit, unit.getX(), unit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+				Functions.RevivalUnit(newUnit1,unit)
+				iPlayer = unit.getOwner()
+				newUnit1.changeDamage(50,iPlayer)
+				newUnit1.setHasPromotion(gc.getInfoTypeForString('PROMOTION_DOREMY_YUMEOTI'),False)
+		
 			
 		#復活の昇進をもっていればその場で復活　さらに行動可能
 		elif unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_REVIVAL')):
@@ -3293,6 +3611,10 @@ class CvEventManager:
 				#てんこスキルがあれば100%カット
 				if unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_TENSHI_SKILL1')):
 					iExpHosei = iExpHosei - 100
+				
+				#どれみスキルがあれば100%カット
+				if unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_DOREMY_SKILL1')):
+					iExpHosei = iExpHosei - 100
 					
 				if iExpHosei < 0:
 					iExpHosei = 0
@@ -3309,15 +3631,18 @@ class CvEventManager:
 				#復活直後のユニットにはディレイ昇進をつける
 				if pPlayer.isHuman():
 					newUnit1.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_4'),True)
+					newUnit1.setNumTurnPromo(pUnit.getNumTurnPromo() +1)
 				elif  pPlayer.isHuman() == False and gc.getGame().isOption(gc.getInfoTypeForString('GAMEOPTION_STRONG_AI')):
 					newUnit1.setHasPromotion(gc.getInfoTypeForString(TohoUnitList.RevivalPromoList[Functions.getHandicap()]),True)
+					newUnit1.setNumTurnPromo(pUnit.getNumTurnPromo() +1)
 				else:
 					newUnit1.setHasPromotion(gc.getInfoTypeForString('PROMOTION_RETURN_DELAY1_5'),True)
+					newUnit1.setNumTurnPromo(pUnit.getNumTurnPromo() +1)
 				
 				#スキルを持っていたら持ち越し＆レベル＋１
 				#統合MOD追記：基本的に引き継ぎはAI時のみ
 				#ただし「生産直後からユニットスキル所有の固有志向」持ちが自身の東方ユニットを出している場合は、限定的にプレイヤー時でも引き継ぎ可
-				iNumSkill = gc.getInfoTypeForString('PROMOTION_RAIKO_SKILL1') - gc.getInfoTypeForString('PROMOTION_SANAE_SKILL1') + 1
+				iNumSkill = gc.getInfoTypeForString('PROMOTION_SAGUME_SKILL1') - gc.getInfoTypeForString('PROMOTION_SANAE_SKILL1') + 1
 				if pPlayer.isHuman() == False:
 					for i in range(iNumSkill):
 						if unit.isHasPromotion(gc.getInfoTypeForString('PROMOTION_SANAE_SKILL1') + i):
@@ -3413,6 +3738,19 @@ class CvEventManager:
 		CvUtil.pyPrint('%s was lost by Player %d Civilization %s'
 			%(PyInfo.UnitInfo(unit.getUnitType()).getDescription(), player.getID(), player.getCivilizationName()))
 
+	#東方叙事詩・統合MOD追記
+	#onDelayedDeathの処理
+	#埋め立て・海洋化の処理をspellinfo.pyのみでやるのは色々と不安定化する可能性があるため、地形処理のみこちらに投げる
+	def onDelayedDeath(self, argsList):
+		x, y = argsList
+		CvGameUtils.doprint("onDelayedDeath: (%d, %d)" %(x,y))
+		if Functions.isPlot(x,y):
+			pPlot = CyMap().plot(x, y)
+			if pPlot.getOriginalTerrain() == 512:
+				pPlot.setTerrainType(gc.getInfoTypeForString("TERRAIN_PLAINS"),True,True)
+			if pPlot.getOriginalTerrain() == 513:
+				pPlot.setPlotType(PlotTypes.PLOT_OCEAN,True,True)
+		
 	def onUnitPromoted(self, argsList):
 		'Unit Promoted'
 		pUnit, iPromotion = argsList
@@ -3541,9 +3879,6 @@ class CvEventManager:
 					for pcity in CityList:
 						if pcity.isCapital():
 							city = pcity
-					#冠位十二階取得後から追加の偉人
-					if eTeam.isHasTech(gc.getInfoTypeForString('TECH_KANIZYUUNIKAI')) == True:
-						newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_SHINREI'), city.getX(), city.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 					#十七条憲法採用時に更に追加の神霊を
 					if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_GOVERNMENT')) == gc.getInfoTypeForString('CIVIC_ZYUUSHICHIZYO_KENPOU')) == True:
 						newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_SHINREI'), city.getX(), city.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
@@ -3558,9 +3893,6 @@ class CvEventManager:
 					for pcity in CityList:
 						if pcity.isCapital():
 							city = pcity
-					#冠位十二階取得後から追加の偉人
-					if eTeam.isHasTech(gc.getInfoTypeForString('TECH_KANIZYUUNIKAI')) == True:
-						newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_SHINREI'), city.getX(), city.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 					#十七条憲法採用時に更に追加の神霊を
 					if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_GOVERNMENT')) == gc.getInfoTypeForString('CIVIC_ZYUUSHICHIZYO_KENPOU')) == True:
 						newUnit = pPlayer.initUnit(gc.getInfoTypeForString('UNIT_SHINREI'), city.getX(), city.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
@@ -4030,6 +4362,111 @@ class CvEventManager:
 		'Player Trades gold to another player'
 		iFromPlayer, iToPlayer, iGoldAmount = argsList
 
+#統合MOD追記部分
+# BULL events
+#社会制度系の追加建造物等は以後全部こちらに移植
+	def onPlayerRevolution(self, argsList):
+		ePlayer, iAnarchyTurns, leOldCivics, leNewCivics = argsList
+		civics = []
+		py = PyPlayer(ePlayer)
+		pPlayer = gc.getPlayer(ePlayer)
+		
+		for eOldCivic, eNewCivic in zip(leOldCivics, leNewCivics):
+			if eOldCivic != eNewCivic:
+				for pPyCity in py.getCityList():
+					pCity = pPlayer.getCity(pPyCity.getID())
+					pCapital = gc.getPlayer(pCity.getOwner()).getCapitalCity()
+					#信仰関連追加
+					if eNewCivic == gc.getInfoTypeForString('CIVIC_FAITH_SHINTO'):
+						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),1)
+					if eNewCivic == gc.getInfoTypeForString('CIVIC_FAITH_BUDDHISM'):
+						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUTUZOU'),1)
+						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SYOGYOU_MUJOU_A")) == True:
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_A'),0)
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_B'),1)
+					if eNewCivic == gc.getInfoTypeForString('CIVIC_FAITH_TAOISM'):
+						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SENTAN'),1)
+						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_ONMYOURYOU2")) == True:
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU1'),1)
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU2'),0)
+					if eNewCivic == gc.getInfoTypeForString('CIVIC_FAITH_CTHULHU'):
+						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CTHULHU'),1)
+					#信仰関連リセット
+					if eOldCivic == gc.getInfoTypeForString('CIVIC_FAITH_SHINTO'):
+						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),0)
+					if eOldCivic == gc.getInfoTypeForString('CIVIC_FAITH_BUDDHISM'):
+						pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUTUZOU'),0)
+						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_SYOGYOU_MUJOU_B")) == True:
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_A'),1)
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SYOGYOU_MUJOU_B'),0)
+					if eOldCivic == gc.getInfoTypeForString('CIVIC_FAITH_TAOISM'):
+						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SENTAN'),0)
+						if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_ONMYOURYOU1")) == True:
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU1'),0)
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU2'),1)
+					if eOldCivic == gc.getInfoTypeForString('CIVIC_FAITH_CTHULHU'):
+						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CTHULHU'),0)
+					#労働志向判定
+					if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LABORLIST')):
+					#労働志向関連追加
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_TRIBALISM'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),1)
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_SLAVERY'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),1)
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),1)
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_SERFDOM'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),1)
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_CASTE_SYSTEM'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),1)
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),1)
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_EMANCIPATION'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),1)
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_SISHANOOUKOKU'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),1)
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_HAKUREISIKI'):
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),1)
+					#労働志向関連リセット
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_TRIBALISM'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),0)
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_SLAVERY'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),0)
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),0)
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_SERFDOM'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),0)
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_CASTE_SYSTEM'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),0)
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),0)
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_EMANCIPATION'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),0)
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_SISHANOOUKOKU'):
+							pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),0)
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_HAKUREISIKI'):
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),0)
+					#その他
+					#弱者の楽園
+					if eNewCivic == gc.getInfoTypeForString('CIVIC_JAKUSYANORAKUEN'):
+						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_JAKUSYANORAKUEN'),1)
+					if eOldCivic == gc.getInfoTypeForString('CIVIC_JAKUSYANORAKUEN'):
+						pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_JAKUSYANORAKUEN'),0)
+					#指導者正邪が中世以降に無秩序を採用した場合
+					if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_SEIJALIST')):
+						if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_ANCIENT'):
+							if pPlayer.getCurrentEra() != gc.getInfoTypeForString('ERA_CLASSICAL'):
+								if eNewCivic == gc.getInfoTypeForString('CIVIC_BARBARISM'):
+									pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_AMANOJAKU'),1)
+								if eOldCivic == gc.getInfoTypeForString('CIVIC_BARBARISM'):
+									pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_AMANOJAKU'),0)
+					#指導者ロリスが奴隷制を採用した場合、首都に死んでくれる？設置
+					if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LOLISELIST')):
+						if eNewCivic == gc.getInfoTypeForString('CIVIC_SLAVERY'):
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),1)
+						if eOldCivic == gc.getInfoTypeForString('CIVIC_SLAVERY'):
+							pCapital.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),0)
+				civics.append(gc.getCivicInfo(eNewCivic).getDescription())
+		#BugUtil.debug("Revolution for %s, %d turns: %s", gc.getPlayer(ePlayer).getName(), iAnarchyTurns, ", ".join(civics))
+
+#統合MOD追記部分ここまで
+
 	def onCityBuilt(self, argsList):
 		'City Built'
 		city = argsList[0]
@@ -4161,16 +4598,40 @@ class CvEventManager:
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_THISWOMAN'),1)
 		
 		#うわばみ志向の国酒無償ボーナス
-		pPlayer = gc.getPlayer(city.getOwner())
 		if pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_ALCHOL")):
 			iStateReligion = pPlayer.getStateReligion()
 			if iStateReligion > -1:
 				city.setHasReligion(iStateReligion,True,True,True)
 		
+		#拡張志向は古典時代以降で人口2スタート
+		if pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_EXPANSIVE")):
+			if not pPlayer.getCurrentEra() == gc.getInfoTypeForString('ERA_ANCIENT'):
+				city.changePopulation(1)
+		
 		#集権志向の処理
 		if pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_CENTRALIZATION")):
 			if city.isCapital():
 				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_CENTRALIZATION'),1)
+		#神道を採用している場合、都市に鳥居自動建設
+		if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_SHINTO')) == True:
+			city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),1)
+		#仏教を採用している場合、都市に仏像自動建設
+		if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_BUDDHISM')) == True:
+			city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUTUZOU'),1)
+		#労働志向を持っているかどうか
+		if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_LABORLIST')):
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_TRIBALISM')) == True:
+				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),1)
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SLAVERY')) == True:
+				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),1)
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SERFDOM')) == True:
+				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),1)
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_CASTE_SYSTEM')) == True:
+				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),1)
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_EMANCIPATION')) == True:
+				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),1)
+			if (pPlayer.getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SISHANOOUKOKU')) == True:
+				city.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),1)
 		
 		#統合MOD追記部分ここまで
 		
@@ -4301,16 +4762,63 @@ class CvEventManager:
 				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SUPERMARKET'),1)
 				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_KISHINJOU_AMERICAN_MALL'),0)
 		
+		#社会制度系建造物を一旦リセット
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUTUZOU'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SENTAN'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_2'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_2'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_HAKUREISIKI'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_JAKUSYANORAKUEN'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_AMANOJAKU'),0)
+		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_SINDEKURERU'),0)
+		
 		#弁々がヘンジ付き都市を占領した場合は特殊ヘンジに変換
-		if gc.getPlayer(pCity.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_BENBENLIST')):
-			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_STONEHENGE")):
-				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_STONEHENGE'),0)
-				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BENBEN_STONEHENGE'),1)
+		#if gc.getPlayer(pCity.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_BENBENLIST')):
+		#	if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_STONEHENGE")):
+		#		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_STONEHENGE'),0)
+		#		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BENBEN_STONEHENGE'),1)
 		#逆に弁々以外が特殊ヘンジ都市を占領した場合はノーマルヘンジに変換
-		if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_BENBEN_STONEHENGE")):
-			if not gc.getPlayer(pCity.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_BENBENLIST')):
-				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BENBEN_STONEHENGE'),0)
-				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_STONEHENGE'),1)
+		#if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_BENBEN_STONEHENGE")):
+		#	if not gc.getPlayer(pCity.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_BENBENLIST')):
+		#		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BENBEN_STONEHENGE'),0)
+		#		pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_STONEHENGE'),1)
+		
+		#神道を採用している場合、都市に鳥居自動建設
+		if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_SHINTO')) == True:
+			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_TORII'),1)
+		#仏教を採用している場合、都市に仏像自動建設
+		if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_BUDDHISM')) == True:
+			pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_BUTUZOU'),1)
+		#道教を採用している場合、陰陽寮を相互変換
+		if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_FAITH')) == gc.getInfoTypeForString('CIVIC_FAITH_TAOISM')) == True:
+			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_ONMYOURYOU2")):
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU1'),1)
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU2'),0)
+		else:
+			if pCity.getNumActiveBuilding(gc.getInfoTypeForString("BUILDING_ONMYOURYOU1")):
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU1'),0)
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_ONMYOURYOU2'),1)
+		#労働志向を持っているかどうか
+		if gc.getPlayer(pCity.getOwner()).hasTrait(gc.getInfoTypeForString('TRAIT_LABORLIST')):
+			if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_TRIBALISM')) == True:
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_TRIBALISM'),1)
+			if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SLAVERY')) == True:
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SLAVERY_1'),1)
+			if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SERFDOM')) == True:
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SERFDOM'),1)
+			if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_CASTE_SYSTEM')) == True:
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_CASTE_1'),1)
+			if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_EMANCIPATION')) == True:
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_EMANCIPATION'),1)
+			if (gc.getPlayer(pCity.getOwner()).getCivics(gc.getInfoTypeForString('CIVICOPTION_LABOR')) == gc.getInfoTypeForString('CIVIC_SISHANOOUKOKU')) == True:
+				pCity.setNumRealBuilding(gc.getInfoTypeForString('BUILDING_LABORLIST_SISHANOOUKOKU'),1)
 		
 		#統合MOD追記部分ここまで
 		
